@@ -23,9 +23,9 @@ Updated: 2026-06-28
 | 🏷️ | [Tag Legend](#tag-legend) | Tags used to group embodied AI directions |
 | 🧭 | [Overall View](#overall-view) | High-level system route and field framing |
 | 🗺️ | [Direction Overview](#direction-overview) | Six-track overview with paper counts |
-| 📚 | [Detailed Tables](#detailed-tables) | Paper-level tables by direction and subdirection |
 | 🔎 | [Reading Order](#reading-order) | Suggested priority list for deeper reading |
 | 🧾 | [Data Sources](#data-sources) | Source traceability and reference metadata |
+| 📚 | [Detailed Tables](#detailed-tables) | Paper-level tables by direction and subdirection |
 
 > [!NOTE]
 > Entries are scoped to reviewed public sources, including CCF-A venues and robotics flagship conferences such as ICRA/IROS.
@@ -113,6 +113,71 @@ The reason is straightforward: monolithic VLA models matter, but real robots als
 <td nowrap>quantization/cache/tokenization, real-time execution, benchmark/dataset, sim2real, safety evaluation</td>
 <td nowrap>95</td>
 <td nowrap>This direction determines whether systems can actually be deployed: on-device inference, caching/quantization/action tokenization, real-time execution, sim2real, benchmarks, and safety evaluation are all necessary conditions.</td>
+</tr>
+</tbody>
+</table>
+
+## Reading Order
+
+1. Start with VLN and Agentic Planning to separate large-scale planning from fine-grained task planning.
+2. Then read VLA and WAM to distinguish direct action generation from imagination/prediction before execution.
+3. Finish with embodiment expansion, efficiency, and evaluation because they determine whether a route can be deployed on real robots.
+
+## Data Sources
+
+GitHub source repository metadata and README snapshots are recorded in [`sources/github/repos.json`](sources/github/repos.json); historical source IDs are kept there for traceability.
+
+<table>
+<thead>
+<tr>
+<th nowrap>Source</th>
+<th nowrap>Use</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td nowrap><a href="https://ccf.atom.im/">CCF 2026 Recommended List</a></td>
+<td nowrap>Verify the 2026 CCF-A artificial intelligence conference classification.</td>
+</tr>
+<tr>
+<td nowrap><a href="https://github.com/Songwxuan/Embodied-AI-Paper-TopConf">Songwxuan/Embodied-AI-Paper-TopConf</a></td>
+<td nowrap>Main source for CCF-A papers, classified by conference and direction; paper, code, and project-page links preferentially use resources already provided in that repository.</td>
+</tr>
+<tr>
+<td nowrap><a href="https://openreview.net/group?id=ICLR.cc/2026/Conference">ICLR 2026 OpenReview</a></td>
+<td nowrap>Verify ICLR 2026 public paper pages and PDF resources.</td>
+</tr>
+<tr>
+<td nowrap><a href="https://ojs.aaai.org/index.php/AAAI/issue/view/703">AAAI-26 Intelligent Robotics proceedings</a></td>
+<td nowrap>Verify and add AAAI 2026 robotics-track papers.</td>
+</tr>
+<tr>
+<td nowrap><a href="https://ras.papercept.net/conferences/scripts/start.pl">IEEE RAS PaperCept programs</a></td>
+<td nowrap>Verify ICRA 2026 and IROS 2025 official program entries; ICRA 2025 PaperCept returned access denied in this environment.</td>
+</tr>
+<tr>
+<td nowrap><a href="https://arxiv.org/">arXiv and author project pages for ICRA/IROS papers</a></td>
+<td nowrap>Cross-check ICRA 2025 and IROS 2026 papers when official proceedings or full paper lists are not yet publicly stable.</td>
+</tr>
+<tr>
+<td nowrap><a href="https://github.com/jonyzhang2023/awesome-embodied-vla-va-vln">jonyzhang2023/awesome-embodied-vla-va-vln</a></td>
+<td nowrap>Reference the organization of VLA, WAM, VLN, VA, and surveys.</td>
+</tr>
+<tr>
+<td nowrap><a href="https://github.com/OpenMOSS/Awesome-WAM">OpenMOSS/Awesome-WAM</a></td>
+<td nowrap>Reference WAM categories such as cascaded/joint, autoregressive/diffusion, and evaluation/training data.</td>
+</tr>
+<tr>
+<td nowrap><a href="https://github.com/UCSB-AI/awesome-vision-language-navigation">UCSB-AI/awesome-vision-language-navigation</a></td>
+<td nowrap>Reference VLN categories such as dataset, evaluation, representation, action strategy, planning, and asking for help.</td>
+</tr>
+<tr>
+<td nowrap><a href="https://github.com/DelinQu/awesome-vision-language-action-model">DelinQu/awesome-vision-language-action-model</a></td>
+<td nowrap>Reference the VLA milestone timeline.</td>
+</tr>
+<tr>
+<td nowrap><a href="https://github.com/yueen-ma/Awesome-VLA">yueen-ma/Awesome-VLA</a></td>
+<td nowrap>Reference VLA categories such as components, world models, reasoning, policy steering, and low-level/high-level planners.</td>
 </tr>
 </tbody>
 </table>
@@ -11076,12 +11141,6 @@ Total: 12 papers.
 </table>
 
 
-## Reading Order
-
-1. Start with VLN and Agentic Planning to separate large-scale planning from fine-grained task planning.
-2. Then read VLA and WAM to distinguish direct action generation from imagination/prediction before execution.
-3. Finish with embodiment expansion, efficiency, and evaluation because they determine whether a route can be deployed on real robots.
-
 ## Additional Source Entries
 
 The following entries come from archived README snapshots and are not merged into the direction main tables; they are kept for tracking WAM data sources and RL-VLA method leads.
@@ -11161,65 +11220,6 @@ The following entries come from archived README snapshots and are not merged int
 <td nowrap>2026.04</td>
 <td nowrap><a href="https://arxiv.org/abs/2604.19730">paper</a></td>
 <td nowrap>Test-time action optimization signal, suitable for tracking execution-time VLA optimization.</td>
-</tr>
-</tbody>
-</table>
-
-## Data Sources
-
-GitHub source repository metadata and README snapshots are recorded in [`sources/github/repos.json`](sources/github/repos.json); historical source IDs are kept there for traceability.
-
-<table>
-<thead>
-<tr>
-<th nowrap>Source</th>
-<th nowrap>Use</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td nowrap><a href="https://ccf.atom.im/">CCF 2026 Recommended List</a></td>
-<td nowrap>Verify the 2026 CCF-A artificial intelligence conference classification.</td>
-</tr>
-<tr>
-<td nowrap><a href="https://github.com/Songwxuan/Embodied-AI-Paper-TopConf">Songwxuan/Embodied-AI-Paper-TopConf</a></td>
-<td nowrap>Main source for CCF-A papers, classified by conference and direction; paper, code, and project-page links preferentially use resources already provided in that repository.</td>
-</tr>
-<tr>
-<td nowrap><a href="https://openreview.net/group?id=ICLR.cc/2026/Conference">ICLR 2026 OpenReview</a></td>
-<td nowrap>Verify ICLR 2026 public paper pages and PDF resources.</td>
-</tr>
-<tr>
-<td nowrap><a href="https://ojs.aaai.org/index.php/AAAI/issue/view/703">AAAI-26 Intelligent Robotics proceedings</a></td>
-<td nowrap>Verify and add AAAI 2026 robotics-track papers.</td>
-</tr>
-<tr>
-<td nowrap><a href="https://ras.papercept.net/conferences/scripts/start.pl">IEEE RAS PaperCept programs</a></td>
-<td nowrap>Verify ICRA 2026 and IROS 2025 official program entries; ICRA 2025 PaperCept returned access denied in this environment.</td>
-</tr>
-<tr>
-<td nowrap><a href="https://arxiv.org/">arXiv and author project pages for ICRA/IROS papers</a></td>
-<td nowrap>Cross-check ICRA 2025 and IROS 2026 papers when official proceedings or full paper lists are not yet publicly stable.</td>
-</tr>
-<tr>
-<td nowrap><a href="https://github.com/jonyzhang2023/awesome-embodied-vla-va-vln">jonyzhang2023/awesome-embodied-vla-va-vln</a></td>
-<td nowrap>Reference the organization of VLA, WAM, VLN, VA, and surveys.</td>
-</tr>
-<tr>
-<td nowrap><a href="https://github.com/OpenMOSS/Awesome-WAM">OpenMOSS/Awesome-WAM</a></td>
-<td nowrap>Reference WAM categories such as cascaded/joint, autoregressive/diffusion, and evaluation/training data.</td>
-</tr>
-<tr>
-<td nowrap><a href="https://github.com/UCSB-AI/awesome-vision-language-navigation">UCSB-AI/awesome-vision-language-navigation</a></td>
-<td nowrap>Reference VLN categories such as dataset, evaluation, representation, action strategy, planning, and asking for help.</td>
-</tr>
-<tr>
-<td nowrap><a href="https://github.com/DelinQu/awesome-vision-language-action-model">DelinQu/awesome-vision-language-action-model</a></td>
-<td nowrap>Reference the VLA milestone timeline.</td>
-</tr>
-<tr>
-<td nowrap><a href="https://github.com/yueen-ma/Awesome-VLA">yueen-ma/Awesome-VLA</a></td>
-<td nowrap>Reference VLA categories such as components, world models, reasoning, policy steering, and low-level/high-level planners.</td>
 </tr>
 </tbody>
 </table>
