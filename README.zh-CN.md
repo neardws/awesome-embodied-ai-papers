@@ -65,6 +65,12 @@
   <img src="figs/embodied-ai-taxonomy.zh-CN.svg" alt="具身智能论文路线树，覆盖 VLN、VLA、WAM、推理规划、本体扩展和部署评测。" width="100%">
 </p>
 
+### 发展脉络
+
+<p align="center">
+  <img src="figs/embodied-ai-lineage.zh-CN.svg" alt="具身智能研究发展脉络图，按 2024、2025、2026 展示 VLN、VLA/WAM、推理规划、本体扩展和部署评测的演进。" width="100%">
+</p>
+
 ### 趋势判断
 
 | 方向 | 趋势 |

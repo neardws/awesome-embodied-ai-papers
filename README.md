@@ -65,6 +65,12 @@ The reason is straightforward: monolithic VLA models matter, but real robots als
   <img src="figs/embodied-ai-taxonomy.svg" alt="Taxonomy of embodied AI papers across VLN, VLA, WAM, planning, embodiment, and deployment." width="100%">
 </p>
 
+### Development Lineage
+
+<p align="center">
+  <img src="figs/embodied-ai-lineage.svg" alt="Development lineage of embodied AI research across VLN, VLA and WAM, planning, embodiment, and deployment." width="100%">
+</p>
+
 ### Trend Notes
 
 | Direction | Trend |
