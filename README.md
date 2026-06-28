@@ -17,6 +17,8 @@
 
 ## 先看什么
 
+- [2026-06-28 调研报告](docs/research-2026-06-28.md)：当前需求下的方向研判、技术路线和建议跟踪顺序。
+- [论文矩阵](docs/paper-matrix.md)：按 VLN、VLA/WAM、agentic planning、轻量化整理的代表论文/项目。
 - [方向地图](docs/frontier-map.md)：对 VLN、VLA/WAM、agentic planning、轻量化的细分。
 - [论文和资料种子](docs/paper-seeds.md)：现有 GitHub 索引、近年顶会线索、代表性论文入口。
 
