@@ -7,7 +7,7 @@
 English | [Chinese](README.zh-CN.md)
 
 [![Awesome](https://img.shields.io/badge/Awesome-Embodied%20AI-fc60a8?style=for-the-badge)](https://awesome.re)
-[![Survey Entries](https://img.shields.io/badge/Survey%20Entries-568-0984e3?style=for-the-badge)](README.md)
+[![Survey Entries](https://img.shields.io/badge/Survey%20Entries-646-0984e3?style=for-the-badge)](README.md)
 [![Last Commit](https://img.shields.io/github/last-commit/neardws/embodied-ai-frontier-survey?style=for-the-badge&color=00b894)](https://github.com/neardws/embodied-ai-frontier-survey/commits)
 [![Stars](https://img.shields.io/github/stars/neardws/embodied-ai-frontier-survey?style=for-the-badge&color=fdcb6e&logo=github)](https://github.com/neardws/embodied-ai-frontier-survey/stargazers)
 [![Forks](https://img.shields.io/github/forks/neardws/embodied-ai-frontier-survey?style=for-the-badge&color=e17055&logo=github)](https://github.com/neardws/embodied-ai-frontier-survey/network/members)
@@ -76,42 +76,42 @@ The reason is straightforward: monolithic VLA models matter, but real robots als
 <td nowrap><code>VLN</code></td>
 <td nowrap>VLN / Large-scale Navigation</td>
 <td nowrap>continuous VLN, map memory, physically executable navigation, urban/open-world navigation, low-cost/on-device navigation</td>
-<td nowrap>79</td>
+<td nowrap>87</td>
 <td nowrap>VLN focuses on language goals, spatial maps, memory, exploration, and navigation decisions. The core problem is turning natural-language tasks into executable large-scale movement plans. Current survey entries show a shift from discrete navigation graphs toward continuous environments, physically executable navigation, open urban settings, and lower-cost on-device navigation.</td>
 </tr>
 <tr>
 <td nowrap><code>VLA</code></td>
 <td nowrap>VLA / Manipulation Policies</td>
 <td nowrap>generalist VLA, action representation, diffusion/flow policy, 3D grounding, online/RL fine-tuning, safety/robustness</td>
-<td nowrap>187</td>
+<td nowrap>213</td>
 <td nowrap>VLA is the main track for robotic arms and mobile manipulation, but it is not just an action head attached to a large model. Survey papers concentrate on action representation, diffusion/flow policies, 3D grounding, online/RL fine-tuning, and robustness.</td>
 </tr>
 <tr>
 <td nowrap><code>WAM</code></td>
 <td nowrap>WAM / World Models</td>
 <td nowrap>cascaded WAM, joint WAM, video/latent world model, world model for VLA, world model evaluation</td>
-<td nowrap>50</td>
+<td nowrap>64</td>
 <td nowrap>WAM combines future world-state prediction with action generation and fits naturally between agent planning and low-level control. Its value is not replacing every controller, but providing an intermediate layer for imagination, verification, and recovery.</td>
 </tr>
 <tr>
 <td nowrap><code>Planning</code></td>
 <td nowrap>Agentic Planning / Reasoning and Planning</td>
 <td nowrap>task decomposition, memory, failure monitor, constraint / affordance planning, self-improving planning</td>
-<td nowrap>93</td>
+<td nowrap>98</td>
 <td nowrap>This direction emphasizes task decomposition, memory, failure monitoring, constraint/affordance planning, and self-improving planning. It is closest to the practical system route of agent planning plus smaller execution modules.</td>
 </tr>
 <tr>
 <td nowrap><code>Embodiment</code></td>
 <td nowrap>Embodiment Expansion / Dexterous Manipulation</td>
 <td nowrap>humanoid, bimanual, dexterous hand, tactile/contact-rich, grasping</td>
-<td nowrap>75</td>
+<td nowrap>89</td>
 <td nowrap>Embodiment expansion determines whether embodied AI can move beyond single-arm systems toward humanoids, bimanual robots, dexterous hands, and tactile/contact-rich tasks. These papers show how action spaces, sensing, and control objectives become more complex as the body changes.</td>
 </tr>
 <tr>
 <td nowrap><code>Deployment</code></td>
 <td nowrap>Efficiency / Evaluation / Data</td>
 <td nowrap>quantization/cache/tokenization, real-time execution, benchmark/dataset, sim2real, safety evaluation</td>
-<td nowrap>83</td>
+<td nowrap>95</td>
 <td nowrap>This direction determines whether systems can actually be deployed: on-device inference, caching/quantization/action tokenization, real-time execution, sim2real, benchmarks, and safety evaluation are all necessary conditions.</td>
 </tr>
 </tbody>
@@ -125,7 +125,7 @@ VLN focuses on language goals, spatial maps, memory, exploration, and navigation
 
 Subdirections: continuous VLN, map memory, physically executable navigation, urban/open-world navigation, and low-cost/on-device navigation.
 
-Total: 79 papers.
+Total: 87 papers.
 
 <table>
 <thead>
@@ -138,22 +138,22 @@ Total: 79 papers.
 <tbody>
 <tr>
 <td nowrap>Continuous VLN</td>
-<td nowrap>33</td>
+<td nowrap>35</td>
 <td nowrap>Focus: whether navigation moves from discrete graphs toward continuous observations and real-time decisions.</td>
 </tr>
 <tr>
 <td nowrap>Map Memory</td>
-<td nowrap>19</td>
+<td nowrap>22</td>
 <td nowrap>Focus: map representation, semantic memory, caching, and retrieval.</td>
 </tr>
 <tr>
 <td nowrap>Physically Executable Navigation</td>
-<td nowrap>6</td>
+<td nowrap>7</td>
 <td nowrap>Focus: real embodiment constraints, dynamic environments, and safety decoding.</td>
 </tr>
 <tr>
 <td nowrap>Urban / Open-world Navigation</td>
-<td nowrap>18</td>
+<td nowrap>20</td>
 <td nowrap>Focus: open worlds, cities, crowded environments, and long-horizon navigation.</td>
 </tr>
 <tr>
@@ -166,7 +166,7 @@ Total: 79 papers.
 
 #### Continuous VLN
 
-Total: 33 papers.
+Total: 35 papers.
 
 <table>
 <thead>
@@ -190,15 +190,49 @@ Total: 33 papers.
 </thead>
 <tbody>
 <tr>
+<td nowrap>CVPR 2023</td>
+<td nowrap><a href="https://openaccess.thecvf.com/content/CVPR2023/html/Gao_Adaptive_Zone-Aware_Hierarchical_Planner_for_Vision-Language_Navigation_CVPR_2023_paper.html">Adaptive Zone-Aware Hierarchical Planner for Vision-Language Navigation</a></td>
+<td nowrap>AZHP plans navigation by adapting hierarchy and local zones for language-conditioned visual navigation.</td>
+<td nowrap>Vision-language navigation</td>
+<td nowrap>continuous indoor navigation</td>
+<td nowrap>zone-aware hierarchical memory</td>
+<td nowrap>hierarchical planning</td>
+<td nowrap>VLN benchmarks</td>
+<td nowrap>Use zone-level structure to make long-horizon VLN decisions more reliable.</td>
+<td nowrap><a href="https://openaccess.thecvf.com/content/CVPR2023/papers/Gao_Adaptive_Zone-Aware_Hierarchical_Planner_for_Vision-Language_Navigation_CVPR_2023_paper.pdf">paper</a></td>
+<td nowrap>-</td>
+<td nowrap>-</td>
+<td nowrap>-</td>
+<td nowrap>EAI-VLA-VLN</td>
+<td nowrap>Used to compare source-verified CCF A/B work against the corresponding embodied-AI survey direction.</td>
+</tr>
+<tr>
+<td nowrap>ICML 2024</td>
+<td nowrap><a href="https://proceedings.mlr.press/v235/gao24p.html">Fast-Slow Test-Time Adaptation for Online Vision-and-Language Navigation</a></td>
+<td nowrap>Fast-Slow TTA adapts VLN agents online using complementary fast and slow adaptation signals.</td>
+<td nowrap>Online VLN</td>
+<td nowrap>continuous navigation</td>
+<td nowrap>episodic adaptation memory</td>
+<td nowrap>test-time adaptation</td>
+<td nowrap>VLN benchmarks</td>
+<td nowrap>Improve online VLN robustness under distribution shift.</td>
+<td nowrap><a href="https://proceedings.mlr.press/v235/gao24p/gao24p.pdf">paper</a></td>
+<td nowrap>-</td>
+<td nowrap>-</td>
+<td nowrap>-</td>
+<td nowrap>Awesome-EAI</td>
+<td nowrap>Used to compare source-verified CCF A/B work against the corresponding embodied-AI survey direction.</td>
+</tr>
+<tr>
 <td nowrap>ICRA 2026</td>
 <td nowrap><a href="https://arxiv.org/abs/2509.19480">OmniVLA: An Omni-Modal Vision-Language-Action Model for Robot Navigation</a></td>
-<td nowrap>OmniVLA 统一语言、目标图像和 2D pose 等目标规格，用 VLA 方式学习机器人导航策略。</td>
+<td nowrap>OmniVLA unifies language, goal images, and 2D pose goals, learning robot navigation policies through a VLA formulation.</td>
 <td nowrap>Vision-language-action navigation</td>
 <td nowrap>continuous navigation</td>
 <td nowrap>multimodal goal context</td>
 <td nowrap>navigation VLA training</td>
 <td nowrap>Sim + Real</td>
-<td nowrap>用多模态目标表达训练可泛化导航 VLA。</td>
+<td nowrap>Train a generalizable navigation VLA with multimodal goal specifications.</td>
 <td nowrap><a href="https://arxiv.org/abs/2509.19480">paper</a></td>
 <td nowrap><a href="https://omnivla-nav.github.io/">project</a></td>
 <td nowrap><a href="https://github.com/NHirose/OmniVLA">code</a></td>
@@ -209,13 +243,13 @@ Total: 33 papers.
 <tr>
 <td nowrap>ICRA 2025</td>
 <td nowrap><a href="https://sites.google.com/view/opennav/home">Open-Nav: Exploring Zero-Shot Vision-and-Language Navigation in Continuous Environment with Open-Source LLMs</a></td>
-<td nowrap>Open-Nav 用开源 LLM 做时空 CoT、进度估计和动作决策，面向连续环境零样本 VLN。</td>
+<td nowrap>Open-Nav uses open-source LLMs for spatio-temporal chain-of-thought reasoning, progress estimation, and action decisions for zero-shot VLN in continuous environments.</td>
 <td nowrap>Continuous VLN</td>
 <td nowrap>continuous indoor environment</td>
 <td nowrap>spatio-temporal CoT</td>
 <td nowrap>zero-shot LLM planning</td>
 <td nowrap>VLN-CE benchmark</td>
-<td nowrap>让开源 LLM 在连续环境中按语言指令导航。</td>
+<td nowrap>Enable open-source LLMs to navigate continuous environments from language instructions.</td>
 <td nowrap><a href="https://sites.google.com/view/opennav/home">paper</a></td>
 <td nowrap><a href="https://sites.google.com/view/opennav/home">project</a></td>
 <td nowrap><a href="https://github.com/YanyuanQiao/Open-Nav">code</a></td>
@@ -755,7 +789,7 @@ Total: 33 papers.
 
 #### Map Memory
 
-Total: 19 papers.
+Total: 22 papers.
 
 <table>
 <thead>
@@ -779,15 +813,66 @@ Total: 19 papers.
 </thead>
 <tbody>
 <tr>
+<td nowrap>ACL 2024</td>
+<td nowrap><a href="https://aclanthology.org/2024.acl-long.529/">MapGPT: Map-Guided Prompting for Unified Vision-and-Language Navigation</a></td>
+<td nowrap>MapGPT uses map-guided prompting to connect language instructions with spatial navigation decisions.</td>
+<td nowrap>Vision-language navigation</td>
+<td nowrap>indoor VLN</td>
+<td nowrap>map-guided prompt memory</td>
+<td nowrap>LLM prompting + navigation</td>
+<td nowrap>VLN benchmarks</td>
+<td nowrap>Use explicit maps to ground LLM navigation decisions.</td>
+<td nowrap><a href="https://aclanthology.org/2024.acl-long.529.pdf">paper</a></td>
+<td nowrap>-</td>
+<td nowrap>-</td>
+<td nowrap>-</td>
+<td nowrap>Awesome-EAI</td>
+<td nowrap>Used to compare source-verified CCF A/B work against the corresponding embodied-AI survey direction.</td>
+</tr>
+<tr>
+<td nowrap>CVPR 2024</td>
+<td nowrap><a href="https://openaccess.thecvf.com/content/CVPR2024/html/Zhao_OVER-NAV_Elevating_Iterative_Vision-and-Language_Navigation_with_Open-Vocabulary_Detection_and_StructurEd_CVPR_2024_paper.html">OVER-NAV: Elevating Iterative Vision-and-Language Navigation with Open-Vocabulary Detection and Structured Representation</a></td>
+<td nowrap>OVER-NAV combines open-vocabulary detection with structured scene memory for iterative VLN.</td>
+<td nowrap>Vision-language navigation</td>
+<td nowrap>indoor VLN</td>
+<td nowrap>open-vocabulary structured memory</td>
+<td nowrap>iterative navigation planning</td>
+<td nowrap>VLN benchmarks</td>
+<td nowrap>Improve VLN grounding with open-vocabulary object and scene structure.</td>
+<td nowrap><a href="https://openaccess.thecvf.com/content/CVPR2024/papers/Zhao_OVER-NAV_Elevating_Iterative_Vision-and-Language_Navigation_with_Open-Vocabulary_Detection_and_StructurEd_CVPR_2024_paper.pdf">paper</a></td>
+<td nowrap>-</td>
+<td nowrap>-</td>
+<td nowrap>-</td>
+<td nowrap>Awesome-EAI</td>
+<td nowrap>Used to compare source-verified CCF A/B work against the corresponding embodied-AI survey direction.</td>
+</tr>
+<tr>
+<td nowrap>CVPR 2024</td>
+<td nowrap><a href="https://arxiv.org/abs/2403.14158">Volumetric Environment Representation for Vision-Language Navigation</a></td>
+<td nowrap>VER builds volumetric scene representations to improve spatial memory and grounding in VLN.</td>
+<td nowrap>Vision-language navigation</td>
+<td nowrap>3D indoor navigation</td>
+<td nowrap>volumetric map memory</td>
+<td nowrap>3D representation learning</td>
+<td nowrap>VLN benchmarks</td>
+<td nowrap>Represent navigable space volumetrically for language-guided navigation.</td>
+<td nowrap><a href="https://arxiv.org/abs/2403.14158">paper</a></td>
+<td nowrap>-</td>
+<td nowrap>-</td>
+<td nowrap>-</td>
+<td nowrap>Awesome-VLA</td>
+<td nowrap>Used to compare source-verified CCF A/B work against the corresponding embodied-AI survey direction.</td>
+</tr>
+<tr>
 <td nowrap>IROS 2026</td>
 <td nowrap><a href="https://arxiv.org/abs/2606.25497">SAGE-Nav: Leveraging LLM Planning and Alignment Fusion for Hierarchical Scene Graph-Guided Navigation</a></td>
-<td nowrap>SAGE-Nav 结合 LLM 高层规划和层级场景图，引导 object-goal navigation。</td>
+<td nowrap>SAGE-Nav combines LLM high-level planning with hierarchical scene graphs to guide object-goal navigation.</td>
 <td nowrap>Object-goal navigation</td>
 <td nowrap>indoor navigation</td>
 <td nowrap>hierarchical scene graph</td>
 <td nowrap>LLM planning + alignment fusion</td>
 <td nowrap>Benchmark</td>
-<td nowrap>用场景图记忆把语言规划落到目标导航。</td>
+<td nowrap>Ground language planning in target navigation through scene-graph memory.</td>
 <td nowrap><a href="https://arxiv.org/abs/2606.25497">paper</a></td>
 <td nowrap>-</td>
 <td nowrap>-</td>
@@ -798,13 +883,13 @@ Total: 19 papers.
 <tr>
 <td nowrap>IROS 2025</td>
 <td nowrap><a href="https://arxiv.org/abs/2503.02247">WMNav: Integrating Vision-Language Models into World Models for Object Goal Navigation</a></td>
-<td nowrap>WMNav 将 VLM 接入导航世界模型，预测未来状态并维护导航记忆以提升目标搜索。</td>
+<td nowrap>WMNav integrates VLMs into a navigation world model to predict future states and maintain navigation memory for better target search.</td>
 <td nowrap>Object-goal navigation</td>
 <td nowrap>indoor navigation</td>
 <td nowrap>world-model memory</td>
 <td nowrap>VLM-guided world model</td>
 <td nowrap>Benchmark</td>
-<td nowrap>用世界模型想象和反馈支持 object-goal navigation。</td>
+<td nowrap>Use world-model imagination and feedback to support object-goal navigation.</td>
 <td nowrap><a href="https://arxiv.org/abs/2503.02247">paper</a></td>
 <td nowrap><a href="https://b0b8k1ng.github.io/WMNav/">project</a></td>
 <td nowrap><a href="https://github.com/B0B8K1ng/WMNavigation">code</a></td>
@@ -1106,7 +1191,7 @@ Total: 19 papers.
 
 #### Physically Executable Navigation
 
-Total: 6 papers.
+Total: 7 papers.
 
 <table>
 <thead>
@@ -1129,6 +1214,23 @@ Total: 6 papers.
 </tr>
 </thead>
 <tbody>
+<tr>
+<td nowrap>CVPR 2024</td>
+<td nowrap><a href="https://openaccess.thecvf.com/content/CVPR2024/html/Ehsani_SPOC_Imitating_Shortest_Paths_in_Simulation_Enables_Effective_Navigation_and_CVPR_2024_paper.html">SPOC: Imitating Shortest Paths in Simulation Enables Effective Navigation and Manipulation in the Real World</a></td>
+<td nowrap>SPOC trains embodied agents from simulated shortest paths and transfers the behavior to navigation and manipulation.</td>
+<td nowrap>Navigation + manipulation</td>
+<td nowrap>physical embodied environments</td>
+<td nowrap>implicit spatial policy memory</td>
+<td nowrap>imitation from shortest paths</td>
+<td nowrap>Sim + Real</td>
+<td nowrap>Convert shortest-path supervision into physically executable embodied behavior.</td>
+<td nowrap><a href="https://openaccess.thecvf.com/content/CVPR2024/papers/Ehsani_SPOC_Imitating_Shortest_Paths_in_Simulation_Enables_Effective_Navigation_and_CVPR_2024_paper.pdf">paper</a></td>
+<td nowrap>-</td>
+<td nowrap>-</td>
+<td nowrap>-</td>
+<td nowrap>Awesome-EAI</td>
+<td nowrap>Used to compare source-verified CCF A/B work against the corresponding embodied-AI survey direction.</td>
+</tr>
 <tr>
 <td nowrap>AAAI 2026</td>
 <td nowrap><a href="https://ojs.aaai.org/index.php/AAAI/article/view/38942">CorrectNav: Self-Correction Flywheel Empowers Vision-Language-Action Navigation Model</a></td>
@@ -1236,7 +1338,7 @@ Total: 6 papers.
 
 #### Urban / Open-world Navigation
 
-Total: 18 papers.
+Total: 20 papers.
 
 <table>
 <thead>
@@ -1259,6 +1361,40 @@ Total: 18 papers.
 </tr>
 </thead>
 <tbody>
+<tr>
+<td nowrap>CVPR 2024</td>
+<td nowrap><a href="https://openaccess.thecvf.com/content/CVPR2024/html/Khanna_GOAT-Bench_A_Benchmark_for_Multi-Modal_Lifelong_Navigation_CVPR_2024_paper.html">GOAT-Bench: A Benchmark for Multi-Modal Lifelong Navigation</a></td>
+<td nowrap>GOAT-Bench evaluates lifelong navigation with multimodal goals and open-ended object/place targets.</td>
+<td nowrap>Lifelong navigation benchmark</td>
+<td nowrap>open-world indoor scenes</td>
+<td nowrap>goal-conditioned memory</td>
+<td nowrap>benchmark evaluation</td>
+<td nowrap>GOAT-Bench</td>
+<td nowrap>Measure multimodal lifelong navigation beyond single instruction episodes.</td>
+<td nowrap><a href="https://openaccess.thecvf.com/content/CVPR2024/papers/Khanna_GOAT-Bench_A_Benchmark_for_Multi-Modal_Lifelong_Navigation_CVPR_2024_paper.pdf">paper</a></td>
+<td nowrap>-</td>
+<td nowrap>-</td>
+<td nowrap>-</td>
+<td nowrap>Awesome-EAI</td>
+<td nowrap>Used to compare source-verified CCF A/B work against the corresponding embodied-AI survey direction.</td>
+</tr>
+<tr>
+<td nowrap>ECCV 2024</td>
+<td nowrap><a href="https://arxiv.org/pdf/2407.14758">DISCO: Embodied Navigation and Interaction via Differentiable Scene-Conditioned Options</a></td>
+<td nowrap>DISCO learns scene-conditioned options for embodied navigation and interaction in open environments.</td>
+<td nowrap>Navigation + interaction</td>
+<td nowrap>open embodied scenes</td>
+<td nowrap>scene-conditioned options</td>
+<td nowrap>option learning</td>
+<td nowrap>Embodied interaction benchmarks</td>
+<td nowrap>Tie navigation and interaction through reusable scene-conditioned options.</td>
+<td nowrap><a href="https://arxiv.org/pdf/2407.14758">paper</a></td>
+<td nowrap>-</td>
+<td nowrap>-</td>
+<td nowrap>-</td>
+<td nowrap>Awesome-EAI</td>
+<td nowrap>Used to compare source-verified CCF A/B work against the corresponding embodied-AI survey direction.</td>
+</tr>
 <tr>
 <td nowrap>ICLR 2026</td>
 <td nowrap><a href="https://openreview.net/forum?id=88RKxlFUNY">AutoFly: Vision-Language-Action Model for UAV Autonomous Navigation in the Wild</a></td>
@@ -1653,7 +1789,7 @@ VLA is the main track for robotic arms and mobile manipulation, but it is not ju
 
 Subdirections: generalist VLA, action representation, diffusion/flow policy, 3D grounding, online/RL fine-tuning, and safety/robustness.
 
-Total: 187 papers.
+Total: 213 papers.
 
 <table>
 <thead>
@@ -1666,32 +1802,32 @@ Total: 187 papers.
 <tbody>
 <tr>
 <td nowrap>generalist VLA</td>
-<td nowrap>59</td>
+<td nowrap>70</td>
 <td nowrap>Focus: cross-task generalization, real-robot validation, and general manipulation ability.</td>
 </tr>
 <tr>
 <td nowrap>action representation</td>
-<td nowrap>18</td>
+<td nowrap>21</td>
 <td nowrap>Focus: action tokens, latent actions, chunking, and action-space design.</td>
 </tr>
 <tr>
 <td nowrap>diffusion/flow policy</td>
-<td nowrap>63</td>
+<td nowrap>68</td>
 <td nowrap>Focus: continuous action generation, stable control, and smooth execution.</td>
 </tr>
 <tr>
 <td nowrap>3D grounding</td>
-<td nowrap>30</td>
+<td nowrap>31</td>
 <td nowrap>Focus: point clouds, geometry, affordance, and manipulation localization.</td>
 </tr>
 <tr>
 <td nowrap>online/RL fine-tuning</td>
-<td nowrap>13</td>
+<td nowrap>16</td>
 <td nowrap>Focus: online RL, human-in-the-loop learning, and test-time adaptation.</td>
 </tr>
 <tr>
 <td nowrap>Safety and Robustness</td>
-<td nowrap>4</td>
+<td nowrap>7</td>
 <td nowrap>Focus: attack robustness, safety alignment, and risk exposure.</td>
 </tr>
 </tbody>
@@ -1699,7 +1835,7 @@ Total: 187 papers.
 
 #### generalist VLA
 
-Total: 59 papers.
+Total: 70 papers.
 
 <table>
 <thead>
@@ -1724,21 +1860,219 @@ Total: 59 papers.
 </thead>
 <tbody>
 <tr>
+<td nowrap>CVPR 2024</td>
+<td nowrap><a href="https://openaccess.thecvf.com/content/CVPR2024/html/Li_ManipLLM_Embodied_Multimodal_Large_Language_Model_for_Object-Centric_Robotic_Manipulation_CVPR_2024_paper.html">ManipLLM: Embodied Multimodal Large Language Model for Object-Centric Robotic Manipulation</a></td>
+<td nowrap>ManipLLM grounds multimodal language reasoning in object-centric robotic manipulation.</td>
+<td nowrap>multimodal LLM</td>
+<td nowrap>robot action</td>
+<td nowrap>VLA / Generalist VLA</td>
+<td nowrap>object-centric embodied reasoning</td>
+<td nowrap>robot manipulation policy</td>
+<td nowrap>simulation manipulation</td>
+<td nowrap>Use multimodal LLM reasoning for object-centric manipulation.</td>
+<td nowrap><a href="https://openaccess.thecvf.com/content/CVPR2024/papers/Li_ManipLLM_Embodied_Multimodal_Large_Language_Model_for_Object-Centric_Robotic_Manipulation_CVPR_2024_paper.pdf">paper</a></td>
+<td nowrap>-</td>
+<td nowrap>-</td>
+<td nowrap>-</td>
+<td nowrap>Awesome-EAI</td>
+<td nowrap>Used to compare source-verified CCF A/B work against the corresponding embodied-AI survey direction.</td>
+</tr>
+<tr>
+<td nowrap>NeurIPS 2024</td>
+<td nowrap><a href="https://proceedings.neurips.cc/paper_files/paper/2024/hash/62203a74e233e933b160711e791e1a02-Abstract-Conference.html">PEAC: Unsupervised Pre-training for Cross-Embodiment Reinforcement Learning</a></td>
+<td nowrap>PEAC pretrains policies across embodiments to improve transfer before downstream robot learning.</td>
+<td nowrap>cross-embodiment policy</td>
+<td nowrap>robot action</td>
+<td nowrap>VLA / cross-embodiment</td>
+<td nowrap>unsupervised pretraining</td>
+<td nowrap>generalist robot policy</td>
+<td nowrap>cross-embodiment benchmarks</td>
+<td nowrap>Improve cross-embodiment policy transfer.</td>
+<td nowrap><a href="https://proceedings.neurips.cc/paper_files/paper/2024/file/62203a74e233e933b160711e791e1a02-Paper-Conference.pdf">paper</a></td>
+<td nowrap>-</td>
+<td nowrap>-</td>
+<td nowrap>-</td>
+<td nowrap>Awesome-EAI</td>
+<td nowrap>Used to compare source-verified CCF A/B work against the corresponding embodied-AI survey direction.</td>
+</tr>
+<tr>
+<td nowrap>ICCV 2025</td>
+<td nowrap><a href="https://openaccess.thecvf.com/content/ICCV2025/html/Chen_CombatVLA_An_Efficient_Vision-Language-Action_Model_for_Combat_Tasks_in_3D_ICCV_2025_paper.html">CombatVLA: An Efficient Vision-Language-Action Model for Combat Tasks in 3D Action Role-Playing Games</a></td>
+<td nowrap>CombatVLA studies efficient VLA control for real-time 3D game combat tasks.</td>
+<td nowrap>CombatVLA</td>
+<td nowrap>game action</td>
+<td nowrap>VLA / Generalist VLA</td>
+<td nowrap>efficient VLA control</td>
+<td nowrap>real-time embodied agent</td>
+<td nowrap>3D game tasks</td>
+<td nowrap>Evaluate VLA-style action models in fast 3D interactive tasks.</td>
+<td nowrap><a href="https://openaccess.thecvf.com/content/ICCV2025/papers/Chen_CombatVLA_An_Efficient_Vision-Language-Action_Model_for_Combat_Tasks_in_3D_ICCV_2025_paper.pdf">paper</a></td>
+<td nowrap>-</td>
+<td nowrap>-</td>
+<td nowrap>-</td>
+<td nowrap>EAI-VLA-VLN</td>
+<td nowrap>Used to compare source-verified CCF A/B work against the corresponding embodied-AI survey direction.</td>
+</tr>
+<tr>
+<td nowrap>ICLR 2024</td>
+<td nowrap><a href="https://openreview.net/forum?id=lFYj0oibGR">Vision-Language Foundation Models as Effective Robot Imitators</a></td>
+<td nowrap>This work adapts vision-language foundation models as robot imitators for manipulation policies.</td>
+<td nowrap>VLM foundation model</td>
+<td nowrap>robot action</td>
+<td nowrap>imitation learning</td>
+<td nowrap>VLM-to-policy adaptation</td>
+<td nowrap>robot imitation policy</td>
+<td nowrap>robot manipulation benchmarks</td>
+<td nowrap>Use pretrained VLMs as effective robot imitation learners.</td>
+<td nowrap><a href="https://openreview.net/forum?id=lFYj0oibGR">paper</a></td>
+<td nowrap>-</td>
+<td nowrap>-</td>
+<td nowrap>-</td>
+<td nowrap>Awesome-VLA</td>
+<td nowrap>Used to compare source-verified CCF A/B work against the corresponding embodied-AI survey direction.</td>
+</tr>
+<tr>
+<td nowrap>ICLR 2023</td>
+<td nowrap><a href="https://arxiv.org/abs/2311.01977">RT-Trajectory: Robotic Task Generalization via Hindsight Trajectory Sketches</a></td>
+<td nowrap>RT-Trajectory uses hindsight trajectory sketches to improve robot task generalization.</td>
+<td nowrap>robot policy</td>
+<td nowrap>trajectory sketches</td>
+<td nowrap>VLA / Generalist VLA</td>
+<td nowrap>hindsight trajectory conditioning</td>
+<td nowrap>generalist manipulation policy</td>
+<td nowrap>robot manipulation tasks</td>
+<td nowrap>Improve task generalization with trajectory sketch supervision.</td>
+<td nowrap><a href="https://arxiv.org/abs/2311.01977">paper</a></td>
+<td nowrap>-</td>
+<td nowrap>-</td>
+<td nowrap>-</td>
+<td nowrap>Awesome-VLA</td>
+<td nowrap>Used to compare source-verified CCF A/B work against the corresponding embodied-AI survey direction.</td>
+</tr>
+<tr>
+<td nowrap>ICML 2023</td>
+<td nowrap><a href="https://openreview.net/forum?id=nkDMZ8yqBt">VIMA: General Robot Manipulation with Multimodal Prompts</a></td>
+<td nowrap>VIMA formulates robot manipulation as multimodal prompt-conditioned policy learning.</td>
+<td nowrap>VIMA</td>
+<td nowrap>manipulation action</td>
+<td nowrap>multimodal prompt policy</td>
+<td nowrap>prompt-conditioned imitation</td>
+<td nowrap>generalist manipulation policy</td>
+<td nowrap>VIMA-Bench</td>
+<td nowrap>Use multimodal prompts to specify diverse manipulation tasks.</td>
+<td nowrap><a href="https://openreview.net/forum?id=nkDMZ8yqBt">paper</a></td>
+<td nowrap>-</td>
+<td nowrap>-</td>
+<td nowrap>-</td>
+<td nowrap>Awesome-VLA</td>
+<td nowrap>Used to compare source-verified CCF A/B work against the corresponding embodied-AI survey direction.</td>
+</tr>
+<tr>
+<td nowrap>ICLR 2025</td>
+<td nowrap><a href="https://proceedings.iclr.cc/paper_files/paper/2025/hash/8667f264f88c7938a73a53ab01eb1327-Abstract-Conference.html">TraceVLA: Visual Trace Prompting Enhances Spatial-Temporal Awareness for Generalist Robotic Policies</a></td>
+<td nowrap>TraceVLA adds visual trace prompts to improve spatial-temporal awareness in generalist robot policies.</td>
+<td nowrap>generalist VLA</td>
+<td nowrap>robot action</td>
+<td nowrap>VLA / Generalist VLA</td>
+<td nowrap>visual trace prompting</td>
+<td nowrap>generalist robot policy</td>
+<td nowrap>robot manipulation benchmarks</td>
+<td nowrap>Enhance robot policy awareness with visual traces.</td>
+<td nowrap><a href="https://proceedings.iclr.cc/paper_files/paper/2025/hash/8667f264f88c7938a73a53ab01eb1327-Abstract-Conference.html">paper</a></td>
+<td nowrap>-</td>
+<td nowrap>-</td>
+<td nowrap>-</td>
+<td nowrap>Awesome-VLA</td>
+<td nowrap>Used to compare source-verified CCF A/B work against the corresponding embodied-AI survey direction.</td>
+</tr>
+<tr>
+<td nowrap>ECCV 2024</td>
+<td nowrap><a href="https://openreview.net/forum?id=Sa7upAJOIN">QUAR-VLA: Vision-Language-Action Model for Quadruped Robots</a></td>
+<td nowrap>QUAR-VLA extends VLA-style policy learning to quadruped robot control.</td>
+<td nowrap>quadruped VLA</td>
+<td nowrap>locomotion action</td>
+<td nowrap>VLA / quadruped robots</td>
+<td nowrap>vision-language-action control</td>
+<td nowrap>quadruped policy</td>
+<td nowrap>quadruped robot tasks</td>
+<td nowrap>Apply VLA modeling to quadruped embodied control.</td>
+<td nowrap><a href="https://openreview.net/forum?id=Sa7upAJOIN">paper</a></td>
+<td nowrap>-</td>
+<td nowrap>-</td>
+<td nowrap>-</td>
+<td nowrap>Awesome-VLA</td>
+<td nowrap>Used to compare source-verified CCF A/B work against the corresponding embodied-AI survey direction.</td>
+</tr>
+<tr>
+<td nowrap>CVPR 2026</td>
+<td nowrap><a href="https://arxiv.org/abs/2508.05186">Learning to See and Act: Task-Aware Virtual View Exploration for Robotic Manipulation</a></td>
+<td nowrap>This work uses task-aware virtual view exploration to improve perception and action in manipulation.</td>
+<td nowrap>robot manipulation model</td>
+<td nowrap>manipulation action</td>
+<td nowrap>VLA / Generalist VLA</td>
+<td nowrap>virtual-view exploration</td>
+<td nowrap>robot manipulation policy</td>
+<td nowrap>manipulation benchmarks</td>
+<td nowrap>Use task-aware view exploration for better manipulation policy inputs.</td>
+<td nowrap><a href="https://arxiv.org/abs/2508.05186">paper</a></td>
+<td nowrap>-</td>
+<td nowrap>-</td>
+<td nowrap>-</td>
+<td nowrap>Efficient-VLA</td>
+<td nowrap>Used to compare source-verified CCF A/B work against the corresponding embodied-AI survey direction.</td>
+</tr>
+<tr>
 <td nowrap>IROS 2025</td>
 <td nowrap><a href="https://arxiv.org/abs/2409.12514">TinyVLA: Towards Fast, Data-Efficient Vision-Language-Action Models for Robotic Manipulation</a></td>
-<td nowrap>TinyVLA 用小型 VLA 和 diffusion policy 提升机器人操作的数据效率与推理速度。</td>
+<td nowrap>TinyVLA combines a compact VLA with diffusion policy to improve data efficiency and inference speed for robot manipulation.</td>
 <td nowrap>TinyVLA</td>
 <td nowrap>Diffusion action</td>
 <td nowrap>VLA / Generalist VLA</td>
 <td nowrap>compact VLA + diffusion policy</td>
 <td nowrap>data-efficient VLA</td>
 <td nowrap>Real robot manipulation</td>
-<td nowrap>构建更小、更快的数据高效 VLA 操作策略。</td>
+<td nowrap>Build a smaller, faster, data-efficient VLA manipulation policy.</td>
 <td nowrap><a href="https://arxiv.org/abs/2409.12514">paper</a></td>
 <td nowrap><a href="https://tiny-vla.github.io/">project</a></td>
 <td nowrap><a href="https://github.com/JayceWen/tinyvla">code</a></td>
 <td nowrap>-</td>
 <td nowrap>ICRA/IROS</td>
+<td nowrap>Used to compare VLA progress in generalization, action representation, and execution stability.</td>
+</tr>
+<tr>
+<td nowrap>ICLR 2025</td>
+<td nowrap><a href="https://arxiv.org/abs/2502.05485">HAMSTER: Hierarchical Action Models For Open-World Robot Manipulation</a></td>
+<td nowrap>HAMSTER uses hierarchical action models to connect high-level open-world manipulation decisions with executable low-level robot actions.</td>
+<td nowrap>HAMSTER</td>
+<td nowrap>hierarchical action</td>
+<td nowrap>VLA / Generalist VLA</td>
+<td nowrap>hierarchical action modeling</td>
+<td nowrap>open-world manipulation policy</td>
+<td nowrap>robot manipulation benchmarks</td>
+<td nowrap>Build an open-world robot manipulation policy with explicit action hierarchy.</td>
+<td nowrap><a href="https://arxiv.org/abs/2502.05485">paper</a></td>
+<td nowrap><a href="https://hamster-robot.github.io/">project</a></td>
+<td nowrap><a href="https://github.com/liyi14/HAMSTER_beta">code</a></td>
+<td nowrap>-</td>
+<td nowrap>Efficient-VLA</td>
+<td nowrap>Used to compare VLA progress in generalization, action representation, and execution stability.</td>
+</tr>
+<tr>
+<td nowrap>ICLR 2025</td>
+<td nowrap><a href="https://arxiv.org/abs/2406.20095">LLaRA: Supercharging Robot Learning Data for Vision-Language Policy</a></td>
+<td nowrap>LLaRA improves vision-language policy learning by converting and enriching robot learning data for VLA training.</td>
+<td nowrap>LLaRA</td>
+<td nowrap>policy action</td>
+<td nowrap>VLA / Generalist VLA</td>
+<td nowrap>robot-data augmentation for VLP/VLA</td>
+<td nowrap>vision-language policy</td>
+<td nowrap>robot learning datasets</td>
+<td nowrap>Improve robot policy learning through stronger language-aligned training data.</td>
+<td nowrap><a href="https://arxiv.org/abs/2406.20095">paper</a></td>
+<td nowrap>-</td>
+<td nowrap><a href="https://github.com/LostXine/LLaRA">code</a></td>
+<td nowrap>-</td>
+<td nowrap>Awesome-VLA, Efficient-VLA</td>
 <td nowrap>Used to compare VLA progress in generalization, action representation, and execution stability.</td>
 </tr>
 <tr>
@@ -2122,7 +2456,7 @@ Total: 59 papers.
 <tr>
 <td nowrap>ICML 2026</td>
 <td nowrap><a href="https://icml.cc/virtual/2026/poster/64826">XR-1: Towards Versatile Vision-Language-Action Models via Learning Unified Vision-Motion Representations</a></td>
-<td nowrap>-</td>
+<td nowrap>XR-1 learns unified vision-motion codes to train versatile VLA policies across heterogeneous robots, tasks, and demonstrations.</td>
 <td nowrap>-</td>
 <td nowrap>AR</td>
 <td nowrap>VLA / Generalist VLA</td>
@@ -2790,7 +3124,7 @@ Total: 59 papers.
 
 #### action representation
 
-Total: 18 papers.
+Total: 21 papers.
 
 <table>
 <thead>
@@ -2815,6 +3149,42 @@ Total: 18 papers.
 </thead>
 <tbody>
 <tr>
+<td nowrap>ICLR 2024</td>
+<td nowrap><a href="https://arxiv.org/abs/2310.08576">Learning to Act from Actionless Videos through Dense Correspondences</a></td>
+<td nowrap>This work learns action representations from actionless videos using dense visual correspondences.</td>
+<td nowrap>video pretraining</td>
+<td nowrap>latent action</td>
+<td nowrap>action representation / pretraining</td>
+<td nowrap>dense correspondence learning</td>
+<td nowrap>video-to-action representation</td>
+<td nowrap>robot manipulation benchmarks</td>
+<td nowrap>Recover reusable action structure without action labels.</td>
+<td nowrap><a href="https://arxiv.org/abs/2310.08576">paper</a></td>
+<td nowrap>-</td>
+<td nowrap>-</td>
+<td nowrap>-</td>
+<td nowrap>WAM</td>
+<td nowrap>Used to compare source-verified CCF A/B work against the corresponding embodied-AI survey direction.</td>
+</tr>
+<tr>
+<td nowrap>ICML 2024</td>
+<td nowrap><a href="https://arxiv.org/abs/2402.07872">PIVOT: Iterative Visual Prompting Elicits Actionable Knowledge for VLMs</a></td>
+<td nowrap>PIVOT elicits spatial and actionable knowledge from VLMs through iterative visual prompting.</td>
+<td nowrap>VLM</td>
+<td nowrap>actionable visual prompt</td>
+<td nowrap>action representation / affordance</td>
+<td nowrap>iterative visual prompting</td>
+<td nowrap>VLM affordance reasoning</td>
+<td nowrap>spatial action benchmarks</td>
+<td nowrap>Extract actionable spatial knowledge from VLMs.</td>
+<td nowrap><a href="https://arxiv.org/abs/2402.07872">paper</a></td>
+<td nowrap>-</td>
+<td nowrap>-</td>
+<td nowrap>-</td>
+<td nowrap>Awesome-VLA</td>
+<td nowrap>Used to compare source-verified CCF A/B work against the corresponding embodied-AI survey direction.</td>
+</tr>
+<tr>
 <td nowrap>ICLR 2026</td>
 <td nowrap><a href="https://openreview.net/forum?id=y5CaJb17Fn">villa-X: Enhancing Latent Action Modeling in Vision-Language-Action Models</a></td>
 <td nowrap>villa-X learns and uses latent actions as motion abstractions in VLA pretraining, enabling zero-shot generation of latent action plans.</td>
@@ -2830,6 +3200,24 @@ Total: 18 papers.
 <td nowrap>-</td>
 <td nowrap>-</td>
 <td nowrap>EAI-VLA-VLN, WAM</td>
+<td nowrap>Used to compare VLA progress in generalization, action representation, and execution stability.</td>
+</tr>
+<tr>
+<td nowrap>ICLR 2025</td>
+<td nowrap><a href="https://arxiv.org/abs/2410.11758">Latent Action Pretraining from Videos</a></td>
+<td nowrap>LAPA learns latent action abstractions from videos before transferring them to robot action generation.</td>
+<td nowrap>LAPA</td>
+<td nowrap>latent action</td>
+<td nowrap>action representation / pretraining</td>
+<td nowrap>latent action pretraining</td>
+<td nowrap>video-to-action representation</td>
+<td nowrap>robot manipulation benchmarks</td>
+<td nowrap>Learn reusable latent actions from videos for downstream VLA policies.</td>
+<td nowrap><a href="https://arxiv.org/abs/2410.11758">paper</a></td>
+<td nowrap><a href="https://latentactionpretraining.github.io/">project</a></td>
+<td nowrap><a href="https://github.com/LatentActionPretraining/LAPA">code</a></td>
+<td nowrap><a href="https://huggingface.co/latent-action-pretraining/LAPA-7B-openx">hf</a></td>
+<td nowrap>Awesome-VLA, WAM, Efficient-VLA</td>
 <td nowrap>Used to compare VLA progress in generalization, action representation, and execution stability.</td>
 </tr>
 <tr>
@@ -3143,7 +3531,7 @@ Total: 18 papers.
 
 #### diffusion/flow policy
 
-Total: 63 papers.
+Total: 68 papers.
 
 <table>
 <thead>
@@ -3168,9 +3556,99 @@ Total: 63 papers.
 </thead>
 <tbody>
 <tr>
+<td nowrap>ICML 2025</td>
+<td nowrap><a href="https://diffusion-vla.github.io/">DiffusionVLA: Scaling Robot Foundation Models via Unified Diffusion and Autoregression</a></td>
+<td nowrap>DiffusionVLA scales robot foundation models with unified diffusion and autoregressive generation.</td>
+<td nowrap>DiffusionVLA</td>
+<td nowrap>diffusion + AR action</td>
+<td nowrap>VLA / diffusion-flow policy</td>
+<td nowrap>unified diffusion and autoregression</td>
+<td nowrap>robot foundation model</td>
+<td nowrap>robot manipulation benchmarks</td>
+<td nowrap>Scale VLA policy learning with diffusion and autoregressive modeling.</td>
+<td nowrap><a href="https://diffusion-vla.github.io/">paper</a></td>
+<td nowrap><a href="https://diffusion-vla.github.io/">project</a></td>
+<td nowrap>-</td>
+<td nowrap>-</td>
+<td nowrap>EAI-Safety</td>
+<td nowrap>Used to compare source-verified CCF A/B work against the corresponding embodied-AI survey direction.</td>
+</tr>
+<tr>
+<td nowrap>ICLR 2025</td>
+<td nowrap><a href="https://openreview.net/forum?id=nDmwloEl3N">Efficient Diffusion Transformer Policies with Mixture of Expert Denoisers for Multitask Learning</a></td>
+<td nowrap>This work uses mixture-of-expert denoisers to make diffusion transformer policies more efficient across tasks.</td>
+<td nowrap>diffusion transformer policy</td>
+<td nowrap>continuous action</td>
+<td nowrap>VLA / diffusion-flow policy</td>
+<td nowrap>MoE denoisers</td>
+<td nowrap>multitask diffusion policy</td>
+<td nowrap>robot manipulation tasks</td>
+<td nowrap>Improve multitask diffusion policy efficiency.</td>
+<td nowrap><a href="https://openreview.net/forum?id=nDmwloEl3N">paper</a></td>
+<td nowrap>-</td>
+<td nowrap>-</td>
+<td nowrap>-</td>
+<td nowrap>EAI-VLA-VLN</td>
+<td nowrap>Used to compare source-verified CCF A/B work against the corresponding embodied-AI survey direction.</td>
+</tr>
+<tr>
+<td nowrap>AAAI 2025</td>
+<td nowrap><a href="https://ojs.aaai.org/index.php/AAAI/article/view/33617">FlowPolicy: Enabling Fast and Robust 3D Flow-Based Policy via Consistency Flow Matching for Robot Manipulation</a></td>
+<td nowrap>FlowPolicy applies consistency flow matching to fast and robust 3D robot manipulation policies.</td>
+<td nowrap>3D flow policy</td>
+<td nowrap>continuous 3D action</td>
+<td nowrap>VLA / diffusion-flow policy</td>
+<td nowrap>consistency flow matching</td>
+<td nowrap>fast 3D manipulation policy</td>
+<td nowrap>robot manipulation benchmarks</td>
+<td nowrap>Build faster flow-based 3D manipulation policies.</td>
+<td nowrap><a href="https://arxiv.org/abs/2412.04987">paper</a></td>
+<td nowrap>-</td>
+<td nowrap>-</td>
+<td nowrap>-</td>
+<td nowrap>EAI-VLA-VLN</td>
+<td nowrap>Used to compare source-verified CCF A/B work against the corresponding embodied-AI survey direction.</td>
+</tr>
+<tr>
+<td nowrap>NeurIPS 2025</td>
+<td nowrap><a href="https://openreview.net/forum?id=asS4W7Yw5e">GauDP: Reinventing Multi-Agent Collaboration through Gaussian-Image Synergy in Diffusion Policies</a></td>
+<td nowrap>GauDP uses Gaussian-image synergy inside diffusion policies for multi-agent collaboration.</td>
+<td nowrap>diffusion policy</td>
+<td nowrap>continuous action</td>
+<td nowrap>VLA / diffusion-flow policy</td>
+<td nowrap>Gaussian-image synergy</td>
+<td nowrap>multi-agent diffusion policy</td>
+<td nowrap>multi-agent manipulation tasks</td>
+<td nowrap>Improve collaboration through diffusion policy representation.</td>
+<td nowrap><a href="https://arxiv.org/pdf/2511.00998">paper</a></td>
+<td nowrap>-</td>
+<td nowrap>-</td>
+<td nowrap>-</td>
+<td nowrap>EAI-VLA-VLN</td>
+<td nowrap>Used to compare source-verified CCF A/B work against the corresponding embodied-AI survey direction.</td>
+</tr>
+<tr>
+<td nowrap>CVPR 2024</td>
+<td nowrap><a href="https://openaccess.thecvf.com/content/CVPR2024/html/Ma_Hierarchical_Diffusion_Policy_for_Kinematics-Aware_Multi-Task_Robotic_Manipulation_CVPR_2024_paper.html">Hierarchical Diffusion Policy for Kinematics-Aware Multi-Task Robotic Manipulation</a></td>
+<td nowrap>HDP combines hierarchy and kinematic awareness for multitask robotic manipulation with diffusion policies.</td>
+<td nowrap>diffusion policy</td>
+<td nowrap>continuous action</td>
+<td nowrap>VLA / diffusion-flow policy</td>
+<td nowrap>hierarchical kinematics-aware diffusion</td>
+<td nowrap>multitask robot policy</td>
+<td nowrap>robot manipulation benchmarks</td>
+<td nowrap>Make diffusion policies kinematics-aware for multitask manipulation.</td>
+<td nowrap><a href="https://openaccess.thecvf.com/content/CVPR2024/papers/Ma_Hierarchical_Diffusion_Policy_for_Kinematics-Aware_Multi-Task_Robotic_Manipulation_CVPR_2024_paper.pdf">paper</a></td>
+<td nowrap>-</td>
+<td nowrap>-</td>
+<td nowrap>-</td>
+<td nowrap>EAI-VLA-VLN</td>
+<td nowrap>Used to compare source-verified CCF A/B work against the corresponding embodied-AI survey direction.</td>
+</tr>
+<tr>
 <td nowrap>ICLR 2026</td>
 <td nowrap><a href="https://openreview.net/forum?id=H1KDMNOKQn">HybridVLA: Collaborative Diffusion and Autoregression in a Unified Vision-Language-Action Model</a></td>
-<td nowrap>-</td>
+<td nowrap>HybridVLA combines autoregressive token prediction and diffusion denoising in one VLA backbone to improve continuous robot action generation.</td>
 <td nowrap>No specific base VLA specified.</td>
 <td nowrap>Diffusion / Flow</td>
 <td nowrap>diffusion/flow policy</td>
@@ -3188,7 +3666,7 @@ Total: 63 papers.
 <tr>
 <td nowrap>ICLR 2026</td>
 <td nowrap><a href="https://openreview.net/forum?id=UvQOcw2oCD">Unified Diffusion VLA: Vision-Language-Action Model via Joint Discrete Denosing Diffusion Process</a></td>
-<td nowrap>-</td>
+<td nowrap>Unified Diffusion VLA jointly denoises future visual tokens and action tokens so generation and control reinforce each other.</td>
 <td nowrap>No specific base VLA specified.</td>
 <td nowrap>Diffusion / Flow</td>
 <td nowrap>diffusion/flow policy</td>
@@ -3224,7 +3702,7 @@ Total: 63 papers.
 <tr>
 <td nowrap>ICLR 2026</td>
 <td nowrap><a href="https://openreview.net/forum?id=2RIqqNqALN">When would Vision-Proprioception Policies Fail in Robotic Manipulation?</a></td>
-<td nowrap>-</td>
+<td nowrap>This study analyzes when vision-proprioception policies over-rely on proprioception and fail to use visual cues during robotic manipulation.</td>
 <td nowrap>No specific base VLA specified.</td>
 <td nowrap>Diffusion / Flow</td>
 <td nowrap>diffusion/flow policy</td>
@@ -3260,7 +3738,7 @@ Total: 63 papers.
 <tr>
 <td nowrap>ICLR 2026</td>
 <td nowrap><a href="https://openreview.net/forum?id=BTe5VLBjPg">VITA: Vision-to-Action Flow Matching Policy</a></td>
-<td nowrap>-</td>
+<td nowrap>VITA uses flow matching from visual representations to action latents to reduce conditioning overhead in visuomotor policy generation.</td>
 <td nowrap>-</td>
 <td nowrap>Diffusion / Flow</td>
 <td nowrap>diffusion/flow policy</td>
@@ -3278,7 +3756,7 @@ Total: 63 papers.
 <tr>
 <td nowrap>ICLR 2026</td>
 <td nowrap><a href="https://openreview.net/forum?id=BvirMuKWV1">When a Robot is More Capable than a Human: Learning from Constrained Demonstrators</a></td>
-<td nowrap>-</td>
+<td nowrap>This work learns policies that can surpass constrained demonstrations by accounting for the demonstrator's limited action interface.</td>
 <td nowrap>-</td>
 <td nowrap>AR / Diffusion / Flow</td>
 <td nowrap>diffusion/flow policy</td>
@@ -3314,7 +3792,7 @@ Total: 63 papers.
 <tr>
 <td nowrap>ICLR 2026</td>
 <td nowrap><a href="https://openreview.net/forum?id=IaGf8Eh5Uo">Reference Grounded Skill Discovery</a></td>
-<td nowrap>-</td>
+<td nowrap>Reference Grounded Skill Discovery uses reference motion representations to guide unsupervised skill learning in high-dimensional agents.</td>
 <td nowrap>-</td>
 <td nowrap>Diffusion / Flow</td>
 <td nowrap>diffusion/flow policy</td>
@@ -3332,7 +3810,7 @@ Total: 63 papers.
 <tr>
 <td nowrap>ICLR 2026</td>
 <td nowrap><a href="https://openreview.net/forum?id=KFu4p3pd11">Masked Generative Policy for Robotic Control</a></td>
-<td nowrap>-</td>
+<td nowrap>Masked Generative Policy tokenizes actions and uses masked transformer refinement for fast, coherent visuomotor control.</td>
 <td nowrap>-</td>
 <td nowrap>Diffusion / Flow</td>
 <td nowrap>diffusion/flow policy</td>
@@ -3368,7 +3846,7 @@ Total: 63 papers.
 <tr>
 <td nowrap>ICLR 2026</td>
 <td nowrap><a href="https://openreview.net/forum?id=P9PVdWyM3U">Policy Contrastive Decoding for Robotic Foundation Models</a></td>
-<td nowrap>-</td>
+<td nowrap>Policy Contrastive Decoding steers robotic foundation models at inference by contrasting actions from original and object-masked observations.</td>
 <td nowrap>-</td>
 <td nowrap>Diffusion / Flow</td>
 <td nowrap>diffusion/flow policy</td>
@@ -3386,7 +3864,7 @@ Total: 63 papers.
 <tr>
 <td nowrap>ICLR 2026</td>
 <td nowrap><a href="https://openreview.net/forum?id=PL0tJOfm7I">Demystifying Robot Diffusion Policies: Action Memorization and a Simple Lookup Table Alternative</a></td>
-<td nowrap>-</td>
+<td nowrap>This analysis argues that diffusion policies often behave like useful action lookup tables in sparse imitation settings.</td>
 <td nowrap>No specific base VLA specified.</td>
 <td nowrap>Diffusion / Flow</td>
 <td nowrap>diffusion/flow policy</td>
@@ -3404,7 +3882,7 @@ Total: 63 papers.
 <tr>
 <td nowrap>ICLR 2026</td>
 <td nowrap><a href="https://openreview.net/forum?id=Q1CP0iAmOb">H$^3$DP: Triply‑Hierarchical Diffusion Policy for Visuomotor Learning</a></td>
-<td nowrap>-</td>
+<td nowrap>H^3DP couples depth-aware perception, multi-scale visual features, and hierarchical action denoising for visuomotor diffusion policies.</td>
 <td nowrap>-</td>
 <td nowrap>AR / Diffusion / Flow</td>
 <td nowrap>diffusion/flow policy</td>
@@ -3422,7 +3900,7 @@ Total: 63 papers.
 <tr>
 <td nowrap>ICLR 2026</td>
 <td nowrap><a href="https://openreview.net/forum?id=TnLFRhLuZ6">Compose Your Policies! Improving Diffusion-based or Flow-based Robot Policies via Test-time Distribution-level Composition</a></td>
-<td nowrap>-</td>
+<td nowrap>This method composes diffusion or flow policy distributions at test time to improve behavior without additional training.</td>
 <td nowrap>No specific base VLA specified.</td>
 <td nowrap>Diffusion / Flow</td>
 <td nowrap>diffusion/flow policy</td>
@@ -3440,7 +3918,7 @@ Total: 63 papers.
 <tr>
 <td nowrap>ICLR 2026</td>
 <td nowrap><a href="https://openreview.net/forum?id=VSWjHIveqZ">Abstracting Robot Manipulation Skills via Mixture-of-Experts Diffusion Policies</a></td>
-<td nowrap>-</td>
+<td nowrap>This work uses a mixture-of-experts diffusion policy to learn reusable skill bases and route actions to task-relevant experts.</td>
 <td nowrap>-</td>
 <td nowrap>Diffusion / Flow</td>
 <td nowrap>diffusion/flow policy</td>
@@ -3494,7 +3972,7 @@ Total: 63 papers.
 <tr>
 <td nowrap>ICLR 2026</td>
 <td nowrap><a href="https://openreview.net/forum?id=d08yOXs1Dl">SpikePingpong: Spike Vision-based Fast-Slow Pingpong Robot System</a></td>
-<td nowrap>-</td>
+<td nowrap>SpikePingpong combines event-based fast vision with slower control reasoning for high-speed robotic table-tennis behavior.</td>
 <td nowrap>-</td>
 <td nowrap>Diffusion / Flow</td>
 <td nowrap>diffusion/flow policy</td>
@@ -3512,7 +3990,7 @@ Total: 63 papers.
 <tr>
 <td nowrap>ICLR 2026</td>
 <td nowrap><a href="https://openreview.net/forum?id=dQ6d5bgXtM">Translating Flow to Policy via Hindsight Online Imitation</a></td>
-<td nowrap>-</td>
+<td nowrap>This method improves low-level policies from online rollouts by relabeling achieved outcomes as hindsight goals.</td>
 <td nowrap>-</td>
 <td nowrap>Diffusion / Flow</td>
 <td nowrap>diffusion/flow policy / RL/online fine-tuning</td>
@@ -3548,7 +4026,7 @@ Total: 63 papers.
 <tr>
 <td nowrap>ICLR 2026</td>
 <td nowrap><a href="https://openreview.net/forum?id=iKJbmx1iuQ">Contractive Diffusion Policies</a></td>
-<td nowrap>-</td>
+<td nowrap>Contractive Diffusion Policies regularize diffusion sampling dynamics to make continuous-control action generation more stable.</td>
 <td nowrap>-</td>
 <td nowrap>Diffusion / Flow</td>
 <td nowrap>diffusion/flow policy</td>
@@ -3656,7 +4134,7 @@ Total: 63 papers.
 <tr>
 <td nowrap>AAAI 2026</td>
 <td nowrap><a href="https://ojs.aaai.org/index.php/AAAI/article/view/38881">ManiLong-Shot: Interaction-Aware One-Shot Imitation Learning for Long-Horizon Manipulation</a></td>
-<td nowrap>-</td>
+<td nowrap>ManiLong-Shot decomposes long-horizon one-shot manipulation into interaction-aware primitives that can be transferred from demonstrations.</td>
 <td nowrap>-</td>
 <td nowrap>AR / Diffusion / Flow</td>
 <td nowrap>diffusion/flow policy</td>
@@ -3674,7 +4152,7 @@ Total: 63 papers.
 <tr>
 <td nowrap>AAAI 2026</td>
 <td nowrap><a href="https://ojs.aaai.org/index.php/AAAI/article/view/38889">Learning Diffusion Policy from Primitive Skills for Robot Manipulation</a></td>
-<td nowrap>-</td>
+<td nowrap>This work conditions diffusion policies on interpretable primitive skills to align short-horizon action generation for manipulation.</td>
 <td nowrap>-</td>
 <td nowrap>AR / Diffusion / Flow</td>
 <td nowrap>diffusion/flow policy</td>
@@ -3692,7 +4170,7 @@ Total: 63 papers.
 <tr>
 <td nowrap>AAAI 2026</td>
 <td nowrap><a href="https://ojs.aaai.org/index.php/AAAI/article/view/38912">Intention-Aware Diffusion Model for Pedestrian Trajectory Prediction</a></td>
-<td nowrap>-</td>
+<td nowrap>This model injects short- and long-term pedestrian intentions into diffusion-based trajectory prediction.</td>
 <td nowrap>-</td>
 <td nowrap>AR / Diffusion / Flow</td>
 <td nowrap>diffusion/flow policy</td>
@@ -3710,7 +4188,7 @@ Total: 63 papers.
 <tr>
 <td nowrap>AAAI 2026</td>
 <td nowrap><a href="https://ojs.aaai.org/index.php/AAAI/article/view/38919">MP1: MeanFlow Tames Policy Learning in 1-step for Robotic Manipulation</a></td>
-<td nowrap>-</td>
+<td nowrap>MP1 applies MeanFlow to point-cloud manipulation policies, generating action trajectories in one network evaluation.</td>
 <td nowrap>-</td>
 <td nowrap>AR / Diffusion / Flow</td>
 <td nowrap>diffusion/flow policy</td>
@@ -3728,7 +4206,7 @@ Total: 63 papers.
 <tr>
 <td nowrap>AAAI 2026</td>
 <td nowrap><a href="https://ojs.aaai.org/index.php/AAAI/article/view/38934">ForeDiffusion: Foresight-Conditioned Diffusion Policy via Future View Construction for Robot Manipulation</a></td>
-<td nowrap>-</td>
+<td nowrap>ForeDiffusion conditions diffusion policies on predicted future views to reduce error accumulation in manipulation.</td>
 <td nowrap>-</td>
 <td nowrap>Diffusion / Flow</td>
 <td nowrap>diffusion/flow policy</td>
@@ -3764,7 +4242,7 @@ Total: 63 papers.
 <tr>
 <td nowrap>AAAI 2026</td>
 <td nowrap><a href="https://ojs.aaai.org/index.php/AAAI/article/view/38950">Bridging Scale Discrepancies in Robotic Control via Language-Based Action Representations</a></td>
-<td nowrap>-</td>
+<td nowrap>This work converts robot actions into language-based representations to reduce scale mismatch across tasks and platforms.</td>
 <td nowrap>-</td>
 <td nowrap>Diffusion / Flow</td>
 <td nowrap>diffusion/flow policy</td>
@@ -3782,7 +4260,7 @@ Total: 63 papers.
 <tr>
 <td nowrap>AAAI 2026</td>
 <td nowrap><a href="https://ojs.aaai.org/index.php/AAAI/article/view/38959">D²PPO: Diffusion Policy Policy Optimization with Dispersive Loss</a></td>
-<td nowrap>-</td>
+<td nowrap>D2PPO adds dispersive-loss regularization to diffusion policy optimization to prevent representation collapse during manipulation learning.</td>
 <td nowrap>-</td>
 <td nowrap>Diffusion / Flow</td>
 <td nowrap>diffusion/flow policy</td>
@@ -3800,7 +4278,7 @@ Total: 63 papers.
 <tr>
 <td nowrap>ICML 2026</td>
 <td nowrap><a href="https://icml.cc/virtual/2026/poster/62902">Discrete Diffusion VLA: Bringing Discrete Diffusion to Action Decoding in Vision-Language-Action Policies</a></td>
-<td nowrap>-</td>
+<td nowrap>Discrete Diffusion VLA models discretized action chunks with in-backbone discrete diffusion for parallel, error-correcting VLA action decoding.</td>
 <td nowrap>No specific base VLA specified.</td>
 <td nowrap>Diffusion / Flow</td>
 <td nowrap>VLA / diffusion policy / diffusion/flow policy</td>
@@ -3818,7 +4296,7 @@ Total: 63 papers.
 <tr>
 <td nowrap>ICML 2026</td>
 <td nowrap><a href="https://icml.cc/virtual/2026/poster/61717">STEP: Warm-Started Visuomotor Policies with Spatiotemporal Consistency Prediction</a></td>
-<td nowrap>-</td>
+<td nowrap>STEP warm-starts diffusion policies with spatiotemporally consistent actions to cut closed-loop inference latency.</td>
 <td nowrap>-</td>
 <td nowrap>AR / Diffusion / Flow</td>
 <td nowrap>diffusion/flow policy</td>
@@ -3836,7 +4314,7 @@ Total: 63 papers.
 <tr>
 <td nowrap>ICML 2026</td>
 <td nowrap><a href="https://icml.cc/virtual/2026/poster/61049">Learning Human-Robot Collaboration via Heterogeneous-Agent Lyapunov Policy Optimization</a></td>
-<td nowrap>-</td>
+<td nowrap>HALyPO stabilizes heterogeneous human-robot multi-agent policy optimization with Lyapunov-style disagreement control.</td>
 <td nowrap>-</td>
 <td nowrap>AR / Diffusion / Flow</td>
 <td nowrap>diffusion/flow policy</td>
@@ -3908,7 +4386,7 @@ Total: 63 papers.
 <tr>
 <td nowrap>NeurIPS 2025</td>
 <td nowrap><a href="https://arxiv.org/abs/2509.00117">Emerging Risks from Embodied AI Require Urgent Policy Action</a></td>
-<td nowrap>-</td>
+<td nowrap>This policy analysis maps physical, surveillance, and societal risks from embodied AI and calls for targeted governance.</td>
 <td nowrap>-</td>
 <td nowrap>Diffusion / Flow</td>
 <td nowrap>diffusion/flow policy</td>
@@ -3944,7 +4422,7 @@ Total: 63 papers.
 <tr>
 <td nowrap>NeurIPS 2025</td>
 <td nowrap><a href="https://arxiv.org/abs/2512.00085">Hyper-GoalNet: Goal-Conditioned Manipulation Policy Learning with HyperNetworks</a></td>
-<td nowrap>-</td>
+<td nowrap>Hyper-GoalNet uses hypernetworks to generate goal-specific manipulation policy parameters from goal descriptions.</td>
 <td nowrap>-</td>
 <td nowrap>AR / Diffusion / Flow</td>
 <td nowrap>diffusion/flow policy</td>
@@ -3980,7 +4458,7 @@ Total: 63 papers.
 <tr>
 <td nowrap>NeurIPS 2025</td>
 <td nowrap><a href="https://arxiv.org/abs/2505.13431">A Practical Guide for Incorporating Symmetry in Diffusion Policy</a></td>
-<td nowrap>-</td>
+<td nowrap>This guide evaluates lightweight ways to add symmetry priors to diffusion policies without full equivariant architectures.</td>
 <td nowrap>-</td>
 <td nowrap>Diffusion / Flow</td>
 <td nowrap>diffusion policy / diffusion/flow policy</td>
@@ -3998,7 +4476,7 @@ Total: 63 papers.
 <tr>
 <td nowrap>NeurIPS 2025</td>
 <td nowrap><a href="https://arxiv.org/abs/2509.25822">Act to See, See to Act: Diffusion-Driven Perception-Action Interplay for Adaptive Policies</a></td>
-<td nowrap>-</td>
+<td nowrap>DP-AG models perception-action feedback with action-guided diffusion dynamics for more adaptive imitation policies.</td>
 <td nowrap>-</td>
 <td nowrap>Diffusion / Flow</td>
 <td nowrap>diffusion policy / diffusion/flow policy</td>
@@ -4016,7 +4494,7 @@ Total: 63 papers.
 <tr>
 <td nowrap>NeurIPS 2025</td>
 <td nowrap><a href="https://arxiv.org/abs/2511.20906">DASIP: Dynamic Test-Time Compute Scaling for Robot Control with Stochastic Interpolant Policies</a></td>
-<td nowrap>-</td>
+<td nowrap>DASIP adjusts stochastic-interpolant policy compute at test time according to estimated manipulation difficulty.</td>
 <td nowrap>-</td>
 <td nowrap>AR / Diffusion / Flow</td>
 <td nowrap>diffusion/flow policy</td>
@@ -4052,7 +4530,7 @@ Total: 63 papers.
 <tr>
 <td nowrap>ICCV 2025</td>
 <td nowrap><a href="https://arxiv.org/abs/2503.19757">Dita: Scaling Diffusion Transformer for Generalist Vision-Language-Action Policy</a></td>
-<td nowrap>-</td>
+<td nowrap>Dita scales diffusion transformers to denoise continuous action sequences inside a generalist VLA policy.</td>
 <td nowrap>No specific base VLA specified.</td>
 <td nowrap>Diffusion / Flow</td>
 <td nowrap>VLA / diffusion policy / diffusion transformer / diffusion/flow policy</td>
@@ -4070,7 +4548,7 @@ Total: 63 papers.
 <tr>
 <td nowrap>ICCV 2025</td>
 <td nowrap><a href="https://iccv.thecvf.com/virtual/2025/poster/1571">SD2Actor: Continuous State Decomposition via Diffusion Embeddings for Robotic Manipulation</a></td>
-<td nowrap>-</td>
+<td nowrap>SD2Actor decomposes object states with diffusion embeddings to generate zero-shot continuous manipulation actions.</td>
 <td nowrap>-</td>
 <td nowrap>Diffusion / Flow</td>
 <td nowrap>VLA / diffusion policy / diffusion/flow policy</td>
@@ -4142,7 +4620,7 @@ Total: 63 papers.
 <tr>
 <td nowrap>ICCV 2025</td>
 <td nowrap><a href="https://arxiv.org/abs/2507.04331">Wavelet Policy: Lifting Scheme for Policy Learning in Long-Horizon Tasks</a></td>
-<td nowrap>-</td>
+<td nowrap>Wavelet Policy uses learnable multi-scale wavelet transforms to improve long-horizon policy learning.</td>
 <td nowrap>-</td>
 <td nowrap>AR / Diffusion / Flow</td>
 <td nowrap>diffusion/flow policy</td>
@@ -4214,7 +4692,7 @@ Total: 63 papers.
 <tr>
 <td nowrap>CVPR 2025</td>
 <td nowrap><a href="https://openaccess.thecvf.com/content/CVPR2025/papers/Tian_PDFactor_Learning_Tri-Perspective_View_Policy_Diffusion_Field_for_Multi-Task_Robotic_CVPR_2025_paper.pdf">PDFactor: Learning Tri-Perspective View Policy Diffusion Field for Multi-Task Robotic Manipulation</a></td>
-<td nowrap>-</td>
+<td nowrap>PDFactor represents 3D action distributions as tri-perspective diffusion fields for efficient multi-task manipulation.</td>
 <td nowrap>-</td>
 <td nowrap>AR / Diffusion / Flow</td>
 <td nowrap>diffusion policy / diffusion/flow policy</td>
@@ -4286,7 +4764,7 @@ Total: 63 papers.
 <tr>
 <td nowrap>CVPR 2025</td>
 <td nowrap><a href="https://arxiv.org/abs/2505.13091">Touch2Shape: Touch-Conditioned 3D Diffusion for Shape Exploration and Reconstruction</a></td>
-<td nowrap>-</td>
+<td nowrap>Touch2Shape conditions 3D diffusion on tactile observations to explore and reconstruct object shape.</td>
 <td nowrap>-</td>
 <td nowrap>Diffusion / Flow</td>
 <td nowrap>diffusion policy / 3D representation / diffusion/flow policy</td>
@@ -4306,7 +4784,7 @@ Total: 63 papers.
 
 #### 3D grounding
 
-Total: 30 papers.
+Total: 31 papers.
 
 <table>
 <thead>
@@ -4331,16 +4809,34 @@ Total: 30 papers.
 </thead>
 <tbody>
 <tr>
+<td nowrap>ICML 2024</td>
+<td nowrap><a href="https://proceedings.mlr.press/v235/zhen24a.html">3D-VLA: A 3D Vision-Language-Action Generative World Model</a></td>
+<td nowrap>3D-VLA builds a 3D generative world model for vision-language-action manipulation.</td>
+<td nowrap>3D VLA</td>
+<td nowrap>3D grounded action</td>
+<td nowrap>3D grounding / world model</td>
+<td nowrap>3D generative world modeling</td>
+<td nowrap>3D VLA policy</td>
+<td nowrap>robot manipulation benchmarks</td>
+<td nowrap>Ground VLA action generation in 3D world representations.</td>
+<td nowrap><a href="https://proceedings.mlr.press/v235/zhen24a/zhen24a.pdf">paper</a></td>
+<td nowrap>-</td>
+<td nowrap>-</td>
+<td nowrap>-</td>
+<td nowrap>Awesome-EAI, Awesome-VLA</td>
+<td nowrap>Used to compare source-verified CCF A/B work against the corresponding embodied-AI survey direction.</td>
+</tr>
+<tr>
 <td nowrap>IROS 2026</td>
 <td nowrap><a href="https://arxiv.org/abs/2606.26800">SSI-Policy: Learning Structured Scene Interfaces for Vision-Language Robotic Manipulation</a></td>
-<td nowrap>SSI-Policy 用结构化场景接口连接视觉语言推理和低数据机器人操作策略学习。</td>
+<td nowrap>SSI-Policy connects vision-language reasoning with low-data robot manipulation policy learning through structured scene interfaces.</td>
 <td nowrap>vision-language policy</td>
 <td nowrap>continuous action</td>
 <td nowrap>3D grounding / structured scene interface</td>
 <td nowrap>scene-interface policy learning</td>
 <td nowrap>structured VLA policy</td>
 <td nowrap>Real robot manipulation</td>
-<td nowrap>用结构化场景表示提升低数据机器人操作泛化。</td>
+<td nowrap>Use structured scene representations to improve low-data manipulation generalization.</td>
 <td nowrap><a href="https://arxiv.org/abs/2606.26800">paper</a></td>
 <td nowrap>-</td>
 <td nowrap>-</td>
@@ -4351,14 +4847,14 @@ Total: 30 papers.
 <tr>
 <td nowrap>ICRA 2025</td>
 <td nowrap><a href="https://kalie-vlm.github.io/">KALIE: Fine-Tuning Vision-Language Models for Open-World Manipulation without Robot Data</a></td>
-<td nowrap>KALIE 用 VLM 预测语言条件点式 affordance，通过合成数据支持开放世界机器人操作。</td>
+<td nowrap>KALIE fine-tunes VLMs to predict language-conditioned point affordances, using synthetic data for open-world manipulation.</td>
 <td nowrap>VLM</td>
 <td nowrap>affordance point</td>
 <td nowrap>3D grounding / affordance grounding</td>
 <td nowrap>synthetic data fine-tuning</td>
 <td nowrap>affordance-conditioned manipulation</td>
 <td nowrap>Real robot manipulation</td>
-<td nowrap>不用真实机器人数据学习语言条件 affordance。</td>
+<td nowrap>Learn language-conditioned affordances without real robot data.</td>
 <td nowrap><a href="https://kalie-vlm.github.io/">paper</a></td>
 <td nowrap><a href="https://kalie-vlm.github.io/">project</a></td>
 <td nowrap><a href="https://github.com/gractang/kalie">code</a></td>
@@ -4549,7 +5045,7 @@ Total: 30 papers.
 <tr>
 <td nowrap>AAAI 2026</td>
 <td nowrap><a href="https://ojs.aaai.org/index.php/AAAI/article/view/38921">ReconVLA: Reconstructive Vision-Language-Action Model as Effective Robot Perceiver</a></td>
-<td nowrap>-</td>
+<td nowrap>ReconVLA reconstructs target gaze regions to improve visual grounding in vision-language-action robot policies.</td>
 <td nowrap>No specific base VLA specified.</td>
 <td nowrap>3D/spatial grounding</td>
 <td nowrap>3D representation / 3D grounding</td>
@@ -4567,7 +5063,7 @@ Total: 30 papers.
 <tr>
 <td nowrap>AAAI 2026</td>
 <td nowrap><a href="https://ojs.aaai.org/index.php/AAAI/article/view/38939">Indoor Multi-View Radar Object Detection via 3D Bounding Box Diffusion</a></td>
-<td nowrap>-</td>
+<td nowrap>REXO lifts diffusion-based 3D bounding boxes into multi-view radar perception for indoor object detection.</td>
 <td nowrap>-</td>
 <td nowrap>AR / Diffusion / Flow</td>
 <td nowrap>3D representation / diffusion/flow policy</td>
@@ -4585,7 +5081,7 @@ Total: 30 papers.
 <tr>
 <td nowrap>AAAI 2026</td>
 <td nowrap><a href="https://ojs.aaai.org/index.php/AAAI/article/view/38946">RaLD: Generating High-Resolution 3D Radar Point Clouds with Latent Diffusion</a></td>
-<td nowrap>-</td>
+<td nowrap>RaLD uses latent diffusion to generate denser, higher-resolution 3D radar point clouds.</td>
 <td nowrap>-</td>
 <td nowrap>AR / Diffusion / Flow</td>
 <td nowrap>3D representation / diffusion/flow policy</td>
@@ -4603,7 +5099,7 @@ Total: 30 papers.
 <tr>
 <td nowrap>AAAI 2026</td>
 <td nowrap><a href="https://ojs.aaai.org/index.php/AAAI/article/view/38947">Grounding Actions in Camera Space: Observation-Centric Vision-Language-Action Policy</a></td>
-<td nowrap>-</td>
+<td nowrap>OC-VLA predicts actions in camera coordinates to reduce observation-action spatial inconsistency in VLA policies.</td>
 <td nowrap>No specific base VLA specified.</td>
 <td nowrap>3D/spatial grounding</td>
 <td nowrap>3D representation / 3D grounding</td>
@@ -4639,7 +5135,7 @@ Total: 30 papers.
 <tr>
 <td nowrap>NeurIPS 2025</td>
 <td nowrap><a href="https://neurips.cc/virtual/2025/loc/san-diego/poster/118141">Building 3D Representations and Generating Motions From a Single Image via Video-Generation</a></td>
-<td nowrap>-</td>
+<td nowrap>VGER uses video generation from a single RGB image to build 3D scene representations for collision-free motion.</td>
 <td nowrap>-</td>
 <td nowrap>-</td>
 <td nowrap>3D representation / 3D grounding</td>
@@ -4801,7 +5297,7 @@ Total: 30 papers.
 <tr>
 <td nowrap>CVPR 2025</td>
 <td nowrap><a href="https://arxiv.org/pdf/2504.21530">RoboGround: Robot Manipulation with Grounded Vision-Language Priors</a></td>
-<td nowrap>-</td>
+<td nowrap>RoboGround uses vision-language grounding masks as intermediate spatial priors for generalizable manipulation policies.</td>
 <td nowrap>-</td>
 <td nowrap>-</td>
 <td nowrap>VLA / 3D grounding</td>
@@ -4875,7 +5371,7 @@ Total: 30 papers.
 
 #### online/RL fine-tuning
 
-Total: 13 papers.
+Total: 16 papers.
 
 <table>
 <thead>
@@ -4900,16 +5396,52 @@ Total: 13 papers.
 </thead>
 <tbody>
 <tr>
+<td nowrap>ICML 2024</td>
+<td nowrap><a href="https://proceedings.mlr.press/v235/springenberg24a.html">Offline Actor-Critic Reinforcement Learning Scales to Large Models</a></td>
+<td nowrap>This work studies scaling offline actor-critic reinforcement learning to large model policies.</td>
+<td nowrap>large policy model</td>
+<td nowrap>policy action</td>
+<td nowrap>offline RL / VLA post-training</td>
+<td nowrap>offline actor-critic</td>
+<td nowrap>model-based or actor-critic RL</td>
+<td nowrap>offline RL benchmarks</td>
+<td nowrap>Understand how large policies can be improved with offline RL.</td>
+<td nowrap><a href="https://arxiv.org/abs/2402.05546">paper</a></td>
+<td nowrap>-</td>
+<td nowrap>-</td>
+<td nowrap>-</td>
+<td nowrap>RL-VLA</td>
+<td nowrap>Used to compare source-verified CCF A/B work against the corresponding embodied-AI survey direction.</td>
+</tr>
+<tr>
+<td nowrap>CVPR 2026</td>
+<td nowrap><a href="https://arxiv.org/abs/2512.23703">General Process Reward Modeling for Robotic Reinforcement Learning</a></td>
+<td nowrap>GPRM builds process reward models for robotic reinforcement learning and policy improvement.</td>
+<td nowrap>robot policy</td>
+<td nowrap>robot action</td>
+<td nowrap>VLA / RL / reward modeling</td>
+<td nowrap>process reward modeling</td>
+<td nowrap>robotic RL</td>
+<td nowrap>robot RL benchmarks</td>
+<td nowrap>Use process-level rewards to improve robotic policy learning.</td>
+<td nowrap><a href="https://arxiv.org/abs/2512.23703">paper</a></td>
+<td nowrap>-</td>
+<td nowrap>-</td>
+<td nowrap>-</td>
+<td nowrap>RL-VLA</td>
+<td nowrap>Used to compare source-verified CCF A/B work against the corresponding embodied-AI survey direction.</td>
+</tr>
+<tr>
 <td nowrap>IROS 2026</td>
 <td nowrap><a href="https://arxiv.org/abs/2503.05833">Refined Policy Distillation: From VLA Generalists to RL Experts</a></td>
-<td nowrap>RPD 将 Octo/OpenVLA 等通用 VLA 通过 RL 蒸馏成任务专家策略。</td>
+<td nowrap>RPD distills generalist VLAs such as Octo and OpenVLA into task-specialist policies through reinforcement learning.</td>
 <td nowrap>Octo / OpenVLA</td>
 <td nowrap>policy action</td>
 <td nowrap>RL distillation / online fine-tuning</td>
 <td nowrap>Refined Policy Distillation</td>
 <td nowrap>RL expert policy</td>
 <td nowrap>Sim + Real</td>
-<td nowrap>把通用 VLA 迁移为更强的任务专家策略。</td>
+<td nowrap>Transfer generalist VLAs into stronger task-specialist policies.</td>
 <td nowrap><a href="https://arxiv.org/abs/2503.05833">paper</a></td>
 <td nowrap><a href="https://refined-policy-distillation.github.io/">project</a></td>
 <td nowrap><a href="https://github.com/Refined-Policy-Distillation/RPD">code</a></td>
@@ -5064,7 +5596,7 @@ Total: 13 papers.
 <tr>
 <td nowrap>AAAI 2026</td>
 <td nowrap><a href="https://ojs.aaai.org/index.php/AAAI/article/view/38876">Steering Visuomotor Policy in Open Worlds via Cross-View Goal Alignment</a></td>
-<td nowrap>-</td>
+<td nowrap>This method lets users specify goals from their own camera view and aligns them to the agent view for open-world visuomotor control.</td>
 <td nowrap>-</td>
 <td nowrap>policy action</td>
 <td nowrap>VLA / RL / Online Fine-tuning</td>
@@ -5082,7 +5614,7 @@ Total: 13 papers.
 <tr>
 <td nowrap>ICML 2026</td>
 <td nowrap><a href="https://icml.cc/virtual/2026/poster/63131">HIER: Human-in-the-Loop Imagination-Execution Refinement for General Real-World Vision-Language-Action Models</a></td>
-<td nowrap>-</td>
+<td nowrap>HIER iteratively refines real-world VLA behavior with human-in-the-loop imagination, execution, and feedback.</td>
 <td nowrap>-</td>
 <td nowrap>-</td>
 <td nowrap>VLA / RL / Online Fine-tuning</td>
@@ -5100,7 +5632,7 @@ Total: 13 papers.
 <tr>
 <td nowrap>NeurIPS 2025</td>
 <td nowrap><a href="https://openreview.net/forum?id=RkdTtznSAL">Real-World Reinforcement Learning of Active Perception Behaviors</a></td>
-<td nowrap>-</td>
+<td nowrap>This work trains active perception policies in the real world using privileged training signals and asymmetric advantage-weighted regression.</td>
 <td nowrap>-</td>
 <td nowrap>AR</td>
 <td nowrap>RL / Online Fine-tuning</td>
@@ -5113,6 +5645,24 @@ Total: 13 papers.
 <td nowrap>-</td>
 <td nowrap>-</td>
 <td nowrap>HCP-Survey, Awesome-EAI, EAI-VLA-VLN, Awesome-VLA, Efficient-VLA, Robot-Learning, Humanoid-RL, EAI-Safety, WAM, RL-VLA</td>
+<td nowrap>Used to compare VLA progress in generalization, action representation, and execution stability.</td>
+</tr>
+<tr>
+<td nowrap>NeurIPS 2025</td>
+<td nowrap><a href="https://arxiv.org/abs/2505.19789">What Can RL Bring to VLA Generalization? An Empirical Study</a></td>
+<td nowrap>RLVLA studies how PPO, GRPO, and DPO-style reinforcement learning affect VLA cross-task generalization.</td>
+<td nowrap>OpenVLA</td>
+<td nowrap>AR</td>
+<td nowrap>VLA / RL / Online Fine-tuning</td>
+<td nowrap>PPO / GRPO / DPO</td>
+<td nowrap>Hybrid / MF</td>
+<td nowrap>Sim ✓ (MT)</td>
+<td nowrap>Measure what reinforcement learning contributes to VLA generalization.</td>
+<td nowrap><a href="https://arxiv.org/abs/2505.19789">paper</a></td>
+<td nowrap>-</td>
+<td nowrap><a href="https://github.com/gen-robot/RL4VLA">code</a></td>
+<td nowrap>-</td>
+<td nowrap>RL-VLA</td>
 <td nowrap>Used to compare VLA progress in generalization, action representation, and execution stability.</td>
 </tr>
 <tr>
@@ -5138,7 +5688,7 @@ Total: 13 papers.
 
 #### Safety and Robustness
 
-Total: 4 papers.
+Total: 7 papers.
 
 <table>
 <thead>
@@ -5163,16 +5713,52 @@ Total: 4 papers.
 </thead>
 <tbody>
 <tr>
+<td nowrap>NeurIPS 2024</td>
+<td nowrap><a href="https://proceedings.neurips.cc/paper_files/paper/2024/hash/d83fd70a31c64e020844ec80705ba87f-Abstract-Conference.html">Diffusion Policy Attacker: Crafting Adversarial Attacks for Diffusion-based Policies</a></td>
+<td nowrap>DPA studies adversarial attacks against diffusion-based robot policies.</td>
+<td nowrap>diffusion policy</td>
+<td nowrap>continuous action</td>
+<td nowrap>VLA / safety and robustness</td>
+<td nowrap>diffusion policy attack</td>
+<td nowrap>adversarial robustness evaluation</td>
+<td nowrap>robot policy benchmarks</td>
+<td nowrap>Evaluate attack surfaces in diffusion-based robot policies.</td>
+<td nowrap><a href="https://arxiv.org/abs/2405.19424">paper</a></td>
+<td nowrap>-</td>
+<td nowrap>-</td>
+<td nowrap>-</td>
+<td nowrap>EAI-Safety</td>
+<td nowrap>Used to compare source-verified CCF A/B work against the corresponding embodied-AI survey direction.</td>
+</tr>
+<tr>
+<td nowrap>ICLR 2026</td>
+<td nowrap><a href="https://openreview.net/forum?id=OwinX7PI83">BEAT: Visual Backdoor Attacks on VLM-based Embodied Agents via Contrastive Trigger Learning</a></td>
+<td nowrap>BEAT crafts visual backdoor attacks for VLM-based embodied agents using contrastive trigger learning.</td>
+<td nowrap>VLM embodied agent</td>
+<td nowrap>policy action</td>
+<td nowrap>VLA / safety and robustness</td>
+<td nowrap>contrastive trigger learning</td>
+<td nowrap>backdoor attack evaluation</td>
+<td nowrap>embodied agent benchmarks</td>
+<td nowrap>Expose visual backdoor risks in embodied VLM agents.</td>
+<td nowrap><a href="https://arxiv.org/abs/2510.27623">paper</a></td>
+<td nowrap>-</td>
+<td nowrap>-</td>
+<td nowrap>-</td>
+<td nowrap>EAI-Safety</td>
+<td nowrap>Used to compare source-verified CCF A/B work against the corresponding embodied-AI survey direction.</td>
+</tr>
+<tr>
 <td nowrap>ICRA 2025</td>
 <td nowrap><a href="https://ieeexplore.ieee.org/document/11128017/">Run-time Observation Interventions Make Vision-Language-Action Models More Visually Robust</a></td>
-<td nowrap>BYOVLA 在运行时识别并编辑任务无关视觉区域，提升 Octo/OpenVLA 对视觉干扰的鲁棒性。</td>
+<td nowrap>BYOVLA identifies and edits task-irrelevant visual regions at runtime to make Octo/OpenVLA more robust to visual distractors.</td>
 <td nowrap>Octo / OpenVLA</td>
 <td nowrap>AR / policy action</td>
 <td nowrap>VLA / safety and robustness</td>
 <td nowrap>run-time observation intervention</td>
 <td nowrap>robust VLA execution</td>
 <td nowrap>Real robot manipulation</td>
-<td nowrap>降低真实部署中无关视觉扰动导致的 VLA 失败。</td>
+<td nowrap>Reduce VLA failures caused by irrelevant visual perturbations during real-world deployment.</td>
 <td nowrap><a href="https://ieeexplore.ieee.org/document/11128017/">paper</a></td>
 <td nowrap><a href="https://aasherh.github.io/byovla/">project</a></td>
 <td nowrap><a href="https://github.com/irom-princeton/byovla">code</a></td>
@@ -5196,6 +5782,24 @@ Total: 4 papers.
 <td nowrap>-</td>
 <td nowrap>-</td>
 <td nowrap>-</td>
+<td nowrap>Used to compare VLA progress in generalization, action representation, and execution stability.</td>
+</tr>
+<tr>
+<td nowrap>NeurIPS 2025</td>
+<td nowrap><a href="https://arxiv.org/abs/2503.03480">SafeVLA: Towards Safety Alignment of Vision-Language-Action Model via Constrained Learning</a></td>
+<td nowrap>SafeVLA aligns VLA policies with safety constraints through constrained reinforcement learning.</td>
+<td nowrap>SPOC</td>
+<td nowrap>AR</td>
+<td nowrap>VLA / safety and robustness</td>
+<td nowrap>PPO with constrained learning</td>
+<td nowrap>On-policy / MF</td>
+<td nowrap>Sim ✓ (ST)</td>
+<td nowrap>Improve safety alignment of VLA policies before deployment.</td>
+<td nowrap><a href="https://arxiv.org/abs/2503.03480">paper</a></td>
+<td nowrap><a href="https://sites.google.com/view/pku-safevla">project</a></td>
+<td nowrap>-</td>
+<td nowrap>-</td>
+<td nowrap>RL-VLA, EAI-Safety</td>
 <td nowrap>Used to compare VLA progress in generalization, action representation, and execution stability.</td>
 </tr>
 <tr>
@@ -5243,7 +5847,7 @@ WAM combines future world-state prediction with action generation and fits natur
 
 Subdirections: cascaded WAM, joint WAM, video/latent world model, world model for VLA, and world model evaluation.
 
-Total: 51 papers.
+Total: 64 papers.
 
 <table>
 <thead>
@@ -5266,12 +5870,12 @@ Total: 51 papers.
 </tr>
 <tr>
 <td nowrap>video/latent world model</td>
-<td nowrap>14</td>
+<td nowrap>27</td>
 <td nowrap>Look at the quality of future-video or latent-state prediction.</td>
 </tr>
 <tr>
 <td nowrap>world model for VLA</td>
-<td nowrap>9</td>
+<td nowrap>10</td>
 <td nowrap>Look at how world models support VLA decision-making.</td>
 </tr>
 </tbody>
@@ -5305,13 +5909,13 @@ Total: 24 papers.
 <tr>
 <td nowrap>ICRA 2025</td>
 <td nowrap><a href="https://nvlabs.github.io/X-MOBILITY/">X-MOBILITY: End-To-End Generalizable Navigation via World Modeling</a></td>
-<td nowrap>X-MOBILITY 用自回归 latent world model 解耦世界动态学习和动作策略，支持 zero-shot sim2real 导航。</td>
+<td nowrap>X-MOBILITY uses an autoregressive latent world model to separate world dynamics learning from action policy learning for zero-shot sim-to-real navigation.</td>
 <td nowrap>navigation world model</td>
 <td nowrap>latent future state</td>
 <td nowrap>navigation action</td>
 <td nowrap>navigation policy imagination</td>
 <td nowrap>Sim + Real</td>
-<td nowrap>通过世界模型提升端到端导航泛化和 sim2real。</td>
+<td nowrap>Improve end-to-end navigation generalization and sim-to-real transfer through world modeling.</td>
 <td nowrap><a href="https://nvlabs.github.io/X-MOBILITY/">paper</a></td>
 <td nowrap><a href="https://nvlabs.github.io/X-MOBILITY/">project</a></td>
 <td nowrap><a href="https://github.com/NVlabs/X-MOBILITY">code</a></td>
@@ -5794,7 +6398,7 @@ Total: 3 papers.
 
 #### video/latent world model
 
-Total: 14 papers.
+Total: 27 papers.
 
 <table>
 <thead>
@@ -5818,15 +6422,249 @@ Total: 14 papers.
 </thead>
 <tbody>
 <tr>
+<td nowrap>NeurIPS 2023</td>
+<td nowrap><a href="https://arxiv.org/abs/2302.00111">Learning Universal Policies via Text-Guided Video Generation</a></td>
+<td nowrap>This work learns policies by using text-guided video generation as an intermediate representation.</td>
+<td nowrap>video/latent world model</td>
+<td nowrap>text-guided generated video</td>
+<td nowrap>video-conditioned action</td>
+<td nowrap>policy learning from generated video</td>
+<td nowrap>robot policy learning</td>
+<td nowrap>robot manipulation tasks</td>
+<td nowrap>Use generated videos as guidance for policy learning.</td>
+<td nowrap><a href="https://arxiv.org/abs/2302.00111">paper</a></td>
+<td nowrap>-</td>
+<td nowrap>-</td>
+<td nowrap>-</td>
+<td nowrap>WAM, EAI-VLA-VLN</td>
+<td nowrap>Used to compare source-verified CCF A/B work against the corresponding embodied-AI survey direction.</td>
+</tr>
+<tr>
+<td nowrap>ICLR 2024</td>
+<td nowrap><a href="https://arxiv.org/abs/2310.10625">Video Language Planning</a></td>
+<td nowrap>Video Language Planning uses video prediction and language goals to support planning.</td>
+<td nowrap>video/latent world model</td>
+<td nowrap>future video</td>
+<td nowrap>language-conditioned plan/action</td>
+<td nowrap>video-language planning</td>
+<td nowrap>embodied planning</td>
+<td nowrap>planning benchmarks</td>
+<td nowrap>Plan with predicted video futures and language instructions.</td>
+<td nowrap><a href="https://arxiv.org/abs/2310.10625">paper</a></td>
+<td nowrap>-</td>
+<td nowrap>-</td>
+<td nowrap>-</td>
+<td nowrap>WAM</td>
+<td nowrap>Used to compare source-verified CCF A/B work against the corresponding embodied-AI survey direction.</td>
+</tr>
+<tr>
+<td nowrap>ICML 2026</td>
+<td nowrap><a href="https://openreview.net/forum?id=CKpqRFTRfc">MVISTA-4D: View-Consistent 4D World Model with Test-Time Action Inference for Robotic Manipulation</a></td>
+<td nowrap>MVISTA-4D builds a view-consistent 4D world model and infers manipulation actions at test time.</td>
+<td nowrap>video/latent world model</td>
+<td nowrap>4D view-consistent world state</td>
+<td nowrap>test-time action inference</td>
+<td nowrap>4D world modeling</td>
+<td nowrap>robot manipulation</td>
+<td nowrap>robot manipulation benchmarks</td>
+<td nowrap>Use 4D world prediction to infer robot actions.</td>
+<td nowrap><a href="https://openreview.net/forum?id=CKpqRFTRfc">paper</a></td>
+<td nowrap>-</td>
+<td nowrap>-</td>
+<td nowrap>-</td>
+<td nowrap>WAM</td>
+<td nowrap>Used to compare source-verified CCF A/B work against the corresponding embodied-AI survey direction.</td>
+</tr>
+<tr>
+<td nowrap>ICLR 2024</td>
+<td nowrap><a href="https://arxiv.org/abs/2312.13139">Unleashing Large-Scale Video Generative Pre-training for Visual Robot Manipulation</a></td>
+<td nowrap>This work transfers large-scale video generative pretraining to visual robot manipulation.</td>
+<td nowrap>video/latent world model</td>
+<td nowrap>pretrained video generative model</td>
+<td nowrap>robot action head</td>
+<td nowrap>video generative pretraining</td>
+<td nowrap>visual robot manipulation</td>
+<td nowrap>robot manipulation benchmarks</td>
+<td nowrap>Leverage video generation pretraining for robot manipulation.</td>
+<td nowrap><a href="https://arxiv.org/abs/2312.13139">paper</a></td>
+<td nowrap>-</td>
+<td nowrap>-</td>
+<td nowrap>-</td>
+<td nowrap>WAM</td>
+<td nowrap>Used to compare source-verified CCF A/B work against the corresponding embodied-AI survey direction.</td>
+</tr>
+<tr>
+<td nowrap>NeurIPS 2024</td>
+<td nowrap><a href="https://arxiv.org/abs/2411.18179">Prediction with Action: Visual Policy Learning via Joint Denoising Process</a></td>
+<td nowrap>Prediction with Action jointly denoises future visual predictions and actions for policy learning.</td>
+<td nowrap>video/latent world model</td>
+<td nowrap>visual prediction latents</td>
+<td nowrap>joint denoising action</td>
+<td nowrap>joint video-action denoising</td>
+<td nowrap>visual policy learning</td>
+<td nowrap>robot policy benchmarks</td>
+<td nowrap>Couple future prediction with action generation.</td>
+<td nowrap><a href="https://arxiv.org/abs/2411.18179">paper</a></td>
+<td nowrap>-</td>
+<td nowrap>-</td>
+<td nowrap>-</td>
+<td nowrap>WAM</td>
+<td nowrap>Used to compare source-verified CCF A/B work against the corresponding embodied-AI survey direction.</td>
+</tr>
+<tr>
+<td nowrap>ICLR 2025</td>
+<td nowrap><a href="https://openreview.net/forum?id=3RSLW9YSgk">Dream to Manipulate: Compositional World Models Empowering Robot Imitation Learning with Imagination</a></td>
+<td nowrap>Dream to Manipulate uses compositional world models to augment robot imitation learning with imagined rollouts.</td>
+<td nowrap>video/latent world model</td>
+<td nowrap>compositional imagined state</td>
+<td nowrap>imitation action</td>
+<td nowrap>world-model imagination</td>
+<td nowrap>robot imitation learning</td>
+<td nowrap>robot manipulation benchmarks</td>
+<td nowrap>Use imagination to improve imitation learning.</td>
+<td nowrap><a href="https://openreview.net/forum?id=3RSLW9YSgk">paper</a></td>
+<td nowrap>-</td>
+<td nowrap>-</td>
+<td nowrap>-</td>
+<td nowrap>WAM</td>
+<td nowrap>Used to compare source-verified CCF A/B work against the corresponding embodied-AI survey direction.</td>
+</tr>
+<tr>
+<td nowrap>NeurIPS 2024</td>
+<td nowrap><a href="https://proceedings.neurips.cc/paper_files/paper/2024/hash/6164b6e5352c139e9ddc1a98c09e4e4a-Abstract-Conference.html">PIVOT-R: Primitive-Driven Waypoint-Aware World Model for Robotic Manipulation</a></td>
+<td nowrap>PIVOT-R uses primitive-driven waypoint-aware world modeling for robot manipulation.</td>
+<td nowrap>video/latent world model</td>
+<td nowrap>waypoint-aware predicted state</td>
+<td nowrap>primitive action interface</td>
+<td nowrap>world-model manipulation planning</td>
+<td nowrap>robot manipulation</td>
+<td nowrap>robot manipulation benchmarks</td>
+<td nowrap>Predict waypoint-aware futures for manipulation primitives.</td>
+<td nowrap><a href="https://proceedings.neurips.cc/paper_files/paper/2024/file/6164b6e5352c139e9ddc1a98c09e4e4a-Paper-Conference.pdf">paper</a></td>
+<td nowrap>-</td>
+<td nowrap>-</td>
+<td nowrap>-</td>
+<td nowrap>Awesome-EAI</td>
+<td nowrap>Used to compare source-verified CCF A/B work against the corresponding embodied-AI survey direction.</td>
+</tr>
+<tr>
+<td nowrap>CVPR 2024</td>
+<td nowrap><a href="https://openaccess.thecvf.com/content/CVPR2024/html/Wang_Driving_into_the_Future_Multiview_Visual_Forecasting_and_Planning_with_CVPR_2024_paper.html">Driving into the Future: Multiview Visual Forecasting and Planning with World Model for Autonomous Driving</a></td>
+<td nowrap>This work uses multiview visual forecasting as a world model for autonomous-driving planning.</td>
+<td nowrap>video/latent world model</td>
+<td nowrap>multiview future video</td>
+<td nowrap>driving plan/action</td>
+<td nowrap>visual forecasting + planning</td>
+<td nowrap>autonomous driving</td>
+<td nowrap>driving benchmarks</td>
+<td nowrap>Use future visual prediction to support driving plans.</td>
+<td nowrap><a href="https://arxiv.org/abs/2311.17918">paper</a></td>
+<td nowrap>-</td>
+<td nowrap>-</td>
+<td nowrap>-</td>
+<td nowrap>EAI-Safety</td>
+<td nowrap>Used to compare source-verified CCF A/B work against the corresponding embodied-AI survey direction.</td>
+</tr>
+<tr>
+<td nowrap>NeurIPS 2023</td>
+<td nowrap><a href="https://proceedings.neurips.cc/paper_files/paper/2023/file/d9042abf40782fbce28901c1c9c0e8d8-Paper-Conference.pdf">Video Prediction Models as Rewards for Reinforcement Learning</a></td>
+<td nowrap>This paper uses video prediction models to define rewards for reinforcement learning.</td>
+<td nowrap>video/latent world model</td>
+<td nowrap>predicted video</td>
+<td nowrap>RL reward signal</td>
+<td nowrap>video-prediction reward</td>
+<td nowrap>reinforcement learning</td>
+<td nowrap>RL benchmarks</td>
+<td nowrap>Use video prediction quality as a reward signal.</td>
+<td nowrap><a href="https://proceedings.neurips.cc/paper_files/paper/2023/file/d9042abf40782fbce28901c1c9c0e8d8-Paper-Conference.pdf">paper</a></td>
+<td nowrap>-</td>
+<td nowrap>-</td>
+<td nowrap>-</td>
+<td nowrap>WAM</td>
+<td nowrap>Used to compare source-verified CCF A/B work against the corresponding embodied-AI survey direction.</td>
+</tr>
+<tr>
+<td nowrap>ECCV 2024</td>
+<td nowrap><a href="https://www.ecva.net/papers/eccv_2024/papers_ECCV/papers/05914.pdf">Diffusion Reward: Learning Rewards via Conditional Video Diffusion</a></td>
+<td nowrap>Diffusion Reward learns reward functions through conditional video diffusion.</td>
+<td nowrap>video/latent world model</td>
+<td nowrap>conditional generated video</td>
+<td nowrap>reward signal</td>
+<td nowrap>diffusion reward learning</td>
+<td nowrap>reinforcement learning</td>
+<td nowrap>RL/video benchmarks</td>
+<td nowrap>Learn rewards through conditional video diffusion.</td>
+<td nowrap><a href="https://www.ecva.net/papers/eccv_2024/papers_ECCV/papers/05914.pdf">paper</a></td>
+<td nowrap>-</td>
+<td nowrap>-</td>
+<td nowrap>-</td>
+<td nowrap>WAM</td>
+<td nowrap>Used to compare source-verified CCF A/B work against the corresponding embodied-AI survey direction.</td>
+</tr>
+<tr>
+<td nowrap>CVPR 2026</td>
+<td nowrap><a href="https://arxiv.org/abs/2512.00961">Goal-Driven Reward by Video Diffusion Models for Reinforcement Learning</a></td>
+<td nowrap>This work derives goal-driven rewards from video diffusion models for reinforcement learning.</td>
+<td nowrap>video/latent world model</td>
+<td nowrap>goal-conditioned video diffusion</td>
+<td nowrap>reward signal</td>
+<td nowrap>video diffusion reward</td>
+<td nowrap>reinforcement learning</td>
+<td nowrap>RL benchmarks</td>
+<td nowrap>Use video diffusion models to shape goal-driven RL rewards.</td>
+<td nowrap><a href="https://arxiv.org/abs/2512.00961">paper</a></td>
+<td nowrap>-</td>
+<td nowrap>-</td>
+<td nowrap>-</td>
+<td nowrap>WAM</td>
+<td nowrap>Used to compare source-verified CCF A/B work against the corresponding embodied-AI survey direction.</td>
+</tr>
+<tr>
+<td nowrap>ICLR 2024</td>
+<td nowrap><a href="https://arxiv.org/abs/2310.06114">Learning Interactive Real-World Simulators</a></td>
+<td nowrap>This work learns interactive real-world simulators that can support action-conditioned prediction.</td>
+<td nowrap>video/latent world model</td>
+<td nowrap>interactive simulator state</td>
+<td nowrap>action-conditioned simulation</td>
+<td nowrap>learned world simulator</td>
+<td nowrap>interactive environment modeling</td>
+<td nowrap>simulation benchmarks</td>
+<td nowrap>Learn action-conditioned simulators from real-world data.</td>
+<td nowrap><a href="https://arxiv.org/abs/2310.06114">paper</a></td>
+<td nowrap>-</td>
+<td nowrap>-</td>
+<td nowrap>-</td>
+<td nowrap>Awesome-VLA</td>
+<td nowrap>Used to compare source-verified CCF A/B work against the corresponding embodied-AI survey direction.</td>
+</tr>
+<tr>
+<td nowrap>ICML 2024</td>
+<td nowrap><a href="https://arxiv.org/abs/2402.15391">Genie: Generative Interactive Environments</a></td>
+<td nowrap>Genie learns generative interactive environments from video and supports controllable latent actions.</td>
+<td nowrap>video/latent world model</td>
+<td nowrap>interactive video latent state</td>
+<td nowrap>latent action</td>
+<td nowrap>generative interactive world model</td>
+<td nowrap>interactive environment modeling</td>
+<td nowrap>video/game environments</td>
+<td nowrap>Build controllable interactive environments from videos.</td>
+<td nowrap><a href="https://arxiv.org/abs/2402.15391">paper</a></td>
+<td nowrap>-</td>
+<td nowrap>-</td>
+<td nowrap>-</td>
+<td nowrap>Awesome-VLA</td>
+<td nowrap>Used to compare source-verified CCF A/B work against the corresponding embodied-AI survey direction.</td>
+</tr>
+<tr>
 <td nowrap>IROS 2025</td>
 <td nowrap><a href="https://arxiv.org/abs/2506.19842">ManiGaussian++: General Robotic Bimanual Manipulation with Hierarchical Gaussian World Model</a></td>
-<td nowrap>ManiGaussian++ 用层级 Gaussian world model 建模双臂操作中的空间状态和交互动态。</td>
+<td nowrap>ManiGaussian++ uses a hierarchical Gaussian world model to represent spatial state and interaction dynamics in bimanual manipulation.</td>
 <td nowrap>Gaussian world model</td>
 <td nowrap>hierarchical 3D Gaussian state</td>
 <td nowrap>bimanual action</td>
 <td nowrap>bimanual manipulation prediction</td>
 <td nowrap>Sim + Real</td>
-<td nowrap>用层级 3D 世界模型支持通用双臂操作。</td>
+<td nowrap>Support general bimanual manipulation with a hierarchical 3D world model.</td>
 <td nowrap><a href="https://arxiv.org/abs/2506.19842">paper</a></td>
 <td nowrap>-</td>
 <td nowrap><a href="https://github.com/April-Yz/ManiGaussian_bimanual">code</a></td>
@@ -6103,13 +6941,13 @@ Total: 10 papers.
 <tr>
 <td nowrap>ICRA 2026</td>
 <td nowrap><a href="https://arxiv.org/abs/2509.22643">VLA-Reasoner: Reinforcing Robotic Reasoning and Generalization with World Model</a></td>
-<td nowrap>VLA-Reasoner 用世界模型 rollout 和在线 MCTS 为现有 VLA 加入测试时长程推理。</td>
+<td nowrap>VLA-Reasoner adds test-time long-horizon reasoning to existing VLAs through world-model rollouts and online MCTS.</td>
 <td nowrap>world model for VLA</td>
 <td nowrap>predicted future states</td>
 <td nowrap>VLA action candidates</td>
 <td nowrap>test-time search and verification</td>
 <td nowrap>Sim + Real</td>
-<td nowrap>在动作执行前通过世界模型搜索未来结果。</td>
+<td nowrap>Search future outcomes with a world model before executing actions.</td>
 <td nowrap><a href="https://arxiv.org/abs/2509.22643">paper</a></td>
 <td nowrap><a href="https://vla-reasoner.github.io/">project</a></td>
 <td nowrap><a href="https://github.com/wkguo/VLA-Reasoner">code</a></td>
@@ -6120,13 +6958,13 @@ Total: 10 papers.
 <tr>
 <td nowrap>ICRA 2025</td>
 <td nowrap><a href="https://arxiv.org/abs/2503.10370">LUMOS: Language-Conditioned Imitation Learning with World Models</a></td>
-<td nowrap>LUMOS 在 learned world model latent space 中离线练习语言条件长时程 manipulation，再迁移到真机。</td>
+<td nowrap>LUMOS practices language-conditioned long-horizon manipulation offline in a learned world-model latent space before transferring to real robots.</td>
 <td nowrap>world model for VLA</td>
 <td nowrap>latent world state</td>
 <td nowrap>language-conditioned action</td>
 <td nowrap>offline practice / imitation learning</td>
 <td nowrap>Sim + Real</td>
-<td nowrap>用世界模型练习降低真实机器人数据需求。</td>
+<td nowrap>Use world-model practice to reduce real-robot data requirements.</td>
 <td nowrap><a href="https://arxiv.org/abs/2503.10370">paper</a></td>
 <td nowrap>-</td>
 <td nowrap>-</td>
@@ -6262,7 +7100,7 @@ This direction emphasizes task decomposition, memory, failure monitoring, constr
 
 Subdirections: task decomposition, memory, failure monitor, constraint / affordance planning, and self-improving planning.
 
-Total: 93 papers.
+Total: 98 papers.
 
 <table>
 <thead>
@@ -6275,7 +7113,7 @@ Total: 93 papers.
 <tbody>
 <tr>
 <td nowrap>Task Decomposition</td>
-<td nowrap>31</td>
+<td nowrap>36</td>
 <td nowrap>Examines how high-level instructions are decomposed into executable steps.</td>
 </tr>
 <tr>
@@ -6303,7 +7141,7 @@ Total: 93 papers.
 
 #### Task Decomposition
 
-Total: 31 papers.
+Total: 36 papers.
 
 <table>
 <thead>
@@ -6327,15 +7165,100 @@ Total: 31 papers.
 </thead>
 <tbody>
 <tr>
+<td nowrap>CVPR 2025</td>
+<td nowrap><a href="https://openaccess.thecvf.com/content/CVPR2025/html/Yang_Magma_A_Foundation_Model_for_Multimodal_AI_Agents_CVPR_2025_paper.html">Magma: A Foundation Model for Multimodal AI Agents</a></td>
+<td nowrap>Magma provides a multimodal foundation model for agents that need perception, reasoning, and action.</td>
+<td nowrap>Task Decomposition</td>
+<td nowrap>multimodal foundation model</td>
+<td nowrap>agent feedback</td>
+<td nowrap>agent action interface</td>
+<td nowrap>multimodal agent benchmarks</td>
+<td nowrap>Build a foundation model for multimodal agent tasks.</td>
+<td nowrap><a href="https://openaccess.thecvf.com/content/CVPR2025/papers/Yang_Magma_A_Foundation_Model_for_Multimodal_AI_Agents_CVPR_2025_paper.pdf">paper</a></td>
+<td nowrap>-</td>
+<td nowrap>-</td>
+<td nowrap>-</td>
+<td nowrap>Awesome-EAI</td>
+<td nowrap>Used to compare source-verified CCF A/B work against the corresponding embodied-AI survey direction.</td>
+</tr>
+<tr>
+<td nowrap>ICML 2024</td>
+<td nowrap><a href="https://proceedings.mlr.press/v235/huang24ae.html">LEO: Embodied Generalist Agent in 3D World</a></td>
+<td nowrap>LEO is an embodied generalist agent for 3D-world understanding, reasoning, and task execution.</td>
+<td nowrap>Task Decomposition</td>
+<td nowrap>3D embodied memory</td>
+<td nowrap>instruction feedback</td>
+<td nowrap>embodied agent action</td>
+<td nowrap>3D embodied benchmarks</td>
+<td nowrap>Unify 3D perception and embodied instruction following.</td>
+<td nowrap><a href="https://proceedings.mlr.press/v235/huang24ae/huang24ae.pdf">paper</a></td>
+<td nowrap>-</td>
+<td nowrap>-</td>
+<td nowrap>-</td>
+<td nowrap>Awesome-EAI</td>
+<td nowrap>Used to compare source-verified CCF A/B work against the corresponding embodied-AI survey direction.</td>
+</tr>
+<tr>
+<td nowrap>CVPR 2024</td>
+<td nowrap><a href="https://openaccess.thecvf.com/content/CVPR2024/html/Majumdar_OpenEQA_Embodied_Question_Answering_in_the_Era_of_Foundation_Models_CVPR_2024_paper.html">OpenEQA: Embodied Question Answering in the Era of Foundation Models</a></td>
+<td nowrap>OpenEQA benchmarks embodied question answering with foundation models in real and simulated scenes.</td>
+<td nowrap>Task Decomposition</td>
+<td nowrap>scene memory + QA context</td>
+<td nowrap>benchmark feedback</td>
+<td nowrap>embodied QA interface</td>
+<td nowrap>OpenEQA benchmark</td>
+<td nowrap>Evaluate foundation models on embodied scene questions.</td>
+<td nowrap><a href="https://openaccess.thecvf.com/content/CVPR2024/papers/Majumdar_OpenEQA_Embodied_Question_Answering_in_the_Era_of_Foundation_Models_CVPR_2024_paper.pdf">paper</a></td>
+<td nowrap>-</td>
+<td nowrap>-</td>
+<td nowrap>-</td>
+<td nowrap>Awesome-EAI</td>
+<td nowrap>Used to compare source-verified CCF A/B work against the corresponding embodied-AI survey direction.</td>
+</tr>
+<tr>
+<td nowrap>EMNLP 2025</td>
+<td nowrap><a href="https://aclanthology.org/2025.emnlp-industry.149/">VestaBench: An Embodied Benchmark for Safe Long-Horizon Planning Under Multi-Constraint and Adversarial Settings</a></td>
+<td nowrap>VestaBench evaluates safe long-horizon embodied planning under constraints and adversarial settings.</td>
+<td nowrap>Task Decomposition</td>
+<td nowrap>constraint-aware benchmark state</td>
+<td nowrap>safety feedback</td>
+<td nowrap>planner action interface</td>
+<td nowrap>VestaBench</td>
+<td nowrap>Benchmark safe long-horizon planning with multiple constraints.</td>
+<td nowrap><a href="https://aclanthology.org/2025.emnlp-industry.149.pdf">paper</a></td>
+<td nowrap>-</td>
+<td nowrap>-</td>
+<td nowrap>-</td>
+<td nowrap>EAI-Safety</td>
+<td nowrap>Used to compare source-verified CCF A/B work against the corresponding embodied-AI survey direction.</td>
+</tr>
+<tr>
+<td nowrap>NeurIPS 2024</td>
+<td nowrap><a href="https://openreview.net/forum?id=iSwK1YqO7v">Embodied Agent Interface: Benchmarking LLMs for Embodied Decision Making</a></td>
+<td nowrap>EAI benchmarks LLM decision making through a standardized embodied-agent interface.</td>
+<td nowrap>Task Decomposition</td>
+<td nowrap>agent interface context</td>
+<td nowrap>benchmark feedback</td>
+<td nowrap>embodied decision interface</td>
+<td nowrap>EAI benchmark</td>
+<td nowrap>Measure how LLMs make embodied decisions through a common interface.</td>
+<td nowrap><a href="https://openreview.net/forum?id=iSwK1YqO7v">paper</a></td>
+<td nowrap>-</td>
+<td nowrap>-</td>
+<td nowrap>-</td>
+<td nowrap>EAI-Safety</td>
+<td nowrap>Used to compare source-verified CCF A/B work against the corresponding embodied-AI survey direction.</td>
+</tr>
+<tr>
 <td nowrap>IROS 2025</td>
 <td nowrap><a href="https://arxiv.org/abs/2406.11818">Embodied Instruction Following in Unknown Environments</a></td>
-<td nowrap>EIF 在未知家庭环境中把自然语言任务分解为可探索、可执行的高层计划。</td>
+<td nowrap>EIF decomposes natural-language tasks into explorable and executable high-level plans in unknown household environments.</td>
 <td nowrap>Task Decomposition</td>
 <td nowrap>multimodal LLM planner</td>
 <td nowrap>visual feedback + exploration</td>
 <td nowrap>navigation and interaction policy</td>
 <td nowrap>house-level scenes</td>
-<td nowrap>未知环境下的长程具身指令跟随。</td>
+<td nowrap>Support long-horizon embodied instruction following in unknown environments.</td>
 <td nowrap><a href="https://arxiv.org/abs/2406.11818">paper</a></td>
 <td nowrap><a href="https://gary3410.github.io/eif_unknown/">project</a></td>
 <td nowrap><a href="https://github.com/Gary3410/eif_unknown">code</a></td>
@@ -6618,7 +7541,7 @@ Total: 31 papers.
 <tr>
 <td nowrap>AAAI 2026</td>
 <td nowrap><a href="https://ojs.aaai.org/index.php/AAAI/article/view/38896">GraphCoT-VLA: A 3D Spatial-Aware Reasoning Vision-Language-Action Model for Robotic Manipulation with Ambiguous Instructions</a></td>
-<td nowrap>-</td>
+<td nowrap>Uses 3D spatial graph Chain-of-Thought reasoning to resolve ambiguous manipulation instructions into robust VLA actions.</td>
 <td nowrap>Task Decomposition</td>
 <td nowrap>-</td>
 <td nowrap>-</td>
@@ -6635,7 +7558,7 @@ Total: 31 papers.
 <tr>
 <td nowrap>AAAI 2026</td>
 <td nowrap><a href="https://ojs.aaai.org/index.php/AAAI/article/view/38900">PhyPlan: Learning to Plan Tasks with Generalizable and Rapid Physical Reasoning for Embodied Manipulation</a></td>
-<td nowrap>-</td>
+<td nowrap>Learns fast generalizable physical reasoning for planning multi-step embodied manipulation tasks.</td>
 <td nowrap>Task Decomposition</td>
 <td nowrap>-</td>
 <td nowrap>-</td>
@@ -6652,7 +7575,7 @@ Total: 31 papers.
 <tr>
 <td nowrap>AAAI 2026</td>
 <td nowrap><a href="https://ojs.aaai.org/index.php/AAAI/article/view/38906">Cook and Clean Together: Teaching Embodied Agents for Parallel Task Execution</a></td>
-<td nowrap>-</td>
+<td nowrap>Trains embodied agents to schedule and coordinate parallel subtasks for faster household task execution.</td>
 <td nowrap>parallel task execution</td>
 <td nowrap>-</td>
 <td nowrap>-</td>
@@ -6669,7 +7592,7 @@ Total: 31 papers.
 <tr>
 <td nowrap>AAAI 2026</td>
 <td nowrap><a href="https://ojs.aaai.org/index.php/AAAI/article/view/38911">FoAM: Foresight-Augmented Multi-Task Imitation Policy for Robotic Manipulation</a></td>
-<td nowrap>-</td>
+<td nowrap>Adds foresight about likely future states to multi-task imitation policies for more reliable robotic manipulation.</td>
 <td nowrap>Task Decomposition</td>
 <td nowrap>-</td>
 <td nowrap>foresight augmentation</td>
@@ -6686,7 +7609,7 @@ Total: 31 papers.
 <tr>
 <td nowrap>AAAI 2026</td>
 <td nowrap><a href="https://ojs.aaai.org/index.php/AAAI/article/view/38936">Zero-Shot Robotic Manipulation via 3D Gaussian Splatting-Enhanced Multimodal Retrieval-Augmented Generation</a></td>
-<td nowrap>-</td>
+<td nowrap>Grounds zero-shot robotic manipulation by combining multimodal retrieval with 3D Gaussian Splatting scene representations.</td>
 <td nowrap>Task Decomposition</td>
 <td nowrap>3D Gaussian Splatting + multimodal RAG</td>
 <td nowrap>-</td>
@@ -6703,7 +7626,7 @@ Total: 31 papers.
 <tr>
 <td nowrap>AAAI 2026</td>
 <td nowrap><a href="https://ojs.aaai.org/index.php/AAAI/article/view/38958">H-GAR: A Hierarchical Interaction Framework via Goal-Driven Observation-Action Refinement for Robotic Manipulation</a></td>
-<td nowrap>-</td>
+<td nowrap>Refines observations and actions hierarchically from goal cues to produce temporally coherent manipulation behavior.</td>
 <td nowrap>hierarchical observation-action refinement</td>
 <td nowrap>-</td>
 <td nowrap>-</td>
@@ -6720,7 +7643,7 @@ Total: 31 papers.
 <tr>
 <td nowrap>ICML 2026</td>
 <td nowrap><a href="https://icml.cc/virtual/2026/poster/60500">TapSampling: Inference-Time Sampling with a Task-Progress-Understanding Verifier for Robotic Manipulation</a></td>
-<td nowrap>-</td>
+<td nowrap>Filters inference-time action samples with a task-progress verifier to select more successful manipulation rollouts.</td>
 <td nowrap>Task Decomposition</td>
 <td nowrap>-</td>
 <td nowrap>inference-time verifier</td>
@@ -6737,7 +7660,7 @@ Total: 31 papers.
 <tr>
 <td nowrap>ICML 2026</td>
 <td nowrap><a href="https://icml.cc/virtual/2026/poster/63250">Decompose and Recompose: Reasoning New Skills from Existing Abilities for Cross-Task Robotic Manipulation</a></td>
-<td nowrap>-</td>
+<td nowrap>Builds new manipulation skills by decomposing existing abilities and recomposing them for unseen cross-task goals.</td>
 <td nowrap>Task Decomposition</td>
 <td nowrap>-</td>
 <td nowrap>-</td>
@@ -6884,13 +7807,13 @@ Total: 11 papers.
 <tr>
 <td nowrap>IROS 2025</td>
 <td nowrap><a href="https://arxiv.org/abs/2410.11989">Dynamic Open-Vocabulary 3D Scene Graphs for Long-Term Language-Guided Mobile Manipulation</a></td>
-<td nowrap>DovSG 用动态开放词汇 3D scene graph 支撑长期语言任务、环境更新和移动操作。</td>
+<td nowrap>DovSG uses dynamic open-vocabulary 3D scene graphs to support long-term language tasks, environment updates, and mobile manipulation.</td>
 <td nowrap>Memory Planning</td>
 <td nowrap>dynamic 3D scene graph</td>
 <td nowrap>long-term scene updates</td>
 <td nowrap>mobile manipulation planner</td>
 <td nowrap>Real robot</td>
-<td nowrap>用开放词汇场景图维护长期任务记忆。</td>
+<td nowrap>Maintain long-term task memory with open-vocabulary scene graphs.</td>
 <td nowrap><a href="https://arxiv.org/abs/2410.11989">paper</a></td>
 <td nowrap><a href="https://bjhyzj.github.io/dovsg-web/">project</a></td>
 <td nowrap><a href="https://github.com/BJHYZJ/DovSG">code</a></td>
@@ -6952,7 +7875,7 @@ Total: 11 papers.
 <tr>
 <td nowrap>ICLR 2026</td>
 <td nowrap><a href="https://openreview.net/forum?id=E5L43l5EIu">Embodied Agents Meet Personalization: Investigating Challenges and Solutions Through the Lens of Memory Utilization</a></td>
-<td nowrap>-</td>
+<td nowrap>Studies how memory enables personalized embodied assistance and organizes user-specific preferences and routines for future tasks.</td>
 <td nowrap>Memory Planning</td>
 <td nowrap>Memory Planning</td>
 <td nowrap>-</td>
@@ -6969,7 +7892,7 @@ Total: 11 papers.
 <tr>
 <td nowrap>ICML 2026</td>
 <td nowrap><a href="https://icml.cc/virtual/2026/poster/60897">HiMe: Hierarchical Embodied Memory for Long-Horizon Vision-Language-Action Control</a></td>
-<td nowrap>-</td>
+<td nowrap>Uses hierarchical embodied memory to coordinate planning, monitoring, and execution in long-horizon VLA control.</td>
 <td nowrap>Memory Planning</td>
 <td nowrap>Memory Planning</td>
 <td nowrap>-</td>
@@ -6986,7 +7909,7 @@ Total: 11 papers.
 <tr>
 <td nowrap>ICML 2026</td>
 <td nowrap><a href="https://icml.cc/virtual/2026/poster/66214">Spatial Memory for Out-of-Vision Manipulation in Vision-Language-Action</a></td>
-<td nowrap>-</td>
+<td nowrap>Maintains spatial-semantic memory of unseen objects so VLA policies can manipulate targets outside the current view.</td>
 <td nowrap>Memory Planning</td>
 <td nowrap>Memory Planning</td>
 <td nowrap>-</td>
@@ -7037,7 +7960,7 @@ Total: 11 papers.
 <tr>
 <td nowrap>ICCV 2025</td>
 <td nowrap><a href="https://iccv.thecvf.com/virtual/2025/poster/1915">Towards Long-Horizon Vision-Language-Action System: Reasoning, Acting and Memory</a></td>
-<td nowrap>-</td>
+<td nowrap>Connects reasoning, action execution, and memory to support long-horizon VLA behavior in dynamic environments.</td>
 <td nowrap>Memory Planning</td>
 <td nowrap>Memory Planning</td>
 <td nowrap>-</td>
@@ -7099,13 +8022,13 @@ Total: 9 papers.
 <tr>
 <td nowrap>ICRA 2026</td>
 <td nowrap><a href="https://arxiv.org/abs/2510.16281">Do What You Say: Grounding Language-Conditioned Robotic Actions with Vision-Language Models</a></td>
-<td nowrap>该方法运行时检查 VLA 文本推理和动作结果是否一致，再选择是否执行动作。</td>
+<td nowrap>This method checks at runtime whether a VLA's textual reasoning matches its action outcome before deciding whether to execute the action.</td>
 <td nowrap>Failure Monitor</td>
 <td nowrap>VLM reasoning checker</td>
 <td nowrap>reasoning-action consistency</td>
 <td nowrap>VLA action selection</td>
 <td nowrap>Real robot manipulation</td>
-<td nowrap>检测“说的计划”和“做的动作”是否一致。</td>
+<td nowrap>Detect whether the stated plan and executed action are consistent.</td>
 <td nowrap><a href="https://arxiv.org/abs/2510.16281">paper</a></td>
 <td nowrap><a href="https://yilin-wu98.github.io/steering-reasoning-vla/">project</a></td>
 <td nowrap><a href="https://github.com/NVlabs/actalign">code</a></td>
@@ -7167,7 +8090,7 @@ Total: 9 papers.
 <tr>
 <td nowrap>ICML 2026</td>
 <td nowrap><a href="https://icml.cc/virtual/2026/poster/61750">Sentinel-VLA: A Metacognitive VLA Model with Active Status Monitoring for Dynamic Reasoning and Error Recovery</a></td>
-<td nowrap>-</td>
+<td nowrap>Adds active status monitoring so a VLA model can detect execution problems and trigger recovery reasoning.</td>
 <td nowrap>Failure Monitor</td>
 <td nowrap>-</td>
 <td nowrap>Failure Monitor</td>
@@ -7184,7 +8107,7 @@ Total: 9 papers.
 <tr>
 <td nowrap>ICML 2026</td>
 <td nowrap><a href="https://icml.cc/virtual/2026/poster/63650">NeurVLA: Unleashing Failure-Handling Capability of Vision-Language-Action Models via Neural-Symbolic Reasoning</a></td>
-<td nowrap>-</td>
+<td nowrap>Uses neural-symbolic reasoning to diagnose failures and improve recovery behavior in VLA manipulation policies.</td>
 <td nowrap>Failure Monitor</td>
 <td nowrap>-</td>
 <td nowrap>Failure Monitor</td>
@@ -7201,7 +8124,7 @@ Total: 9 papers.
 <tr>
 <td nowrap>ICML 2026</td>
 <td nowrap><a href="https://icml.cc/virtual/2026/poster/64203">Can VLMs Diagnose and Recover from VLA Manipulation Faults?</a></td>
-<td nowrap>-</td>
+<td nowrap>Evaluates whether VLMs can diagnose manipulation faults and guide recovery for failed VLA executions.</td>
 <td nowrap>Failure Monitor</td>
 <td nowrap>-</td>
 <td nowrap>Failure Monitor</td>
@@ -7280,13 +8203,13 @@ Total: 10 papers.
 <tr>
 <td nowrap>ICRA 2025</td>
 <td nowrap><a href="https://arxiv.org/abs/2408.14769">Points2Plans: From Point Clouds to Long-Horizon Plans with Composable Relational Dynamics</a></td>
-<td nowrap>Points2Plans 从点云和语言指令出发，用关系动力学连接高层计划和连续参数规划。</td>
+<td nowrap>Points2Plans connects high-level plans with continuous parameter planning from point clouds and language instructions through relational dynamics.</td>
 <td nowrap>Constraint / Affordance Planning</td>
 <td nowrap>point-cloud relational dynamics</td>
 <td nowrap>composable planning feedback</td>
 <td nowrap>continuous parameter planner</td>
 <td nowrap>Sim + Real</td>
-<td nowrap>把语言计划落到可执行的 3D 关系动力学约束。</td>
+<td nowrap>Ground language plans in executable 3D relational dynamics constraints.</td>
 <td nowrap><a href="https://arxiv.org/abs/2408.14769">paper</a></td>
 <td nowrap><a href="https://sites.google.com/stanford.edu/points2plans">project</a></td>
 <td nowrap><a href="https://github.com/yixuanhuang98/Points2Plans">code</a></td>
@@ -7365,7 +8288,7 @@ Total: 10 papers.
 <tr>
 <td nowrap>AAAI 2026</td>
 <td nowrap><a href="https://ojs.aaai.org/index.php/AAAI/article/view/38907">A3D: Adaptive Affordance Assembly with Dual-Arm Manipulation</a></td>
-<td nowrap>-</td>
+<td nowrap>Learns adaptive affordances for dual-arm assembly, updating manipulation choices as object and task states change.</td>
 <td nowrap>Constraint/Affordance</td>
 <td nowrap>-</td>
 <td nowrap>-</td>
@@ -7382,7 +8305,7 @@ Total: 10 papers.
 <tr>
 <td nowrap>AAAI 2026</td>
 <td nowrap><a href="https://ojs.aaai.org/index.php/AAAI/article/view/38909">Affordance-Guided Coarse-to-Fine Exploration for Base Placement in Open-Vocabulary Mobile Manipulation</a></td>
-<td nowrap>-</td>
+<td nowrap>Guides mobile-manipulator base placement with affordance priors followed by coarse-to-fine feasibility refinement.</td>
 <td nowrap>coarse-to-fine base placement</td>
 <td nowrap>affordance guidance</td>
 <td nowrap>-</td>
@@ -7399,7 +8322,7 @@ Total: 10 papers.
 <tr>
 <td nowrap>AAAI 2026</td>
 <td nowrap><a href="https://ojs.aaai.org/index.php/AAAI/article/view/38955">Gentle Manipulation Policy Learning via Demonstrations from VLM Planned Atomic Skills</a></td>
-<td nowrap>-</td>
+<td nowrap>Uses VLM-planned atomic skills as demonstrations to learn policies for gentle long-horizon manipulation.</td>
 <td nowrap>Constraint/Affordance</td>
 <td nowrap>VLM-planned atomic skills</td>
 <td nowrap>-</td>
@@ -7546,7 +8469,7 @@ Total: 32 papers.
 <tr>
 <td nowrap>AAAI 2026</td>
 <td nowrap><a href="https://ojs.aaai.org/index.php/AAAI/article/view/38922">ManipLVM-R1: Reinforcement Learning for Reasoning in Embodied Manipulation with Large Vision-Language Models</a></td>
-<td nowrap>-</td>
+<td nowrap>Applies reinforcement learning to improve large vision-language models on affordance reasoning and embodied manipulation planning.</td>
 <td nowrap>Self-improving Planning</td>
 <td nowrap>-</td>
 <td nowrap>RL for embodied manipulation reasoning</td>
@@ -7563,7 +8486,7 @@ Total: 32 papers.
 <tr>
 <td nowrap>ICML 2026</td>
 <td nowrap><a href="https://icml.cc/virtual/2026/poster/61922">HALO: A Unified Vision-Language-Action Model for Embodied Multimodal Chain-of-Thought Reasoning</a></td>
-<td nowrap>-</td>
+<td nowrap>Unifies language reasoning, visual prediction, and action generation as multimodal Chain-of-Thought for embodied VLA control.</td>
 <td nowrap>Self-improving Planning</td>
 <td nowrap>-</td>
 <td nowrap>Self-improving Planning</td>
@@ -7597,7 +8520,7 @@ Total: 32 papers.
 <tr>
 <td nowrap>ICML 2026</td>
 <td nowrap><a href="https://icml.cc/virtual/2026/poster/61887">LaST0: Latent Spatio-Temporal Chain-of-Thought for Robotic Vision-Language-Action Model</a></td>
-<td nowrap>-</td>
+<td nowrap>Represents reasoning as latent spatiotemporal Chain-of-Thought to improve robotic VLA planning with lower explicit reasoning cost.</td>
 <td nowrap>Self-improving Planning</td>
 <td nowrap>-</td>
 <td nowrap>Self-improving Planning</td>
@@ -7614,7 +8537,7 @@ Total: 32 papers.
 <tr>
 <td nowrap>ICML 2026</td>
 <td nowrap><a href="https://icml.cc/virtual/2026/poster/60801">LAGEA: Language Guided Embodied Agents for Robotic Manipulation</a></td>
-<td nowrap>-</td>
+<td nowrap>Uses language guidance and feedback to adapt embodied manipulation agents across tasks.</td>
 <td nowrap>Self-improving Planning</td>
 <td nowrap>-</td>
 <td nowrap>Self-improving Planning</td>
@@ -7631,7 +8554,7 @@ Total: 32 papers.
 <tr>
 <td nowrap>ICML 2026</td>
 <td nowrap><a href="https://icml.cc/virtual/2026/poster/64055">Drift is a Sampling Error: SNR-Aware Power Distributions for Long-Horizon Robotic Planning</a></td>
-<td nowrap>-</td>
+<td nowrap>Frames planning drift as an inference-time sampling issue and uses SNR-aware power distributions for long-horizon planning.</td>
 <td nowrap>Self-improving Planning</td>
 <td nowrap>-</td>
 <td nowrap>Self-improving Planning</td>
@@ -7886,7 +8809,7 @@ Total: 32 papers.
 <tr>
 <td nowrap>ICML 2025</td>
 <td nowrap><a href="https://arxiv.org/abs/2410.01440">Closed-Loop Long-Horizon Robotic Planning via Equilibrium Sequence Modeling</a></td>
-<td nowrap>-</td>
+<td nowrap>Uses equilibrium sequence modeling to iteratively refine plans under feedback for closed-loop long-horizon robot planning.</td>
 <td nowrap>Self-improving Planning</td>
 <td nowrap>-</td>
 <td nowrap>Self-improving Planning</td>
@@ -7920,7 +8843,7 @@ Total: 32 papers.
 <tr>
 <td nowrap>CVPR 2025</td>
 <td nowrap><a href="https://cvpr.thecvf.com/virtual/2025/poster/33233">CoT-VLA: Visual Chain-of-Thought Reasoning for Vision-Language-Action Models</a></td>
-<td nowrap>-</td>
+<td nowrap>Predicts visual Chain-of-Thought subgoals before actions to improve temporal reasoning and generalization in VLA models.</td>
 <td nowrap>Self-improving Planning</td>
 <td nowrap>-</td>
 <td nowrap>Self-improving Planning</td>
@@ -8028,7 +8951,7 @@ Embodiment expansion determines whether embodied AI can move beyond single-arm s
 
 Subdirections: humanoid, bimanual, dexterous hand, tactile/contact-rich, and grasping.
 
-Total: 75 papers.
+Total: 89 papers.
 
 <table>
 <thead>
@@ -8041,17 +8964,17 @@ Total: 75 papers.
 <tbody>
 <tr>
 <td nowrap>humanoid</td>
-<td nowrap>22</td>
+<td nowrap>32</td>
 <td nowrap>Focus on whole-body control, mobile manipulation, and humanoid embodiment generalization.</td>
 </tr>
 <tr>
 <td nowrap>bimanual</td>
-<td nowrap>12</td>
+<td nowrap>13</td>
 <td nowrap>Focus on bimanual coordination, long-horizon manipulation, and coordinated control.</td>
 </tr>
 <tr>
 <td nowrap>dexterous hand</td>
-<td nowrap>28</td>
+<td nowrap>31</td>
 <td nowrap>Focus on dexterous-hand action spaces and grasp transfer.</td>
 </tr>
 <tr>
@@ -8064,7 +8987,7 @@ Total: 75 papers.
 
 #### humanoid
 
-Total: 22 papers.
+Total: 32 papers.
 
 <table>
 <thead>
@@ -8088,15 +9011,185 @@ Total: 22 papers.
 </thead>
 <tbody>
 <tr>
+<td nowrap>CVPR 2025</td>
+<td nowrap><a href="https://openaccess.thecvf.com/content/CVPR2025/html/Pan_TokenHSI_Unified_Synthesis_of_Physical_Human-Scene_Interactions_through_Task_Tokenization_CVPR_2025_paper.html">TokenHSI: Unified Synthesis of Physical Human-Scene Interactions through Task Tokenization</a></td>
+<td nowrap>TokenHSI synthesizes physical human-scene interactions through task tokenization.</td>
+<td nowrap>Humanoid / human-scene interaction</td>
+<td nowrap>body-scene contact</td>
+<td nowrap>whole-body motion</td>
+<td nowrap>task-tokenized motion synthesis</td>
+<td nowrap>Simulation</td>
+<td nowrap>Synthesize task-conditioned physical human-scene interaction.</td>
+<td nowrap><a href="https://arxiv.org/abs/2503.19901">paper</a></td>
+<td nowrap>-</td>
+<td nowrap>-</td>
+<td nowrap>-</td>
+<td nowrap>Humanoid-RL</td>
+<td nowrap>Used to compare source-verified CCF A/B work against the corresponding embodied-AI survey direction.</td>
+</tr>
+<tr>
+<td nowrap>CVPR 2025</td>
+<td nowrap><a href="https://openaccess.thecvf.com/content/CVPR2025/papers/Xu_InterMimic_Towards_Universal_Whole-Body_Control_for_Physics-Based_Human-Object_Interactions_CVPR_2025_paper.pdf">InterMimic: Towards Universal Whole-Body Control for Physics-Based Human-Object Interactions</a></td>
+<td nowrap>InterMimic studies universal whole-body control for physics-based human-object interaction.</td>
+<td nowrap>Humanoid / whole-body control</td>
+<td nowrap>body-object contact</td>
+<td nowrap>whole-body controller</td>
+<td nowrap>physics-based imitation</td>
+<td nowrap>Simulation</td>
+<td nowrap>Control human-object interactions with whole-body dynamics.</td>
+<td nowrap><a href="https://arxiv.org/abs/2502.20390">paper</a></td>
+<td nowrap>-</td>
+<td nowrap>-</td>
+<td nowrap>-</td>
+<td nowrap>Humanoid-RL</td>
+<td nowrap>Used to compare source-verified CCF A/B work against the corresponding embodied-AI survey direction.</td>
+</tr>
+<tr>
+<td nowrap>ICLR 2025</td>
+<td nowrap><a href="https://openreview.net/forum?id=pZISppZSTv">CLoSD: Closing the Loop between Simulation and Diffusion for multi-task character control</a></td>
+<td nowrap>CLoSD closes the loop between simulation and diffusion models for multitask character control.</td>
+<td nowrap>Humanoid / character control</td>
+<td nowrap>whole-body state</td>
+<td nowrap>diffusion control</td>
+<td nowrap>simulation + diffusion</td>
+<td nowrap>Simulation</td>
+<td nowrap>Use diffusion and simulation together for multitask whole-body control.</td>
+<td nowrap><a href="https://arxiv.org/abs/2410.03441">paper</a></td>
+<td nowrap>-</td>
+<td nowrap>-</td>
+<td nowrap>-</td>
+<td nowrap>Humanoid-RL</td>
+<td nowrap>Used to compare source-verified CCF A/B work against the corresponding embodied-AI survey direction.</td>
+</tr>
+<tr>
+<td nowrap>ICLR 2024</td>
+<td nowrap><a href="https://openreview.net/forum?id=1vCnDyQkjg">Unified Human-Scene Interaction via Prompted Chain-of-Contacts</a></td>
+<td nowrap>This work models human-scene interaction through prompted chains of contact states.</td>
+<td nowrap>Humanoid / human-scene interaction</td>
+<td nowrap>contact sequence</td>
+<td nowrap>whole-body motion</td>
+<td nowrap>prompted contact planning</td>
+<td nowrap>Simulation</td>
+<td nowrap>Generate human-scene interaction from contact chains.</td>
+<td nowrap><a href="https://arxiv.org/abs/2309.07918">paper</a></td>
+<td nowrap>-</td>
+<td nowrap>-</td>
+<td nowrap>-</td>
+<td nowrap>Humanoid-RL</td>
+<td nowrap>Used to compare source-verified CCF A/B work against the corresponding embodied-AI survey direction.</td>
+</tr>
+<tr>
+<td nowrap>ICLR 2024</td>
+<td nowrap><a href="https://proceedings.iclr.cc/paper_files/paper/2024/hash/7827290f07f63485b849b66cfa3e5dd0-Abstract-Conference.html">OmniControl: Control Any Joint at Any Time for Human Motion Generation</a></td>
+<td nowrap>OmniControl controls arbitrary joints at arbitrary times for human motion generation.</td>
+<td nowrap>Humanoid / motion control</td>
+<td nowrap>joint constraints</td>
+<td nowrap>joint-level motion control</td>
+<td nowrap>controllable motion generation</td>
+<td nowrap>Motion benchmarks</td>
+<td nowrap>Generate controllable whole-body motion from sparse joint constraints.</td>
+<td nowrap><a href="https://arxiv.org/abs/2310.08580">paper</a></td>
+<td nowrap>-</td>
+<td nowrap>-</td>
+<td nowrap>-</td>
+<td nowrap>Humanoid-RL</td>
+<td nowrap>Used to compare source-verified CCF A/B work against the corresponding embodied-AI survey direction.</td>
+</tr>
+<tr>
+<td nowrap>ICCV 2023</td>
+<td nowrap><a href="https://openaccess.thecvf.com/content/ICCV2023/html/Karunratanakul_Guided_Motion_Diffusion_for_Controllable_Human_Motion_Synthesis_ICCV_2023_paper.html">Guided Motion Diffusion for Controllable Human Motion Synthesis</a></td>
+<td nowrap>Guided Motion Diffusion enables controllable human motion synthesis through diffusion guidance.</td>
+<td nowrap>Humanoid / motion generation</td>
+<td nowrap>whole-body motion</td>
+<td nowrap>guided motion diffusion</td>
+<td nowrap>diffusion synthesis</td>
+<td nowrap>Motion benchmarks</td>
+<td nowrap>Control generated human motion through guidance signals.</td>
+<td nowrap><a href="https://arxiv.org/abs/2305.12577">paper</a></td>
+<td nowrap>-</td>
+<td nowrap>-</td>
+<td nowrap>-</td>
+<td nowrap>Humanoid-RL</td>
+<td nowrap>Used to compare source-verified CCF A/B work against the corresponding embodied-AI survey direction.</td>
+</tr>
+<tr>
+<td nowrap>ICCV 2023</td>
+<td nowrap><a href="https://openaccess.thecvf.com/content/ICCV2023/html/Yuan_PhysDiff_Physics-Guided_Human_Motion_Diffusion_Model_ICCV_2023_paper.html">PhysDiff: Physics-Guided Human Motion Diffusion Model</a></td>
+<td nowrap>PhysDiff adds physics guidance to human motion diffusion for more plausible motion.</td>
+<td nowrap>Humanoid / motion generation</td>
+<td nowrap>physics constraints</td>
+<td nowrap>motion diffusion</td>
+<td nowrap>physics-guided generation</td>
+<td nowrap>Motion benchmarks</td>
+<td nowrap>Improve physical plausibility of generated whole-body motion.</td>
+<td nowrap><a href="https://arxiv.org/abs/2212.02500">paper</a></td>
+<td nowrap>-</td>
+<td nowrap>-</td>
+<td nowrap>-</td>
+<td nowrap>Humanoid-RL</td>
+<td nowrap>Used to compare source-verified CCF A/B work against the corresponding embodied-AI survey direction.</td>
+</tr>
+<tr>
+<td nowrap>ECCV 2024</td>
+<td nowrap><a href="https://www.ecva.net/papers/eccv_2024/papers_ECCV/papers/00194.pdf">MANIKIN: Biomechanically Accurate Neural Inverse Kinematics for Human Motion Estimation</a></td>
+<td nowrap>MANIKIN estimates human motion with biomechanically accurate neural inverse kinematics.</td>
+<td nowrap>Humanoid / motion estimation</td>
+<td nowrap>body kinematics</td>
+<td nowrap>inverse kinematics</td>
+<td nowrap>neural IK</td>
+<td nowrap>Motion benchmarks</td>
+<td nowrap>Estimate physically plausible human motion from sparse observations.</td>
+<td nowrap><a href="https://www.ecva.net/papers/eccv_2024/papers_ECCV/papers/00194.pdf">paper</a></td>
+<td nowrap>-</td>
+<td nowrap>-</td>
+<td nowrap>-</td>
+<td nowrap>Humanoid-RL</td>
+<td nowrap>Used to compare source-verified CCF A/B work against the corresponding embodied-AI survey direction.</td>
+</tr>
+<tr>
+<td nowrap>ECCV 2024</td>
+<td nowrap><a href="https://arxiv.org/abs/2308.06493">EgoPoser: Robust Real-Time Egocentric Pose Estimation from Sparse and Intermittent Observations Everywhere</a></td>
+<td nowrap>EgoPoser performs robust real-time egocentric pose estimation from sparse intermittent observations.</td>
+<td nowrap>Humanoid / pose estimation</td>
+<td nowrap>egocentric sparse sensing</td>
+<td nowrap>pose estimation</td>
+<td nowrap>real-time egocentric inference</td>
+<td nowrap>Motion benchmarks</td>
+<td nowrap>Recover whole-body pose from sparse egocentric observations.</td>
+<td nowrap><a href="https://arxiv.org/abs/2308.06493">paper</a></td>
+<td nowrap>-</td>
+<td nowrap>-</td>
+<td nowrap>-</td>
+<td nowrap>Humanoid-RL</td>
+<td nowrap>Used to compare source-verified CCF A/B work against the corresponding embodied-AI survey direction.</td>
+</tr>
+<tr>
+<td nowrap>ECCV 2022</td>
+<td nowrap><a href="https://arxiv.org/abs/2207.13784">AvatarPoser: Articulated Full-Body Pose Tracking from Sparse Motion Sensing</a></td>
+<td nowrap>AvatarPoser tracks full-body articulated pose from sparse motion sensors.</td>
+<td nowrap>Humanoid / pose tracking</td>
+<td nowrap>sparse motion sensors</td>
+<td nowrap>full-body pose tracking</td>
+<td nowrap>sparse-sensing inference</td>
+<td nowrap>Motion benchmarks</td>
+<td nowrap>Track full-body pose from sparse wearable sensing.</td>
+<td nowrap><a href="https://arxiv.org/abs/2207.13784">paper</a></td>
+<td nowrap>-</td>
+<td nowrap>-</td>
+<td nowrap>-</td>
+<td nowrap>Humanoid-RL</td>
+<td nowrap>Used to compare source-verified CCF A/B work against the corresponding embodied-AI survey direction.</td>
+</tr>
+<tr>
 <td nowrap>ICRA 2026</td>
 <td nowrap><a href="https://arxiv.org/abs/2510.08807">Humanoid Everyday: A Comprehensive Robotic Dataset for Open-World Humanoid Manipulation</a></td>
-<td nowrap>Humanoid Everyday 提供 260 类开放世界人形操作任务，覆盖移动、交互、操作和多模态传感。</td>
+<td nowrap>Humanoid Everyday provides 260 open-world humanoid manipulation task categories covering locomotion, interaction, manipulation, and multimodal sensing.</td>
 <td nowrap>Humanoid</td>
 <td nowrap>RGB-D / LiDAR / tactile / language</td>
 <td nowrap>whole-body manipulation</td>
 <td nowrap>large-scale dataset / benchmark</td>
 <td nowrap>Real</td>
-<td nowrap>补足人形机器人开放世界操作数据和评测。</td>
+<td nowrap>Fill the data and evaluation gap for open-world humanoid manipulation.</td>
 <td nowrap><a href="https://arxiv.org/abs/2510.08807">paper</a></td>
 <td nowrap><a href="https://humanoideveryday.github.io/">project</a></td>
 <td nowrap><a href="https://github.com/physical-superintelligence-lab/Humanoid-Everyday">code</a></td>
@@ -8226,7 +9319,7 @@ Total: 22 papers.
 <tr>
 <td nowrap>ICLR 2026</td>
 <td nowrap><a href="https://openreview.net/forum?id=eSkDNIGbcd">Hierarchical Value-Decomposed Offline Reinforcement Learning for Whole-Body Control</a></td>
-<td nowrap>-</td>
+<td nowrap>This paper decomposes whole-body control into hierarchical value components, enabling offline RL to coordinate complex humanoid and legged-robot behaviors.</td>
 <td nowrap>Humanoid/Legged Robot</td>
 <td nowrap>tactile / contact</td>
 <td nowrap>humanoid control / humanoid / whole-body control</td>
@@ -8243,7 +9336,7 @@ Total: 22 papers.
 <tr>
 <td nowrap>AAAI 2026</td>
 <td nowrap><a href="https://ojs.aaai.org/index.php/AAAI/article/view/38908">Whole-Body Coordination for Dynamic Object Grasping with Legged Manipulators</a></td>
-<td nowrap>-</td>
+<td nowrap>This paper coordinates locomotion and arm control so legged manipulators can track and grasp moving objects in dynamic scenes.</td>
 <td nowrap>quadruped / legged mobile base + manipulator</td>
 <td nowrap>-</td>
 <td nowrap>whole-body coordination for dynamic grasping</td>
@@ -8260,7 +9353,7 @@ Total: 22 papers.
 <tr>
 <td nowrap>AAAI 2026</td>
 <td nowrap><a href="https://ojs.aaai.org/index.php/AAAI/article/view/38918">Coordinated Humanoid Robot Locomotion with Symmetry Equivariant Reinforcement Learning Policy</a></td>
-<td nowrap>-</td>
+<td nowrap>This paper builds symmetry equivariance into reinforcement learning policies to learn coordinated, transferable humanoid locomotion.</td>
 <td nowrap>Humanoid/Legged Robot</td>
 <td nowrap>proprioceptive state + foot contact</td>
 <td nowrap>humanoid control / humanoid / whole-body control</td>
@@ -8277,7 +9370,7 @@ Total: 22 papers.
 <tr>
 <td nowrap>AAAI 2026</td>
 <td nowrap><a href="https://ojs.aaai.org/index.php/AAAI/article/view/38924">FARM: Frame-Accelerated Augmentation and Residual Mixture-of-Experts for Physics-Based High-Dynamic Humanoid Control</a></td>
-<td nowrap>-</td>
+<td nowrap>FARM combines frame-accelerated motion augmentation with residual mixture-of-experts policies to train high-dynamic physics-based humanoid skills.</td>
 <td nowrap>Humanoid/Legged Robot</td>
 <td nowrap>-</td>
 <td nowrap>humanoid control / humanoid / whole-body control</td>
@@ -8294,7 +9387,7 @@ Total: 22 papers.
 <tr>
 <td nowrap>AAAI 2026</td>
 <td nowrap><a href="https://ojs.aaai.org/index.php/AAAI/article/view/38927">ODYSSEY: Open-World Quadrupeds Exploration and Manipulation for Long-Horizon Tasks</a></td>
-<td nowrap>-</td>
+<td nowrap>ODYSSEY targets long-horizon open-world quadruped tasks by combining exploration and manipulation for legged robots with arms.</td>
 <td nowrap>quadruped robot + manipulator</td>
 <td nowrap>-</td>
 <td nowrap>humanoid control / humanoid / whole-body control</td>
@@ -8311,7 +9404,7 @@ Total: 22 papers.
 <tr>
 <td nowrap>AAAI 2026</td>
 <td nowrap><a href="https://ojs.aaai.org/index.php/AAAI/article/view/38949">Keep On Going: Learning Robust Humanoid Motion Skills via Selective Adversarial Training</a></td>
-<td nowrap>-</td>
+<td nowrap>Keep On Going uses selective adversarial training to improve the robustness and persistence of humanoid motion skills under disturbances.</td>
 <td nowrap>Humanoid/Legged Robot</td>
 <td nowrap>-</td>
 <td nowrap>humanoid control / humanoid / whole-body control</td>
@@ -8328,7 +9421,7 @@ Total: 22 papers.
 <tr>
 <td nowrap>AAAI 2026</td>
 <td nowrap><a href="https://ojs.aaai.org/index.php/AAAI/article/view/38951">Towards Adaptive Humanoid Control via Multi-Behavior Distillation and Reinforced Fine-Tuning</a></td>
-<td nowrap>-</td>
+<td nowrap>This paper distills multiple humanoid behaviors into a policy and uses reinforced fine-tuning to adapt it on real hardware.</td>
 <td nowrap>Humanoid/Legged Robot</td>
 <td nowrap>tactile / contact</td>
 <td nowrap>humanoid control / humanoid / whole-body control</td>
@@ -8345,7 +9438,7 @@ Total: 22 papers.
 <tr>
 <td nowrap>ICML 2026</td>
 <td nowrap><a href="https://icml.cc/virtual/2026/poster/62003">Scalable and General Whole-Body Control for Cross-Humanoid Locomotion</a></td>
-<td nowrap>-</td>
+<td nowrap>This paper uses cross-humanoid morphological variation to train a scalable whole-body locomotion controller that transfers across diverse humanoid robots.</td>
 <td nowrap>Humanoid Robot</td>
 <td nowrap>-</td>
 <td nowrap>humanoid control / humanoid / whole-body control</td>
@@ -8362,7 +9455,7 @@ Total: 22 papers.
 <tr>
 <td nowrap>ICML 2026</td>
 <td nowrap><a href="https://icml.cc/virtual/2026/poster/65120">Learning Transferable Interaction Primitives from Game Videos for Humanoids</a></td>
-<td nowrap>-</td>
+<td nowrap>This paper learns reusable humanoid interaction primitives from game videos to transfer human-like contact and object-interaction skills to robots.</td>
 <td nowrap>Humanoid Robot</td>
 <td nowrap>-</td>
 <td nowrap>humanoid control / humanoid / whole-body control</td>
@@ -8447,7 +9540,7 @@ Total: 22 papers.
 <tr>
 <td nowrap>CVPR 2025</td>
 <td nowrap><a href="https://cvpr.thecvf.com/virtual/2025/poster/34565">Let Humanoids Hike! Integrative Skill Development on Complex Trails</a></td>
-<td nowrap>-</td>
+<td nowrap>Let Humanoids Hike integrates perception, locomotion, and balance control so humanoids can traverse complex trail environments.</td>
 <td nowrap>Humanoid Robot</td>
 <td nowrap>-</td>
 <td nowrap>humanoid control / humanoid / whole-body control</td>
@@ -8466,7 +9559,7 @@ Total: 22 papers.
 
 #### bimanual
 
-Total: 12 papers.
+Total: 13 papers.
 
 <table>
 <thead>
@@ -8490,15 +9583,32 @@ Total: 12 papers.
 </thead>
 <tbody>
 <tr>
+<td nowrap>ICLR 2025</td>
+<td nowrap><a href="https://openreview.net/forum?id=yAzN4tz7oI">RDT-1B: a Diffusion Foundation Model for Bimanual Manipulation</a></td>
+<td nowrap>RDT-1B scales diffusion policy learning for bimanual robotic manipulation.</td>
+<td nowrap>Bimanual manipulation</td>
+<td nowrap>vision + proprioception</td>
+<td nowrap>bimanual diffusion action</td>
+<td nowrap>diffusion foundation model</td>
+<td nowrap>Sim + Real</td>
+<td nowrap>Train a large diffusion foundation model for bimanual manipulation.</td>
+<td nowrap><a href="https://arxiv.org/pdf/2410.07864">paper</a></td>
+<td nowrap>-</td>
+<td nowrap>-</td>
+<td nowrap>-</td>
+<td nowrap>EAI-VLA-VLN, Awesome-VLA</td>
+<td nowrap>Used to compare source-verified CCF A/B work against the corresponding embodied-AI survey direction.</td>
+</tr>
+<tr>
 <td nowrap>ICRA 2025</td>
 <td nowrap><a href="https://dexmimicgen.github.io/">DexMimicGen: Automated Data Generation for Bimanual Dexterous Manipulation via Imitation Learning</a></td>
-<td nowrap>DexMimicGen 从少量人类示教自动生成大规模双臂灵巧操作 demonstrations，并覆盖 sim/real。</td>
+<td nowrap>DexMimicGen automatically generates large-scale bimanual dexterous manipulation demonstrations from a small number of human demonstrations across sim and real settings.</td>
 <td nowrap>Bimanual dexterous manipulation</td>
 <td nowrap>vision + proprioception</td>
 <td nowrap>bimanual action</td>
 <td nowrap>imitation data generation</td>
 <td nowrap>Sim + Real</td>
-<td nowrap>降低双臂灵巧操作示教数据采集成本。</td>
+<td nowrap>Reduce the data collection cost for bimanual dexterous manipulation demonstrations.</td>
 <td nowrap><a href="https://dexmimicgen.github.io/">paper</a></td>
 <td nowrap><a href="https://dexmimicgen.github.io/">project</a></td>
 <td nowrap><a href="https://github.com/NVlabs/dexmimicgen/">code</a></td>
@@ -8543,7 +9653,7 @@ Total: 12 papers.
 <tr>
 <td nowrap>AAAI 2026</td>
 <td nowrap><a href="https://ojs.aaai.org/index.php/AAAI/article/view/38926">LatentVLA: Taming Latent Space for Generalizable and Long-Horizon Bimanual Manipulation</a></td>
-<td nowrap>-</td>
+<td nowrap>LatentVLA structures the latent space of vision-language-action policies to improve generalization and long-horizon bimanual manipulation.</td>
 <td nowrap>Bimanual Robot</td>
 <td nowrap>-</td>
 <td nowrap>bimanual policy / bimanual manipulation</td>
@@ -8560,7 +9670,7 @@ Total: 12 papers.
 <tr>
 <td nowrap>ICML 2026</td>
 <td nowrap><a href="https://icml.cc/virtual/2026/poster/63277">DexMachina: Functional Retargeting for Bimanual Dexterous Manipulation</a></td>
-<td nowrap>-</td>
+<td nowrap>DexMachina retargets functional bimanual dexterous manipulation skills across hands and tools by preserving task-relevant effects.</td>
 <td nowrap>Bimanual Robot</td>
 <td nowrap>-</td>
 <td nowrap>bimanual policy / bimanual manipulation</td>
@@ -8577,7 +9687,7 @@ Total: 12 papers.
 <tr>
 <td nowrap>ICML 2026</td>
 <td nowrap><a href="https://icml.cc/virtual/2026/poster/66358">DECO: Decoupled Multimodal Diffusion Transformer for Bimanual Dexterous Manipulation with a Plugin Tactile Adapter</a></td>
-<td nowrap>-</td>
+<td nowrap>DECO uses a decoupled multimodal diffusion Transformer with a tactile adapter to model vision, action, and touch for bimanual dexterous manipulation.</td>
 <td nowrap>Bimanual Robot</td>
 <td nowrap>tactile / contact</td>
 <td nowrap>diffusion policy / tactile policy / diffusion transformer / bimanual manipulation</td>
@@ -8698,7 +9808,7 @@ Total: 12 papers.
 
 #### dexterous hand
 
-Total: 28 papers.
+Total: 31 papers.
 
 <table>
 <thead>
@@ -8722,15 +9832,66 @@ Total: 28 papers.
 </thead>
 <tbody>
 <tr>
+<td nowrap>CVPR 2025</td>
+<td nowrap><a href="https://openaccess.thecvf.com/content/CVPR2025/html/Li_ManipTrans_Efficient_Dexterous_Bimanual_Manipulation_Transfer_via_Residual_Learning_CVPR_2025_paper.html">ManipTrans: Efficient Dexterous Bimanual Manipulation Transfer via Residual Learning</a></td>
+<td nowrap>ManipTrans transfers dexterous bimanual manipulation skills efficiently with residual learning.</td>
+<td nowrap>Dexterous bimanual manipulation</td>
+<td nowrap>hand-object contact</td>
+<td nowrap>dexterous bimanual control</td>
+<td nowrap>residual transfer learning</td>
+<td nowrap>Simulation / robot tasks</td>
+<td nowrap>Transfer dexterous bimanual manipulation skills.</td>
+<td nowrap><a href="https://openaccess.thecvf.com/content/CVPR2025/papers/Li_ManipTrans_Efficient_Dexterous_Bimanual_Manipulation_Transfer_via_Residual_Learning_CVPR_2025_paper.pdf">paper</a></td>
+<td nowrap>-</td>
+<td nowrap>-</td>
+<td nowrap>-</td>
+<td nowrap>Awesome-EAI</td>
+<td nowrap>Used to compare source-verified CCF A/B work against the corresponding embodied-AI survey direction.</td>
+</tr>
+<tr>
+<td nowrap>ICML 2024</td>
+<td nowrap><a href="https://proceedings.mlr.press/v235/he24o.html">DynSyn: Dynamical Synergistic Representation for Efficient Learning and Control in Overactuated Embodied Systems</a></td>
+<td nowrap>DynSyn learns dynamical synergies for efficient control in overactuated embodied systems.</td>
+<td nowrap>Dexterous / overactuated embodiment</td>
+<td nowrap>joint coordination</td>
+<td nowrap>synergy control</td>
+<td nowrap>representation learning + control</td>
+<td nowrap>Control benchmarks</td>
+<td nowrap>Reduce control complexity in high-DoF embodied systems.</td>
+<td nowrap><a href="https://proceedings.mlr.press/v235/he24o/he24o.pdf">paper</a></td>
+<td nowrap>-</td>
+<td nowrap>-</td>
+<td nowrap>-</td>
+<td nowrap>Awesome-EAI</td>
+<td nowrap>Used to compare source-verified CCF A/B work against the corresponding embodied-AI survey direction.</td>
+</tr>
+<tr>
+<td nowrap>ICCV 2025</td>
+<td nowrap><a href="https://openaccess.thecvf.com/content/ICCV2025/html/He_DexVLG_Dexterous_Vision-Language-Grasp_Model_at_Scale_ICCV_2025_paper.html">DexVLG: Dexterous Vision-Language-Grasp Model at Scale</a></td>
+<td nowrap>DexVLG scales a vision-language grasp model for dexterous manipulation.</td>
+<td nowrap>Dexterous grasping</td>
+<td nowrap>vision-language grasp cues</td>
+<td nowrap>dexterous grasp action</td>
+<td nowrap>large-scale grasp model</td>
+<td nowrap>Dexterous grasp tasks</td>
+<td nowrap>Scale vision-language grasping to dexterous hands.</td>
+<td nowrap><a href="https://arxiv.org/pdf/2507.02747">paper</a></td>
+<td nowrap>-</td>
+<td nowrap>-</td>
+<td nowrap>-</td>
+<td nowrap>EAI-VLA-VLN</td>
+<td nowrap>Used to compare source-verified CCF A/B work against the corresponding embodied-AI survey direction.</td>
+</tr>
+<tr>
 <td nowrap>IROS 2026</td>
 <td nowrap><a href="https://arxiv.org/abs/2606.24450">NoContactNoWorries: Estimating Contact through Vision and Proprioception for In-Hand Dexterous Manipulation</a></td>
-<td nowrap>NoContactNoWorries 不依赖触觉硬件，用视觉和本体感知估计灵巧手接触状态。</td>
+<td nowrap>NoContactNoWorries estimates dexterous hand contact states from vision and proprioception without tactile hardware.</td>
 <td nowrap>Dexterous hand</td>
 <td nowrap>vision + proprioception contact estimation</td>
 <td nowrap>in-hand manipulation</td>
 <td nowrap>contact representation learning</td>
 <td nowrap>Real</td>
-<td nowrap>用低成本感知补足灵巧手接触反馈。</td>
+<td nowrap>Use low-cost sensing to complement dexterous-hand contact feedback.</td>
 <td nowrap><a href="https://arxiv.org/abs/2606.24450">paper</a></td>
 <td nowrap><a href="https://soham2560.github.io/no-contact-no-worries/">project</a></td>
 <td nowrap>-</td>
@@ -8945,7 +10106,7 @@ Total: 28 papers.
 <tr>
 <td nowrap>AAAI 2026</td>
 <td nowrap><a href="https://ojs.aaai.org/index.php/AAAI/article/view/38873">GRIM: Task-Oriented Grasping with Conditioning on Generative Examples</a></td>
-<td nowrap>-</td>
+<td nowrap>GRIM conditions grasp selection on generated examples, helping robots choose grasps that fit the intended task rather than only the object geometry.</td>
 <td nowrap>Dexterous Hand/Grasping</td>
 <td nowrap>-</td>
 <td nowrap>dexterous manipulation / dexterous hand / grasping</td>
@@ -8962,7 +10123,7 @@ Total: 28 papers.
 <tr>
 <td nowrap>AAAI 2026</td>
 <td nowrap><a href="https://ojs.aaai.org/index.php/AAAI/article/view/38874">Dexterous Manipulation Transfer via Progressive Kinematic-Dynamic Alignment</a></td>
-<td nowrap>-</td>
+<td nowrap>This paper progressively aligns kinematics and dynamics to transfer dexterous manipulation policies across different embodiments and settings.</td>
 <td nowrap>Dexterous Hand/Grasping</td>
 <td nowrap>-</td>
 <td nowrap>dexterous manipulation / dexterous hand / grasping</td>
@@ -8979,7 +10140,7 @@ Total: 28 papers.
 <tr>
 <td nowrap>AAAI 2026</td>
 <td nowrap><a href="https://ojs.aaai.org/index.php/AAAI/article/view/38892">Learning Object-Centric Motion Priors from Human for Robotic Dexterous Manipulation</a></td>
-<td nowrap>-</td>
+<td nowrap>This paper learns object-centric motion priors from human demonstrations and uses them to guide robotic dexterous manipulation.</td>
 <td nowrap>Dexterous Hand/Grasping</td>
 <td nowrap>-</td>
 <td nowrap>dexterous manipulation / dexterous hand / grasping</td>
@@ -9013,7 +10174,7 @@ Total: 28 papers.
 <tr>
 <td nowrap>AAAI 2026</td>
 <td nowrap><a href="https://ojs.aaai.org/index.php/AAAI/article/view/38940">GraphGrasp: Lightweight and Efficient Graph-Guided 6-DoF Robotic Grasp Pose Estimation Network</a></td>
-<td nowrap>-</td>
+<td nowrap>GraphGrasp uses graph-guided modeling to estimate lightweight and efficient 6-DoF robotic grasp poses.</td>
 <td nowrap>mainly robotic grasping / grippers</td>
 <td nowrap>-</td>
 <td nowrap>6-DoF grasp pose estimation</td>
@@ -9030,7 +10191,7 @@ Total: 28 papers.
 <tr>
 <td nowrap>AAAI 2026</td>
 <td nowrap><a href="https://ojs.aaai.org/index.php/AAAI/article/view/38953">DexGraspVLA: A Vision-Language-Action Framework Towards General Dexterous Grasping</a></td>
-<td nowrap>-</td>
+<td nowrap>DexGraspVLA couples vision-language high-level planning with action generation to support general dexterous grasping from instructions.</td>
 <td nowrap>Dexterous Hand/Grasping</td>
 <td nowrap>Vision + language</td>
 <td nowrap>VLM high-level planner + diffusion low-level controller</td>
@@ -9047,7 +10208,7 @@ Total: 28 papers.
 <tr>
 <td nowrap>AAAI 2026</td>
 <td nowrap><a href="https://ojs.aaai.org/index.php/AAAI/article/view/38957">Effective Robotic Cloth Grasping Through Suppressing False Discoveries</a></td>
-<td nowrap>-</td>
+<td nowrap>This paper suppresses false discoveries in cloth-grasp detection to make robotic cloth grasping more reliable.</td>
 <td nowrap>cloth-grasping robot</td>
 <td nowrap>-</td>
 <td nowrap>dexterous manipulation / dexterous hand / grasping</td>
@@ -9081,7 +10242,7 @@ Total: 28 papers.
 <tr>
 <td nowrap>NeurIPS 2025</td>
 <td nowrap><a href="https://arxiv.org/pdf/2511.01276">Generalizable Dexterous Grasp Generation via Contact Map Transfer</a></td>
-<td nowrap>-</td>
+<td nowrap>This paper transfers contact maps to condition diffusion-based generation of dexterous grasps that generalize across objects.</td>
 <td nowrap>Dexterous Hand/Grasping</td>
 <td nowrap>tactile / contact</td>
 <td nowrap>conditional diffusion grasp generation</td>
@@ -9183,7 +10344,7 @@ Total: 28 papers.
 <tr>
 <td nowrap>CVPR 2025</td>
 <td nowrap><a href="https://cvpr.thecvf.com/virtual/2025/poster/32440">ZeroGrasp: Zero-Shot Shape Reconstruction Enabled Robotic Grasping</a></td>
-<td nowrap>-</td>
+<td nowrap>ZeroGrasp reconstructs object shape in zero-shot settings to enable robotic grasping without object-specific training data.</td>
 <td nowrap>Dexterous Hand/Grasping</td>
 <td nowrap>-</td>
 <td nowrap>dexterous manipulation / dexterous hand / grasping</td>
@@ -9279,7 +10440,7 @@ Total: 13 papers.
 <tr>
 <td nowrap>AAAI 2026</td>
 <td nowrap><a href="https://ojs.aaai.org/index.php/AAAI/article/view/38882">STOLA: Self-Adaptive Touch-Language Framework for Tactile Commonsense Reasoning in Open-Ended Scenarios</a></td>
-<td nowrap>-</td>
+<td nowrap>STOLA adapts touch-language reasoning to open-ended tactile scenarios, linking tactile signals with commonsense language understanding.</td>
 <td nowrap>Tactile/Contact-rich Manipulation</td>
 <td nowrap>tactile / contact</td>
 <td nowrap>tactile policy / tactile / contact</td>
@@ -9296,7 +10457,7 @@ Total: 13 papers.
 <tr>
 <td nowrap>AAAI 2026</td>
 <td nowrap><a href="https://ojs.aaai.org/index.php/AAAI/article/view/38915">TouchFormer: A Robust Transformer-based Framework for Multimodal Material Perception</a></td>
-<td nowrap>-</td>
+<td nowrap>TouchFormer uses a Transformer-based multimodal framework to make material perception robust across visual and tactile cues.</td>
 <td nowrap>Tactile/Contact-rich Manipulation</td>
 <td nowrap>tactile + vision / multimodal</td>
 <td nowrap>perception model</td>
@@ -9313,7 +10474,7 @@ Total: 13 papers.
 <tr>
 <td nowrap>AAAI 2026</td>
 <td nowrap><a href="https://ojs.aaai.org/index.php/AAAI/article/view/38956">Collaborative Representation Learning for Alignment of Tactile, Language, and Vision Modalities</a></td>
-<td nowrap>-</td>
+<td nowrap>This paper learns collaborative representations that align tactile, language, and vision modalities for shared multimodal understanding.</td>
 <td nowrap>Tactile/Contact-rich Manipulation</td>
 <td nowrap>tactile + vision + language</td>
 <td nowrap>tactile policy / tactile / contact</td>
@@ -9330,7 +10491,7 @@ Total: 13 papers.
 <tr>
 <td nowrap>ICML 2026</td>
 <td nowrap><a href="https://icml.cc/virtual/2026/poster/66793">Cross-Tactile Sensor Representation Learning</a></td>
-<td nowrap>-</td>
+<td nowrap>This paper learns tactile representations that transfer across different sensor types, reducing dependence on a single tactile hardware setup.</td>
 <td nowrap>Tactile/Contact-rich Manipulation</td>
 <td nowrap>tactile / contact</td>
 <td nowrap>tactile policy / tactile / contact</td>
@@ -9347,7 +10508,7 @@ Total: 13 papers.
 <tr>
 <td nowrap>ICML 2026</td>
 <td nowrap><a href="https://icml.cc/virtual/2026/poster/65669">Tabero: Learning Gentle Manipulation with Closed-Loop Force Feedback from Vision, Touch, and Language</a></td>
-<td nowrap>-</td>
+<td nowrap>Tabero learns gentle manipulation by combining vision, touch, language, and closed-loop force feedback with hybrid control.</td>
 <td nowrap>Tactile/Contact-rich Manipulation</td>
 <td nowrap>vision + touch + language + force feedback</td>
 <td nowrap>decoupled force-position commands + hybrid controller</td>
@@ -9398,7 +10559,7 @@ Total: 13 papers.
 <tr>
 <td nowrap>NeurIPS 2025</td>
 <td nowrap><a href="https://taccel-simulator.github.io/assets/taccel-paper.pdf">Taccel: Scaling Up Vision-based Tactile Robotics via High-performance GPU Simulation</a></td>
-<td nowrap>-</td>
+<td nowrap>Taccel provides high-performance GPU simulation for vision-based tactile robotics, scaling data generation and policy training with tactile sensing.</td>
 <td nowrap>Tactile/Contact-rich Manipulation</td>
 <td nowrap>tactile / contact</td>
 <td nowrap>tactile policy / tactile / contact</td>
@@ -9455,7 +10616,7 @@ This direction determines whether systems can actually be deployed: on-device in
 
 Subdirections: quantization/cache/tokenization, real-time execution, benchmark/dataset, sim2real, and safety evaluation.
 
-Total: 83 papers.
+Total: 95 papers.
 
 <table>
 <thead>
@@ -9468,7 +10629,7 @@ Total: 83 papers.
 <tbody>
 <tr>
 <td nowrap>quantization/cache/tokenization</td>
-<td nowrap>17</td>
+<td nowrap>21</td>
 <td nowrap>Focus: on-device deployment, cache reuse, and action token efficiency.</td>
 </tr>
 <tr>
@@ -9478,7 +10639,7 @@ Total: 83 papers.
 </tr>
 <tr>
 <td nowrap>benchmark/dataset</td>
-<td nowrap>33</td>
+<td nowrap>39</td>
 <td nowrap>Focus: data coverage, task design, and evaluation credibility.</td>
 </tr>
 <tr>
@@ -9488,7 +10649,7 @@ Total: 83 papers.
 </tr>
 <tr>
 <td nowrap>safety evaluation</td>
-<td nowrap>10</td>
+<td nowrap>12</td>
 <td nowrap>Focus: robustness, safety, and deployment risk evaluation.</td>
 </tr>
 </tbody>
@@ -9496,7 +10657,7 @@ Total: 83 papers.
 
 #### quantization/cache/tokenization
 
-Total: 17 papers.
+Total: 21 papers.
 
 <table>
 <thead>
@@ -9519,6 +10680,74 @@ Total: 17 papers.
 </tr>
 </thead>
 <tbody>
+<tr>
+<td nowrap>ICML 2026</td>
+<td nowrap><a href="https://arxiv.org/abs/2509.05614">SpecPrune-VLA: Accelerating Vision-Language-Action Models via Action-Aware Self-Speculative Pruning</a></td>
+<td nowrap>Uses action-aware self-speculative pruning to accelerate VLA inference while preserving action quality.</td>
+<td nowrap>compression/cache/tokenization</td>
+<td nowrap>self-speculative pruning</td>
+<td nowrap>robot deployment/evaluation environment</td>
+<td nowrap>VLA manipulation</td>
+<td nowrap>-</td>
+<td nowrap>Addresses redundant computation in VLA action generation.</td>
+<td nowrap><a href="https://arxiv.org/abs/2509.05614">paper</a></td>
+<td nowrap>-</td>
+<td nowrap>-</td>
+<td nowrap>-</td>
+<td nowrap>Efficient-VLA</td>
+<td nowrap>Used to evaluate deployment efficiency, data coverage, and benchmark credibility.</td>
+</tr>
+<tr>
+<td nowrap>EMNLP 2025</td>
+<td nowrap><a href="https://arxiv.org/abs/2507.22424">Spec-VLA: Speculative Decoding for Vision-Language-Action Models with Relaxed Acceptance</a></td>
+<td nowrap>Applies relaxed speculative decoding to accelerate VLA action generation.</td>
+<td nowrap>compression/cache/tokenization</td>
+<td nowrap>speculative decoding</td>
+<td nowrap>robot deployment/evaluation environment</td>
+<td nowrap>VLA manipulation</td>
+<td nowrap>-</td>
+<td nowrap>Addresses slow autoregressive VLA decoding during robot execution.</td>
+<td nowrap><a href="https://arxiv.org/abs/2507.22424">paper</a></td>
+<td nowrap>-</td>
+<td nowrap>-</td>
+<td nowrap>-</td>
+<td nowrap>Efficient-VLA</td>
+<td nowrap>Used to evaluate deployment efficiency, data coverage, and benchmark credibility.</td>
+</tr>
+<tr>
+<td nowrap>NeurIPS 2024</td>
+<td nowrap><a href="https://arxiv.org/abs/2411.02359">DeeR-VLA: Dynamic Inference of Multimodal Large Language Models for Efficient Robot Execution</a></td>
+<td nowrap>Uses dynamic inference to reduce multimodal VLA computation during robot execution.</td>
+<td nowrap>compression/cache/tokenization</td>
+<td nowrap>dynamic inference</td>
+<td nowrap>robot deployment/evaluation environment</td>
+<td nowrap>robot execution</td>
+<td nowrap>Code</td>
+<td nowrap>Addresses unnecessary computation in multimodal VLA inference.</td>
+<td nowrap><a href="https://arxiv.org/abs/2411.02359">paper</a></td>
+<td nowrap>-</td>
+<td nowrap><a href="https://github.com/yueyang130/DeeR-VLA">code</a></td>
+<td nowrap>-</td>
+<td nowrap>Efficient-VLA</td>
+<td nowrap>Used to evaluate deployment efficiency, data coverage, and benchmark credibility.</td>
+</tr>
+<tr>
+<td nowrap>NeurIPS 2024</td>
+<td nowrap><a href="https://arxiv.org/abs/2406.04339">RoboMamba: Efficient Vision-Language-Action Model for Robotic Reasoning and Manipulation</a></td>
+<td nowrap>Uses a Mamba/state-space architecture to make VLA robot reasoning and manipulation more efficient.</td>
+<td nowrap>efficient architecture</td>
+<td nowrap>state-space model backbone</td>
+<td nowrap>robot deployment/evaluation environment</td>
+<td nowrap>robot reasoning and manipulation</td>
+<td nowrap>Project+Code</td>
+<td nowrap>Addresses Transformer efficiency bottlenecks in VLA policies.</td>
+<td nowrap><a href="https://arxiv.org/abs/2406.04339">paper</a></td>
+<td nowrap><a href="https://sites.google.com/view/robomamba-web">project</a></td>
+<td nowrap><a href="https://github.com/lmzpai/roboMamba">code</a></td>
+<td nowrap>-</td>
+<td nowrap>Awesome-VLA, Efficient-VLA</td>
+<td nowrap>Used to evaluate deployment efficiency, data coverage, and benchmark credibility.</td>
+</tr>
 <tr>
 <td nowrap>ICLR 2026</td>
 <td nowrap><a href="https://openreview.net/forum?id=E1K2Ph3LtS">MetaVLA: Unified Meta Co-Training for Efficient Embodied Adaptation</a></td>
@@ -9943,7 +11172,7 @@ Total: 6 papers.
 
 #### benchmark/dataset
 
-Total: 33 papers.
+Total: 39 papers.
 
 <table>
 <thead>
@@ -9967,15 +11196,117 @@ Total: 33 papers.
 </thead>
 <tbody>
 <tr>
+<td nowrap>ICCV 2025</td>
+<td nowrap><a href="https://openaccess.thecvf.com/content/ICCV2025/html/Zhong_UnrealZoo_Enriching_Photo-realistic_Virtual_Worlds_for_Embodied_AI_ICCV_2025_paper.html">UnrealZoo: Enriching Photo-realistic Virtual Worlds for Embodied AI</a></td>
+<td nowrap>UnrealZoo expands photorealistic virtual worlds for embodied AI training and evaluation.</td>
+<td nowrap>benchmark/dataset</td>
+<td nowrap>virtual-world coverage</td>
+<td nowrap>simulation platform</td>
+<td nowrap>embodied navigation and interaction</td>
+<td nowrap>open virtual-world resource</td>
+<td nowrap>Provide richer simulation environments for embodied AI.</td>
+<td nowrap><a href="https://openaccess.thecvf.com/content/ICCV2025/papers/Zhong_UnrealZoo_Enriching_Photo-realistic_Virtual_Worlds_for_Embodied_AI_ICCV_2025_paper.pdf">paper</a></td>
+<td nowrap>-</td>
+<td nowrap>-</td>
+<td nowrap>-</td>
+<td nowrap>Awesome-EAI</td>
+<td nowrap>Used to compare source-verified CCF A/B work against the corresponding embodied-AI survey direction.</td>
+</tr>
+<tr>
+<td nowrap>CVPR 2025</td>
+<td nowrap><a href="https://openaccess.thecvf.com/content/CVPR2025/html/Chen_ActiveGAMER_Active_GAussian_Mapping_through_Efficient_Rendering_CVPR_2025_paper.html">ActiveGAMER: Active GAussian Mapping through Efficient Rendering</a></td>
+<td nowrap>ActiveGAMER performs active Gaussian mapping with efficient rendering for embodied scene understanding.</td>
+<td nowrap>mapping/evaluation</td>
+<td nowrap>mapping efficiency</td>
+<td nowrap>Gaussian mapping pipeline</td>
+<td nowrap>active mapping</td>
+<td nowrap>mapping benchmark/resource</td>
+<td nowrap>Improve active mapping efficiency for embodied agents.</td>
+<td nowrap><a href="https://openaccess.thecvf.com/content/CVPR2025/papers/Chen_ActiveGAMER_Active_Gaussian_Mapping_through_Efficient_Rendering_CVPR_2025_paper.pdf">paper</a></td>
+<td nowrap>-</td>
+<td nowrap>-</td>
+<td nowrap>-</td>
+<td nowrap>Awesome-EAI</td>
+<td nowrap>Used to compare source-verified CCF A/B work against the corresponding embodied-AI survey direction.</td>
+</tr>
+<tr>
+<td nowrap>CVPR 2024</td>
+<td nowrap><a href="https://openaccess.thecvf.com/content/CVPR2024/html/Yang_Holodeck_Language_Guided_Generation_of_3D_Embodied_AI_Environments_CVPR_2024_paper.html">Holodeck: Language Guided Generation of 3D Embodied AI Environments</a></td>
+<td nowrap>Holodeck generates 3D embodied AI environments from language guidance.</td>
+<td nowrap>benchmark/dataset</td>
+<td nowrap>3D environment diversity</td>
+<td nowrap>language-to-environment generator</td>
+<td nowrap>environment generation</td>
+<td nowrap>3D embodied environments</td>
+<td nowrap>Generate diverse 3D scenes for embodied AI evaluation.</td>
+<td nowrap><a href="https://openaccess.thecvf.com/content/CVPR2024/papers/Yang_Holodeck_Language_Guided_Generation_of_3D_Embodied_AI_Environments_CVPR_2024_paper.pdf">paper</a></td>
+<td nowrap>-</td>
+<td nowrap>-</td>
+<td nowrap>-</td>
+<td nowrap>Awesome-EAI</td>
+<td nowrap>Used to compare source-verified CCF A/B work against the corresponding embodied-AI survey direction.</td>
+</tr>
+<tr>
+<td nowrap>NeurIPS 2022</td>
+<td nowrap><a href="https://proceedings.neurips.cc/paper_files/paper/2022/hash/27c546ab1e4f1d7d638e6a8dfbad9a07-Abstract-Conference.html">ProcTHOR: Large-Scale Embodied AI Using Procedural Generation</a></td>
+<td nowrap>ProcTHOR uses procedural generation to create large-scale embodied AI environments.</td>
+<td nowrap>benchmark/dataset</td>
+<td nowrap>procedural scene diversity</td>
+<td nowrap>AI2-THOR environment generation</td>
+<td nowrap>navigation and interaction tasks</td>
+<td nowrap>ProcTHOR</td>
+<td nowrap>Scale embodied-AI evaluation with generated houses.</td>
+<td nowrap><a href="https://proceedings.neurips.cc/paper_files/paper/2022/file/27c546ab1e4f1d7d638e6a8dfbad9a07-Paper-Conference.pdf">paper</a></td>
+<td nowrap>-</td>
+<td nowrap>-</td>
+<td nowrap>-</td>
+<td nowrap>Awesome-EAI</td>
+<td nowrap>Used to compare source-verified CCF A/B work against the corresponding embodied-AI survey direction.</td>
+</tr>
+<tr>
+<td nowrap>CVPR 2024</td>
+<td nowrap><a href="https://openaccess.thecvf.com/content/CVPR2024/html/Wang_EmbodiedScan_A_Holistic_Multi-Modal_3D_Perception_Suite_Towards_Embodied_AI_CVPR_2024_paper.html">EmbodiedScan: A Holistic Multi-Modal 3D Perception Suite Towards Embodied AI</a></td>
+<td nowrap>EmbodiedScan provides a multimodal 3D perception suite for embodied AI.</td>
+<td nowrap>benchmark/dataset</td>
+<td nowrap>multi-modal 3D perception coverage</td>
+<td nowrap>dataset + benchmark</td>
+<td nowrap>3D perception tasks</td>
+<td nowrap>EmbodiedScan</td>
+<td nowrap>Benchmark holistic 3D perception for embodied agents.</td>
+<td nowrap><a href="https://openaccess.thecvf.com/content/CVPR2024/papers/Wang_EmbodiedScan_A_Holistic_Multi-Modal_3D_Perception_Suite_Towards_Embodied_AI_CVPR_2024_paper.pdf">paper</a></td>
+<td nowrap>-</td>
+<td nowrap>-</td>
+<td nowrap>-</td>
+<td nowrap>Awesome-EAI</td>
+<td nowrap>Used to compare source-verified CCF A/B work against the corresponding embodied-AI survey direction.</td>
+</tr>
+<tr>
+<td nowrap>ECCV 2024</td>
+<td nowrap><a href="https://www.ecva.net/papers/eccv_2024/papers_ECCV/papers/01610.pdf">ReALFRED: An Embodied Instruction Following Benchmark in Photo-Realistic Environments</a></td>
+<td nowrap>ReALFRED benchmarks embodied instruction following in photorealistic environments.</td>
+<td nowrap>benchmark/dataset</td>
+<td nowrap>photorealistic instruction-following coverage</td>
+<td nowrap>benchmark</td>
+<td nowrap>instruction following</td>
+<td nowrap>ReALFRED</td>
+<td nowrap>Evaluate embodied instruction following in realistic scenes.</td>
+<td nowrap><a href="https://www.ecva.net/papers/eccv_2024/papers_ECCV/papers/01610.pdf">paper</a></td>
+<td nowrap>-</td>
+<td nowrap>-</td>
+<td nowrap>-</td>
+<td nowrap>Awesome-EAI</td>
+<td nowrap>Used to compare source-verified CCF A/B work against the corresponding embodied-AI survey direction.</td>
+</tr>
+<tr>
 <td nowrap>ICRA 2026</td>
 <td nowrap><a href="https://arxiv.org/abs/2509.14687">RealMirror: A Comprehensive, Open-Source Vision-Language-Action Platform for Embodied AI</a></td>
-<td nowrap>RealMirror 提供 VLA 数据采集、仿真、训练、评测和 zero-shot sim2real 平台。</td>
+<td nowrap>RealMirror provides a platform for VLA data collection, simulation, training, evaluation, and zero-shot sim-to-real transfer.</td>
 <td nowrap>VLA platform / benchmark</td>
 <td nowrap>benchmark/dataset</td>
 <td nowrap>simulation/evaluation environment</td>
 <td nowrap>humanoid VLA research</td>
 <td nowrap>project/code/models available</td>
-<td nowrap>降低 VLA 数据、训练和评测门槛。</td>
+<td nowrap>Lowers the barrier to VLA data, training, and evaluation.</td>
 <td nowrap><a href="https://arxiv.org/abs/2509.14687">paper</a></td>
 <td nowrap><a href="https://terminators2025.github.io/RealMirror.github.io/">project</a></td>
 <td nowrap><a href="https://github.com/terminators2025/RealMirror">code</a></td>
@@ -9986,13 +11317,13 @@ Total: 33 papers.
 <tr>
 <td nowrap>IROS 2025</td>
 <td nowrap><a href="https://arxiv.org/abs/2412.05313">lambda: A Benchmark for Data-Efficiency in Long-Horizon Indoor Mobile Manipulation Robotics</a></td>
-<td nowrap>lambda benchmark 评测长程室内移动操作在数据效率、语言任务和多房间场景下的表现。</td>
+<td nowrap>The lambda benchmark evaluates long-horizon indoor mobile manipulation for data efficiency, language tasks, and multi-room scenes.</td>
 <td nowrap>benchmark/dataset</td>
 <td nowrap>data efficiency</td>
 <td nowrap>indoor mobile manipulation benchmark</td>
 <td nowrap>long-horizon mobile manipulation</td>
 <td nowrap>project/code/data available</td>
-<td nowrap>补足长程移动操作数据效率评测。</td>
+<td nowrap>Fills the gap in data-efficiency evaluation for long-horizon mobile manipulation.</td>
 <td nowrap><a href="https://arxiv.org/abs/2412.05313">paper</a></td>
 <td nowrap><a href="https://lambdabenchmark.github.io/">project</a></td>
 <td nowrap><a href="https://github.com/h2r/LAMBDA">code</a></td>
@@ -10003,13 +11334,13 @@ Total: 33 papers.
 <tr>
 <td nowrap>ICRA 2025</td>
 <td nowrap><a href="https://github.com/BAAI-DCAI/SpatialBot">SpatialBot: Precise Spatial Understanding with Vision Language Models</a></td>
-<td nowrap>SpatialBot 面向 VLM 精确空间理解，提供 embodiment 数据、SpatialQA 和 SpatialBench。</td>
+<td nowrap>SpatialBot targets precise VLM spatial understanding with embodied data, SpatialQA, and SpatialBench.</td>
 <td nowrap>spatial understanding benchmark</td>
 <td nowrap>benchmark/dataset</td>
 <td nowrap>VLM spatial reasoning</td>
 <td nowrap>embodied spatial QA</td>
 <td nowrap>model/data/benchmark available</td>
-<td nowrap>评测 VLM 是否具备可用于机器人操作的精确空间理解。</td>
+<td nowrap>Evaluates whether VLMs have precise spatial understanding for robot manipulation.</td>
 <td nowrap><a href="https://github.com/BAAI-DCAI/SpatialBot">paper</a></td>
 <td nowrap><a href="https://github.com/BAAI-DCAI/SpatialBot">project</a></td>
 <td nowrap><a href="https://github.com/BAAI-DCAI/SpatialBot">code</a></td>
@@ -10105,7 +11436,7 @@ Total: 33 papers.
 <tr>
 <td nowrap>AAAI 2026</td>
 <td nowrap><a href="https://ojs.aaai.org/index.php/AAAI/article/view/38875">H-RDT: Human Manipulation Enhanced Bimanual Robotic Manipulation</a></td>
-<td nowrap>-</td>
+<td nowrap>Leverages egocentric human manipulation data to pretrain a diffusion-transformer policy for stronger bimanual robot manipulation.</td>
 <td nowrap>benchmark/dataset</td>
 <td nowrap>benchmark/dataset</td>
 <td nowrap>simulation/evaluation environment</td>
@@ -10122,7 +11453,7 @@ Total: 33 papers.
 <tr>
 <td nowrap>AAAI 2026</td>
 <td nowrap><a href="https://ojs.aaai.org/index.php/AAAI/article/view/38883">PEOD: A Pixel-Aligned Event-RGB Benchmark for Object Detection Under Challenging Conditions</a></td>
-<td nowrap>-</td>
+<td nowrap>Provides a high-resolution pixel-aligned Event-RGB object-detection benchmark for low-light, overexposed, and high-speed scenes.</td>
 <td nowrap>benchmark/dataset</td>
 <td nowrap>benchmark/dataset</td>
 <td nowrap>simulation/evaluation environment</td>
@@ -10139,7 +11470,7 @@ Total: 33 papers.
 <tr>
 <td nowrap>AAAI 2026</td>
 <td nowrap><a href="https://ojs.aaai.org/index.php/AAAI/article/view/38913">SIAM: Towards Generalizable Articulated Object Modeling via Single Robot-Object Interaction</a></td>
-<td nowrap>-</td>
+<td nowrap>Infers articulated-object part segmentation, kinematics, and URDF-style models from a single robot-object interaction.</td>
 <td nowrap>benchmark/dataset</td>
 <td nowrap>benchmark/dataset</td>
 <td nowrap>simulation/evaluation environment</td>
@@ -10156,7 +11487,7 @@ Total: 33 papers.
 <tr>
 <td nowrap>AAAI 2026</td>
 <td nowrap><a href="https://ojs.aaai.org/index.php/AAAI/article/view/38923">VirtualEnv: A Platform for Embodied AI Research</a></td>
-<td nowrap>-</td>
+<td nowrap>Provides an Unreal Engine 5 simulation platform for evaluating LLM/VLM agents in interactive embodied tasks.</td>
 <td nowrap>benchmark/dataset</td>
 <td nowrap>benchmark/dataset</td>
 <td nowrap>simulation/evaluation environment</td>
@@ -10173,7 +11504,7 @@ Total: 33 papers.
 <tr>
 <td nowrap>AAAI 2026</td>
 <td nowrap><a href="https://ojs.aaai.org/index.php/AAAI/article/view/38930">Lifelong Language-Conditioned Robotic Manipulation Learning</a></td>
-<td nowrap>-</td>
+<td nowrap>Introduces SkillsCrafter for continual language-conditioned manipulation while reducing catastrophic forgetting across skills.</td>
 <td nowrap>benchmark/dataset</td>
 <td nowrap>benchmark/dataset</td>
 <td nowrap>simulation/evaluation environment</td>
@@ -10190,7 +11521,7 @@ Total: 33 papers.
 <tr>
 <td nowrap>ICML 2026</td>
 <td nowrap><a href="https://icml.cc/virtual/2026/poster/64411">AIR-VLA: Vision-Language-Action Systems for Aerial Manipulation</a></td>
-<td nowrap>-</td>
+<td nowrap>Builds a simulation, dataset, and benchmark for VLA/VLM evaluation on aerial manipulation systems.</td>
 <td nowrap>benchmark/dataset</td>
 <td nowrap>benchmark/dataset</td>
 <td nowrap>UAV / aerial robot</td>
@@ -10207,7 +11538,7 @@ Total: 33 papers.
 <tr>
 <td nowrap>ICML 2026</td>
 <td nowrap><a href="https://icml.cc/virtual/2026/poster/63391">DLO-Lab: Benchmarking Deformable Linear Object Manipulations with Differentiable Physics</a></td>
-<td nowrap>-</td>
+<td nowrap>Provides a differentiable-physics simulator and benchmark for deformable linear-object manipulation and sim-to-real study.</td>
 <td nowrap>benchmark/dataset</td>
 <td nowrap>benchmark/dataset</td>
 <td nowrap>simulation/evaluation environment</td>
@@ -10224,7 +11555,7 @@ Total: 33 papers.
 <tr>
 <td nowrap>ICML 2026</td>
 <td nowrap><a href="https://icml.cc/virtual/2026/poster/63416">ManiSoft: Towards Vision-Language Manipulation for Soft Robotics</a></td>
-<td nowrap>-</td>
+<td nowrap>Provides a soft-arm simulation benchmark with language-conditioned tasks and expert trajectories for vision-language manipulation.</td>
 <td nowrap>benchmark/dataset</td>
 <td nowrap>benchmark/dataset</td>
 <td nowrap>robot deployment/evaluation environment</td>
@@ -10241,7 +11572,7 @@ Total: 33 papers.
 <tr>
 <td nowrap>ICML 2026</td>
 <td nowrap><a href="https://icml.cc/virtual/2026/poster/64619">OXE-AugE: A Large-Scale Robot Augmentation of OXE for Scaling Cross-Embodiment Policy Learning</a></td>
-<td nowrap>-</td>
+<td nowrap>Augments Open X-Embodiment with diverse robot embodiments to scale cross-embodiment policy learning.</td>
 <td nowrap>benchmark/dataset</td>
 <td nowrap>benchmark/dataset</td>
 <td nowrap>robot deployment/evaluation environment</td>
@@ -10360,7 +11691,7 @@ Total: 33 papers.
 <tr>
 <td nowrap>NeurIPS 2025</td>
 <td nowrap><a href="https://arxiv.org/abs/2503.08367">Embodied Crowd Counting</a></td>
-<td nowrap>-</td>
+<td nowrap>Defines embodied crowd counting with a drone simulator, ECCD dataset, and zero-shot navigation baseline.</td>
 <td nowrap>benchmark/dataset</td>
 <td nowrap>benchmark/dataset</td>
 <td nowrap>robot deployment/evaluation environment</td>
@@ -10462,7 +11793,7 @@ Total: 33 papers.
 <tr>
 <td nowrap>ICCV 2025</td>
 <td nowrap><a href="https://iccv.thecvf.com/virtual/2025/poster/1787">RobAVA: A Large-scale Dataset and Baseline Towards Video based Robotic Arm Action Understanding</a></td>
-<td nowrap>-</td>
+<td nowrap>Provides a large-scale video dataset and baseline for robotic arm action understanding.</td>
 <td nowrap>benchmark/dataset</td>
 <td nowrap>benchmark/dataset</td>
 <td nowrap>simulation/evaluation environment</td>
@@ -10479,7 +11810,7 @@ Total: 33 papers.
 <tr>
 <td nowrap>ICCV 2025</td>
 <td nowrap><a href="https://iccv.thecvf.com/virtual/2025/poster/2215">RoboAnnotatorX: A Comprehensive and Universal Annotation Framework for Accurate Understanding of Long-horizon Robot Demonstration</a></td>
-<td nowrap>-</td>
+<td nowrap>Provides a multimodal annotation framework for producing rich labels from long-horizon robot demonstrations.</td>
 <td nowrap>benchmark/dataset</td>
 <td nowrap>benchmark/dataset</td>
 <td nowrap>robot deployment/evaluation environment</td>
@@ -10694,7 +12025,7 @@ Total: 17 papers.
 <tr>
 <td nowrap>ICML 2026</td>
 <td nowrap><a href="https://icml.cc/virtual/2026/poster/66662">FlatLab: A Unified Methodology Framework and Simulation-Based Benchmark for Robotic Manipulation of Flat Objects</a></td>
-<td nowrap>-</td>
+<td nowrap>Provides a unified framework and simulation benchmark for manipulating flat objects with varied geometry and material.</td>
 <td nowrap>benchmark/dataset</td>
 <td nowrap>sim2real</td>
 <td nowrap>simulation/evaluation environment</td>
@@ -10745,7 +12076,7 @@ Total: 17 papers.
 <tr>
 <td nowrap>NeurIPS 2025</td>
 <td nowrap><a href="https://openreview.net/forum?id=284GWLFtjU">DEAL: Diffusion Evolution Adversarial Learning for Sim-to-Real Transfer</a></td>
-<td nowrap>-</td>
+<td nowrap>Combines diffusion evolution and adversarial learning to tune simulators and reduce the sim-to-real gap for RL controllers.</td>
 <td nowrap>benchmark/dataset</td>
 <td nowrap>benchmark/dataset</td>
 <td nowrap>simulation/evaluation environment</td>
@@ -10849,7 +12180,7 @@ Total: 17 papers.
 
 #### safety evaluation
 
-Total: 10 papers.
+Total: 12 papers.
 
 <table>
 <thead>
@@ -10873,15 +12204,49 @@ Total: 10 papers.
 </thead>
 <tbody>
 <tr>
+<td nowrap>ICLR 2025</td>
+<td nowrap><a href="https://proceedings.iclr.cc/paper_files/paper/2025/file/5ab848771ff8c9c47aac4128e2ef9f4e-Paper-Conference.pdf">HASARD: A Benchmark for Vision-Based Safe Reinforcement Learning in Embodied Agents</a></td>
+<td nowrap>HASARD benchmarks vision-based safe reinforcement learning for embodied agents.</td>
+<td nowrap>safety evaluation</td>
+<td nowrap>safe-RL benchmark coverage</td>
+<td nowrap>benchmark platform</td>
+<td nowrap>vision-based safe RL</td>
+<td nowrap>HASARD</td>
+<td nowrap>Evaluate safe RL agents under embodied visual observations.</td>
+<td nowrap><a href="https://arxiv.org/abs/2503.08241">paper</a></td>
+<td nowrap>-</td>
+<td nowrap>-</td>
+<td nowrap>-</td>
+<td nowrap>EAI-Safety</td>
+<td nowrap>Used to compare source-verified CCF A/B work against the corresponding embodied-AI survey direction.</td>
+</tr>
+<tr>
+<td nowrap>NeurIPS 2022</td>
+<td nowrap><a href="https://openreview.net/forum?id=dwi57JI_-K&noteId=pfmgIWaQAoN">SafeBench: A Benchmarking Platform for Safety Evaluation of Autonomous Vehicles</a></td>
+<td nowrap>SafeBench provides a benchmark platform for autonomous-vehicle safety evaluation.</td>
+<td nowrap>safety evaluation</td>
+<td nowrap>autonomous driving safety scenarios</td>
+<td nowrap>benchmark platform</td>
+<td nowrap>driving safety evaluation</td>
+<td nowrap>SafeBench</td>
+<td nowrap>Evaluate safety risks in autonomous driving scenarios.</td>
+<td nowrap><a href="https://arxiv.org/abs/2206.09682">paper</a></td>
+<td nowrap>-</td>
+<td nowrap>-</td>
+<td nowrap>-</td>
+<td nowrap>EAI-Safety</td>
+<td nowrap>Used to compare source-verified CCF A/B work against the corresponding embodied-AI survey direction.</td>
+</tr>
+<tr>
 <td nowrap>IROS 2025</td>
 <td nowrap><a href="https://arxiv.org/abs/2410.15185">Semantically Safe Robot Manipulation: From Semantic Scene Understanding to Motion Safeguards</a></td>
-<td nowrap>该文用 LLM 推理 commonsense 语义风险，并把语义风险映射为机器人操作安全过滤。</td>
+<td nowrap>Uses LLM commonsense reasoning to identify semantic risks and map them into robot manipulation safety filters.</td>
 <td nowrap>semantic safety layer</td>
 <td nowrap>safety evaluation</td>
 <td nowrap>robot manipulation safety</td>
 <td nowrap>semantic scene understanding + safeguards</td>
 <td nowrap>project available</td>
-<td nowrap>将语义风险纳入机器人操作安全闭环。</td>
+<td nowrap>Adds semantic risk reasoning to the robot manipulation safety loop.</td>
 <td nowrap><a href="https://arxiv.org/abs/2410.15185">paper</a></td>
 <td nowrap><a href="https://utiasdsl.github.io/semantic-manipulation/">project</a></td>
 <td nowrap>-</td>
@@ -10926,7 +12291,7 @@ Total: 10 papers.
 <tr>
 <td nowrap>ICML 2026</td>
 <td nowrap><a href="https://icml.cc/virtual/2026/poster/60472">Any3D-VLA: Enhancing VLA Robustness via Diverse Point Clouds</a></td>
-<td nowrap>-</td>
+<td nowrap>Fuses diverse point-cloud inputs with 2D observations to improve VLA robustness across simulator, sensor, and real domains.</td>
 <td nowrap>benchmark/dataset</td>
 <td nowrap>benchmark/dataset</td>
 <td nowrap>robot deployment/evaluation environment</td>
@@ -10943,7 +12308,7 @@ Total: 10 papers.
 <tr>
 <td nowrap>ICML 2026</td>
 <td nowrap><a href="https://icml.cc/virtual/2026/poster/62679">PACT: Self-Evolving Physical Safety Alignment for Diffusion Policies in Embodied Manipulation</a></td>
-<td nowrap>-</td>
+<td nowrap>Post-trains diffusion policies with physical-constraint alignment to reduce safety violations without demonstrations or rewards.</td>
 <td nowrap>benchmark/dataset</td>
 <td nowrap>safety</td>
 <td nowrap>robot deployment/evaluation environment</td>
@@ -10960,7 +12325,7 @@ Total: 10 papers.
 <tr>
 <td nowrap>ICML 2026</td>
 <td nowrap><a href="https://icml.cc/virtual/2026/poster/61584">SafeLab: An Interactive High-Fidelity Benchmark for Embodied Safety in Scientific Robotics</a></td>
-<td nowrap>-</td>
+<td nowrap>Provides a high-fidelity lab simulation benchmark with safety tasks, calibrated assets, and expert trajectories.</td>
 <td nowrap>benchmark/dataset</td>
 <td nowrap>safety</td>
 <td nowrap>simulation/evaluation environment</td>
@@ -10977,7 +12342,7 @@ Total: 10 papers.
 <tr>
 <td nowrap>ICML 2026</td>
 <td nowrap><a href="https://icml.cc/virtual/2026/poster/64080">Dismantling the Illusion of Vision-Language-Action Models Competence via Explicit Distributional Shifts</a></td>
-<td nowrap>-</td>
+<td nowrap>Introduces LIBERO-Gen to expose VLA brittleness under explicit semantic and environmental distribution shifts.</td>
 <td nowrap>benchmark/dataset</td>
 <td nowrap>benchmark/dataset</td>
 <td nowrap>robot deployment/evaluation environment</td>
