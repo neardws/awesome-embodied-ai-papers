@@ -23,9 +23,9 @@
 | 🏷️ | [标签图例](#标签图例) | 各方向标签的含义 |
 | 🧭 | [总体判断](#总体判断) | 领域整体判断和系统路线 |
 | 🗺️ | [方向总览表](#方向总览表) | 六条方向及论文条目数 |
-| 📚 | [各方向详细表格](#各方向详细表格) | 按方向和子方向展开的论文表 |
 | 🔎 | [重点阅读顺序](#重点阅读顺序) | 建议优先阅读的方向 |
 | 🧾 | [数据来源说明](#数据来源说明) | 来源追溯和参考元数据 |
+| 📚 | [各方向详细表格](#各方向详细表格) | 按方向和子方向展开的论文表 |
 
 > [!NOTE]
 > 条目范围限定为已读公开来源中可核验的论文，覆盖 CCF-A 会议以及 ICRA/IROS 等机器人传统强会。
@@ -113,6 +113,71 @@
 <td nowrap>quantization/cache/tokenization、real-time execution、benchmark/dataset、sim2real、safety evaluation</td>
 <td nowrap>95</td>
 <td nowrap>这一方向决定能不能真实部署：端侧推理、缓存/量化/action tokenization、实时执行、sim2real、benchmark 和 safety evaluation 都是必需条件。</td>
+</tr>
+</tbody>
+</table>
+
+## 重点阅读顺序
+
+1. 先看 VLN 和 Agentic Planning：确认“大范围规划”和“细粒度规划”分别解决什么。
+2. 再看 VLA 和 WAM：区分“直接动作生成”和“先想象/预测再执行”。
+3. 最后看本体扩展、轻量化、评测：这些决定路线能不能真实部署。
+
+## 数据来源说明
+
+GitHub 源仓库的元数据和 README 快照见 [`sources/github/repos.json`](sources/github/repos.json)；历史来源 ID 保留在该文件中，便于追溯。
+
+<table>
+<thead>
+<tr>
+<th nowrap>来源</th>
+<th nowrap>用途</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td nowrap><a href="https://ccf.atom.im/">CCF 2026 推荐目录</a></td>
+<td nowrap>核对 2026 版 CCF-A 人工智能会议口径。</td>
+</tr>
+<tr>
+<td nowrap><a href="https://github.com/Songwxuan/Embodied-AI-Paper-TopConf">Songwxuan/Embodied-AI-Paper-TopConf</a></td>
+<td nowrap>CCF-A 论文主来源，按会议和方向分类；论文、代码和项目页链接优先采用该仓库中已给出的资源。</td>
+</tr>
+<tr>
+<td nowrap><a href="https://openreview.net/group?id=ICLR.cc/2026/Conference">ICLR 2026 OpenReview</a></td>
+<td nowrap>核对 ICLR 2026 公开论文页和 PDF 资源。</td>
+</tr>
+<tr>
+<td nowrap><a href="https://ojs.aaai.org/index.php/AAAI/issue/view/703">AAAI-26 Intelligent Robotics proceedings</a></td>
+<td nowrap>核对并补入 AAAI 2026 机器人方向论文。</td>
+</tr>
+<tr>
+<td nowrap><a href="https://ras.papercept.net/conferences/scripts/start.pl">IEEE RAS PaperCept programs</a></td>
+<td nowrap>核对 ICRA 2026 和 IROS 2025 官方程序页；本环境访问 ICRA 2025 PaperCept 返回拒绝。</td>
+</tr>
+<tr>
+<td nowrap><a href="https://arxiv.org/">arXiv and author project pages for ICRA/IROS papers</a></td>
+<td nowrap>在正式 proceedings 或完整论文列表尚不稳定时，交叉核对 ICRA 2025 与 IROS 2026 论文。</td>
+</tr>
+<tr>
+<td nowrap><a href="https://github.com/jonyzhang2023/awesome-embodied-vla-va-vln">jonyzhang2023/awesome-embodied-vla-va-vln</a></td>
+<td nowrap>参考 VLA、WAM、VLN、VA 和 survey 的组织方式。</td>
+</tr>
+<tr>
+<td nowrap><a href="https://github.com/OpenMOSS/Awesome-WAM">OpenMOSS/Awesome-WAM</a></td>
+<td nowrap>参考 WAM 的 cascaded/joint、autoregressive/diffusion、evaluation/training data 分类。</td>
+</tr>
+<tr>
+<td nowrap><a href="https://github.com/UCSB-AI/awesome-vision-language-navigation">UCSB-AI/awesome-vision-language-navigation</a></td>
+<td nowrap>参考 VLN 的 dataset、evaluation、representation、action strategy、planning、asking for help 分类。</td>
+</tr>
+<tr>
+<td nowrap><a href="https://github.com/DelinQu/awesome-vision-language-action-model">DelinQu/awesome-vision-language-action-model</a></td>
+<td nowrap>参考 VLA 里程碑时间线。</td>
+</tr>
+<tr>
+<td nowrap><a href="https://github.com/yueen-ma/Awesome-VLA">yueen-ma/Awesome-VLA</a></td>
+<td nowrap>参考 VLA components、world models、reasoning、policy steering、low-level/high-level planners 分类。</td>
 </tr>
 </tbody>
 </table>
@@ -11076,12 +11141,6 @@ WAM 将未来世界状态预测和动作生成合在一起，适合放在 agent 
 </table>
 
 
-## 重点阅读顺序
-
-1. 先看 VLN 和 Agentic Planning：确认“大范围规划”和“细粒度规划”分别解决什么。
-2. 再看 VLA 和 WAM：区分“直接动作生成”和“先想象/预测再执行”。
-3. 最后看本体扩展、轻量化、评测：这些决定路线能不能真实部署。
-
 ## 源仓库补充条目
 
 以下条目来自本次保存的 README 快照，不并入方向主表；它们用于跟踪 WAM 数据源和 RL-VLA 方法线索。
@@ -11161,65 +11220,6 @@ WAM 将未来世界状态预测和动作生成合在一起，适合放在 agent 
 <td nowrap>2026.04</td>
 <td nowrap><a href="https://arxiv.org/abs/2604.19730">paper</a></td>
 <td nowrap>测试时 action optimization 线索，适合跟踪 VLA 执行期优化。</td>
-</tr>
-</tbody>
-</table>
-
-## 数据来源说明
-
-GitHub 源仓库的元数据和 README 快照见 [`sources/github/repos.json`](sources/github/repos.json)；历史来源 ID 保留在该文件中，便于追溯。
-
-<table>
-<thead>
-<tr>
-<th nowrap>来源</th>
-<th nowrap>用途</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td nowrap><a href="https://ccf.atom.im/">CCF 2026 推荐目录</a></td>
-<td nowrap>核对 2026 版 CCF-A 人工智能会议口径。</td>
-</tr>
-<tr>
-<td nowrap><a href="https://github.com/Songwxuan/Embodied-AI-Paper-TopConf">Songwxuan/Embodied-AI-Paper-TopConf</a></td>
-<td nowrap>CCF-A 论文主来源，按会议和方向分类；论文、代码和项目页链接优先采用该仓库中已给出的资源。</td>
-</tr>
-<tr>
-<td nowrap><a href="https://openreview.net/group?id=ICLR.cc/2026/Conference">ICLR 2026 OpenReview</a></td>
-<td nowrap>核对 ICLR 2026 公开论文页和 PDF 资源。</td>
-</tr>
-<tr>
-<td nowrap><a href="https://ojs.aaai.org/index.php/AAAI/issue/view/703">AAAI-26 Intelligent Robotics proceedings</a></td>
-<td nowrap>核对并补入 AAAI 2026 机器人方向论文。</td>
-</tr>
-<tr>
-<td nowrap><a href="https://ras.papercept.net/conferences/scripts/start.pl">IEEE RAS PaperCept programs</a></td>
-<td nowrap>核对 ICRA 2026 和 IROS 2025 官方程序页；本环境访问 ICRA 2025 PaperCept 返回拒绝。</td>
-</tr>
-<tr>
-<td nowrap><a href="https://arxiv.org/">arXiv and author project pages for ICRA/IROS papers</a></td>
-<td nowrap>在正式 proceedings 或完整论文列表尚不稳定时，交叉核对 ICRA 2025 与 IROS 2026 论文。</td>
-</tr>
-<tr>
-<td nowrap><a href="https://github.com/jonyzhang2023/awesome-embodied-vla-va-vln">jonyzhang2023/awesome-embodied-vla-va-vln</a></td>
-<td nowrap>参考 VLA、WAM、VLN、VA 和 survey 的组织方式。</td>
-</tr>
-<tr>
-<td nowrap><a href="https://github.com/OpenMOSS/Awesome-WAM">OpenMOSS/Awesome-WAM</a></td>
-<td nowrap>参考 WAM 的 cascaded/joint、autoregressive/diffusion、evaluation/training data 分类。</td>
-</tr>
-<tr>
-<td nowrap><a href="https://github.com/UCSB-AI/awesome-vision-language-navigation">UCSB-AI/awesome-vision-language-navigation</a></td>
-<td nowrap>参考 VLN 的 dataset、evaluation、representation、action strategy、planning、asking for help 分类。</td>
-</tr>
-<tr>
-<td nowrap><a href="https://github.com/DelinQu/awesome-vision-language-action-model">DelinQu/awesome-vision-language-action-model</a></td>
-<td nowrap>参考 VLA 里程碑时间线。</td>
-</tr>
-<tr>
-<td nowrap><a href="https://github.com/yueen-ma/Awesome-VLA">yueen-ma/Awesome-VLA</a></td>
-<td nowrap>参考 VLA components、world models、reasoning、policy steering、low-level/high-level planners 分类。</td>
 </tr>
 </tbody>
 </table>
