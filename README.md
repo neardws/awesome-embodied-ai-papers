@@ -7,7 +7,7 @@
 English | [Chinese](README.zh-CN.md)
 
 [![Awesome](https://img.shields.io/badge/Awesome-Embodied%20AI-fc60a8?style=for-the-badge)](https://awesome.re)
-[![Survey Entries](https://img.shields.io/badge/Survey%20Entries-646-0984e3?style=for-the-badge)](README.md)
+[![Survey Entries](https://img.shields.io/badge/Survey%20Entries-707-0984e3?style=for-the-badge)](README.md)
 [![Last Commit](https://img.shields.io/github/last-commit/neardws/awesome-embodied-ai-papers?style=for-the-badge&color=00b894)](https://github.com/neardws/awesome-embodied-ai-papers/commits)
 [![Stars](https://img.shields.io/github/stars/neardws/awesome-embodied-ai-papers?style=for-the-badge&color=fdcb6e&logo=github)](https://github.com/neardws/awesome-embodied-ai-papers/stargazers)
 [![Forks](https://img.shields.io/github/forks/neardws/awesome-embodied-ai-papers?style=for-the-badge&color=e17055&logo=github)](https://github.com/neardws/awesome-embodied-ai-papers/network/members)
@@ -68,7 +68,7 @@ The reason is straightforward: monolithic VLA models matter, but real robots als
 ### Development Lineage
 
 <p align="center">
-  <img src="figs/embodied-ai-lineage.svg" alt="Development lineage of embodied AI research across VLN, VLA and WAM, planning, embodiment, and deployment." width="100%">
+  <img src="figs/embodied-ai-lineage.png" alt="Development lineage of 707 embodied AI papers across 6 directions and 29 subdirections, with paper counts." width="100%">
 </p>
 
 ### Trend Notes
@@ -131,42 +131,42 @@ The reason is straightforward: monolithic VLA models matter, but real robots als
 <td nowrap><code>VLN</code></td>
 <td nowrap>VLN / Large-scale Navigation</td>
 <td nowrap>continuous VLN, map memory, physically executable navigation, urban/open-world navigation, low-cost/on-device navigation</td>
-<td nowrap>87</td>
+<td nowrap>92</td>
 <td nowrap>VLN focuses on language goals, spatial maps, memory, exploration, and navigation decisions. The core problem is turning natural-language tasks into executable large-scale movement plans. Current survey entries show a shift from discrete navigation graphs toward continuous environments, physically executable navigation, open urban settings, and lower-cost on-device navigation.</td>
 </tr>
 <tr>
 <td nowrap><code>VLA</code></td>
 <td nowrap>VLA / Manipulation Policies</td>
 <td nowrap>generalist VLA, action representation, diffusion/flow policy, 3D grounding, online/RL fine-tuning, safety/robustness</td>
-<td nowrap>213</td>
+<td nowrap>242</td>
 <td nowrap>VLA is the main track for robotic arms and mobile manipulation, but it is not just an action head attached to a large model. Survey papers concentrate on action representation, diffusion/flow policies, 3D grounding, online/RL fine-tuning, and robustness.</td>
 </tr>
 <tr>
 <td nowrap><code>WAM</code></td>
 <td nowrap>WAM / World Models</td>
 <td nowrap>cascaded WAM, joint WAM, video/latent world model, world model for VLA</td>
-<td nowrap>64</td>
+<td nowrap>70</td>
 <td nowrap>WAM combines future world-state prediction with action generation and fits naturally between agent planning and low-level control. Its value is not replacing every controller, but providing an intermediate layer for imagination, verification, and recovery.</td>
 </tr>
 <tr>
 <td nowrap><code>Planning</code></td>
 <td nowrap>Agentic Planning / Reasoning and Planning</td>
 <td nowrap>task decomposition, memory, failure monitor, constraint / affordance planning, self-improving planning</td>
-<td nowrap>98</td>
+<td nowrap>103</td>
 <td nowrap>This direction emphasizes task decomposition, memory, failure monitoring, constraint/affordance planning, and self-improving planning. It is closest to the practical system route of agent planning plus smaller execution modules.</td>
 </tr>
 <tr>
 <td nowrap><code>Embodiment</code></td>
 <td nowrap>Embodiment Expansion / Dexterous Manipulation</td>
 <td nowrap>humanoid, bimanual, dexterous hand, tactile/contact-rich</td>
-<td nowrap>89</td>
+<td nowrap>99</td>
 <td nowrap>Embodiment expansion determines whether embodied AI can move beyond single-arm systems toward humanoids, bimanual robots, dexterous hands, and tactile/contact-rich tasks. These papers show how action spaces, sensing, and control objectives become more complex as the body changes.</td>
 </tr>
 <tr>
 <td nowrap><code>Deployment</code></td>
 <td nowrap>Efficiency / Evaluation / Data</td>
 <td nowrap>quantization/cache/tokenization, real-time execution, benchmark/dataset, sim2real, safety evaluation</td>
-<td nowrap>95</td>
+<td nowrap>101</td>
 <td nowrap>This direction determines whether systems can actually be deployed: on-device inference, caching/quantization/action tokenization, real-time execution, sim2real, benchmarks, and safety evaluation are all necessary conditions.</td>
 </tr>
 </tbody>
@@ -245,7 +245,7 @@ VLN focuses on language goals, spatial maps, memory, exploration, and navigation
 
 Subdirections: continuous VLN, map memory, physically executable navigation, urban/open-world navigation, and low-cost/on-device navigation.
 
-Total: 87 papers.
+Total: 92 papers.
 
 <table>
 <thead>
@@ -258,12 +258,12 @@ Total: 87 papers.
 <tbody>
 <tr>
 <td nowrap>Continuous VLN</td>
-<td nowrap>35</td>
+<td nowrap>39</td>
 <td nowrap>Focus: whether navigation moves from discrete graphs toward continuous observations and real-time decisions.</td>
 </tr>
 <tr>
 <td nowrap>Map Memory</td>
-<td nowrap>22</td>
+<td nowrap>23</td>
 <td nowrap>Focus: map representation, semantic memory, caching, and retrieval.</td>
 </tr>
 <tr>
@@ -286,7 +286,7 @@ Total: 87 papers.
 
 #### Continuous VLN
 
-Total: 35 papers.
+Total: 39 papers.
 
 <table>
 <thead>
@@ -307,6 +307,74 @@ Total: 35 papers.
 </tr>
 </thead>
 <tbody>
+<tr>
+<td nowrap>CoRL 2022</td>
+<td nowrap><a href="https://scholar.google.com/scholar?q=LM-Nav%3A+Robotic+Navigation+with+Large+Pre-Trained+Models+of+Language%2C+Vision%2C+and+Action">LM-Nav: Robotic Navigation with Large Pre-Trained Models of Language, Vision, and Action</a></td>
+<td nowrap>LM-Nav composes pretrained language, vision, and action models for robotic navigation.</td>
+<td nowrap>Vision-language navigation</td>
+<td nowrap>embodied navigation</td>
+<td nowrap>language/spatial context</td>
+<td nowrap>CoRL navigation method</td>
+<td nowrap>VLN / embodied navigation benchmarks</td>
+<td nowrap>Add CoRL navigation coverage.</td>
+<td nowrap><a href="https://scholar.google.com/scholar?q=LM-Nav%3A+Robotic+Navigation+with+Large+Pre-Trained+Models+of+Language%2C+Vision%2C+and+Action">paper</a></td>
+<td nowrap>-</td>
+<td nowrap>-</td>
+<td nowrap>-</td>
+<td nowrap>Awesome-EAI / CoRL</td>
+<td nowrap>Added from existing source lists after filtering to main CoRL papers that fit this survey taxonomy.</td>
+</tr>
+<tr>
+<td nowrap>CoRL 2020</td>
+<td nowrap><a href="https://scholar.google.com/scholar?q=Vision-and-Dialog+Navigation">Vision-and-Dialog Navigation</a></td>
+<td nowrap>Vision-and-Dialog Navigation extends VLN with dialog interaction during navigation.</td>
+<td nowrap>Vision-language navigation</td>
+<td nowrap>embodied navigation</td>
+<td nowrap>language/spatial context</td>
+<td nowrap>CoRL navigation method</td>
+<td nowrap>VLN / embodied navigation benchmarks</td>
+<td nowrap>Add CoRL navigation coverage.</td>
+<td nowrap><a href="https://scholar.google.com/scholar?q=Vision-and-Dialog+Navigation">paper</a></td>
+<td nowrap>-</td>
+<td nowrap>-</td>
+<td nowrap>-</td>
+<td nowrap>Awesome-EAI / CoRL</td>
+<td nowrap>Added from existing source lists after filtering to main CoRL papers that fit this survey taxonomy.</td>
+</tr>
+<tr>
+<td nowrap>CoRL 2025</td>
+<td nowrap><a href="https://arxiv.org/abs/2509.10454">GC-VLN: Instruction as Graph Constraints for Training-free Vision-and-Language Navigation</a></td>
+<td nowrap>GC-VLN treats instructions as graph constraints for training-free VLN.</td>
+<td nowrap>Vision-language navigation</td>
+<td nowrap>embodied navigation</td>
+<td nowrap>language/spatial context</td>
+<td nowrap>CoRL navigation method</td>
+<td nowrap>VLN / embodied navigation benchmarks</td>
+<td nowrap>Add CoRL navigation coverage.</td>
+<td nowrap><a href="https://arxiv.org/abs/2509.10454">paper</a></td>
+<td nowrap><a href="https://bagh2178.github.io/GC-VLN/">project</a></td>
+<td nowrap><a href="https://github.com/bagh2178/GC-VLN">code</a></td>
+<td nowrap>-</td>
+<td nowrap>EAI-VLA-VLN / CoRL</td>
+<td nowrap>Added from existing source lists after filtering to main CoRL papers that fit this survey taxonomy.</td>
+</tr>
+<tr>
+<td nowrap>CoRL 2025</td>
+<td nowrap><a href="https://arxiv.org/abs/2505.11350">Search-TTA: A Multimodal Test-Time Adaptation Framework for Visual Search in the Wild</a></td>
+<td nowrap>Search-TTA adapts multimodal visual-search agents at test time in open environments.</td>
+<td nowrap>Vision-language navigation</td>
+<td nowrap>embodied navigation</td>
+<td nowrap>language/spatial context</td>
+<td nowrap>CoRL navigation method</td>
+<td nowrap>VLN / embodied navigation benchmarks</td>
+<td nowrap>Add CoRL navigation coverage.</td>
+<td nowrap><a href="https://arxiv.org/abs/2505.11350">paper</a></td>
+<td nowrap><a href="https://search-tta.github.io/">project</a></td>
+<td nowrap><a href="https://github.com/marmotlab/Search-TTA-VLN">code</a></td>
+<td nowrap>-</td>
+<td nowrap>EAI-VLA-VLN / CoRL</td>
+<td nowrap>Added from existing source lists after filtering to main CoRL papers that fit this survey taxonomy.</td>
+</tr>
 <tr>
 <td nowrap>CVPR 2023</td>
 <td nowrap><a href="https://openaccess.thecvf.com/content/CVPR2023/html/Gao_Adaptive_Zone-Aware_Hierarchical_Planner_for_Vision-Language_Navigation_CVPR_2023_paper.html">Adaptive Zone-Aware Hierarchical Planner for Vision-Language Navigation</a></td>
@@ -837,7 +905,7 @@ Total: 35 papers.
 
 #### Map Memory
 
-Total: 22 papers.
+Total: 23 papers.
 
 <table>
 <thead>
@@ -858,6 +926,23 @@ Total: 22 papers.
 </tr>
 </thead>
 <tbody>
+<tr>
+<td nowrap>CoRL 2024</td>
+<td nowrap><a href="https://arxiv.org/abs/2407.07775">Mobility VLA: Multimodal Instruction Navigation with Long-Context VLMs and Topological Graphs</a></td>
+<td nowrap>Mobility VLA combines long-context VLMs with topological graphs for instruction navigation.</td>
+<td nowrap>Vision-language navigation</td>
+<td nowrap>embodied navigation</td>
+<td nowrap>language/spatial context</td>
+<td nowrap>CoRL navigation method</td>
+<td nowrap>VLN / embodied navigation benchmarks</td>
+<td nowrap>Add CoRL navigation coverage.</td>
+<td nowrap><a href="https://arxiv.org/abs/2407.07775">paper</a></td>
+<td nowrap>-</td>
+<td nowrap>-</td>
+<td nowrap>-</td>
+<td nowrap>Awesome-VLA / CoRL</td>
+<td nowrap>Added from existing source lists after filtering to main CoRL papers that fit this survey taxonomy.</td>
+</tr>
 <tr>
 <td nowrap>ACL 2024</td>
 <td nowrap><a href="https://aclanthology.org/2024.acl-long.529/">MapGPT: Map-Guided Prompting for Unified Vision-and-Language Navigation</a></td>
@@ -1725,7 +1810,7 @@ VLA is the main track for robotic arms and mobile manipulation, but it is not ju
 
 Subdirections: generalist VLA, action representation, diffusion/flow policy, 3D grounding, online/RL fine-tuning, and safety/robustness.
 
-Total: 213 papers.
+Total: 242 papers.
 
 <table>
 <thead>
@@ -1738,27 +1823,27 @@ Total: 213 papers.
 <tbody>
 <tr>
 <td nowrap>generalist VLA</td>
-<td nowrap>70</td>
+<td nowrap>79</td>
 <td nowrap>Focus: cross-task generalization, real-robot validation, and general manipulation ability.</td>
 </tr>
 <tr>
 <td nowrap>action representation</td>
-<td nowrap>21</td>
+<td nowrap>28</td>
 <td nowrap>Focus: action tokens, latent actions, chunking, and action-space design.</td>
 </tr>
 <tr>
 <td nowrap>diffusion/flow policy</td>
-<td nowrap>68</td>
+<td nowrap>72</td>
 <td nowrap>Focus: continuous action generation, stable control, and smooth execution.</td>
 </tr>
 <tr>
 <td nowrap>3D grounding</td>
-<td nowrap>31</td>
+<td nowrap>35</td>
 <td nowrap>Focus: point clouds, geometry, affordance, and manipulation localization.</td>
 </tr>
 <tr>
 <td nowrap>online/RL fine-tuning</td>
-<td nowrap>16</td>
+<td nowrap>21</td>
 <td nowrap>Focus: online RL, human-in-the-loop learning, and test-time adaptation.</td>
 </tr>
 <tr>
@@ -1771,7 +1856,7 @@ Total: 213 papers.
 
 #### generalist VLA
 
-Total: 70 papers.
+Total: 79 papers.
 
 <table>
 <thead>
@@ -1793,6 +1878,168 @@ Total: 70 papers.
 </tr>
 </thead>
 <tbody>
+<tr>
+<td nowrap>CoRL 2022</td>
+<td nowrap><a href="https://arxiv.org/abs/2109.12098">CLIPort: What and Where Pathways for Robotic Manipulation</a></td>
+<td nowrap>CLIPort combines CLIP semantics with transport-style spatial manipulation policies.</td>
+<td nowrap>CLIPort</td>
+<td nowrap>robot action</td>
+<td nowrap>VLA / generalist VLA</td>
+<td nowrap>CoRL robot-learning method</td>
+<td nowrap>robot policy</td>
+<td nowrap>robot benchmarks</td>
+<td nowrap>Add CoRL VLA coverage.</td>
+<td nowrap><a href="https://arxiv.org/abs/2109.12098">paper</a></td>
+<td nowrap><a href="https://cliport.github.io">project</a></td>
+<td nowrap><a href="https://github.com/cliport/cliport">code</a></td>
+<td nowrap>-</td>
+<td nowrap>Awesome-VLA / CoRL</td>
+<td nowrap>Added from existing source lists after filtering to main CoRL papers that fit this survey taxonomy.</td>
+</tr>
+<tr>
+<td nowrap>CoRL 2024</td>
+<td nowrap><a href="https://arxiv.org/abs/2406.09246">OpenVLA: An Open-Source Vision-Language-Action Model</a></td>
+<td nowrap>OpenVLA is an open-source VLA model for general robot manipulation.</td>
+<td nowrap>OpenVLA</td>
+<td nowrap>robot action</td>
+<td nowrap>VLA / generalist VLA</td>
+<td nowrap>CoRL robot-learning method</td>
+<td nowrap>robot policy</td>
+<td nowrap>robot benchmarks</td>
+<td nowrap>Add CoRL VLA coverage.</td>
+<td nowrap><a href="https://arxiv.org/abs/2406.09246">paper</a></td>
+<td nowrap><a href="https://openvla.github.io">project</a></td>
+<td nowrap><a href="https://github.com/openvla/openvla">code</a></td>
+<td nowrap>-</td>
+<td nowrap>Awesome-VLA, EAI-Safety / CoRL</td>
+<td nowrap>Added from existing source lists after filtering to main CoRL papers that fit this survey taxonomy.</td>
+</tr>
+<tr>
+<td nowrap>CoRL 2023</td>
+<td nowrap><a href="https://arxiv.org/abs/2307.15818">RT-2: Vision-Language-Action Models Transfer Web Knowledge to Robotic Control</a></td>
+<td nowrap>RT-2 transfers web-scale vision-language knowledge into robotic control.</td>
+<td nowrap>RT-2</td>
+<td nowrap>robot action</td>
+<td nowrap>VLA / generalist VLA</td>
+<td nowrap>CoRL robot-learning method</td>
+<td nowrap>robot policy</td>
+<td nowrap>robot benchmarks</td>
+<td nowrap>Add CoRL VLA coverage.</td>
+<td nowrap><a href="https://arxiv.org/abs/2307.15818">paper</a></td>
+<td nowrap><a href="https://robotics-transformer2.github.io">project</a></td>
+<td nowrap>-</td>
+<td nowrap>-</td>
+<td nowrap>Awesome-VLA / CoRL</td>
+<td nowrap>Added from existing source lists after filtering to main CoRL papers that fit this survey taxonomy.</td>
+</tr>
+<tr>
+<td nowrap>CoRL 2025</td>
+<td nowrap><a href="https://arxiv.org/abs/2508.19958">Long-VLA: Unleashing Long-Horizon Capability of Vision Language Action Model for Robot Manipulation</a></td>
+<td nowrap>Long-VLA targets long-horizon robot manipulation with VLA policies.</td>
+<td nowrap>Long-VLA</td>
+<td nowrap>robot action</td>
+<td nowrap>VLA / generalist VLA</td>
+<td nowrap>CoRL robot-learning method</td>
+<td nowrap>robot policy</td>
+<td nowrap>robot benchmarks</td>
+<td nowrap>Add CoRL VLA coverage.</td>
+<td nowrap><a href="https://arxiv.org/abs/2508.19958">paper</a></td>
+<td nowrap><a href="https://long-vla.github.io/">project</a></td>
+<td nowrap>-</td>
+<td nowrap>-</td>
+<td nowrap>Efficient-VLA, EAI-VLA-VLN / CoRL</td>
+<td nowrap>Added from existing source lists after filtering to main CoRL papers that fit this survey taxonomy.</td>
+</tr>
+<tr>
+<td nowrap>CoRL 2021</td>
+<td nowrap><a href="https://arxiv.org/abs/2202.02005">BC-Z: Zero-Shot Task Generalization with Robotic Imitation Learning</a></td>
+<td nowrap>BC-Z studies zero-shot task generalization with robotic imitation learning.</td>
+<td nowrap>BC-Z</td>
+<td nowrap>robot action</td>
+<td nowrap>VLA / generalist VLA</td>
+<td nowrap>CoRL robot-learning method</td>
+<td nowrap>robot policy</td>
+<td nowrap>robot benchmarks</td>
+<td nowrap>Add CoRL VLA coverage.</td>
+<td nowrap><a href="https://arxiv.org/abs/2202.02005">paper</a></td>
+<td nowrap><a href="https://sites.google.com/view/bc-z/home">project</a></td>
+<td nowrap><a href="https://github.com/google-research/tensor2robot/tree/master/research/bcz">code</a></td>
+<td nowrap>-</td>
+<td nowrap>Awesome-VLA / CoRL</td>
+<td nowrap>Added from existing source lists after filtering to main CoRL papers that fit this survey taxonomy.</td>
+</tr>
+<tr>
+<td nowrap>CoRL 2022</td>
+<td nowrap><a href="https://arxiv.org/abs/2209.04899">Hiveformer: Instruction-driven history-aware policies for robotic manipulations</a></td>
+<td nowrap>Hiveformer builds history-aware instruction-conditioned policies for robotic manipulation.</td>
+<td nowrap>Hiveformer</td>
+<td nowrap>robot action</td>
+<td nowrap>VLA / generalist VLA</td>
+<td nowrap>CoRL robot-learning method</td>
+<td nowrap>robot policy</td>
+<td nowrap>robot benchmarks</td>
+<td nowrap>Add CoRL VLA coverage.</td>
+<td nowrap><a href="https://arxiv.org/abs/2209.04899">paper</a></td>
+<td nowrap><a href="https://vlc-robot.github.io/hiveformer-corl/">project</a></td>
+<td nowrap><a href="https://github.com/vlc-robot/hiveformer">code</a></td>
+<td nowrap>-</td>
+<td nowrap>Awesome-VLA / CoRL</td>
+<td nowrap>Added from existing source lists after filtering to main CoRL papers that fit this survey taxonomy.</td>
+</tr>
+<tr>
+<td nowrap>CoRL 2023</td>
+<td nowrap><a href="https://arxiv.org/abs/2303.00905">Open-World Object Manipulation using Pre-trained Vision-Language Models</a></td>
+<td nowrap>MOO studies open-world object manipulation with pretrained vision-language models.</td>
+<td nowrap>Open-World Object Manipulation using Pre-trained Vision-Language Models</td>
+<td nowrap>robot action</td>
+<td nowrap>VLA / generalist VLA</td>
+<td nowrap>CoRL robot-learning method</td>
+<td nowrap>robot policy</td>
+<td nowrap>robot benchmarks</td>
+<td nowrap>Add CoRL VLA coverage.</td>
+<td nowrap><a href="https://arxiv.org/abs/2303.00905">paper</a></td>
+<td nowrap>-</td>
+<td nowrap>-</td>
+<td nowrap>-</td>
+<td nowrap>Awesome-VLA / CoRL</td>
+<td nowrap>Added from existing source lists after filtering to main CoRL papers that fit this survey taxonomy.</td>
+</tr>
+<tr>
+<td nowrap>CoRL 2024</td>
+<td nowrap><a href="https://arxiv.org/abs/2410.05273">HiRT: Enhancing Robotic Control with Hierarchical Robot Transformers</a></td>
+<td nowrap>HiRT uses hierarchical robot transformers to improve robotic control.</td>
+<td nowrap>HiRT</td>
+<td nowrap>robot action</td>
+<td nowrap>VLA / generalist VLA</td>
+<td nowrap>CoRL robot-learning method</td>
+<td nowrap>robot policy</td>
+<td nowrap>robot benchmarks</td>
+<td nowrap>Add CoRL VLA coverage.</td>
+<td nowrap><a href="https://arxiv.org/abs/2410.05273">paper</a></td>
+<td nowrap>-</td>
+<td nowrap>-</td>
+<td nowrap>-</td>
+<td nowrap>Efficient-VLA / CoRL</td>
+<td nowrap>Added from existing source lists after filtering to main CoRL papers that fit this survey taxonomy.</td>
+</tr>
+<tr>
+<td nowrap>CoRL 2023</td>
+<td nowrap><a href="https://arxiv.org/abs/2307.14535">Scaling Up and Distilling Down: Language-Guided Robot Skill Acquisition</a></td>
+<td nowrap>SUDD scales language-guided robot skill acquisition and distills it into executable policies.</td>
+<td nowrap>Scaling Up and Distilling Down</td>
+<td nowrap>robot action</td>
+<td nowrap>VLA / generalist VLA</td>
+<td nowrap>CoRL robot-learning method</td>
+<td nowrap>robot policy</td>
+<td nowrap>robot benchmarks</td>
+<td nowrap>Add CoRL VLA coverage.</td>
+<td nowrap><a href="https://arxiv.org/abs/2307.14535">paper</a></td>
+<td nowrap>-</td>
+<td nowrap><a href="https://github.com/real-stanford/scalingup">code</a></td>
+<td nowrap>-</td>
+<td nowrap>Awesome-VLA / CoRL</td>
+<td nowrap>Added from existing source lists after filtering to main CoRL papers that fit this survey taxonomy.</td>
+</tr>
 <tr>
 <td nowrap>CVPR 2024</td>
 <td nowrap><a href="https://openaccess.thecvf.com/content/CVPR2024/html/Li_ManipLLM_Embodied_Multimodal_Large_Language_Model_for_Object-Centric_Robotic_Manipulation_CVPR_2024_paper.html">ManipLLM: Embodied Multimodal Large Language Model for Object-Centric Robotic Manipulation</a></td>
@@ -2918,7 +3165,7 @@ Total: 70 papers.
 
 #### action representation
 
-Total: 21 papers.
+Total: 28 papers.
 
 <table>
 <thead>
@@ -2940,6 +3187,132 @@ Total: 21 papers.
 </tr>
 </thead>
 <tbody>
+<tr>
+<td nowrap>CoRL 2022</td>
+<td nowrap><a href="https://arxiv.org/abs/2203.06173">Real-World Robot Learning with Masked Visual Pre-training</a></td>
+<td nowrap>MVP uses masked visual pretraining for real-world robot learning.</td>
+<td nowrap>Real-World Robot Learning with Masked Visual Pre-training</td>
+<td nowrap>robot action</td>
+<td nowrap>VLA / action representation</td>
+<td nowrap>CoRL robot-learning method</td>
+<td nowrap>robot policy</td>
+<td nowrap>robot benchmarks</td>
+<td nowrap>Add CoRL VLA coverage.</td>
+<td nowrap><a href="https://arxiv.org/abs/2203.06173">paper</a></td>
+<td nowrap><a href="https://tetexiao.com/projects/real-mvp">project</a></td>
+<td nowrap><a href="https://github.com/ir413/mvp">code</a></td>
+<td nowrap>-</td>
+<td nowrap>Awesome-VLA / CoRL</td>
+<td nowrap>Added from existing source lists after filtering to main CoRL papers that fit this survey taxonomy.</td>
+</tr>
+<tr>
+<td nowrap>CoRL 2022</td>
+<td nowrap><a href="https://arxiv.org/abs/2203.12601">R3M: A Universal Visual Representation for Robot Manipulation</a></td>
+<td nowrap>R3M learns a universal visual representation for robot manipulation.</td>
+<td nowrap>R3M</td>
+<td nowrap>robot action</td>
+<td nowrap>VLA / action representation</td>
+<td nowrap>CoRL robot-learning method</td>
+<td nowrap>robot policy</td>
+<td nowrap>robot benchmarks</td>
+<td nowrap>Add CoRL VLA coverage.</td>
+<td nowrap><a href="https://arxiv.org/abs/2203.12601">paper</a></td>
+<td nowrap><a href="https://sites.google.com/view/robot-r3m/">project</a></td>
+<td nowrap><a href="https://github.com/facebookresearch/r3m">code</a></td>
+<td nowrap>-</td>
+<td nowrap>Awesome-VLA / CoRL</td>
+<td nowrap>Added from existing source lists after filtering to main CoRL papers that fit this survey taxonomy.</td>
+</tr>
+<tr>
+<td nowrap>CoRL 2023</td>
+<td nowrap><a href="https://arxiv.org/abs/2306.10007">Robot Learning with Sensorimotor Pre-training</a></td>
+<td nowrap>RPT uses sensorimotor pretraining for downstream robot learning.</td>
+<td nowrap>Robot Learning with Sensorimotor Pre-training</td>
+<td nowrap>robot action</td>
+<td nowrap>VLA / action representation</td>
+<td nowrap>CoRL robot-learning method</td>
+<td nowrap>robot policy</td>
+<td nowrap>robot benchmarks</td>
+<td nowrap>Add CoRL VLA coverage.</td>
+<td nowrap><a href="https://arxiv.org/abs/2306.10007">paper</a></td>
+<td nowrap><a href="https://robotic-pretrained-transformer.github.io">project</a></td>
+<td nowrap>-</td>
+<td nowrap>-</td>
+<td nowrap>Awesome-VLA / CoRL</td>
+<td nowrap>Added from existing source lists after filtering to main CoRL papers that fit this survey taxonomy.</td>
+</tr>
+<tr>
+<td nowrap>CoRL 2024</td>
+<td nowrap><a href="https://arxiv.org/abs/2407.20179">Theia: Distilling Diverse Vision Foundation Models for Robot Learning</a></td>
+<td nowrap>Theia distills diverse vision foundation models into robot-learning representations.</td>
+<td nowrap>Theia</td>
+<td nowrap>robot action</td>
+<td nowrap>VLA / action representation</td>
+<td nowrap>CoRL robot-learning method</td>
+<td nowrap>robot policy</td>
+<td nowrap>robot benchmarks</td>
+<td nowrap>Add CoRL VLA coverage.</td>
+<td nowrap><a href="https://arxiv.org/abs/2407.20179">paper</a></td>
+<td nowrap>-</td>
+<td nowrap>-</td>
+<td nowrap>-</td>
+<td nowrap>Awesome-VLA / CoRL</td>
+<td nowrap>Added from existing source lists after filtering to main CoRL papers that fit this survey taxonomy.</td>
+</tr>
+<tr>
+<td nowrap>CoRL 2025</td>
+<td nowrap><a href="https://arxiv.org/abs/2509.07962">TA-VLA: Elucidating the Design Space of Torque-aware Vision-Language-Action Models</a></td>
+<td nowrap>TA-VLA studies torque-aware action design for VLA models.</td>
+<td nowrap>TA-VLA</td>
+<td nowrap>robot action</td>
+<td nowrap>VLA / action representation</td>
+<td nowrap>CoRL robot-learning method</td>
+<td nowrap>robot policy</td>
+<td nowrap>robot benchmarks</td>
+<td nowrap>Add CoRL VLA coverage.</td>
+<td nowrap><a href="https://arxiv.org/abs/2509.07962">paper</a></td>
+<td nowrap><a href="https://zzongzheng0918.github.io/Torque-Aware-VLA.github.io/">project</a></td>
+<td nowrap>-</td>
+<td nowrap>-</td>
+<td nowrap>EAI-VLA-VLN / CoRL</td>
+<td nowrap>Added from existing source lists after filtering to main CoRL papers that fit this survey taxonomy.</td>
+</tr>
+<tr>
+<td nowrap>CoRL 2025</td>
+<td nowrap><a href="https://arxiv.org/abs/2508.01600">CLASS: Contrastive Learning via Action Sequence Supervision for Robot Manipulation</a></td>
+<td nowrap>CLASS uses action-sequence supervision for contrastive robot manipulation learning.</td>
+<td nowrap>CLASS</td>
+<td nowrap>robot action</td>
+<td nowrap>VLA / action representation</td>
+<td nowrap>CoRL robot-learning method</td>
+<td nowrap>robot policy</td>
+<td nowrap>robot benchmarks</td>
+<td nowrap>Add CoRL VLA coverage.</td>
+<td nowrap><a href="https://arxiv.org/abs/2508.01600">paper</a></td>
+<td nowrap><a href="https://class-robot.github.io/">project</a></td>
+<td nowrap><a href="https://github.com/sean1295/CLASS/tree/main">code</a></td>
+<td nowrap>-</td>
+<td nowrap>EAI-VLA-VLN / CoRL</td>
+<td nowrap>Added from existing source lists after filtering to main CoRL papers that fit this survey taxonomy.</td>
+</tr>
+<tr>
+<td nowrap>CoRL 2021</td>
+<td nowrap><a href="https://arxiv.org/abs/2010.14406">Transporter Networks: Rearranging the Visual World for Robotic Manipulation</a></td>
+<td nowrap>Transporter Networks represent pick-and-place manipulation through spatial transport operations.</td>
+<td nowrap>Transporter Networks</td>
+<td nowrap>robot action</td>
+<td nowrap>VLA / action representation</td>
+<td nowrap>CoRL robot-learning method</td>
+<td nowrap>robot policy</td>
+<td nowrap>robot benchmarks</td>
+<td nowrap>Add CoRL VLA coverage.</td>
+<td nowrap><a href="https://arxiv.org/abs/2010.14406">paper</a></td>
+<td nowrap>-</td>
+<td nowrap>-</td>
+<td nowrap>-</td>
+<td nowrap>Awesome-VLA, Awesome-EAI / CoRL</td>
+<td nowrap>Added from existing source lists after filtering to main CoRL papers that fit this survey taxonomy.</td>
+</tr>
 <tr>
 <td nowrap>ICLR 2024</td>
 <td nowrap><a href="https://arxiv.org/abs/2310.08576">Learning to Act from Actionless Videos through Dense Correspondences</a></td>
@@ -3281,7 +3654,7 @@ Total: 21 papers.
 
 #### diffusion/flow policy
 
-Total: 68 papers.
+Total: 72 papers.
 
 <table>
 <thead>
@@ -3303,6 +3676,78 @@ Total: 68 papers.
 </tr>
 </thead>
 <tbody>
+<tr>
+<td nowrap>CoRL 2025</td>
+<td nowrap><a href="https://arxiv.org/abs/2509.04996">FLOWER: Democratizing Generalist Robot Policies with Efficient Vision-Language-Action Flow Policies</a></td>
+<td nowrap>FLOWER builds efficient VLA flow policies for generalist robot control.</td>
+<td nowrap>FLOWER</td>
+<td nowrap>robot action</td>
+<td nowrap>VLA / diffusion/flow policy</td>
+<td nowrap>CoRL robot-learning method</td>
+<td nowrap>robot policy</td>
+<td nowrap>robot benchmarks</td>
+<td nowrap>Add CoRL VLA coverage.</td>
+<td nowrap><a href="https://arxiv.org/abs/2509.04996">paper</a></td>
+<td nowrap><a href="https://intuitive-robots.github.io/flower_vla">project</a></td>
+<td nowrap><a href="https://github.com/intuitive-robots/flower_vla_pret">code</a></td>
+<td nowrap>-</td>
+<td nowrap>Efficient-VLA / CoRL</td>
+<td nowrap>Added from existing source lists after filtering to main CoRL papers that fit this survey taxonomy.</td>
+</tr>
+<tr>
+<td nowrap>CoRL 2025</td>
+<td nowrap><a href="https://arxiv.org/abs/2509.01819">ManiFlow: A General Robot Manipulation Policy via Consistency Flow Training</a></td>
+<td nowrap>ManiFlow trains general robot manipulation policies with consistency flow.</td>
+<td nowrap>ManiFlow</td>
+<td nowrap>robot action</td>
+<td nowrap>VLA / diffusion/flow policy</td>
+<td nowrap>CoRL robot-learning method</td>
+<td nowrap>robot policy</td>
+<td nowrap>robot benchmarks</td>
+<td nowrap>Add CoRL VLA coverage.</td>
+<td nowrap><a href="https://arxiv.org/abs/2509.01819">paper</a></td>
+<td nowrap><a href="https://maniflow-policy.github.io/">project</a></td>
+<td nowrap><a href="https://github.com/geyan21/ManiFlow_Policy">code</a></td>
+<td nowrap>-</td>
+<td nowrap>EAI-VLA-VLN / CoRL</td>
+<td nowrap>Added from existing source lists after filtering to main CoRL papers that fit this survey taxonomy.</td>
+</tr>
+<tr>
+<td nowrap>CoRL 2025</td>
+<td nowrap><a href="https://arxiv.org/abs/2505.21851">Streaming Flow Policy: Simplifying diffusion/flow-matching policies by treating action trajectories as flow trajectories</a></td>
+<td nowrap>Streaming Flow Policy treats action trajectories as flow trajectories for simpler policy generation.</td>
+<td nowrap>Streaming Flow Policy</td>
+<td nowrap>robot action</td>
+<td nowrap>VLA / diffusion/flow policy</td>
+<td nowrap>CoRL robot-learning method</td>
+<td nowrap>robot policy</td>
+<td nowrap>robot benchmarks</td>
+<td nowrap>Add CoRL VLA coverage.</td>
+<td nowrap><a href="https://arxiv.org/abs/2505.21851">paper</a></td>
+<td nowrap><a href="https://siddancha.github.io/streaming-flow-policy/">project</a></td>
+<td nowrap>-</td>
+<td nowrap>-</td>
+<td nowrap>EAI-VLA-VLN / CoRL</td>
+<td nowrap>Added from existing source lists after filtering to main CoRL papers that fit this survey taxonomy.</td>
+</tr>
+<tr>
+<td nowrap>CoRL 2025</td>
+<td nowrap><a href="https://arxiv.org/abs/2502.05855">DexVLA: Vision-Language Model with Plug-In Diffusion Expert for General Robot Control</a></td>
+<td nowrap>DexVLA plugs a diffusion expert into a vision-language model for robot control.</td>
+<td nowrap>DexVLA</td>
+<td nowrap>robot action</td>
+<td nowrap>VLA / diffusion/flow policy</td>
+<td nowrap>CoRL robot-learning method</td>
+<td nowrap>robot policy</td>
+<td nowrap>robot benchmarks</td>
+<td nowrap>Add CoRL VLA coverage.</td>
+<td nowrap><a href="https://arxiv.org/abs/2502.05855">paper</a></td>
+<td nowrap><a href="https://dex-vla.github.io">project</a></td>
+<td nowrap><a href="https://github.com/juruobenruo/DexVLA">code</a></td>
+<td nowrap>-</td>
+<td nowrap>Awesome-VLA / CoRL</td>
+<td nowrap>Added from existing source lists after filtering to main CoRL papers that fit this survey taxonomy.</td>
+</tr>
 <tr>
 <td nowrap>ICML 2025</td>
 <td nowrap><a href="https://diffusion-vla.github.io/">DiffusionVLA: Scaling Robot Foundation Models via Unified Diffusion and Autoregression</a></td>
@@ -4396,7 +4841,7 @@ Total: 68 papers.
 
 #### 3D grounding
 
-Total: 31 papers.
+Total: 35 papers.
 
 <table>
 <thead>
@@ -4418,6 +4863,78 @@ Total: 31 papers.
 </tr>
 </thead>
 <tbody>
+<tr>
+<td nowrap>CoRL 2023</td>
+<td nowrap><a href="https://arxiv.org/abs/2308.07931">Distilled Feature Fields Enable Few-Shot Language-Guided Manipulation</a></td>
+<td nowrap>F3RM uses distilled feature fields for few-shot language-guided manipulation.</td>
+<td nowrap>Distilled Feature Fields Enable Few-Shot Language-Guided Manipulation</td>
+<td nowrap>robot action</td>
+<td nowrap>VLA / 3D grounding</td>
+<td nowrap>CoRL robot-learning method</td>
+<td nowrap>robot policy</td>
+<td nowrap>robot benchmarks</td>
+<td nowrap>Add CoRL VLA coverage.</td>
+<td nowrap><a href="https://arxiv.org/abs/2308.07931">paper</a></td>
+<td nowrap><a href="https://f3rm.github.io">project</a></td>
+<td nowrap><a href="https://github.com/f3rm/f3rm">code</a></td>
+<td nowrap>-</td>
+<td nowrap>Awesome-VLA, Awesome-EAI / CoRL</td>
+<td nowrap>Added from existing source lists after filtering to main CoRL papers that fit this survey taxonomy.</td>
+</tr>
+<tr>
+<td nowrap>CoRL 2023</td>
+<td nowrap><a href="https://arxiv.org/abs/2306.14896">RVT: Robotic View Transformer for 3D Object Manipulation</a></td>
+<td nowrap>RVT uses view-transformer representations for 3D object manipulation.</td>
+<td nowrap>RVT</td>
+<td nowrap>robot action</td>
+<td nowrap>VLA / 3D grounding</td>
+<td nowrap>CoRL robot-learning method</td>
+<td nowrap>robot policy</td>
+<td nowrap>robot benchmarks</td>
+<td nowrap>Add CoRL VLA coverage.</td>
+<td nowrap><a href="https://arxiv.org/abs/2306.14896">paper</a></td>
+<td nowrap>-</td>
+<td nowrap>-</td>
+<td nowrap>-</td>
+<td nowrap>Awesome-VLA / CoRL</td>
+<td nowrap>Added from existing source lists after filtering to main CoRL papers that fit this survey taxonomy.</td>
+</tr>
+<tr>
+<td nowrap>CoRL 2022</td>
+<td nowrap><a href="https://arxiv.org/abs/2209.05451">Perceiver-Actor: A Multi-Task Transformer for Robotic Manipulation</a></td>
+<td nowrap>PerAct uses Perceiver-style 3D representations for multitask manipulation.</td>
+<td nowrap>Perceiver-Actor</td>
+<td nowrap>robot action</td>
+<td nowrap>VLA / 3D grounding</td>
+<td nowrap>CoRL robot-learning method</td>
+<td nowrap>robot policy</td>
+<td nowrap>robot benchmarks</td>
+<td nowrap>Add CoRL VLA coverage.</td>
+<td nowrap><a href="https://arxiv.org/abs/2209.05451">paper</a></td>
+<td nowrap>-</td>
+<td nowrap>-</td>
+<td nowrap>-</td>
+<td nowrap>Awesome-VLA / CoRL</td>
+<td nowrap>Added from existing source lists after filtering to main CoRL papers that fit this survey taxonomy.</td>
+</tr>
+<tr>
+<td nowrap>CoRL 2023</td>
+<td nowrap><a href="https://arxiv.org/abs/2306.17817">Act3D: 3D Feature Field Transformers for Multi-Task Robotic Manipulation</a></td>
+<td nowrap>Act3D builds 3D feature-field transformers for multitask robotic manipulation.</td>
+<td nowrap>Act3D</td>
+<td nowrap>robot action</td>
+<td nowrap>VLA / 3D grounding</td>
+<td nowrap>CoRL robot-learning method</td>
+<td nowrap>robot policy</td>
+<td nowrap>robot benchmarks</td>
+<td nowrap>Add CoRL VLA coverage.</td>
+<td nowrap><a href="https://arxiv.org/abs/2306.17817">paper</a></td>
+<td nowrap><a href="https://act3d.github.io">project</a></td>
+<td nowrap><a href="https://github.com/zhouxian/act3d-chained-diffuser">code</a></td>
+<td nowrap>-</td>
+<td nowrap>Awesome-VLA / CoRL</td>
+<td nowrap>Added from existing source lists after filtering to main CoRL papers that fit this survey taxonomy.</td>
+</tr>
 <tr>
 <td nowrap>ICML 2024</td>
 <td nowrap><a href="https://proceedings.mlr.press/v235/zhen24a.html">3D-VLA: A 3D Vision-Language-Action Generative World Model</a></td>
@@ -4919,7 +5436,7 @@ Total: 31 papers.
 
 #### online/RL fine-tuning
 
-Total: 16 papers.
+Total: 21 papers.
 
 <table>
 <thead>
@@ -4941,6 +5458,96 @@ Total: 16 papers.
 </tr>
 </thead>
 <tbody>
+<tr>
+<td nowrap>CoRL 2023</td>
+<td nowrap><a href="https://scholar.google.com/scholar?q=Q-transformer%3A+Scalable+offline+reinforcement+learning+via+autoregressive+q-functions">Q-transformer: Scalable offline reinforcement learning via autoregressive q-functions</a></td>
+<td nowrap>Q-transformer scales offline RL for robot policies through autoregressive Q-functions.</td>
+<td nowrap>Q-transformer</td>
+<td nowrap>robot action</td>
+<td nowrap>VLA / online/RL fine-tuning</td>
+<td nowrap>CoRL robot-learning method</td>
+<td nowrap>robot policy</td>
+<td nowrap>robot benchmarks</td>
+<td nowrap>Add CoRL VLA coverage.</td>
+<td nowrap><a href="https://scholar.google.com/scholar?q=Q-transformer%3A+Scalable+offline+reinforcement+learning+via+autoregressive+q-functions">paper</a></td>
+<td nowrap>-</td>
+<td nowrap>-</td>
+<td nowrap>-</td>
+<td nowrap>Awesome-EAI / CoRL</td>
+<td nowrap>Added from existing source lists after filtering to main CoRL papers that fit this survey taxonomy.</td>
+</tr>
+<tr>
+<td nowrap>CoRL 2024</td>
+<td nowrap><a href="https://arxiv.org/abs/2410.13816">Steering Your Generalists: Improving Robotic Foundation Models via Value Guidance</a></td>
+<td nowrap>V-GPS improves robotic foundation models with value guidance.</td>
+<td nowrap>Steering Your Generalists</td>
+<td nowrap>robot action</td>
+<td nowrap>VLA / online/RL fine-tuning</td>
+<td nowrap>CoRL robot-learning method</td>
+<td nowrap>robot policy</td>
+<td nowrap>robot benchmarks</td>
+<td nowrap>Add CoRL VLA coverage.</td>
+<td nowrap><a href="https://arxiv.org/abs/2410.13816">paper</a></td>
+<td nowrap><a href="https://nakamotoo.github.io/V-GPS">project</a></td>
+<td nowrap><a href="https://github.com/nakamotoo/V-GPS">code</a></td>
+<td nowrap>-</td>
+<td nowrap>Awesome-VLA / CoRL</td>
+<td nowrap>Added from existing source lists after filtering to main CoRL papers that fit this survey taxonomy.</td>
+</tr>
+<tr>
+<td nowrap>CoRL 2025</td>
+<td nowrap><a href="https://arxiv.org/abs/2506.16211">ControlVLA: Few-shot Object-centric Adaptation for Pre-trained Vision-Language-Action Models</a></td>
+<td nowrap>ControlVLA adapts pretrained VLA models to object-centric tasks with few examples.</td>
+<td nowrap>ControlVLA</td>
+<td nowrap>robot action</td>
+<td nowrap>VLA / online/RL fine-tuning</td>
+<td nowrap>CoRL robot-learning method</td>
+<td nowrap>robot policy</td>
+<td nowrap>robot benchmarks</td>
+<td nowrap>Add CoRL VLA coverage.</td>
+<td nowrap><a href="https://arxiv.org/abs/2506.16211">paper</a></td>
+<td nowrap><a href="https://controlvla.github.io/">project</a></td>
+<td nowrap><a href="https://github.com/ControlVLA/ControlVLA">code</a></td>
+<td nowrap>-</td>
+<td nowrap>Efficient-VLA / CoRL</td>
+<td nowrap>Added from existing source lists after filtering to main CoRL papers that fit this survey taxonomy.</td>
+</tr>
+<tr>
+<td nowrap>CoRL 2025</td>
+<td nowrap><a href="https://arxiv.org/abs/2508.02062">RICL: Adding In-Context Adaptability to Pre-Trained Vision-Language-Action Models</a></td>
+<td nowrap>RICL adds in-context adaptability to pretrained VLA models.</td>
+<td nowrap>RICL</td>
+<td nowrap>robot action</td>
+<td nowrap>VLA / online/RL fine-tuning</td>
+<td nowrap>CoRL robot-learning method</td>
+<td nowrap>robot policy</td>
+<td nowrap>robot benchmarks</td>
+<td nowrap>Add CoRL VLA coverage.</td>
+<td nowrap><a href="https://arxiv.org/abs/2508.02062">paper</a></td>
+<td nowrap><a href="https://ricl-vla.github.io/">project</a></td>
+<td nowrap><a href="https://github.com/ricl-vla/ricl_openpi">code</a></td>
+<td nowrap>-</td>
+<td nowrap>Efficient-VLA / CoRL</td>
+<td nowrap>Added from existing source lists after filtering to main CoRL papers that fit this survey taxonomy.</td>
+</tr>
+<tr>
+<td nowrap>CoRL 2025</td>
+<td nowrap><a href="https://arxiv.org/abs/2506.17811">RoboMonkey: Scaling Test-Time Sampling and Verification for Vision-Language-Action Models</a></td>
+<td nowrap>RoboMonkey scales test-time sampling and verification for VLA policies.</td>
+<td nowrap>RoboMonkey</td>
+<td nowrap>robot action</td>
+<td nowrap>VLA / online/RL fine-tuning</td>
+<td nowrap>CoRL robot-learning method</td>
+<td nowrap>robot policy</td>
+<td nowrap>robot benchmarks</td>
+<td nowrap>Add CoRL VLA coverage.</td>
+<td nowrap><a href="https://arxiv.org/abs/2506.17811">paper</a></td>
+<td nowrap><a href="https://robomonkey-vla.github.io/">project</a></td>
+<td nowrap><a href="https://github.com/robomonkey-vla/RoboMonkey">code</a></td>
+<td nowrap>-</td>
+<td nowrap>EAI-VLA-VLN / CoRL</td>
+<td nowrap>Added from existing source lists after filtering to main CoRL papers that fit this survey taxonomy.</td>
+</tr>
 <tr>
 <td nowrap>ICML 2024</td>
 <td nowrap><a href="https://proceedings.mlr.press/v235/springenberg24a.html">Offline Actor-Critic Reinforcement Learning Scales to Large Models</a></td>
@@ -5345,7 +5952,7 @@ WAM combines future world-state prediction with action generation and fits natur
 
 Subdirections: cascaded WAM, joint WAM, video/latent world model, and world model for VLA.
 
-Total: 64 papers.
+Total: 70 papers.
 
 <table>
 <thead>
@@ -5368,7 +5975,7 @@ Total: 64 papers.
 </tr>
 <tr>
 <td nowrap>video/latent world model</td>
-<td nowrap>27</td>
+<td nowrap>33</td>
 <td nowrap>Look at the quality of future-video or latent-state prediction.</td>
 </tr>
 <tr>
@@ -5838,7 +6445,7 @@ Total: 3 papers.
 
 #### video/latent world model
 
-Total: 27 papers.
+Total: 33 papers.
 
 <table>
 <thead>
@@ -5860,6 +6467,108 @@ Total: 27 papers.
 </tr>
 </thead>
 <tbody>
+<tr>
+<td nowrap>CoRL 2025</td>
+<td nowrap><a href="https://scholar.google.com/scholar?q=Gen2Act%3A+Human+Video+Generation+in+Novel+Scenarios+Enables+Generalizable+Robot+Manipulation">Gen2Act: Human Video Generation in Novel Scenarios Enables Generalizable Robot Manipulation</a></td>
+<td nowrap>Gen2Act uses human video generation in novel scenarios to support generalizable robot manipulation.</td>
+<td nowrap>world model</td>
+<td nowrap>predicted/latent world state</td>
+<td nowrap>robot action interface</td>
+<td nowrap>world-model robot learning</td>
+<td nowrap>robot benchmarks</td>
+<td nowrap>Add CoRL world-model coverage.</td>
+<td nowrap><a href="https://scholar.google.com/scholar?q=Gen2Act%3A+Human+Video+Generation+in+Novel+Scenarios+Enables+Generalizable+Robot+Manipulation">paper</a></td>
+<td nowrap>-</td>
+<td nowrap>-</td>
+<td nowrap>-</td>
+<td nowrap>WAM / CoRL</td>
+<td nowrap>Added from existing source lists after filtering to main CoRL papers that fit this survey taxonomy.</td>
+</tr>
+<tr>
+<td nowrap>CoRL 2024</td>
+<td nowrap><a href="https://scholar.google.com/scholar?q=Flow+as+the+Cross-Domain+Manipulation+Interface">Flow as the Cross-Domain Manipulation Interface</a></td>
+<td nowrap>Im2Flow2Act uses flow as a cross-domain interface between visual prediction and manipulation.</td>
+<td nowrap>world model</td>
+<td nowrap>predicted/latent world state</td>
+<td nowrap>robot action interface</td>
+<td nowrap>world-model robot learning</td>
+<td nowrap>robot benchmarks</td>
+<td nowrap>Add CoRL world-model coverage.</td>
+<td nowrap><a href="https://scholar.google.com/scholar?q=Flow+as+the+Cross-Domain+Manipulation+Interface">paper</a></td>
+<td nowrap>-</td>
+<td nowrap>-</td>
+<td nowrap>-</td>
+<td nowrap>WAM / CoRL</td>
+<td nowrap>Added from existing source lists after filtering to main CoRL papers that fit this survey taxonomy.</td>
+</tr>
+<tr>
+<td nowrap>CoRL 2024</td>
+<td nowrap><a href="https://scholar.google.com/scholar?q=Dreamitate%3A+Real-World+Visuomotor+Policy+Learning+via+Video+Generation">Dreamitate: Real-World Visuomotor Policy Learning via Video Generation</a></td>
+<td nowrap>Dreamitate learns real-world visuomotor policies through video generation.</td>
+<td nowrap>world model</td>
+<td nowrap>predicted/latent world state</td>
+<td nowrap>robot action interface</td>
+<td nowrap>world-model robot learning</td>
+<td nowrap>robot benchmarks</td>
+<td nowrap>Add CoRL world-model coverage.</td>
+<td nowrap><a href="https://scholar.google.com/scholar?q=Dreamitate%3A+Real-World+Visuomotor+Policy+Learning+via+Video+Generation">paper</a></td>
+<td nowrap>-</td>
+<td nowrap>-</td>
+<td nowrap>-</td>
+<td nowrap>WAM / CoRL</td>
+<td nowrap>Added from existing source lists after filtering to main CoRL papers that fit this survey taxonomy.</td>
+</tr>
+<tr>
+<td nowrap>CoRL 2025</td>
+<td nowrap><a href="https://scholar.google.com/scholar?q=FLARE%3A+Robot+Learning+with+Implicit+World+Modeling">FLARE: Robot Learning with Implicit World Modeling</a></td>
+<td nowrap>FLARE studies robot learning with implicit world modeling.</td>
+<td nowrap>world model</td>
+<td nowrap>predicted/latent world state</td>
+<td nowrap>robot action interface</td>
+<td nowrap>world-model robot learning</td>
+<td nowrap>robot benchmarks</td>
+<td nowrap>Add CoRL world-model coverage.</td>
+<td nowrap><a href="https://scholar.google.com/scholar?q=FLARE%3A+Robot+Learning+with+Implicit+World+Modeling">paper</a></td>
+<td nowrap>-</td>
+<td nowrap>-</td>
+<td nowrap>-</td>
+<td nowrap>WAM / CoRL</td>
+<td nowrap>Added from existing source lists after filtering to main CoRL papers that fit this survey taxonomy.</td>
+</tr>
+<tr>
+<td nowrap>CoRL 2022</td>
+<td nowrap><a href="https://arxiv.org/abs/2206.14176">DayDreamer: World Models for Physical Robot Learning</a></td>
+<td nowrap>DayDreamer uses world models for physical robot learning.</td>
+<td nowrap>world model</td>
+<td nowrap>predicted/latent world state</td>
+<td nowrap>robot action interface</td>
+<td nowrap>world-model robot learning</td>
+<td nowrap>robot benchmarks</td>
+<td nowrap>Add CoRL world-model coverage.</td>
+<td nowrap><a href="https://arxiv.org/abs/2206.14176">paper</a></td>
+<td nowrap>-</td>
+<td nowrap>-</td>
+<td nowrap>-</td>
+<td nowrap>WAM, Awesome-VLA / CoRL</td>
+<td nowrap>Added from existing source lists after filtering to main CoRL papers that fit this survey taxonomy.</td>
+</tr>
+<tr>
+<td nowrap>CoRL 2025</td>
+<td nowrap><a href="https://arxiv.org/abs/2508.03645">DiWA: Diffusion Policy Adaptation with World Models</a></td>
+<td nowrap>DiWA adapts diffusion policies with world models.</td>
+<td nowrap>world model</td>
+<td nowrap>predicted/latent world state</td>
+<td nowrap>robot action interface</td>
+<td nowrap>world-model robot learning</td>
+<td nowrap>robot benchmarks</td>
+<td nowrap>Add CoRL world-model coverage.</td>
+<td nowrap><a href="https://arxiv.org/abs/2508.03645">paper</a></td>
+<td nowrap><a href="https://diwa.cs.uni-freiburg.de/">project</a></td>
+<td nowrap><a href="https://github.com/acl21/diwa">code</a></td>
+<td nowrap>-</td>
+<td nowrap>EAI-VLA-VLN / CoRL</td>
+<td nowrap>Added from existing source lists after filtering to main CoRL papers that fit this survey taxonomy.</td>
+</tr>
 <tr>
 <td nowrap>NeurIPS 2023</td>
 <td nowrap><a href="https://arxiv.org/abs/2302.00111">Learning Universal Policies via Text-Guided Video Generation</a></td>
@@ -6477,7 +7186,7 @@ This direction emphasizes task decomposition, memory, failure monitoring, constr
 
 Subdirections: task decomposition, memory, failure monitor, constraint / affordance planning, and self-improving planning.
 
-Total: 98 papers.
+Total: 103 papers.
 
 <table>
 <thead>
@@ -6490,7 +7199,7 @@ Total: 98 papers.
 <tbody>
 <tr>
 <td nowrap>Task Decomposition</td>
-<td nowrap>36</td>
+<td nowrap>40</td>
 <td nowrap>Examines how high-level instructions are decomposed into executable steps.</td>
 </tr>
 <tr>
@@ -6505,7 +7214,7 @@ Total: 98 papers.
 </tr>
 <tr>
 <td nowrap>constraint / affordance planning</td>
-<td nowrap>10</td>
+<td nowrap>11</td>
 <td nowrap>Examines constraints, affordances, and physical executability.</td>
 </tr>
 <tr>
@@ -6518,7 +7227,7 @@ Total: 98 papers.
 
 #### Task Decomposition
 
-Total: 36 papers.
+Total: 40 papers.
 
 <table>
 <thead>
@@ -6539,6 +7248,74 @@ Total: 36 papers.
 </tr>
 </thead>
 <tbody>
+<tr>
+<td nowrap>CoRL 2022</td>
+<td nowrap><a href="https://arxiv.org/abs/2204.01691">Do As I Can, Not As I Say: Grounding Language in Robotic Affordances</a></td>
+<td nowrap>SayCan grounds language-model plans in robotic affordance estimates.</td>
+<td nowrap>Task Decomposition</td>
+<td nowrap>language/scene context</td>
+<td nowrap>execution feedback</td>
+<td nowrap>robot action interface</td>
+<td nowrap>embodied benchmarks</td>
+<td nowrap>Add CoRL planning coverage.</td>
+<td nowrap><a href="https://arxiv.org/abs/2204.01691">paper</a></td>
+<td nowrap><a href="https://say-can.github.io">project</a></td>
+<td nowrap><a href="https://github.com/google-research/google-research/tree/master/saycan">code</a></td>
+<td nowrap>-</td>
+<td nowrap>Awesome-VLA, Awesome-EAI / CoRL</td>
+<td nowrap>Added from existing source lists after filtering to main CoRL papers that fit this survey taxonomy.</td>
+</tr>
+<tr>
+<td nowrap>CoRL 2023</td>
+<td nowrap><a href="https://scholar.google.com/scholar?q=SayPlan%3A+Grounding+Large+Language+Models+using+3D+Scene+Graphs+for+Scalable+Task+Planning">SayPlan: Grounding Large Language Models using 3D Scene Graphs for Scalable Task Planning</a></td>
+<td nowrap>SayPlan grounds LLM task planning with 3D scene graphs.</td>
+<td nowrap>Task Decomposition</td>
+<td nowrap>language/scene context</td>
+<td nowrap>execution feedback</td>
+<td nowrap>robot action interface</td>
+<td nowrap>embodied benchmarks</td>
+<td nowrap>Add CoRL planning coverage.</td>
+<td nowrap><a href="https://scholar.google.com/scholar?q=SayPlan%3A+Grounding+Large+Language+Models+using+3D+Scene+Graphs+for+Scalable+Task+Planning">paper</a></td>
+<td nowrap>-</td>
+<td nowrap>-</td>
+<td nowrap>-</td>
+<td nowrap>Awesome-EAI / CoRL</td>
+<td nowrap>Added from existing source lists after filtering to main CoRL papers that fit this survey taxonomy.</td>
+</tr>
+<tr>
+<td nowrap>CoRL 2022</td>
+<td nowrap><a href="https://scholar.google.com/scholar?q=Inner+Monologue%3A+Embodied+Reasoning+through+Planning+with+Language+Models">Inner Monologue: Embodied Reasoning through Planning with Language Models</a></td>
+<td nowrap>Inner Monologue uses language-model planning and embodied feedback for robot reasoning.</td>
+<td nowrap>Task Decomposition</td>
+<td nowrap>language/scene context</td>
+<td nowrap>execution feedback</td>
+<td nowrap>robot action interface</td>
+<td nowrap>embodied benchmarks</td>
+<td nowrap>Add CoRL planning coverage.</td>
+<td nowrap><a href="https://scholar.google.com/scholar?q=Inner+Monologue%3A+Embodied+Reasoning+through+Planning+with+Language+Models">paper</a></td>
+<td nowrap>-</td>
+<td nowrap>-</td>
+<td nowrap>-</td>
+<td nowrap>Awesome-EAI / CoRL</td>
+<td nowrap>Added from existing source lists after filtering to main CoRL papers that fit this survey taxonomy.</td>
+</tr>
+<tr>
+<td nowrap>CoRL 2025</td>
+<td nowrap><a href="https://arxiv.org/abs/2509.08820">RoboChemist: Long-Horizon and Safety-Compliant Robotic Chemical Experimentation</a></td>
+<td nowrap>RoboChemist plans long-horizon, safety-compliant robotic chemical experiments.</td>
+<td nowrap>Task Decomposition</td>
+<td nowrap>language/scene context</td>
+<td nowrap>execution feedback</td>
+<td nowrap>robot action interface</td>
+<td nowrap>embodied benchmarks</td>
+<td nowrap>Add CoRL planning coverage.</td>
+<td nowrap><a href="https://arxiv.org/abs/2509.08820">paper</a></td>
+<td nowrap><a href="https://zzongzheng0918.github.io/RoboChemist.github.io/">project</a></td>
+<td nowrap>-</td>
+<td nowrap>-</td>
+<td nowrap>Efficient-VLA / CoRL</td>
+<td nowrap>Added from existing source lists after filtering to main CoRL papers that fit this survey taxonomy.</td>
+</tr>
 <tr>
 <td nowrap>CVPR 2025</td>
 <td nowrap><a href="https://openaccess.thecvf.com/content/CVPR2025/html/Yang_Magma_A_Foundation_Model_for_Multimodal_AI_Agents_CVPR_2025_paper.html">Magma: A Foundation Model for Multimodal AI Agents</a></td>
@@ -7436,7 +8213,7 @@ Total: 9 papers.
 
 #### constraint / affordance planning
 
-Total: 10 papers.
+Total: 11 papers.
 
 <table>
 <thead>
@@ -7457,6 +8234,23 @@ Total: 10 papers.
 </tr>
 </thead>
 <tbody>
+<tr>
+<td nowrap>CoRL 2023</td>
+<td nowrap><a href="https://arxiv.org/abs/2307.05973">VoxPoser: Composable 3D Value Maps for Robotic Manipulation with Language Models</a></td>
+<td nowrap>VoxPoser composes 3D value maps from language models for manipulation planning.</td>
+<td nowrap>Task Decomposition</td>
+<td nowrap>language/scene context</td>
+<td nowrap>execution feedback</td>
+<td nowrap>robot action interface</td>
+<td nowrap>embodied benchmarks</td>
+<td nowrap>Add CoRL planning coverage.</td>
+<td nowrap><a href="https://arxiv.org/abs/2307.05973">paper</a></td>
+<td nowrap><a href="https://voxposer.github.io">project</a></td>
+<td nowrap><a href="https://github.com/huangwl18/VoxPoser">code</a></td>
+<td nowrap>-</td>
+<td nowrap>Awesome-VLA / CoRL</td>
+<td nowrap>Added from existing source lists after filtering to main CoRL papers that fit this survey taxonomy.</td>
+</tr>
 <tr>
 <td nowrap>ICRA 2025</td>
 <td nowrap><a href="https://arxiv.org/abs/2408.14769">Points2Plans: From Point Clouds to Long-Horizon Plans with Composable Relational Dynamics</a></td>
@@ -8122,7 +8916,7 @@ Embodiment expansion determines whether embodied AI can move beyond single-arm s
 
 Subdirections: humanoid, bimanual, dexterous hand, and tactile/contact-rich.
 
-Total: 89 papers.
+Total: 99 papers.
 
 <table>
 <thead>
@@ -8135,7 +8929,7 @@ Total: 89 papers.
 <tbody>
 <tr>
 <td nowrap>humanoid</td>
-<td nowrap>32</td>
+<td nowrap>33</td>
 <td nowrap>Focus on whole-body control, mobile manipulation, and humanoid embodiment generalization.</td>
 </tr>
 <tr>
@@ -8145,12 +8939,12 @@ Total: 89 papers.
 </tr>
 <tr>
 <td nowrap>dexterous hand</td>
-<td nowrap>31</td>
+<td nowrap>35</td>
 <td nowrap>Focus on dexterous-hand action spaces and grasp transfer.</td>
 </tr>
 <tr>
 <td nowrap>tactile/contact-rich</td>
-<td nowrap>13</td>
+<td nowrap>18</td>
 <td nowrap>Focus on tactile sensing, contact dynamics, and fine-grained feedback.</td>
 </tr>
 </tbody>
@@ -8158,7 +8952,7 @@ Total: 89 papers.
 
 #### humanoid
 
-Total: 32 papers.
+Total: 33 papers.
 
 <table>
 <thead>
@@ -8179,6 +8973,23 @@ Total: 32 papers.
 </tr>
 </thead>
 <tbody>
+<tr>
+<td nowrap>CoRL 2024</td>
+<td nowrap><a href="https://scholar.google.com/scholar?q=HumanPlus%3A+Humanoid+Shadowing+and+Imitation+from+Humans">HumanPlus: Humanoid Shadowing and Imitation from Humans</a></td>
+<td nowrap>HumanPlus studies humanoid shadowing and imitation from human demonstrations.</td>
+<td nowrap>humanoid</td>
+<td nowrap>robot sensing/contact</td>
+<td nowrap>robot control</td>
+<td nowrap>robot learning</td>
+<td nowrap>robot benchmarks</td>
+<td nowrap>Add CoRL embodiment coverage.</td>
+<td nowrap><a href="https://scholar.google.com/scholar?q=HumanPlus%3A+Humanoid+Shadowing+and+Imitation+from+Humans">paper</a></td>
+<td nowrap>-</td>
+<td nowrap>-</td>
+<td nowrap>-</td>
+<td nowrap>Awesome-EAI / CoRL</td>
+<td nowrap>Added from existing source lists after filtering to main CoRL papers that fit this survey taxonomy.</td>
+</tr>
 <tr>
 <td nowrap>CVPR 2025</td>
 <td nowrap><a href="https://openaccess.thecvf.com/content/CVPR2025/html/Pan_TokenHSI_Unified_Synthesis_of_Physical_Human-Scene_Interactions_through_Task_Tokenization_CVPR_2025_paper.html">TokenHSI: Unified Synthesis of Physical Human-Scene Interactions through Task Tokenization</a></td>
@@ -8885,7 +9696,7 @@ Total: 13 papers.
 
 #### dexterous hand
 
-Total: 31 papers.
+Total: 35 papers.
 
 <table>
 <thead>
@@ -8906,6 +9717,74 @@ Total: 31 papers.
 </tr>
 </thead>
 <tbody>
+<tr>
+<td nowrap>CoRL 2023</td>
+<td nowrap><a href="https://scholar.google.com/scholar?q=General+In-hand+Object+Rotation+with+Vision+and+Touch">General In-hand Object Rotation with Vision and Touch</a></td>
+<td nowrap>This work studies general in-hand object rotation with visual and tactile feedback.</td>
+<td nowrap>dexterous hand</td>
+<td nowrap>robot sensing/contact</td>
+<td nowrap>robot control</td>
+<td nowrap>robot learning</td>
+<td nowrap>robot benchmarks</td>
+<td nowrap>Add CoRL embodiment coverage.</td>
+<td nowrap><a href="https://scholar.google.com/scholar?q=General+In-hand+Object+Rotation+with+Vision+and+Touch">paper</a></td>
+<td nowrap>-</td>
+<td nowrap>-</td>
+<td nowrap>-</td>
+<td nowrap>Awesome-EAI / CoRL</td>
+<td nowrap>Added from existing source lists after filtering to main CoRL papers that fit this survey taxonomy.</td>
+</tr>
+<tr>
+<td nowrap>CoRL 2023</td>
+<td nowrap><a href="https://scholar.google.com/scholar?q=Language-guided+Robot+Grasping%3A+CLIP-based+Referring+Grasp+Synthesis+in+Clutter">Language-guided Robot Grasping: CLIP-based Referring Grasp Synthesis in Clutter</a></td>
+<td nowrap>This work synthesizes referring grasps in clutter with CLIP-based language guidance.</td>
+<td nowrap>dexterous hand</td>
+<td nowrap>robot sensing/contact</td>
+<td nowrap>robot control</td>
+<td nowrap>robot learning</td>
+<td nowrap>robot benchmarks</td>
+<td nowrap>Add CoRL embodiment coverage.</td>
+<td nowrap><a href="https://scholar.google.com/scholar?q=Language-guided+Robot+Grasping%3A+CLIP-based+Referring+Grasp+Synthesis+in+Clutter">paper</a></td>
+<td nowrap>-</td>
+<td nowrap>-</td>
+<td nowrap>-</td>
+<td nowrap>Awesome-EAI / CoRL</td>
+<td nowrap>Added from existing source lists after filtering to main CoRL papers that fit this survey taxonomy.</td>
+</tr>
+<tr>
+<td nowrap>CoRL 2023</td>
+<td nowrap><a href="https://scholar.google.com/scholar?q=Reasoning+Tuning+Grasp%3A+Adapting+Multi-Modal+Large+Language+Models+for+Robotic+Grasping">Reasoning Tuning Grasp: Adapting Multi-Modal Large Language Models for Robotic Grasping</a></td>
+<td nowrap>Reasoning Tuning Grasp adapts multimodal LLMs for robotic grasping.</td>
+<td nowrap>dexterous hand</td>
+<td nowrap>robot sensing/contact</td>
+<td nowrap>robot control</td>
+<td nowrap>robot learning</td>
+<td nowrap>robot benchmarks</td>
+<td nowrap>Add CoRL embodiment coverage.</td>
+<td nowrap><a href="https://scholar.google.com/scholar?q=Reasoning+Tuning+Grasp%3A+Adapting+Multi-Modal+Large+Language+Models+for+Robotic+Grasping">paper</a></td>
+<td nowrap>-</td>
+<td nowrap>-</td>
+<td nowrap>-</td>
+<td nowrap>Awesome-EAI / CoRL</td>
+<td nowrap>Added from existing source lists after filtering to main CoRL papers that fit this survey taxonomy.</td>
+</tr>
+<tr>
+<td nowrap>CoRL 2025</td>
+<td nowrap><a href="https://arxiv.org/abs/2505.03233">GraspVLA: a Grasping Foundation Model Pre-trained on Billion-scale Synthetic Action Data</a></td>
+<td nowrap>GraspVLA pretrains a grasping foundation model on billion-scale synthetic action data.</td>
+<td nowrap>dexterous hand</td>
+<td nowrap>robot sensing/contact</td>
+<td nowrap>robot control</td>
+<td nowrap>robot learning</td>
+<td nowrap>robot benchmarks</td>
+<td nowrap>Add CoRL embodiment coverage.</td>
+<td nowrap><a href="https://arxiv.org/abs/2505.03233">paper</a></td>
+<td nowrap><a href="https://pku-epic.github.io/GraspVLA-web/">project</a></td>
+<td nowrap><a href="https://github.com/PKU-EPIC/GraspVLA">code</a></td>
+<td nowrap>-</td>
+<td nowrap>Efficient-VLA, EAI-VLA-VLN / CoRL</td>
+<td nowrap>Added from existing source lists after filtering to main CoRL papers that fit this survey taxonomy.</td>
+</tr>
 <tr>
 <td nowrap>CVPR 2025</td>
 <td nowrap><a href="https://openaccess.thecvf.com/content/CVPR2025/html/Li_ManipTrans_Efficient_Dexterous_Bimanual_Manipulation_Transfer_via_Residual_Learning_CVPR_2025_paper.html">ManipTrans: Efficient Dexterous Bimanual Manipulation Transfer via Residual Learning</a></td>
@@ -9376,7 +10255,7 @@ Total: 31 papers.
 
 #### tactile/contact-rich
 
-Total: 13 papers.
+Total: 18 papers.
 
 <table>
 <thead>
@@ -9397,6 +10276,91 @@ Total: 13 papers.
 </tr>
 </thead>
 <tbody>
+<tr>
+<td nowrap>CoRL 2024</td>
+<td nowrap><a href="https://scholar.google.com/scholar?q=3D-ViTac%3A+Learning+Fine-Grained+Manipulation+with+Visuo-Tactile+Sensing">3D-ViTac: Learning Fine-Grained Manipulation with Visuo-Tactile Sensing</a></td>
+<td nowrap>3D-ViTac learns fine-grained manipulation with visual-tactile sensing.</td>
+<td nowrap>tactile/contact-rich</td>
+<td nowrap>robot sensing/contact</td>
+<td nowrap>robot control</td>
+<td nowrap>robot learning</td>
+<td nowrap>robot benchmarks</td>
+<td nowrap>Add CoRL embodiment coverage.</td>
+<td nowrap><a href="https://scholar.google.com/scholar?q=3D-ViTac%3A+Learning+Fine-Grained+Manipulation+with+Visuo-Tactile+Sensing">paper</a></td>
+<td nowrap>-</td>
+<td nowrap>-</td>
+<td nowrap>-</td>
+<td nowrap>Awesome-EAI / CoRL</td>
+<td nowrap>Added from existing source lists after filtering to main CoRL papers that fit this survey taxonomy.</td>
+</tr>
+<tr>
+<td nowrap>CoRL 2023</td>
+<td nowrap><a href="https://scholar.google.com/scholar?q=Midastouch%3A+Monte-carlo+inference+over+distributions+across+sliding+touch">Midastouch: Monte-carlo inference over distributions across sliding touch</a></td>
+<td nowrap>MidasTouch applies Monte Carlo inference to distributions across sliding touch.</td>
+<td nowrap>tactile/contact-rich</td>
+<td nowrap>robot sensing/contact</td>
+<td nowrap>robot control</td>
+<td nowrap>robot learning</td>
+<td nowrap>robot benchmarks</td>
+<td nowrap>Add CoRL embodiment coverage.</td>
+<td nowrap><a href="https://scholar.google.com/scholar?q=Midastouch%3A+Monte-carlo+inference+over+distributions+across+sliding+touch">paper</a></td>
+<td nowrap>-</td>
+<td nowrap>-</td>
+<td nowrap>-</td>
+<td nowrap>Awesome-EAI / CoRL</td>
+<td nowrap>Added from existing source lists after filtering to main CoRL papers that fit this survey taxonomy.</td>
+</tr>
+<tr>
+<td nowrap>CoRL 2023</td>
+<td nowrap><a href="https://scholar.google.com/scholar?q=Touching+a+NeRF%3A+Leveraging+Neural+Radiance+Fields+for+Tactile+Sensory+Data+Generation">Touching a NeRF: Leveraging Neural Radiance Fields for Tactile Sensory Data Generation</a></td>
+<td nowrap>Touching a NeRF uses neural radiance fields to generate tactile sensory data.</td>
+<td nowrap>tactile/contact-rich</td>
+<td nowrap>robot sensing/contact</td>
+<td nowrap>robot control</td>
+<td nowrap>robot learning</td>
+<td nowrap>robot benchmarks</td>
+<td nowrap>Add CoRL embodiment coverage.</td>
+<td nowrap><a href="https://scholar.google.com/scholar?q=Touching+a+NeRF%3A+Leveraging+Neural+Radiance+Fields+for+Tactile+Sensory+Data+Generation">paper</a></td>
+<td nowrap>-</td>
+<td nowrap>-</td>
+<td nowrap>-</td>
+<td nowrap>Awesome-EAI / CoRL</td>
+<td nowrap>Added from existing source lists after filtering to main CoRL papers that fit this survey taxonomy.</td>
+</tr>
+<tr>
+<td nowrap>CoRL 2021</td>
+<td nowrap><a href="https://scholar.google.com/scholar?q=Tactile+object+pose+estimation+from+the+first+touch+with+geometric+contact+rendering">Tactile object pose estimation from the first touch with geometric contact rendering</a></td>
+<td nowrap>This work estimates object pose from first touch using geometric contact rendering.</td>
+<td nowrap>tactile/contact-rich</td>
+<td nowrap>robot sensing/contact</td>
+<td nowrap>robot control</td>
+<td nowrap>robot learning</td>
+<td nowrap>robot benchmarks</td>
+<td nowrap>Add CoRL embodiment coverage.</td>
+<td nowrap><a href="https://scholar.google.com/scholar?q=Tactile+object+pose+estimation+from+the+first+touch+with+geometric+contact+rendering">paper</a></td>
+<td nowrap>-</td>
+<td nowrap>-</td>
+<td nowrap>-</td>
+<td nowrap>Awesome-EAI / CoRL</td>
+<td nowrap>Added from existing source lists after filtering to main CoRL papers that fit this survey taxonomy.</td>
+</tr>
+<tr>
+<td nowrap>CoRL 2023</td>
+<td nowrap><a href="https://arxiv.org/abs/2210.01116">That Sounds Right: Auditory Self-Supervision for Dynamic Robot Manipulation</a></td>
+<td nowrap>That Sounds Right uses auditory self-supervision for dynamic manipulation.</td>
+<td nowrap>tactile/contact-rich</td>
+<td nowrap>robot sensing/contact</td>
+<td nowrap>robot control</td>
+<td nowrap>robot learning</td>
+<td nowrap>robot benchmarks</td>
+<td nowrap>Add CoRL embodiment coverage.</td>
+<td nowrap><a href="https://arxiv.org/abs/2210.01116">paper</a></td>
+<td nowrap>-</td>
+<td nowrap><a href="https://audio-robot-learning.github.io">code</a></td>
+<td nowrap>-</td>
+<td nowrap>Awesome-VLA / CoRL</td>
+<td nowrap>Added from existing source lists after filtering to main CoRL papers that fit this survey taxonomy.</td>
+</tr>
 <tr>
 <td nowrap>ICLR 2026</td>
 <td nowrap><a href="https://openreview.net/forum?id=dT3ZciXvNX">DexMove: Learning Tactile-Guided Non-Prehensile Manipulation with Dexterous Hands</a></td>
@@ -9601,7 +10565,7 @@ This direction determines whether systems can actually be deployed: on-device in
 
 Subdirections: quantization/cache/tokenization, real-time execution, benchmark/dataset, sim2real, and safety evaluation.
 
-Total: 95 papers.
+Total: 101 papers.
 
 <table>
 <thead>
@@ -9614,7 +10578,7 @@ Total: 95 papers.
 <tbody>
 <tr>
 <td nowrap>quantization/cache/tokenization</td>
-<td nowrap>21</td>
+<td nowrap>22</td>
 <td nowrap>Focus: on-device deployment, cache reuse, and action token efficiency.</td>
 </tr>
 <tr>
@@ -9624,17 +10588,17 @@ Total: 95 papers.
 </tr>
 <tr>
 <td nowrap>benchmark/dataset</td>
-<td nowrap>39</td>
+<td nowrap>42</td>
 <td nowrap>Focus: data coverage, task design, and evaluation credibility.</td>
 </tr>
 <tr>
 <td nowrap>sim2real</td>
-<td nowrap>17</td>
+<td nowrap>18</td>
 <td nowrap>Focus: sim-to-real transfer and the real-world deployment gap.</td>
 </tr>
 <tr>
 <td nowrap>safety evaluation</td>
-<td nowrap>12</td>
+<td nowrap>13</td>
 <td nowrap>Focus: robustness, safety, and deployment risk evaluation.</td>
 </tr>
 </tbody>
@@ -9642,7 +10606,7 @@ Total: 95 papers.
 
 #### quantization/cache/tokenization
 
-Total: 21 papers.
+Total: 22 papers.
 
 <table>
 <thead>
@@ -9663,6 +10627,23 @@ Total: 21 papers.
 </tr>
 </thead>
 <tbody>
+<tr>
+<td nowrap>CoRL 2025</td>
+<td nowrap><a href="https://arxiv.org/abs/2509.23655">Focusing on What Matters: Object-Agent-centric Tokenization for Vision Language Action models</a></td>
+<td nowrap>This work studies object-agent-centric tokenization for efficient VLA models.</td>
+<td nowrap>quantization/cache/tokenization</td>
+<td nowrap>deployment/evaluation coverage</td>
+<td nowrap>robot/simulator platform</td>
+<td nowrap>embodied robot tasks</td>
+<td nowrap>source-listed resource</td>
+<td nowrap>Add CoRL deployment/evaluation coverage.</td>
+<td nowrap><a href="https://arxiv.org/abs/2509.23655">paper</a></td>
+<td nowrap>-</td>
+<td nowrap>-</td>
+<td nowrap>-</td>
+<td nowrap>Efficient-VLA / CoRL</td>
+<td nowrap>Added from existing source lists after filtering to main CoRL papers that fit this survey taxonomy.</td>
+</tr>
 <tr>
 <td nowrap>ICML 2026</td>
 <td nowrap><a href="https://arxiv.org/abs/2509.05614">SpecPrune-VLA: Accelerating Vision-Language-Action Models via Action-Aware Self-Speculative Pruning</a></td>
@@ -10099,7 +11080,7 @@ Total: 6 papers.
 
 #### benchmark/dataset
 
-Total: 39 papers.
+Total: 42 papers.
 
 <table>
 <thead>
@@ -10120,6 +11101,57 @@ Total: 39 papers.
 </tr>
 </thead>
 <tbody>
+<tr>
+<td nowrap>CoRL 2023</td>
+<td nowrap><a href="https://scholar.google.com/scholar?q=Behavior-1K%3A+A+Benchmark+for+Embodied+AI+with+1%2C000+Everyday+Activities+and+Realistic+Simulation">Behavior-1K: A Benchmark for Embodied AI with 1,000 Everyday Activities and Realistic Simulation</a></td>
+<td nowrap>Behavior-1K benchmarks embodied AI on 1,000 everyday activities in realistic simulation.</td>
+<td nowrap>benchmark/dataset</td>
+<td nowrap>deployment/evaluation coverage</td>
+<td nowrap>robot/simulator platform</td>
+<td nowrap>embodied robot tasks</td>
+<td nowrap>source-listed resource</td>
+<td nowrap>Add CoRL deployment/evaluation coverage.</td>
+<td nowrap><a href="https://scholar.google.com/scholar?q=Behavior-1K%3A+A+Benchmark+for+Embodied+AI+with+1%2C000+Everyday+Activities+and+Realistic+Simulation">paper</a></td>
+<td nowrap>-</td>
+<td nowrap>-</td>
+<td nowrap>-</td>
+<td nowrap>Awesome-EAI / CoRL</td>
+<td nowrap>Added from existing source lists after filtering to main CoRL papers that fit this survey taxonomy.</td>
+</tr>
+<tr>
+<td nowrap>CoRL 2022</td>
+<td nowrap><a href="https://scholar.google.com/scholar?q=iGibson+2.0%3A+Object-Centric+Simulation+for+Robot+Learning+of+Everyday+Household+Tasks">iGibson 2.0: Object-Centric Simulation for Robot Learning of Everyday Household Tasks</a></td>
+<td nowrap>iGibson 2.0 provides object-centric simulation for robot learning in household tasks.</td>
+<td nowrap>benchmark/dataset</td>
+<td nowrap>deployment/evaluation coverage</td>
+<td nowrap>robot/simulator platform</td>
+<td nowrap>embodied robot tasks</td>
+<td nowrap>source-listed resource</td>
+<td nowrap>Add CoRL deployment/evaluation coverage.</td>
+<td nowrap><a href="https://scholar.google.com/scholar?q=iGibson+2.0%3A+Object-Centric+Simulation+for+Robot+Learning+of+Everyday+Household+Tasks">paper</a></td>
+<td nowrap>-</td>
+<td nowrap>-</td>
+<td nowrap>-</td>
+<td nowrap>EAI-Safety / CoRL</td>
+<td nowrap>Added from existing source lists after filtering to main CoRL papers that fit this survey taxonomy.</td>
+</tr>
+<tr>
+<td nowrap>CoRL 2017</td>
+<td nowrap><a href="https://scholar.google.com/scholar?q=CARLA%3A+An+Open+Urban+Driving+Simulator">CARLA: An Open Urban Driving Simulator</a></td>
+<td nowrap>CARLA is an open urban driving simulator used for embodied driving evaluation.</td>
+<td nowrap>benchmark/dataset</td>
+<td nowrap>deployment/evaluation coverage</td>
+<td nowrap>robot/simulator platform</td>
+<td nowrap>embodied robot tasks</td>
+<td nowrap>source-listed resource</td>
+<td nowrap>Add CoRL deployment/evaluation coverage.</td>
+<td nowrap><a href="https://scholar.google.com/scholar?q=CARLA%3A+An+Open+Urban+Driving+Simulator">paper</a></td>
+<td nowrap>-</td>
+<td nowrap>-</td>
+<td nowrap>-</td>
+<td nowrap>EAI-Safety / CoRL</td>
+<td nowrap>Added from existing source lists after filtering to main CoRL papers that fit this survey taxonomy.</td>
+</tr>
 <tr>
 <td nowrap>ICCV 2025</td>
 <td nowrap><a href="https://openaccess.thecvf.com/content/ICCV2025/html/Zhong_UnrealZoo_Enriching_Photo-realistic_Virtual_Worlds_for_Embodied_AI_ICCV_2025_paper.html">UnrealZoo: Enriching Photo-realistic Virtual Worlds for Embodied AI</a></td>
@@ -10710,7 +11742,7 @@ Total: 39 papers.
 
 #### sim2real
 
-Total: 17 papers.
+Total: 18 papers.
 
 <table>
 <thead>
@@ -10731,6 +11763,23 @@ Total: 17 papers.
 </tr>
 </thead>
 <tbody>
+<tr>
+<td nowrap>CoRL 2018</td>
+<td nowrap><a href="https://scholar.google.com/scholar?q=Sim-to-Real+Reinforcement+Learning+for+Deformable+Object+Manipulation">Sim-to-Real Reinforcement Learning for Deformable Object Manipulation</a></td>
+<td nowrap>This work transfers reinforcement learning from simulation to deformable object manipulation.</td>
+<td nowrap>sim2real</td>
+<td nowrap>deployment/evaluation coverage</td>
+<td nowrap>robot/simulator platform</td>
+<td nowrap>embodied robot tasks</td>
+<td nowrap>source-listed resource</td>
+<td nowrap>Add CoRL deployment/evaluation coverage.</td>
+<td nowrap><a href="https://scholar.google.com/scholar?q=Sim-to-Real+Reinforcement+Learning+for+Deformable+Object+Manipulation">paper</a></td>
+<td nowrap>-</td>
+<td nowrap>-</td>
+<td nowrap>-</td>
+<td nowrap>Awesome-EAI / CoRL</td>
+<td nowrap>Added from existing source lists after filtering to main CoRL papers that fit this survey taxonomy.</td>
+</tr>
 <tr>
 <td nowrap>ICLR 2026</td>
 <td nowrap><a href="https://openreview.net/forum?id=W3Q2xvrZtx">PD$^{2}$GS: Part-Level Decoupling and Continuous Deformation of Articulated Objects via Gaussian Splatting</a></td>
@@ -10991,7 +12040,7 @@ Total: 17 papers.
 
 #### safety evaluation
 
-Total: 12 papers.
+Total: 13 papers.
 
 <table>
 <thead>
@@ -11012,6 +12061,23 @@ Total: 12 papers.
 </tr>
 </thead>
 <tbody>
+<tr>
+<td nowrap>CoRL 2024</td>
+<td nowrap><a href="https://scholar.google.com/scholar?q=DriveVLM%3A+The+Convergence+of+Autonomous+Driving+and+Large+Vision-Language+Models">DriveVLM: The Convergence of Autonomous Driving and Large Vision-Language Models</a></td>
+<td nowrap>DriveVLM studies autonomous driving through large vision-language models.</td>
+<td nowrap>safety evaluation</td>
+<td nowrap>deployment/evaluation coverage</td>
+<td nowrap>robot/simulator platform</td>
+<td nowrap>embodied robot tasks</td>
+<td nowrap>source-listed resource</td>
+<td nowrap>Add CoRL deployment/evaluation coverage.</td>
+<td nowrap><a href="https://scholar.google.com/scholar?q=DriveVLM%3A+The+Convergence+of+Autonomous+Driving+and+Large+Vision-Language+Models">paper</a></td>
+<td nowrap>-</td>
+<td nowrap>-</td>
+<td nowrap>-</td>
+<td nowrap>EAI-Safety / CoRL</td>
+<td nowrap>Added from existing source lists after filtering to main CoRL papers that fit this survey taxonomy.</td>
+</tr>
 <tr>
 <td nowrap>ICLR 2025</td>
 <td nowrap><a href="https://proceedings.iclr.cc/paper_files/paper/2025/file/5ab848771ff8c9c47aac4128e2ef9f4e-Paper-Conference.pdf">HASARD: A Benchmark for Vision-Based Safe Reinforcement Learning in Embodied Agents</a></td>
