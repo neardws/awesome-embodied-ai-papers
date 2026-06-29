@@ -73,6 +73,14 @@ The reason is straightforward: monolithic VLA models matter, but real robots als
 
 ### Trend Notes
 
+<p align="center">
+  <img src="figs/embodied-ai-trends.png" alt="Six-direction trend overview for embodied AI papers." width="100%">
+</p>
+
+<p align="center">
+  <img src="figs/embodied-ai-subdirection-trends.png" alt="Subdirection trend matrix for embodied AI papers across 29 subdirections." width="100%">
+</p>
+
 | Direction | Trend |
 | --- | --- |
 | VLN | VLN is moving from discrete graph navigation toward continuous, memory-backed, physically executable, open-world navigation, while on-device variants are still early. |

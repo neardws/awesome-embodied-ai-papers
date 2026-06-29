@@ -73,6 +73,14 @@
 
 ### 趋势判断
 
+<p align="center">
+  <img src="figs/embodied-ai-trends.zh-CN.png" alt="具身智能论文六个大方向趋势概览图。" width="100%">
+</p>
+
+<p align="center">
+  <img src="figs/embodied-ai-subdirection-trends.zh-CN.png" alt="具身智能论文 29 个小方向趋势矩阵图。" width="100%">
+</p>
+
 | 方向 | 趋势 |
 | --- | --- |
 | VLN | VLN 正在从离散导航图走向连续观察、地图记忆、物理可执行和开放世界导航，端侧低成本方向还处在较早阶段。 |
