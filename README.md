@@ -77,6 +77,14 @@ The reason is straightforward: monolithic VLA models matter, but real robots als
   <img src="figs/embodied-ai-system-roadmap-v3.svg" alt="System roadmap and trend matrix for embodied AI capability layers, method anchors, interface signals, and trend pressure." width="100%">
 </p>
 
+### Research Direction: Verifiable Closed-Loop Action
+
+The next research thread worth highlighting is not a single module, but a closed loop: spatial memory supports planning, planning grounds executable action, world models verify consequences, and failure feedback updates the next plan.
+
+<p align="center">
+  <img src="figs/embodied-ai-closed-loop-action-v3.svg" alt="Research direction figure for embodied AI as verifiable closed-loop action across spatial memory, planning, action, world prediction, and failure feedback." width="100%">
+</p>
+
 | Direction | Trend |
 | --- | --- |
 | VLN | VLN is moving from discrete graph navigation toward continuous, memory-backed, physically executable, open-world navigation, while on-device variants are still early. |
