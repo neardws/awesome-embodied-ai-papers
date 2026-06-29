@@ -1,0 +1,273 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1800" height="1200" viewBox="0 0 1800 1200">
+  <style>
+    text { font-family: Aptos, "Helvetica Neue", Helvetica, Arial, "PingFang SC", "Noto Sans SC", "Microsoft YaHei", sans-serif; }
+    .tiny { letter-spacing: .02em; text-transform: uppercase; }
+  </style>
+
+    <rect width="1800" height="1200" fill="#ffffff"/>
+    <rect x="0" y="0" width="1800" height="150" fill="#f7f9fc"/>
+    <text x="82" y="76" font-size="42" font-weight="800" fill="#172033">Taxonomy &amp; Evidence Map</text>
+    <text x="82" y="116" font-size="22" fill="#5f6b7a">Six research directions, their subdirection mix, representative methods, and table-specific technical fields.</text>
+    <text x="1718" y="82" font-size="24" font-weight="700" fill="#172033" text-anchor="end">707 papers  |  6 directions  |  29 subdirections</text>
+
+      <rect x="80" y="190" width="520" height="390" rx="10" fill="#ffffff" stroke="#d9e1ea" stroke-width="1.5"/>
+      <rect x="80" y="190" width="520" height="9" rx="4.5" fill="#4E79A7"/>
+      <text class="tiny" x="104" y="232" font-size="15" font-weight="800" fill="#4E79A7">VLN</text>
+      <text x="104" y="266" font-size="27" font-weight="800" fill="#172033">Large-scale Navigation</text>
+      <text x="576" y="252" font-size="38" font-weight="800" text-anchor="end" fill="#4E79A7">92</text>
+
+    <rect x="104" y="284" width="210" height="30" rx="8" fill="#4E79A718" stroke="#4E79A770" stroke-width="1"/>
+    <text class="" x="209" y="304.25" font-size="15" font-weight="600" fill="#172033" text-anchor="middle"><tspan x="209" dy="0">Continuous execution</tspan></text>
+
+
+    <rect x="326" y="284" width="250" height="30" rx="8" fill="#ffffff" stroke="#4E79A745" stroke-width="1"/>
+    <text class="" x="451" y="304.25" font-size="15" font-weight="600" fill="#172033" text-anchor="middle"><tspan x="451" dy="0">5 subdirs</tspan></text>
+
+      <text class="tiny" x="104" y="343" font-size="13" font-weight="800" fill="#5f6b7a">SUBDIRECTION MIX</text>
+      <text class="tiny" x="418" y="343" font-size="13" font-weight="800" fill="#5f6b7a">METHOD ANCHORS</text>
+
+        <text x="106" y="369" font-size="14" fill="#172033" font-weight="650">Continuous VLN</text>
+        <text x="318" y="369" font-size="13" fill="#5f6b7a" text-anchor="end">39</text>
+        <rect x="330" y="358" width="68" height="8" rx="4" fill="#edf1f5"/>
+        <rect x="330" y="358" width="64" height="8" rx="4" fill="#4E79A7"/>
+
+        <text x="106" y="390" font-size="14" fill="#172033" font-weight="650">Map Memory</text>
+        <text x="318" y="390" font-size="13" fill="#5f6b7a" text-anchor="end">23</text>
+        <rect x="330" y="379" width="68" height="8" rx="4" fill="#edf1f5"/>
+        <rect x="330" y="379" width="38" height="8" rx="4" fill="#4E79A7"/>
+
+        <text x="106" y="411" font-size="14" fill="#172033" font-weight="650">Physically Executable Na...</text>
+        <text x="318" y="411" font-size="13" fill="#5f6b7a" text-anchor="end">7</text>
+        <rect x="330" y="400" width="68" height="8" rx="4" fill="#edf1f5"/>
+        <rect x="330" y="400" width="16" height="8" rx="4" fill="#4E79A7"/>
+
+        <text x="106" y="432" font-size="14" fill="#172033" font-weight="650">Urban / Open-world Navig...</text>
+        <text x="318" y="432" font-size="13" fill="#5f6b7a" text-anchor="end">20</text>
+        <rect x="330" y="421" width="68" height="8" rx="4" fill="#edf1f5"/>
+        <rect x="330" y="421" width="33" height="8" rx="4" fill="#4E79A7"/>
+
+        <text x="106" y="453" font-size="14" fill="#172033" font-weight="650">Low-cost / On-device Nav...</text>
+        <text x="318" y="453" font-size="13" fill="#5f6b7a" text-anchor="end">3</text>
+        <rect x="330" y="442" width="68" height="8" rx="4" fill="#edf1f5"/>
+        <rect x="330" y="442" width="16" height="8" rx="4" fill="#4E79A7"/>
+      <text x="418" y="370" font-size="15" fill="#172033" font-weight="800">2022  LM-Nav</text><text x="418" y="389" font-size="13" fill="#5f6b7a">Continuous VLN</text><text x="418" y="412" font-size="15" fill="#172033" font-weight="800">2024  Mobility VLA</text><text x="418" y="431" font-size="13" fill="#5f6b7a">Map Memory</text><text x="418" y="454" font-size="15" fill="#172033" font-weight="800">2024  GOAT-Bench</text><text x="418" y="473" font-size="13" fill="#5f6b7a">Urban / Open-world Nav...</text><text class="tiny" x="104" y="520" font-size="13" font-weight="800" fill="#5f6b7a">TECHNICAL FIELD AXES</text><rect x="104" y="534" width="146" height="28" rx="7" fill="#4E79A710" stroke="#4E79A745"/>
+            <text x="177" y="553" font-size="12" font-weight="750" fill="#4E79A7" text-anchor="middle">Task Type</text><rect x="262" y="534" width="132" height="28" rx="7" fill="#4E79A710" stroke="#4E79A745"/>
+            <text x="328" y="553" font-size="12" font-weight="750" fill="#4E79A7" text-anchor="middle">Environment</text><rect x="420" y="534" width="132" height="28" rx="7" fill="#4E79A710" stroke="#4E79A745"/>
+            <text x="486" y="553" font-size="12" font-weight="750" fill="#4E79A7" text-anchor="middle">Map/Memory</text>
+      <rect x="640" y="190" width="520" height="390" rx="10" fill="#ffffff" stroke="#d9e1ea" stroke-width="1.5"/>
+      <rect x="640" y="190" width="520" height="9" rx="4.5" fill="#E15759"/>
+      <text class="tiny" x="664" y="232" font-size="15" font-weight="800" fill="#E15759">VLA</text>
+      <text x="664" y="266" font-size="27" font-weight="800" fill="#172033">Manipulation Policies</text>
+      <text x="1136" y="252" font-size="38" font-weight="800" text-anchor="end" fill="#E15759">242</text>
+
+    <rect x="664" y="284" width="210" height="30" rx="8" fill="#E1575918" stroke="#E1575970" stroke-width="1"/>
+    <text class="" x="769" y="304.25" font-size="15" font-weight="600" fill="#172033" text-anchor="middle"><tspan x="769" dy="0">Action representation</tspan></text>
+
+
+    <rect x="886" y="284" width="250" height="30" rx="8" fill="#ffffff" stroke="#E1575945" stroke-width="1"/>
+    <text class="" x="1011" y="304.25" font-size="15" font-weight="600" fill="#172033" text-anchor="middle"><tspan x="1011" dy="0">6 subdirs</tspan></text>
+
+      <text class="tiny" x="664" y="343" font-size="13" font-weight="800" fill="#5f6b7a">SUBDIRECTION MIX</text>
+      <text class="tiny" x="978" y="343" font-size="13" font-weight="800" fill="#5f6b7a">METHOD ANCHORS</text>
+
+        <text x="666" y="369" font-size="14" fill="#172033" font-weight="650">generalist VLA</text>
+        <text x="878" y="369" font-size="13" fill="#5f6b7a" text-anchor="end">79</text>
+        <rect x="890" y="358" width="68" height="8" rx="4" fill="#edf1f5"/>
+        <rect x="890" y="358" width="64" height="8" rx="4" fill="#E15759"/>
+
+        <text x="666" y="390" font-size="14" fill="#172033" font-weight="650">action representation</text>
+        <text x="878" y="390" font-size="13" fill="#5f6b7a" text-anchor="end">28</text>
+        <rect x="890" y="379" width="68" height="8" rx="4" fill="#edf1f5"/>
+        <rect x="890" y="379" width="23" height="8" rx="4" fill="#E15759"/>
+
+        <text x="666" y="411" font-size="14" fill="#172033" font-weight="650">diffusion/flow policy</text>
+        <text x="878" y="411" font-size="13" fill="#5f6b7a" text-anchor="end">72</text>
+        <rect x="890" y="400" width="68" height="8" rx="4" fill="#edf1f5"/>
+        <rect x="890" y="400" width="58" height="8" rx="4" fill="#E15759"/>
+
+        <text x="666" y="432" font-size="14" fill="#172033" font-weight="650">3D grounding</text>
+        <text x="878" y="432" font-size="13" fill="#5f6b7a" text-anchor="end">35</text>
+        <rect x="890" y="421" width="68" height="8" rx="4" fill="#edf1f5"/>
+        <rect x="890" y="421" width="28" height="8" rx="4" fill="#E15759"/>
+
+        <text x="666" y="453" font-size="14" fill="#172033" font-weight="650">online/RL fine-tuning</text>
+        <text x="878" y="453" font-size="13" fill="#5f6b7a" text-anchor="end">21</text>
+        <rect x="890" y="442" width="68" height="8" rx="4" fill="#edf1f5"/>
+        <rect x="890" y="442" width="17" height="8" rx="4" fill="#E15759"/>
+
+        <text x="666" y="474" font-size="14" fill="#172033" font-weight="650">Safety and Robustness</text>
+        <text x="878" y="474" font-size="13" fill="#5f6b7a" text-anchor="end">7</text>
+        <rect x="890" y="463" width="68" height="8" rx="4" fill="#edf1f5"/>
+        <rect x="890" y="463" width="16" height="8" rx="4" fill="#E15759"/>
+      <text x="978" y="370" font-size="15" fill="#172033" font-weight="800">2022  CLIPort</text><text x="978" y="389" font-size="13" fill="#5f6b7a">generalist VLA</text><text x="978" y="412" font-size="15" fill="#172033" font-weight="800">2023  RT-2</text><text x="978" y="431" font-size="13" fill="#5f6b7a">generalist VLA</text><text x="978" y="454" font-size="15" fill="#172033" font-weight="800">2024  OpenVLA</text><text x="978" y="473" font-size="13" fill="#5f6b7a">generalist VLA</text><text class="tiny" x="664" y="520" font-size="13" font-weight="800" fill="#5f6b7a">TECHNICAL FIELD AXES</text><rect x="664" y="534" width="146" height="28" rx="7" fill="#E1575910" stroke="#E1575945"/>
+            <text x="737" y="553" font-size="12" font-weight="750" fill="#E15759" text-anchor="middle">Base VLA</text><rect x="822" y="534" width="132" height="28" rx="7" fill="#E1575910" stroke="#E1575945"/>
+            <text x="888" y="553" font-size="12" font-weight="750" fill="#E15759" text-anchor="middle">Action</text><rect x="980" y="534" width="132" height="28" rx="7" fill="#E1575910" stroke="#E1575945"/>
+            <text x="1046" y="553" font-size="12" font-weight="750" fill="#E15759" text-anchor="middle">Algorithm</text>
+      <rect x="1200" y="190" width="520" height="390" rx="10" fill="#ffffff" stroke="#d9e1ea" stroke-width="1.5"/>
+      <rect x="1200" y="190" width="520" height="9" rx="4.5" fill="#59A14F"/>
+      <text class="tiny" x="1224" y="232" font-size="15" font-weight="800" fill="#59A14F">WAM</text>
+      <text x="1224" y="266" font-size="27" font-weight="800" fill="#172033">World / Action Models</text>
+      <text x="1696" y="252" font-size="38" font-weight="800" text-anchor="end" fill="#59A14F">70</text>
+
+    <rect x="1224" y="284" width="210" height="30" rx="8" fill="#59A14F18" stroke="#59A14F70" stroke-width="1"/>
+    <text class="" x="1329" y="304.25" font-size="15" font-weight="600" fill="#172033" text-anchor="middle"><tspan x="1329" dy="0">Grounded imagination</tspan></text>
+
+
+    <rect x="1446" y="284" width="250" height="30" rx="8" fill="#ffffff" stroke="#59A14F45" stroke-width="1"/>
+    <text class="" x="1571" y="304.25" font-size="15" font-weight="600" fill="#172033" text-anchor="middle"><tspan x="1571" dy="0">4 subdirs</tspan></text>
+
+      <text class="tiny" x="1224" y="343" font-size="13" font-weight="800" fill="#5f6b7a">SUBDIRECTION MIX</text>
+      <text class="tiny" x="1538" y="343" font-size="13" font-weight="800" fill="#5f6b7a">METHOD ANCHORS</text>
+
+        <text x="1226" y="369" font-size="14" fill="#172033" font-weight="650">cascaded WAM</text>
+        <text x="1438" y="369" font-size="13" fill="#5f6b7a" text-anchor="end">24</text>
+        <rect x="1450" y="358" width="68" height="8" rx="4" fill="#edf1f5"/>
+        <rect x="1450" y="358" width="47" height="8" rx="4" fill="#59A14F"/>
+
+        <text x="1226" y="390" font-size="14" fill="#172033" font-weight="650">joint WAM</text>
+        <text x="1438" y="390" font-size="13" fill="#5f6b7a" text-anchor="end">3</text>
+        <rect x="1450" y="379" width="68" height="8" rx="4" fill="#edf1f5"/>
+        <rect x="1450" y="379" width="16" height="8" rx="4" fill="#59A14F"/>
+
+        <text x="1226" y="411" font-size="14" fill="#172033" font-weight="650">video/latent world model</text>
+        <text x="1438" y="411" font-size="13" fill="#5f6b7a" text-anchor="end">33</text>
+        <rect x="1450" y="400" width="68" height="8" rx="4" fill="#edf1f5"/>
+        <rect x="1450" y="400" width="64" height="8" rx="4" fill="#59A14F"/>
+
+        <text x="1226" y="432" font-size="14" fill="#172033" font-weight="650">world model for VLA</text>
+        <text x="1438" y="432" font-size="13" fill="#5f6b7a" text-anchor="end">10</text>
+        <rect x="1450" y="421" width="68" height="8" rx="4" fill="#edf1f5"/>
+        <rect x="1450" y="421" width="19" height="8" rx="4" fill="#59A14F"/>
+      <text x="1538" y="370" font-size="15" fill="#172033" font-weight="800">2022  DayDreamer</text><text x="1538" y="389" font-size="13" fill="#5f6b7a">video/latent world mod...</text><text x="1538" y="412" font-size="15" fill="#172033" font-weight="800">2024  Dreamitate</text><text x="1538" y="431" font-size="13" fill="#5f6b7a">video/latent world mod...</text><text x="1538" y="454" font-size="15" fill="#172033" font-weight="800">2025  Gen2Act</text><text x="1538" y="473" font-size="13" fill="#5f6b7a">video/latent world mod...</text><text class="tiny" x="1224" y="520" font-size="13" font-weight="800" fill="#5f6b7a">TECHNICAL FIELD AXES</text><rect x="1224" y="534" width="146" height="28" rx="7" fill="#59A14F10" stroke="#59A14F45"/>
+            <text x="1297" y="553" font-size="12" font-weight="750" fill="#59A14F" text-anchor="middle">WAM Type</text><rect x="1382" y="534" width="132" height="28" rx="7" fill="#59A14F10" stroke="#59A14F45"/>
+            <text x="1448" y="553" font-size="12" font-weight="750" fill="#59A14F" text-anchor="middle">State</text><rect x="1540" y="534" width="132" height="28" rx="7" fill="#59A14F10" stroke="#59A14F45"/>
+            <text x="1606" y="553" font-size="12" font-weight="750" fill="#59A14F" text-anchor="middle">Use</text>
+      <rect x="80" y="625" width="520" height="390" rx="10" fill="#ffffff" stroke="#d9e1ea" stroke-width="1.5"/>
+      <rect x="80" y="625" width="520" height="9" rx="4.5" fill="#B07AA1"/>
+      <text class="tiny" x="104" y="667" font-size="15" font-weight="800" fill="#B07AA1">Planning</text>
+      <text x="104" y="701" font-size="27" font-weight="800" fill="#172033">Reasoning &amp; Planning</text>
+      <text x="576" y="687" font-size="38" font-weight="800" text-anchor="end" fill="#B07AA1">103</text>
+
+    <rect x="104" y="719" width="210" height="30" rx="8" fill="#B07AA118" stroke="#B07AA170" stroke-width="1"/>
+    <text class="" x="209" y="739.25" font-size="15" font-weight="600" fill="#172033" text-anchor="middle"><tspan x="209" dy="0">Physical executability</tspan></text>
+
+
+    <rect x="326" y="719" width="250" height="30" rx="8" fill="#ffffff" stroke="#B07AA145" stroke-width="1"/>
+    <text class="" x="451" y="739.25" font-size="15" font-weight="600" fill="#172033" text-anchor="middle"><tspan x="451" dy="0">5 subdirs</tspan></text>
+
+      <text class="tiny" x="104" y="778" font-size="13" font-weight="800" fill="#5f6b7a">SUBDIRECTION MIX</text>
+      <text class="tiny" x="418" y="778" font-size="13" font-weight="800" fill="#5f6b7a">METHOD ANCHORS</text>
+
+        <text x="106" y="804" font-size="14" fill="#172033" font-weight="650">Task Decomposition</text>
+        <text x="318" y="804" font-size="13" fill="#5f6b7a" text-anchor="end">40</text>
+        <rect x="330" y="793" width="68" height="8" rx="4" fill="#edf1f5"/>
+        <rect x="330" y="793" width="64" height="8" rx="4" fill="#B07AA1"/>
+
+        <text x="106" y="825" font-size="14" fill="#172033" font-weight="650">memory</text>
+        <text x="318" y="825" font-size="13" fill="#5f6b7a" text-anchor="end">11</text>
+        <rect x="330" y="814" width="68" height="8" rx="4" fill="#edf1f5"/>
+        <rect x="330" y="814" width="18" height="8" rx="4" fill="#B07AA1"/>
+
+        <text x="106" y="846" font-size="14" fill="#172033" font-weight="650">failure monitor</text>
+        <text x="318" y="846" font-size="13" fill="#5f6b7a" text-anchor="end">9</text>
+        <rect x="330" y="835" width="68" height="8" rx="4" fill="#edf1f5"/>
+        <rect x="330" y="835" width="16" height="8" rx="4" fill="#B07AA1"/>
+
+        <text x="106" y="867" font-size="14" fill="#172033" font-weight="650">constraint / affordance ...</text>
+        <text x="318" y="867" font-size="13" fill="#5f6b7a" text-anchor="end">11</text>
+        <rect x="330" y="856" width="68" height="8" rx="4" fill="#edf1f5"/>
+        <rect x="330" y="856" width="18" height="8" rx="4" fill="#B07AA1"/>
+
+        <text x="106" y="888" font-size="14" fill="#172033" font-weight="650">self-improving planning</text>
+        <text x="318" y="888" font-size="13" fill="#5f6b7a" text-anchor="end">32</text>
+        <rect x="330" y="877" width="68" height="8" rx="4" fill="#edf1f5"/>
+        <rect x="330" y="877" width="51" height="8" rx="4" fill="#B07AA1"/>
+      <text x="418" y="805" font-size="15" fill="#172033" font-weight="800">2022  SayCan</text><text x="418" y="824" font-size="13" fill="#5f6b7a">Task Decomposition</text><text x="418" y="847" font-size="15" fill="#172033" font-weight="800">2023  SayPlan</text><text x="418" y="866" font-size="13" fill="#5f6b7a">Task Decomposition</text><text x="418" y="889" font-size="15" fill="#172033" font-weight="800">2023  VoxPoser</text><text x="418" y="908" font-size="13" fill="#5f6b7a">constraint / affordanc...</text><text class="tiny" x="104" y="955" font-size="13" font-weight="800" fill="#5f6b7a">TECHNICAL FIELD AXES</text><rect x="104" y="969" width="146" height="28" rx="7" fill="#B07AA110" stroke="#B07AA145"/>
+            <text x="177" y="988" font-size="12" font-weight="750" fill="#B07AA1" text-anchor="middle">Planning Granularity</text><rect x="262" y="969" width="132" height="28" rx="7" fill="#B07AA110" stroke="#B07AA145"/>
+            <text x="328" y="988" font-size="12" font-weight="750" fill="#B07AA1" text-anchor="middle">Tool/Memory</text><rect x="420" y="969" width="132" height="28" rx="7" fill="#B07AA110" stroke="#B07AA145"/>
+            <text x="486" y="988" font-size="12" font-weight="750" fill="#B07AA1" text-anchor="middle">Execution</text>
+      <rect x="640" y="625" width="520" height="390" rx="10" fill="#ffffff" stroke="#d9e1ea" stroke-width="1.5"/>
+      <rect x="640" y="625" width="520" height="9" rx="4.5" fill="#F28E2B"/>
+      <text class="tiny" x="664" y="667" font-size="15" font-weight="800" fill="#F28E2B">Embodiment</text>
+      <text x="664" y="701" font-size="27" font-weight="800" fill="#172033">Embodiment Expansion</text>
+      <text x="1136" y="687" font-size="38" font-weight="800" text-anchor="end" fill="#F28E2B">99</text>
+
+    <rect x="664" y="719" width="210" height="30" rx="8" fill="#F28E2B18" stroke="#F28E2B70" stroke-width="1"/>
+    <text class="" x="769" y="739.25" font-size="15" font-weight="600" fill="#172033" text-anchor="middle"><tspan x="769" dy="0">Body/contact transfer</tspan></text>
+
+
+    <rect x="886" y="719" width="250" height="30" rx="8" fill="#ffffff" stroke="#F28E2B45" stroke-width="1"/>
+    <text class="" x="1011" y="739.25" font-size="15" font-weight="600" fill="#172033" text-anchor="middle"><tspan x="1011" dy="0">4 subdirs</tspan></text>
+
+      <text class="tiny" x="664" y="778" font-size="13" font-weight="800" fill="#5f6b7a">SUBDIRECTION MIX</text>
+      <text class="tiny" x="978" y="778" font-size="13" font-weight="800" fill="#5f6b7a">METHOD ANCHORS</text>
+
+        <text x="666" y="804" font-size="14" fill="#172033" font-weight="650">humanoid</text>
+        <text x="878" y="804" font-size="13" fill="#5f6b7a" text-anchor="end">33</text>
+        <rect x="890" y="793" width="68" height="8" rx="4" fill="#edf1f5"/>
+        <rect x="890" y="793" width="60" height="8" rx="4" fill="#F28E2B"/>
+
+        <text x="666" y="825" font-size="14" fill="#172033" font-weight="650">bimanual</text>
+        <text x="878" y="825" font-size="13" fill="#5f6b7a" text-anchor="end">13</text>
+        <rect x="890" y="814" width="68" height="8" rx="4" fill="#edf1f5"/>
+        <rect x="890" y="814" width="24" height="8" rx="4" fill="#F28E2B"/>
+
+        <text x="666" y="846" font-size="14" fill="#172033" font-weight="650">dexterous hand</text>
+        <text x="878" y="846" font-size="13" fill="#5f6b7a" text-anchor="end">35</text>
+        <rect x="890" y="835" width="68" height="8" rx="4" fill="#edf1f5"/>
+        <rect x="890" y="835" width="64" height="8" rx="4" fill="#F28E2B"/>
+
+        <text x="666" y="867" font-size="14" fill="#172033" font-weight="650">tactile/contact-rich</text>
+        <text x="878" y="867" font-size="13" fill="#5f6b7a" text-anchor="end">18</text>
+        <rect x="890" y="856" width="68" height="8" rx="4" fill="#edf1f5"/>
+        <rect x="890" y="856" width="33" height="8" rx="4" fill="#F28E2B"/>
+      <text x="978" y="805" font-size="15" fill="#172033" font-weight="800">2024  HumanPlus</text><text x="978" y="824" font-size="13" fill="#5f6b7a">humanoid</text><text x="978" y="847" font-size="15" fill="#172033" font-weight="800">2025  RDT-1B</text><text x="978" y="866" font-size="13" fill="#5f6b7a">bimanual</text><text x="978" y="889" font-size="15" fill="#172033" font-weight="800">2025  TokenHSI</text><text x="978" y="908" font-size="13" fill="#5f6b7a">humanoid</text><text class="tiny" x="664" y="955" font-size="13" font-weight="800" fill="#5f6b7a">TECHNICAL FIELD AXES</text><rect x="664" y="969" width="146" height="28" rx="7" fill="#F28E2B10" stroke="#F28E2B45"/>
+            <text x="737" y="988" font-size="12" font-weight="750" fill="#F28E2B" text-anchor="middle">Embodiment Type</text><rect x="822" y="969" width="132" height="28" rx="7" fill="#F28E2B10" stroke="#F28E2B45"/>
+            <text x="888" y="988" font-size="12" font-weight="750" fill="#F28E2B" text-anchor="middle">Sensing/Contact</text><rect x="980" y="969" width="132" height="28" rx="7" fill="#F28E2B10" stroke="#F28E2B45"/>
+            <text x="1046" y="988" font-size="12" font-weight="750" fill="#F28E2B" text-anchor="middle">Control</text>
+      <rect x="1200" y="625" width="520" height="390" rx="10" fill="#ffffff" stroke="#d9e1ea" stroke-width="1.5"/>
+      <rect x="1200" y="625" width="520" height="9" rx="4.5" fill="#76B7B2"/>
+      <text class="tiny" x="1224" y="667" font-size="15" font-weight="800" fill="#76B7B2">Deployment</text>
+      <text x="1224" y="701" font-size="27" font-weight="800" fill="#172033">Efficiency / Evaluation / Data</text>
+      <text x="1696" y="687" font-size="38" font-weight="800" text-anchor="end" fill="#76B7B2">101</text>
+
+    <rect x="1224" y="719" width="210" height="30" rx="8" fill="#76B7B218" stroke="#76B7B270" stroke-width="1"/>
+    <text class="" x="1329" y="739.25" font-size="15" font-weight="600" fill="#172033" text-anchor="middle"><tspan x="1329" dy="0">Readiness evidence</tspan></text>
+
+
+    <rect x="1446" y="719" width="250" height="30" rx="8" fill="#ffffff" stroke="#76B7B245" stroke-width="1"/>
+    <text class="" x="1571" y="739.25" font-size="15" font-weight="600" fill="#172033" text-anchor="middle"><tspan x="1571" dy="0">5 subdirs</tspan></text>
+
+      <text class="tiny" x="1224" y="778" font-size="13" font-weight="800" fill="#5f6b7a">SUBDIRECTION MIX</text>
+      <text class="tiny" x="1538" y="778" font-size="13" font-weight="800" fill="#5f6b7a">METHOD ANCHORS</text>
+
+        <text x="1226" y="804" font-size="14" fill="#172033" font-weight="650">quantization/cache/token...</text>
+        <text x="1438" y="804" font-size="13" fill="#5f6b7a" text-anchor="end">22</text>
+        <rect x="1450" y="793" width="68" height="8" rx="4" fill="#edf1f5"/>
+        <rect x="1450" y="793" width="34" height="8" rx="4" fill="#76B7B2"/>
+
+        <text x="1226" y="825" font-size="14" fill="#172033" font-weight="650">real-time execution</text>
+        <text x="1438" y="825" font-size="13" fill="#5f6b7a" text-anchor="end">6</text>
+        <rect x="1450" y="814" width="68" height="8" rx="4" fill="#edf1f5"/>
+        <rect x="1450" y="814" width="16" height="8" rx="4" fill="#76B7B2"/>
+
+        <text x="1226" y="846" font-size="14" fill="#172033" font-weight="650">benchmark/dataset</text>
+        <text x="1438" y="846" font-size="13" fill="#5f6b7a" text-anchor="end">42</text>
+        <rect x="1450" y="835" width="68" height="8" rx="4" fill="#edf1f5"/>
+        <rect x="1450" y="835" width="64" height="8" rx="4" fill="#76B7B2"/>
+
+        <text x="1226" y="867" font-size="14" fill="#172033" font-weight="650">sim2real</text>
+        <text x="1438" y="867" font-size="13" fill="#5f6b7a" text-anchor="end">18</text>
+        <rect x="1450" y="856" width="68" height="8" rx="4" fill="#edf1f5"/>
+        <rect x="1450" y="856" width="27" height="8" rx="4" fill="#76B7B2"/>
+
+        <text x="1226" y="888" font-size="14" fill="#172033" font-weight="650">safety evaluation</text>
+        <text x="1438" y="888" font-size="13" fill="#5f6b7a" text-anchor="end">13</text>
+        <rect x="1450" y="877" width="68" height="8" rx="4" fill="#edf1f5"/>
+        <rect x="1450" y="877" width="20" height="8" rx="4" fill="#76B7B2"/>
+      <text x="1538" y="805" font-size="15" fill="#172033" font-weight="800">2023  Behavior-1K</text><text x="1538" y="824" font-size="13" fill="#5f6b7a">benchmark/dataset</text><text x="1538" y="847" font-size="15" fill="#172033" font-weight="800">2024  RoboMamba</text><text x="1538" y="866" font-size="13" fill="#5f6b7a">quantization/cache/tok...</text><text x="1538" y="889" font-size="15" fill="#172033" font-weight="800">2026  Sim2Real VLA</text><text x="1538" y="908" font-size="13" fill="#5f6b7a">sim2real</text><text class="tiny" x="1224" y="955" font-size="13" font-weight="800" fill="#5f6b7a">TECHNICAL FIELD AXES</text><rect x="1224" y="969" width="146" height="28" rx="7" fill="#76B7B210" stroke="#76B7B245"/>
+            <text x="1297" y="988" font-size="12" font-weight="750" fill="#76B7B2" text-anchor="middle">Object Type</text><rect x="1382" y="969" width="132" height="28" rx="7" fill="#76B7B210" stroke="#76B7B245"/>
+            <text x="1448" y="988" font-size="12" font-weight="750" fill="#76B7B2" text-anchor="middle">Efficiency Metric</text><rect x="1540" y="969" width="132" height="28" rx="7" fill="#76B7B210" stroke="#76B7B245"/>
+            <text x="1606" y="988" font-size="12" font-weight="750" fill="#76B7B2" text-anchor="middle">Covered Tasks</text>
+    <text x="900" y="1082" font-size="19" fill="#5f6b7a" text-anchor="middle">Counts, method anchors, and field axes preserve the existing 707-paper survey structure; no new entries are introduced.</text>
+  </svg>

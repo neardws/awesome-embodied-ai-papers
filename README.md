@@ -59,26 +59,22 @@ task understanding and fine-grained planning agent
 
 The reason is straightforward: monolithic VLA models matter, but real robots also need interpretable planning, executable constraints, low-latency control, failure recovery, and on-device autonomy.
 
-### Roadmap Tree
+### Taxonomy & Evidence Map
 
 <p align="center">
-  <img src="figs/embodied-ai-taxonomy.svg" alt="Taxonomy of embodied AI papers across VLN, VLA, WAM, planning, embodiment, and deployment." width="100%">
+  <img src="figs/embodied-ai-taxonomy-v3.svg" alt="Taxonomy and evidence map for 707 embodied AI papers across six directions and 29 subdirections." width="100%">
 </p>
 
-### Development Lineage
+### Evolution & Method Lineage
 
 <p align="center">
-  <img src="figs/embodied-ai-lineage.png" alt="Development lineage of 707 embodied AI papers across 6 directions and 29 subdirections, with paper counts." width="100%">
+  <img src="figs/embodied-ai-lineage-v3.svg" alt="Evolution and method lineage for embodied AI methods from 2022 to 2026." width="100%">
 </p>
 
-### Trend Notes
+### System Roadmap & Trend Matrix
 
 <p align="center">
-  <img src="figs/embodied-ai-trends.png" alt="Six-direction trend overview for embodied AI papers." width="100%">
-</p>
-
-<p align="center">
-  <img src="figs/embodied-ai-subdirection-trends.png" alt="Subdirection trend matrix for embodied AI papers across 29 subdirections." width="100%">
+  <img src="figs/embodied-ai-system-roadmap-v3.svg" alt="System roadmap and trend matrix for embodied AI capability layers, method anchors, interface signals, and trend pressure." width="100%">
 </p>
 
 | Direction | Trend |

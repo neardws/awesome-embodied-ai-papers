@@ -59,26 +59,22 @@
 
 原因很直接：单体 VLA 仍然重要，但真实机器人需要可解释规划、可执行约束、低延迟控制、失败恢复和端侧自治。
 
-### 路线树
+### 分类与证据图
 
 <p align="center">
-  <img src="figs/embodied-ai-taxonomy.zh-CN.svg" alt="具身智能论文路线树，覆盖 VLN、VLA、WAM、推理规划、本体扩展和部署评测。" width="100%">
+  <img src="figs/embodied-ai-taxonomy-v3.zh-CN.svg" alt="707 篇具身智能论文的分类与证据图，覆盖 6 个方向和 29 个子方向。" width="100%">
 </p>
 
-### 发展脉络
+### 演化与方法脉络
 
 <p align="center">
-  <img src="figs/embodied-ai-lineage.zh-CN.png" alt="707 篇具身智能论文发展脉络图，覆盖 6 个大方向和 29 个小方向，并标注论文条目数。" width="100%">
+  <img src="figs/embodied-ai-lineage-v3.zh-CN.svg" alt="2022 到 2026 年具身智能代表方法演化脉络图。" width="100%">
 </p>
 
-### 趋势判断
+### 系统路线图与趋势矩阵
 
 <p align="center">
-  <img src="figs/embodied-ai-trends.zh-CN.png" alt="具身智能论文六个大方向趋势概览图。" width="100%">
-</p>
-
-<p align="center">
-  <img src="figs/embodied-ai-subdirection-trends.zh-CN.png" alt="具身智能论文 29 个小方向趋势矩阵图。" width="100%">
+  <img src="figs/embodied-ai-system-roadmap-v3.zh-CN.svg" alt="具身智能系统路线图与趋势矩阵，覆盖能力层、方法锚点、接口信号和趋势压力。" width="100%">
 </p>
 
 | 方向 | 趋势 |
