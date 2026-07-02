@@ -333,8 +333,6 @@ Total: 39 papers.
 <td nowrap>-</td>
 <td nowrap>-</td>
 <td nowrap>-</td>
-<td nowrap>Awesome-EAI / CoRL</td>
-<td nowrap>Added from existing source lists after filtering to main CoRL papers that fit this survey taxonomy.</td>
 </tr>
 <tr>
 <td nowrap>CoRL 2020</td>
@@ -350,8 +348,6 @@ Total: 39 papers.
 <td nowrap>-</td>
 <td nowrap>-</td>
 <td nowrap>-</td>
-<td nowrap>Awesome-EAI / CoRL</td>
-<td nowrap>Added from existing source lists after filtering to main CoRL papers that fit this survey taxonomy.</td>
 </tr>
 <tr>
 <td nowrap>CoRL 2025</td>
@@ -367,8 +363,6 @@ Total: 39 papers.
 <td nowrap><a href="https://bagh2178.github.io/GC-VLN/">project</a></td>
 <td nowrap><a href="https://github.com/bagh2178/GC-VLN">code</a></td>
 <td nowrap>-</td>
-<td nowrap>EAI-VLA-VLN / CoRL</td>
-<td nowrap>Added from existing source lists after filtering to main CoRL papers that fit this survey taxonomy.</td>
 </tr>
 <tr>
 <td nowrap>CoRL 2025</td>
@@ -384,8 +378,6 @@ Total: 39 papers.
 <td nowrap><a href="https://search-tta.github.io/">project</a></td>
 <td nowrap><a href="https://github.com/marmotlab/Search-TTA-VLN">code</a></td>
 <td nowrap>-</td>
-<td nowrap>EAI-VLA-VLN / CoRL</td>
-<td nowrap>Added from existing source lists after filtering to main CoRL papers that fit this survey taxonomy.</td>
 </tr>
 <tr>
 <td nowrap>CVPR 2023</td>
@@ -952,8 +944,6 @@ Total: 23 papers.
 <td nowrap>-</td>
 <td nowrap>-</td>
 <td nowrap>-</td>
-<td nowrap>Awesome-VLA / CoRL</td>
-<td nowrap>Added from existing source lists after filtering to main CoRL papers that fit this survey taxonomy.</td>
 </tr>
 <tr>
 <td nowrap>ACL 2024</td>
@@ -1905,8 +1895,6 @@ Total: 79 papers.
 <td nowrap><a href="https://cliport.github.io">project</a></td>
 <td nowrap><a href="https://github.com/cliport/cliport">code</a></td>
 <td nowrap>-</td>
-<td nowrap>Awesome-VLA / CoRL</td>
-<td nowrap>Added from existing source lists after filtering to main CoRL papers that fit this survey taxonomy.</td>
 </tr>
 <tr>
 <td nowrap>CoRL 2024</td>
@@ -1923,8 +1911,6 @@ Total: 79 papers.
 <td nowrap><a href="https://openvla.github.io">project</a></td>
 <td nowrap><a href="https://github.com/openvla/openvla">code</a></td>
 <td nowrap>-</td>
-<td nowrap>Awesome-VLA, EAI-Safety / CoRL</td>
-<td nowrap>Added from existing source lists after filtering to main CoRL papers that fit this survey taxonomy.</td>
 </tr>
 <tr>
 <td nowrap>CoRL 2023</td>
@@ -1941,8 +1927,6 @@ Total: 79 papers.
 <td nowrap><a href="https://robotics-transformer2.github.io">project</a></td>
 <td nowrap>-</td>
 <td nowrap>-</td>
-<td nowrap>Awesome-VLA / CoRL</td>
-<td nowrap>Added from existing source lists after filtering to main CoRL papers that fit this survey taxonomy.</td>
 </tr>
 <tr>
 <td nowrap>CoRL 2025</td>
@@ -1959,8 +1943,6 @@ Total: 79 papers.
 <td nowrap><a href="https://long-vla.github.io/">project</a></td>
 <td nowrap>-</td>
 <td nowrap>-</td>
-<td nowrap>Efficient-VLA, EAI-VLA-VLN / CoRL</td>
-<td nowrap>Added from existing source lists after filtering to main CoRL papers that fit this survey taxonomy.</td>
 </tr>
 <tr>
 <td nowrap>CoRL 2021</td>
@@ -1977,8 +1959,6 @@ Total: 79 papers.
 <td nowrap><a href="https://sites.google.com/view/bc-z/home">project</a></td>
 <td nowrap><a href="https://github.com/google-research/tensor2robot/tree/master/research/bcz">code</a></td>
 <td nowrap>-</td>
-<td nowrap>Awesome-VLA / CoRL</td>
-<td nowrap>Added from existing source lists after filtering to main CoRL papers that fit this survey taxonomy.</td>
 </tr>
 <tr>
 <td nowrap>CoRL 2022</td>
@@ -1995,8 +1975,6 @@ Total: 79 papers.
 <td nowrap><a href="https://vlc-robot.github.io/hiveformer-corl/">project</a></td>
 <td nowrap><a href="https://github.com/vlc-robot/hiveformer">code</a></td>
 <td nowrap>-</td>
-<td nowrap>Awesome-VLA / CoRL</td>
-<td nowrap>Added from existing source lists after filtering to main CoRL papers that fit this survey taxonomy.</td>
 </tr>
 <tr>
 <td nowrap>CoRL 2023</td>
@@ -2013,8 +1991,6 @@ Total: 79 papers.
 <td nowrap>-</td>
 <td nowrap>-</td>
 <td nowrap>-</td>
-<td nowrap>Awesome-VLA / CoRL</td>
-<td nowrap>Added from existing source lists after filtering to main CoRL papers that fit this survey taxonomy.</td>
 </tr>
 <tr>
 <td nowrap>CoRL 2024</td>
@@ -2031,8 +2007,6 @@ Total: 79 papers.
 <td nowrap>-</td>
 <td nowrap>-</td>
 <td nowrap>-</td>
-<td nowrap>Efficient-VLA / CoRL</td>
-<td nowrap>Added from existing source lists after filtering to main CoRL papers that fit this survey taxonomy.</td>
 </tr>
 <tr>
 <td nowrap>CoRL 2023</td>
@@ -2049,8 +2023,6 @@ Total: 79 papers.
 <td nowrap>-</td>
 <td nowrap><a href="https://github.com/real-stanford/scalingup">code</a></td>
 <td nowrap>-</td>
-<td nowrap>Awesome-VLA / CoRL</td>
-<td nowrap>Added from existing source lists after filtering to main CoRL papers that fit this survey taxonomy.</td>
 </tr>
 <tr>
 <td nowrap>CVPR 2024</td>
@@ -3214,8 +3186,6 @@ Total: 28 papers.
 <td nowrap><a href="https://tetexiao.com/projects/real-mvp">project</a></td>
 <td nowrap><a href="https://github.com/ir413/mvp">code</a></td>
 <td nowrap>-</td>
-<td nowrap>Awesome-VLA / CoRL</td>
-<td nowrap>Added from existing source lists after filtering to main CoRL papers that fit this survey taxonomy.</td>
 </tr>
 <tr>
 <td nowrap>CoRL 2022</td>
@@ -3232,8 +3202,6 @@ Total: 28 papers.
 <td nowrap><a href="https://sites.google.com/view/robot-r3m/">project</a></td>
 <td nowrap><a href="https://github.com/facebookresearch/r3m">code</a></td>
 <td nowrap>-</td>
-<td nowrap>Awesome-VLA / CoRL</td>
-<td nowrap>Added from existing source lists after filtering to main CoRL papers that fit this survey taxonomy.</td>
 </tr>
 <tr>
 <td nowrap>CoRL 2023</td>
@@ -3250,8 +3218,6 @@ Total: 28 papers.
 <td nowrap><a href="https://robotic-pretrained-transformer.github.io">project</a></td>
 <td nowrap>-</td>
 <td nowrap>-</td>
-<td nowrap>Awesome-VLA / CoRL</td>
-<td nowrap>Added from existing source lists after filtering to main CoRL papers that fit this survey taxonomy.</td>
 </tr>
 <tr>
 <td nowrap>CoRL 2024</td>
@@ -3268,8 +3234,6 @@ Total: 28 papers.
 <td nowrap>-</td>
 <td nowrap>-</td>
 <td nowrap>-</td>
-<td nowrap>Awesome-VLA / CoRL</td>
-<td nowrap>Added from existing source lists after filtering to main CoRL papers that fit this survey taxonomy.</td>
 </tr>
 <tr>
 <td nowrap>CoRL 2025</td>
@@ -3286,8 +3250,6 @@ Total: 28 papers.
 <td nowrap><a href="https://zzongzheng0918.github.io/Torque-Aware-VLA.github.io/">project</a></td>
 <td nowrap>-</td>
 <td nowrap>-</td>
-<td nowrap>EAI-VLA-VLN / CoRL</td>
-<td nowrap>Added from existing source lists after filtering to main CoRL papers that fit this survey taxonomy.</td>
 </tr>
 <tr>
 <td nowrap>CoRL 2025</td>
@@ -3304,8 +3266,6 @@ Total: 28 papers.
 <td nowrap><a href="https://class-robot.github.io/">project</a></td>
 <td nowrap><a href="https://github.com/sean1295/CLASS/tree/main">code</a></td>
 <td nowrap>-</td>
-<td nowrap>EAI-VLA-VLN / CoRL</td>
-<td nowrap>Added from existing source lists after filtering to main CoRL papers that fit this survey taxonomy.</td>
 </tr>
 <tr>
 <td nowrap>CoRL 2021</td>
@@ -3322,8 +3282,6 @@ Total: 28 papers.
 <td nowrap>-</td>
 <td nowrap>-</td>
 <td nowrap>-</td>
-<td nowrap>Awesome-VLA, Awesome-EAI / CoRL</td>
-<td nowrap>Added from existing source lists after filtering to main CoRL papers that fit this survey taxonomy.</td>
 </tr>
 <tr>
 <td nowrap>ICLR 2024</td>
@@ -3703,8 +3661,6 @@ Total: 72 papers.
 <td nowrap><a href="https://intuitive-robots.github.io/flower_vla">project</a></td>
 <td nowrap><a href="https://github.com/intuitive-robots/flower_vla_pret">code</a></td>
 <td nowrap>-</td>
-<td nowrap>Efficient-VLA / CoRL</td>
-<td nowrap>Added from existing source lists after filtering to main CoRL papers that fit this survey taxonomy.</td>
 </tr>
 <tr>
 <td nowrap>CoRL 2025</td>
@@ -3721,8 +3677,6 @@ Total: 72 papers.
 <td nowrap><a href="https://maniflow-policy.github.io/">project</a></td>
 <td nowrap><a href="https://github.com/geyan21/ManiFlow_Policy">code</a></td>
 <td nowrap>-</td>
-<td nowrap>EAI-VLA-VLN / CoRL</td>
-<td nowrap>Added from existing source lists after filtering to main CoRL papers that fit this survey taxonomy.</td>
 </tr>
 <tr>
 <td nowrap>CoRL 2025</td>
@@ -3739,8 +3693,6 @@ Total: 72 papers.
 <td nowrap><a href="https://siddancha.github.io/streaming-flow-policy/">project</a></td>
 <td nowrap>-</td>
 <td nowrap>-</td>
-<td nowrap>EAI-VLA-VLN / CoRL</td>
-<td nowrap>Added from existing source lists after filtering to main CoRL papers that fit this survey taxonomy.</td>
 </tr>
 <tr>
 <td nowrap>CoRL 2025</td>
@@ -3757,8 +3709,6 @@ Total: 72 papers.
 <td nowrap><a href="https://dex-vla.github.io">project</a></td>
 <td nowrap><a href="https://github.com/juruobenruo/DexVLA">code</a></td>
 <td nowrap>-</td>
-<td nowrap>Awesome-VLA / CoRL</td>
-<td nowrap>Added from existing source lists after filtering to main CoRL papers that fit this survey taxonomy.</td>
 </tr>
 <tr>
 <td nowrap>ICML 2025</td>
@@ -4890,8 +4840,6 @@ Total: 35 papers.
 <td nowrap><a href="https://f3rm.github.io">project</a></td>
 <td nowrap><a href="https://github.com/f3rm/f3rm">code</a></td>
 <td nowrap>-</td>
-<td nowrap>Awesome-VLA, Awesome-EAI / CoRL</td>
-<td nowrap>Added from existing source lists after filtering to main CoRL papers that fit this survey taxonomy.</td>
 </tr>
 <tr>
 <td nowrap>CoRL 2023</td>
@@ -4908,8 +4856,6 @@ Total: 35 papers.
 <td nowrap>-</td>
 <td nowrap>-</td>
 <td nowrap>-</td>
-<td nowrap>Awesome-VLA / CoRL</td>
-<td nowrap>Added from existing source lists after filtering to main CoRL papers that fit this survey taxonomy.</td>
 </tr>
 <tr>
 <td nowrap>CoRL 2022</td>
@@ -4926,8 +4872,6 @@ Total: 35 papers.
 <td nowrap>-</td>
 <td nowrap>-</td>
 <td nowrap>-</td>
-<td nowrap>Awesome-VLA / CoRL</td>
-<td nowrap>Added from existing source lists after filtering to main CoRL papers that fit this survey taxonomy.</td>
 </tr>
 <tr>
 <td nowrap>CoRL 2023</td>
@@ -4944,8 +4888,6 @@ Total: 35 papers.
 <td nowrap><a href="https://act3d.github.io">project</a></td>
 <td nowrap><a href="https://github.com/zhouxian/act3d-chained-diffuser">code</a></td>
 <td nowrap>-</td>
-<td nowrap>Awesome-VLA / CoRL</td>
-<td nowrap>Added from existing source lists after filtering to main CoRL papers that fit this survey taxonomy.</td>
 </tr>
 <tr>
 <td nowrap>ICML 2024</td>
@@ -5485,8 +5427,6 @@ Total: 21 papers.
 <td nowrap>-</td>
 <td nowrap>-</td>
 <td nowrap>-</td>
-<td nowrap>Awesome-EAI / CoRL</td>
-<td nowrap>Added from existing source lists after filtering to main CoRL papers that fit this survey taxonomy.</td>
 </tr>
 <tr>
 <td nowrap>CoRL 2024</td>
@@ -5503,8 +5443,6 @@ Total: 21 papers.
 <td nowrap><a href="https://nakamotoo.github.io/V-GPS">project</a></td>
 <td nowrap><a href="https://github.com/nakamotoo/V-GPS">code</a></td>
 <td nowrap>-</td>
-<td nowrap>Awesome-VLA / CoRL</td>
-<td nowrap>Added from existing source lists after filtering to main CoRL papers that fit this survey taxonomy.</td>
 </tr>
 <tr>
 <td nowrap>CoRL 2025</td>
@@ -5521,8 +5459,6 @@ Total: 21 papers.
 <td nowrap><a href="https://controlvla.github.io/">project</a></td>
 <td nowrap><a href="https://github.com/ControlVLA/ControlVLA">code</a></td>
 <td nowrap>-</td>
-<td nowrap>Efficient-VLA / CoRL</td>
-<td nowrap>Added from existing source lists after filtering to main CoRL papers that fit this survey taxonomy.</td>
 </tr>
 <tr>
 <td nowrap>CoRL 2025</td>
@@ -5539,8 +5475,6 @@ Total: 21 papers.
 <td nowrap><a href="https://ricl-vla.github.io/">project</a></td>
 <td nowrap><a href="https://github.com/ricl-vla/ricl_openpi">code</a></td>
 <td nowrap>-</td>
-<td nowrap>Efficient-VLA / CoRL</td>
-<td nowrap>Added from existing source lists after filtering to main CoRL papers that fit this survey taxonomy.</td>
 </tr>
 <tr>
 <td nowrap>CoRL 2025</td>
@@ -5557,8 +5491,6 @@ Total: 21 papers.
 <td nowrap><a href="https://robomonkey-vla.github.io/">project</a></td>
 <td nowrap><a href="https://github.com/robomonkey-vla/RoboMonkey">code</a></td>
 <td nowrap>-</td>
-<td nowrap>EAI-VLA-VLN / CoRL</td>
-<td nowrap>Added from existing source lists after filtering to main CoRL papers that fit this survey taxonomy.</td>
 </tr>
 <tr>
 <td nowrap>ICML 2024</td>
@@ -6494,7 +6426,6 @@ Total: 33 papers.
 <td nowrap>-</td>
 <td nowrap>-</td>
 <td nowrap>WAM / CoRL</td>
-<td nowrap>Added from existing source lists after filtering to main CoRL papers that fit this survey taxonomy.</td>
 </tr>
 <tr>
 <td nowrap>CoRL 2024</td>
@@ -6511,7 +6442,6 @@ Total: 33 papers.
 <td nowrap>-</td>
 <td nowrap>-</td>
 <td nowrap>WAM / CoRL</td>
-<td nowrap>Added from existing source lists after filtering to main CoRL papers that fit this survey taxonomy.</td>
 </tr>
 <tr>
 <td nowrap>CoRL 2024</td>
@@ -6528,7 +6458,6 @@ Total: 33 papers.
 <td nowrap>-</td>
 <td nowrap>-</td>
 <td nowrap>WAM / CoRL</td>
-<td nowrap>Added from existing source lists after filtering to main CoRL papers that fit this survey taxonomy.</td>
 </tr>
 <tr>
 <td nowrap>CoRL 2025</td>
@@ -6545,7 +6474,6 @@ Total: 33 papers.
 <td nowrap>-</td>
 <td nowrap>-</td>
 <td nowrap>WAM / CoRL</td>
-<td nowrap>Added from existing source lists after filtering to main CoRL papers that fit this survey taxonomy.</td>
 </tr>
 <tr>
 <td nowrap>CoRL 2022</td>
@@ -6562,7 +6490,6 @@ Total: 33 papers.
 <td nowrap>-</td>
 <td nowrap>-</td>
 <td nowrap>WAM, Awesome-VLA / CoRL</td>
-<td nowrap>Added from existing source lists after filtering to main CoRL papers that fit this survey taxonomy.</td>
 </tr>
 <tr>
 <td nowrap>CoRL 2025</td>
@@ -6579,7 +6506,6 @@ Total: 33 papers.
 <td nowrap><a href="https://github.com/acl21/diwa">code</a></td>
 <td nowrap>-</td>
 <td nowrap>EAI-VLA-VLN / CoRL</td>
-<td nowrap>Added from existing source lists after filtering to main CoRL papers that fit this survey taxonomy.</td>
 </tr>
 <tr>
 <td nowrap>NeurIPS 2023</td>
@@ -7274,8 +7200,6 @@ Total: 40 papers.
 <td nowrap><a href="https://say-can.github.io">project</a></td>
 <td nowrap><a href="https://github.com/google-research/google-research/tree/master/saycan">code</a></td>
 <td nowrap>-</td>
-<td nowrap>Awesome-VLA, Awesome-EAI / CoRL</td>
-<td nowrap>Added from existing source lists after filtering to main CoRL papers that fit this survey taxonomy.</td>
 </tr>
 <tr>
 <td nowrap>CoRL 2023</td>
@@ -7291,8 +7215,6 @@ Total: 40 papers.
 <td nowrap>-</td>
 <td nowrap>-</td>
 <td nowrap>-</td>
-<td nowrap>Awesome-EAI / CoRL</td>
-<td nowrap>Added from existing source lists after filtering to main CoRL papers that fit this survey taxonomy.</td>
 </tr>
 <tr>
 <td nowrap>CoRL 2022</td>
@@ -7308,8 +7230,6 @@ Total: 40 papers.
 <td nowrap>-</td>
 <td nowrap>-</td>
 <td nowrap>-</td>
-<td nowrap>Awesome-EAI / CoRL</td>
-<td nowrap>Added from existing source lists after filtering to main CoRL papers that fit this survey taxonomy.</td>
 </tr>
 <tr>
 <td nowrap>CoRL 2025</td>
@@ -7325,8 +7245,6 @@ Total: 40 papers.
 <td nowrap><a href="https://zzongzheng0918.github.io/RoboChemist.github.io/">project</a></td>
 <td nowrap>-</td>
 <td nowrap>-</td>
-<td nowrap>Efficient-VLA / CoRL</td>
-<td nowrap>Added from existing source lists after filtering to main CoRL papers that fit this survey taxonomy.</td>
 </tr>
 <tr>
 <td nowrap>CVPR 2025</td>
@@ -8260,8 +8178,6 @@ Total: 11 papers.
 <td nowrap><a href="https://voxposer.github.io">project</a></td>
 <td nowrap><a href="https://github.com/huangwl18/VoxPoser">code</a></td>
 <td nowrap>-</td>
-<td nowrap>Awesome-VLA / CoRL</td>
-<td nowrap>Added from existing source lists after filtering to main CoRL papers that fit this survey taxonomy.</td>
 </tr>
 <tr>
 <td nowrap>ICRA 2025</td>
@@ -8999,8 +8915,6 @@ Total: 33 papers.
 <td nowrap>-</td>
 <td nowrap>-</td>
 <td nowrap>-</td>
-<td nowrap>Awesome-EAI / CoRL</td>
-<td nowrap>Added from existing source lists after filtering to main CoRL papers that fit this survey taxonomy.</td>
 </tr>
 <tr>
 <td nowrap>CVPR 2025</td>
@@ -9706,6 +9620,71 @@ Total: 13 papers.
 </tbody>
 </table>
 
+**Research status matrix for dexterous hand and tactile/contact-rich work.**
+
+<table>
+<thead>
+<tr>
+<th nowrap>Research Theme</th>
+<th nowrap>Representative Question</th>
+<th nowrap>Solved / Relatively Mature</th>
+<th nowrap>Open Bottleneck</th>
+<th nowrap>Representative Papers</th>
+<th nowrap>Required Hardware Capability</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td nowrap>General dexterous grasping</td>
+<td nowrap>Arbitrary-object, language-conditioned, and task-oriented grasping</td>
+<td nowrap>Large-scale simulated grasping and diffusion-based grasp generation now have multiple baselines</td>
+<td nowrap>Real-world generalization, physical feasibility, and complex contact remain unstable</td>
+<td nowrap>DexGraspVLA / DexGrasp Anything / UniGraspTransformer</td>
+<td nowrap>Multifinger hand, high DoF, vision/force feedback</td>
+</tr>
+<tr>
+<td nowrap>In-hand manipulation</td>
+<td nowrap>Rotation, reorientation, and nonprehensile movement</td>
+<td nowrap>Simulation and small real-robot task settings have working methods</td>
+<td nowrap>Contact-dynamics reality gap and long-horizon stability</td>
+<td nowrap>DexNDM / NoContactNoWorries / DexMove</td>
+<td nowrap>Dexterous hand, proprioception, contact/tactile feedback</td>
+</tr>
+<tr>
+<td nowrap>Cross-hand transfer</td>
+<td nowrap>Policy transfer across different hand morphologies</td>
+<td nowrap>Latent/action retargeting is emerging</td>
+<td nowrap>Hand morphology mismatch, DoF mismatch, and data alignment</td>
+<td nowrap>UniDex / Grasp2Grasp / House of Dextra</td>
+<td nowrap>Multiple hand models and unified action representations</td>
+</tr>
+<tr>
+<td nowrap>Human video to robot</td>
+<td nowrap>Ego video, Vision Pro, and VR data converted into robot trajectories</td>
+<td nowrap>Egocentric video and hand-tracking data chains are becoming common</td>
+<td nowrap>Human-to-robot hand mapping, missing contact, and real-robot fine-tuning cost</td>
+<td nowrap>EgoDex / UniDex</td>
+<td nowrap>VR/Vision Pro, hand tracking, teleoperation</td>
+</tr>
+<tr>
+<td nowrap>Tactile representation</td>
+<td nowrap>Optical tactile, cross-sensor representation, and tactile-language alignment</td>
+<td nowrap>Single-sensor and cross-modal representations have clear progress</td>
+<td nowrap>Cross-sensor generalization, dynamic force information, and real-time closed-loop control</td>
+<td nowrap>AnyTouch 2 / Cross-Tactile / VTV-LLM</td>
+<td nowrap>Optical tactile sensors, force feedback, multimodal synchronization</td>
+</tr>
+<tr>
+<td nowrap>Contact-rich manipulation</td>
+<td nowrap>Insertion, sliding, cloth, soft-body, and gentle manipulation</td>
+<td nowrap>Specific tasks have policies and simulators</td>
+<td nowrap>Real contact uncertainty, sensor durability, and closed-loop control</td>
+<td nowrap>Tabero / Taccel / Touch in the Wild</td>
+<td nowrap>Tactile array, force-controlled arm, simulation model</td>
+</tr>
+</tbody>
+</table>
+
 #### dexterous hand
 
 Total: 35 papers.
@@ -9715,17 +9694,17 @@ Total: 35 papers.
 <tr>
 <th nowrap>Venue/Year</th>
 <th nowrap>Paper/Method</th>
-<th nowrap>Abstract</th>
-<th nowrap>Embodiment Type</th>
-<th nowrap>Sensing/Contact</th>
-<th nowrap>Control Interface</th>
-<th nowrap>Training Mode</th>
-<th nowrap>Sim/Real</th>
-<th nowrap>Paper Task/Goal</th>
-<th nowrap>Paper</th>
-<th nowrap>Project</th>
-<th nowrap>Code</th>
-<th nowrap>Data/Bench</th>
+<th nowrap>Research Problem</th>
+<th nowrap>Solved / Progress</th>
+<th nowrap>Open Limitation</th>
+<th nowrap>Hand Model</th>
+<th nowrap>DoF / Actuation</th>
+<th nowrap>Tactile Setup</th>
+<th nowrap>Carrier Platform</th>
+<th nowrap>Simulation / Data</th>
+<th nowrap>Teleop / VR Data Chain</th>
+<th nowrap>SDK / ROS / Code</th>
+<th nowrap>Evidence Links</th>
 </tr>
 </thead>
 <tbody>
@@ -9733,534 +9712,526 @@ Total: 35 papers.
 <td nowrap>CoRL 2023</td>
 <td nowrap><a href="https://scholar.google.com/scholar?q=General+In-hand+Object+Rotation+with+Vision+and+Touch">General In-hand Object Rotation with Vision and Touch</a></td>
 <td nowrap>This work studies general in-hand object rotation with visual and tactile feedback.</td>
-<td nowrap>dexterous hand</td>
-<td nowrap>robot sensing/contact</td>
-<td nowrap>robot control</td>
-<td nowrap>robot learning</td>
-<td nowrap>robot benchmarks</td>
-<td nowrap>Add CoRL embodiment coverage.</td>
+<td nowrap>This work studies general in-hand object rotation with visual and tactile feedback.</td>
+<td nowrap>-</td>
+<td nowrap>-</td>
+<td nowrap>-</td>
+<td nowrap>vision + tactile</td>
+<td nowrap>-</td>
+<td nowrap>robot learning / robot benchmarks</td>
+<td nowrap>-</td>
+<td nowrap>-</td>
 <td nowrap><a href="https://scholar.google.com/scholar?q=General+In-hand+Object+Rotation+with+Vision+and+Touch">paper</a></td>
-<td nowrap>-</td>
-<td nowrap>-</td>
-<td nowrap>-</td>
-<td nowrap>Awesome-EAI / CoRL</td>
-<td nowrap>Added from existing source lists after filtering to main CoRL papers that fit this survey taxonomy.</td>
 </tr>
 <tr>
 <td nowrap>CoRL 2023</td>
 <td nowrap><a href="https://scholar.google.com/scholar?q=Language-guided+Robot+Grasping%3A+CLIP-based+Referring+Grasp+Synthesis+in+Clutter">Language-guided Robot Grasping: CLIP-based Referring Grasp Synthesis in Clutter</a></td>
 <td nowrap>This work synthesizes referring grasps in clutter with CLIP-based language guidance.</td>
-<td nowrap>dexterous hand</td>
-<td nowrap>robot sensing/contact</td>
-<td nowrap>robot control</td>
-<td nowrap>robot learning</td>
-<td nowrap>robot benchmarks</td>
-<td nowrap>Add CoRL embodiment coverage.</td>
+<td nowrap>This work synthesizes referring grasps in clutter with CLIP-based language guidance.</td>
+<td nowrap>-</td>
+<td nowrap>-</td>
+<td nowrap>-</td>
+<td nowrap>-</td>
+<td nowrap>-</td>
+<td nowrap>robot learning / robot benchmarks</td>
+<td nowrap>-</td>
+<td nowrap>-</td>
 <td nowrap><a href="https://scholar.google.com/scholar?q=Language-guided+Robot+Grasping%3A+CLIP-based+Referring+Grasp+Synthesis+in+Clutter">paper</a></td>
-<td nowrap>-</td>
-<td nowrap>-</td>
-<td nowrap>-</td>
-<td nowrap>Awesome-EAI / CoRL</td>
-<td nowrap>Added from existing source lists after filtering to main CoRL papers that fit this survey taxonomy.</td>
 </tr>
 <tr>
 <td nowrap>CoRL 2023</td>
 <td nowrap><a href="https://scholar.google.com/scholar?q=Reasoning+Tuning+Grasp%3A+Adapting+Multi-Modal+Large+Language+Models+for+Robotic+Grasping">Reasoning Tuning Grasp: Adapting Multi-Modal Large Language Models for Robotic Grasping</a></td>
 <td nowrap>Reasoning Tuning Grasp adapts multimodal LLMs for robotic grasping.</td>
-<td nowrap>dexterous hand</td>
-<td nowrap>robot sensing/contact</td>
-<td nowrap>robot control</td>
-<td nowrap>robot learning</td>
-<td nowrap>robot benchmarks</td>
-<td nowrap>Add CoRL embodiment coverage.</td>
+<td nowrap>Reasoning Tuning Grasp adapts multimodal LLMs for robotic grasping.</td>
+<td nowrap>-</td>
+<td nowrap>-</td>
+<td nowrap>-</td>
+<td nowrap>-</td>
+<td nowrap>-</td>
+<td nowrap>robot learning / robot benchmarks</td>
+<td nowrap>-</td>
+<td nowrap>-</td>
 <td nowrap><a href="https://scholar.google.com/scholar?q=Reasoning+Tuning+Grasp%3A+Adapting+Multi-Modal+Large+Language+Models+for+Robotic+Grasping">paper</a></td>
-<td nowrap>-</td>
-<td nowrap>-</td>
-<td nowrap>-</td>
-<td nowrap>Awesome-EAI / CoRL</td>
-<td nowrap>Added from existing source lists after filtering to main CoRL papers that fit this survey taxonomy.</td>
 </tr>
 <tr>
 <td nowrap>CoRL 2025</td>
 <td nowrap><a href="https://arxiv.org/abs/2505.03233">GraspVLA: a Grasping Foundation Model Pre-trained on Billion-scale Synthetic Action Data</a></td>
 <td nowrap>GraspVLA pretrains a grasping foundation model on billion-scale synthetic action data.</td>
-<td nowrap>dexterous hand</td>
-<td nowrap>robot sensing/contact</td>
-<td nowrap>robot control</td>
-<td nowrap>robot learning</td>
-<td nowrap>robot benchmarks</td>
-<td nowrap>Add CoRL embodiment coverage.</td>
-<td nowrap><a href="https://arxiv.org/abs/2505.03233">paper</a></td>
-<td nowrap><a href="https://pku-epic.github.io/GraspVLA-web/">project</a></td>
-<td nowrap><a href="https://github.com/PKU-EPIC/GraspVLA">code</a></td>
+<td nowrap>GraspVLA pretrains a grasping foundation model on billion-scale synthetic action data.</td>
 <td nowrap>-</td>
-<td nowrap>Efficient-VLA, EAI-VLA-VLN / CoRL</td>
-<td nowrap>Added from existing source lists after filtering to main CoRL papers that fit this survey taxonomy.</td>
+<td nowrap>-</td>
+<td nowrap>-</td>
+<td nowrap>-</td>
+<td nowrap>-</td>
+<td nowrap>robot learning / robot benchmarks</td>
+<td nowrap>-</td>
+<td nowrap><a href="https://github.com/PKU-EPIC/GraspVLA">code</a></td>
+<td nowrap><a href="https://arxiv.org/abs/2505.03233">paper</a> / <a href="https://pku-epic.github.io/GraspVLA-web/">project</a> / <a href="https://github.com/PKU-EPIC/GraspVLA">code</a></td>
 </tr>
 <tr>
 <td nowrap>CVPR 2025</td>
 <td nowrap><a href="https://openaccess.thecvf.com/content/CVPR2025/html/Li_ManipTrans_Efficient_Dexterous_Bimanual_Manipulation_Transfer_via_Residual_Learning_CVPR_2025_paper.html">ManipTrans: Efficient Dexterous Bimanual Manipulation Transfer via Residual Learning</a></td>
-<td nowrap>ManipTrans transfers dexterous bimanual manipulation skills efficiently with residual learning.</td>
-<td nowrap>Dexterous bimanual manipulation</td>
-<td nowrap>hand-object contact</td>
-<td nowrap>dexterous bimanual control</td>
-<td nowrap>residual transfer learning</td>
-<td nowrap>Simulation / robot tasks</td>
 <td nowrap>Transfer dexterous bimanual manipulation skills.</td>
+<td nowrap>ManipTrans transfers dexterous bimanual manipulation skills efficiently with residual learning.</td>
+<td nowrap>-</td>
+<td nowrap>-</td>
+<td nowrap>-</td>
+<td nowrap>-</td>
+<td nowrap>Dexterous bimanual manipulation</td>
+<td nowrap>residual transfer learning / Simulation / robot tasks</td>
+<td nowrap>-</td>
+<td nowrap>-</td>
 <td nowrap><a href="https://openaccess.thecvf.com/content/CVPR2025/papers/Li_ManipTrans_Efficient_Dexterous_Bimanual_Manipulation_Transfer_via_Residual_Learning_CVPR_2025_paper.pdf">paper</a></td>
-<td nowrap>-</td>
-<td nowrap>-</td>
-<td nowrap>-</td>
 </tr>
 <tr>
 <td nowrap>ICML 2024</td>
 <td nowrap><a href="https://proceedings.mlr.press/v235/he24o.html">DynSyn: Dynamical Synergistic Representation for Efficient Learning and Control in Overactuated Embodied Systems</a></td>
-<td nowrap>DynSyn learns dynamical synergies for efficient control in overactuated embodied systems.</td>
-<td nowrap>Dexterous / overactuated embodiment</td>
-<td nowrap>joint coordination</td>
-<td nowrap>synergy control</td>
-<td nowrap>representation learning + control</td>
-<td nowrap>Control benchmarks</td>
 <td nowrap>Reduce control complexity in high-DoF embodied systems.</td>
+<td nowrap>DynSyn learns dynamical synergies for efficient control in overactuated embodied systems.</td>
+<td nowrap>-</td>
+<td nowrap>-</td>
+<td nowrap>-</td>
+<td nowrap>-</td>
+<td nowrap>Dexterous / overactuated embodiment</td>
+<td nowrap>representation learning + control / Control benchmarks</td>
+<td nowrap>-</td>
+<td nowrap>-</td>
 <td nowrap><a href="https://proceedings.mlr.press/v235/he24o/he24o.pdf">paper</a></td>
-<td nowrap>-</td>
-<td nowrap>-</td>
-<td nowrap>-</td>
 </tr>
 <tr>
 <td nowrap>ICCV 2025</td>
 <td nowrap><a href="https://openaccess.thecvf.com/content/ICCV2025/html/He_DexVLG_Dexterous_Vision-Language-Grasp_Model_at_Scale_ICCV_2025_paper.html">DexVLG: Dexterous Vision-Language-Grasp Model at Scale</a></td>
-<td nowrap>DexVLG scales a vision-language grasp model for dexterous manipulation.</td>
-<td nowrap>Dexterous grasping</td>
-<td nowrap>vision-language grasp cues</td>
-<td nowrap>dexterous grasp action</td>
-<td nowrap>large-scale grasp model</td>
-<td nowrap>Dexterous grasp tasks</td>
 <td nowrap>Scale vision-language grasping to dexterous hands.</td>
+<td nowrap>DexVLG scales a vision-language grasp model for dexterous manipulation.</td>
+<td nowrap>-</td>
+<td nowrap>-</td>
+<td nowrap>-</td>
+<td nowrap>-</td>
+<td nowrap>Dexterous grasping</td>
+<td nowrap>large-scale grasp model / Dexterous grasp tasks</td>
+<td nowrap>-</td>
+<td nowrap>-</td>
 <td nowrap><a href="https://arxiv.org/pdf/2507.02747">paper</a></td>
-<td nowrap>-</td>
-<td nowrap>-</td>
-<td nowrap>-</td>
 </tr>
 <tr>
 <td nowrap>IROS 2026</td>
 <td nowrap><a href="https://arxiv.org/abs/2606.24450">NoContactNoWorries: Estimating Contact through Vision and Proprioception for In-Hand Dexterous Manipulation</a></td>
-<td nowrap>NoContactNoWorries estimates dexterous hand contact states from vision and proprioception without tactile hardware.</td>
-<td nowrap>Dexterous hand</td>
-<td nowrap>vision + proprioception contact estimation</td>
-<td nowrap>in-hand manipulation</td>
-<td nowrap>contact representation learning</td>
-<td nowrap>Real</td>
 <td nowrap>Use low-cost sensing to complement dexterous-hand contact feedback.</td>
-<td nowrap><a href="https://arxiv.org/abs/2606.24450">paper</a></td>
-<td nowrap><a href="https://soham2560.github.io/no-contact-no-worries/">project</a></td>
+<td nowrap>NoContactNoWorries estimates dexterous hand contact states from vision and proprioception without tactile hardware.</td>
 <td nowrap>-</td>
 <td nowrap>-</td>
+<td nowrap>-</td>
+<td nowrap>vision + proprioception contact estimation</td>
+<td nowrap>-</td>
+<td nowrap>contact representation learning / Real</td>
+<td nowrap>-</td>
+<td nowrap>-</td>
+<td nowrap><a href="https://arxiv.org/abs/2606.24450">paper</a> / <a href="https://soham2560.github.io/no-contact-no-worries/">project</a></td>
 </tr>
 <tr>
 <td nowrap>ICLR 2026</td>
 <td nowrap><a href="https://openreview.net/forum?id=Bf4FeuW0Mr">DemoGrasp: Universal Dexterous Grasping from a Single Demonstration</a></td>
-<td nowrap>DemoGrasp starts from a single successful grasp trajectory, edits wrist poses and finger joints, and uses RL to optimize general grasping.</td>
-<td nowrap>Dexterous Hand/Grasping</td>
-<td nowrap>-</td>
-<td nowrap>dexterous manipulation / dexterous hand / grasping</td>
-<td nowrap>single demonstration + RL trajectory editing</td>
-<td nowrap>Sim + Real</td>
 <td nowrap>Addresses high-dimensional long-horizon exploration and complex reward-curriculum design in general dexterous-hand grasping.</td>
-<td nowrap><a href="https://openreview.net/forum?id=Bf4FeuW0Mr">paper</a></td>
+<td nowrap>DemoGrasp starts from a single successful grasp trajectory, edits wrist poses and finger joints, and uses RL to optimize general grasping.</td>
+<td nowrap>-</td>
+<td nowrap>-</td>
+<td nowrap>-</td>
+<td nowrap>-</td>
+<td nowrap>-</td>
+<td nowrap>single demonstration + RL trajectory editing / Sim + Real</td>
 <td nowrap>-</td>
 <td nowrap><a href="https://github.com/BeingBeyond/DemoGrasp">code</a></td>
-<td nowrap>-</td>
+<td nowrap><a href="https://openreview.net/forum?id=Bf4FeuW0Mr">paper</a> / <a href="https://github.com/BeingBeyond/DemoGrasp">code</a></td>
 </tr>
 <tr>
 <td nowrap>ICLR 2026</td>
 <td nowrap><a href="https://openreview.net/forum?id=80vjyj5o7l">DexNDM: Closing the Reality Gap for Dexterous In-Hand Rotation via Joint-Wise Neural Dynamics Model</a></td>
-<td nowrap>DexNDM uses a joint-level neural dynamics model to correct simulation policies with a small amount of real data, enabling generalized in-hand object rotation.</td>
-<td nowrap>Dexterous Hand/Grasping</td>
-<td nowrap>-</td>
-<td nowrap>dexterous manipulation / dexterous hand / grasping</td>
-<td nowrap>sim policy + joint-wise neural dynamics model + real-data adaptation</td>
-<td nowrap>Sim-to-Real</td>
 <td nowrap>Addresses the contact-dynamics reality gap from simulation to real-world in-hand rotation for dexterous hands.</td>
-<td nowrap><a href="https://openreview.net/forum?id=80vjyj5o7l">paper</a></td>
-<td nowrap><a href="https://meowuu7.github.io/DexNDM/">project</a></td>
+<td nowrap>DexNDM uses a joint-level neural dynamics model to correct simulation policies with a small amount of real data, enabling generalized in-hand object rotation.</td>
 <td nowrap>-</td>
 <td nowrap>-</td>
+<td nowrap>-</td>
+<td nowrap>-</td>
+<td nowrap>-</td>
+<td nowrap>sim policy + joint-wise neural dynamics model + real-data adaptation / Sim-to-Real</td>
+<td nowrap>-</td>
+<td nowrap>-</td>
+<td nowrap><a href="https://openreview.net/forum?id=80vjyj5o7l">paper</a> / <a href="https://meowuu7.github.io/DexNDM/">project</a></td>
 </tr>
 <tr>
 <td nowrap>ICLR 2026</td>
 <td nowrap><a href="https://openreview.net/forum?id=FFxkFMU89E">EgoDex: Learning Dexterous Manipulation from Large-Scale Egocentric Video</a></td>
-<td nowrap>EgoDex collects 829 hours of egocentric video and 3D finger tracking with Apple Vision Pro to support dexterous manipulation learning.</td>
-<td nowrap>Dexterous Hand/Grasping</td>
-<td nowrap>egocentric RGB/video + 3D hand tracking</td>
-<td nowrap>dexterous manipulation / dexterous hand / grasping</td>
-<td nowrap>large-scale egocentric video pretraining</td>
-<td nowrap>-</td>
 <td nowrap>Addresses the lack of internet-scale data with hand-pose annotations for dexterous manipulation.</td>
-<td nowrap><a href="https://openreview.net/forum?id=FFxkFMU89E">paper</a> / <a href="https://arxiv.org/pdf/2505.11709">paper</a></td>
+<td nowrap>EgoDex collects 829 hours of egocentric video and 3D finger tracking with Apple Vision Pro to support dexterous manipulation learning.</td>
 <td nowrap>-</td>
+<td nowrap>-</td>
+<td nowrap>-</td>
+<td nowrap>-</td>
+<td nowrap>-</td>
+<td nowrap>large-scale egocentric video pretraining / EgoDex dataset/benchmark</td>
+<td nowrap>Apple Vision Pro + egocentric/hand-tracking data</td>
 <td nowrap><a href="https://github.com/apple/ml-egodex">code</a></td>
-<td nowrap>EgoDex dataset/benchmark</td>
+<td nowrap><a href="https://openreview.net/forum?id=FFxkFMU89E">paper</a> / <a href="https://arxiv.org/pdf/2505.11709">paper</a> / <a href="https://github.com/apple/ml-egodex">code</a> / EgoDex dataset/benchmark</td>
 </tr>
 <tr>
 <td nowrap>ICLR 2026</td>
 <td nowrap><a href="https://openreview.net/forum?id=Kt9tJeOwjy">RFS: Reinforcement learning with Residual flow steering for dexterous manipulation</a></td>
+<td nowrap>Addresses poor deployment generalization of generative imitation policies while preserving pretrained exploration ability during fine-tuning.</td>
 <td nowrap>RFS fine-tunes pretrained flow-matching dexterous manipulation policies with residual actions and delayed flow-time-variable reinforcement learning.</td>
-<td nowrap>Dexterous Hand/Grasping</td>
+<td nowrap>-</td>
+<td nowrap>-</td>
+<td nowrap>-</td>
 <td nowrap>tactile / contact</td>
-<td nowrap>residual action + flow steering</td>
+<td nowrap>-</td>
 <td nowrap>RL with Residual Flow Steering over pretrained flow policy</td>
 <td nowrap>-</td>
-<td nowrap>Addresses poor deployment generalization of generative imitation policies while preserving pretrained exploration ability during fine-tuning.</td>
+<td nowrap>-</td>
 <td nowrap><a href="https://openreview.net/forum?id=Kt9tJeOwjy">paper</a></td>
-<td nowrap>-</td>
-<td nowrap>-</td>
-<td nowrap>-</td>
 </tr>
 <tr>
 <td nowrap>ICLR 2026</td>
 <td nowrap><a href="https://openreview.net/forum?id=NZDaMcpXZm">Learning to Grasp Anything By Playing with Random Toys</a></td>
-<td nowrap>This paper shows that robots can learn zero-shot-generalizable grasping policies from random toys composed of a small number of shape primitives.</td>
-<td nowrap>Dexterous Hand/Grasping</td>
-<td nowrap>Vision + proprioceptive state</td>
-<td nowrap>dexterous manipulation / dexterous hand / grasping</td>
-<td nowrap>random toy training + object-centric visual representation</td>
-<td nowrap>Sim + Real</td>
 <td nowrap>Addresses poor generalization of robot grasping policies to novel objects.</td>
-<td nowrap><a href="https://openreview.net/forum?id=NZDaMcpXZm">paper</a></td>
-<td nowrap><a href="https://lego-grasp.github.io/">project</a></td>
+<td nowrap>This paper shows that robots can learn zero-shot-generalizable grasping policies from random toys composed of a small number of shape primitives.</td>
 <td nowrap>-</td>
 <td nowrap>-</td>
+<td nowrap>-</td>
+<td nowrap>-</td>
+<td nowrap>-</td>
+<td nowrap>random toy training + object-centric visual representation / Sim + Real</td>
+<td nowrap>-</td>
+<td nowrap>-</td>
+<td nowrap><a href="https://openreview.net/forum?id=NZDaMcpXZm">paper</a> / <a href="https://lego-grasp.github.io/">project</a></td>
 </tr>
 <tr>
 <td nowrap>ICLR 2026</td>
 <td nowrap><a href="https://openreview.net/forum?id=aemqAxScl9">SARM: Stage-Aware Reward Modeling for Long Horizon Robot Manipulation</a></td>
+<td nowrap>Addresses inconsistent demonstration quality and hard-to-align reward labels in long-horizon contact-rich manipulation.</td>
 <td nowrap>SARM uses a stage-aware video reward model and language subtask annotations to provide stable supervision for long-horizon contact-rich/deformable-object manipulation.</td>
-<td nowrap>Dexterous Hand/Grasping</td>
 <td nowrap>-</td>
-<td nowrap>dexterous manipulation / dexterous hand / grasping</td>
+<td nowrap>-</td>
+<td nowrap>-</td>
+<td nowrap>-</td>
+<td nowrap>-</td>
 <td nowrap>stage-aware video reward modeling + reward-aligned BC</td>
 <td nowrap>-</td>
-<td nowrap>Addresses inconsistent demonstration quality and hard-to-align reward labels in long-horizon contact-rich manipulation.</td>
+<td nowrap>-</td>
 <td nowrap><a href="https://openreview.net/forum?id=aemqAxScl9">paper</a></td>
-<td nowrap>-</td>
-<td nowrap>-</td>
-<td nowrap>-</td>
 </tr>
 <tr>
 <td nowrap>ICLR 2026</td>
 <td nowrap><a href="https://openreview.net/forum?id=cVX3VqO8BO">UniHM: Unified Dexterous Hand Manipulation with Vision Language Model</a></td>
-<td nowrap>UniHM uses a unified hand tokenizer and VLA to generate manipulation sequences across dexterous-hand morphologies from open-language instructions.</td>
-<td nowrap>Dexterous Hand/Grasping</td>
-<td nowrap>Vision + language + hand-object interaction</td>
-<td nowrap>VLM/VLA + Unified Hand-Dexterous Tokenizer</td>
-<td nowrap>human-object interaction data</td>
-<td nowrap>-</td>
 <td nowrap>Addresses unified feasible manipulation planning across different dexterous-hand morphologies under free-form language guidance.</td>
+<td nowrap>UniHM uses a unified hand tokenizer and VLA to generate manipulation sequences across dexterous-hand morphologies from open-language instructions.</td>
+<td nowrap>-</td>
+<td nowrap>-</td>
+<td nowrap>-</td>
+<td nowrap>-</td>
+<td nowrap>-</td>
+<td nowrap>human-object interaction data</td>
+<td nowrap>egocentric/hand-tracking data</td>
+<td nowrap>-</td>
 <td nowrap><a href="https://openreview.net/forum?id=cVX3VqO8BO">paper</a></td>
-<td nowrap>-</td>
-<td nowrap>-</td>
-<td nowrap>-</td>
 </tr>
 <tr>
 <td nowrap>ICLR 2026</td>
 <td nowrap><a href="https://openreview.net/forum?id=k8ovuXEQQu">House Of Dextra : Cross-Embodied Co-Design for Dexterous Hands</a></td>
-<td nowrap>House of Dextra jointly searches dexterous-hand morphologies and control policies, and can rapidly fabricate and deploy new hand designs.</td>
-<td nowrap>designable dexterous hands</td>
-<td nowrap>-</td>
-<td nowrap>dexterous manipulation / dexterous hand / grasping</td>
-<td nowrap>morphology-conditioned cross-embodied control</td>
-<td nowrap>Sim + Real</td>
 <td nowrap>Addresses the need to co-design hand hardware morphology and control policy in dexterous manipulation.</td>
+<td nowrap>House of Dextra jointly searches dexterous-hand morphologies and control policies, and can rapidly fabricate and deploy new hand designs.</td>
+<td nowrap>-</td>
+<td nowrap>-</td>
+<td nowrap>-</td>
+<td nowrap>-</td>
+<td nowrap>designable dexterous hands</td>
+<td nowrap>morphology-conditioned cross-embodied control / Sim + Real</td>
+<td nowrap>-</td>
+<td nowrap>-</td>
 <td nowrap><a href="https://openreview.net/forum?id=k8ovuXEQQu">paper</a></td>
-<td nowrap>-</td>
-<td nowrap>-</td>
-<td nowrap>-</td>
 </tr>
 <tr>
 <td nowrap>ICLR 2026</td>
 <td nowrap><a href="https://openreview.net/forum?id=tv0Sz8A9Tc">Robotic Manipulation by Imitating Generated Videos Without Physical Demonstrations</a></td>
-<td nowrap>RIGVid enables robots to execute manipulation without real demonstrations by using generated videos, VLM filtering, and 6D trajectory retargeting.</td>
-<td nowrap>Dexterous Hand/Grasping</td>
-<td nowrap>Vision + language</td>
-<td nowrap>dexterous manipulation / dexterous hand / grasping</td>
-<td nowrap>generated-video imitation + VLM filtering + pose tracking</td>
-<td nowrap>Real evaluation</td>
 <td nowrap>Addresses how to obtain executable robot manipulation trajectories from generated videos without physical demonstrations.</td>
+<td nowrap>RIGVid enables robots to execute manipulation without real demonstrations by using generated videos, VLM filtering, and 6D trajectory retargeting.</td>
+<td nowrap>-</td>
+<td nowrap>-</td>
+<td nowrap>-</td>
+<td nowrap>-</td>
+<td nowrap>-</td>
+<td nowrap>generated-video imitation + VLM filtering + pose tracking / Real evaluation</td>
+<td nowrap>-</td>
+<td nowrap>-</td>
 <td nowrap><a href="https://openreview.net/forum?id=tv0Sz8A9Tc">paper</a></td>
-<td nowrap>-</td>
-<td nowrap>-</td>
-<td nowrap>-</td>
 </tr>
 <tr>
 <td nowrap>ICLR 2026</td>
 <td nowrap><a href="https://openreview.net/forum?id=wySMuWHmt4">Primary-Fine Decoupling for Action Generation in Robotic Imitation</a></td>
+<td nowrap>Addresses detail loss from discretization and unstable continuous generation under multimodal action-sequence distributions in robot imitation learning.</td>
 <td nowrap>PF-DAG first selects discrete coarse action modes, then uses MeanFlow to generate fine-grained actions, reducing mode switching.</td>
-<td nowrap>Dexterous Hand/Grasping</td>
 <td nowrap>-</td>
-<td nowrap>primary-fine action generation</td>
+<td nowrap>-</td>
+<td nowrap>-</td>
+<td nowrap>-</td>
+<td nowrap>-</td>
 <td nowrap>discrete action chunk modes + mode-conditioned MeanFlow</td>
 <td nowrap>-</td>
-<td nowrap>Addresses detail loss from discretization and unstable continuous generation under multimodal action-sequence distributions in robot imitation learning.</td>
+<td nowrap>-</td>
 <td nowrap><a href="https://openreview.net/forum?id=wySMuWHmt4">paper</a></td>
-<td nowrap>-</td>
-<td nowrap>-</td>
-<td nowrap>-</td>
 </tr>
 <tr>
 <td nowrap>ICLR 2026</td>
 <td nowrap><a href="https://openreview.net/forum?id=13jshGCK9i">D-REX: Differentiable Real-to-Sim-to-Real Engine for Learning Dexterous Grasping</a></td>
-<td nowrap>D-REX uses a Gaussian Splat differentiable engine to identify object mass from real observations and jointly learn force-aware grasping policies.</td>
-<td nowrap>Dexterous Hand/Grasping</td>
-<td nowrap>-</td>
-<td nowrap>dexterous manipulation / dexterous hand / grasping</td>
-<td nowrap>differentiable real-to-sim-to-real + force-aware grasping</td>
-<td nowrap>Real-to-Sim-to-Real</td>
 <td nowrap>Addresses physical-parameter identification and the sim-to-real dynamics gap in dexterous grasping.</td>
+<td nowrap>D-REX uses a Gaussian Splat differentiable engine to identify object mass from real observations and jointly learn force-aware grasping policies.</td>
+<td nowrap>-</td>
+<td nowrap>-</td>
+<td nowrap>-</td>
+<td nowrap>-</td>
+<td nowrap>-</td>
+<td nowrap>differentiable real-to-sim-to-real + force-aware grasping / Real-to-Sim-to-Real</td>
+<td nowrap>-</td>
+<td nowrap>-</td>
 <td nowrap><a href="https://openreview.net/forum?id=13jshGCK9i">paper</a></td>
-<td nowrap>-</td>
-<td nowrap>-</td>
-<td nowrap>-</td>
 </tr>
 <tr>
 <td nowrap>ICLR 2026</td>
 <td nowrap><a href="https://openreview.net/forum?id=RYwQ0xQcAh">Interaction-aware Representation Modeling With Co-Occurrence Consistency for Egocentric Hand-Object Parsing</a></td>
-<td nowrap>This paper improves egocentric hand-object parsing with interaction-aware representations and co-occurrence consistency, reducing physically inconsistent predictions.</td>
-<td nowrap>egocentric hand-object perception</td>
-<td nowrap>-</td>
-<td nowrap>dexterous manipulation / dexterous hand / grasping</td>
-<td nowrap>interaction-aware representation modeling</td>
-<td nowrap>-</td>
 <td nowrap>Addresses fine-grained segmentation/parsing of hands and active objects in egocentric embodied perception.</td>
+<td nowrap>This paper improves egocentric hand-object parsing with interaction-aware representations and co-occurrence consistency, reducing physically inconsistent predictions.</td>
+<td nowrap>-</td>
+<td nowrap>-</td>
+<td nowrap>-</td>
+<td nowrap>-</td>
+<td nowrap>egocentric hand-object perception</td>
+<td nowrap>interaction-aware representation modeling</td>
+<td nowrap>egocentric/hand-tracking data</td>
+<td nowrap>-</td>
 <td nowrap><a href="https://openreview.net/forum?id=RYwQ0xQcAh">paper</a></td>
-<td nowrap>-</td>
-<td nowrap>-</td>
-<td nowrap>-</td>
 </tr>
 <tr>
 <td nowrap>AAAI 2026</td>
 <td nowrap><a href="https://ojs.aaai.org/index.php/AAAI/article/view/38873">GRIM: Task-Oriented Grasping with Conditioning on Generative Examples</a></td>
+<td nowrap>Addresses how to use generated examples as conditions to select suitable grasps for task-oriented grasping.</td>
 <td nowrap>GRIM conditions grasp selection on generated examples, helping robots choose grasps that fit the intended task rather than only the object geometry.</td>
-<td nowrap>Dexterous Hand/Grasping</td>
 <td nowrap>-</td>
-<td nowrap>dexterous manipulation / dexterous hand / grasping</td>
+<td nowrap>-</td>
+<td nowrap>-</td>
+<td nowrap>-</td>
+<td nowrap>-</td>
 <td nowrap>conditioning on generative examples</td>
 <td nowrap>-</td>
-<td nowrap>Addresses how to use generated examples as conditions to select suitable grasps for task-oriented grasping.</td>
+<td nowrap>-</td>
 <td nowrap><a href="https://ojs.aaai.org/index.php/AAAI/article/view/38873">paper</a></td>
-<td nowrap>-</td>
-<td nowrap>-</td>
-<td nowrap>-</td>
 </tr>
 <tr>
 <td nowrap>AAAI 2026</td>
 <td nowrap><a href="https://ojs.aaai.org/index.php/AAAI/article/view/38874">Dexterous Manipulation Transfer via Progressive Kinematic-Dynamic Alignment</a></td>
+<td nowrap>Addresses progressive kinematic and dynamic alignment when transferring dexterous manipulation policies across morphologies/environments.</td>
 <td nowrap>This paper progressively aligns kinematics and dynamics to transfer dexterous manipulation policies across different embodiments and settings.</td>
-<td nowrap>Dexterous Hand/Grasping</td>
 <td nowrap>-</td>
-<td nowrap>dexterous manipulation / dexterous hand / grasping</td>
+<td nowrap>-</td>
+<td nowrap>-</td>
+<td nowrap>-</td>
+<td nowrap>-</td>
 <td nowrap>progressive kinematic-dynamic alignment</td>
 <td nowrap>-</td>
-<td nowrap>Addresses progressive kinematic and dynamic alignment when transferring dexterous manipulation policies across morphologies/environments.</td>
+<td nowrap>-</td>
 <td nowrap><a href="https://ojs.aaai.org/index.php/AAAI/article/view/38874">paper</a></td>
-<td nowrap>-</td>
-<td nowrap>-</td>
-<td nowrap>-</td>
 </tr>
 <tr>
 <td nowrap>AAAI 2026</td>
 <td nowrap><a href="https://ojs.aaai.org/index.php/AAAI/article/view/38892">Learning Object-Centric Motion Priors from Human for Robotic Dexterous Manipulation</a></td>
+<td nowrap>Addresses how to learn object-centric motion priors from human motion and transfer them to robotic dexterous manipulation.</td>
 <td nowrap>This paper learns object-centric motion priors from human demonstrations and uses them to guide robotic dexterous manipulation.</td>
-<td nowrap>Dexterous Hand/Grasping</td>
 <td nowrap>-</td>
-<td nowrap>dexterous manipulation / dexterous hand / grasping</td>
+<td nowrap>-</td>
+<td nowrap>-</td>
+<td nowrap>-</td>
+<td nowrap>-</td>
 <td nowrap>human-derived object-centric motion priors</td>
 <td nowrap>-</td>
-<td nowrap>Addresses how to learn object-centric motion priors from human motion and transfer them to robotic dexterous manipulation.</td>
+<td nowrap>-</td>
 <td nowrap><a href="https://ojs.aaai.org/index.php/AAAI/article/view/38892">paper</a></td>
-<td nowrap>-</td>
-<td nowrap>-</td>
-<td nowrap>-</td>
 </tr>
 <tr>
 <td nowrap>AAAI 2026</td>
 <td nowrap><a href="https://ojs.aaai.org/index.php/AAAI/article/view/38894">Real Garment Benchmark (RGBench): A Comprehensive Benchmark for Robotic Garment Manipulation Featuring a High-Fidelity Scalable Simulator</a></td>
-<td nowrap>RGBench provides real garment data, a high-fidelity scalable simulator, and a garment manipulation benchmark.</td>
-<td nowrap>garment manipulation robot / bimanual</td>
-<td nowrap>Vision</td>
-<td nowrap>dexterous manipulation / dexterous hand / grasping</td>
-<td nowrap>dexterous manipulation</td>
-<td nowrap>Real garment data + simulator benchmark</td>
 <td nowrap>Addresses the lack of real data, high-fidelity simulation, and unified evaluation for robotic garment manipulation.</td>
-<td nowrap><a href="https://ojs.aaai.org/index.php/AAAI/article/view/38894">paper</a></td>
-<td nowrap><a href="https://rgbench.github.io/">project</a></td>
+<td nowrap>RGBench provides real garment data, a high-fidelity scalable simulator, and a garment manipulation benchmark.</td>
+<td nowrap>-</td>
+<td nowrap>-</td>
+<td nowrap>-</td>
+<td nowrap>-</td>
+<td nowrap>garment manipulation robot / bimanual</td>
+<td nowrap>dexterous manipulation / Real garment data + simulator benchmark / <a href="https://rgbench.github.io/">benchmarks</a></td>
+<td nowrap>-</td>
 <td nowrap><a href="https://github.com/hwk0809/RGBench">code</a></td>
-<td nowrap><a href="https://rgbench.github.io/">benchmarks</a></td>
+<td nowrap><a href="https://ojs.aaai.org/index.php/AAAI/article/view/38894">paper</a> / <a href="https://rgbench.github.io/">project</a> / <a href="https://github.com/hwk0809/RGBench">code</a> / <a href="https://rgbench.github.io/">benchmarks</a></td>
 </tr>
 <tr>
 <td nowrap>AAAI 2026</td>
 <td nowrap><a href="https://ojs.aaai.org/index.php/AAAI/article/view/38940">GraphGrasp: Lightweight and Efficient Graph-Guided 6-DoF Robotic Grasp Pose Estimation Network</a></td>
+<td nowrap>Addresses lightweight and efficient 6-DoF robotic grasp-pose estimation.</td>
 <td nowrap>GraphGrasp uses graph-guided modeling to estimate lightweight and efficient 6-DoF robotic grasp poses.</td>
-<td nowrap>mainly robotic grasping / grippers</td>
 <td nowrap>-</td>
-<td nowrap>6-DoF grasp pose estimation</td>
+<td nowrap>-</td>
+<td nowrap>-</td>
+<td nowrap>-</td>
+<td nowrap>mainly robotic grasping / grippers</td>
 <td nowrap>graph-guided network</td>
 <td nowrap>-</td>
-<td nowrap>Addresses lightweight and efficient 6-DoF robotic grasp-pose estimation.</td>
+<td nowrap>-</td>
 <td nowrap><a href="https://ojs.aaai.org/index.php/AAAI/article/view/38940">paper</a></td>
-<td nowrap>-</td>
-<td nowrap>-</td>
-<td nowrap>-</td>
 </tr>
 <tr>
 <td nowrap>AAAI 2026</td>
 <td nowrap><a href="https://ojs.aaai.org/index.php/AAAI/article/view/38953">DexGraspVLA: A Vision-Language-Action Framework Towards General Dexterous Grasping</a></td>
+<td nowrap>Addresses planning and low-level control for general dexterous grasping under vision-language instructions.</td>
 <td nowrap>DexGraspVLA couples vision-language high-level planning with action generation to support general dexterous grasping from instructions.</td>
-<td nowrap>Dexterous Hand/Grasping</td>
-<td nowrap>Vision + language</td>
-<td nowrap>VLM high-level planner + diffusion low-level controller</td>
+<td nowrap>-</td>
+<td nowrap>-</td>
+<td nowrap>-</td>
+<td nowrap>-</td>
+<td nowrap>-</td>
 <td nowrap>dexterous manipulation</td>
 <td nowrap>-</td>
-<td nowrap>Addresses planning and low-level control for general dexterous grasping under vision-language instructions.</td>
-<td nowrap><a href="https://ojs.aaai.org/index.php/AAAI/article/view/38953">paper</a></td>
-<td nowrap><a href="https://dexgraspvla.github.io/">project</a></td>
 <td nowrap><a href="https://github.com/Psi-Robot/DexGraspVLA">code</a></td>
-<td nowrap>-</td>
+<td nowrap><a href="https://ojs.aaai.org/index.php/AAAI/article/view/38953">paper</a> / <a href="https://dexgraspvla.github.io/">project</a> / <a href="https://github.com/Psi-Robot/DexGraspVLA">code</a></td>
 </tr>
 <tr>
 <td nowrap>AAAI 2026</td>
 <td nowrap><a href="https://ojs.aaai.org/index.php/AAAI/article/view/38957">Effective Robotic Cloth Grasping Through Suppressing False Discoveries</a></td>
+<td nowrap>Addresses unreliable grasp points caused by false detections/false discoveries in cloth grasping.</td>
 <td nowrap>This paper suppresses false discoveries in cloth-grasp detection to make robotic cloth grasping more reliable.</td>
-<td nowrap>cloth-grasping robot</td>
 <td nowrap>-</td>
-<td nowrap>dexterous manipulation / dexterous hand / grasping</td>
+<td nowrap>-</td>
+<td nowrap>-</td>
+<td nowrap>-</td>
+<td nowrap>cloth-grasping robot</td>
 <td nowrap>false-discovery suppression</td>
 <td nowrap>-</td>
-<td nowrap>Addresses unreliable grasp points caused by false detections/false discoveries in cloth grasping.</td>
+<td nowrap>-</td>
 <td nowrap><a href="https://ojs.aaai.org/index.php/AAAI/article/view/38957">paper</a></td>
-<td nowrap>-</td>
-<td nowrap>-</td>
-<td nowrap>-</td>
 </tr>
 <tr>
 <td nowrap>CVPR 2026</td>
 <td nowrap><a href="https://arxiv.org/abs/2603.22264">UniDex: A Robot Foundation Suite for Universal Dexterous Hand Control from Egocentric Human Videos</a></td>
-<td nowrap>UniDex retargets egocentric human videos into 50K trajectories across 8 dexterous-hand datasets and trains a unified 3D VLA policy.</td>
-<td nowrap>Dexterous Hand/Grasping</td>
-<td nowrap>egocentric video + 3D point cloud + language</td>
-<td nowrap>VLA / dexterous hand / grasping</td>
-<td nowrap>3D VLA pretraining on UniDex-Dataset + task finetuning</td>
-<td nowrap>human video-derived robot trajectories + downstream real/sim tasks</td>
 <td nowrap>Addresses expensive real teleoperation data, heterogeneous hand morphologies, and high-dimensional control challenges in dexterous-hand control.</td>
-<td nowrap><a href="https://arxiv.org/abs/2603.22264">paper</a></td>
-<td nowrap><a href="https://unidex-ai.github.io/">project</a></td>
+<td nowrap>UniDex retargets egocentric human videos into 50K trajectories across 8 dexterous-hand datasets and trains a unified 3D VLA policy.</td>
+<td nowrap>-</td>
+<td nowrap>-</td>
+<td nowrap>-</td>
+<td nowrap>-</td>
+<td nowrap>-</td>
+<td nowrap>3D VLA pretraining on UniDex-Dataset + task finetuning / human video-derived robot trajectories + downstream real/sim tasks / <a href="https://huggingface.co/UniDex-ai/UniDex">hf</a></td>
+<td nowrap>egocentric/hand-tracking data</td>
 <td nowrap><a href="https://github.com/unidex-ai/UniDex">code</a></td>
-<td nowrap><a href="https://huggingface.co/UniDex-ai/UniDex">hf</a></td>
+<td nowrap><a href="https://arxiv.org/abs/2603.22264">paper</a> / <a href="https://unidex-ai.github.io/">project</a> / <a href="https://github.com/unidex-ai/UniDex">code</a> / <a href="https://huggingface.co/UniDex-ai/UniDex">hf</a></td>
 </tr>
 <tr>
 <td nowrap>NeurIPS 2025</td>
 <td nowrap><a href="https://arxiv.org/pdf/2511.01276">Generalizable Dexterous Grasp Generation via Contact Map Transfer</a></td>
+<td nowrap>Addresses generating generalizable dexterous grasps through contact-map transfer.</td>
 <td nowrap>This paper transfers contact maps to condition diffusion-based generation of dexterous grasps that generalize across objects.</td>
-<td nowrap>Dexterous Hand/Grasping</td>
+<td nowrap>-</td>
+<td nowrap>-</td>
+<td nowrap>-</td>
 <td nowrap>tactile / contact</td>
-<td nowrap>conditional diffusion grasp generation</td>
+<td nowrap>-</td>
 <td nowrap>diffusion policy</td>
 <td nowrap>-</td>
-<td nowrap>Addresses generating generalizable dexterous grasps through contact-map transfer.</td>
-<td nowrap><a href="https://arxiv.org/pdf/2511.01276">paper</a></td>
-<td nowrap><a href="https://cmtdiffusion.github.io/">project</a></td>
 <td nowrap><a href="https://github.com/Yiyao-Ma/cmtdiffusion">code</a></td>
-<td nowrap>-</td>
+<td nowrap><a href="https://arxiv.org/pdf/2511.01276">paper</a> / <a href="https://cmtdiffusion.github.io/">project</a> / <a href="https://github.com/Yiyao-Ma/cmtdiffusion">code</a></td>
 </tr>
 <tr>
 <td nowrap>NeurIPS 2025</td>
 <td nowrap><a href="https://arxiv.org/abs/2506.02489">Grasp2Grasp: Vision-Based Dexterous Grasp Translation via Schrödinger Bridges</a></td>
+<td nowrap>Addresses transferring grasp intent across different dexterous-hand morphologies without paired demonstrations or hand-shape simulation.</td>
 <td nowrap>Grasp2Grasp uses Schrödinger Bridge for vision-conditioned, functionally equivalent grasp transfer across different robotic hands.</td>
-<td nowrap>Dexterous Hand/Grasping</td>
-<td nowrap>Vision</td>
-<td nowrap>dexterous manipulation / dexterous hand / grasping</td>
+<td nowrap>-</td>
+<td nowrap>-</td>
+<td nowrap>-</td>
+<td nowrap>-</td>
+<td nowrap>-</td>
 <td nowrap>score/flow matching + physics-informed costs</td>
 <td nowrap>-</td>
-<td nowrap>Addresses transferring grasp intent across different dexterous-hand morphologies without paired demonstrations or hand-shape simulation.</td>
-<td nowrap><a href="https://arxiv.org/abs/2506.02489">paper</a></td>
-<td nowrap><a href="https://grasp2grasp.github.io/">project</a></td>
 <td nowrap><a href="https://github.com/n3il666/grasp2grasp">code</a></td>
-<td nowrap>-</td>
+<td nowrap><a href="https://arxiv.org/abs/2506.02489">paper</a> / <a href="https://grasp2grasp.github.io/">project</a> / <a href="https://github.com/n3il666/grasp2grasp">code</a></td>
 </tr>
 <tr>
 <td nowrap>NeurIPS 2025</td>
 <td nowrap><a href="https://arxiv.org/abs/2506.19212">Scaffolding Dexterous Manipulation with Vision-Language Models</a></td>
-<td nowrap>This paper uses a VLM to generate sufficiently coarse scaffold trajectories/object poses that guide RL for dexterous manipulation.</td>
-<td nowrap>Dexterous Hand/Grasping</td>
-<td nowrap>Vision</td>
-<td nowrap>dexterous manipulation / dexterous hand / grasping</td>
-<td nowrap>VLM scaffolding + RL refinement</td>
-<td nowrap>Simulation</td>
 <td nowrap>Addresses the lack of scalable reference trajectories and task rewards for dexterous-hand RL.</td>
-<td nowrap><a href="https://arxiv.org/abs/2506.19212">paper</a></td>
-<td nowrap><a href="https://sites.google.com/view/dexterous-vlm-scaffolding">project</a></td>
-<td nowrap><a href="https://github.com/vdebakker/vlm-scaffolding">code</a></td>
+<td nowrap>This paper uses a VLM to generate sufficiently coarse scaffold trajectories/object poses that guide RL for dexterous manipulation.</td>
 <td nowrap>-</td>
+<td nowrap>-</td>
+<td nowrap>-</td>
+<td nowrap>-</td>
+<td nowrap>-</td>
+<td nowrap>VLM scaffolding + RL refinement / Simulation</td>
+<td nowrap>-</td>
+<td nowrap><a href="https://github.com/vdebakker/vlm-scaffolding">code</a></td>
+<td nowrap><a href="https://arxiv.org/abs/2506.19212">paper</a> / <a href="https://sites.google.com/view/dexterous-vlm-scaffolding">project</a> / <a href="https://github.com/vdebakker/vlm-scaffolding">code</a></td>
 </tr>
 <tr>
 <td nowrap>NeurIPS 2025</td>
 <td nowrap><a href="https://arxiv.org/abs/2505.11032">DexGarmentLab: Dexterous Garment Manipulation Environment with Generalizable Policy</a></td>
-<td nowrap>DexGarmentLab builds an environment, 3D assets, and generalizable policies for bimanual dexterous garment manipulation.</td>
-<td nowrap>bimanual / dexterous-hand garment manipulation</td>
-<td nowrap>-</td>
-<td nowrap>dexterous manipulation / dexterous hand / grasping</td>
-<td nowrap>dexterous manipulation</td>
-<td nowrap>Simulation benchmark</td>
 <td nowrap>Addresses the lack of realistic simulation environments and efficient data-generation policies for dexterous garment manipulation.</td>
-<td nowrap><a href="https://arxiv.org/abs/2505.11032">paper</a></td>
-<td nowrap><a href="https://wayrise.github.io/DexGarmentLab/">project</a></td>
+<td nowrap>DexGarmentLab builds an environment, 3D assets, and generalizable policies for bimanual dexterous garment manipulation.</td>
+<td nowrap>-</td>
+<td nowrap>-</td>
+<td nowrap>-</td>
+<td nowrap>-</td>
+<td nowrap>bimanual / dexterous-hand garment manipulation</td>
+<td nowrap>dexterous manipulation / Simulation benchmark / <a href="https://huggingface.co/datasets/wayrise/DexGarmentLab">hf</a></td>
+<td nowrap>-</td>
 <td nowrap><a href="https://github.com/wayrise/DexGarmentLab">code</a></td>
-<td nowrap><a href="https://huggingface.co/datasets/wayrise/DexGarmentLab">hf</a></td>
+<td nowrap><a href="https://arxiv.org/abs/2505.11032">paper</a> / <a href="https://wayrise.github.io/DexGarmentLab/">project</a> / <a href="https://github.com/wayrise/DexGarmentLab">code</a> / <a href="https://huggingface.co/datasets/wayrise/DexGarmentLab">hf</a></td>
 </tr>
 <tr>
 <td nowrap>CVPR 2025</td>
 <td nowrap><a href="https://arxiv.org/abs/2412.02699">UniGraspTransformer: Simplified Policy Distillation for Scalable Dexterous Robotic Grasping</a></td>
-<td nowrap>UniGraspTransformer first trains expert trajectories for individual objects with RL, then distills them into a unified Transformer grasping network.</td>
-<td nowrap>Dexterous Hand/Grasping</td>
-<td nowrap>-</td>
-<td nowrap>dexterous manipulation / dexterous hand / grasping</td>
-<td nowrap>RL expert trajectories + policy distillation</td>
-<td nowrap>state-based + vision-based eval</td>
 <td nowrap>Addresses complex large-scale dexterous grasping training pipelines that are hard to scale to many objects.</td>
-<td nowrap><a href="https://arxiv.org/abs/2412.02699">paper</a></td>
-<td nowrap><a href="https://dexhand.github.io/UniGraspTransformer/">project</a></td>
-<td nowrap><a href="https://github.com/microsoft/UniGraspTransformer">code</a></td>
+<td nowrap>UniGraspTransformer first trains expert trajectories for individual objects with RL, then distills them into a unified Transformer grasping network.</td>
 <td nowrap>-</td>
+<td nowrap>-</td>
+<td nowrap>-</td>
+<td nowrap>-</td>
+<td nowrap>-</td>
+<td nowrap>RL expert trajectories + policy distillation / state-based + vision-based eval</td>
+<td nowrap>-</td>
+<td nowrap><a href="https://github.com/microsoft/UniGraspTransformer">code</a></td>
+<td nowrap><a href="https://arxiv.org/abs/2412.02699">paper</a> / <a href="https://dexhand.github.io/UniGraspTransformer/">project</a> / <a href="https://github.com/microsoft/UniGraspTransformer">code</a></td>
 </tr>
 <tr>
 <td nowrap>CVPR 2025</td>
 <td nowrap><a href="https://arxiv.org/abs/2503.08257">DexGrasp Anything: Towards Universal Robotic Dexterous Grasping with Physics Awareness</a></td>
-<td nowrap>DexGrasp Anything incorporates physical constraints into diffusion grasp generation and releases 3.4M grasp poses / 15K object data.</td>
-<td nowrap>Dexterous Hand/Grasping</td>
-<td nowrap>-</td>
-<td nowrap>dexterous manipulation / dexterous hand / grasping</td>
-<td nowrap>physics-aware diffusion grasp generation</td>
-<td nowrap>-</td>
 <td nowrap>Addresses the quality and physical usability of general dexterous grasp-pose generation for arbitrary objects.</td>
-<td nowrap><a href="https://arxiv.org/abs/2503.08257">paper</a></td>
-<td nowrap><a href="https://dexgraspanything.github.io/">project</a></td>
+<td nowrap>DexGrasp Anything incorporates physical constraints into diffusion grasp generation and releases 3.4M grasp poses / 15K object data.</td>
+<td nowrap>-</td>
+<td nowrap>-</td>
+<td nowrap>-</td>
+<td nowrap>-</td>
+<td nowrap>-</td>
+<td nowrap>physics-aware diffusion grasp generation / <a href="https://huggingface.co/datasets/GaussionZhong/DexGrasp-Anything">hf</a></td>
+<td nowrap>-</td>
 <td nowrap><a href="https://github.com/4DVLab/DexGrasp-Anything">code</a></td>
-<td nowrap><a href="https://huggingface.co/datasets/GaussionZhong/DexGrasp-Anything">hf</a></td>
+<td nowrap><a href="https://arxiv.org/abs/2503.08257">paper</a> / <a href="https://dexgraspanything.github.io/">project</a> / <a href="https://github.com/4DVLab/DexGrasp-Anything">code</a> / <a href="https://huggingface.co/datasets/GaussionZhong/DexGrasp-Anything">hf</a></td>
 </tr>
 <tr>
 <td nowrap>CVPR 2025</td>
 <td nowrap><a href="https://cvpr.thecvf.com/virtual/2025/poster/32440">ZeroGrasp: Zero-Shot Shape Reconstruction Enabled Robotic Grasping</a></td>
+<td nowrap>Addresses zero-shot shape reconstruction for assisted robotic grasping.</td>
 <td nowrap>ZeroGrasp reconstructs object shape in zero-shot settings to enable robotic grasping without object-specific training data.</td>
-<td nowrap>Dexterous Hand/Grasping</td>
 <td nowrap>-</td>
-<td nowrap>dexterous manipulation / dexterous hand / grasping</td>
+<td nowrap>-</td>
+<td nowrap>-</td>
+<td nowrap>-</td>
+<td nowrap>-</td>
 <td nowrap>dexterous manipulation</td>
 <td nowrap>-</td>
-<td nowrap>Addresses zero-shot shape reconstruction for assisted robotic grasping.</td>
-<td nowrap><a href="https://cvpr.thecvf.com/virtual/2025/poster/32440">paper</a></td>
-<td nowrap><a href="https://sh8.io/#/zerograsp">project</a></td>
 <td nowrap><a href="https://github.com/sh8/ZeroGrasp">code</a></td>
-<td nowrap>-</td>
+<td nowrap><a href="https://cvpr.thecvf.com/virtual/2025/poster/32440">paper</a> / <a href="https://sh8.io/#/zerograsp">project</a> / <a href="https://github.com/sh8/ZeroGrasp">code</a></td>
 </tr>
 </tbody>
 </table>
@@ -10274,17 +10245,17 @@ Total: 18 papers.
 <tr>
 <th nowrap>Venue/Year</th>
 <th nowrap>Paper/Method</th>
-<th nowrap>Abstract</th>
-<th nowrap>Embodiment Type</th>
-<th nowrap>Sensing/Contact</th>
-<th nowrap>Control Interface</th>
-<th nowrap>Training Mode</th>
-<th nowrap>Sim/Real</th>
-<th nowrap>Paper Task/Goal</th>
-<th nowrap>Paper</th>
-<th nowrap>Project</th>
-<th nowrap>Code</th>
-<th nowrap>Data/Bench</th>
+<th nowrap>Research Problem</th>
+<th nowrap>Tactile Type</th>
+<th nowrap>Tactile Density / Location</th>
+<th nowrap>Closed-loop Control?</th>
+<th nowrap>Manipulation Task</th>
+<th nowrap>Hardware Used</th>
+<th nowrap>Carrier Platform</th>
+<th nowrap>Simulation / Dataset</th>
+<th nowrap>Solved</th>
+<th nowrap>Open Limitation</th>
+<th nowrap>Code / Data / Project</th>
 </tr>
 </thead>
 <tbody>
@@ -10292,281 +10263,271 @@ Total: 18 papers.
 <td nowrap>CoRL 2024</td>
 <td nowrap><a href="https://scholar.google.com/scholar?q=3D-ViTac%3A+Learning+Fine-Grained+Manipulation+with+Visuo-Tactile+Sensing">3D-ViTac: Learning Fine-Grained Manipulation with Visuo-Tactile Sensing</a></td>
 <td nowrap>3D-ViTac learns fine-grained manipulation with visual-tactile sensing.</td>
-<td nowrap>tactile/contact-rich</td>
-<td nowrap>robot sensing/contact</td>
-<td nowrap>robot control</td>
-<td nowrap>robot learning</td>
-<td nowrap>robot benchmarks</td>
-<td nowrap>Add CoRL embodiment coverage.</td>
-<td nowrap><a href="https://scholar.google.com/scholar?q=3D-ViTac%3A+Learning+Fine-Grained+Manipulation+with+Visuo-Tactile+Sensing">paper</a></td>
+<td nowrap>visuo-tactile</td>
 <td nowrap>-</td>
 <td nowrap>-</td>
+<td nowrap>3D-ViTac learns fine-grained manipulation with visual-tactile sensing.</td>
 <td nowrap>-</td>
-<td nowrap>Awesome-EAI / CoRL</td>
-<td nowrap>Added from existing source lists after filtering to main CoRL papers that fit this survey taxonomy.</td>
+<td nowrap>-</td>
+<td nowrap>robot learning / robot benchmarks</td>
+<td nowrap>3D-ViTac learns fine-grained manipulation with visual-tactile sensing.</td>
+<td nowrap>-</td>
+<td nowrap>-</td>
 </tr>
 <tr>
 <td nowrap>CoRL 2023</td>
 <td nowrap><a href="https://scholar.google.com/scholar?q=Midastouch%3A+Monte-carlo+inference+over+distributions+across+sliding+touch">Midastouch: Monte-carlo inference over distributions across sliding touch</a></td>
 <td nowrap>MidasTouch applies Monte Carlo inference to distributions across sliding touch.</td>
-<td nowrap>tactile/contact-rich</td>
-<td nowrap>robot sensing/contact</td>
-<td nowrap>robot control</td>
-<td nowrap>robot learning</td>
-<td nowrap>robot benchmarks</td>
-<td nowrap>Add CoRL embodiment coverage.</td>
-<td nowrap><a href="https://scholar.google.com/scholar?q=Midastouch%3A+Monte-carlo+inference+over+distributions+across+sliding+touch">paper</a></td>
 <td nowrap>-</td>
 <td nowrap>-</td>
 <td nowrap>-</td>
-<td nowrap>Awesome-EAI / CoRL</td>
-<td nowrap>Added from existing source lists after filtering to main CoRL papers that fit this survey taxonomy.</td>
+<td nowrap>MidasTouch applies Monte Carlo inference to distributions across sliding touch.</td>
+<td nowrap>-</td>
+<td nowrap>-</td>
+<td nowrap>robot learning / robot benchmarks</td>
+<td nowrap>MidasTouch applies Monte Carlo inference to distributions across sliding touch.</td>
+<td nowrap>-</td>
+<td nowrap>-</td>
 </tr>
 <tr>
 <td nowrap>CoRL 2023</td>
 <td nowrap><a href="https://scholar.google.com/scholar?q=Touching+a+NeRF%3A+Leveraging+Neural+Radiance+Fields+for+Tactile+Sensory+Data+Generation">Touching a NeRF: Leveraging Neural Radiance Fields for Tactile Sensory Data Generation</a></td>
 <td nowrap>Touching a NeRF uses neural radiance fields to generate tactile sensory data.</td>
-<td nowrap>tactile/contact-rich</td>
-<td nowrap>robot sensing/contact</td>
-<td nowrap>robot control</td>
-<td nowrap>robot learning</td>
-<td nowrap>robot benchmarks</td>
-<td nowrap>Add CoRL embodiment coverage.</td>
-<td nowrap><a href="https://scholar.google.com/scholar?q=Touching+a+NeRF%3A+Leveraging+Neural+Radiance+Fields+for+Tactile+Sensory+Data+Generation">paper</a></td>
 <td nowrap>-</td>
 <td nowrap>-</td>
 <td nowrap>-</td>
-<td nowrap>Awesome-EAI / CoRL</td>
-<td nowrap>Added from existing source lists after filtering to main CoRL papers that fit this survey taxonomy.</td>
+<td nowrap>Touching a NeRF uses neural radiance fields to generate tactile sensory data.</td>
+<td nowrap>-</td>
+<td nowrap>-</td>
+<td nowrap>robot learning / robot benchmarks</td>
+<td nowrap>Touching a NeRF uses neural radiance fields to generate tactile sensory data.</td>
+<td nowrap>-</td>
+<td nowrap>-</td>
 </tr>
 <tr>
 <td nowrap>CoRL 2021</td>
 <td nowrap><a href="https://scholar.google.com/scholar?q=Tactile+object+pose+estimation+from+the+first+touch+with+geometric+contact+rendering">Tactile object pose estimation from the first touch with geometric contact rendering</a></td>
 <td nowrap>This work estimates object pose from first touch using geometric contact rendering.</td>
-<td nowrap>tactile/contact-rich</td>
-<td nowrap>robot sensing/contact</td>
-<td nowrap>robot control</td>
-<td nowrap>robot learning</td>
-<td nowrap>robot benchmarks</td>
-<td nowrap>Add CoRL embodiment coverage.</td>
-<td nowrap><a href="https://scholar.google.com/scholar?q=Tactile+object+pose+estimation+from+the+first+touch+with+geometric+contact+rendering">paper</a></td>
 <td nowrap>-</td>
 <td nowrap>-</td>
 <td nowrap>-</td>
-<td nowrap>Awesome-EAI / CoRL</td>
-<td nowrap>Added from existing source lists after filtering to main CoRL papers that fit this survey taxonomy.</td>
+<td nowrap>This work estimates object pose from first touch using geometric contact rendering.</td>
+<td nowrap>-</td>
+<td nowrap>-</td>
+<td nowrap>robot learning / robot benchmarks</td>
+<td nowrap>This work estimates object pose from first touch using geometric contact rendering.</td>
+<td nowrap>-</td>
+<td nowrap>-</td>
 </tr>
 <tr>
 <td nowrap>CoRL 2023</td>
 <td nowrap><a href="https://arxiv.org/abs/2210.01116">That Sounds Right: Auditory Self-Supervision for Dynamic Robot Manipulation</a></td>
 <td nowrap>That Sounds Right uses auditory self-supervision for dynamic manipulation.</td>
-<td nowrap>tactile/contact-rich</td>
-<td nowrap>robot sensing/contact</td>
-<td nowrap>robot control</td>
-<td nowrap>robot learning</td>
-<td nowrap>robot benchmarks</td>
-<td nowrap>Add CoRL embodiment coverage.</td>
-<td nowrap><a href="https://arxiv.org/abs/2210.01116">paper</a></td>
+<td nowrap>audio/contact</td>
+<td nowrap>-</td>
+<td nowrap>-</td>
+<td nowrap>That Sounds Right uses auditory self-supervision for dynamic manipulation.</td>
+<td nowrap>-</td>
+<td nowrap>-</td>
+<td nowrap>robot learning / robot benchmarks</td>
+<td nowrap>That Sounds Right uses auditory self-supervision for dynamic manipulation.</td>
 <td nowrap>-</td>
 <td nowrap><a href="https://audio-robot-learning.github.io">code</a></td>
-<td nowrap>-</td>
-<td nowrap>Awesome-VLA / CoRL</td>
-<td nowrap>Added from existing source lists after filtering to main CoRL papers that fit this survey taxonomy.</td>
 </tr>
 <tr>
 <td nowrap>ICLR 2026</td>
 <td nowrap><a href="https://openreview.net/forum?id=dT3ZciXvNX">DexMove: Learning Tactile-Guided Non-Prehensile Manipulation with Dexterous Hands</a></td>
-<td nowrap>DexMove combines simulation trajectories with wearable visuotactile human-contact data and trains a flow policy for dexterous-hand nonprehensile object moving.</td>
-<td nowrap>dexterous-hand nonprehensile manipulation</td>
-<td nowrap>vision-based tactile + contact</td>
-<td nowrap>tactile policy / dexterous hand / grasping</td>
-<td nowrap>simulation trajectories + wearable visuotactile human contact data + flow policy</td>
-<td nowrap>Sim + Real</td>
 <td nowrap>Addresses the lack of contact-aware data and wrist-finger coordination policies for dexterous-hand nonprehensile manipulation.</td>
-<td nowrap><a href="https://openreview.net/forum?id=dT3ZciXvNX">paper</a></td>
+<td nowrap>optical tactile</td>
+<td nowrap>wearable visuo-tactile contact data</td>
+<td nowrap>-</td>
+<td nowrap>Addresses the lack of contact-aware data and wrist-finger coordination policies for dexterous-hand nonprehensile manipulation.</td>
+<td nowrap>wearable visuo-tactile contact sensor</td>
+<td nowrap>-</td>
+<td nowrap>simulation trajectories + wearable visuotactile human contact data + flow policy / Sim + Real</td>
+<td nowrap>DexMove combines simulation trajectories with wearable visuotactile human-contact data and trains a flow policy for dexterous-hand nonprehensile object moving.</td>
+<td nowrap>-</td>
 <td nowrap><a href="https://peilin-666.github.io/projects/DexMove/">project</a></td>
-<td nowrap>-</td>
-<td nowrap>-</td>
 </tr>
 <tr>
 <td nowrap>ICLR 2026</td>
 <td nowrap><a href="https://openreview.net/forum?id=ndilONnABZ">AnyTouch 2: General Optical Tactile Representation Learning For Dynamic Tactile Perception</a></td>
-<td nowrap>AnyTouch 2 uses ToucHD large-scale dynamic tactile data to learn general force-aware representations across optical tactile sensors.</td>
-<td nowrap>Tactile/Contact-rich Manipulation</td>
-<td nowrap>tactile / contact</td>
-<td nowrap>tactile policy / tactile / contact</td>
-<td nowrap>ToucHD pretraining + dynamic tactile representation learning</td>
+<td nowrap>Addresses tactile models overfocusing on static properties and lacking dynamic tactile and force information.</td>
+<td nowrap>optical tactile / force/torque</td>
+<td nowrap>optical tactile sensor data</td>
 <td nowrap>-</td>
 <td nowrap>Addresses tactile models overfocusing on static properties and lacking dynamic tactile and force information.</td>
-<td nowrap><a href="https://openreview.net/forum?id=ndilONnABZ">paper</a></td>
-<td nowrap><a href="https://gewu-lab.github.io/AnyTouch2/">project</a></td>
-<td nowrap><a href="https://github.com/GeWu-Lab/AnyTouch2">code</a></td>
-<td nowrap><a href="https://huggingface.co/collections/BAAI/touchd">hf</a></td>
+<td nowrap>-</td>
+<td nowrap>-</td>
+<td nowrap>ToucHD pretraining + dynamic tactile representation learning / <a href="https://huggingface.co/collections/BAAI/touchd">hf</a></td>
+<td nowrap>AnyTouch 2 uses ToucHD large-scale dynamic tactile data to learn general force-aware representations across optical tactile sensors.</td>
+<td nowrap>-</td>
+<td nowrap><a href="https://gewu-lab.github.io/AnyTouch2/">project</a> / <a href="https://github.com/GeWu-Lab/AnyTouch2">code</a> / <a href="https://huggingface.co/collections/BAAI/touchd">hf</a></td>
 </tr>
 <tr>
 <td nowrap>ICLR 2026</td>
 <td nowrap><a href="https://openreview.net/forum?id=hU2gT2Ucua">APPLE: Toward General Active Perception via Reinforcement Learning</a></td>
-<td nowrap>APPLE jointly trains a Transformer perception module and decision policy, using RL to actively acquire sparse information such as tactile signals.</td>
-<td nowrap>Tactile/Contact-rich Manipulation</td>
-<td nowrap>tactile / contact</td>
-<td nowrap>tactile policy / tactile / contact</td>
-<td nowrap>RL joint perception-policy learning</td>
-<td nowrap>Tactile MNIST / active perception benchmarks</td>
 <td nowrap>Addresses active perception methods being strongly task-bound and lacking generalization.</td>
-<td nowrap><a href="https://openreview.net/forum?id=hU2gT2Ucua">paper</a></td>
+<td nowrap>-</td>
+<td nowrap>-</td>
+<td nowrap>-</td>
+<td nowrap>Addresses active perception methods being strongly task-bound and lacking generalization.</td>
+<td nowrap>-</td>
+<td nowrap>-</td>
+<td nowrap>RL joint perception-policy learning / Tactile MNIST / active perception benchmarks</td>
+<td nowrap>APPLE jointly trains a Transformer perception module and decision policy, using RL to actively acquire sparse information such as tactile signals.</td>
+<td nowrap>-</td>
 <td nowrap><a href="https://timschneider42.github.io/apple">project</a></td>
-<td nowrap>-</td>
-<td nowrap>-</td>
 </tr>
 <tr>
 <td nowrap>AAAI 2026</td>
 <td nowrap><a href="https://ojs.aaai.org/index.php/AAAI/article/view/38882">STOLA: Self-Adaptive Touch-Language Framework for Tactile Commonsense Reasoning in Open-Ended Scenarios</a></td>
-<td nowrap>STOLA adapts touch-language reasoning to open-ended tactile scenarios, linking tactile signals with commonsense language understanding.</td>
-<td nowrap>Tactile/Contact-rich Manipulation</td>
-<td nowrap>tactile / contact</td>
-<td nowrap>tactile policy / tactile / contact</td>
-<td nowrap>touch-language reasoning framework</td>
+<td nowrap>Addresses commonsense reasoning that combines touch and language in open-world scenes.</td>
+<td nowrap>touch-language</td>
+<td nowrap>-</td>
 <td nowrap>-</td>
 <td nowrap>Addresses commonsense reasoning that combines touch and language in open-world scenes.</td>
-<td nowrap><a href="https://ojs.aaai.org/index.php/AAAI/article/view/38882">paper</a></td>
 <td nowrap>-</td>
+<td nowrap>-</td>
+<td nowrap>touch-language reasoning framework</td>
+<td nowrap>STOLA adapts touch-language reasoning to open-ended tactile scenarios, linking tactile signals with commonsense language understanding.</td>
 <td nowrap>-</td>
 <td nowrap>-</td>
 </tr>
 <tr>
 <td nowrap>AAAI 2026</td>
 <td nowrap><a href="https://ojs.aaai.org/index.php/AAAI/article/view/38915">TouchFormer: A Robust Transformer-based Framework for Multimodal Material Perception</a></td>
-<td nowrap>TouchFormer uses a Transformer-based multimodal framework to make material perception robust across visual and tactile cues.</td>
-<td nowrap>Tactile/Contact-rich Manipulation</td>
-<td nowrap>tactile + vision / multimodal</td>
-<td nowrap>perception model</td>
-<td nowrap>Transformer-based material perception</td>
+<td nowrap>Addresses robust recognition for multimodal material perception such as vision/tactile sensing.</td>
+<td nowrap>visuo-tactile</td>
+<td nowrap>-</td>
 <td nowrap>-</td>
 <td nowrap>Addresses robust recognition for multimodal material perception such as vision/tactile sensing.</td>
-<td nowrap><a href="https://ojs.aaai.org/index.php/AAAI/article/view/38915">paper</a></td>
 <td nowrap>-</td>
+<td nowrap>-</td>
+<td nowrap>Transformer-based material perception</td>
+<td nowrap>TouchFormer uses a Transformer-based multimodal framework to make material perception robust across visual and tactile cues.</td>
 <td nowrap>-</td>
 <td nowrap>-</td>
 </tr>
 <tr>
 <td nowrap>AAAI 2026</td>
 <td nowrap><a href="https://ojs.aaai.org/index.php/AAAI/article/view/38956">Collaborative Representation Learning for Alignment of Tactile, Language, and Vision Modalities</a></td>
-<td nowrap>This paper learns collaborative representations that align tactile, language, and vision modalities for shared multimodal understanding.</td>
-<td nowrap>Tactile/Contact-rich Manipulation</td>
-<td nowrap>tactile + vision + language</td>
-<td nowrap>tactile policy / tactile / contact</td>
-<td nowrap>collaborative multimodal representation learning</td>
+<td nowrap>Addresses representation alignment across tactile, language, and vision modalities.</td>
+<td nowrap>visuo-tactile / touch-language</td>
+<td nowrap>-</td>
 <td nowrap>-</td>
 <td nowrap>Addresses representation alignment across tactile, language, and vision modalities.</td>
-<td nowrap><a href="https://ojs.aaai.org/index.php/AAAI/article/view/38956">paper</a></td>
 <td nowrap>-</td>
+<td nowrap>-</td>
+<td nowrap>collaborative multimodal representation learning</td>
+<td nowrap>This paper learns collaborative representations that align tactile, language, and vision modalities for shared multimodal understanding.</td>
 <td nowrap>-</td>
 <td nowrap>-</td>
 </tr>
 <tr>
 <td nowrap>ICML 2026</td>
 <td nowrap><a href="https://icml.cc/virtual/2026/poster/66793">Cross-Tactile Sensor Representation Learning</a></td>
-<td nowrap>This paper learns tactile representations that transfer across different sensor types, reducing dependence on a single tactile hardware setup.</td>
-<td nowrap>Tactile/Contact-rich Manipulation</td>
-<td nowrap>tactile / contact</td>
-<td nowrap>tactile policy / tactile / contact</td>
-<td nowrap>tactile policy</td>
+<td nowrap>Introduces tactile sensing to improve contact manipulation.</td>
+<td nowrap>-</td>
+<td nowrap>-</td>
 <td nowrap>-</td>
 <td nowrap>Introduces tactile sensing to improve contact manipulation.</td>
-<td nowrap><a href="https://icml.cc/virtual/2026/poster/66793">paper</a></td>
 <td nowrap>-</td>
+<td nowrap>-</td>
+<td nowrap>tactile policy</td>
+<td nowrap>This paper learns tactile representations that transfer across different sensor types, reducing dependence on a single tactile hardware setup.</td>
 <td nowrap>-</td>
 <td nowrap>-</td>
 </tr>
 <tr>
 <td nowrap>ICML 2026</td>
 <td nowrap><a href="https://icml.cc/virtual/2026/poster/65669">Tabero: Learning Gentle Manipulation with Closed-Loop Force Feedback from Vision, Touch, and Language</a></td>
-<td nowrap>Tabero learns gentle manipulation by combining vision, touch, language, and closed-loop force feedback with hybrid control.</td>
-<td nowrap>Tactile/Contact-rich Manipulation</td>
-<td nowrap>vision + touch + language + force feedback</td>
-<td nowrap>decoupled force-position commands + hybrid controller</td>
-<td nowrap>tactile policy</td>
-<td nowrap>-</td>
 <td nowrap>Addresses learning gentle manipulation with closed-loop force feedback from vision, touch, and language.</td>
-<td nowrap><a href="https://icml.cc/virtual/2026/poster/65669">paper</a></td>
-<td nowrap><a href="https://icml.cc/virtual/2026/poster/65669">project</a></td>
-<td nowrap><a href="https://github.com/NathanWu7/Tabero">code</a></td>
-<td nowrap>Tabero benchmark/model suite</td>
+<td nowrap>force/torque / visuo-tactile / touch-language</td>
+<td nowrap>-</td>
+<td nowrap>yes</td>
+<td nowrap>Addresses learning gentle manipulation with closed-loop force feedback from vision, touch, and language.</td>
+<td nowrap>-</td>
+<td nowrap>-</td>
+<td nowrap>tactile policy / Tabero benchmark/model suite</td>
+<td nowrap>Tabero learns gentle manipulation by combining vision, touch, language, and closed-loop force feedback with hybrid control.</td>
+<td nowrap>-</td>
+<td nowrap><a href="https://icml.cc/virtual/2026/poster/65669">project</a> / <a href="https://github.com/NathanWu7/Tabero">code</a> / Tabero benchmark/model suite</td>
 </tr>
 <tr>
 <td nowrap>NeurIPS 2025</td>
 <td nowrap><a href="https://arxiv.org/abs/2505.22566">Universal Visuo-Tactile Video Understanding for Embodied Interaction</a></td>
-<td nowrap>VTV-LLM trains a general vision-tactile-language understanding model with VTV150K video-tactile data.</td>
-<td nowrap>Tactile/Contact-rich Manipulation</td>
-<td nowrap>tactile / contact</td>
-<td nowrap>visuo-tactile-language understanding model</td>
-<td nowrap>VTV150K multimodal pretraining</td>
+<td nowrap>Addresses the difficulty of jointly understanding tactile information with vision and language in embodied interaction.</td>
+<td nowrap>visuo-tactile / touch-language</td>
+<td nowrap>-</td>
 <td nowrap>-</td>
 <td nowrap>Addresses the difficulty of jointly understanding tactile information with vision and language in embodied interaction.</td>
-<td nowrap><a href="https://arxiv.org/abs/2505.22566">paper</a></td>
 <td nowrap>-</td>
-<td nowrap><a href="https://github.com/IvanXie416/VTV-LLM">code</a></td>
-<td nowrap><a href="https://huggingface.co/datasets/Ivan416/VBTS_video">hf</a></td>
+<td nowrap>-</td>
+<td nowrap>VTV150K multimodal pretraining / <a href="https://huggingface.co/datasets/Ivan416/VBTS_video">hf</a></td>
+<td nowrap>VTV-LLM trains a general vision-tactile-language understanding model with VTV150K video-tactile data.</td>
+<td nowrap>-</td>
+<td nowrap><a href="https://github.com/IvanXie416/VTV-LLM">code</a> / <a href="https://huggingface.co/datasets/Ivan416/VBTS_video">hf</a></td>
 </tr>
 <tr>
 <td nowrap>NeurIPS 2025</td>
 <td nowrap><a href="https://arxiv.org/abs/2510.21609">Enhancing Tactile-based Reinforcement Learning for Robotic Control</a></td>
-<td nowrap>This paper uses self-supervised representation learning and sparse binary tactile signals to improve tactile RL dexterity in complex contact tasks.</td>
-<td nowrap>Tactile/Contact-rich Manipulation</td>
-<td nowrap>proprioception + sparse binary contacts</td>
-<td nowrap>tactile policy / RL / tactile / contact</td>
-<td nowrap>tactile RL + self-supervised representation learning</td>
+<td nowrap>Addresses unstable tactile RL performance and overreliance on ideal state information.</td>
+<td nowrap>binary contact</td>
+<td nowrap>sparse binary contacts</td>
 <td nowrap>-</td>
 <td nowrap>Addresses unstable tactile RL performance and overreliance on ideal state information.</td>
-<td nowrap><a href="https://arxiv.org/abs/2510.21609">paper</a></td>
-<td nowrap><a href="https://elle-miller.github.io/tactile_rl/">project</a></td>
-<td nowrap><a href="https://github.com/elle-miller/roto">code</a></td>
-<td nowrap>RoTO benchmark</td>
+<td nowrap>-</td>
+<td nowrap>-</td>
+<td nowrap>tactile RL + self-supervised representation learning / RoTO benchmark</td>
+<td nowrap>This paper uses self-supervised representation learning and sparse binary tactile signals to improve tactile RL dexterity in complex contact tasks.</td>
+<td nowrap>-</td>
+<td nowrap><a href="https://elle-miller.github.io/tactile_rl/">project</a> / <a href="https://github.com/elle-miller/roto">code</a> / RoTO benchmark</td>
 </tr>
 <tr>
 <td nowrap>NeurIPS 2025</td>
 <td nowrap><a href="https://taccel-simulator.github.io/assets/taccel-paper.pdf">Taccel: Scaling Up Vision-based Tactile Robotics via High-performance GPU Simulation</a></td>
-<td nowrap>Taccel provides high-performance GPU simulation for vision-based tactile robotics, scaling data generation and policy training with tactile sensing.</td>
-<td nowrap>Tactile/Contact-rich Manipulation</td>
-<td nowrap>tactile / contact</td>
-<td nowrap>tactile policy / tactile / contact</td>
-<td nowrap>GPU tactile simulation</td>
-<td nowrap>Simulation</td>
 <td nowrap>Addresses the difficulty of scaling robot training with visuotactile sensing in high-performance simulation.</td>
-<td nowrap><a href="https://taccel-simulator.github.io/assets/taccel-paper.pdf">paper</a></td>
-<td nowrap><a href="https://taccel-simulator.github.io/">project</a></td>
-<td nowrap><a href="https://github.com/Taccel-Simulator/Taccel">code</a></td>
+<td nowrap>optical tactile</td>
 <td nowrap>-</td>
+<td nowrap>-</td>
+<td nowrap>Addresses the difficulty of scaling robot training with visuotactile sensing in high-performance simulation.</td>
+<td nowrap>-</td>
+<td nowrap>-</td>
+<td nowrap>GPU tactile simulation / Simulation</td>
+<td nowrap>Taccel provides high-performance GPU simulation for vision-based tactile robotics, scaling data generation and policy training with tactile sensing.</td>
+<td nowrap>-</td>
+<td nowrap><a href="https://taccel-simulator.github.io/">project</a> / <a href="https://github.com/Taccel-Simulator/Taccel">code</a></td>
 </tr>
 <tr>
 <td nowrap>NeurIPS 2025</td>
 <td nowrap><a href="https://arxiv.org/abs/2511.16596">Toward Artificial Palpation: Representation Learning of Touch on Soft Bodies</a></td>
-<td nowrap>This paper uses a self-supervised encoder to learn representations from soft palpation sequences for tactile imaging and change detection.</td>
-<td nowrap>Tactile/Contact-rich Manipulation</td>
-<td nowrap>tactile / contact</td>
-<td nowrap>tactile policy / tactile / contact</td>
-<td nowrap>self-supervised tactile representation learning</td>
-<td nowrap>Simulation + Real soft-body/MRI dataset</td>
 <td nowrap>Addresses how to learn representations from tactile measurements for downstream tasks in soft medical palpation.</td>
-<td nowrap><a href="https://arxiv.org/abs/2511.16596">paper</a></td>
-<td nowrap><a href="https://zoharri.github.io/artificial-palpation/">project</a></td>
-<td nowrap><a href="https://github.com/zoharri/ArtificialPalpation">code</a></td>
-<td nowrap><a href="https://zenodo.org/records/17608184">data</a></td>
+<td nowrap>-</td>
+<td nowrap>-</td>
+<td nowrap>-</td>
+<td nowrap>Addresses how to learn representations from tactile measurements for downstream tasks in soft medical palpation.</td>
+<td nowrap>-</td>
+<td nowrap>-</td>
+<td nowrap>self-supervised tactile representation learning / Simulation + Real soft-body/MRI dataset / <a href="https://zenodo.org/records/17608184">data</a></td>
+<td nowrap>This paper uses a self-supervised encoder to learn representations from soft palpation sequences for tactile imaging and change detection.</td>
+<td nowrap>-</td>
+<td nowrap><a href="https://zoharri.github.io/artificial-palpation/">project</a> / <a href="https://github.com/zoharri/ArtificialPalpation">code</a> / <a href="https://zenodo.org/records/17608184">data</a></td>
 </tr>
 <tr>
 <td nowrap>NeurIPS 2025</td>
 <td nowrap><a href="https://arxiv.org/abs/2507.15062v1">Touch in the Wild: Learning Fine-Grained Manipulation with a Portable Visuo-Tactile Gripper</a></td>
-<td nowrap>Touch in the Wild collects in-the-wild demonstrations with a portable visuotactile gripper and learns interpretable cross-modal representations to improve fine manipulation policies.</td>
-<td nowrap>portable visuotactile gripper + robotic manipulation</td>
-<td nowrap>vision + tactile + proprioception</td>
-<td nowrap>tactile policy / tactile / contact</td>
-<td nowrap>visuo-tactile pretraining + downstream imitation learning</td>
-<td nowrap>Real / in-the-wild data + real robot tasks</td>
 <td nowrap>Addresses missing tactile data in human demonstration collection and inefficient learning of fine manipulation policies.</td>
-<td nowrap><a href="https://arxiv.org/abs/2507.15062v1">paper</a></td>
-<td nowrap><a href="https://binghao-huang.github.io/touch_in_the_wild/">project</a></td>
-<td nowrap><a href="https://github.com/YolandaXinyueZhu/touch_in_the_wild">code</a></td>
-<td nowrap><a href="https://huggingface.co/datasets/binghaohuang-robot/touch_in_the_wild-dataset">hf</a></td>
+<td nowrap>visuo-tactile</td>
+<td nowrap>portable visuo-tactile gripper</td>
+<td nowrap>-</td>
+<td nowrap>Addresses missing tactile data in human demonstration collection and inefficient learning of fine manipulation policies.</td>
+<td nowrap>portable visuo-tactile gripper</td>
+<td nowrap>-</td>
+<td nowrap>visuo-tactile pretraining + downstream imitation learning / Real / in-the-wild data + real robot tasks / <a href="https://huggingface.co/datasets/binghaohuang-robot/touch_in_the_wild-dataset">hf</a></td>
+<td nowrap>Touch in the Wild collects in-the-wild demonstrations with a portable visuotactile gripper and learns interpretable cross-modal representations to improve fine manipulation policies.</td>
+<td nowrap>-</td>
+<td nowrap><a href="https://binghao-huang.github.io/touch_in_the_wild/">project</a> / <a href="https://github.com/YolandaXinyueZhu/touch_in_the_wild">code</a> / <a href="https://huggingface.co/datasets/binghaohuang-robot/touch_in_the_wild-dataset">hf</a></td>
 </tr>
 </tbody>
 </table>
@@ -10653,8 +10614,6 @@ Total: 22 papers.
 <td nowrap>-</td>
 <td nowrap>-</td>
 <td nowrap>-</td>
-<td nowrap>Efficient-VLA / CoRL</td>
-<td nowrap>Added from existing source lists after filtering to main CoRL papers that fit this survey taxonomy.</td>
 </tr>
 <tr>
 <td nowrap>ICML 2026</td>
@@ -11127,8 +11086,6 @@ Total: 42 papers.
 <td nowrap>-</td>
 <td nowrap>-</td>
 <td nowrap>-</td>
-<td nowrap>Awesome-EAI / CoRL</td>
-<td nowrap>Added from existing source lists after filtering to main CoRL papers that fit this survey taxonomy.</td>
 </tr>
 <tr>
 <td nowrap>CoRL 2022</td>
@@ -11144,8 +11101,6 @@ Total: 42 papers.
 <td nowrap>-</td>
 <td nowrap>-</td>
 <td nowrap>-</td>
-<td nowrap>EAI-Safety / CoRL</td>
-<td nowrap>Added from existing source lists after filtering to main CoRL papers that fit this survey taxonomy.</td>
 </tr>
 <tr>
 <td nowrap>CoRL 2017</td>
@@ -11161,8 +11116,6 @@ Total: 42 papers.
 <td nowrap>-</td>
 <td nowrap>-</td>
 <td nowrap>-</td>
-<td nowrap>EAI-Safety / CoRL</td>
-<td nowrap>Added from existing source lists after filtering to main CoRL papers that fit this survey taxonomy.</td>
 </tr>
 <tr>
 <td nowrap>ICCV 2025</td>
@@ -11789,8 +11742,6 @@ Total: 18 papers.
 <td nowrap>-</td>
 <td nowrap>-</td>
 <td nowrap>-</td>
-<td nowrap>Awesome-EAI / CoRL</td>
-<td nowrap>Added from existing source lists after filtering to main CoRL papers that fit this survey taxonomy.</td>
 </tr>
 <tr>
 <td nowrap>ICLR 2026</td>
@@ -12087,8 +12038,6 @@ Total: 13 papers.
 <td nowrap>-</td>
 <td nowrap>-</td>
 <td nowrap>-</td>
-<td nowrap>EAI-Safety / CoRL</td>
-<td nowrap>Added from existing source lists after filtering to main CoRL papers that fit this survey taxonomy.</td>
 </tr>
 <tr>
 <td nowrap>ICLR 2025</td>
