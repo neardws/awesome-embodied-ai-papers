@@ -9685,6 +9685,390 @@ Total: 13 papers.
 </tbody>
 </table>
 
+**Hardware, simulation, and benchmark landscape.**
+
+_Current table mentions are counted once per paper row across the 35 dexterous-hand and 18 tactile/contact-rich papers below; they are README coverage signals, not bibliometric counts._
+
+<table>
+<thead>
+<tr>
+<th nowrap>Platform / Component</th>
+<th nowrap>Current Table Mentions</th>
+<th nowrap>Typical Role</th>
+<th nowrap>Official / Code Links</th>
+<th nowrap>Simulator / SDK Fit Observed</th>
+<th nowrap>Takeaway</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td nowrap>Franka Emika Panda / Franka Research 3</td>
+<td nowrap>12</td>
+<td nowrap>Most common carrier arm for dexterous hands, tactile grippers, and baseline grasping</td>
+<td nowrap><a href="https://frankarobotics.github.io/docs/">FCI docs</a> / <a href="https://github.com/frankarobotics/franka_ros2">franka_ros2</a> / <a href="https://github.com/frankarobotics/franka_description">models</a></td>
+<td nowrap>Strong real-robot SDK/ROS2 and public URDF descriptions; hand mounts, tactile mounts, and sim controllers are usually paper-specific</td>
+<td nowrap>Best-supported arm baseline in the current survey, but not a complete hand+tactile stack by itself</td>
+</tr>
+<tr>
+<td nowrap>Intel RealSense RGB-D</td>
+<td nowrap>11</td>
+<td nowrap>External RGB-D perception for pose, point clouds, and policy input</td>
+<td nowrap><a href="https://github.com/realsenseai/librealsense">librealsense</a></td>
+<td nowrap>Good SDK support for real rigs; it provides vision/depth, not contact or force sensing</td>
+<td nowrap>Low-risk default camera, but it does not solve contact observability</td>
+</tr>
+<tr>
+<td nowrap>Allegro Hand</td>
+<td nowrap>11</td>
+<td nowrap>Four-finger dexterous hand used for rotation, articulated-object manipulation, and cross-hand transfer</td>
+<td nowrap><a href="https://www.allegrohand.com/">official</a> / <a href="https://github.com/simlabrobotics/allegro_hand_ros">ROS</a> / <a href="https://github.com/simlabrobotics/allegro_hand_ros_v4">ROS v4</a></td>
+<td nowrap>Public ROS stack and recurring Isaac Gym / MuJoCo / DexArt usage; dense tactile sensing is not standard and is added case by case</td>
+<td nowrap>Mature dexterous-hand research platform when tactile is not the primary requirement</td>
+</tr>
+<tr>
+<td nowrap>LEAP Hand</td>
+<td nowrap>9</td>
+<td nowrap>Low-cost 16-DoF dexterous hand for in-hand manipulation, retargeting, and sim-to-real</td>
+<td nowrap><a href="https://github.com/leap-hand/LEAP_Hand_API">API</a> / <a href="https://github.com/leap-hand">GitHub org</a></td>
+<td nowrap>Public Python/C++/ROS/ROS2 API plus Isaac Gym and Isaac Lab repositories are visible; tactile is usually absent or external</td>
+<td nowrap>Strongest open SDK+sim evidence among low-cost hands in the current table</td>
+</tr>
+<tr>
+<td nowrap>Shadow Dexterous Hand</td>
+<td nowrap>8</td>
+<td nowrap>High-DoF anthropomorphic hand and benchmark embodiment</td>
+<td nowrap><a href="https://shadowrobot.com/dexterous-hand-series/">official</a> / <a href="https://robotics.farama.org/envs/adroit_hand/index.html">Adroit</a></td>
+<td nowrap>Very common in MuJoCo/Adroit and Isaac Gym-style simulation; real hardware transfer is less plug-and-play and costly</td>
+<td nowrap>Good benchmark hand; procurement should be justified by need for high-end anthropomorphic hardware</td>
+</tr>
+<tr>
+<td nowrap>Inspire RH56 family</td>
+<td nowrap>7</td>
+<td nowrap>Commercial dexterous hand and humanoid end-effector</td>
+<td nowrap><a href="https://en.inspire-robots.com/product-category/the-dexterous-hands">official</a> / <a href="https://support.unitree.com/home/en/G1_developer/inspire_dfx_dexterous_hand">Unitree G1 integration note</a></td>
+<td nowrap>Several papers use Inspire-family assets or real hands; public sim/ROS evidence is less unified than LEAP or Allegro</td>
+<td nowrap>Confirm exact model, tactile option, SDK, and ROS2 support before treating it as a lab default</td>
+</tr>
+<tr>
+<td nowrap>DIGIT / OmniTact</td>
+<td nowrap>6</td>
+<td nowrap>Optical tactile sensing for tactile images, touch localization, and tactile representation learning</td>
+<td nowrap><a href="https://digit.ml/digit.html">DIGIT</a> / <a href="https://github.com/facebookresearch/digit-interface">interface</a> / <a href="https://github.com/facebookresearch/tacto">TACTO</a></td>
+<td nowrap>Good open interface and TACTO simulation support; integration with dexterous hands or closed-loop policies remains custom</td>
+<td nowrap>Good entry point for optical tactile research, especially representation and dataset work</td>
+</tr>
+<tr>
+<td nowrap>GelSight / GelSight Mini</td>
+<td nowrap>5</td>
+<td nowrap>Commercial gel-based optical tactile sensing</td>
+<td nowrap><a href="https://www.gelsight.com/gelsightmini/">official</a> / <a href="https://github.com/gelsightinc/gsrobotics">SDK</a></td>
+<td nowrap>Strong real sensor ecosystem; simulation is usually via TACTO/Taxim/TacEx/Taccel-style project pipelines rather than one universal stack</td>
+<td nowrap>Good tactile sensor choice, but robot mounting and closed-loop latency need project validation</td>
+</tr>
+<tr>
+<td nowrap>XHand / ROBOTERA</td>
+<td nowrap>4</td>
+<td nowrap>Commercial dexterous hand used in cross-hand and real-robot dexterity papers</td>
+<td nowrap><a href="https://www.robotera.com/en/goods1/4.html">official</a></td>
+<td nowrap>Current papers show usage, but public SDK/ROS2 and reusable sim assets were not found in a unified public package</td>
+<td nowrap>Promising hardware, but platform risk is higher unless vendor SDK and sim assets are confirmed</td>
+</tr>
+<tr>
+<td nowrap>xArm / UFACTORY</td>
+<td nowrap>3</td>
+<td nowrap>Carrier arm for dexterous hands and teleoperation setups</td>
+<td nowrap><a href="https://github.com/xArm-Developer/xarm_ros2">xarm_ros2</a> / <a href="https://github.com/xArm-developer/xarm_ros">xarm_ros</a></td>
+<td nowrap>Public ROS/ROS2 packages include simulation models and control demos; dexterous-hand mounting remains custom</td>
+<td nowrap>Cost-effective arm candidate when paired with a separately validated hand</td>
+</tr>
+<tr>
+<td nowrap>Apple Vision Pro / Meta Quest / GELLO</td>
+<td nowrap>Vision Pro 3; Meta Quest or VR 2; GELLO 2</td>
+<td nowrap>Human demonstration, hand tracking, VR teleoperation, and retargeting data chain</td>
+<td nowrap><a href="https://developer.apple.com/documentation/visionos/tracking-and-visualizing-hand-movement">Apple hand tracking</a> / <a href="https://wuphilipp.github.io/gello_site/">GELLO</a> / <a href="https://github.com/wuphilipp/gello_software">GELLO code</a></td>
+<td nowrap>Useful for scalable motion data; contact, force, and hand-to-robot retargeting are still algorithmic bottlenecks</td>
+<td nowrap>Data collection stack, not a substitute for tactile or force feedback</td>
+</tr>
+<tr>
+<td nowrap>Robotiq 2F / parallel grippers</td>
+<td nowrap>2</td>
+<td nowrap>Baseline grasping hardware in non-dexterous rows</td>
+<td nowrap><a href="https://robotiq.com/products/2f85-140-adaptive-robot-gripper">official</a></td>
+<td nowrap>Easy to simulate and deploy compared with dexterous hands; not a multi-finger manipulation platform</td>
+<td nowrap>Useful baseline, but should not be counted as dexterous-hand capability</td>
+</tr>
+</tbody>
+</table>
+
+<table>
+<thead>
+<tr>
+<th nowrap>Simulator / Framework</th>
+<th nowrap>Current Table Mentions</th>
+<th nowrap>Typical Use</th>
+<th nowrap>Official / Code Links</th>
+<th nowrap>Hardware Fit</th>
+<th nowrap>Open Gap</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td nowrap>Isaac Gym</td>
+<td nowrap>11</td>
+<td nowrap>Large-scale RL, grasp filtering, and dexterous-hand policy training</td>
+<td nowrap><a href="https://developer.nvidia.com/isaac-gym">official</a> / <a href="https://github.com/isaac-sim/IsaacGymEnvs">IsaacGymEnvs</a></td>
+<td nowrap>Strongest recurring fit for Allegro, LEAP, Shadow, and synthetic grasp pipelines in the current table</td>
+<td nowrap>NVIDIA marks Isaac Gym as legacy; new projects should check Isaac Lab migration cost</td>
+</tr>
+<tr>
+<td nowrap>Isaac Lab / Isaac Sim</td>
+<td nowrap>2</td>
+<td nowrap>Successor stack for robot learning, sensor simulation, and tactile-aware experiments</td>
+<td nowrap><a href="https://developer.nvidia.com/isaac/lab">Isaac Lab</a> / <a href="https://github.com/isaac-sim/IsaacLab">code</a> / <a href="https://github.com/isaac-sim/IsaacSim">Isaac Sim</a></td>
+<td nowrap>Good fit for Franka-style arms and newer tactile simulation papers; asset import from URDF/MJCF/CAD is supported by Isaac Sim</td>
+<td nowrap>Dense tactile and dexterous-hand controllers still tend to be custom integrations</td>
+</tr>
+<tr>
+<td nowrap>MuJoCo / MJCF</td>
+<td nowrap>3</td>
+<td nowrap>Contact-rich dynamics, Adroit-style hand tasks, and compact reproducible benchmarks</td>
+<td nowrap><a href="https://mujoco.org/">official</a> / <a href="https://github.com/google-deepmind/mujoco">code</a> / <a href="https://github.com/google-deepmind/mujoco_menagerie">Menagerie</a></td>
+<td nowrap>Strong for Shadow/Adroit and MJCF models; useful for reproducible task benchmarks</td>
+<td nowrap>High-fidelity optical tactile rendering and real-hand drivers are not standard out of the box</td>
+</tr>
+<tr>
+<td nowrap>SAPIEN / ManiSkill</td>
+<td nowrap>SAPIEN 2; ManiSkill 2</td>
+<td nowrap>Articulated objects, manipulation environments, and task/data generation</td>
+<td nowrap><a href="https://sapien.ucsd.edu/">SAPIEN</a> / <a href="https://github.com/haosulab/SAPIEN">SAPIEN code</a> / <a href="https://github.com/mani-skill/ManiSkill">ManiSkill</a></td>
+<td nowrap>Good articulated-object and robot asset ecosystem; hand models depend on URDF/assets supplied by each work</td>
+<td nowrap>Less standardized for real dexterous-hand sim-to-real than arm/gripper manipulation</td>
+</tr>
+<tr>
+<td nowrap>Adroit / Gymnasium Robotics</td>
+<td nowrap>2</td>
+<td nowrap>Dexterous manipulation benchmark with Shadow Hand and arm tasks</td>
+<td nowrap><a href="https://robotics.farama.org/envs/adroit_hand/index.html">docs</a> / <a href="https://github.com/Farama-Foundation/Gymnasium-Robotics">code</a></td>
+<td nowrap>Strong Shadow-Hand benchmark fit; useful for algorithm comparison</td>
+<td nowrap>Not a procurement or real-hardware SDK; task suite is narrower than real lab manipulation</td>
+</tr>
+<tr>
+<td nowrap>DexArt / MetaWorld</td>
+<td nowrap>DexArt 1; MetaWorld 1</td>
+<td nowrap>Task benchmark suites for articulated dexterity and manipulation policies</td>
+<td nowrap><a href="https://www.chenbao.tech/dexart/">DexArt</a> / <a href="https://github.com/Kami-code/dexart-release">DexArt code</a> / <a href="https://meta-world.github.io/">MetaWorld</a></td>
+<td nowrap>Good for benchmark comparison; hardware embodiment is fixed by each environment</td>
+<td nowrap>Different observation/action conventions make cross-paper comparison hard</td>
+</tr>
+<tr>
+<td nowrap>TACTO</td>
+<td nowrap>1</td>
+<td nowrap>Vision-based tactile rendering for sensors such as DIGIT and OmniTact</td>
+<td nowrap><a href="https://github.com/facebookresearch/tacto">code</a> / <a href="https://ai.meta.com/research/publications/tacto-a-fast-flexible-and-open-source-simulator-for-high-resolution-vision-based-tactile-sensors/">paper page</a></td>
+<td nowrap>Good for tactile-image simulation and perception pretraining; originally integrates with PyBullet</td>
+<td nowrap>Full dexterous-hand closed-loop contact dynamics remain custom</td>
+</tr>
+<tr>
+<td nowrap>Taccel</td>
+<td nowrap>1</td>
+<td nowrap>GPU tactile simulation for vision-based tactile robotics</td>
+<td nowrap><a href="https://taccel-simulator.github.io/index.html">docs</a> / <a href="https://github.com/Taccel-Simulator">GitHub</a></td>
+<td nowrap>Supports URDF robot loading, tactile sensor config files, and high-throughput tactile simulation</td>
+<td nowrap>Newer ecosystem; real sensor calibration and broad benchmark adoption are still emerging</td>
+</tr>
+<tr>
+<td nowrap>PalpationSim</td>
+<td nowrap>1</td>
+<td nowrap>Soft-body palpation and tactile representation learning</td>
+<td nowrap><a href="https://zoharri.github.io/artificial-palpation/">project</a> / <a href="https://github.com/zoharri/ArtificialPalpation">code</a></td>
+<td nowrap>Task-specific tactile simulation rather than a general dexterous-hand simulator</td>
+<td nowrap>Limited cross-paper reuse evidence in the current table</td>
+</tr>
+</tbody>
+</table>
+
+<table>
+<thead>
+<tr>
+<th nowrap>Hardware Family</th>
+<th nowrap>Compatibility Status</th>
+<th nowrap>Best-Matched Simulation / Data Stack Found</th>
+<th nowrap>Evidence Links</th>
+<th nowrap>Practical Note</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td nowrap>Franka + mounted hand or tactile gripper</td>
+<td nowrap>official arm; community/custom end-effector integration</td>
+<td nowrap>ROS2/libfranka for real robot; Isaac/MuJoCo/SAPIEN assets in paper pipelines</td>
+<td nowrap><a href="https://frankarobotics.github.io/docs/">FCI docs</a> / <a href="https://github.com/frankarobotics/franka_ros2">franka_ros2</a> / <a href="https://github.com/frankarobotics/franka_description">models</a></td>
+<td nowrap>Arm support is mature, but each hand/sensor needs mechanical mounting, calibration, and controller integration</td>
+</tr>
+<tr>
+<td nowrap>LEAP Hand</td>
+<td nowrap>official</td>
+<td nowrap>LEAP API, LEAP Isaac Gym, LEAP Isaac Lab, paper-specific MuJoCo/Isaac environments</td>
+<td nowrap><a href="https://github.com/leap-hand/LEAP_Hand_API">API</a> / <a href="https://github.com/leap-hand/LEAP_Hand_Sim">Isaac Gym sim</a> / <a href="https://github.com/leap-hand/LEAP_Hand_Isaac_Lab">Isaac Lab sim</a></td>
+<td nowrap>Good for reproducible hand control; tactile sensing is not part of the default hand stack</td>
+</tr>
+<tr>
+<td nowrap>Allegro Hand</td>
+<td nowrap>official/community</td>
+<td nowrap>ROS stack, Isaac Gym, MuJoCo, DexArt-style environments</td>
+<td nowrap><a href="https://www.allegrohand.com/">official</a> / <a href="https://github.com/simlabrobotics/allegro_hand_ros">ROS</a> / <a href="https://github.com/Kami-code/dexart-release">DexArt</a></td>
+<td nowrap>Strong research precedent; sensorized fingertips or tactile arrays must be selected separately</td>
+</tr>
+<tr>
+<td nowrap>Shadow Dexterous Hand</td>
+<td nowrap>community benchmark; official hardware</td>
+<td nowrap>MuJoCo/Adroit and Isaac Gym grasping environments</td>
+<td nowrap><a href="https://shadowrobot.com/dexterous-hand-series/">official</a> / <a href="https://robotics.farama.org/envs/adroit_hand/index.html">Adroit docs</a> / <a href="https://github.com/Farama-Foundation/Gymnasium-Robotics">Gymnasium Robotics</a></td>
+<td nowrap>Benchmark compatibility is strong, but real-hardware procurement and transfer are heavier than LEAP/Allegro</td>
+</tr>
+<tr>
+<td nowrap>Inspire / XHand</td>
+<td nowrap>unclear</td>
+<td nowrap>Paper-specific assets, real rigs, and humanoid integrations</td>
+<td nowrap><a href="https://en.inspire-robots.com/product-category/the-dexterous-hands">Inspire</a> / <a href="https://support.unitree.com/home/en/G1_developer/inspire_dfx_dexterous_hand">Unitree G1 note</a> / <a href="https://www.robotera.com/en/goods1/4.html">ROBOTERA</a></td>
+<td nowrap>Do not assume compatibility; request URDF/MJCF, ROS2 driver, low-level control rate, and tactile API from vendor</td>
+</tr>
+<tr>
+<td nowrap>GelSight / DIGIT optical tactile sensors</td>
+<td nowrap>official SDK; community sim</td>
+<td nowrap>Real SDKs plus TACTO/Taccel/Taxim/TacEx-style tactile simulation pipelines</td>
+<td nowrap><a href="https://digit.ml/digit.html">DIGIT</a> / <a href="https://github.com/facebookresearch/digit-interface">DIGIT interface</a> / <a href="https://github.com/gelsightinc/gsrobotics">GelSight SDK</a> / <a href="https://github.com/facebookresearch/tacto">TACTO</a> / <a href="https://github.com/Taccel-Simulator">Taccel</a></td>
+<td nowrap>Good for tactile representation; closed-loop manipulation depends on latency, mounting, calibration, and synchronization</td>
+</tr>
+<tr>
+<td nowrap>Vision Pro / VR / GELLO teleoperation</td>
+<td nowrap>official tracking; community teleoperation</td>
+<td nowrap>Hand tracking, VR controllers, GELLO joint-level teleop, and retargeting pipelines</td>
+<td nowrap><a href="https://developer.apple.com/documentation/visionos/tracking-and-visualizing-hand-movement">Apple hand tracking</a> / <a href="https://wuphilipp.github.io/gello_site/">GELLO</a> / <a href="https://github.com/wuphilipp/gello_software">GELLO code</a></td>
+<td nowrap>Solves scalable motion capture better than contact capture; contact and force labels still need tactile/force instrumentation</td>
+</tr>
+</tbody>
+</table>
+
+<table>
+<thead>
+<tr>
+<th nowrap>Benchmark / Dataset</th>
+<th nowrap>Main Scope</th>
+<th nowrap>Hardware / Sim Tie</th>
+<th nowrap>Link</th>
+<th nowrap>Use for This Survey</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td nowrap>Adroit</td>
+<td nowrap>Shadow-Hand manipulation tasks such as door, hammer, pen, and relocation</td>
+<td nowrap>MuJoCo / Gymnasium Robotics</td>
+<td nowrap><a href="https://robotics.farama.org/envs/adroit_hand/index.html">docs</a></td>
+<td nowrap>Good algorithm benchmark, but not a unified real-hardware dataset</td>
+</tr>
+<tr>
+<td nowrap>DexArt</td>
+<td nowrap>Dexterous manipulation with articulated objects</td>
+<td nowrap>Benchmark environment and training code</td>
+<td nowrap><a href="https://www.chenbao.tech/dexart/">project</a> / <a href="https://github.com/Kami-code/dexart-release">code</a></td>
+<td nowrap>Useful for articulated-object dexterity; embodiment and task definitions are benchmark-specific</td>
+</tr>
+<tr>
+<td nowrap>GraspNet-1Billion</td>
+<td nowrap>Large-scale 6D parallel-gripper grasp detection</td>
+<td nowrap>RealSense/Kinect RGB-D scenes; parallel-jaw grasp labels</td>
+<td nowrap><a href="https://graspnet.net/">project</a> / <a href="https://github.com/graspnet/graspnetAPI">API</a></td>
+<td nowrap>Important grasping baseline, but not a dexterous-hand manipulation benchmark</td>
+</tr>
+<tr>
+<td nowrap>DexYCB</td>
+<td nowrap>Human hand grasping, 6D object pose, hand pose, and handover-related tasks</td>
+<td nowrap>YCB objects and multi-view real data</td>
+<td nowrap><a href="https://dex-ycb.github.io/">project</a> / <a href="https://github.com/NVlabs/dex-ycb-toolkit">toolkit</a></td>
+<td nowrap>Useful for human hand-object perception and grasp transfer, not a robot control benchmark by itself</td>
+</tr>
+<tr>
+<td nowrap>OakInk / OakInk2</td>
+<td nowrap>Hand-object interaction, affordance, and bimanual task data</td>
+<td nowrap>Human demonstrations and object/hand annotations</td>
+<td nowrap><a href="https://oakink.net/">OakInk</a> / <a href="https://github.com/oakink/OakInk2">OakInk2 code</a></td>
+<td nowrap>Good for human-to-robot priors; robot embodiment retargeting remains separate</td>
+</tr>
+<tr>
+<td nowrap>ARCTIC</td>
+<td nowrap>Bimanual articulated hand-object manipulation with dynamic contact</td>
+<td nowrap>Human video and 3D hand/object meshes</td>
+<td nowrap><a href="https://arctic.is.tue.mpg.de/">project</a> / <a href="https://github.com/zc-alexfan/arctic">code</a></td>
+<td nowrap>Strong contact-rich human data; not directly a robot-hardware benchmark</td>
+</tr>
+<tr>
+<td nowrap>UniDex-Dataset</td>
+<td nowrap>Egocentric-video-derived trajectories across multiple dexterous hands</td>
+<td nowrap>Eight dexterous hands, retargeting, and robot-centric trajectories</td>
+<td nowrap><a href="https://unidex-ai.github.io/">project</a> / <a href="https://github.com/unidex-ai/UniDex">code</a></td>
+<td nowrap>Most relevant current attempt at cross-hand normalization, but still new and retargeting-heavy</td>
+</tr>
+<tr>
+<td nowrap>DexGraspNet / DexGrasp Anything</td>
+<td nowrap>Large-scale simulated dexterous grasp poses</td>
+<td nowrap>ShadowHand-style grasp synthesis and physics filtering</td>
+<td nowrap><a href="https://pku-epic.github.io/DexGraspNet/">DexGraspNet</a> / <a href="https://dexgraspanything.github.io/">DGA</a></td>
+<td nowrap>Useful for grasp generation; less complete for long-horizon contact-rich control</td>
+</tr>
+<tr>
+<td nowrap>ZeroGrasp-11B</td>
+<td nowrap>Shape reconstruction plus 6D grasp annotations</td>
+<td nowrap>RGB-D, Objaverse-LVIS, Franka/Robotiq evaluation</td>
+<td nowrap><a href="https://sh8.io/#/zerograsp">project</a> / <a href="https://github.com/sh8/ZeroGrasp">code</a></td>
+<td nowrap>Strong grasping data point, but parallel-gripper rather than dexterous-hand control</td>
+</tr>
+<tr>
+<td nowrap>RoboTwin 2.0</td>
+<td nowrap>Bimanual manipulation data generation and benchmark</td>
+<td nowrap>Simulation benchmark with dual-arm configurations</td>
+<td nowrap><a href="https://robotwin-platform.github.io/">project</a> / <a href="https://github.com/robotwin-Platform/robotwin">code</a></td>
+<td nowrap>Relevant for bimanual setup comparison; not tactile-first or hand-model-unified</td>
+</tr>
+<tr>
+<td nowrap>MFR Benchmark</td>
+<td nowrap>Multi-finger dexterous manipulation tasks</td>
+<td nowrap>Allegro hand and optional arm configurations in Isaac Gym</td>
+<td nowrap><a href="https://github.com/UM-ARM-Lab/MFR_benchmark">code</a></td>
+<td nowrap>Useful candidate benchmark for hand control if the lab standardizes on Allegro/Isaac Gym</td>
+</tr>
+<tr>
+<td nowrap>YCB-Slide</td>
+<td nowrap>Sliding-touch localization</td>
+<td nowrap>DIGIT tactile images and YCB objects</td>
+<td nowrap><a href="https://suddhu.github.io/midastouch-tactile/">project</a> / <a href="https://github.com/facebookresearch/MidasTouch">code</a></td>
+<td nowrap>Good tactile-localization benchmark; not a full manipulation benchmark</td>
+</tr>
+<tr>
+<td nowrap>ToucHD / AnyTouch 2 / Sparsh</td>
+<td nowrap>General tactile representation learning across sensors and dynamics</td>
+<td nowrap>GelSight, DIGIT, FastUMI, ToucHD, and related tactile datasets</td>
+<td nowrap><a href="https://github.com/GeWu-Lab/AnyTouch2">AnyTouch 2</a> / <a href="https://github.com/facebookresearch/sparsh">Sparsh</a> / <a href="https://huggingface.co/datasets/BAAI/ToucHD-Sim">ToucHD-Sim</a></td>
+<td nowrap>Good for representation pretraining; downstream robot policy transfer still needs task-specific data</td>
+</tr>
+<tr>
+<td nowrap>VTV150K / VTV-LLM</td>
+<td nowrap>Visuo-tactile video understanding and tactile QA</td>
+<td nowrap>GelSight Mini, DIGIT, and Tac3D video frames</td>
+<td nowrap><a href="https://github.com/IvanXie416/VTV-LLM">code</a> / <a href="https://arxiv.org/abs/2505.22566">paper</a></td>
+<td nowrap>Good tactile-language benchmark; not a closed-loop manipulation benchmark</td>
+</tr>
+<tr>
+<td nowrap>Touch in the Wild</td>
+<td nowrap>Portable visuo-tactile gripper demonstrations for fine-grained manipulation</td>
+<td nowrap>Custom tactile gripper, GoPro sync, ROS2 tactile logs</td>
+<td nowrap><a href="https://binghao-huang.github.io/touch_in_the_wild/">project</a></td>
+<td nowrap>Closest current tactile manipulation dataset in this table, but hardware is custom</td>
+</tr>
+</tbody>
+</table>
+
 #### dexterous hand
 
 Total: 35 papers.

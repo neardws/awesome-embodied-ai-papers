@@ -9685,6 +9685,390 @@ WAM 将未来世界状态预测和动作生成合在一起，适合放在 agent 
 </tbody>
 </table>
 
+**硬件、仿真与 Benchmark 现状。**
+
+_当前表格提及次数按下方 35 篇 dexterous hand 和 18 篇 tactile/contact-rich 论文逐行统计；它表示当前 README 覆盖情况，不等同于全领域引用或使用量排名。_
+
+<table>
+<thead>
+<tr>
+<th nowrap>平台/组件</th>
+<th nowrap>当前表格提及次数</th>
+<th nowrap>典型用途</th>
+<th nowrap>官网/代码链接</th>
+<th nowrap>已观察到的仿真/SDK 适配</th>
+<th nowrap>调研结论</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td nowrap>Franka Emika Panda / Franka Research 3</td>
+<td nowrap>12</td>
+<td nowrap>灵巧手、触觉夹爪和抓取 baseline 最常见搭载机械臂</td>
+<td nowrap><a href="https://frankarobotics.github.io/docs/">FCI 文档</a> / <a href="https://github.com/frankarobotics/franka_ros2">franka_ros2</a> / <a href="https://github.com/frankarobotics/franka_description">模型</a></td>
+<td nowrap>真实机器人 SDK/ROS2 和 URDF 模型公开度高；手部安装、触觉安装和仿真控制器通常是论文自建</td>
+<td nowrap>当前调研里最稳妥的机械臂 baseline，但它本身不是完整的灵巧手+触觉栈</td>
+</tr>
+<tr>
+<td nowrap>Intel RealSense RGB-D</td>
+<td nowrap>11</td>
+<td nowrap>外部 RGB-D 感知，用于位姿、点云和策略输入</td>
+<td nowrap><a href="https://github.com/realsenseai/librealsense">librealsense</a></td>
+<td nowrap>真实平台 SDK 支持好；提供视觉/深度，不提供接触或力反馈</td>
+<td nowrap>低风险默认相机，但不能解决接触可观测性</td>
+</tr>
+<tr>
+<td nowrap>Allegro Hand</td>
+<td nowrap>11</td>
+<td nowrap>四指灵巧手，用于旋转、关节物体操作和跨手型迁移</td>
+<td nowrap><a href="https://www.allegrohand.com/">官网</a> / <a href="https://github.com/simlabrobotics/allegro_hand_ros">ROS</a> / <a href="https://github.com/simlabrobotics/allegro_hand_ros_v4">ROS v4</a></td>
+<td nowrap>公开 ROS 栈，并反复出现在 Isaac Gym / MuJoCo / DexArt 使用场景；稠密触觉不是标配，通常单独加装</td>
+<td nowrap>触觉不是核心需求时，是成熟的灵巧手研究平台</td>
+</tr>
+<tr>
+<td nowrap>LEAP Hand</td>
+<td nowrap>9</td>
+<td nowrap>低成本 16-DoF 灵巧手，用于掌内操作、重定向和 sim-to-real</td>
+<td nowrap><a href="https://github.com/leap-hand/LEAP_Hand_API">API</a> / <a href="https://github.com/leap-hand">GitHub 组织</a></td>
+<td nowrap>公开 Python/C++/ROS/ROS2 API，同时能看到 Isaac Gym 和 Isaac Lab 仓库；触觉通常缺失或外接</td>
+<td nowrap>当前表格里低成本手中 SDK+仿真公开证据最强</td>
+</tr>
+<tr>
+<td nowrap>Shadow Dexterous Hand</td>
+<td nowrap>8</td>
+<td nowrap>高自由度仿人手和 benchmark 本体</td>
+<td nowrap><a href="https://shadowrobot.com/dexterous-hand-series/">官网</a> / <a href="https://robotics.farama.org/envs/adroit_hand/index.html">Adroit</a></td>
+<td nowrap>MuJoCo/Adroit 和 Isaac Gym 类仿真中很常见；真实硬件迁移成本和采购成本更高</td>
+<td nowrap>适合作为 benchmark 手型；采购应由高端仿人硬件需求支撑</td>
+</tr>
+<tr>
+<td nowrap>Inspire RH56 系列</td>
+<td nowrap>7</td>
+<td nowrap>商用灵巧手和人形机器人末端</td>
+<td nowrap><a href="https://en.inspire-robots.com/product-category/the-dexterous-hands">官网</a> / <a href="https://support.unitree.com/home/en/G1_developer/inspire_dfx_dexterous_hand">Unitree G1 集成说明</a></td>
+<td nowrap>多篇论文使用 Inspire 系列资产或真机；公开仿真/ROS 证据不如 LEAP 或 Allegro 统一</td>
+<td nowrap>作为实验室默认平台前，需要确认具体型号、触觉选项、SDK 和 ROS2 支持</td>
+</tr>
+<tr>
+<td nowrap>DIGIT / OmniTact</td>
+<td nowrap>6</td>
+<td nowrap>光学触觉，用于触觉图像、触觉定位和触觉表征学习</td>
+<td nowrap><a href="https://digit.ml/digit.html">DIGIT</a> / <a href="https://github.com/facebookresearch/digit-interface">接口</a> / <a href="https://github.com/facebookresearch/tacto">TACTO</a></td>
+<td nowrap>接口和 TACTO 仿真公开度较好；与灵巧手或闭环策略集成仍通常是自定义工作</td>
+<td nowrap>适合作为光学触觉研究入口，尤其适合表征和数据集方向</td>
+</tr>
+<tr>
+<td nowrap>GelSight / GelSight Mini</td>
+<td nowrap>5</td>
+<td nowrap>商用凝胶光学触觉传感器</td>
+<td nowrap><a href="https://www.gelsight.com/gelsightmini/">官网</a> / <a href="https://github.com/gelsightinc/gsrobotics">SDK</a></td>
+<td nowrap>真实传感器生态较强；仿真通常依赖 TACTO/Taxim/TacEx/Taccel 类项目流程，而不是单一通用栈</td>
+<td nowrap>触觉传感器选择较稳，但安装、闭环延迟和标定需要项目级验证</td>
+</tr>
+<tr>
+<td nowrap>XHand / ROBOTERA</td>
+<td nowrap>4</td>
+<td nowrap>商用灵巧手，用于跨手型和真实机器人灵巧操作论文</td>
+<td nowrap><a href="https://www.robotera.com/en/goods1/4.html">官网</a></td>
+<td nowrap>当前论文能看到使用案例，但未找到统一公开的 SDK/ROS2 和可复用仿真资产包</td>
+<td nowrap>硬件有潜力，但若没有厂家 SDK 和仿真资产确认，平台风险较高</td>
+</tr>
+<tr>
+<td nowrap>xArm / UFACTORY</td>
+<td nowrap>3</td>
+<td nowrap>灵巧手和遥操作系统的搭载机械臂</td>
+<td nowrap><a href="https://github.com/xArm-Developer/xarm_ros2">xarm_ros2</a> / <a href="https://github.com/xArm-developer/xarm_ros">xarm_ros</a></td>
+<td nowrap>公开 ROS/ROS2 包包含仿真模型和控制 demo；灵巧手安装仍是自定义工程</td>
+<td nowrap>和已验证灵巧手搭配时，是成本较友好的机械臂候选</td>
+</tr>
+<tr>
+<td nowrap>Apple Vision Pro / Meta Quest / GELLO</td>
+<td nowrap>Vision Pro 3；Meta Quest 或 VR 2；GELLO 2</td>
+<td nowrap>人类示范、手部跟踪、VR 遥操作和重定向数据链</td>
+<td nowrap><a href="https://developer.apple.com/documentation/visionos/tracking-and-visualizing-hand-movement">Apple 手部跟踪</a> / <a href="https://wuphilipp.github.io/gello_site/">GELLO</a> / <a href="https://github.com/wuphilipp/gello_software">GELLO 代码</a></td>
+<td nowrap>适合规模化动作数据；接触、力和人手到机器人手重定向仍是算法瓶颈</td>
+<td nowrap>这是数据采集栈，不能替代触觉或力反馈</td>
+</tr>
+<tr>
+<td nowrap>Robotiq 2F / 平行夹爪</td>
+<td nowrap>2</td>
+<td nowrap>非灵巧手论文里的抓取 baseline 硬件</td>
+<td nowrap><a href="https://robotiq.com/products/2f85-140-adaptive-robot-gripper">官网</a></td>
+<td nowrap>相比灵巧手更容易仿真和部署；不是多指操作平台</td>
+<td nowrap>适合作为 baseline，但不能算作灵巧手能力</td>
+</tr>
+</tbody>
+</table>
+
+<table>
+<thead>
+<tr>
+<th nowrap>仿真器/框架</th>
+<th nowrap>当前表格提及次数</th>
+<th nowrap>典型用途</th>
+<th nowrap>官网/代码链接</th>
+<th nowrap>硬件适配情况</th>
+<th nowrap>开放缺口</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td nowrap>Isaac Gym</td>
+<td nowrap>11</td>
+<td nowrap>大规模 RL、抓取过滤和灵巧手策略训练</td>
+<td nowrap><a href="https://developer.nvidia.com/isaac-gym">官网</a> / <a href="https://github.com/isaac-sim/IsaacGymEnvs">IsaacGymEnvs</a></td>
+<td nowrap>当前表格里 Allegro、LEAP、Shadow 和合成抓取流程最常见适配对象</td>
+<td nowrap>NVIDIA 已将 Isaac Gym 标为 legacy；新项目需要评估迁移 Isaac Lab 的成本</td>
+</tr>
+<tr>
+<td nowrap>Isaac Lab / Isaac Sim</td>
+<td nowrap>2</td>
+<td nowrap>机器人学习、传感器仿真和触觉实验的继任栈</td>
+<td nowrap><a href="https://developer.nvidia.com/isaac/lab">Isaac Lab</a> / <a href="https://github.com/isaac-sim/IsaacLab">代码</a> / <a href="https://github.com/isaac-sim/IsaacSim">Isaac Sim</a></td>
+<td nowrap>适合 Franka 类机械臂和新触觉仿真论文；Isaac Sim 支持从 URDF/MJCF/CAD 导入资产</td>
+<td nowrap>稠密触觉和灵巧手控制器仍常需要自定义集成</td>
+</tr>
+<tr>
+<td nowrap>MuJoCo / MJCF</td>
+<td nowrap>3</td>
+<td nowrap>接触丰富动力学、Adroit 类手部任务和可复现实验 benchmark</td>
+<td nowrap><a href="https://mujoco.org/">官网</a> / <a href="https://github.com/google-deepmind/mujoco">代码</a> / <a href="https://github.com/google-deepmind/mujoco_menagerie">Menagerie</a></td>
+<td nowrap>适合 Shadow/Adroit 和 MJCF 模型，也适合做紧凑可复现 benchmark</td>
+<td nowrap>高保真光学触觉渲染和真实手驱动并非开箱即用</td>
+</tr>
+<tr>
+<td nowrap>SAPIEN / ManiSkill</td>
+<td nowrap>SAPIEN 2；ManiSkill 2</td>
+<td nowrap>关节物体、操作环境和任务/数据生成</td>
+<td nowrap><a href="https://sapien.ucsd.edu/">SAPIEN</a> / <a href="https://github.com/haosulab/SAPIEN">SAPIEN 代码</a> / <a href="https://github.com/mani-skill/ManiSkill">ManiSkill</a></td>
+<td nowrap>关节物体和机器人资产生态较好；手型模型依赖各论文提供的 URDF/资产</td>
+<td nowrap>在真实灵巧手 sim-to-real 上不如机械臂/夹爪操作标准化</td>
+</tr>
+<tr>
+<td nowrap>Adroit / Gymnasium Robotics</td>
+<td nowrap>2</td>
+<td nowrap>Shadow Hand 加机械臂任务的灵巧操作 benchmark</td>
+<td nowrap><a href="https://robotics.farama.org/envs/adroit_hand/index.html">文档</a> / <a href="https://github.com/Farama-Foundation/Gymnasium-Robotics">代码</a></td>
+<td nowrap>Shadow Hand benchmark 适配强，适合算法比较</td>
+<td nowrap>不是采购或真实硬件 SDK；任务覆盖比真实实验室操作窄</td>
+</tr>
+<tr>
+<td nowrap>DexArt / MetaWorld</td>
+<td nowrap>DexArt 1；MetaWorld 1</td>
+<td nowrap>关节物体灵巧操作和操作策略 benchmark 套件</td>
+<td nowrap><a href="https://www.chenbao.tech/dexart/">DexArt</a> / <a href="https://github.com/Kami-code/dexart-release">DexArt 代码</a> / <a href="https://meta-world.github.io/">MetaWorld</a></td>
+<td nowrap>适合 benchmark 对比；硬件本体由各环境固定</td>
+<td nowrap>不同环境的观测/动作定义不一致，跨论文比较困难</td>
+</tr>
+<tr>
+<td nowrap>TACTO</td>
+<td nowrap>1</td>
+<td nowrap>面向 DIGIT、OmniTact 等视觉触觉传感器的触觉渲染</td>
+<td nowrap><a href="https://github.com/facebookresearch/tacto">代码</a> / <a href="https://ai.meta.com/research/publications/tacto-a-fast-flexible-and-open-source-simulator-for-high-resolution-vision-based-tactile-sensors/">论文页</a></td>
+<td nowrap>适合触觉图像仿真和感知预训练；原始集成主要面向 PyBullet</td>
+<td nowrap>完整灵巧手闭环接触动力学仍需自定义</td>
+</tr>
+<tr>
+<td nowrap>Taccel</td>
+<td nowrap>1</td>
+<td nowrap>面向视觉触觉机器人的 GPU 触觉仿真</td>
+<td nowrap><a href="https://taccel-simulator.github.io/index.html">文档</a> / <a href="https://github.com/Taccel-Simulator">GitHub</a></td>
+<td nowrap>支持 URDF 机器人加载、触觉传感器配置文件和高吞吐触觉仿真</td>
+<td nowrap>生态较新；真实传感器标定和大规模 benchmark 采用还在发展</td>
+</tr>
+<tr>
+<td nowrap>PalpationSim</td>
+<td nowrap>1</td>
+<td nowrap>软体触诊和触觉表征学习</td>
+<td nowrap><a href="https://zoharri.github.io/artificial-palpation/">项目</a> / <a href="https://github.com/zoharri/ArtificialPalpation">代码</a></td>
+<td nowrap>更像任务特定触觉仿真，而不是通用灵巧手仿真器</td>
+<td nowrap>当前表格里跨论文复用证据有限</td>
+</tr>
+</tbody>
+</table>
+
+<table>
+<thead>
+<tr>
+<th nowrap>硬件系列</th>
+<th nowrap>适配状态</th>
+<th nowrap>已找到的最佳匹配仿真/数据栈</th>
+<th nowrap>证据链接</th>
+<th nowrap>实践注意点</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td nowrap>Franka + 加装灵巧手或触觉夹爪</td>
+<td nowrap>official 机械臂；community/custom 末端集成</td>
+<td nowrap>真实机器人使用 ROS2/libfranka；论文流程中常见 Isaac/MuJoCo/SAPIEN 资产</td>
+<td nowrap><a href="https://frankarobotics.github.io/docs/">FCI 文档</a> / <a href="https://github.com/frankarobotics/franka_ros2">franka_ros2</a> / <a href="https://github.com/frankarobotics/franka_description">模型</a></td>
+<td nowrap>机械臂支持成熟，但每种手/传感器都需要机械安装、标定和控制器集成</td>
+</tr>
+<tr>
+<td nowrap>LEAP Hand</td>
+<td nowrap>official</td>
+<td nowrap>LEAP API、LEAP Isaac Gym、LEAP Isaac Lab、论文自建 MuJoCo/Isaac 环境</td>
+<td nowrap><a href="https://github.com/leap-hand/LEAP_Hand_API">API</a> / <a href="https://github.com/leap-hand/LEAP_Hand_Sim">Isaac Gym 仿真</a> / <a href="https://github.com/leap-hand/LEAP_Hand_Isaac_Lab">Isaac Lab 仿真</a></td>
+<td nowrap>适合可复现实验手部控制；触觉不是默认手部栈的一部分</td>
+</tr>
+<tr>
+<td nowrap>Allegro Hand</td>
+<td nowrap>official/community</td>
+<td nowrap>ROS 栈、Isaac Gym、MuJoCo、DexArt 类环境</td>
+<td nowrap><a href="https://www.allegrohand.com/">官网</a> / <a href="https://github.com/simlabrobotics/allegro_hand_ros">ROS</a> / <a href="https://github.com/Kami-code/dexart-release">DexArt</a></td>
+<td nowrap>研究先例强；传感指尖或触觉阵列需要单独选型</td>
+</tr>
+<tr>
+<td nowrap>Shadow Dexterous Hand</td>
+<td nowrap>community benchmark；official 硬件</td>
+<td nowrap>MuJoCo/Adroit 和 Isaac Gym 抓取环境</td>
+<td nowrap><a href="https://shadowrobot.com/dexterous-hand-series/">官网</a> / <a href="https://robotics.farama.org/envs/adroit_hand/index.html">Adroit 文档</a> / <a href="https://github.com/Farama-Foundation/Gymnasium-Robotics">Gymnasium Robotics</a></td>
+<td nowrap>benchmark 兼容性强，但真实硬件采购和迁移负担高于 LEAP/Allegro</td>
+</tr>
+<tr>
+<td nowrap>Inspire / XHand</td>
+<td nowrap>unclear</td>
+<td nowrap>论文自建资产、真实平台和人形机器人集成</td>
+<td nowrap><a href="https://en.inspire-robots.com/product-category/the-dexterous-hands">Inspire</a> / <a href="https://support.unitree.com/home/en/G1_developer/inspire_dfx_dexterous_hand">Unitree G1 说明</a> / <a href="https://www.robotera.com/en/goods1/4.html">ROBOTERA</a></td>
+<td nowrap>不能默认兼容；应向厂家索要 URDF/MJCF、ROS2 驱动、低层控制频率和触觉 API</td>
+</tr>
+<tr>
+<td nowrap>GelSight / DIGIT 光学触觉</td>
+<td nowrap>official SDK；community sim</td>
+<td nowrap>真实 SDK 加 TACTO/Taccel/Taxim/TacEx 类触觉仿真流程</td>
+<td nowrap><a href="https://digit.ml/digit.html">DIGIT</a> / <a href="https://github.com/facebookresearch/digit-interface">DIGIT 接口</a> / <a href="https://github.com/gelsightinc/gsrobotics">GelSight SDK</a> / <a href="https://github.com/facebookresearch/tacto">TACTO</a> / <a href="https://github.com/Taccel-Simulator">Taccel</a></td>
+<td nowrap>适合触觉表征；闭环操作取决于延迟、安装、标定和同步</td>
+</tr>
+<tr>
+<td nowrap>Vision Pro / VR / GELLO 遥操作</td>
+<td nowrap>official tracking；community teleoperation</td>
+<td nowrap>手部跟踪、VR 控制器、GELLO 关节级遥操作和重定向流程</td>
+<td nowrap><a href="https://developer.apple.com/documentation/visionos/tracking-and-visualizing-hand-movement">Apple 手部跟踪</a> / <a href="https://wuphilipp.github.io/gello_site/">GELLO</a> / <a href="https://github.com/wuphilipp/gello_software">GELLO 代码</a></td>
+<td nowrap>更擅长规模化动作采集，不擅长接触采集；接触和力标签仍需要触觉/力传感器</td>
+</tr>
+</tbody>
+</table>
+
+<table>
+<thead>
+<tr>
+<th nowrap>Benchmark / 数据集</th>
+<th nowrap>主要范围</th>
+<th nowrap>硬件/仿真关联</th>
+<th nowrap>链接</th>
+<th nowrap>对本调研的用途</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td nowrap>Adroit</td>
+<td nowrap>Shadow Hand 的开门、敲钉、转笔、重定位等操作任务</td>
+<td nowrap>MuJoCo / Gymnasium Robotics</td>
+<td nowrap><a href="https://robotics.farama.org/envs/adroit_hand/index.html">文档</a></td>
+<td nowrap>适合算法 benchmark，但不是统一真实硬件数据集</td>
+</tr>
+<tr>
+<td nowrap>DexArt</td>
+<td nowrap>关节物体上的灵巧操作</td>
+<td nowrap>Benchmark 环境和训练代码</td>
+<td nowrap><a href="https://www.chenbao.tech/dexart/">项目</a> / <a href="https://github.com/Kami-code/dexart-release">代码</a></td>
+<td nowrap>适合关节物体灵巧操作；本体和任务定义受 benchmark 限定</td>
+</tr>
+<tr>
+<td nowrap>GraspNet-1Billion</td>
+<td nowrap>大规模 6D 平行夹爪抓取检测</td>
+<td nowrap>RealSense/Kinect RGB-D 场景；平行夹爪抓取标签</td>
+<td nowrap><a href="https://graspnet.net/">项目</a> / <a href="https://github.com/graspnet/graspnetAPI">API</a></td>
+<td nowrap>重要抓取 baseline，但不是灵巧手操作 benchmark</td>
+</tr>
+<tr>
+<td nowrap>DexYCB</td>
+<td nowrap>人手抓取、6D 物体位姿、手姿态和交接相关任务</td>
+<td nowrap>YCB 物体和多视角真实数据</td>
+<td nowrap><a href="https://dex-ycb.github.io/">项目</a> / <a href="https://github.com/NVlabs/dex-ycb-toolkit">工具包</a></td>
+<td nowrap>适合人手-物体感知和抓取迁移，本身不是机器人控制 benchmark</td>
+</tr>
+<tr>
+<td nowrap>OakInk / OakInk2</td>
+<td nowrap>手-物交互、affordance 和双手任务数据</td>
+<td nowrap>人类示范和物体/手部标注</td>
+<td nowrap><a href="https://oakink.net/">OakInk</a> / <a href="https://github.com/oakink/OakInk2">OakInk2 代码</a></td>
+<td nowrap>适合做人到机器人先验；机器人本体重定向仍是额外工作</td>
+</tr>
+<tr>
+<td nowrap>ARCTIC</td>
+<td nowrap>含动态接触的双手关节物体操作</td>
+<td nowrap>人类视频和 3D 手/物体网格</td>
+<td nowrap><a href="https://arctic.is.tue.mpg.de/">项目</a> / <a href="https://github.com/zc-alexfan/arctic">代码</a></td>
+<td nowrap>接触丰富人类数据强，但不能直接作为机器人硬件 benchmark</td>
+</tr>
+<tr>
+<td nowrap>UniDex-Dataset</td>
+<td nowrap>跨多个灵巧手的第一视角视频衍生轨迹</td>
+<td nowrap>8 种灵巧手、重定向和机器人中心轨迹</td>
+<td nowrap><a href="https://unidex-ai.github.io/">项目</a> / <a href="https://github.com/unidex-ai/UniDex">代码</a></td>
+<td nowrap>当前最接近跨手型标准化的尝试，但仍很新且依赖重定向</td>
+</tr>
+<tr>
+<td nowrap>DexGraspNet / DexGrasp Anything</td>
+<td nowrap>大规模仿真灵巧抓取位姿</td>
+<td nowrap>ShadowHand 类抓取合成和物理过滤</td>
+<td nowrap><a href="https://pku-epic.github.io/DexGraspNet/">DexGraspNet</a> / <a href="https://dexgraspanything.github.io/">DGA</a></td>
+<td nowrap>适合抓取生成；对长时程接触丰富控制覆盖不足</td>
+</tr>
+<tr>
+<td nowrap>ZeroGrasp-11B</td>
+<td nowrap>形状重建加 6D 抓取标注</td>
+<td nowrap>RGB-D、Objaverse-LVIS、Franka/Robotiq 评测</td>
+<td nowrap><a href="https://sh8.io/#/zerograsp">项目</a> / <a href="https://github.com/sh8/ZeroGrasp">代码</a></td>
+<td nowrap>是强抓取数据点，但面向平行夹爪而不是灵巧手控制</td>
+</tr>
+<tr>
+<td nowrap>RoboTwin 2.0</td>
+<td nowrap>双臂操作数据生成和 benchmark</td>
+<td nowrap>双臂配置的仿真 benchmark</td>
+<td nowrap><a href="https://robotwin-platform.github.io/">项目</a> / <a href="https://github.com/robotwin-Platform/robotwin">代码</a></td>
+<td nowrap>适合比较双臂配置；不是触觉优先，也未统一手型</td>
+</tr>
+<tr>
+<td nowrap>MFR Benchmark</td>
+<td nowrap>多指灵巧操作任务</td>
+<td nowrap>Isaac Gym 中的 Allegro 手和可选机械臂配置</td>
+<td nowrap><a href="https://github.com/UM-ARM-Lab/MFR_benchmark">代码</a></td>
+<td nowrap>如果实验室标准化 Allegro/Isaac Gym，可作为手部控制候选 benchmark</td>
+</tr>
+<tr>
+<td nowrap>YCB-Slide</td>
+<td nowrap>滑动触觉定位</td>
+<td nowrap>DIGIT 触觉图像和 YCB 物体</td>
+<td nowrap><a href="https://suddhu.github.io/midastouch-tactile/">项目</a> / <a href="https://github.com/facebookresearch/MidasTouch">代码</a></td>
+<td nowrap>适合触觉定位 benchmark，不是完整操作 benchmark</td>
+</tr>
+<tr>
+<td nowrap>ToucHD / AnyTouch 2 / Sparsh</td>
+<td nowrap>跨传感器和动态触觉的通用触觉表征学习</td>
+<td nowrap>GelSight、DIGIT、FastUMI、ToucHD 等触觉数据</td>
+<td nowrap><a href="https://github.com/GeWu-Lab/AnyTouch2">AnyTouch 2</a> / <a href="https://github.com/facebookresearch/sparsh">Sparsh</a> / <a href="https://huggingface.co/datasets/BAAI/ToucHD-Sim">ToucHD-Sim</a></td>
+<td nowrap>适合表征预训练；下游机器人策略迁移仍需要任务数据</td>
+</tr>
+<tr>
+<td nowrap>VTV150K / VTV-LLM</td>
+<td nowrap>视觉触觉视频理解和触觉问答</td>
+<td nowrap>GelSight Mini、DIGIT、Tac3D 视频帧</td>
+<td nowrap><a href="https://github.com/IvanXie416/VTV-LLM">代码</a> / <a href="https://arxiv.org/abs/2505.22566">论文</a></td>
+<td nowrap>适合触觉语言 benchmark，不是闭环操作 benchmark</td>
+</tr>
+<tr>
+<td nowrap>Touch in the Wild</td>
+<td nowrap>便携视觉触觉夹爪的精细操作示范</td>
+<td nowrap>自研触觉夹爪、GoPro 同步和 ROS2 触觉日志</td>
+<td nowrap><a href="https://binghao-huang.github.io/touch_in_the_wild/">项目</a></td>
+<td nowrap>是当前表格里最接近触觉操作的数据集，但硬件是自研</td>
+</tr>
+</tbody>
+</table>
+
 #### dexterous hand
 
 共 35 篇。
