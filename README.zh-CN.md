@@ -9847,16 +9847,16 @@ WAM 将未来世界状态预测和动作生成合在一起，适合放在 agent 
 <td nowrap>ICLR 2026</td>
 <td nowrap><a href="https://openreview.net/forum?id=80vjyj5o7l">DexNDM: Closing the Reality Gap for Dexterous In-Hand Rotation via Joint-Wise Neural Dynamics Model</a></td>
 <td nowrap>缩小通用掌内旋转的 sim-to-real 动力学差距。</td>
-<td nowrap>项目页展示了跨形状、腕部姿态和旋转轴的真实掌内旋转，并使用 joint-wise neural dynamics。</td>
+<td nowrap>使用 joint-wise neural dynamics 和 residual policy，提升跨物体形状、腕部姿态和旋转轴的真实空中掌内旋转。</td>
+<td nowrap>仍依赖真实 transition 数据；触觉集成被列为未来工作，且既有触觉 baseline 不能直接在 LEAP 上复现。</td>
+<td nowrap>LEAP Hand；Allegro 出现在 baseline 对比中</td>
 <td nowrap>-</td>
 <td nowrap>-</td>
-<td nowrap>-</td>
-<td nowrap>-</td>
-<td nowrap>-</td>
-<td nowrap>sim-to-real 策略 + joint-wise neural dynamics + 真实数据适配</td>
-<td nowrap>项目页包含遥操作装配任务演示</td>
-<td nowrap>-</td>
-<td nowrap><a href="https://openreview.net/forum?id=80vjyj5o7l">论文</a> / <a href="https://meowuu7.github.io/DexNDM/">项目</a></td>
+<td nowrap>LEAP Hand + Franka 机械臂</td>
+<td nowrap>Isaac Gym 仿真；4,000 条真实训练轨迹；自主真实 transition 采集</td>
+<td nowrap>Meta Quest 3 / 基于 BunnyVisionPro 的装配任务遥操作</td>
+<td nowrap>论文补充材料提到代码；公开项目页</td>
+<td nowrap><a href="https://arxiv.org/abs/2510.08556">论文</a> / <a href="https://meowuu7.github.io/DexNDM/">项目</a></td>
 </tr>
 <tr>
 <td nowrap>ICLR 2026</td>
@@ -9877,29 +9877,29 @@ WAM 将未来世界状态预测和动作生成合在一起，适合放在 agent 
 <td nowrap>ICLR 2026</td>
 <td nowrap><a href="https://openreview.net/forum?id=Kt9tJeOwjy">RFS: Reinforcement learning with Residual flow steering for dexterous manipulation</a></td>
 <td nowrap>使用 residual flow steering 做灵巧操作 RL 微调。</td>
+<td nowrap>用 PPO/offline residual RL 适配预训练 flow-matching 策略，在 6 个仿真任务和真实 Franka-LEAP 抓取/搬运上提升表现。</td>
+<td nowrap>仍需要仿真预训练和少量真实纠正示范；论文未报告触觉硬件。</td>
+<td nowrap>LEAP Hand</td>
 <td nowrap>-</td>
 <td nowrap>-</td>
-<td nowrap>-</td>
-<td nowrap>-</td>
-<td nowrap>-</td>
-<td nowrap>-</td>
-<td nowrap>-</td>
-<td nowrap>-</td>
-<td nowrap>-</td>
-<td nowrap><a href="https://openreview.net/forum?id=Kt9tJeOwjy">论文</a></td>
+<td nowrap>Franka 机械臂 + LEAP Hand</td>
+<td nowrap>6 个仿真任务；sim-to-real pipeline；每任务约 400 条 Apple Vision Pro AR 示范；50 条 SpaceMouse 纠正示范</td>
+<td nowrap>Apple Vision Pro AR 遥操作；SpaceMouse 纠正介入</td>
+<td nowrap>项目</td>
+<td nowrap><a href="https://arxiv.org/abs/2602.01789">论文</a> / <a href="https://weirdlabuw.github.io/rfs/">项目</a></td>
 </tr>
 <tr>
 <td nowrap>ICLR 2026</td>
 <td nowrap><a href="https://openreview.net/forum?id=NZDaMcpXZm">Learning to Grasp Anything By Playing with Random Toys</a></td>
 <td nowrap>用随机玩具训练抓取策略，并零样本泛化到真实物体。</td>
-<td nowrap>项目页展示了灵巧手、人形、Franka DROID 和 ManiSkill/YCB 场景的零样本抓取演示。</td>
+<td nowrap>项目页报告 ManiSkill YCB 仿真 80% 零样本成功率、真实 Franka DROID/YCB 67% 成功率，以及 H1-2+灵巧手 51% 成功率。</td>
+<td nowrap>已查项目页未说明具体灵巧手型号、DoF、触觉配置或 SDK。</td>
 <td nowrap>-</td>
 <td nowrap>-</td>
 <td nowrap>-</td>
-<td nowrap>-</td>
-<td nowrap>灵巧手 + 人形；Franka DROID 演示</td>
-<td nowrap>随机玩具训练；YCB / ManiSkill 评估</td>
-<td nowrap>-</td>
+<td nowrap>Franka DROID；H1-2 人形 + 灵巧手</td>
+<td nowrap>250 个随机玩具；1,500 条 Franka 玩具示范；500 条 H1-2 玩具示范；ManiSkill/YCB 评估</td>
+<td nowrap>示范数据采集含遥操作，但具体设备未公开说明</td>
 <td nowrap>项目</td>
 <td nowrap><a href="https://openreview.net/forum?id=NZDaMcpXZm">论文</a> / <a href="https://lego-grasp.github.io/">项目</a></td>
 </tr>
@@ -9907,149 +9907,149 @@ WAM 将未来世界状态预测和动作生成合在一起，适合放在 agent 
 <td nowrap>ICLR 2026</td>
 <td nowrap><a href="https://openreview.net/forum?id=aemqAxScl9">SARM: Stage-Aware Reward Modeling for Long Horizon Robot Manipulation</a></td>
 <td nowrap>长时程机器人操作的阶段感知奖励建模。</td>
+<td nowrap>用阶段标签筛选/重加权示范，报告 T-shirt folding 从平铺状态 83%、从揉皱状态 67% 成功率。</td>
+<td nowrap>不是灵巧手硬件论文；依赖大量遥操作视频-动作数据和视觉奖励估计。</td>
 <td nowrap>-</td>
 <td nowrap>-</td>
 <td nowrap>-</td>
-<td nowrap>-</td>
-<td nowrap>-</td>
-<td nowrap>-</td>
-<td nowrap>-</td>
-<td nowrap>-</td>
-<td nowrap>-</td>
-<td nowrap><a href="https://openreview.net/forum?id=aemqAxScl9">论文</a></td>
+<td nowrap>YAM 7-DoF 双臂机器人</td>
+<td nowrap>200 小时 T-shirt folding 示范；顶部和腕部相机视频；关节状态/动作；Pi0/LeRobot 训练</td>
+<td nowrap>GELLO 遥操作</td>
+<td nowrap>代码；LeRobot 集成</td>
+<td nowrap><a href="https://arxiv.org/abs/2509.25358">论文</a> / <a href="https://qianzhong-chen.github.io/sarm.github.io/">项目</a> / <a href="https://github.com/xdofai/opensarm">代码</a> / <a href="https://github.com/huggingface/lerobot/blob/main/docs/source/sarm.mdx">LeRobot</a></td>
 </tr>
 <tr>
 <td nowrap>ICLR 2026</td>
 <td nowrap><a href="https://openreview.net/forum?id=cVX3VqO8BO">UniHM: Unified Dexterous Hand Manipulation with Vision Language Model</a></td>
 <td nowrap>用视觉语言模型统一灵巧手操作。</td>
+<td nowrap>从 HOI 数据训练 morphology-agnostic hand codebook/VLM，并在仿真和真实试验中验证跨本体操作。</td>
+<td nowrap>只使用 RGB-D；没有触觉/力传感，接触建模较简化，hand token 规模仍是开放问题。</td>
+<td nowrap>Shadow、Allegro、Schunk/SVH、LEAP、Ability、Panda gripper 重定向；真实 Panda Hand、XHand、Inspire Hand</td>
+<td nowrap>真实平台：2-DoF Panda Hand、12-DoF XHand、6-DoF Inspire Hand</td>
 <td nowrap>-</td>
-<td nowrap>-</td>
-<td nowrap>-</td>
-<td nowrap>-</td>
-<td nowrap>-</td>
-<td nowrap>-</td>
-<td nowrap>-</td>
-<td nowrap>-</td>
-<td nowrap>-</td>
-<td nowrap><a href="https://openreview.net/forum?id=cVX3VqO8BO">论文</a></td>
+<td nowrap>7-DoF Franka 机械臂 + ZED RGB-D 相机</td>
+<td nowrap>DexYCB 和 OakInk；SAPIEN 可视化/仿真检查；HOI 到机器人重定向</td>
+<td nowrap>人-物交互数据；不依赖大规模真实遥操作数据集</td>
+<td nowrap>代码</td>
+<td nowrap><a href="https://arxiv.org/abs/2603.00732">论文</a> / <a href="https://unihm.github.io/">项目</a> / <a href="https://github.com/Zhenhao-Zhang/UniHM">代码</a></td>
 </tr>
 <tr>
 <td nowrap>ICLR 2026</td>
 <td nowrap><a href="https://openreview.net/forum?id=k8ovuXEQQu">House Of Dextra : Cross-Embodied Co-Design for Dexterous Hands</a></td>
 <td nowrap>面向灵巧手的跨本体协同设计。</td>
+<td nowrap>联合搜索手型 morphology 和策略，制造模块化手，并把 morphology-conditioned 策略零样本部署到真实世界。</td>
+<td nowrap>闭环策略是 blind policy：没有相机、物体状态或触觉反馈；morphology 搜索仍与任务族绑定。</td>
+<td nowrap>生成式模块化手；LEAP baseline</td>
+<td nowrap>可变 3-5 指；每指 2-3 个驱动关节 / 3-4 个舵机；Dynamixel XL330-M288-T 舵机</td>
+<td nowrap>无相机或触觉反馈</td>
+<td nowrap>模块化 3D 打印机器人手；固定腕部手平台</td>
+<td nowrap>2,000-8,000 个生成手型；2,048 并行评估；PPO morphology-conditioned sim-to-real</td>
 <td nowrap>-</td>
-<td nowrap>-</td>
-<td nowrap>-</td>
-<td nowrap>-</td>
-<td nowrap>-</td>
-<td nowrap>-</td>
-<td nowrap>-</td>
-<td nowrap>-</td>
-<td nowrap>-</td>
-<td nowrap><a href="https://openreview.net/forum?id=k8ovuXEQQu">论文</a></td>
+<td nowrap>项目/制作指南</td>
+<td nowrap><a href="https://arxiv.org/abs/2512.03743">论文</a> / <a href="https://an-axolotl.github.io/HouseofDextra/">项目</a></td>
 </tr>
 <tr>
 <td nowrap>ICLR 2026</td>
 <td nowrap><a href="https://openreview.net/forum?id=tv0Sz8A9Tc">Robotic Manipulation by Imitating Generated Videos Without Physical Demonstrations</a></td>
 <td nowrap>不依赖真实物理示范，模仿生成视频做机器人操作。</td>
+<td nowrap>RIGVid 从筛选后的生成视频提取 6D 物体轨迹，在 4 个真实任务上达到 85% 成功率，对比 ReKep 为 50%。</td>
+<td nowrap>不是灵巧手论文；失败主要来自单目深度和位姿估计误差，另有一次夹爪滑落失败。</td>
 <td nowrap>-</td>
+<td nowrap>抓取/重定向流程隐含平行夹爪末端</td>
 <td nowrap>-</td>
-<td nowrap>-</td>
-<td nowrap>-</td>
-<td nowrap>-</td>
-<td nowrap>-</td>
-<td nowrap>-</td>
-<td nowrap>生成视频（来自标题）</td>
-<td nowrap>-</td>
-<td nowrap><a href="https://openreview.net/forum?id=tv0Sz8A9Tc">论文</a></td>
+<td nowrap>xArm7 机械臂 + 固定 Orbbec Femto Bolt RGB-D 相机</td>
+<td nowrap>生成视频；VLM 筛选；单目深度；FoundationPose 6D 跟踪；4 个真实任务</td>
+<td nowrap>无真实物理示范；生成视频模仿</td>
+<td nowrap>项目</td>
+<td nowrap><a href="https://arxiv.org/abs/2507.00990">论文</a> / <a href="https://rigvid-robot.github.io/">项目</a></td>
 </tr>
 <tr>
 <td nowrap>ICLR 2026</td>
 <td nowrap><a href="https://openreview.net/forum?id=wySMuWHmt4">Primary-Fine Decoupling for Action Generation in Robotic Imitation</a></td>
 <td nowrap>机器人模仿学习中的 primary/fine 解耦动作生成。</td>
-<td nowrap>-</td>
-<td nowrap>-</td>
-<td nowrap>-</td>
-<td nowrap>-</td>
-<td nowrap>-</td>
-<td nowrap>-</td>
-<td nowrap>-</td>
-<td nowrap>-</td>
-<td nowrap>-</td>
-<td nowrap><a href="https://openreview.net/forum?id=wySMuWHmt4">论文</a></td>
+<td nowrap>PF-DAG 在 56 个 Adroit/DexArt/MetaWorld 任务和真实触觉操作任务上优于模仿学习 baseline。</td>
+<td nowrap>真实失败仍出现在分布外物体位置和间歇性触觉噪声场景。</td>
+<td nowrap>仿真中 Shadow Hand、Allegro Hand；真实任务中 ROBOTERA XHand</td>
+<td nowrap>真实 XHand 平台使用 12-DoF 手；xArm 额外 7 DoF</td>
+<td nowrap>5 个指尖，每指 120 个 tactile taxels，3D force vector 读数</td>
+<td nowrap>UFACTORY xArm7 + 二指夹爪；xArm + ROBOTERA XHand</td>
+<td nowrap>Adroit/DexArt/MetaWorld；MuJoCo/IsaacGym；脚本/RL expert demos；真实点云/本体感知/触觉日志</td>
+<td nowrap>xArm 夹爪用 GELLO；XHand 用 Meta Quest 3 手部跟踪 + AnyTeleop 重定向</td>
+<td nowrap>代码</td>
+<td nowrap><a href="https://arxiv.org/abs/2602.21684">论文</a> / <a href="https://xiaohanlei.github.io/projects/PF-DAG/">项目</a> / <a href="https://github.com/XiaohanLei/PF-DAG">代码</a></td>
 </tr>
 <tr>
 <td nowrap>ICLR 2026</td>
 <td nowrap><a href="https://openreview.net/forum?id=13jshGCK9i">D-REX: Differentiable Real-to-Sim-to-Real Engine for Learning Dexterous Grasping</a></td>
 <td nowrap>用可微 real-to-sim-to-real 引擎学习灵巧抓取。</td>
-<td nowrap>-</td>
-<td nowrap>-</td>
-<td nowrap>-</td>
-<td nowrap>-</td>
-<td nowrap>-</td>
-<td nowrap>-</td>
-<td nowrap>real-to-sim-to-real 引擎（来自标题）</td>
-<td nowrap>-</td>
-<td nowrap>-</td>
-<td nowrap><a href="https://openreview.net/forum?id=13jshGCK9i">论文</a></td>
+<td nowrap>构建可微 MuJoCo/MJCF 数字孪生，识别物体质量，并从人类 RGB 示范训练 force-aware 抓取策略。</td>
+<td nowrap>当前范围是刚体且偏 object-specific；对 Inspire 这类 linkage-driven hand 的力控效果未知。</td>
+<td nowrap>Allegro Hand；LEAP Hand</td>
+<td nowrap>两种手均为 16 个独立驱动 DoF；direct-drive brushless motors；LEAP 支持电流/力矩限制</td>
+<td nowrap>无触觉阵列；使用视觉 6D 位姿和 actuator current/torque limits 做 force-aware 控制</td>
+<td nowrap>7-DoF Franka Emika Panda + Allegro/LEAP；Intel RealSense D435i 或 iPhone 扫描</td>
+<td nowrap>MuJoCo 可微物理；由 Gaussian/mesh 重建得到 MJCF 资产；Dex-Retargeting 人类 RGB 示范</td>
+<td nowrap>人类 RGB 视频经 Dex-Retargeting 转为机器人示范</td>
+<td nowrap>代码</td>
+<td nowrap><a href="https://arxiv.org/abs/2603.01151">论文</a> / <a href="https://drex.github.io/">项目</a> / <a href="https://github.com/louhz/D-rex">代码</a></td>
 </tr>
 <tr>
 <td nowrap>ICLR 2026</td>
 <td nowrap><a href="https://openreview.net/forum?id=RYwQ0xQcAh">Interaction-aware Representation Modeling With Co-Occurrence Consistency for Egocentric Hand-Object Parsing</a></td>
 <td nowrap>面向第一视角手-物体解析的交互感知表示学习。</td>
+<td nowrap>InterFormer 通过 contact-aware query 和 co-occurrence consistency 提升 EgoHOS in-domain/OOD 与 mini-HOI4D 手-物体分割。</td>
+<td nowrap>纯感知方法；不是机器人灵巧手、触觉、控制或 SDK 贡献。</td>
 <td nowrap>-</td>
 <td nowrap>-</td>
+<td nowrap>基于视觉的手-物体接触解析，不是触觉传感</td>
 <td nowrap>-</td>
-<td nowrap>-</td>
-<td nowrap>-</td>
-<td nowrap>-</td>
-<td nowrap>第一视角手-物体解析</td>
-<td nowrap>第一视角数据（来自标题）</td>
-<td nowrap>-</td>
-<td nowrap><a href="https://openreview.net/forum?id=RYwQ0xQcAh">论文</a></td>
+<td nowrap>EgoHOS；mini-HOI4D；含手/物体 mask 的第一视角图像</td>
+<td nowrap>第一视角人类交互数据</td>
+<td nowrap>论文接收后承诺发布代码/模型</td>
+<td nowrap><a href="https://arxiv.org/abs/2602.20597">论文</a> / <a href="https://github.com/yuggiehk/InterFormer">代码</a></td>
 </tr>
 <tr>
 <td nowrap>AAAI 2026</td>
 <td nowrap><a href="https://ojs.aaai.org/index.php/AAAI/article/view/38873">GRIM: Task-Oriented Grasping with Conditioning on Generative Examples</a></td>
 <td nowrap>用生成样例条件化任务导向抓取。</td>
-<td nowrap>AAAI 元数据确认论文题目和机器人 track 条目。</td>
+<td nowrap>用网页图像、人类示范和生成样例组成小型 memory，迁移 6D 任务导向平行夹爪抓取；在 TaskGrasp 和 Kinova Gen3 Lite 上验证。</td>
+<td nowrap>不是灵巧手硬件论文；语义对齐质量和生成/网页样例质量仍是主要失败来源。</td>
 <td nowrap>-</td>
+<td nowrap>6D 平行夹爪位姿</td>
 <td nowrap>-</td>
-<td nowrap>-</td>
-<td nowrap>-</td>
-<td nowrap>-</td>
-<td nowrap>-</td>
-<td nowrap>-</td>
-<td nowrap>-</td>
-<td nowrap><a href="https://ojs.aaai.org/index.php/AAAI/article/view/38873">论文</a></td>
+<td nowrap>Kinova Gen3 Lite 机械臂</td>
+<td nowrap>TaskGrasp；210 个 memory 实例，来自 180 个生成帧、15 张网页图像和 15 条人类示范</td>
+<td nowrap>网页图像、人类示范和生成视频</td>
+<td nowrap>项目/代码/数据</td>
+<td nowrap><a href="https://arxiv.org/abs/2506.15607">论文</a> / <a href="https://grim-tog.github.io/">项目</a></td>
 </tr>
 <tr>
 <td nowrap>AAAI 2026</td>
 <td nowrap><a href="https://ojs.aaai.org/index.php/AAAI/article/view/38874">Dexterous Manipulation Transfer via Progressive Kinematic-Dynamic Alignment</a></td>
 <td nowrap>通过渐进式运动学/动力学对齐做灵巧操作迁移。</td>
-<td nowrap>AAAI 元数据确认论文题目和机器人 track 条目。</td>
+<td nowrap>通过分阶段运动学和动力学/接触对齐从人类操作视频迁移，平均 transfer success 约 73%。</td>
+<td nowrap>Allegro、LEAP 等较大的手在小型或细长物体上仍困难；动态多接触变化仍是未来工作。</td>
+<td nowrap>Adroit Hand、Allegro Hand、LEAP Hand</td>
+<td nowrap>LEAP/Allegro 为 16 DoF；Adroit 为 24 DoF</td>
+<td nowrap>来自数据集或仿真的接触点/接触奖励，不是触觉硬件</td>
+<td nowrap>真实演示中 LEAP Hand 安装在机器人臂末端</td>
+<td nowrap>GRAB、DexYCB、ARCTIC；带接触/动力学优化的仿真迁移</td>
+<td nowrap>离线人类视频/示范数据集</td>
 <td nowrap>-</td>
-<td nowrap>-</td>
-<td nowrap>-</td>
-<td nowrap>-</td>
-<td nowrap>-</td>
-<td nowrap>-</td>
-<td nowrap>-</td>
-<td nowrap>-</td>
-<td nowrap><a href="https://ojs.aaai.org/index.php/AAAI/article/view/38874">论文</a></td>
+<td nowrap><a href="https://arxiv.org/abs/2511.10987">论文</a> / <a href="https://ojs.aaai.org/index.php/AAAI/article/view/38874">AAAI</a></td>
 </tr>
 <tr>
 <td nowrap>AAAI 2026</td>
 <td nowrap><a href="https://ojs.aaai.org/index.php/AAAI/article/view/38892">Learning Object-Centric Motion Priors from Human for Robotic Dexterous Manipulation</a></td>
 <td nowrap>从人类运动学习物体中心运动先验，用于机器人灵巧操作。</td>
-<td nowrap>AAAI 元数据确认论文题目和机器人 track 条目。</td>
+<td nowrap>从 HOI 数据预测未来手-物体状态，并用 object-centric prior 引导抓取、铰接物体和避障任务中的 RL。</td>
+<td nowrap>无触觉传感器；接触来自 SAPIEN collision check，真实部署依赖物体位姿跟踪/标定。</td>
+<td nowrap>PSYONIC Ability Hand、ROBOTERA XHand1、Inspire Hand</td>
 <td nowrap>-</td>
-<td nowrap>-</td>
-<td nowrap>-</td>
-<td nowrap>-</td>
-<td nowrap>-</td>
-<td nowrap>人类运动先验（来自标题）</td>
-<td nowrap>人类运动（来自标题）</td>
+<td nowrap>仿真 collision contact，不是触觉传感</td>
+<td nowrap>两台 xArm-7 + 灵巧手 + RealSense D435i</td>
+<td nowrap>DexYCB 和 ARCTIC HOI 数据；SAPIEN3/OpenAI-Gymnasium；1,024 并行环境</td>
+<td nowrap>人-物交互数据集，不是在线遥操作</td>
 <td nowrap>-</td>
 <td nowrap><a href="https://ojs.aaai.org/index.php/AAAI/article/view/38892">论文</a></td>
 </tr>
@@ -10072,16 +10072,16 @@ WAM 将未来世界状态预测和动作生成合在一起，适合放在 agent 
 <td nowrap>AAAI 2026</td>
 <td nowrap><a href="https://ojs.aaai.org/index.php/AAAI/article/view/38940">GraphGrasp: Lightweight and Efficient Graph-Guided 6-DoF Robotic Grasp Pose Estimation Network</a></td>
 <td nowrap>轻量图引导 6-DoF 机器人抓取位姿估计。</td>
-<td nowrap>AAAI 元数据确认论文题目和机器人 track 条目。</td>
-<td nowrap>6-DoF 抓取位姿估计，而不是灵巧手硬件论文。</td>
+<td nowrap>在 GraspNet-1Billion 和真实抓取位姿检测中评估 graph-guided 6-DoF grasp pose prediction，参数量少于 baseline。</td>
+<td nowrap>平行夹爪位姿估计器，不是灵巧手硬件论文；未报告触觉/接触丰富策略。</td>
 <td nowrap>-</td>
-<td nowrap>6-DoF 抓取位姿估计</td>
+<td nowrap>6-DoF 平行夹爪位姿和 opening width</td>
 <td nowrap>-</td>
+<td nowrap>真实抓取位姿检测使用 Intel RealSense D435</td>
+<td nowrap>GraspNet-1Billion 数据集；点云 graph grasp prediction</td>
 <td nowrap>-</td>
-<td nowrap>-</td>
-<td nowrap>-</td>
-<td nowrap>-</td>
-<td nowrap><a href="https://ojs.aaai.org/index.php/AAAI/article/view/38940">论文</a></td>
+<td nowrap>代码</td>
+<td nowrap><a href="https://ojs.aaai.org/index.php/AAAI/article/view/38940">论文</a> / <a href="https://github.com/BIT-robot-group/GraphGrasp">代码</a></td>
 </tr>
 <tr>
 <td nowrap>AAAI 2026</td>
@@ -10102,13 +10102,13 @@ WAM 将未来世界状态预测和动作生成合在一起，适合放在 agent 
 <td nowrap>AAAI 2026</td>
 <td nowrap><a href="https://ojs.aaai.org/index.php/AAAI/article/view/38957">Effective Robotic Cloth Grasping Through Suppressing False Discoveries</a></td>
 <td nowrap>通过抑制 false discoveries 提升机器人布料抓取。</td>
-<td nowrap>AAAI 元数据确认论文题目和机器人 track 条目。</td>
-<td nowrap>已查元数据页未提供具体手型/平台细节。</td>
+<td nowrap>结合无标注布料分割和基于深度/皱褶的抓取点选择，并部署 Baxter 布料收纳系统。</td>
+<td nowrap>不是灵巧手论文；方法面向布料，基于视觉/深度，没有使用触觉反馈。</td>
 <td nowrap>-</td>
 <td nowrap>-</td>
 <td nowrap>-</td>
-<td nowrap>-</td>
-<td nowrap>-</td>
+<td nowrap>Baxter 机器人 + RGB-D/深度感知</td>
+<td nowrap>真实杂乱布料实验；无监督分割；深度皱褶分析</td>
 <td nowrap>-</td>
 <td nowrap>-</td>
 <td nowrap><a href="https://ojs.aaai.org/index.php/AAAI/article/view/38957">论文</a></td>
@@ -10222,16 +10222,16 @@ WAM 将未来世界状态预测和动作生成合在一起，适合放在 agent 
 <td nowrap>CVPR 2025</td>
 <td nowrap><a href="https://cvpr.thecvf.com/virtual/2025/poster/32440">ZeroGrasp: Zero-Shot Shape Reconstruction Enabled Robotic Grasping</a></td>
 <td nowrap>用零样本形状重建辅助机器人抓取。</td>
-<td nowrap>公开项目/代码确认方法目标和代码发布。</td>
+<td nowrap>联合预测 3D 形状重建和 6D 抓取位姿，用 ZeroGrasp-11B 训练，并在 GraspNet-1B 和真实 Franka/Robotiq 实验中评估。</td>
+<td nowrap>是平行夹爪抓取，不是灵巧手硬件；依赖遮挡场景下 RGB-D 重建质量。</td>
 <td nowrap>-</td>
+<td nowrap>二指平行夹爪模型；真实平台使用 Robotiq 2F-85</td>
 <td nowrap>-</td>
-<td nowrap>-</td>
-<td nowrap>-</td>
-<td nowrap>-</td>
-<td nowrap>面向抓取的形状重建</td>
+<td nowrap>Franka Emika Panda + Robotiq 2F-85</td>
+<td nowrap>ZeroGrasp-11B：1M RGB-D 图像、11.3B 个 6D 抓取标注、12K 个 Objaverse-LVIS 物体；GraspNet-1B benchmark</td>
 <td nowrap>-</td>
 <td nowrap>代码</td>
-<td nowrap><a href="https://cvpr.thecvf.com/virtual/2025/poster/32440">论文</a> / <a href="https://sh8.io/#/zerograsp">项目</a> / <a href="https://github.com/sh8/ZeroGrasp">代码</a></td>
+<td nowrap><a href="https://arxiv.org/abs/2504.10857">论文</a> / <a href="https://cvpr.thecvf.com/virtual/2025/poster/32440">CVPR</a> / <a href="https://sh8.io/#/zerograsp">项目</a> / <a href="https://github.com/sh8/ZeroGrasp">代码</a></td>
 </tr>
 </tbody>
 </table>
@@ -10264,14 +10264,14 @@ WAM 将未来世界状态预测和动作生成合在一起，适合放在 agent 
 <td nowrap><a href="https://arxiv.org/abs/2410.24091">3D-ViTac: Learning Fine-Grained Manipulation with Visuo-Tactile Sensing</a></td>
 <td nowrap>用 3D 视觉-触觉点表示学习精细操作。</td>
 <td nowrap>visuo-tactile</td>
-<td nowrap>视觉点 + 触觉点投影到同一 3D 空间</td>
+<td nowrap>4 个触觉 pad，每个 16x16 / 256 单元，3 mm^2 每 sensing point；双手系统共 1,024 个触觉单元</td>
 <td nowrap>是</td>
 <td nowrap>蒸蛋、插入、葡萄抓取等精细操作</td>
-<td nowrap>3D-ViTac 视觉触觉传感硬件</td>
-<td nowrap>-</td>
-<td nowrap>真实机器人演示；硬件教程/代码</td>
+<td nowrap>软鳍形夹爪上的 3D-ViTac 视觉触觉 pad；RealSense RGB-D 相机</td>
+<td nowrap>双手机器人遥操作系统，含两台 master robot 和两台 puppet robot</td>
+<td nowrap>10 Hz 真实机器人演示；触觉传感器、多视角 RGB-D、动作和关节状态；硬件教程/代码</td>
 <td nowrap>把触觉表示为 3D 触觉点，并用于精细操作策略学习。</td>
-<td nowrap>-</td>
+<td nowrap>硬件为自研，任务演示限于论文报告的双手平台。</td>
 <td nowrap><a href="https://arxiv.org/abs/2410.24091">论文</a> / <a href="https://binghao-huang.github.io/3D-ViTac/">项目</a> / <a href="https://github.com/binghao-huang/3D-ViTac_Tactile_Hardware">硬件</a></td>
 </tr>
 <tr>
@@ -10294,14 +10294,14 @@ WAM 将未来世界状态预测和动作生成合在一起，适合放在 agent 
 <td nowrap><a href="https://proceedings.mlr.press/v205/zhong23a.html">Touching a NeRF: Leveraging Neural Radiance Fields for Tactile Sensory Data Generation</a></td>
 <td nowrap>利用物体 NeRF 表示生成触觉感知数据。</td>
 <td nowrap>optical tactile</td>
-<td nowrap>-</td>
+<td nowrap>DIGIT 触觉图像；通过 TACTO 仿真 DIGIT；包含 OmniTact 迁移实验</td>
 <td nowrap>否</td>
 <td nowrap>触觉数据生成 / 感知训练</td>
-<td nowrap>-</td>
-<td nowrap>-</td>
-<td nowrap>基于 NeRF 的触觉数据生成</td>
-<td nowrap>说明 NeRF 可用于支持触觉感知数据生成。</td>
-<td nowrap>已查页面未提供硬件密度和闭环机器人设置。</td>
+<td nowrap>DIGIT 传感器安装在机器人末端；OmniTact 用于仿真迁移测试</td>
+<td nowrap>机器人末端触觉数据采集平台</td>
+<td nowrap>YCB 物体；NeRF-rendered RGB-D；cGAN 触觉生成；398 次真实触摸 / 19,900 帧；TACTO 仿真数据</td>
+<td nowrap>可生成新视角物体的触觉图像，并用生成数据提升触觉分类。</td>
+<td nowrap>每个物体都需要训练 NeRF；主要面向刚体和数据生成，不是闭环控制。</td>
 <td nowrap><a href="https://proceedings.mlr.press/v205/zhong23a.html">论文</a> / <a href="https://proceedings.mlr.press/v205/zhong23a/zhong23a.pdf">PDF</a></td>
 </tr>
 <tr>
@@ -10339,15 +10339,15 @@ WAM 将未来世界状态预测和动作生成合在一起，适合放在 agent 
 <td nowrap><a href="https://openreview.net/forum?id=dT3ZciXvNX">DexMove: Learning Tactile-Guided Non-Prehensile Manipulation with Dexterous Hands</a></td>
 <td nowrap>学习触觉引导的灵巧手非抓取物体移动。</td>
 <td nowrap>optical tactile</td>
-<td nowrap>可穿戴多指视觉触觉接触数据</td>
+<td nowrap>可穿戴多指视觉触觉传感器；基于 PP-Tac 的 gel 表面 marker displacement</td>
 <td nowrap>是</td>
 <td nowrap>非抓取桌面物体移动；分类/整理演示</td>
-<td nowrap>用于人类接触数据的可穿戴视觉触觉设备</td>
+<td nowrap>用于人类接触数据的可穿戴视觉触觉设备；PP-Tac 派生触觉传感器</td>
 <td nowrap>-</td>
-<td nowrap>仿真轨迹 + 人类触觉示范 + flow policy</td>
-<td nowrap>结合力感知轨迹合成和触觉示范，实现实时腕-指协同控制。</td>
-<td nowrap>精确手型、触觉密度和 SDK 未在项目页公开。</td>
-<td nowrap><a href="https://openreview.net/forum?id=dT3ZciXvNX">论文</a> / <a href="https://peilin-666.github.io/projects/DexMove/">项目</a></td>
+<td nowrap>物理仿真轨迹剪枝和力增强；人类触觉示范；flow policy</td>
+<td nowrap>真实实验操控 6 个不同形状/材质物体，成功率 77.8%，并结合合成 force-aware 轨迹和触觉示范。</td>
+<td nowrap>公开项目页未说明目标机器人手型号/DoF 或机器人 SDK。</td>
+<td nowrap><a href="https://openreview.net/forum?id=dT3ZciXvNX">论文</a> / <a href="https://peilin-666.github.io/projects/DexMove/">项目</a> / <a href="https://github.com/bigai-ai/PP-Tac/tree/main">PP-Tac 代码</a></td>
 </tr>
 <tr>
 <td nowrap>ICLR 2026</td>
@@ -10384,45 +10384,45 @@ WAM 将未来世界状态预测和动作生成合在一起，适合放在 agent 
 <td nowrap><a href="https://ojs.aaai.org/index.php/AAAI/article/view/38882">STOLA: Self-Adaptive Touch-Language Framework for Tactile Commonsense Reasoning in Open-Ended Scenarios</a></td>
 <td nowrap>开放场景中的触觉-语言常识推理。</td>
 <td nowrap>touch-language</td>
-<td nowrap>-</td>
+<td nowrap>单帧触觉图像和触觉 time-series；GelSight 和 GelSight Mini 配置</td>
 <td nowrap>否</td>
-<td nowrap>触觉常识推理</td>
+<td nowrap>开放式触觉常识 QA 和推理</td>
+<td nowrap>GelSight / GelSight Mini 数据源</td>
 <td nowrap>-</td>
-<td nowrap>-</td>
-<td nowrap>touch-language reasoning framework</td>
-<td nowrap>AAAI 摘要指出目标是解决模态差异和开放式触觉常识推理。</td>
-<td nowrap>-</td>
-<td nowrap><a href="https://ojs.aaai.org/index.php/AAAI/article/view/38882">论文</a></td>
+<td nowrap>PHYSICLEAR、TactileBench、Touch100k 派生/自建 tactile instruction 数据</td>
+<td nowrap>提出 MoE-based touch-language reasoning，并构建覆盖 8 类属性和 4 类交互特性的自由问答触觉常识基准。</td>
+<td nowrap>只做表征/推理基准；没有闭环机器人控制或触觉操作硬件。</td>
+<td nowrap><a href="https://arxiv.org/abs/2505.04201">论文</a> / <a href="https://cocacola-lab.github.io/SToLa-Page/">项目</a></td>
 </tr>
 <tr>
 <td nowrap>AAAI 2026</td>
 <td nowrap><a href="https://ojs.aaai.org/index.php/AAAI/article/view/38915">TouchFormer: A Robust Transformer-based Framework for Multimodal Material Perception</a></td>
 <td nowrap>鲁棒多模态材料感知。</td>
-<td nowrap>visuo-tactile</td>
-<td nowrap>-</td>
+<td nowrap>force/torque</td>
+<td nowrap>uSkin 指尖传感器测量法向力、摩擦力和加速度；多模态声音/触觉序列</td>
 <td nowrap>否</td>
-<td nowrap>材料感知</td>
-<td nowrap>-</td>
-<td nowrap>-</td>
-<td nowrap>Transformer 多模态感知</td>
-<td nowrap>AAAI 元数据确认其关注多模态材料感知。</td>
-<td nowrap>-</td>
-<td nowrap><a href="https://ojs.aaai.org/index.php/AAAI/article/view/38915">论文</a></td>
+<td nowrap>无视觉材料分类和材料分拣</td>
+<td nowrap>uSkin 触觉指尖；RealMan RM65-B 6-DoF 机械臂 + TESOLLO 手用于分拣演示</td>
+<td nowrap>RealMan RM65-B + TESOLLO</td>
+<td nowrap>LMTHM 和 FISHM 材料数据集；先在 LMTHM 训练，再用 FISHM 微调</td>
+<td nowrap>在 noisy/missing modalities 下提升鲁棒多模态材料感知，并验证机器人材料分拣场景。</td>
+<td nowrap>属于感知引导分拣演示，不是闭环力控操作策略。</td>
+<td nowrap><a href="https://arxiv.org/abs/2511.19509">论文</a></td>
 </tr>
 <tr>
 <td nowrap>AAAI 2026</td>
 <td nowrap><a href="https://ojs.aaai.org/index.php/AAAI/article/view/38956">Collaborative Representation Learning for Alignment of Tactile, Language, and Vision Modalities</a></td>
 <td nowrap>对齐触觉、语言和视觉表征。</td>
 <td nowrap>visuo-tactile / touch-language</td>
-<td nowrap>-</td>
+<td nowrap>GelSight、DIGIT、DuraGel、GelSight Mini 数据集；TacQuad 约 55k 样本</td>
 <td nowrap>否</td>
 <td nowrap>跨模态表示学习</td>
+<td nowrap>GelSight/DIGIT 风格触觉图像数据集</td>
 <td nowrap>-</td>
-<td nowrap>-</td>
-<td nowrap>TLV-CoRe；触觉-语言-视觉对齐</td>
-<td nowrap>根据 AAAI 元数据，提升 sensor-agnostic 表征学习和跨模态对齐。</td>
-<td nowrap>-</td>
-<td nowrap><a href="https://ojs.aaai.org/index.php/AAAI/article/view/38956">论文</a></td>
+<td nowrap>TAG、Octopi、TacQuad 等真实触觉数据集；RSS 评估框架</td>
+<td nowrap>TLV-CoRe 使用 SAM/UBA 降低 sensor-specific bias，提升 sensor-agnostic 触觉-语言-视觉对齐。</td>
+<td nowrap>未报告真实机器人或实时操作评估；扩展到实时任务被列为未来工作。</td>
+<td nowrap><a href="https://arxiv.org/abs/2511.11512">论文</a> / <a href="https://ojs.aaai.org/index.php/AAAI/article/view/38956">AAAI</a></td>
 </tr>
 <tr>
 <td nowrap>ICML 2026</td>
@@ -10444,15 +10444,15 @@ WAM 将未来世界状态预测和动作生成合在一起，适合放在 agent 
 <td nowrap><a href="https://icml.cc/virtual/2026/poster/65669">Tabero: Learning Gentle Manipulation with Closed-Loop Force Feedback from Vision, Touch, and Language</a></td>
 <td nowrap>从视觉、触觉、语言和力反馈学习轻柔操作。</td>
 <td nowrap>force/torque / visuo-tactile / touch-language</td>
-<td nowrap>ContactForce 和 GelSight 环境；force-field / 触觉图像 / 力向量输入</td>
+<td nowrap>模拟 GelSight 320x240 RGB 触觉图像；左右指尖 3D force vectors；20 Hz 同步采样</td>
 <td nowrap>是</td>
 <td nowrap>轻柔/用力抓取和带力控操作</td>
-<td nowrap>Franka / Panda 风格 contact gripper 环境；仓库文档含 GelSight 和力传感器</td>
-<td nowrap>Isaac Lab / Isaac Sim 环境</td>
-<td nowrap>Tabero benchmark/model suite；LeRobot/OpenPI 转换</td>
-<td nowrap>在轻柔语言指令下保持较高成功率并降低平均夹持力。</td>
-<td nowrap>-</td>
-<td nowrap><a href="https://icml.cc/virtual/2026/poster/65669">论文</a> / <a href="https://github.com/NathanWu7/Tabero">代码</a></td>
+<td nowrap>Isaac Lab/Isaac Sim 中带触觉的 Franka gripper</td>
+<td nowrap>Franka 风格触觉夹爪仿真</td>
+<td nowrap>Tabero benchmark/model suite；重放开源轨迹并生成 vision/tactile/force/language/action；LeRobot/OpenPI 转换</td>
+<td nowrap>force-position controller 在保持任务成功率的同时，让 gentle 指令下平均夹持力降低超过 70%。</td>
+<td nowrap>当前框架尚未解决 ultra-gentle regime，也尚未真实物理部署。</td>
+<td nowrap><a href="https://arxiv.org/abs/2605.27886">论文</a> / <a href="https://github.com/NathanWu7/Tabero">代码</a></td>
 </tr>
 <tr>
 <td nowrap>NeurIPS 2025</td>
@@ -10504,14 +10504,14 @@ WAM 将未来世界状态预测和动作生成合在一起，适合放在 agent 
 <td nowrap><a href="https://arxiv.org/abs/2511.16596">Toward Artificial Palpation: Representation Learning of Touch on Soft Bodies</a></td>
 <td nowrap>学习软体触诊的触觉表征。</td>
 <td nowrap>force/torque</td>
-<td nowrap>-</td>
+<td nowrap>单个 Xela uSkin 触觉传感器，含 30 个 3D force sensors，85 Hz；PalpationSim 建模 16 个 2D sensor points</td>
 <td nowrap>否</td>
 <td nowrap>自动 poking / palpation；MRI 重建和变化检测</td>
-<td nowrap>机器人手臂；Xela 触觉数据</td>
-<td nowrap>机器人手臂触诊自制软体物体</td>
-<td nowrap>PalpationSim 2D FEM；真实软体 + MRI 数据；Zenodo 数据</td>
+<td nowrap>Franka Emika Panda 机械臂 + Xela uSkin 触觉传感器</td>
+<td nowrap>Franka Emika Panda 触诊平台</td>
+<td nowrap>PalpationSim 2D FEM；真实软体 + MRI 数据；约 30M instant sensor readings；Zenodo 数据</td>
 <td nowrap>从触诊序列学习表征，并发布仿真和真实数据。</td>
-<td nowrap>作者明确说明仿真不追求真实；医学级部署还未解决。</td>
+<td nowrap>作者明确说明仿真不追求真实；未解决传感器运动规划，医学级部署也未解决。</td>
 <td nowrap><a href="https://arxiv.org/abs/2511.16596">论文</a> / <a href="https://zoharri.github.io/artificial-palpation/">项目</a> / <a href="https://github.com/zoharri/ArtificialPalpation">代码</a> / <a href="https://zenodo.org/records/17608184">数据</a></td>
 </tr>
 <tr>
@@ -10519,12 +10519,12 @@ WAM 将未来世界状态预测和动作生成合在一起，适合放在 agent 
 <td nowrap><a href="https://arxiv.org/abs/2507.15062v1">Touch in the Wild: Learning Fine-Grained Manipulation with a Portable Visuo-Tactile Gripper</a></td>
 <td nowrap>采集野外视觉触觉示范，并学习精细操作策略。</td>
 <td nowrap>visuo-tactile</td>
-<td nowrap>便携式视觉触觉夹爪；2700+ 示范、43 个任务、12 个环境、2.6M 视觉触觉对</td>
+<td nowrap>两个 12x32 tactile pads 组成 1x24x32 tactile image；触觉流 23 Hz；GoPro Hero 9 60 Hz + QR 同步</td>
 <td nowrap>是</td>
 <td nowrap>试管插入、铅笔插入、液体转移、白板擦除</td>
-<td nowrap>便携式视觉触觉夹爪；触觉传感器；GoPro/UMI 风格数据链</td>
-<td nowrap>仓库写明 xArm 850 部署；手持夹爪采集数据</td>
-<td nowrap>Hugging Face 数据集；SLAM + 触觉日志；扩散策略训练</td>
+<td nowrap>带软鳍形手指和 Arduino-based PCB 的便携手持视觉触觉夹爪</td>
+<td nowrap>xArm 850 使用同样传感配置；手持夹爪用于数据采集</td>
+<td nowrap>2.6M 视觉触觉对、2,700+ 示范、43 个任务、12 个环境；ROS2 触觉日志；扩散策略训练</td>
 <td nowrap>触觉预训练提升数据效率，并增强遮挡/扰动下的鲁棒性。</td>
 <td nowrap>便携硬件改善数据采集，但仍需要按任务训练策略。</td>
 <td nowrap><a href="https://arxiv.org/abs/2507.15062v1">论文</a> / <a href="https://binghao-huang.github.io/touch_in_the_wild/">项目</a> / <a href="https://github.com/YolandaXinyueZhu/touch_in_the_wild">代码</a> / <a href="https://huggingface.co/datasets/binghaohuang-robot/touch_in_the_wild-dataset">HF</a></td>
