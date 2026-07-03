@@ -8844,7 +8844,7 @@ Embodiment expansion determines whether embodied AI can move beyond single-arm s
 
 Subdirections: humanoid, bimanual, dexterous hand, and tactile/contact-rich.
 
-Total: 99 papers.
+Total: 114 papers.
 
 <table>
 <thead>
@@ -8867,12 +8867,12 @@ Total: 99 papers.
 </tr>
 <tr>
 <td nowrap>dexterous hand</td>
-<td nowrap>35</td>
+<td nowrap>40</td>
 <td nowrap>Focus on dexterous-hand action spaces and grasp transfer.</td>
 </tr>
 <tr>
 <td nowrap>tactile/contact-rich</td>
-<td nowrap>18</td>
+<td nowrap>28</td>
 <td nowrap>Focus on tactile sensing, contact dynamics, and fine-grained feedback.</td>
 </tr>
 </tbody>
@@ -9637,17 +9637,17 @@ Total: 13 papers.
 <tr>
 <td nowrap>General dexterous grasping</td>
 <td nowrap>Arbitrary-object, language-conditioned, and task-oriented grasping</td>
-<td nowrap>Large-scale simulated grasping and diffusion-based grasp generation now have multiple baselines</td>
-<td nowrap>Real-world generalization, physical feasibility, and complex contact remain unstable</td>
-<td nowrap>DexGraspVLA / DexGrasp Anything / UniGraspTransformer</td>
+<td nowrap>Large-scale simulated grasping, cross-hand latent action spaces, and human-video pretraining now have multiple baselines</td>
+<td nowrap>Real-world generalization, physical feasibility, and contact observability remain unstable</td>
+<td nowrap>DexGraspVLA / XL-VLA / EgoScale / UniDex</td>
 <td nowrap>Multifinger hand, high DoF, vision/force feedback</td>
 </tr>
 <tr>
 <td nowrap>In-hand manipulation</td>
 <td nowrap>Rotation, reorientation, and nonprehensile movement</td>
-<td nowrap>Simulation and small real-robot task settings have working methods</td>
-<td nowrap>Contact-dynamics reality gap and long-horizon stability</td>
-<td nowrap>DexNDM / NoContactNoWorries / DexMove</td>
+<td nowrap>Simulation, small real-robot task settings, and tactile-reactive policies have working methods</td>
+<td nowrap>Contact-dynamics reality gap, sensor coverage, and long-horizon stability</td>
+<td nowrap>DexNDM / NoContactNoWorries / T-Rex / PP-Tac</td>
 <td nowrap>Dexterous hand, proprioception, contact/tactile feedback</td>
 </tr>
 <tr>
@@ -9669,17 +9669,17 @@ Total: 13 papers.
 <tr>
 <td nowrap>Tactile representation</td>
 <td nowrap>Optical tactile, cross-sensor representation, and tactile-language alignment</td>
-<td nowrap>Single-sensor and cross-modal representations have clear progress</td>
+<td nowrap>Single-sensor, cross-sensor, and foundation tactile representations have clear progress</td>
 <td nowrap>Cross-sensor generalization, dynamic force information, and real-time closed-loop control</td>
-<td nowrap>AnyTouch 2 / Cross-Tactile / VTV-LLM</td>
+<td nowrap>AnyTouch 2 / FTP-1 / ViTaS / VTV-LLM</td>
 <td nowrap>Optical tactile sensors, force feedback, multimodal synchronization</td>
 </tr>
 <tr>
 <td nowrap>Contact-rich manipulation</td>
 <td nowrap>Insertion, sliding, cloth, soft-body, and gentle manipulation</td>
-<td nowrap>Specific tasks have policies and simulators</td>
-<td nowrap>Real contact uncertainty, sensor durability, and closed-loop control</td>
-<td nowrap>Tabero / Taccel / Touch in the Wild</td>
+<td nowrap>Specific tasks now have policies, data-collection systems, and tactile simulators</td>
+<td nowrap>Real contact uncertainty, sensor durability, task coverage, and transferable closed-loop control</td>
+<td nowrap>Tabero / Taccel / Touch in the Wild / FreeTacMan / exUMI</td>
 <td nowrap>Tactile array, force-controlled arm, simulation model</td>
 </tr>
 </tbody>
@@ -9687,7 +9687,7 @@ Total: 13 papers.
 
 **Hardware, simulation, and benchmark landscape.**
 
-_Current table mentions are counted once per paper row across the 35 dexterous-hand and 18 tactile/contact-rich papers below; they are README coverage signals, not bibliometric counts._
+_Current table mentions are counted once per paper row across the 40 dexterous-hand and 28 tactile/contact-rich papers below; they are README coverage signals, not bibliometric counts._
 
 <table>
 <thead>
@@ -9703,7 +9703,7 @@ _Current table mentions are counted once per paper row across the 35 dexterous-h
 <tbody>
 <tr>
 <td nowrap>Franka Emika Panda / Franka Research 3</td>
-<td nowrap>12</td>
+<td nowrap>16</td>
 <td nowrap>Most common carrier arm for dexterous hands, tactile grippers, and baseline grasping</td>
 <td nowrap><a href="https://frankarobotics.github.io/docs/">FCI docs</a> / <a href="https://github.com/frankarobotics/franka_ros2">franka_ros2</a> / <a href="https://github.com/frankarobotics/franka_description">models</a></td>
 <td nowrap>Strong real-robot SDK/ROS2 and public URDF descriptions; hand mounts, tactile mounts, and sim controllers are usually paper-specific</td>
@@ -9711,7 +9711,7 @@ _Current table mentions are counted once per paper row across the 35 dexterous-h
 </tr>
 <tr>
 <td nowrap>Intel RealSense RGB-D</td>
-<td nowrap>11</td>
+<td nowrap>12</td>
 <td nowrap>External RGB-D perception for pose, point clouds, and policy input</td>
 <td nowrap><a href="https://github.com/realsenseai/librealsense">librealsense</a></td>
 <td nowrap>Good SDK support for real rigs; it provides vision/depth, not contact or force sensing</td>
@@ -9719,7 +9719,7 @@ _Current table mentions are counted once per paper row across the 35 dexterous-h
 </tr>
 <tr>
 <td nowrap>Allegro Hand</td>
-<td nowrap>11</td>
+<td nowrap>14</td>
 <td nowrap>Four-finger dexterous hand used for rotation, articulated-object manipulation, and cross-hand transfer</td>
 <td nowrap><a href="https://www.allegrohand.com/">official</a> / <a href="https://github.com/simlabrobotics/allegro_hand_ros">ROS</a> / <a href="https://github.com/simlabrobotics/allegro_hand_ros_v4">ROS v4</a></td>
 <td nowrap>Public ROS stack and recurring Isaac Gym / MuJoCo / DexArt usage; dense tactile sensing is not standard and is added case by case</td>
@@ -9727,7 +9727,7 @@ _Current table mentions are counted once per paper row across the 35 dexterous-h
 </tr>
 <tr>
 <td nowrap>LEAP Hand</td>
-<td nowrap>9</td>
+<td nowrap>10</td>
 <td nowrap>Low-cost 16-DoF dexterous hand for in-hand manipulation, retargeting, and sim-to-real</td>
 <td nowrap><a href="https://github.com/leap-hand/LEAP_Hand_API">API</a> / <a href="https://github.com/leap-hand">GitHub org</a></td>
 <td nowrap>Public Python/C++/ROS/ROS2 API plus Isaac Gym and Isaac Lab repositories are visible; tactile is usually absent or external</td>
@@ -9735,7 +9735,7 @@ _Current table mentions are counted once per paper row across the 35 dexterous-h
 </tr>
 <tr>
 <td nowrap>Shadow Dexterous Hand</td>
-<td nowrap>8</td>
+<td nowrap>9</td>
 <td nowrap>High-DoF anthropomorphic hand and benchmark embodiment</td>
 <td nowrap><a href="https://shadowrobot.com/dexterous-hand-series/">official</a> / <a href="https://robotics.farama.org/envs/adroit_hand/index.html">Adroit</a></td>
 <td nowrap>Very common in MuJoCo/Adroit and Isaac Gym-style simulation; real hardware transfer is less plug-and-play and costly</td>
@@ -9743,15 +9743,15 @@ _Current table mentions are counted once per paper row across the 35 dexterous-h
 </tr>
 <tr>
 <td nowrap>Inspire RH56 family</td>
-<td nowrap>7</td>
+<td nowrap>8</td>
 <td nowrap>Commercial dexterous hand and humanoid end-effector</td>
 <td nowrap><a href="https://en.inspire-robots.com/product-category/the-dexterous-hands">official</a> / <a href="https://support.unitree.com/home/en/G1_developer/inspire_dfx_dexterous_hand">Unitree G1 integration note</a></td>
 <td nowrap>Several papers use Inspire-family assets or real hands; public sim/ROS evidence is less unified than LEAP or Allegro</td>
 <td nowrap>Confirm exact model, tactile option, SDK, and ROS2 support before treating it as a lab default</td>
 </tr>
 <tr>
-<td nowrap>DIGIT / OmniTact</td>
-<td nowrap>6</td>
+<td nowrap>DIGIT / Digit 360 / OmniTact</td>
+<td nowrap>7</td>
 <td nowrap>Optical tactile sensing for tactile images, touch localization, and tactile representation learning</td>
 <td nowrap><a href="https://digit.ml/digit.html">DIGIT</a> / <a href="https://github.com/facebookresearch/digit-interface">interface</a> / <a href="https://github.com/facebookresearch/tacto">TACTO</a></td>
 <td nowrap>Good open interface and TACTO simulation support; integration with dexterous hands or closed-loop policies remains custom</td>
@@ -9759,7 +9759,7 @@ _Current table mentions are counted once per paper row across the 35 dexterous-h
 </tr>
 <tr>
 <td nowrap>GelSight / GelSight Mini</td>
-<td nowrap>5</td>
+<td nowrap>6</td>
 <td nowrap>Commercial gel-based optical tactile sensing</td>
 <td nowrap><a href="https://www.gelsight.com/gelsightmini/">official</a> / <a href="https://github.com/gelsightinc/gsrobotics">SDK</a></td>
 <td nowrap>Strong real sensor ecosystem; simulation is usually via TACTO/Taxim/TacEx/Taccel-style project pipelines rather than one universal stack</td>
@@ -9767,7 +9767,7 @@ _Current table mentions are counted once per paper row across the 35 dexterous-h
 </tr>
 <tr>
 <td nowrap>XHand / ROBOTERA</td>
-<td nowrap>4</td>
+<td nowrap>6</td>
 <td nowrap>Commercial dexterous hand used in cross-hand and real-robot dexterity papers</td>
 <td nowrap><a href="https://www.robotera.com/en/goods1/4.html">official</a></td>
 <td nowrap>Current papers show usage, but public SDK/ROS2 and reusable sim assets were not found in a unified public package</td>
@@ -9775,7 +9775,7 @@ _Current table mentions are counted once per paper row across the 35 dexterous-h
 </tr>
 <tr>
 <td nowrap>xArm / UFACTORY</td>
-<td nowrap>3</td>
+<td nowrap>4</td>
 <td nowrap>Carrier arm for dexterous hands and teleoperation setups</td>
 <td nowrap><a href="https://github.com/xArm-Developer/xarm_ros2">xarm_ros2</a> / <a href="https://github.com/xArm-developer/xarm_ros">xarm_ros</a></td>
 <td nowrap>Public ROS/ROS2 packages include simulation models and control demos; dexterous-hand mounting remains custom</td>
@@ -9796,6 +9796,22 @@ _Current table mentions are counted once per paper row across the 35 dexterous-h
 <td nowrap><a href="https://robotiq.com/products/2f85-140-adaptive-robot-gripper">official</a></td>
 <td nowrap>Easy to simulate and deploy compared with dexterous hands; not a multi-finger manipulation platform</td>
 <td nowrap>Useful baseline, but should not be counted as dexterous-hand capability</td>
+</tr>
+<tr>
+<td nowrap>Sharpa Wave / Dexmate Vega-1</td>
+<td nowrap>2</td>
+<td nowrap>High-DoF tactile dexterous hand and bimanual tactile-reactive robot setup</td>
+<td nowrap><a href="https://arxiv.org/abs/2602.16710">EgoScale</a> / <a href="https://arxiv.org/abs/2606.17055">T-Rex</a></td>
+<td nowrap>Public evidence comes from paper/project descriptions; reusable public SDK/ROS2 and sim assets were not found</td>
+<td nowrap>Promising tactile-dexterity evidence, but integration risk stays high until vendor assets and APIs are confirmed</td>
+</tr>
+<tr>
+<td nowrap>Custom visuo-tactile grippers / tactile skins</td>
+<td nowrap>8</td>
+<td nowrap>Robot-free tactile data collection, portable tactile grippers, and high-coverage contact sensing</td>
+<td nowrap><a href="https://opendrivelab.com/FreeTacMan">FreeTacMan</a> / <a href="https://dex-skin.github.io/">DexSkin</a> / <a href="https://peilin-666.github.io/projects/PP-Tac/">PP-Tac</a></td>
+<td nowrap>Most systems publish project pages or code, but mechanical mounting, calibration, and runtime integration are project-specific</td>
+<td nowrap>Best current route for tactile data coverage; not yet a standard plug-and-play hand stack</td>
 </tr>
 </tbody>
 </table>
@@ -9883,6 +9899,14 @@ _Current table mentions are counted once per paper row across the 35 dexterous-h
 <td nowrap><a href="https://zoharri.github.io/artificial-palpation/">project</a> / <a href="https://github.com/zoharri/ArtificialPalpation">code</a></td>
 <td nowrap>Task-specific tactile simulation rather than a general dexterous-hand simulator</td>
 <td nowrap>Limited cross-paper reuse evidence in the current table</td>
+</tr>
+<tr>
+<td nowrap>RLBench / tactile_envs / custom tactile simulators</td>
+<td nowrap>3</td>
+<td nowrap>Multimodal policy consensus, visuo-tactile representation learning, and articulated-object tactile studies</td>
+<td nowrap><a href="https://github.com/stepjam/RLBench">RLBench</a> / <a href="https://github.com/SkyRainWind/ViTaS">ViTaS code</a> / <a href="https://vi-tacman.github.io/">Vi-TacMan</a></td>
+<td nowrap>Useful for method comparison, but each work defines different tactile observations and robot embodiments</td>
+<td nowrap>Still weaker than a shared real-hand tactile benchmark for procurement decisions</td>
 </tr>
 </tbody>
 </table>
@@ -10066,12 +10090,47 @@ _Current table mentions are counted once per paper row across the 35 dexterous-h
 <td nowrap><a href="https://binghao-huang.github.io/touch_in_the_wild/">project</a></td>
 <td nowrap>Closest current tactile manipulation dataset in this table, but hardware is custom</td>
 </tr>
+<tr>
+<td nowrap>T-Rex Dataset</td>
+<td nowrap>Tactile-synchronized bimanual dexterous manipulation</td>
+<td nowrap>Dexmate Vega-1 + Sharpa Wave hands; synchronized RGB, tactile signals, robot state, actions, and language</td>
+<td nowrap><a href="https://arxiv.org/abs/2606.17055">paper</a> / <a href="https://tactile-reactive-dexterous.github.io/">project</a></td>
+<td nowrap>Important tactile-reactive dataset; public reusable assets should be checked before depending on it</td>
+</tr>
+<tr>
+<td nowrap>FTP-1 Dataset / MTTS</td>
+<td nowrap>Cross-sensor foundation tactile policy pretraining</td>
+<td nowrap>26 data sources, 21 tactile sensors, image/array/state tactile inputs</td>
+<td nowrap><a href="https://arxiv.org/abs/2606.13102">paper</a> / <a href="https://ftp1-policy.github.io/">project</a></td>
+<td nowrap>Best current evidence for sensor-heterogeneous tactile pretraining; downstream deployment still needs target-sensor finetuning</td>
+</tr>
+<tr>
+<td nowrap>FreeTacMan</td>
+<td nowrap>Robot-free visuo-tactile data collection for contact-rich manipulation</td>
+<td nowrap>Handheld modular visuo-tactile gripper; Piper/Franka quick-swap mounts</td>
+<td nowrap><a href="https://opendrivelab.com/FreeTacMan">project</a> / <a href="https://github.com/OpenDriveLab/FreeTacMan">code</a></td>
+<td nowrap>Strong data-collection benchmark candidate; not itself a fixed dexterous-hand policy benchmark</td>
+</tr>
+<tr>
+<td nowrap>exUMI</td>
+<td nowrap>Extensible UMI-style tactile robot teaching</td>
+<td nowrap>AR MoCap, rotary encoder, modular visuo-tactile sensing, automated calibration</td>
+<td nowrap><a href="https://proceedings.mlr.press/v305/xu25e.html">PMLR</a> / <a href="https://silicx.github.io/exUMI/">project</a></td>
+<td nowrap>Good tactile teaching-system evidence; still custom hardware rather than a universal tactile-hand standard</td>
+</tr>
+<tr>
+<td nowrap>Vi-TacMan articulated-object suite</td>
+<td nowrap>Vision-to-touch articulated-object manipulation</td>
+<td nowrap>50,000+ simulated objects plus real Kinova Gen3 + GelSight-type tactile experiments</td>
+<td nowrap><a href="https://arxiv.org/abs/2510.06339">paper</a> / <a href="https://vi-tacman.github.io/">project</a></td>
+<td nowrap>Useful for tactile articulated-object control; still not a full long-horizon household manipulation benchmark</td>
+</tr>
 </tbody>
 </table>
 
 #### dexterous hand
 
-Total: 35 papers.
+Total: 40 papers.
 
 <table>
 <thead>
@@ -10617,12 +10676,87 @@ Total: 35 papers.
 <td nowrap>code</td>
 <td nowrap><a href="https://arxiv.org/abs/2504.10857">paper</a> / <a href="https://cvpr.thecvf.com/virtual/2025/poster/32440">CVPR</a> / <a href="https://sh8.io/#/zerograsp">project</a> / <a href="https://github.com/sh8/ZeroGrasp">code</a></td>
 </tr>
+<tr>
+<td nowrap>arXiv 2026</td>
+<td nowrap><a href="https://arxiv.org/abs/2602.16710">EgoScale: Scaling Dexterous Manipulation with Diverse Egocentric Human Data</a></td>
+<td nowrap>Scale human-to-robot transfer for high-DoF dexterous manipulation.</td>
+<td nowrap>Trains a VLA model on 20,854 hours of action-labeled egocentric human video and uses aligned human-robot mid-training for dexterous transfer.</td>
+<td nowrap>No formal venue was found; exact deployed hand models are not stated on the arXiv abstract page.</td>
+<td nowrap>22-DoF dexterous robotic hand; lower-DoF transfer hands</td>
+<td nowrap>22 DoF for the main reported hand</td>
+<td nowrap>-</td>
+<td nowrap>real dexterous robot setups</td>
+<td nowrap>20,854 hours of action-labeled egocentric human video; aligned human-robot mid-training</td>
+<td nowrap>human-to-robot transfer from egocentric video</td>
+<td nowrap>project page</td>
+<td nowrap><a href="https://arxiv.org/abs/2602.16710">paper</a> / <a href="https://research.nvidia.com/labs/gear/egoscale/">project</a></td>
+</tr>
+<tr>
+<td nowrap>CVPR 2026</td>
+<td nowrap><a href="https://openaccess.thecvf.com/content/CVPR2026/papers/Jiang_Cross-Hand_Latent_Representation_for_Vision-Language-Action_Models_CVPR_2026_paper.pdf">XL-VLA: Cross-Hand Latent Representation for Vision-Language-Action Models</a></td>
+<td nowrap>Share one VLA action space across different dexterous hands.</td>
+<td nowrap>Learns a latent action representation that decodes into different dexterous hand joint trajectories.</td>
+<td nowrap>Requires per-hand encoders/decoders; tactile sensing is not reported as a core input.</td>
+<td nowrap>Ability Hand, Paxini DexH13, X-Hand1, Inspire hand</td>
+<td nowrap>hand-specific DoFs</td>
+<td nowrap>-</td>
+<td nowrap>multi-hand real robot settings</td>
+<td nowrap>cross-hand VLA training and latent action evaluation</td>
+<td nowrap>retargeting through latent action decoders</td>
+<td nowrap>code</td>
+<td nowrap><a href="https://xl-vla.github.io/">project</a> / <a href="https://github.com/EmptyBlueBox/DexLatent">code</a> / <a href="https://openaccess.thecvf.com/content/CVPR2026/papers/Jiang_Cross-Hand_Latent_Representation_for_Vision-Language-Action_Models_CVPR_2026_paper.pdf">paper</a></td>
+</tr>
+<tr>
+<td nowrap>ECCV 2026</td>
+<td nowrap><a href="https://arxiv.org/abs/2512.13644">World Models for Learning Dexterous Hand-Object Interactions from Human Videos</a></td>
+<td nowrap>Predict future dexterous hand-object interaction states from human videos.</td>
+<td nowrap>DexWM uses finger keypoints and a hand-consistency loss, training on over 900 hours of human and non-dexterous robot data.</td>
+<td nowrap>World-model planning remains action-optimization-heavy; tactile sensing is not reported.</td>
+<td nowrap>Allegro gripper / hand</td>
+<td nowrap>-</td>
+<td nowrap>-</td>
+<td nowrap>Franka Panda arm with Allegro gripper</td>
+<td nowrap>900+ hours of human and non-dexterous robot data; RoboCasa fine-tuning noted on the project page</td>
+<td nowrap>finger-keypoint action representation from egocentric videos</td>
+<td nowrap>-</td>
+<td nowrap><a href="https://raktimgg.github.io/dexwm/">project</a> / <a href="https://arxiv.org/abs/2512.13644">paper</a></td>
+</tr>
+<tr>
+<td nowrap>arXiv 2026</td>
+<td nowrap><a href="https://arxiv.org/abs/2512.24210">GR-Dexter Technical Report</a></td>
+<td nowrap>Build a bimanual VLA stack around high-DoF dexterous hands.</td>
+<td nowrap>Combines ByteDexter V2 hardware, bimanual teleoperation, and co-training with robot, vision-language, and cross-embodiment data.</td>
+<td nowrap>Technical report rather than a formal venue paper; reproducible public dataset/SDK coverage needs checking before platform adoption.</td>
+<td nowrap>ByteDexter V2</td>
+<td nowrap>21 DoF; five fingertips with high-density piezoresistive normal-force arrays</td>
+<td nowrap>piezoresistive fingertip arrays</td>
+<td nowrap>two Franka arms with ByteDexter V2 hands</td>
+<td nowrap>teleoperated robot trajectories plus cross-embodiment and vision-language data</td>
+<td nowrap>Manus Metagloves, Meta Quest tracking, whole-body control retargeting</td>
+<td nowrap>project page</td>
+<td nowrap><a href="https://byte-dexter.github.io/gr-dexter/">project</a> / <a href="https://arxiv.org/abs/2512.24210">paper</a></td>
+</tr>
+<tr>
+<td nowrap>arXiv 2025</td>
+<td nowrap><a href="https://arxiv.org/abs/2511.01177">Scaling Cross-Embodiment World Models for Dexterous Manipulation</a></td>
+<td nowrap>Use world models as a shared interface across hand morphologies.</td>
+<td nowrap>Represents hands and objects as 3D particles, trains on diverse simulated robot hands plus real human hands, and uses model-based planning on new hardware.</td>
+<td nowrap>No formal venue was found; exact per-hand SDK and tactile configuration are not specified in the abstract evidence.</td>
+<td nowrap>multiple simulated robot hands and real human hands</td>
+<td nowrap>varied DoFs</td>
+<td nowrap>-</td>
+<td nowrap>novel hardware deployment reported, exact public model not found</td>
+<td nowrap>simulated exploration data plus real human-hand data</td>
+<td nowrap>particle-based cross-embodiment action representation</td>
+<td nowrap>-</td>
+<td nowrap><a href="https://arxiv.org/abs/2511.01177">paper</a></td>
+</tr>
 </tbody>
 </table>
 
 #### tactile/contact-rich
 
-Total: 18 papers.
+Total: 28 papers.
 
 <table>
 <thead>
@@ -10912,6 +11046,156 @@ Total: 18 papers.
 <td nowrap>Shows tactile pretraining improves data efficiency and robustness under occlusion/disturbance.</td>
 <td nowrap>Portable hardware helps data collection but still needs task-specific policy training.</td>
 <td nowrap><a href="https://arxiv.org/abs/2507.15062v1">paper</a> / <a href="https://binghao-huang.github.io/touch_in_the_wild/">project</a> / <a href="https://github.com/YolandaXinyueZhu/touch_in_the_wild">code</a> / <a href="https://huggingface.co/datasets/binghaohuang-robot/touch_in_the_wild-dataset">hf</a></td>
+</tr>
+<tr>
+<td nowrap>arXiv 2026</td>
+<td nowrap><a href="https://arxiv.org/abs/2606.17055">T-Rex: Tactile-Reactive Dexterous Manipulation</a></td>
+<td nowrap>Tactile-reactive dexterous manipulation with high-frequency touch.</td>
+<td nowrap>force/torque tactile</td>
+<td nowrap>6D force/torque vectors from all 10 fingers</td>
+<td nowrap>yes</td>
+<td nowrap>12 manipulation tasks requiring delicate force control and deformable-object handling</td>
+<td nowrap>Dexmate Vega-1 bimanual robot with two Sharpa Wave dexterous hands; ZED cameras; Manus/VIVE teleoperation</td>
+<td nowrap>Dexmate Vega-1 bimanual robot</td>
+<td nowrap>100 h synchronized RGB/tactile/state/action/language data; 7,755 episodes; 200+ objects; 22 motor primitives</td>
+<td nowrap>Uses a variable-rate Mixture-of-Transformers policy and temporal tactile VQ-VAE for tactile-reactive control.</td>
+<td nowrap>Paper notes tactile sensor distortion/calibration drift and lack of dense palm sensing.</td>
+<td nowrap><a href="https://arxiv.org/abs/2606.17055">paper</a> / <a href="https://tactile-reactive-dexterous.github.io/">project</a></td>
+</tr>
+<tr>
+<td nowrap>arXiv 2026</td>
+<td nowrap><a href="https://arxiv.org/abs/2606.13102">FTP-1: A Foundation Tactile Policy for Generalizable Robot Manipulation</a></td>
+<td nowrap>Train a generalist tactile policy across heterogeneous tactile sensors and robots.</td>
+<td nowrap>image / array / state tactile</td>
+<td nowrap>MTTS data spanning 21 tactile sensors and 26 data sources</td>
+<td nowrap>yes</td>
+<td nowrap>contact-rich manipulation across five hardware configurations</td>
+<td nowrap>heterogeneous tactile sensors and embodiments</td>
+<td nowrap>five downstream hardware configurations</td>
+<td nowrap>about 3,000 h tactile manipulation data from 26 sources and 21 sensors</td>
+<td nowrap>Shows a shared tactile expert can transfer to seen and unseen tactile sensors after downstream adaptation.</td>
+<td nowrap>Downstream tasks still need finetuning; general tactile servoing remains task- and hardware-dependent.</td>
+<td nowrap><a href="https://arxiv.org/abs/2606.13102">paper</a> / <a href="https://ftp1-policy.github.io/">project</a> / <a href="https://github.com/michaelyuancb/ftp1-policy">code</a></td>
+</tr>
+<tr>
+<td nowrap>ICRA 2026</td>
+<td nowrap><a href="https://opendrivelab.com/FreeTacMan">FreeTacMan: Robot-free Human-centric Visuo-Tactile Data Collection System for Generalizable Contact-Rich Manipulation</a></td>
+<td nowrap>Collect scalable human-centric visuo-tactile data without a robot during data capture.</td>
+<td nowrap>visuo-tactile</td>
+<td nowrap>portable tactile gripper observations; public page does not state a full taxel map</td>
+<td nowrap>yes</td>
+<td nowrap>50 contact-rich manipulation tasks with robot-policy transfer</td>
+<td nowrap>FreeTacMan portable visuo-tactile gripper; quick-swap mounts for Piper and Franka</td>
+<td nowrap>robot-free human collection, then Piper/Franka robot deployment</td>
+<td nowrap>3M+ visuo-tactile pairs and 10k+ trajectories across 50 tasks</td>
+<td nowrap>Decouples tactile data collection from robot hardware and reports higher robot success than vision-only baselines.</td>
+<td nowrap>Sensor density and robot-side SDK details are not fully specified on the checked public page.</td>
+<td nowrap><a href="https://opendrivelab.com/FreeTacMan">project</a> / <a href="https://github.com/OpenDriveLab/FreeTacMan">code</a></td>
+</tr>
+<tr>
+<td nowrap>ICRA 2026</td>
+<td nowrap><a href="https://arxiv.org/abs/2602.11643">ViTaS: Building Embodied Tactile Foundation Model via Visuo-Tactile Simulation</a></td>
+<td nowrap>Pretrain tactile policies using visuo-tactile simulation and soft visual-tactile fusion.</td>
+<td nowrap>visuo-tactile</td>
+<td nowrap>3D-ViTaC tactile sensors with 16x16x1 tactile maps</td>
+<td nowrap>yes</td>
+<td nowrap>12 simulated and 3 real-world tactile manipulation environments</td>
+<td nowrap>3D-ViTaC tactile sensors attached to a gripper; Galaxea-R1 setup with ZED 2 and RealSense D435i in checked evidence</td>
+<td nowrap>Galaxea-R1 robot setup</td>
+<td nowrap>ViTaS simulated tactile environments and three real-world evaluations</td>
+<td nowrap>Uses contrastive soft fusion to bridge visual and tactile representations for policy learning.</td>
+<td nowrap>Real coverage is smaller than simulation coverage, and tactile hardware is custom.</td>
+<td nowrap><a href="https://arxiv.org/abs/2602.11643">paper</a> / <a href="https://skyrainwind.github.io/ViTaS/index.html">project</a> / <a href="https://github.com/SkyRainWind/ViTaS">code</a></td>
+</tr>
+<tr>
+<td nowrap>ICRA 2026</td>
+<td nowrap><a href="https://arxiv.org/abs/2510.06339">Vi-TacMan: Making Vision and Tactile Sensing Complementary for Vision-based Manipulation</a></td>
+<td nowrap>Combine vision-based action proposals with tactile refinement for articulated-object manipulation.</td>
+<td nowrap>vision + optical tactile</td>
+<td nowrap>GelSight-type tactile sensors replacing the gripper pads</td>
+<td nowrap>yes</td>
+<td nowrap>articulated-object manipulation under visual ambiguity</td>
+<td nowrap>Kinova Gen3 7-DoF arm with GelSight-style tactile gripper pads</td>
+<td nowrap>Kinova Gen3</td>
+<td nowrap>50k+ simulated and real articulated-object interactions</td>
+<td nowrap>Uses vision to propose grasps/directions and tactile feedback to refine execution.</td>
+<td nowrap>Generalization beyond the reported articulated-object suite and tactile gripper geometry remains open.</td>
+<td nowrap><a href="https://arxiv.org/abs/2510.06339">paper</a> / <a href="https://vi-tacman.github.io/">project</a></td>
+</tr>
+<tr>
+<td nowrap>CoRL 2025</td>
+<td nowrap><a href="https://proceedings.mlr.press/v305/xu25e.html">exUMI: Extensible Visuo-Tactile Teleoperation for Learning Diverse Skills</a></td>
+<td nowrap>Build an extensible UMI-style teleoperation stack with tactile sensing and calibration.</td>
+<td nowrap>visuo-tactile</td>
+<td nowrap>modular tactile sensing; over 1M tactile frames reported</td>
+<td nowrap>yes</td>
+<td nowrap>diverse manipulation skills collected by extensible teleoperation</td>
+<td nowrap>exUMI handheld interface with AR MoCap, rotary encoder, modular visuo-tactile sensing, and automated calibration</td>
+<td nowrap>UMI-style robot deployment pipeline</td>
+<td nowrap>real teleoperation data with 100% reported data usability and over 1M tactile frames</td>
+<td nowrap>Improves tactile-aware teleoperation data quality through modular sensing and automated calibration.</td>
+<td nowrap>Exact downstream robot/hardware coverage varies by setup and must be checked before reuse.</td>
+<td nowrap><a href="https://proceedings.mlr.press/v305/xu25e.html">pmlr</a> / <a href="https://silicx.github.io/exUMI/">project</a> / <a href="https://github.com/silicx/exUMI">code</a></td>
+</tr>
+<tr>
+<td nowrap>CoRL 2025</td>
+<td nowrap><a href="https://proceedings.mlr.press/v305/wistreich25a.html">DexSkin: High-Coverage Conformable Robot Skin for Learning Dexterous Manipulation</a></td>
+<td nowrap>Provide high-coverage conformable tactile skin for manipulation learning.</td>
+<td nowrap>capacitive tactile skin</td>
+<td nowrap>conformable sensorized finger surfaces on a parallel-jaw gripper</td>
+<td nowrap>yes</td>
+<td nowrap>in-hand reorientation and elastic-band wrapping</td>
+<td nowrap>DexSkin capacitive electronic skin on parallel-jaw gripper fingers</td>
+<td nowrap>parallel-jaw gripper manipulation setup</td>
+<td nowrap>real robot calibration/model-transfer experiments and online RL</td>
+<td nowrap>Shows broad finger-surface tactile coverage can support model transfer and online RL for dexterous behaviors.</td>
+<td nowrap>Not a full multi-finger dexterous-hand benchmark; broader robot-hand integration remains to be proven.</td>
+<td nowrap><a href="https://proceedings.mlr.press/v305/wistreich25a.html">pmlr</a> / <a href="https://dex-skin.github.io/">project</a> / <a href="https://github.com/sdwistreich/dexskin">code</a></td>
+</tr>
+<tr>
+<td nowrap>RSS 2025</td>
+<td nowrap><a href="https://arxiv.org/abs/2504.16649">PP-Tac: Paper Picking Using Tactile Feedback</a></td>
+<td nowrap>Use fingertip tactile feedback for paper picking and slip-aware force control.</td>
+<td nowrap>optical tactile</td>
+<td nowrap>four fingertip-mounted round R-Tac tactile sensors</td>
+<td nowrap>yes</td>
+<td nowrap>paper picking with slip detection, online force control, trajectory synthesis, and diffusion policy</td>
+<td nowrap>R-Tac / PP-Tac tactile fingertips</td>
+<td nowrap>Franka Research 3 robot arm</td>
+<td nowrap>real tactile demonstrations and policy training; no public tactile/physics simulator found</td>
+<td nowrap>Reports robust paper picking by combining tactile slip detection, force control, and diffusion policy learning.</td>
+<td nowrap>Task is narrow and paper-focused; tactile hardware generalization beyond the reported setup is unproven.</td>
+<td nowrap><a href="https://arxiv.org/abs/2504.16649">paper</a> / <a href="https://www.roboticsproceedings.org/rss21/p056.pdf">rss</a> / <a href="https://peilin-666.github.io/projects/PP-Tac/">project</a> / <a href="https://github.com/bigai-ai/PP-Tac">code</a></td>
+</tr>
+<tr>
+<td nowrap>ICRA 2026</td>
+<td nowrap><a href="https://arxiv.org/abs/2509.23468">Multi-Modal Manipulation via Multi-Modal Policy Consensus</a></td>
+<td nowrap>Fuse modality-specific policies for robust manipulation under sensor corruption.</td>
+<td nowrap>vision + tactile + proprioception</td>
+<td nowrap>tactile stream used as one policy modality; exact sensor density not found in checked abstract/project evidence</td>
+<td nowrap>yes</td>
+<td nowrap>RLBench simulation plus real occluded picking, in-hand spoon reorientation, and puzzle insertion tasks</td>
+<td nowrap>multi-modal robot manipulation setup; exact tactile sensor model not found in checked public evidence</td>
+<td nowrap>real robot platform plus RLBench simulation</td>
+<td nowrap>RLBench simulated tasks and real multi-modal manipulation demonstrations</td>
+<td nowrap>Uses adaptive policy consensus to keep control robust when individual modalities are corrupted.</td>
+<td nowrap>Public evidence does not fully specify tactile hardware density/model or SDK.</td>
+<td nowrap><a href="https://arxiv.org/abs/2509.23468">paper</a> / <a href="https://policyconsensus.github.io/">project</a> / <a href="https://openreview.net/forum?id=CJDU8IvF3y">openreview</a></td>
+</tr>
+<tr>
+<td nowrap>arXiv 2026</td>
+<td nowrap><a href="https://arxiv.org/abs/2602.06001">Visuo-Tactile World Models for Robot Manipulation</a></td>
+<td nowrap>Use a visuo-tactile world model to predict contact dynamics for manipulation.</td>
+<td nowrap>visuo-tactile</td>
+<td nowrap>Digit 360 tactile sensors used as fingertips on an Allegro Hand</td>
+<td nowrap>yes</td>
+<td nowrap>zero-shot real-robot manipulation under occlusion and contact uncertainty</td>
+<td nowrap>Digit 360 tactile fingertips on Allegro Hand</td>
+<td nowrap>Franka Panda arm with Allegro Hand</td>
+<td nowrap>limited real demonstrations; Sparsh-X tactile embeddings and Cosmos RGB embeddings</td>
+<td nowrap>Improves object permanence and laws-of-motion compliance through tactile-conditioned world modeling.</td>
+<td nowrap>Demonstration scale is limited and the pipeline depends on pretrained embeddings and sensor-specific calibration.</td>
+<td nowrap><a href="https://arxiv.org/abs/2602.06001">paper</a> / <a href="https://carolinahiguera.github.io/vtml/">project</a></td>
 </tr>
 </tbody>
 </table>
