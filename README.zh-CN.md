@@ -12,7 +12,7 @@
 [![Stars](https://img.shields.io/github/stars/neardws/awesome-embodied-ai-papers?style=for-the-badge&color=fdcb6e&logo=github)](https://github.com/neardws/awesome-embodied-ai-papers/stargazers)
 [![Forks](https://img.shields.io/github/forks/neardws/awesome-embodied-ai-papers?style=for-the-badge&color=e17055&logo=github)](https://github.com/neardws/awesome-embodied-ai-papers/network/members)
 
-更新日期：2026-06-28
+更新日期：2026-07-10
 
 </div>
 
@@ -25,6 +25,7 @@
 | 🗺️ | [方向总览表](#方向总览表) | 六条方向及论文条目数 |
 | 🔎 | [重点阅读顺序](#重点阅读顺序) | 建议优先阅读的方向 |
 | 🧾 | [数据来源说明](#数据来源说明) | 来源追溯和参考元数据 |
+| 🦿 | [人形与双足专题](#人形与双足专题) | 会议研究版图、双足平台与灵巧手配置 |
 | 📚 | [各方向详细表格](#各方向详细表格) | 按方向和子方向展开的论文表 |
 
 > [!NOTE]
@@ -245,6 +246,14 @@ GitHub 源仓库的元数据和 README 快照见 [`sources/github/repos.json`](s
 <tr>
 <td nowrap><a href="https://github.com/yueen-ma/Awesome-VLA">yueen-ma/Awesome-VLA</a></td>
 <td nowrap>参考 VLA components、world models、reasoning、policy steering、low-level/high-level planners 分类。</td>
+</tr>
+<tr>
+<td nowrap><a href="https://www.unitree.com/H2plus/">宇树人形与灵巧手官方页面</a></td>
+<td nowrap>核对 H1/H1-2、G1、R1、H2/H2 Plus 及模块化灵巧手的当前参数；动态产品数据核对日期为 2026-07-10。</td>
+</tr>
+<tr>
+<td nowrap><a href="https://open.agibot.com/docs/aimdk/a3/v3_1/dev_guide/01-a3_overview">智元产品页与 AimDK 官方文档</a></td>
+<td nowrap>核对双足 A2、A3、X1、X2 系列，排除轮式型号，并追溯 OmniHand/末端执行器配置。</td>
 </tr>
 </tbody>
 </table>
@@ -8878,6 +8887,395 @@ WAM 将未来世界状态预测和动作生成合在一起，适合放在 agent 
 </tbody>
 </table>
 
+#### 人形与双足专题
+
+本专题在现有 humanoid 论文表之上增加一层可检索的聚合视图：先回答 CCF 相关 AI/CV 会议与机器人会议正在研究什么，再把论文所用实机、宇树/智元双足型号、自研平台和灵巧手形态拆开比较。以下参数与发表状态核对至 **2026-07-10**；这些交叉索引不重复计入上面的 114 篇论文总数。
+
+> [!IMPORTANT]
+> “机体 DoF”默认不含可选末端，只有厂商明确给出整机总数时才把双手计入。双足表有意排除宇树 G1-D/R1-D/H2-D，以及智元 A2-W/G1/G2 等轮式或固定底座平台。论文中的 `Sim Only` 表示只使用对应机器人模型/URDF，并不代表完成了实机部署。
+
+##### 会议研究内容与具体机器人
+
+下表是“近期、可追溯具体本体”的代表性样本，不是把所有含 humanoid 关键词的论文重新罗列一遍。
+
+<table>
+<thead>
+<tr>
+<th nowrap>研究内容</th>
+<th nowrap>代表工作 / 会议</th>
+<th nowrap>会议体系</th>
+<th nowrap>具体机器人</th>
+<th nowrap>验证</th>
+<th nowrap>当前问题</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td nowrap>人类动作跟随与技能模仿</td>
+<td nowrap><a href="https://proceedings.mlr.press/v270/fu25a.html">HumanPlus</a> / CoRL 2024</td>
+<td nowrap>机器人会议</td>
+<td nowrap>Unitree H1；团队增配腕关节与双 Inspire RH56DFX 灵巧手，共 33 DoF</td>
+<td nowrap>Sim→Real</td>
+<td nowrap>从单目人类视频做实时 shadowing，再用遥操作示范学习全身操作技能。</td>
+</tr>
+<tr>
+<td nowrap>全身遥操作与灵巧移动操作</td>
+<td nowrap><a href="https://proceedings.mlr.press/v270/he25b.html">OmniH2O</a> / CoRL 2024</td>
+<td nowrap>机器人会议</td>
+<td nowrap>Unitree H1；团队自加 Damiao 腕关节与 Inspire 灵巧手</td>
+<td nowrap>Sim→Real</td>
+<td nowrap>把人体全身动作实时映射到人形，并用遥操作数据学习自主 loco-manipulation。</td>
+</tr>
+<tr>
+<td nowrap>敏捷动作的动力学对齐</td>
+<td nowrap><a href="https://www.roboticsproceedings.org/rss21/p066.html">ASAP</a> / RSS 2025</td>
+<td nowrap>机器人会议</td>
+<td nowrap>Unitree G1</td>
+<td nowrap>Sim + Real</td>
+<td nowrap>用少量真实轨迹学习仿真—真实残差，迁移跳跃、转体等高动态全身技能。</td>
+</tr>
+<tr>
+<td nowrap>自然语言到全身控制</td>
+<td nowrap><a href="https://www.roboticsproceedings.org/rss21/p065.html">LangWBC</a> / RSS 2025</td>
+<td nowrap>机器人会议</td>
+<td nowrap>Unitree G1</td>
+<td nowrap>Sim + Real</td>
+<td nowrap>端到端把语言映射成低层动作，并保持不同动作间平滑组合与切换。</td>
+</tr>
+<tr>
+<td nowrap>起身与跌倒恢复</td>
+<td nowrap><a href="https://www.roboticsproceedings.org/rss21/p064.html">HoST</a> / RSS 2025</td>
+<td nowrap>机器人会议</td>
+<td nowrap>Unitree G1（论文控制 23 个驱动 DoF）</td>
+<td nowrap>Sim→Real</td>
+<td nowrap>从多种倒地姿态在硬地、软地、斜坡等条件下自主起身，补齐连续部署所需恢复能力。</td>
+</tr>
+<tr>
+<td nowrap>统一全身控制接口</td>
+<td nowrap><a href="https://rpl.cs.utexas.edu/publications/2025/05/19/he-icra25-hover/">HOVER</a> / ICRA 2025</td>
+<td nowrap>机器人会议</td>
+<td nowrap>Unitree H1，19 DoF，实验配置约 51.5 kg</td>
+<td nowrap>Sim + Real</td>
+<td nowrap>用一个控制器统一导航、运动、操作和遥操作所需的不同目标接口。</td>
+</tr>
+<tr>
+<td nowrap>单目人体到人形遥操作</td>
+<td nowrap><a href="https://human2humanoid.com/">H2O</a> / IROS 2024 Oral</td>
+<td nowrap>机器人会议</td>
+<td nowrap>Unitree H1，19 个机体驱动 DoF</td>
+<td nowrap>Sim→Real</td>
+<td nowrap>只用单目 RGB 实现实时全身动作复现，重点是运动控制而不是手部精细操作。</td>
+</tr>
+<tr>
+<td nowrap>视觉语言全身物体重排</td>
+<td nowrap><a href="https://proceedings.neurips.cc/paper_files/paper/2024/hash/215aeb07b5996c969c0123c3c6ee8f54-Abstract-Conference.html">HumanVLA</a> / NeurIPS 2024</td>
+<td nowrap>CCF-A</td>
+<td nowrap>IsaacGym 通用仿真人形，球形手部；无物理机器人</td>
+<td nowrap>Sim Only</td>
+<td nowrap>在语言指令下联合行走与物体重排，同时暴露出纯仿真和简化手型的现实差距。</td>
+</tr>
+<tr>
+<td nowrap>大空间端到端全身 VLA</td>
+<td nowrap><a href="https://openreview.net/forum?id=OCJmVjyzN7">WholeBodyVLA</a> / ICLR 2026</td>
+<td nowrap>CCF-A</td>
+<td nowrap>智元 AgiBot X2</td>
+<td nowrap>Sim + Real</td>
+<td nowrap>把视觉、语言、移动和操作统一进潜变量 VLA，面向长时序大空间 loco-manipulation。</td>
+</tr>
+<tr>
+<td nowrap>跨人形本体通用控制</td>
+<td nowrap><a href="https://openreview.net/forum?id=kovWCrgHxo">XHugWBC</a> / ICML 2026</td>
+<td nowrap>CCF-A</td>
+<td nowrap>12 种仿真本体；7 个实机配置：Booster T1、Fourier N1、Unitree G1（23/29 DoF 两配置）、AgiBot X2、Dobot Atom、Unitree H1-2</td>
+<td nowrap>Sim + Real</td>
+<td nowrap>用统一语义关节表示和形态随机化，让同一策略零样本迁移到不同尺寸、质量和拓扑。</td>
+</tr>
+<tr>
+<td nowrap>视觉 Sim2Real 全身灵巧操作</td>
+<td nowrap><a href="https://openaccess.thecvf.com/content/CVPR2026/html/He_VIRAL_Visual_Sim-to-Real_at_Scale_for_Humanoid_Loco-Manipulation_CVPR_2026_paper.html">VIRAL</a> / CVPR 2026</td>
+<td nowrap>CCF-A</td>
+<td nowrap>Unitree G1 + 原生三指灵巧手</td>
+<td nowrap>Sim→Real</td>
+<td nowrap>在仿真规模化训练视觉策略，再零样本迁移到真实移动与双手操作。</td>
+</tr>
+<tr>
+<td nowrap>开放世界人形数据与云评测</td>
+<td nowrap><a href="https://humanoideveryday.github.io/">Humanoid Everyday</a> / arXiv 2025</td>
+<td nowrap>预印本（正式会议未核实）</td>
+<td nowrap>Unitree G1 + Dex3-1；Unitree H1 + 6-DoF Inspire 手</td>
+<td nowrap>Real Data</td>
+<td nowrap>覆盖 260 类日常任务和约 1.03 万条轨迹，研究数据规模、跨任务策略与远程标准化评测。</td>
+</tr>
+</tbody>
+</table>
+
+从这些可核验样本看，研究重心已经从“让双足稳定走起来”扩展到五条并行路线：语言/提示驱动全身控制、复杂接触下的恢复能力、感知移动与操作耦合、带灵巧手的真实数据规模化，以及跨不同人形结构共享控制策略。Unitree H1/G1 目前是论文中最常见的商用实机底座；智元 X2 则开始出现在端到端全身 VLA 和跨本体控制工作中。
+
+##### 宇树双足型号与参数
+
+<table>
+<thead>
+<tr>
+<th nowrap>型号 / 定位</th>
+<th nowrap>身高 / 重量</th>
+<th nowrap>机体 DoF</th>
+<th nowrap>关节、负载与速度</th>
+<th nowrap>电池 / 续航</th>
+<th nowrap>感知与算力</th>
+<th nowrap>灵巧手形态</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td nowrap><a href="https://www.unitree.com/h1/">H1</a><br>首款全尺寸通用人形</td>
+<td nowrap>约 180 cm / 47 kg</td>
+<td nowrap>官方总计 19；单腿 5、单臂 4（可扩展）</td>
+<td nowrap>膝约 360 N·m、髋约 220 N·m、踝约 59 N·m、臂约 75 N·m；标称 3.3 m/s</td>
+<td nowrap>15 Ah / 0.864 kWh，可快换；官网未给小时续航</td>
+<td nowrap>3D LiDAR + 深度相机；i5 平台机 + i7 开发机，可选 i7/Orin NX</td>
+<td nowrap>选配；官网未指定标准手型</td>
+</tr>
+<tr>
+<td nowrap><a href="https://www.unitree.com/h1/">H1-2</a><br>全身操作高自由度版</td>
+<td nowrap>约 178 cm / 70 kg</td>
+<td nowrap>27；单腿 6、单臂 7</td>
+<td nowrap>腿峰值 360 N·m；肩/肘约 120 N·m、腕约 30 N·m；单臂峰值约 21 kg、额定约 7 kg；速度 &lt;2 m/s</td>
+<td nowrap>15 Ah / 0.864 kWh，可快换</td>
+<td nowrap>3D LiDAR + 深度相机；i5+i7，可选最多 3 块 Orin NX</td>
+<td nowrap>明确可选 Dex5-1 或其他灵巧手</td>
+</tr>
+<tr>
+<td nowrap><a href="https://www.unitree.com/g1/">G1 / G1 EDU</a><br>紧凑型研究与教育平台</td>
+<td nowrap>132 cm / 约 35 kg、35 kg+</td>
+<td nowrap>23 / 23–43；单腿 6、单臂 5；EDU 可增加腰、腕和手</td>
+<td nowrap>膝最大 90 / 120 N·m；单臂约 2 / 3 kg；当前参数表未列速度</td>
+<td nowrap>9000 mAh 快拆电池；约 2 h</td>
+<td nowrap>深度相机 + 3D LiDAR；8 核 CPU，EDU 可选 Orin</td>
+<td nowrap>标准版无；EDU 可选单手 7-DoF Dex3-1，并可增加每侧 2-DoF 手腕</td>
+</tr>
+<tr>
+<td nowrap><a href="https://www.unitree.com/R1/">R1 AIR / R1 / R1 EDU</a><br>超轻、低成本平台</td>
+<td nowrap>123 cm / 约 27、29、29 kg</td>
+<td nowrap>20 / 26 / 26–40；单腿均 6，单臂 4/5/5</td>
+<td nowrap>单臂负载约 2 kg；关节扭矩和移动速度未公开</td>
+<td nowrap>快拆锂电；约 1 h</td>
+<td nowrap>8 核处理器；AIR 单目、R1/EDU 双目；EDU 可选 Orin 40–100 TOPS</td>
+<td nowrap>仅 EDU 明确支持选配灵巧手</td>
+</tr>
+<tr>
+<td nowrap><a href="https://www.unitree.com/H2/">H2 / H2 EDU</a><br>全尺寸仿生头人形</td>
+<td nowrap>182 cm / 约 70 kg</td>
+<td nowrap>31：单腿 6、单臂 7、腰 3、头 2</td>
+<td nowrap>臂关节峰值 120 N·m、腿关节峰值 360 N·m；单臂峰值约 15 kg、额定约 7 kg；速度未公开</td>
+<td nowrap>15 Ah / 0.972 kWh；约 3 h</td>
+<td nowrap>宽视场双目；H2 为 i5，EDU 增加 i7 并可选 Thor</td>
+<td nowrap>H2 无；H2 EDU 可选多种灵巧手</td>
+</tr>
+<tr>
+<td nowrap><a href="https://www.unitree.com/H2plus/">H2 Plus</a><br>NVIDIA Isaac GR00T 全栈研究配置</td>
+<td nowrap>182 cm / 约 70 kg</td>
+<td nowrap>机体 31；配置双手后共 75</td>
+<td nowrap>臂/腿峰值 120/360 N·m；单臂峰值约 15 kg、额定约 7 kg</td>
+<td nowrap>0.972 kWh；约 3 h</td>
+<td nowrap>i5+i7 + Jetson T5000；官网详表为 2070 TFLOPS（FP4 sparse）、128 GB 统一内存；头部双目，可选腕部相机</td>
+<td nowrap>双 SharpaWave 五指触觉手，每手 22 个主动 DoF；整机因此为 75 DoF</td>
+</tr>
+</tbody>
+</table>
+
+口径提醒：R1 官网把“Arm Joint Torque”一栏写成约 2 kg，但脚注明确描述的是臂负载，因此表中只按负载记录，扭矩视为未公开。H2 首页的“2070 TOPS”宣传语也不能与 H2 Plus 详表的“2070 TFLOPS（FP4 sparse）”合并为同一指标。
+
+##### 智元双足型号与参数
+
+<table>
+<thead>
+<tr>
+<th nowrap>型号 / 状态</th>
+<th nowrap>身高 / 重量</th>
+<th nowrap>主动 DoF</th>
+<th nowrap>速度</th>
+<th nowrap>续航</th>
+<th nowrap>负载、算力与感知</th>
+<th nowrap>手部形态</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td nowrap><a href="https://www.agibot.com/products/A2_Ultra">A2 Ultra</a><br>旗舰全尺寸双足</td>
+<td nowrap>169 cm / 约 69 kg</td>
+<td nowrap>40，已含双手：颈 2、单臂 7、单腿 6、单手 6</td>
+<td nowrap>最大 1.2 m/s</td>
+<td nowrap>14.4 Ah；站立约 3 h、行走 1.5 h+；直充/换电</td>
+<td nowrap>单臂约 2 kg；16 核 CPU + Jetson AGX Orin 64 GB；LiDAR、RGB-D、RGB、鱼眼</td>
+<td nowrap>标配单手 6-DoF 原生灵巧手；官网未给触觉阵列数</td>
+</tr>
+<tr>
+<td nowrap><a href="https://www.agibot.com/products/A2_Ultra">A2 Lite</a><br>表演/入门全尺寸双足</td>
+<td nowrap>169 cm / 约 64 kg</td>
+<td nowrap>23：颈 1、单臂 5、单腿 6；手不计入</td>
+<td nowrap>最大 0.8 m/s</td>
+<td nowrap>14.4 Ah；站立约 4.5 h、行走 1.5 h+</td>
+<td nowrap>单臂约 2 kg；16 核 CPU；无高算力板及 LiDAR/RGB-D/RGB/鱼眼</td>
+<td nowrap>软质仿生假手，不是灵巧手</td>
+</tr>
+<tr>
+<td nowrap><a href="https://www.agibot.com/products/A2_Max">A2 Max</a><br>官网标注 Coming soon</td>
+<td nowrap>175 cm / 85 kg</td>
+<td nowrap>67 总 DoF / 53 主动 DoF；单手 19 总 / 12 主动</td>
+<td nowrap>1 m/s</td>
+<td nowrap>约 2 h，支持换电</td>
+<td nowrap>全工作空间搬运 40 kg；腿部推力 8800 N；双臂关节峰值 450 N·m</td>
+<td nowrap>工业五指灵巧手；未量产状态需与在售型号分开看</td>
+</tr>
+<tr>
+<td nowrap><a href="https://www.agibot.com/products/A3">A3</a><br>2026 全尺寸双足</td>
+<td nowrap>173 cm / 55 kg</td>
+<td nowrap>机体 31，不含手：颈 2、单臂 7、腰 3、单腿 6</td>
+<td nowrap>日常最大 1.8 m/s；实验室 2.5 m/s；最高跑速 5 m/s</td>
+<td nowrap>1152 Wh；综合约 10 h，站立约 6 h、连续行走 &gt;4 h；可换电</td>
+<td nowrap>单臂 5 kg；RK3588×2；双目 RGB、GPS、UWB、肩部触摸</td>
+<td nowrap>标准为硅胶手/硅胶拳，无主动手指 DoF，不是灵巧手</td>
+</tr>
+<tr>
+<td nowrap><a href="https://www.agibot.com/products/X1">X1</a><br>中型全栈开源双足</td>
+<td nowrap>130 cm / 33 kg</td>
+<td nowrap>34</td>
+<td nowrap>最大 1 m/s</td>
+<td nowrap>约 2 h</td>
+<td nowrap>单臂 0.5 kg；官方当前页未统一公开算力/感知配置</td>
+<td nowrap>OmniPicker 自适应夹爪：30 N、120 mm 行程、0.7 s 开合；不是五指灵巧手</td>
+</tr>
+<tr>
+<td nowrap><a href="https://www.agibot.com/products/X2">X2</a><br>半尺寸基础双足</td>
+<td nowrap>约 131 cm / 35 kg</td>
+<td nowrap>25：颈 0、单臂 5、腰 3、单腿 6</td>
+<td nowrap>典型 ≤0.8 m/s；最高 1.8 m/s；实验室 ≤2 m/s</td>
+<td nowrap>约 500 Wh；0.5 m/s 下约 2 h；可换电</td>
+<td nowrap>特定姿态最大 3 kg、全工作域 ≤1 kg；RK3588×2；交互 RGB，无 LiDAR/RGB-D</td>
+<td nowrap>基础 X2 不支持 Ultra 专属 OmniHand/OmniPicker 选配</td>
+</tr>
+<tr>
+<td nowrap><a href="https://www.agibot.com/products/X2">X2 Ultra</a><br>半尺寸高配双足</td>
+<td nowrap>约 131 cm / 39 kg</td>
+<td nowrap>30：颈 1、单臂 7、腰 3、单腿 6</td>
+<td nowrap>典型 ≤0.8 m/s；最高 1.8 m/s；实验室 ≤2 m/s</td>
+<td nowrap>约 500 Wh；0.5 m/s 下约 2 h；可换电/可选自动充电</td>
+<td nowrap>特定姿态最大 3 kg、全工作域 ≤1 kg；RK3588×2 + Orin NX 157 TOPS；LiDAR、RGB-D、前后 RGB</td>
+<td nowrap>可选 OmniHand 或 OmniPicker，均非标配</td>
+</tr>
+</tbody>
+</table>
+
+##### 论文中的自研双足平台
+
+这里把“自研”限定为作者团队设计/制造核心机械与电气平台，并在论文中完成实机验证；在商用 H1/G1 上自行加腕和手的 HumanPlus/OmniH2O 不归入此表。
+
+<table>
+<thead>
+<tr>
+<th nowrap>平台 / 会议</th>
+<th nowrap>身高 / 重量</th>
+<th nowrap>主动 DoF</th>
+<th nowrap>实测能力</th>
+<th nowrap>算力 / 传感</th>
+<th nowrap>手部与正确分类</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td nowrap><a href="https://hybrid-robotics.berkeley.edu/publications/ICRA2025_Berkeley_Humanoid.pdf">Berkeley Humanoid</a><br>ICRA 2025</td>
+<td nowrap>0.85 m / 16 kg</td>
+<td nowrap>实验机 12：单腿 6×2</td>
+<td nowrap>校园 10 min 行走 364 m；山径 5 min 行走 96 m；论文未给产品额定续航/负载</td>
+<td nowrap>Intel NUC、低成本 IMU、双电池；预留 RGB-D/LiDAR 接口</td>
+<td nowrap>论文设计过双 4-DoF 臂，但验证实机未安装手臂和手；属于自研双足运动平台</td>
+</tr>
+<tr>
+<td nowrap><a href="https://lite.berkeley-humanoid.org/">Berkeley Humanoid Lite</a><br>RSS 2025</td>
+<td nowrap>0.8 m / 16 kg</td>
+<td nowrap>机体 22：双腿 12 + 双臂 10；夹爪另算</td>
+<td nowrap>6S 4000 mAh，约 30 min；展示行走、书写、积木与魔方遥操作</td>
+<td nowrap>Intel N95 mini PC + IMU；模块化 3D 打印摆线减速器；硬件成本 &lt;5,000 美元</td>
+<td nowrap>双 5-DoF 臂 + 集成夹爪；不是五指灵巧手</td>
+</tr>
+<tr>
+<td nowrap><a href="https://proceedings.mlr.press/v305/shi25a.html">ToddlerBot</a><br>CoRL 2025</td>
+<td nowrap>0.56 m / 3.4 kg</td>
+<td nowrap>机体 30：单臂 7、单腿 6、颈 2、腰 2；末端另算</td>
+<td nowrap>实测举起 1.484 kg；电池实践约 2 h；连续踏步 19 min 是热/控制测试，不等同电池续航</td>
+<td nowrap>Jetson Orin NX 16 GB、双鱼眼、IMU、双麦克风与扬声器；整机成本 &lt;6,000 美元</td>
+<td nowrap>快换并联夹爪或柔顺掌；不是五指灵巧手</td>
+</tr>
+</tbody>
+</table>
+
+##### 人形机体与灵巧手的组合形态
+
+<table>
+<thead>
+<tr>
+<th nowrap>厂商 / 末端</th>
+<th nowrap>形态</th>
+<th nowrap>自由度与传感</th>
+<th nowrap>重量 / 力</th>
+<th nowrap>明确适配的人形机体</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td nowrap><a href="https://www.unitree.com/Dex2-5/">宇树 Dex2/5</a></td>
+<td nowrap>五指腱绳手，偏轻量抓取/手势</td>
+<td nowrap>10 个运动 DoF、2 个主动 DoF；官网未列触觉阵列</td>
+<td nowrap>365 g；最大抓取约 1.5 kg</td>
+<td nowrap>G1、R1</td>
+</tr>
+<tr>
+<td nowrap><a href="https://www.unitree.com/Dex3-1/">宇树 Dex3-1</a></td>
+<td nowrap>三指力控手</td>
+<td nowrap>7 个主动 DoF；可配 33 个触觉传感单元</td>
+<td nowrap>710 g；掌心向下抓取约 0.5 kg</td>
+<td nowrap>G1，尤其 G1 EDU/旗舰配置</td>
+</tr>
+<tr>
+<td nowrap><a href="https://www.unitree.com/Dex5-1/">宇树 Dex5-1 / Dex5-1P</a></td>
+<td nowrap>五指高自由度手</td>
+<td nowrap>20 DoF（16 主动 + 4 耦合）；P 版每手 94 个压力传感单元</td>
+<td nowrap>约 1.1 kg；指尖力约 10 N</td>
+<td nowrap>H1-2 官网明确列为选配</td>
+</tr>
+<tr>
+<td nowrap><a href="https://www.unitree.com/H2plus/">SharpaWave 双五指手</a></td>
+<td nowrap>H2 Plus 的高密度触觉研究配置</td>
+<td nowrap>每手 22 个主动 DoF；每个指尖 &gt;1000 触觉像素</td>
+<td nowrap>每手 1.3 kg；握力 150 N、指尖力 20 N</td>
+<td nowrap>H2 Plus；机体 31 + 双手 44 = 整机 75 DoF</td>
+</tr>
+<tr>
+<td nowrap><a href="https://www.agibot.com/products/OmniHand_O10">智元 OmniHand 2025</a></td>
+<td nowrap>五指交互/轻作业灵巧手</td>
+<td nowrap>10 主动 / 16 总 DoF；触觉版 400+ 触点</td>
+<td nowrap>触觉版 ≤550 g；典型指尖力 5 N</td>
+<td nowrap>X2 Ultra 官方选配；A2 可另购改装，但不是 A2 原生 40 DoF 的组成口径</td>
+</tr>
+<tr>
+<td nowrap><a href="https://www.agibot.com/products/OmniHand_O12">智元 OmniHand Pro 2025</a></td>
+<td nowrap>五指专业操作手</td>
+<td nowrap>12 主动 / 19 总 DoF；150+ 触点，指尖三轴力 + 掌部一轴力</td>
+<td nowrap>≤750 g；典型指尖力 20 N</td>
+<td nowrap>通用机器人/机械臂末端；当前未找到 A3/X1 的逐机型标配证据</td>
+</tr>
+<tr>
+<td nowrap>智元 OmniPicker</td>
+<td nowrap>自适应二指夹爪，不是灵巧手</td>
+<td nowrap>120 mm 行程；0.7 s 开合</td>
+<td nowrap>0.43 kg；最大夹持力 30 N</td>
+<td nowrap>X1 官方配置；X2 Ultra 可选</td>
+</tr>
+</tbody>
+</table>
+
+两家的共同思路都是“可行走机体 + 可替换末端 + 视觉/触觉 + 高算力模块”，但产品分层不同：宇树通常在 EDU/高配版增加腕、手和触觉，H2 Plus 才把高密度触觉双手做成完整参考配置；智元 A2 Ultra 使用原生 6-DoF 手，X2 Ultra 改为 OmniHand/OmniPicker 可选末端，A3 标准款仍是无主动手指的硅胶手。因此比较时必须同时写清楚机体版本、末端型号、主动/被动 DoF 和触觉是否标配。
+
 #### humanoid
 
 共 33 篇。
@@ -9067,7 +9465,7 @@ WAM 将未来世界状态预测和动作生成合在一起，适合放在 agent 
 <td nowrap>-</td>
 </tr>
 <tr>
-<td nowrap>ICRA 2026</td>
+<td nowrap>arXiv 2025</td>
 <td nowrap><a href="https://arxiv.org/abs/2510.08807">Humanoid Everyday: A Comprehensive Robotic Dataset for Open-World Humanoid Manipulation</a></td>
 <td nowrap>Humanoid Everyday 提供 260 类开放世界人形操作任务，覆盖移动、交互、操作和多模态传感。</td>
 <td nowrap>Humanoid</td>

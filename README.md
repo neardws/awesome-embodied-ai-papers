@@ -12,7 +12,7 @@ English | [Chinese](README.zh-CN.md)
 [![Stars](https://img.shields.io/github/stars/neardws/awesome-embodied-ai-papers?style=for-the-badge&color=fdcb6e&logo=github)](https://github.com/neardws/awesome-embodied-ai-papers/stargazers)
 [![Forks](https://img.shields.io/github/forks/neardws/awesome-embodied-ai-papers?style=for-the-badge&color=e17055&logo=github)](https://github.com/neardws/awesome-embodied-ai-papers/network/members)
 
-Updated: 2026-06-28
+Updated: 2026-07-10
 
 </div>
 
@@ -25,6 +25,7 @@ Updated: 2026-06-28
 | 🗺️ | [Direction Overview](#direction-overview) | Six-track overview with paper counts |
 | 🔎 | [Reading Order](#reading-order) | Suggested priority list for deeper reading |
 | 🧾 | [Data Sources](#data-sources) | Source traceability and reference metadata |
+| 🦿 | [Humanoid & Biped Focus](#humanoid--biped-focus) | Conference research map, biped platforms, and dexterous-hand configurations |
 | 📚 | [Detailed Tables](#detailed-tables) | Paper-level tables by direction and subdirection |
 
 > [!NOTE]
@@ -245,6 +246,14 @@ GitHub source repository metadata and README snapshots are recorded in [`sources
 <tr>
 <td nowrap><a href="https://github.com/yueen-ma/Awesome-VLA">yueen-ma/Awesome-VLA</a></td>
 <td nowrap>Reference VLA categories such as components, world models, reasoning, policy steering, and low-level/high-level planners.</td>
+</tr>
+<tr>
+<td nowrap><a href="https://www.unitree.com/H2plus/">Unitree official humanoid and dexterous-hand pages</a></td>
+<td nowrap>Verify current H1/H1-2, G1, R1, H2/H2 Plus and modular hand specifications; living product figures were checked on 2026-07-10.</td>
+</tr>
+<tr>
+<td nowrap><a href="https://open.agibot.com/docs/en/aimdk/a3/v3_1/dev_guide/01-a3_overview">AgiBot official product and AimDK documentation</a></td>
+<td nowrap>Verify the bipedal A2, A3, X1 and X2 families, distinguish wheeled variants, and trace OmniHand/end-effector configurations.</td>
 </tr>
 </tbody>
 </table>
@@ -8878,6 +8887,395 @@ Total: 114 papers.
 </tbody>
 </table>
 
+#### Humanoid & Biped Focus
+
+This focus section adds a searchable aggregate view above the existing humanoid paper table: it first maps what CCF-related AI/CV venues and robotics conferences are studying, then separates the deployed robots, Unitree and AgiBot biped models, lab-built platforms, and dexterous-hand configurations. Publication status and specifications were checked through **2026-07-10**. These cross-index tables are not counted again in the 114-paper total above.
+
+> [!IMPORTANT]
+> “Body DoF” excludes optional end effectors unless the vendor explicitly reports a full-system total. The biped tables intentionally exclude wheeled or fixed-base platforms such as Unitree G1-D/R1-D/H2-D and AgiBot A2-W/G1/G2. `Sim Only` means that a robot model or URDF was used; it does not indicate deployment on physical hardware.
+
+##### Conference research map and concrete robots
+
+This is a representative, hardware-traceable sample of recent work rather than a second exhaustive list of every paper containing the word “humanoid.”
+
+<table>
+<thead>
+<tr>
+<th nowrap>Research focus</th>
+<th nowrap>Representative work / venue</th>
+<th nowrap>Venue group</th>
+<th nowrap>Concrete robot</th>
+<th nowrap>Validation</th>
+<th nowrap>Current question</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td nowrap>Human shadowing and skill imitation</td>
+<td nowrap><a href="https://proceedings.mlr.press/v270/fu25a.html">HumanPlus</a> / CoRL 2024</td>
+<td nowrap>Robotics</td>
+<td nowrap>Unitree H1 with research-team wrist joints and two Inspire RH56DFX hands; 33 DoF total</td>
+<td nowrap>Sim→Real</td>
+<td nowrap>Real-time monocular human shadowing followed by whole-body skill learning from teleoperated demonstrations.</td>
+</tr>
+<tr>
+<td nowrap>Whole-body teleoperation and dexterous loco-manipulation</td>
+<td nowrap><a href="https://proceedings.mlr.press/v270/he25b.html">OmniH2O</a> / CoRL 2024</td>
+<td nowrap>Robotics</td>
+<td nowrap>Unitree H1 with added Damiao wrist joints and Inspire hands</td>
+<td nowrap>Sim→Real</td>
+<td nowrap>Maps human whole-body motion to a humanoid online and learns autonomous loco-manipulation from teleoperation data.</td>
+</tr>
+<tr>
+<td nowrap>Dynamics alignment for agile skills</td>
+<td nowrap><a href="https://www.roboticsproceedings.org/rss21/p066.html">ASAP</a> / RSS 2025</td>
+<td nowrap>Robotics</td>
+<td nowrap>Unitree G1</td>
+<td nowrap>Sim + Real</td>
+<td nowrap>Learns a simulation-to-reality residual from limited real trajectories to transfer jumps, spins, and other dynamic whole-body skills.</td>
+</tr>
+<tr>
+<td nowrap>Natural language to whole-body control</td>
+<td nowrap><a href="https://www.roboticsproceedings.org/rss21/p065.html">LangWBC</a> / RSS 2025</td>
+<td nowrap>Robotics</td>
+<td nowrap>Unitree G1</td>
+<td nowrap>Sim + Real</td>
+<td nowrap>Maps language directly to low-level actions while preserving smooth composition and transitions between behaviors.</td>
+</tr>
+<tr>
+<td nowrap>Standing up and fall recovery</td>
+<td nowrap><a href="https://www.roboticsproceedings.org/rss21/p064.html">HoST</a> / RSS 2025</td>
+<td nowrap>Robotics</td>
+<td nowrap>Unitree G1 with 23 actuated DoF controlled in the paper</td>
+<td nowrap>Sim→Real</td>
+<td nowrap>Recovers from diverse fallen poses on rigid, deformable, and sloped terrain—an essential capability for sustained deployment.</td>
+</tr>
+<tr>
+<td nowrap>Unified whole-body control interface</td>
+<td nowrap><a href="https://rpl.cs.utexas.edu/publications/2025/05/19/he-icra25-hover/">HOVER</a> / ICRA 2025</td>
+<td nowrap>Robotics</td>
+<td nowrap>Unitree H1, 19 DoF, approximately 51.5 kg in the experimental configuration</td>
+<td nowrap>Sim + Real</td>
+<td nowrap>Unifies the target interfaces required by navigation, motion, manipulation, and teleoperation in one controller.</td>
+</tr>
+<tr>
+<td nowrap>Monocular human-to-humanoid teleoperation</td>
+<td nowrap><a href="https://human2humanoid.com/">H2O</a> / IROS 2024 Oral</td>
+<td nowrap>Robotics</td>
+<td nowrap>Unitree H1 with 19 actuated body DoF</td>
+<td nowrap>Sim→Real</td>
+<td nowrap>Reproduces full-body motion in real time from monocular RGB, focusing on motion control rather than fine hand manipulation.</td>
+</tr>
+<tr>
+<td nowrap>Vision-language whole-body rearrangement</td>
+<td nowrap><a href="https://proceedings.neurips.cc/paper_files/paper/2024/hash/215aeb07b5996c969c0123c3c6ee8f54-Abstract-Conference.html">HumanVLA</a> / NeurIPS 2024</td>
+<td nowrap>CCF-A</td>
+<td nowrap>Generic IsaacGym humanoid with spherical hands; no physical robot</td>
+<td nowrap>Sim Only</td>
+<td nowrap>Jointly studies locomotion and object rearrangement under language instructions while exposing the reality gap of simplified hands and simulation-only validation.</td>
+</tr>
+<tr>
+<td nowrap>Large-workspace end-to-end whole-body VLA</td>
+<td nowrap><a href="https://openreview.net/forum?id=OCJmVjyzN7">WholeBodyVLA</a> / ICLR 2026</td>
+<td nowrap>CCF-A</td>
+<td nowrap>AgiBot X2</td>
+<td nowrap>Sim + Real</td>
+<td nowrap>Unifies vision, language, locomotion, and manipulation in a latent VLA for long-horizon, large-workspace loco-manipulation.</td>
+</tr>
+<tr>
+<td nowrap>Cross-humanoid generalist control</td>
+<td nowrap><a href="https://openreview.net/forum?id=kovWCrgHxo">XHugWBC</a> / ICML 2026</td>
+<td nowrap>CCF-A</td>
+<td nowrap>12 simulated embodiments; 7 real configurations: Booster T1, Fourier N1, Unitree G1 (23/29-DoF configurations), AgiBot X2, Dobot Atom, and Unitree H1-2</td>
+<td nowrap>Sim + Real</td>
+<td nowrap>Uses semantically aligned joints and morphology randomization so one policy can transfer zero-shot across sizes, masses, and topologies.</td>
+</tr>
+<tr>
+<td nowrap>Visual sim-to-real for dexterous loco-manipulation</td>
+<td nowrap><a href="https://openaccess.thecvf.com/content/CVPR2026/html/He_VIRAL_Visual_Sim-to-Real_at_Scale_for_Humanoid_Loco-Manipulation_CVPR_2026_paper.html">VIRAL</a> / CVPR 2026</td>
+<td nowrap>CCF-A</td>
+<td nowrap>Unitree G1 with its native three-finger dexterous hands</td>
+<td nowrap>Sim→Real</td>
+<td nowrap>Scales visual-policy training in simulation and transfers locomotion plus bimanual manipulation zero-shot to hardware.</td>
+</tr>
+<tr>
+<td nowrap>Open-world humanoid data and cloud evaluation</td>
+<td nowrap><a href="https://humanoideveryday.github.io/">Humanoid Everyday</a> / arXiv 2025</td>
+<td nowrap>Preprint; formal venue unverified</td>
+<td nowrap>Unitree G1 + Dex3-1; Unitree H1 + 6-DoF Inspire hands</td>
+<td nowrap>Real Data</td>
+<td nowrap>Covers 260 everyday task categories and approximately 10.3K trajectories for data scaling, multi-task policies, and standardized remote evaluation.</td>
+</tr>
+</tbody>
+</table>
+
+Across these traceable examples, the field has expanded from stable bipedal walking into five parallel lines: language- or prompt-conditioned whole-body control, recovery under complex contacts, tightly coupled perception/locomotion/manipulation, real-data scaling with dexterous hands, and controller sharing across different humanoid morphologies. Unitree H1/G1 are currently the most common commercial research bases in papers, while AgiBot X2 is beginning to appear in end-to-end whole-body VLA and cross-embodiment control.
+
+##### Unitree biped models and specifications
+
+<table>
+<thead>
+<tr>
+<th nowrap>Model / role</th>
+<th nowrap>Height / weight</th>
+<th nowrap>Body DoF</th>
+<th nowrap>Joint, payload, and speed</th>
+<th nowrap>Battery / endurance</th>
+<th nowrap>Perception and compute</th>
+<th nowrap>Dexterous-hand form</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td nowrap><a href="https://www.unitree.com/h1/">H1</a><br>First full-size general humanoid</td>
+<td nowrap>About 180 cm / 47 kg</td>
+<td nowrap>Official total 19; 5 per leg and 4 per arm, expandable</td>
+<td nowrap>Knee about 360 N·m, hip 220 N·m, ankle 59 N·m, arm 75 N·m; listed speed 3.3 m/s</td>
+<td nowrap>15 Ah / 0.864 kWh, quick-release; no hourly endurance published</td>
+<td nowrap>3D LiDAR + depth camera; i5 platform PC + i7 development PC, optional i7/Orin NX</td>
+<td nowrap>Optional; no standard hand model specified</td>
+</tr>
+<tr>
+<td nowrap><a href="https://www.unitree.com/h1/">H1-2</a><br>Higher-DoF whole-body manipulation version</td>
+<td nowrap>About 178 cm / 70 kg</td>
+<td nowrap>27; 6 per leg and 7 per arm</td>
+<td nowrap>Leg peak 360 N·m; shoulder/elbow about 120 N·m, wrist 30 N·m; arm payload about 21 kg peak / 7 kg rated; speed &lt;2 m/s</td>
+<td nowrap>15 Ah / 0.864 kWh, quick-release</td>
+<td nowrap>3D LiDAR + depth camera; i5+i7, with up to three optional Orin NX modules</td>
+<td nowrap>Dex5-1 or other dexterous hands explicitly optional</td>
+</tr>
+<tr>
+<td nowrap><a href="https://www.unitree.com/g1/">G1 / G1 EDU</a><br>Compact research and education platform</td>
+<td nowrap>132 cm / about 35 kg, 35 kg+</td>
+<td nowrap>23 / 23–43; 6 per leg and 5 per arm; EDU can add waist, wrists, and hands</td>
+<td nowrap>Maximum knee torque 90 / 120 N·m; arm payload about 2 / 3 kg; current parameter table does not list speed</td>
+<td nowrap>9000 mAh quick-release battery; about 2 h</td>
+<td nowrap>Depth camera + 3D LiDAR; 8-core CPU, optional Orin on EDU</td>
+<td nowrap>None on base model; EDU can add a 7-DoF Dex3-1 per hand and 2-DoF wrists</td>
+</tr>
+<tr>
+<td nowrap><a href="https://www.unitree.com/R1/">R1 AIR / R1 / R1 EDU</a><br>Ultra-light, lower-cost platform</td>
+<td nowrap>123 cm / about 27, 29, 29 kg</td>
+<td nowrap>20 / 26 / 26–40; 6 per leg and 4/5/5 per arm</td>
+<td nowrap>Arm payload about 2 kg; joint torque and mobility speed not published</td>
+<td nowrap>Quick-release lithium battery; about 1 h</td>
+<td nowrap>8-core processor; monocular on AIR, binocular on R1/EDU; optional 40–100 TOPS Orin on EDU</td>
+<td nowrap>Only EDU explicitly supports an optional dexterous hand</td>
+</tr>
+<tr>
+<td nowrap><a href="https://www.unitree.com/H2/">H2 / H2 EDU</a><br>Full-size humanoid with a human-like head</td>
+<td nowrap>182 cm / about 70 kg</td>
+<td nowrap>31: 6 per leg, 7 per arm, 3 waist, 2 head</td>
+<td nowrap>Arm/leg peak torque 120/360 N·m; arm payload about 15 kg peak / 7 kg rated; speed not published</td>
+<td nowrap>15 Ah / 0.972 kWh; about 3 h</td>
+<td nowrap>Wide-FOV binocular camera; i5 on H2, additional i7 and optional Thor on EDU</td>
+<td nowrap>None on H2; multiple hand options on H2 EDU</td>
+</tr>
+<tr>
+<td nowrap><a href="https://www.unitree.com/H2plus/">H2 Plus</a><br>NVIDIA Isaac GR00T full-stack research configuration</td>
+<td nowrap>182 cm / about 70 kg</td>
+<td nowrap>31 body DoF; 75 total with both hands</td>
+<td nowrap>Arm/leg peak torque 120/360 N·m; arm payload about 15 kg peak / 7 kg rated</td>
+<td nowrap>0.972 kWh; about 3 h</td>
+<td nowrap>i5+i7 + Jetson T5000; detailed page lists 2070 TFLOPS FP4 sparse and 128 GB unified memory; head stereo and optional wrist cameras</td>
+<td nowrap>Dual SharpaWave five-finger tactile hands, 22 active DoF each; 75 DoF system total</td>
+</tr>
+</tbody>
+</table>
+
+Scope notes: the R1 page labels a value of about 2 kg as “Arm Joint Torque,” but its footnote describes arm payload, so the table records payload and treats torque as unpublished. The H2 hero-page phrase “2070 TOPS” must also not be merged with the H2 Plus detailed specification of “2070 TFLOPS (FP4 sparse)” as if they were the same metric.
+
+##### AgiBot biped models and specifications
+
+<table>
+<thead>
+<tr>
+<th nowrap>Model / status</th>
+<th nowrap>Height / weight</th>
+<th nowrap>Active DoF</th>
+<th nowrap>Speed</th>
+<th nowrap>Endurance</th>
+<th nowrap>Payload, compute, and perception</th>
+<th nowrap>Hand form</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td nowrap><a href="https://www.agibot.com/products/A2_Ultra">A2 Ultra</a><br>Flagship full-size biped</td>
+<td nowrap>169 cm / about 69 kg</td>
+<td nowrap>40 including both hands: 2 neck, 7 per arm, 6 per leg, 6 per hand</td>
+<td nowrap>Up to 1.2 m/s</td>
+<td nowrap>14.4 Ah; about 3 h standing and 1.5 h+ walking; charging or battery swapping</td>
+<td nowrap>About 2 kg per arm; 16-core CPU + Jetson AGX Orin 64 GB; LiDAR, RGB-D, RGB, and fisheye cameras</td>
+<td nowrap>Native 6-DoF hand per side; no tactile-array count published</td>
+</tr>
+<tr>
+<td nowrap><a href="https://www.agibot.com/products/A2_Ultra">A2 Lite</a><br>Entry/performance full-size biped</td>
+<td nowrap>169 cm / about 64 kg</td>
+<td nowrap>23: 1 neck, 5 per arm, 6 per leg; hands excluded</td>
+<td nowrap>Up to 0.8 m/s</td>
+<td nowrap>14.4 Ah; about 4.5 h standing and 1.5 h+ walking</td>
+<td nowrap>About 2 kg per arm; 16-core CPU; no high-performance board or LiDAR/RGB-D/RGB/fisheye suite</td>
+<td nowrap>Soft cosmetic hands, not dexterous hands</td>
+</tr>
+<tr>
+<td nowrap><a href="https://www.agibot.com/products/A2_Max">A2 Max</a><br>Marked “Coming soon”</td>
+<td nowrap>175 cm / 85 kg</td>
+<td nowrap>67 total / 53 active; 19 total / 12 active per hand</td>
+<td nowrap>1 m/s</td>
+<td nowrap>About 2 h with battery swapping</td>
+<td nowrap>40 kg across the full workspace; 8800 N leg thrust; 450 N·m peak dual-arm joint torque</td>
+<td nowrap>Industrial five-finger hand; pre-release status must be kept separate from shipping products</td>
+</tr>
+<tr>
+<td nowrap><a href="https://www.agibot.com/products/A3">A3</a><br>2026 full-size biped</td>
+<td nowrap>173 cm / 55 kg</td>
+<td nowrap>31 body DoF excluding hands: 2 neck, 7 per arm, 3 waist, 6 per leg</td>
+<td nowrap>Daily maximum 1.8 m/s; laboratory 2.5 m/s; maximum running speed 5 m/s</td>
+<td nowrap>1152 Wh; about 10 h mixed duty, 6 h standing, and &gt;4 h continuous walking; battery swapping</td>
+<td nowrap>5 kg per arm; RK3588×2; stereo RGB, GPS, UWB, and shoulder touch sensors</td>
+<td nowrap>Standard silicone hands/fists with no active finger DoF; not dexterous hands</td>
+</tr>
+<tr>
+<td nowrap><a href="https://www.agibot.com/products/X1">X1</a><br>Mid-size full-stack open-source biped</td>
+<td nowrap>130 cm / 33 kg</td>
+<td nowrap>34</td>
+<td nowrap>Up to 1 m/s</td>
+<td nowrap>About 2 h</td>
+<td nowrap>0.5 kg per arm; current page does not publish one unified compute/perception configuration</td>
+<td nowrap>OmniPicker adaptive gripper: 30 N, 120 mm stroke, 0.7 s cycle; not a five-finger hand</td>
+</tr>
+<tr>
+<td nowrap><a href="https://www.agibot.com/products/X2">X2</a><br>Half-size base biped</td>
+<td nowrap>About 131 cm / 35 kg</td>
+<td nowrap>25: 0 neck, 5 per arm, 3 waist, 6 per leg</td>
+<td nowrap>Typical ≤0.8 m/s; up to 1.8 m/s; laboratory ≤2 m/s</td>
+<td nowrap>About 500 Wh; about 2 h at 0.5 m/s; swappable battery</td>
+<td nowrap>3 kg in specified poses and ≤1 kg over the full workspace; RK3588×2; interaction RGB but no LiDAR/RGB-D</td>
+<td nowrap>Base X2 does not support the Ultra-only OmniHand/OmniPicker option</td>
+</tr>
+<tr>
+<td nowrap><a href="https://www.agibot.com/products/X2">X2 Ultra</a><br>Half-size high-spec biped</td>
+<td nowrap>About 131 cm / 39 kg</td>
+<td nowrap>30: 1 neck, 7 per arm, 3 waist, 6 per leg</td>
+<td nowrap>Typical ≤0.8 m/s; up to 1.8 m/s; laboratory ≤2 m/s</td>
+<td nowrap>About 500 Wh; about 2 h at 0.5 m/s; swappable battery and optional charging dock</td>
+<td nowrap>3 kg in specified poses and ≤1 kg over the full workspace; RK3588×2 + Orin NX 157 TOPS; LiDAR, RGB-D, front/rear RGB</td>
+<td nowrap>Optional OmniHand or OmniPicker; neither is standard</td>
+</tr>
+</tbody>
+</table>
+
+##### Lab-built biped platforms in papers
+
+Here, “lab-built” means that the author team designed or manufactured the core mechanical and electrical platform and validated it on hardware. HumanPlus and OmniH2O therefore remain commercial H1 bodies with research-team wrist/hand integrations, rather than fully lab-built robots.
+
+<table>
+<thead>
+<tr>
+<th nowrap>Platform / venue</th>
+<th nowrap>Height / weight</th>
+<th nowrap>Active DoF</th>
+<th nowrap>Measured capability</th>
+<th nowrap>Compute / sensing</th>
+<th nowrap>Hand and correct classification</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td nowrap><a href="https://hybrid-robotics.berkeley.edu/publications/ICRA2025_Berkeley_Humanoid.pdf">Berkeley Humanoid</a><br>ICRA 2025</td>
+<td nowrap>0.85 m / 16 kg</td>
+<td nowrap>12 on the tested robot: 6 per leg</td>
+<td nowrap>364 m in a 10-minute campus walk and 96 m in a 5-minute trail test; no rated product endurance/payload</td>
+<td nowrap>Intel NUC, low-cost IMU, dual batteries; expansion interfaces for RGB-D/LiDAR</td>
+<td nowrap>The design discusses two 4-DoF arms, but the validated robot had no arms or hands; classify it as a lab-built biped locomotion platform</td>
+</tr>
+<tr>
+<td nowrap><a href="https://lite.berkeley-humanoid.org/">Berkeley Humanoid Lite</a><br>RSS 2025</td>
+<td nowrap>0.8 m / 16 kg</td>
+<td nowrap>22 body DoF: 12 legs + 10 arms; grippers excluded</td>
+<td nowrap>6S 4000 mAh, about 30 minutes; demonstrates walking and teleoperated writing, block, and Rubik's-cube tasks</td>
+<td nowrap>Intel N95 mini PC + IMU; modular 3D-printed cycloidal gearboxes; hardware cost under $5,000</td>
+<td nowrap>Two 5-DoF arms with integrated grippers; not five-finger dexterous hands</td>
+</tr>
+<tr>
+<td nowrap><a href="https://proceedings.mlr.press/v305/shi25a.html">ToddlerBot</a><br>CoRL 2025</td>
+<td nowrap>0.56 m / 3.4 kg</td>
+<td nowrap>30 body DoF: 7 per arm, 6 per leg, 2 neck, 2 waist; end effectors excluded</td>
+<td nowrap>Lifts 1.484 kg; practical battery duration about 2 h; the 19-minute continuous stepping test is a thermal/control test, not battery endurance</td>
+<td nowrap>Jetson Orin NX 16 GB, dual fisheye cameras, IMU, two microphones and speaker; system cost under $6,000</td>
+<td nowrap>Quick-change parallel gripper or compliant palm; not a five-finger dexterous hand</td>
+</tr>
+</tbody>
+</table>
+
+##### Humanoid-body and dexterous-hand configurations
+
+<table>
+<thead>
+<tr>
+<th nowrap>Vendor / end effector</th>
+<th nowrap>Form</th>
+<th nowrap>DoF and sensing</th>
+<th nowrap>Weight / force</th>
+<th nowrap>Explicit humanoid compatibility</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td nowrap><a href="https://www.unitree.com/Dex2-5/">Unitree Dex2/5</a></td>
+<td nowrap>Five-finger tendon hand for lightweight grasping and gestures</td>
+<td nowrap>10 motion DoF, 2 active DoF; no tactile array listed</td>
+<td nowrap>365 g; maximum grasp about 1.5 kg</td>
+<td nowrap>G1 and R1</td>
+</tr>
+<tr>
+<td nowrap><a href="https://www.unitree.com/Dex3-1/">Unitree Dex3-1</a></td>
+<td nowrap>Three-finger force-controlled hand</td>
+<td nowrap>7 active DoF; up to 33 tactile sensing elements</td>
+<td nowrap>710 g; about 0.5 kg palm-down grasp</td>
+<td nowrap>G1, especially G1 EDU/flagship configurations</td>
+</tr>
+<tr>
+<td nowrap><a href="https://www.unitree.com/Dex5-1/">Unitree Dex5-1 / Dex5-1P</a></td>
+<td nowrap>High-DoF five-finger hand</td>
+<td nowrap>20 DoF (16 active + 4 coupled); 94 pressure elements per hand on P</td>
+<td nowrap>About 1.1 kg; fingertip force about 10 N</td>
+<td nowrap>Explicit option on H1-2</td>
+</tr>
+<tr>
+<td nowrap><a href="https://www.unitree.com/H2plus/">Dual SharpaWave hands</a></td>
+<td nowrap>Dense-tactile H2 Plus research configuration</td>
+<td nowrap>22 active DoF per hand; &gt;1000 tactile pixels per fingertip</td>
+<td nowrap>1.3 kg per hand; 150 N grip force and 20 N fingertip force</td>
+<td nowrap>H2 Plus; 31 body + 44 hand DoF = 75 system DoF</td>
+</tr>
+<tr>
+<td nowrap><a href="https://www.agibot.com/products/OmniHand_O10">AgiBot OmniHand 2025</a></td>
+<td nowrap>Five-finger interaction/light-duty dexterous hand</td>
+<td nowrap>10 active / 16 total DoF; 400+ taxels on the tactile version</td>
+<td nowrap>≤550 g tactile version; typical fingertip force 5 N</td>
+<td nowrap>Official option on X2 Ultra; sold as an A2 retrofit but not part of the native A2 40-DoF count</td>
+</tr>
+<tr>
+<td nowrap><a href="https://www.agibot.com/products/OmniHand_O12">AgiBot OmniHand Pro 2025</a></td>
+<td nowrap>Five-finger professional manipulation hand</td>
+<td nowrap>12 active / 19 total DoF; 150+ taxels, 3-axis fingertip force and 1-axis palm force</td>
+<td nowrap>≤750 g; typical fingertip force 20 N</td>
+<td nowrap>General robot/arm end effector; no current per-model evidence that it is standard on A3 or X1</td>
+</tr>
+<tr>
+<td nowrap>AgiBot OmniPicker</td>
+<td nowrap>Adaptive two-finger gripper, not a dexterous hand</td>
+<td nowrap>120 mm stroke; 0.7 s open/close cycle</td>
+<td nowrap>0.43 kg; maximum clamping force 30 N</td>
+<td nowrap>Official X1 configuration and optional X2 Ultra end effector</td>
+</tr>
+</tbody>
+</table>
+
+Both ecosystems use the general pattern “walking body + replaceable end effector + vision/touch + optional high-performance compute,” but their product tiers differ. Unitree typically adds wrists, hands, and tactile sensing on EDU or high-spec versions, with H2 Plus becoming the complete dense-tactile reference stack. AgiBot A2 Ultra uses a native 6-DoF hand, X2 Ultra exposes OmniHand/OmniPicker as options, and standard A3 still uses non-actuated silicone hands. Comparisons therefore need to name the body version, end-effector model, active versus passive DoF, and whether tactile sensing is standard or optional.
+
 #### humanoid
 
 Total: 33 papers.
@@ -9067,7 +9465,7 @@ Total: 33 papers.
 <td nowrap>-</td>
 </tr>
 <tr>
-<td nowrap>ICRA 2026</td>
+<td nowrap>arXiv 2025</td>
 <td nowrap><a href="https://arxiv.org/abs/2510.08807">Humanoid Everyday: A Comprehensive Robotic Dataset for Open-World Humanoid Manipulation</a></td>
 <td nowrap>Humanoid Everyday provides 260 open-world humanoid manipulation task categories covering locomotion, interaction, manipulation, and multimodal sensing.</td>
 <td nowrap>Humanoid</td>
