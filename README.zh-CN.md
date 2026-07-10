@@ -25,7 +25,7 @@
 | 🗺️ | [方向总览表](#方向总览表) | 六条方向及论文条目数 |
 | 🔎 | [重点阅读顺序](#重点阅读顺序) | 建议优先阅读的方向 |
 | 🧾 | [数据来源说明](#数据来源说明) | 来源追溯和参考元数据 |
-| 🦿 | [人形与双足专题](#人形与双足专题) | 会议研究版图、双足平台与灵巧手配置 |
+| 🦿 | [人形与双足硬件参考](#人形与双足硬件参考) | 双足平台与灵巧手配置；论文统一合入 humanoid 主表 |
 | 📚 | [各方向详细表格](#各方向详细表格) | 按方向和子方向展开的论文表 |
 
 > [!NOTE]
@@ -172,7 +172,7 @@
 <td nowrap><code>Embodiment</code></td>
 <td nowrap>本体扩展 / 灵巧操作</td>
 <td nowrap>humanoid、bimanual、dexterous hand、tactile/contact-rich</td>
-<td nowrap>99</td>
+<td nowrap>159</td>
 <td nowrap>本体扩展决定具身智能是否能从单机械臂走向人形、双臂、灵巧手和触觉接触任务。表中论文体现了动作空间、传感方式和控制目标随本体变化而复杂化。</td>
 </tr>
 <tr>
@@ -8853,7 +8853,7 @@ WAM 将未来世界状态预测和动作生成合在一起，适合放在 agent 
 
 子方向：humanoid、bimanual、dexterous hand、tactile/contact-rich。
 
-共 114 篇。
+共 159 篇。
 
 <table>
 <thead>
@@ -8866,7 +8866,7 @@ WAM 将未来世界状态预测和动作生成合在一起，适合放在 agent 
 <tbody>
 <tr>
 <td nowrap>humanoid</td>
-<td nowrap>33</td>
+<td nowrap>78</td>
 <td nowrap>看全身控制、移动操作和人形本体泛化。</td>
 </tr>
 <tr>
@@ -8887,129 +8887,12 @@ WAM 将未来世界状态预测和动作生成合在一起，适合放在 agent 
 </tbody>
 </table>
 
-#### 人形与双足专题
+#### 人形与双足硬件参考
 
-本专题在现有 humanoid 论文表之上增加一层可检索的聚合视图：先回答 CCF 相关 AI/CV 会议与机器人会议正在研究什么，再把论文所用实机、宇树/智元双足型号、自研平台和灵巧手形态拆开比较。以下参数与发表状态核对至 **2026-07-10**；这些交叉索引不重复计入上面的 114 篇论文总数。
+本节只保留硬件索引：宇树与智元双足型号、自研平台，以及人形机体与灵巧手/夹爪的组合方式。论文不再在这里另起一张表；会议、方法、具体本体、验证形态、解决问题、当前瓶颈和未来趋势，统一合入后文唯一的 **humanoid 论文主表**。以下参数核对至 **2026-07-10**。
 
 > [!IMPORTANT]
-> “机体 DoF”默认不含可选末端，只有厂商明确给出整机总数时才把双手计入。双足表有意排除宇树 G1-D/R1-D/H2-D，以及智元 A2-W/G1/G2 等轮式或固定底座平台。论文中的 `Sim Only` 表示只使用对应机器人模型/URDF，并不代表完成了实机部署。
-
-##### 会议研究内容与具体机器人
-
-下表是“近期、可追溯具体本体”的代表性样本，不是把所有含 humanoid 关键词的论文重新罗列一遍。
-
-<table>
-<thead>
-<tr>
-<th nowrap>研究内容</th>
-<th nowrap>代表工作 / 会议</th>
-<th nowrap>会议体系</th>
-<th nowrap>具体机器人</th>
-<th nowrap>验证</th>
-<th nowrap>当前问题</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td nowrap>人类动作跟随与技能模仿</td>
-<td nowrap><a href="https://proceedings.mlr.press/v270/fu25a.html">HumanPlus</a> / CoRL 2024</td>
-<td nowrap>机器人会议</td>
-<td nowrap>Unitree H1；团队增配腕关节与双 Inspire RH56DFX 灵巧手，共 33 DoF</td>
-<td nowrap>Sim→Real</td>
-<td nowrap>从单目人类视频做实时 shadowing，再用遥操作示范学习全身操作技能。</td>
-</tr>
-<tr>
-<td nowrap>全身遥操作与灵巧移动操作</td>
-<td nowrap><a href="https://proceedings.mlr.press/v270/he25b.html">OmniH2O</a> / CoRL 2024</td>
-<td nowrap>机器人会议</td>
-<td nowrap>Unitree H1；团队自加 Damiao 腕关节与 Inspire 灵巧手</td>
-<td nowrap>Sim→Real</td>
-<td nowrap>把人体全身动作实时映射到人形，并用遥操作数据学习自主 loco-manipulation。</td>
-</tr>
-<tr>
-<td nowrap>敏捷动作的动力学对齐</td>
-<td nowrap><a href="https://www.roboticsproceedings.org/rss21/p066.html">ASAP</a> / RSS 2025</td>
-<td nowrap>机器人会议</td>
-<td nowrap>Unitree G1</td>
-<td nowrap>Sim + Real</td>
-<td nowrap>用少量真实轨迹学习仿真—真实残差，迁移跳跃、转体等高动态全身技能。</td>
-</tr>
-<tr>
-<td nowrap>自然语言到全身控制</td>
-<td nowrap><a href="https://www.roboticsproceedings.org/rss21/p065.html">LangWBC</a> / RSS 2025</td>
-<td nowrap>机器人会议</td>
-<td nowrap>Unitree G1</td>
-<td nowrap>Sim + Real</td>
-<td nowrap>端到端把语言映射成低层动作，并保持不同动作间平滑组合与切换。</td>
-</tr>
-<tr>
-<td nowrap>起身与跌倒恢复</td>
-<td nowrap><a href="https://www.roboticsproceedings.org/rss21/p064.html">HoST</a> / RSS 2025</td>
-<td nowrap>机器人会议</td>
-<td nowrap>Unitree G1（论文控制 23 个驱动 DoF）</td>
-<td nowrap>Sim→Real</td>
-<td nowrap>从多种倒地姿态在硬地、软地、斜坡等条件下自主起身，补齐连续部署所需恢复能力。</td>
-</tr>
-<tr>
-<td nowrap>统一全身控制接口</td>
-<td nowrap><a href="https://rpl.cs.utexas.edu/publications/2025/05/19/he-icra25-hover/">HOVER</a> / ICRA 2025</td>
-<td nowrap>机器人会议</td>
-<td nowrap>Unitree H1，19 DoF，实验配置约 51.5 kg</td>
-<td nowrap>Sim + Real</td>
-<td nowrap>用一个控制器统一导航、运动、操作和遥操作所需的不同目标接口。</td>
-</tr>
-<tr>
-<td nowrap>单目人体到人形遥操作</td>
-<td nowrap><a href="https://human2humanoid.com/">H2O</a> / IROS 2024 Oral</td>
-<td nowrap>机器人会议</td>
-<td nowrap>Unitree H1，19 个机体驱动 DoF</td>
-<td nowrap>Sim→Real</td>
-<td nowrap>只用单目 RGB 实现实时全身动作复现，重点是运动控制而不是手部精细操作。</td>
-</tr>
-<tr>
-<td nowrap>视觉语言全身物体重排</td>
-<td nowrap><a href="https://proceedings.neurips.cc/paper_files/paper/2024/hash/215aeb07b5996c969c0123c3c6ee8f54-Abstract-Conference.html">HumanVLA</a> / NeurIPS 2024</td>
-<td nowrap>CCF-A</td>
-<td nowrap>IsaacGym 通用仿真人形，球形手部；无物理机器人</td>
-<td nowrap>Sim Only</td>
-<td nowrap>在语言指令下联合行走与物体重排，同时暴露出纯仿真和简化手型的现实差距。</td>
-</tr>
-<tr>
-<td nowrap>大空间端到端全身 VLA</td>
-<td nowrap><a href="https://openreview.net/forum?id=OCJmVjyzN7">WholeBodyVLA</a> / ICLR 2026</td>
-<td nowrap>CCF-A</td>
-<td nowrap>智元 AgiBot X2</td>
-<td nowrap>Sim + Real</td>
-<td nowrap>把视觉、语言、移动和操作统一进潜变量 VLA，面向长时序大空间 loco-manipulation。</td>
-</tr>
-<tr>
-<td nowrap>跨人形本体通用控制</td>
-<td nowrap><a href="https://openreview.net/forum?id=kovWCrgHxo">XHugWBC</a> / ICML 2026</td>
-<td nowrap>CCF-A</td>
-<td nowrap>12 种仿真本体；7 个实机配置：Booster T1、Fourier N1、Unitree G1（23/29 DoF 两配置）、AgiBot X2、Dobot Atom、Unitree H1-2</td>
-<td nowrap>Sim + Real</td>
-<td nowrap>用统一语义关节表示和形态随机化，让同一策略零样本迁移到不同尺寸、质量和拓扑。</td>
-</tr>
-<tr>
-<td nowrap>视觉 Sim2Real 全身灵巧操作</td>
-<td nowrap><a href="https://openaccess.thecvf.com/content/CVPR2026/html/He_VIRAL_Visual_Sim-to-Real_at_Scale_for_Humanoid_Loco-Manipulation_CVPR_2026_paper.html">VIRAL</a> / CVPR 2026</td>
-<td nowrap>CCF-A</td>
-<td nowrap>Unitree G1 + 原生三指灵巧手</td>
-<td nowrap>Sim→Real</td>
-<td nowrap>在仿真规模化训练视觉策略，再零样本迁移到真实移动与双手操作。</td>
-</tr>
-<tr>
-<td nowrap>开放世界人形数据与云评测</td>
-<td nowrap><a href="https://humanoideveryday.github.io/">Humanoid Everyday</a> / arXiv 2025</td>
-<td nowrap>预印本（正式会议未核实）</td>
-<td nowrap>Unitree G1 + Dex3-1；Unitree H1 + 6-DoF Inspire 手</td>
-<td nowrap>Real Data</td>
-<td nowrap>覆盖 260 类日常任务和约 1.03 万条轨迹，研究数据规模、跨任务策略与远程标准化评测。</td>
-</tr>
-</tbody>
-</table>
-
-从这些可核验样本看，研究重心已经从“让双足稳定走起来”扩展到五条并行路线：语言/提示驱动全身控制、复杂接触下的恢复能力、感知移动与操作耦合、带灵巧手的真实数据规模化，以及跨不同人形结构共享控制策略。Unitree H1/G1 目前是论文中最常见的商用实机底座；智元 X2 则开始出现在端到端全身 VLA 和跨本体控制工作中。
+> “机体 DoF”默认不含可选末端，只有厂商明确给出整机总数时才把双手计入。双足表有意排除宇树 G1-D/R1-D/H2-D，以及智元 A2-W/G1/G2 等轮式或固定底座平台。论文主表中的 `Sim Only` 表示只使用对应机器人模型/URDF，并不代表完成了实机部署。
 
 ##### 宇树双足型号与参数
 
@@ -9278,524 +9161,101 @@ WAM 将未来世界状态预测和动作生成合在一起，适合放在 agent 
 
 #### humanoid
 
-共 33 篇。
+共 78 篇。下表是唯一的 humanoid 论文主表：每篇均逐项核查主论文/官方项目材料，并明确区分真实机器人、仅仿真机器人模型和非机器人虚拟人体。CoRL 2024 论文按会议年份标注，即使 PMLR 正式卷在 2025 年出版。**“当前瓶颈”优先采用作者明确限制；没有 limitations 小节时写可验证的实验边界。“未来趋势”是根据该限制做出的研究判断，不等同于作者原话。**
 
-<table>
-<thead>
-<tr>
-<th nowrap>会议/年份</th>
-<th nowrap>论文/方法</th>
-<th nowrap>摘要</th>
-<th nowrap>本体类型</th>
-<th nowrap>传感/接触</th>
-<th nowrap>控制接口</th>
-<th nowrap>训练方式</th>
-<th nowrap>Sim/Real</th>
-<th nowrap>论文任务/目标</th>
-<th nowrap>Paper</th>
-<th nowrap>Project</th>
-<th nowrap>Code</th>
-<th nowrap>Data/Bench</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td nowrap>CoRL 2024</td>
-<td nowrap><a href="https://scholar.google.com/scholar?q=HumanPlus%3A+Humanoid+Shadowing+and+Imitation+from+Humans">HumanPlus: Humanoid Shadowing and Imitation from Humans</a></td>
-<td nowrap>HumanPlus studies humanoid shadowing and imitation from human demonstrations.</td>
-<td nowrap>humanoid</td>
-<td nowrap>robot sensing/contact</td>
-<td nowrap>robot control</td>
-<td nowrap>robot learning</td>
-<td nowrap>robot benchmarks</td>
-<td nowrap>Add CoRL embodiment coverage.</td>
-<td nowrap><a href="https://scholar.google.com/scholar?q=HumanPlus%3A+Humanoid+Shadowing+and+Imitation+from+Humans">paper</a></td>
-<td nowrap>-</td>
-<td nowrap>-</td>
-<td nowrap>-</td>
-</tr>
-<tr>
-<td nowrap>CVPR 2025</td>
-<td nowrap><a href="https://openaccess.thecvf.com/content/CVPR2025/html/Pan_TokenHSI_Unified_Synthesis_of_Physical_Human-Scene_Interactions_through_Task_Tokenization_CVPR_2025_paper.html">TokenHSI: Unified Synthesis of Physical Human-Scene Interactions through Task Tokenization</a></td>
-<td nowrap>TokenHSI synthesizes physical human-scene interactions through task tokenization.</td>
-<td nowrap>Humanoid / human-scene interaction</td>
-<td nowrap>body-scene contact</td>
-<td nowrap>whole-body motion</td>
-<td nowrap>task-tokenized motion synthesis</td>
-<td nowrap>Simulation</td>
-<td nowrap>Synthesize task-conditioned physical human-scene interaction.</td>
-<td nowrap><a href="https://arxiv.org/abs/2503.19901">paper</a></td>
-<td nowrap>-</td>
-<td nowrap>-</td>
-<td nowrap>-</td>
-</tr>
-<tr>
-<td nowrap>CVPR 2025</td>
-<td nowrap><a href="https://openaccess.thecvf.com/content/CVPR2025/papers/Xu_InterMimic_Towards_Universal_Whole-Body_Control_for_Physics-Based_Human-Object_Interactions_CVPR_2025_paper.pdf">InterMimic: Towards Universal Whole-Body Control for Physics-Based Human-Object Interactions</a></td>
-<td nowrap>InterMimic studies universal whole-body control for physics-based human-object interaction.</td>
-<td nowrap>Humanoid / whole-body control</td>
-<td nowrap>body-object contact</td>
-<td nowrap>whole-body controller</td>
-<td nowrap>physics-based imitation</td>
-<td nowrap>Simulation</td>
-<td nowrap>Control human-object interactions with whole-body dynamics.</td>
-<td nowrap><a href="https://arxiv.org/abs/2502.20390">paper</a></td>
-<td nowrap>-</td>
-<td nowrap>-</td>
-<td nowrap>-</td>
-</tr>
-<tr>
-<td nowrap>ICLR 2025</td>
-<td nowrap><a href="https://openreview.net/forum?id=pZISppZSTv">CLoSD: Closing the Loop between Simulation and Diffusion for multi-task character control</a></td>
-<td nowrap>CLoSD closes the loop between simulation and diffusion models for multitask character control.</td>
-<td nowrap>Humanoid / character control</td>
-<td nowrap>whole-body state</td>
-<td nowrap>diffusion control</td>
-<td nowrap>simulation + diffusion</td>
-<td nowrap>Simulation</td>
-<td nowrap>Use diffusion and simulation together for multitask whole-body control.</td>
-<td nowrap><a href="https://arxiv.org/abs/2410.03441">paper</a></td>
-<td nowrap>-</td>
-<td nowrap>-</td>
-<td nowrap>-</td>
-</tr>
-<tr>
-<td nowrap>ICLR 2024</td>
-<td nowrap><a href="https://openreview.net/forum?id=1vCnDyQkjg">Unified Human-Scene Interaction via Prompted Chain-of-Contacts</a></td>
-<td nowrap>This work models human-scene interaction through prompted chains of contact states.</td>
-<td nowrap>Humanoid / human-scene interaction</td>
-<td nowrap>contact sequence</td>
-<td nowrap>whole-body motion</td>
-<td nowrap>prompted contact planning</td>
-<td nowrap>Simulation</td>
-<td nowrap>Generate human-scene interaction from contact chains.</td>
-<td nowrap><a href="https://arxiv.org/abs/2309.07918">paper</a></td>
-<td nowrap>-</td>
-<td nowrap>-</td>
-<td nowrap>-</td>
-</tr>
-<tr>
-<td nowrap>ICLR 2024</td>
-<td nowrap><a href="https://proceedings.iclr.cc/paper_files/paper/2024/hash/7827290f07f63485b849b66cfa3e5dd0-Abstract-Conference.html">OmniControl: Control Any Joint at Any Time for Human Motion Generation</a></td>
-<td nowrap>OmniControl controls arbitrary joints at arbitrary times for human motion generation.</td>
-<td nowrap>Humanoid / motion control</td>
-<td nowrap>joint constraints</td>
-<td nowrap>joint-level motion control</td>
-<td nowrap>controllable motion generation</td>
-<td nowrap>Motion benchmarks</td>
-<td nowrap>Generate controllable whole-body motion from sparse joint constraints.</td>
-<td nowrap><a href="https://arxiv.org/abs/2310.08580">paper</a></td>
-<td nowrap>-</td>
-<td nowrap>-</td>
-<td nowrap>-</td>
-</tr>
-<tr>
-<td nowrap>ICCV 2023</td>
-<td nowrap><a href="https://openaccess.thecvf.com/content/ICCV2023/html/Karunratanakul_Guided_Motion_Diffusion_for_Controllable_Human_Motion_Synthesis_ICCV_2023_paper.html">Guided Motion Diffusion for Controllable Human Motion Synthesis</a></td>
-<td nowrap>Guided Motion Diffusion enables controllable human motion synthesis through diffusion guidance.</td>
-<td nowrap>Humanoid / motion generation</td>
-<td nowrap>whole-body motion</td>
-<td nowrap>guided motion diffusion</td>
-<td nowrap>diffusion synthesis</td>
-<td nowrap>Motion benchmarks</td>
-<td nowrap>Control generated human motion through guidance signals.</td>
-<td nowrap><a href="https://arxiv.org/abs/2305.12577">paper</a></td>
-<td nowrap>-</td>
-<td nowrap>-</td>
-<td nowrap>-</td>
-</tr>
-<tr>
-<td nowrap>ICCV 2023</td>
-<td nowrap><a href="https://openaccess.thecvf.com/content/ICCV2023/html/Yuan_PhysDiff_Physics-Guided_Human_Motion_Diffusion_Model_ICCV_2023_paper.html">PhysDiff: Physics-Guided Human Motion Diffusion Model</a></td>
-<td nowrap>PhysDiff adds physics guidance to human motion diffusion for more plausible motion.</td>
-<td nowrap>Humanoid / motion generation</td>
-<td nowrap>physics constraints</td>
-<td nowrap>motion diffusion</td>
-<td nowrap>physics-guided generation</td>
-<td nowrap>Motion benchmarks</td>
-<td nowrap>Improve physical plausibility of generated whole-body motion.</td>
-<td nowrap><a href="https://arxiv.org/abs/2212.02500">paper</a></td>
-<td nowrap>-</td>
-<td nowrap>-</td>
-<td nowrap>-</td>
-</tr>
-<tr>
-<td nowrap>ECCV 2024</td>
-<td nowrap><a href="https://www.ecva.net/papers/eccv_2024/papers_ECCV/papers/00194.pdf">MANIKIN: Biomechanically Accurate Neural Inverse Kinematics for Human Motion Estimation</a></td>
-<td nowrap>MANIKIN estimates human motion with biomechanically accurate neural inverse kinematics.</td>
-<td nowrap>Humanoid / motion estimation</td>
-<td nowrap>body kinematics</td>
-<td nowrap>inverse kinematics</td>
-<td nowrap>neural IK</td>
-<td nowrap>Motion benchmarks</td>
-<td nowrap>Estimate physically plausible human motion from sparse observations.</td>
-<td nowrap><a href="https://www.ecva.net/papers/eccv_2024/papers_ECCV/papers/00194.pdf">paper</a></td>
-<td nowrap>-</td>
-<td nowrap>-</td>
-<td nowrap>-</td>
-</tr>
-<tr>
-<td nowrap>ECCV 2024</td>
-<td nowrap><a href="https://arxiv.org/abs/2308.06493">EgoPoser: Robust Real-Time Egocentric Pose Estimation from Sparse and Intermittent Observations Everywhere</a></td>
-<td nowrap>EgoPoser performs robust real-time egocentric pose estimation from sparse intermittent observations.</td>
-<td nowrap>Humanoid / pose estimation</td>
-<td nowrap>egocentric sparse sensing</td>
-<td nowrap>pose estimation</td>
-<td nowrap>real-time egocentric inference</td>
-<td nowrap>Motion benchmarks</td>
-<td nowrap>Recover whole-body pose from sparse egocentric observations.</td>
-<td nowrap><a href="https://arxiv.org/abs/2308.06493">paper</a></td>
-<td nowrap>-</td>
-<td nowrap>-</td>
-<td nowrap>-</td>
-</tr>
-<tr>
-<td nowrap>ECCV 2022</td>
-<td nowrap><a href="https://arxiv.org/abs/2207.13784">AvatarPoser: Articulated Full-Body Pose Tracking from Sparse Motion Sensing</a></td>
-<td nowrap>AvatarPoser tracks full-body articulated pose from sparse motion sensors.</td>
-<td nowrap>Humanoid / pose tracking</td>
-<td nowrap>sparse motion sensors</td>
-<td nowrap>full-body pose tracking</td>
-<td nowrap>sparse-sensing inference</td>
-<td nowrap>Motion benchmarks</td>
-<td nowrap>Track full-body pose from sparse wearable sensing.</td>
-<td nowrap><a href="https://arxiv.org/abs/2207.13784">paper</a></td>
-<td nowrap>-</td>
-<td nowrap>-</td>
-<td nowrap>-</td>
-</tr>
-<tr>
-<td nowrap>arXiv 2025</td>
-<td nowrap><a href="https://arxiv.org/abs/2510.08807">Humanoid Everyday: A Comprehensive Robotic Dataset for Open-World Humanoid Manipulation</a></td>
-<td nowrap>Humanoid Everyday 提供 260 类开放世界人形操作任务，覆盖移动、交互、操作和多模态传感。</td>
-<td nowrap>Humanoid</td>
-<td nowrap>RGB-D / LiDAR / tactile / language</td>
-<td nowrap>whole-body manipulation</td>
-<td nowrap>large-scale dataset / benchmark</td>
-<td nowrap>Real</td>
-<td nowrap>补足人形机器人开放世界操作数据和评测。</td>
-<td nowrap><a href="https://arxiv.org/abs/2510.08807">paper</a></td>
-<td nowrap><a href="https://humanoideveryday.github.io/">project</a></td>
-<td nowrap><a href="https://github.com/physical-superintelligence-lab/Humanoid-Everyday">code</a></td>
-<td nowrap><a href="https://huggingface.co/datasets/USC-PSI-Lab/humanoid-everyday">hf</a></td>
-</tr>
-<tr>
-<td nowrap>ICLR 2026</td>
-<td nowrap><a href="https://openreview.net/forum?id=OCJmVjyzN7">WholeBodyVLA: Towards Unified Latent VLA for Whole-body Loco-manipulation Control</a></td>
-<td nowrap>从自我中心视频学习统一潜变量 VLA，让人形机器人执行大空间视觉语言全身移动操作。</td>
-<td nowrap>人形/足式机器人</td>
-<td nowrap>视觉+语言+本体状态</td>
-<td nowrap>humanoid control / 人形/全身控制</td>
-<td nowrap>action-free egocentric video latent VLA + RL controller</td>
-<td nowrap>Sim + Real</td>
-<td nowrap>解决人形 loco-manipulation 中操作感知移动、数据稀缺和低层控制不稳的问题。</td>
-<td nowrap><a href="https://openreview.net/forum?id=OCJmVjyzN7">paper</a></td>
-<td nowrap><a href="https://opendrivelab.com/WholeBodyVLA/">project</a></td>
-<td nowrap><a href="https://github.com/OpenDriveLab/WholebodyVLA">code</a></td>
-<td nowrap>-</td>
-</tr>
-<tr>
-<td nowrap>ICLR 2026</td>
-<td nowrap><a href="https://openreview.net/forum?id=aQWSEjcN9V">Endowing GPT-4 with a Humanoid Body: Building the Bridge Between Off-the-Shelf VLMs and the Physical World</a></td>
-<td nowrap>BiBo 用现成 VLM 将高层指令编译为低层控制参数，并用扩散运动执行器驱动人形体。</td>
-<td nowrap>人形/足式机器人</td>
-<td nowrap>视觉+语言+物理反馈</td>
-<td nowrap>VLM instruction compiler + diffusion motion executor</td>
-<td nowrap>off-the-shelf VLM + diffusion executor</td>
-<td nowrap>-</td>
-<td nowrap>解决无需额外微调数据时如何让 GPT-4/VLM 控制人形智能体。</td>
-<td nowrap><a href="https://openreview.net/forum?id=aQWSEjcN9V">paper</a></td>
-<td nowrap>-</td>
-<td nowrap>-</td>
-<td nowrap>-</td>
-</tr>
-<tr>
-<td nowrap>ICLR 2026</td>
-<td nowrap><a href="https://openreview.net/forum?id=3UE3Aatcjy">HWC-Loco: A Hierarchical Whole-Body Control Approach to Robust Humanoid Locomotion</a></td>
-<td nowrap>HWC-Loco 将人形运动控制建模为鲁棒优化，并用层级策略在安全恢复和目标跟踪间动态权衡。</td>
-<td nowrap>人形/足式机器人</td>
-<td nowrap>-</td>
-<td nowrap>humanoid control / 人形/全身控制</td>
-<td nowrap>hierarchical robust whole-body RL/control</td>
-<td nowrap>Sim + Real</td>
-<td nowrap>解决训练部署差异下人形机器人鲁棒全身行走控制问题。</td>
-<td nowrap><a href="https://openreview.net/forum?id=3UE3Aatcjy">paper</a></td>
-<td nowrap><a href="https://simonlinsx.github.io/HWC_Loco/">project</a></td>
-<td nowrap><a href="https://github.com/EDEM-AI/HWC_Loco">code</a></td>
-<td nowrap>-</td>
-</tr>
-<tr>
-<td nowrap>ICLR 2026</td>
-<td nowrap><a href="https://openreview.net/forum?id=6T3wJQhvc3">Task Tokens: A Flexible Approach to Adapting Behavior Foundation Models</a></td>
-<td nowrap>Task Tokens 冻结行为基础模型，仅训练任务 tokenizer/token 来低参数适配特定人形任务。</td>
-<td nowrap>人形/足式机器人</td>
-<td nowrap>-</td>
-<td nowrap>task-token-conditioned behavior foundation model</td>
-<td nowrap>frozen BFM + task-specific tokenizer</td>
-<td nowrap>-</td>
-<td nowrap>解决 BFM 对新任务依赖提示工程且适配效率低的问题。</td>
-<td nowrap><a href="https://openreview.net/forum?id=6T3wJQhvc3">paper</a></td>
-<td nowrap>-</td>
-<td nowrap>-</td>
-<td nowrap>-</td>
-</tr>
-<tr>
-<td nowrap>ICLR 2026</td>
-<td nowrap><a href="https://openreview.net/forum?id=jkhl2oI0g5">BFM-Zero: A Promptable Behavioral Foundation Model for Humanoid Control Using Unsupervised Reinforcement Learning</a></td>
-<td nowrap>BFM-Zero 通过无监督 RL 学共享潜空间，使单一人形策略可被运动、目标或奖励提示。</td>
-<td nowrap>人形/足式机器人</td>
-<td nowrap>本体状态/目标/奖励提示</td>
-<td nowrap>humanoid control / 人形/全身控制</td>
-<td nowrap>unsupervised RL + Forward-Backward latent model</td>
-<td nowrap>Sim + Real / Unitree G1</td>
-<td nowrap>解决人形多任务全身控制中无需重训的 promptable generalist policy 问题。</td>
-<td nowrap><a href="https://openreview.net/forum?id=jkhl2oI0g5">paper</a></td>
-<td nowrap><a href="https://lecar-lab.github.io/BFM-Zero/">project</a></td>
-<td nowrap><a href="https://github.com/LeCAR-Lab/BFM-Zero">code</a></td>
-<td nowrap>-</td>
-</tr>
-<tr>
-<td nowrap>ICLR 2026</td>
-<td nowrap><a href="https://openreview.net/forum?id=k3Cyx3Uets">From Language to Locomotion: Retargeting-free Humanoid Control via Motion Latent Guidance</a></td>
-<td nowrap>RoboGhost 绕过人体动作解码和重定向，直接用语言条件运动潜变量生成可执行人形动作。</td>
-<td nowrap>人形/足式机器人</td>
-<td nowrap>-</td>
-<td nowrap>language-conditioned motion latent + diffusion policy</td>
-<td nowrap>retargeting-free diffusion action policy</td>
-<td nowrap>-</td>
-<td nowrap>解决自然语言到人形运动控制链路中重定向误差、高延迟和语义控制弱耦合问题。</td>
-<td nowrap><a href="https://openreview.net/forum?id=k3Cyx3Uets">paper</a></td>
-<td nowrap>-</td>
-<td nowrap><a href="https://github.com/gentlefress/RoboGhost">code</a></td>
-<td nowrap>-</td>
-</tr>
-<tr>
-<td nowrap>ICLR 2026</td>
-<td nowrap><a href="https://openreview.net/forum?id=NEOTsyyYH7">Towards Bridging the Gap between Large-Scale Pretraining and Efficient Finetuning for Humanoid Control</a></td>
-<td nowrap>LIFT 用大批量 SAC 做人形大规模预训练，再用模型辅助微调实现样本高效适配。</td>
-<td nowrap>人形/足式机器人</td>
-<td nowrap>-</td>
-<td nowrap>humanoid control / 人形/全身控制</td>
-<td nowrap>off-policy SAC pretraining + model-based fine-tuning</td>
-<td nowrap>Sim + Real</td>
-<td nowrap>解决人形控制中大规模预训练与新环境高效微调之间的断层。</td>
-<td nowrap><a href="https://openreview.net/forum?id=NEOTsyyYH7">paper</a></td>
-<td nowrap><a href="https://lift-humanoid.github.io/">project</a></td>
-<td nowrap><a href="https://github.com/bigai-ai/LIFT-humanoid">code</a></td>
-<td nowrap>-</td>
-</tr>
-<tr>
-<td nowrap>ICLR 2026</td>
-<td nowrap><a href="https://openreview.net/forum?id=eSkDNIGbcd">Hierarchical Value-Decomposed Offline Reinforcement Learning for Whole-Body Control</a></td>
-<td nowrap>该文将全身控制分解为层级价值组件，使离线强化学习能够协调复杂的人形和足式机器人行为。</td>
-<td nowrap>人形/足式机器人</td>
-<td nowrap>触觉/接触</td>
-<td nowrap>humanoid control / 人形/全身控制</td>
-<td nowrap>humanoid control</td>
-<td nowrap>-</td>
-<td nowrap>提升复杂本体控制</td>
-<td nowrap><a href="https://openreview.net/forum?id=eSkDNIGbcd">paper</a></td>
-<td nowrap>-</td>
-<td nowrap>-</td>
-<td nowrap>-</td>
-</tr>
-<tr>
-<td nowrap>AAAI 2026</td>
-<td nowrap><a href="https://ojs.aaai.org/index.php/AAAI/article/view/38908">Whole-Body Coordination for Dynamic Object Grasping with Legged Manipulators</a></td>
-<td nowrap>该文协调移动与机械臂控制，使足式移动机械臂能够在动态场景中跟踪并抓取运动物体。</td>
-<td nowrap>四足/足式移动底盘+机械臂</td>
-<td nowrap>-</td>
-<td nowrap>whole-body coordination for dynamic grasping</td>
-<td nowrap>humanoid control</td>
-<td nowrap>Sim + Real</td>
-<td nowrap>解决足式移动机械臂动态目标抓取时移动底盘和机械臂的全身协调问题。</td>
-<td nowrap><a href="https://ojs.aaai.org/index.php/AAAI/article/view/38908">paper</a></td>
-<td nowrap>-</td>
-<td nowrap>-</td>
-<td nowrap>-</td>
-</tr>
-<tr>
-<td nowrap>AAAI 2026</td>
-<td nowrap><a href="https://ojs.aaai.org/index.php/AAAI/article/view/38918">Coordinated Humanoid Robot Locomotion with Symmetry Equivariant Reinforcement Learning Policy</a></td>
-<td nowrap>该文将对称等变性引入强化学习策略，以学习协调且可迁移的人形机器人行走控制。</td>
-<td nowrap>人形/足式机器人</td>
-<td nowrap>本体状态+足端接触</td>
-<td nowrap>humanoid control / 人形/全身控制</td>
-<td nowrap>symmetry-equivariant DRL</td>
-<td nowrap>Sim + Real / Unitree G1</td>
-<td nowrap>解决人形机器人利用对称等变结构学习协调步态的问题。</td>
-<td nowrap><a href="https://ojs.aaai.org/index.php/AAAI/article/view/38918">paper</a></td>
-<td nowrap>-</td>
-<td nowrap>-</td>
-<td nowrap>-</td>
-</tr>
-<tr>
-<td nowrap>AAAI 2026</td>
-<td nowrap><a href="https://ojs.aaai.org/index.php/AAAI/article/view/38924">FARM: Frame-Accelerated Augmentation and Residual Mixture-of-Experts for Physics-Based High-Dynamic Humanoid Control</a></td>
-<td nowrap>FARM 结合帧加速动作增强和残差混合专家策略，用于训练物理仿真的高动态人形技能。</td>
-<td nowrap>人形/足式机器人</td>
-<td nowrap>-</td>
-<td nowrap>humanoid control / 人形/全身控制</td>
-<td nowrap>frame-accelerated augmentation + residual MoE</td>
-<td nowrap>-</td>
-<td nowrap>解决物理仿真人形高动态技能控制中的数据增强和专家残差融合问题。</td>
-<td nowrap><a href="https://ojs.aaai.org/index.php/AAAI/article/view/38924">paper</a></td>
-<td nowrap>-</td>
-<td nowrap><a href="https://github.com/Colin-Jing/FARM">code</a></td>
-<td nowrap>HDHM data</td>
-</tr>
-<tr>
-<td nowrap>AAAI 2026</td>
-<td nowrap><a href="https://ojs.aaai.org/index.php/AAAI/article/view/38927">ODYSSEY: Open-World Quadrupeds Exploration and Manipulation for Long-Horizon Tasks</a></td>
-<td nowrap>ODYSSEY 面向开放世界长程四足任务，将探索与带臂足式机器人的操作能力结合起来。</td>
-<td nowrap>四足机器人+机械臂</td>
-<td nowrap>-</td>
-<td nowrap>humanoid control / 人形/全身控制</td>
-<td nowrap>humanoid control</td>
-<td nowrap>-</td>
-<td nowrap>解决四足机器人在开放世界中长程探索和操作任务。</td>
-<td nowrap><a href="https://ojs.aaai.org/index.php/AAAI/article/view/38927">paper</a></td>
-<td nowrap><a href="https://kaijwang.github.io/odyssey.github.io/">project</a></td>
-<td nowrap>-</td>
-<td nowrap>-</td>
-</tr>
-<tr>
-<td nowrap>AAAI 2026</td>
-<td nowrap><a href="https://ojs.aaai.org/index.php/AAAI/article/view/38949">Keep On Going: Learning Robust Humanoid Motion Skills via Selective Adversarial Training</a></td>
-<td nowrap>Keep On Going 通过选择性对抗训练提升人形运动技能在扰动下的鲁棒性和持续执行能力。</td>
-<td nowrap>人形/足式机器人</td>
-<td nowrap>-</td>
-<td nowrap>humanoid control / 人形/全身控制</td>
-<td nowrap>selective adversarial training</td>
-<td nowrap>-</td>
-<td nowrap>解决人形运动技能在扰动下的鲁棒性和持续执行问题。</td>
-<td nowrap><a href="https://ojs.aaai.org/index.php/AAAI/article/view/38949">paper</a></td>
-<td nowrap>-</td>
-<td nowrap>-</td>
-<td nowrap>-</td>
-</tr>
-<tr>
-<td nowrap>AAAI 2026</td>
-<td nowrap><a href="https://ojs.aaai.org/index.php/AAAI/article/view/38951">Towards Adaptive Humanoid Control via Multi-Behavior Distillation and Reinforced Fine-Tuning</a></td>
-<td nowrap>该文将多种人形行为蒸馏到统一策略中，并通过强化微调用于真实硬件适应。</td>
-<td nowrap>人形/足式机器人</td>
-<td nowrap>触觉/接触</td>
-<td nowrap>humanoid control / 人形/全身控制</td>
-<td nowrap>multi-behavior distillation + reinforced fine-tuning</td>
-<td nowrap>Sim + Real / Unitree G1</td>
-<td nowrap>解决多行为人形控制策略蒸馏后在真实机器人上的适应性微调问题。</td>
-<td nowrap><a href="https://ojs.aaai.org/index.php/AAAI/article/view/38951">paper</a></td>
-<td nowrap><a href="https://ahc-humanoid.github.io">project</a></td>
-<td nowrap>-</td>
-<td nowrap>-</td>
-</tr>
-<tr>
-<td nowrap>ICML 2026</td>
-<td nowrap><a href="https://icml.cc/virtual/2026/poster/62003">Scalable and General Whole-Body Control for Cross-Humanoid Locomotion</a></td>
-<td nowrap>该文利用跨人形形态变化训练可扩展全身行走控制器，使其能迁移到多种人形机器人。</td>
-<td nowrap>人形机器人</td>
-<td nowrap>-</td>
-<td nowrap>humanoid control / 人形/全身控制</td>
-<td nowrap>cross-embodiment morphological randomization</td>
-<td nowrap>12 simulated humanoids + 7 real robots</td>
-<td nowrap>解决跨多种人形形态的可扩展通用全身行走控制问题。</td>
-<td nowrap><a href="https://icml.cc/virtual/2026/poster/62003">paper</a></td>
-<td nowrap><a href="https://xhugwbc.github.io/">project</a></td>
-<td nowrap>-</td>
-<td nowrap>-</td>
-</tr>
-<tr>
-<td nowrap>ICML 2026</td>
-<td nowrap><a href="https://icml.cc/virtual/2026/poster/65120">Learning Transferable Interaction Primitives from Game Videos for Humanoids</a></td>
-<td nowrap>该文从游戏视频中学习可复用的人形交互基元，将类人接触和物体交互技能迁移到机器人。</td>
-<td nowrap>人形机器人</td>
-<td nowrap>-</td>
-<td nowrap>humanoid control / 人形/全身控制</td>
-<td nowrap>humanoid control</td>
-<td nowrap>-</td>
-<td nowrap>提升人形机器人控制</td>
-<td nowrap><a href="https://icml.cc/virtual/2026/poster/65120">paper</a></td>
-<td nowrap>-</td>
-<td nowrap>-</td>
-<td nowrap>-</td>
-</tr>
-<tr>
-<td nowrap>CVPR 2026</td>
-<td nowrap><a href="https://arxiv.org/abs/2511.15200">VIRAL: Visual Sim-to-Real at Scale for Humanoid Loco-Manipulation</a></td>
-<td nowrap>VIRAL 在仿真中训练视觉学生策略并零样本部署到真实人形机器人，实现规模化视觉 sim-to-real loco-manipulation。</td>
-<td nowrap>人形机器人</td>
-<td nowrap>视觉</td>
-<td nowrap>humanoid control / 人形/全身控制</td>
-<td nowrap>privileged RL teacher + visual student distillation + DAgger/BC</td>
-<td nowrap>Sim training + Real zero-shot</td>
-<td nowrap>解决人形机器人视觉移动操作技能难以从仿真迁移到真实硬件的问题。</td>
-<td nowrap><a href="https://arxiv.org/abs/2511.15200">paper</a></td>
-<td nowrap><a href="https://viral-humanoid.github.io/">project</a></td>
-<td nowrap><a href="https://github.com/NVlabs/GR00T-VisualSim2Real">code</a></td>
-<td nowrap>-</td>
-</tr>
-<tr>
-<td nowrap>NeurIPS 2025</td>
-<td nowrap><a href="https://arxiv.org/abs/2504.14305">Adversarial Locomotion and Motion Imitation for Humanoid Policy Learning</a></td>
-<td nowrap>ALMI 通过上下半身对抗式学习，让下肢保持稳定行走、上肢跟踪多样动作。</td>
-<td nowrap>人形机器人</td>
-<td nowrap>-</td>
-<td nowrap>humanoid control / 人形/全身控制</td>
-<td nowrap>adversarial locomotion + motion imitation</td>
-<td nowrap>Sim + Real</td>
-<td nowrap>解决人形机器人同时保持稳定移动和表达性全身动作模仿的问题。</td>
-<td nowrap><a href="https://arxiv.org/abs/2504.14305">paper</a></td>
-<td nowrap><a href="https://almi-humanoid.github.io/">project</a></td>
-<td nowrap><a href="https://github.com/TeleHuman/ALMI-Open">code</a></td>
-<td nowrap><a href="https://huggingface.co/datasets/TeleEmbodied/ALMI-X">hf</a></td>
-</tr>
-<tr>
-<td nowrap>NeurIPS 2025</td>
-<td nowrap><a href="https://arxiv.org/abs/2506.12779">From Experts to a Generalist: Toward General Whole-Body Control for Humanoid Robots</a></td>
-<td nowrap>BumbleBee 先聚类训练多专家，再结合真实数据适配并蒸馏为统一人形全身控制器。</td>
-<td nowrap>人形机器人</td>
-<td nowrap>-</td>
-<td nowrap>humanoid control / 人形/全身控制</td>
-<td nowrap>expert-generalist distillation + sim-to-real adaptation</td>
-<td nowrap>Sim + Real</td>
-<td nowrap>解决多样敏捷人形动作之间控制需求冲突导致通用策略难训练的问题。</td>
-<td nowrap><a href="https://arxiv.org/abs/2506.12779">paper</a></td>
-<td nowrap><a href="https://beingbeyond.github.io/BumbleBee/">project</a></td>
-<td nowrap><a href="https://github.com/BeingBeyond/BumbleBee">code</a></td>
-<td nowrap>-</td>
-</tr>
-<tr>
-<td nowrap>NeurIPS 2025</td>
-<td nowrap><a href="https://kungfubot.github.io/">KungfuBot: Physics-Based Humanoid Whole-Body Control for Learning Highly-Dynamic Skills</a></td>
-<td nowrap>KungfuBot 通过动作处理、重定向和自适应跟踪课程，让人形机器人学习功夫和舞蹈等高动态技能。</td>
-<td nowrap>人形机器人</td>
-<td nowrap>-</td>
-<td nowrap>humanoid control / 人形/全身控制</td>
-<td nowrap>physics-based imitation + adaptive curriculum</td>
-<td nowrap>-</td>
-<td nowrap>解决现有全身动作模仿难以跟踪高速高动态人体动作的问题。</td>
-<td nowrap><a href="https://arxiv.org/abs/2506.12851">paper</a></td>
-<td nowrap><a href="https://kungfubot.github.io/">project</a></td>
-<td nowrap><a href="https://github.com/TeleHuman/PBHC">code</a></td>
-<td nowrap>-</td>
-</tr>
-<tr>
-<td nowrap>CVPR 2025</td>
-<td nowrap><a href="https://cvpr.thecvf.com/virtual/2025/poster/34565">Let Humanoids Hike! Integrative Skill Development on Complex Trails</a></td>
-<td nowrap>Let Humanoids Hike 将感知、移动和平衡控制结合起来，使人形机器人能够穿越复杂小径环境。</td>
-<td nowrap>人形机器人</td>
-<td nowrap>-</td>
-<td nowrap>humanoid control / 人形/全身控制</td>
-<td nowrap>humanoid control</td>
-<td nowrap>-</td>
-<td nowrap>解决人形机器人在复杂山路/小径上整合感知、移动和平衡技能的问题。</td>
-<td nowrap><a href="https://cvpr.thecvf.com/virtual/2025/poster/34565">paper</a></td>
-<td nowrap><a href="https://lego-h-humanoidrobothiking.github.io/">project</a></td>
-<td nowrap>-</td>
-<td nowrap>-</td>
-</tr>
-</tbody>
-</table>
+| 会议/年份 | 论文/方法 | 方向/方法 | 具体机器人/本体 | 验证 | 解决问题 | 当前瓶颈 | 未来趋势（基于论文边界） |
+|---|---|---|---|---|---|---|---|
+| CoRL 2024 | [HumanPlus: Humanoid Shadowing and Imitation from Humans](https://proceedings.mlr.press/v270/fu25a.html) | 人体动作重定向 + 低层模仿 + 高层视觉策略 | 定制 Unitree H1（33-DoF）；双 Inspire RH56DFX 6-DoF 手 + 1-DoF 腕 | Sim→Real | 把人体影随、技能模仿和自主视觉操作统一到全尺寸人形上 | 机器人 DoF 不足；固定头部相机会遮手；姿态估计和重定向会丢失关节；未覆盖长程导航 | 更高 DoF 本体、主动视角、稳健姿态估计，以及规模化人类示范与导航融合 |
+| CVPR 2025 Oral | [TokenHSI: Unified Synthesis of Physical Human-Scene Interactions through Task Tokenization](https://openaccess.thecvf.com/content/CVPR2025/html/Pan_TokenHSI_Unified_Synthesis_of_Physical_Human-Scene_Interactions_through_Task_Tokenization_CVPR_2025_paper.html) | 任务 token 化 + 物理强化学习控制 | Isaac Gym 中具有 32 维受控动作空间的物理人体；非机器人 | Sim Only | 以统一任务表示生成多类物理可信的人体—场景交互 | 依赖奖励工程；长时任务仍需人工指导 | 自动奖励与任务规划，并把交互表示迁移到真实人形控制 |
+| CVPR 2025 Highlight | [InterMimic: Towards Universal Whole-Body Control for Physics-Based Human-Object Interactions](https://openaccess.thecvf.com/content/CVPR2025/html/Xu_InterMimic_Towards_Universal_Whole-Body_Control_for_Physics-Based_Human-Object_Interactions_CVPR_2025_paper.html) | 接触感知的通用全身交互模仿 | SMPL/SMPL-X 物理人体；Unitree G1 + Inspire 手仅作下游仿真 | Sim Only | 用一个控制框架复现多样人体—物体全身交互 | MoCap 误差；G1 仿真简化自碰撞、接触奖励和手部耦合，不能证明实机迁移 | 补全接触、执行器和手部模型，再进行真实人形验证 |
+| ICLR 2025 Spotlight | [CLoSD: Closing the Loop between Simulation and Diffusion for multi-task character control](https://openreview.net/forum?id=pZISppZSTv) | 扩散动作规划 + 物理 RL 闭环控制 | PHC/SMPL 兼容虚拟人体；非机器人 | Sim Only | 把文本驱动动作生成与可反馈的多任务物理控制闭环连接 | 无视觉、外感知或地形图；中低层技能和固定反馈时域仍会产生伪影 | 场景感知、分层长时规划和自适应控制时域 |
+| ICLR 2024 | [Unified Human-Scene Interaction via Prompted Chain-of-Contacts](https://proceedings.iclr.cc/paper_files/paper/2024/hash/6a6ecedac816a24f92ad1f444b1edcb0-Abstract-Conference.html) | 接触链提示 + 通用人体—场景策略 | Isaac Gym 通用物理人体；非机器人 | Sim Only | 用接触序列统一坐、躺、触碰等多类人体—场景交互 | 对象固定；LLM 只离线产生接触计划，缺少在线闭环 | 可动物体、在线接触规划与真实人形的闭环执行 |
+| ICLR 2024 | [OmniControl: Control Any Joint at Any Time for Human Motion Generation](https://openreview.net/forum?id=gd0lAEtWso) | 时空关节约束的可控扩散生成 | HumanML3D 22 关节 / KIT-ML 21 关节人体骨架；非机器人 | Offline Benchmarks | 允许任意时刻对任意关节施加稀疏控制约束 | 约 1000 步去噪；冲突约束会产生不自然动作；无动力学保证 | 快速扩散、约束可行性检查与物理投影 |
+| ICCV 2023 | [Guided Motion Diffusion for Controllable Human Motion Synthesis](https://openaccess.thecvf.com/content/ICCV2023/html/Karunratanakul_Guided_Motion_Diffusion_for_Controllable_Human_Motion_Synthesis_ICCV_2023_paper.html) | 目标函数/分类器引导的动作扩散 | HumanML3D 人体骨架；非机器人 | Offline Benchmarks | 不重训生成器即可按轨迹、位置等目标控制人体动作 | 需要人工设计可微目标或训练专用分类器；无接触动力学 | 统一场景、接触与物理约束的可组合引导 |
+| ICCV 2023 Oral | [PhysDiff: Physics-Guided Human Motion Diffusion Model](https://openaccess.thecvf.com/content/ICCV2023/html/Yuan_PhysDiff_Physics-Guided_Human_Motion_Diffusion_Model_ICCV_2023_paper.html) | 扩散采样中的物理控制器投影 | Isaac Gym 中 SMPL 物理人体；非机器人 | Sim Only | 减少人体动作扩散中的脚滑、穿透和失衡 | 物理投影使推理慢约 2–3 倍；仍是虚拟人体 | 轻量或可学习的物理投影，并与机器人动力学共同训练 |
+| ECCV 2024 | [MANIKIN: Biomechanically Accurate Neural Inverse Kinematics for Human Motion Estimation](https://siplab.org/projects/MANIKIN) | 生物力学约束神经逆运动学 | 生物力学 SMPL 人体；真实稀疏传感输入，非机器人 | Real Sensor Data | 从稀疏观测恢复更符合关节活动范围的人体动作 | 需要已知体型；坐姿、盘腿等稀疏观测仍有歧义 | 免标定体型、时序不确定性建模和多模态观测 |
+| ECCV 2024 | [EgoPoser: Robust Real-Time Egocentric Pose Estimation from Sparse and Intermittent Observations Everywhere](https://www.ecva.net/papers/eccv_2024/papers_ECCV/papers/00248.pdf) | 稀疏、间歇头手观测的实时姿态估计 | SMPL-H 前 22 关节；MR 头显 + 控制器，非机器人 | Real Sensor Data | 在观测丢失和跨场景情况下恢复全身姿态 | 默认同一楼层；无接触或物理一致性保证 | 跨楼层全局定位、物理约束与更多可穿戴模态 |
+| ECCV 2022 | [AvatarPoser: Articulated Full-Body Pose Tracking from Sparse Motion Sensing](https://siplab.org/projects/AvatarPoser) | 头部和双手三点稀疏传感的 Transformer 姿态跟踪 | SMPL 22 关节虚拟人；Vive 头显/控制器，非机器人 | Real Sensor Data | 仅凭三个可穿戴设备实时重建全身姿态 | 问题高度欠定；真实演示有限；无地面接触和动力学约束 | 显式不确定性、多模态融合和接触物理约束 |
+| arXiv 2025 | [Humanoid Everyday: A Comprehensive Robotic Dataset for Open-World Humanoid Manipulation](https://arxiv.org/abs/2510.08807) | 大规模真实数据集与开放世界评测 | Unitree G1 29-DoF + 双 Dex3-1；Unitree H1 27-DoF + 双 6-DoF Inspire 手 | Real | 提供 10.3k 轨迹、260 类任务，补齐人形开放世界操作的数据与评测缺口 | 现有模仿学习在 28 维动作上仍弱；云端评测缺少自动复位 | 触觉预训练、人形 VLA、自动复位与失败恢复 |
+| ICLR 2026 | [WholeBodyVLA: Towards Unified Latent VLA for Whole-body Loco-manipulation Control](https://openreview.net/forum?id=OCJmVjyzN7) | 无动作第一视角视频潜变量 VLA + RL 控制器 | 智元 AgiBot X2 原型：双 7-DoF 臂、OmniPicker 夹爪、双腿各 6 DoF、1-DoF 腰、D435i | Sim+Real | 把语言理解、目标感知、行走和操作压入统一潜空间 | 长程和精细任务仍弱；微小站姿/朝向误差会破坏抓放；末端是夹爪而非灵巧手 | 记忆与地图、主动感知、精确落脚，以及灵巧手/触觉接入 |
+| NeurIPS 2024 | [HumanVLA: Towards Vision-Language Directed Object Rearrangement by Physical Humanoid](https://proceedings.neurips.cc/paper_files/paper/2024/hash/215aeb07b5996c969c0123c3c6ee8f54-Abstract-Conference.html) | 状态 RL/AMP 教师蒸馏为第一视角视觉—语言—动作学生 | Isaac Gym 物理人体：15 刚体、28 个 PD 驱动关节、球形手；无真实机器人 | Sim Only | 用第一视角视觉和语言替代特权物体/目标状态，完成通用房间物体重排 | 球形手不能操作小物体；每次只移动一个物体；无显式记忆、规划、导航或多智能体模块 | 灵巧手、长时多物体任务、显式记忆/规划/导航和真实人形迁移 |
+| ICLR 2026 | [Endowing GPT-4 with a Humanoid Body: Building the Bridge Between Off-the-Shelf VLMs and the Physical World](https://openreview.net/forum?id=aQWSEjcN9V) | VLM 指令编译器 + 扩散动作执行器（BiBo） | Isaac Gym 中 PHC/CLoSD 虚拟人体；非真实机器人 | Sim Only | 无需微调 GPT-4，即把自然语言拆成可执行的人形动作参数 | 文本—动作数据小；无场景几何；只覆盖人体—场景交互 | 更大动作语料、几何/手物体/人际交互和真实机器人闭环 |
+| ICLR 2026 | [HWC-Loco: A Hierarchical Whole-Body Control Approach to Robust Humanoid Locomotion](https://openreview.net/forum?id=3UE3Aatcjy) | 安全恢复与目标跟踪的分层鲁棒控制 | Unitree H1（19-DoF 主实机）；Unitree G1（23-DoF 跨本体） | Sim+Real | 在训练—部署失配和扰动下动态权衡行走目标与安全恢复 | 层级切换离散；低层策略固定；扰动覆盖和 H1 自由度有限 | 联合学习层级、对抗扰动和安全的移动操作 |
+| ICLR 2026 | [Task Tokens: A Flexible Approach to Adapting Behavior Foundation Models](https://openreview.net/forum?id=6T3wJQhvc3) | 冻结行为基础模型，仅学习任务 tokenizer/token | 69-DoF SMPL 虚拟人体；非机器人 | Sim Only | 以少量参数让行为基础模型适配新任务 | 只验证一个基础模型；手部奖励/观测简化；每任务仍需编码器；无 Sim2Real | 共享与可组合 token、持续学习、自动任务发现和实机适配 |
+| ICLR 2026 | [BFM-Zero: A Promptable Behavioral Foundation Model for Humanoid Control Using Unsupervised Reinforcement Learning](https://openreview.net/forum?id=jkhl2oI0g5) | 无监督 Forward-Backward RL 的可提示行为基础模型 | Unitree G1 29-DoF 主实机；Booster T1 补充验证；不控制手指 | Sim+Real | 用动作、目标或奖励提示同一策略完成多类全身技能 | 能力受运动库覆盖限制；缺少在线自适应 | 行为数据规模律、在线后训练和安全适应 |
+| ICLR 2026 | [From Language to Locomotion: Retargeting-free Humanoid Control via Motion Latent Guidance](https://openreview.net/forum?id=k3Cyx3Uets) | 语言条件动作潜变量 + 直接动作扩散（RoboGhost） | Unitree G1，23-DoF PD 目标；Orin NX；不控制手指 | Sim+Real | 绕过人体动作解码和重定向，直接从语言潜变量产生机器人动作 | 未见 MotionMillion 潜变量表现差；更大 DiT 增加实时延迟 | 更快动作生成器与视觉、语音等多模态潜空间 |
+| ICLR 2026 | [Towards Bridging the Gap between Large-Scale Pretraining and Efficient Finetuning for Humanoid Control](https://openreview.net/forum?id=NEOTsyyYH7) | 大批量 SAC 预训练 + 模型辅助微调（LIFT） | 仿真：Booster T1（12/23 DoF）与 G1（29 DoF）；实机仅 T1 12-DoF 双腿 | Sim+Real | 连接大规模离策略预训练与新环境中的样本高效适配 | 依赖人工急停/复位、Vicon 高度、串行训练；IMU 漂移且仅本体感知 | 自动复位与安全、异步微调，以及视觉/触觉反馈 |
+| AAAI 2026 | [Coordinated Humanoid Robot Locomotion with Symmetry Equivariant Reinforcement Learning Policy](https://ojs.aaai.org/index.php/AAAI/article/view/38918) | 对称等变强化学习策略（SE-Policy） | Unitree G1，27-DoF 机体；无手指控制 | Sim+Real | 把左右对称结构显式写入策略以提高协调行走和迁移 | 只验证单一对称 G1 速度跟踪；严格对称不适合非对称任务和负载 | 条件式/近似对称、非对称操作和跨本体验证 |
+| AAAI 2026 | [FARM: Frame-Accelerated Augmentation and Residual Mixture-of-Experts for Physics-Based High-Dynamic Humanoid Control](https://ojs.aaai.org/index.php/AAAI/article/view/38924) | 帧加速增广 + 残差 MoE | Isaac Lab 中未命名物理人体角色；非真实机器人 | Sim Only | 扩充高动态动作数据并融合专家残差以提升跟踪 | 源数据含穿透、漂浮、抖动等伪影；无实机验证 | 清洗物理一致数据、接触感知增广与真实人形迁移 |
+| AAAI 2026 | [Keep On Going: Learning Robust Humanoid Motion Skills via Selective Adversarial Training](https://ojs.aaai.org/index.php/AAAI/article/view/38949) | 选择性对抗扰动训练 | Unitree G1；不控制手指 | Sim→Real | 在保持动作质量的同时提高技能受扰后的持续执行能力 | 未覆盖环境交互型扰动；对抗强度与敏捷性有权衡 | 接触级对抗器、自适应扰动预算和任务安全约束 |
+| AAAI 2026 | [Towards Adaptive Humanoid Control via Multi-Behavior Distillation and Reinforced Fine-Tuning](https://ojs.aaai.org/index.php/AAAI/article/view/38951) | 多行为蒸馏 + 实机强化微调 | Unitree G1，控制 20 DoF（不含腰）；无手指控制 | Sim→Real | 把多种动作压入统一策略并在真实硬件上继续适配 | 仅本体感知；行为和环境覆盖仍少 | 外感知、更大统一技能库和安全在线适应 |
+| ICML 2026 | [Scalable and General Whole-Body Control for Cross-Humanoid Locomotion](https://icml.cc/virtual/2026/poster/62003) | 跨形态随机化的通用全身控制（XHugWBC） | 12 个仿真平台/13 配置；7 类实机：Booster T1、Fourier N1、Unitree G1（23/29 DoF）、AgiBot X2、Dobot Atom、Unitree H1-2；无统一手部控制 | Sim+Real | 让同一全身行走控制框架跨多种人形形态迁移 | 共享语义命令压缩各本体特性；动作范围和重定向仍依赖形态 | 形态感知动作空间、免人工重定向和跨平台全身操作 |
+| ICML 2026 | [Learning Transferable Interaction Primitives from Game Videos for Humanoids](https://openreview.net/forum?id=Gd2S0bJqNZ) | 游戏视频 VQ 交互原语 + 物理策略（TRIP） | PULSE/Isaac 中通用仿真人体；非真实机器人 | Sim Only | 从游戏视频抽取可复用原语并迁移到物理人体控制 | 动作重建误差；任务主要是地形交互；无真实机器人迁移 | 第一视角/深度输入、物体与工具交互，以及 Sim2Real |
+| CVPR 2026 | [VIRAL: Visual Sim-to-Real at Scale for Humanoid Loco-Manipulation](https://openaccess.thecvf.com/content/CVPR2026/html/He_VIRAL_Visual_Sim-to-Real_at_Scale_for_Humanoid_Loco-Manipulation_CVPR_2026_paper.html) | 特权教师 + 视觉学生蒸馏 + DAgger/BC | Unitree G1 29-DoF + 双 7-DoF Dex3-1 三指手 + RealSense D435i | Sim→Real | 规模化训练并零样本部署视觉全身移动操作 | 长尾物理/任务、奖励工程和手部仿真差距仍大；训练最高需 64 GPU | 仿真+真实模仿混合数据和人形视觉—触觉基础策略 |
+| NeurIPS 2025 | [Adversarial Locomotion and Motion Imitation for Humanoid Policy Learning](https://proceedings.neurips.cc/paper_files/paper/2025/hash/6b081a311e0b9c75590ba97b104a2ce3-Abstract-Conference.html) | 上下身对抗学习的运动—模仿协同（ALMI） | Unitree H1-2（控制 21 DoF）；ROBOTERA XHAND 手指由 VR 重定向，非 ALMI 端到端学习 | Sim+Real | 在稳定行走时跟踪多样上身和全身表达动作 | 动态舞蹈较弱；把全部数据直接训练一个基础模型会降质且低效 | 统一奖励与更强架构，并把手指/接触纳入端到端策略 |
+| NeurIPS 2025 | [From Experts to a Generalist: Toward General Whole-Body Control for Humanoid Robots](https://neurips.cc/virtual/2025/poster/117371) | 专家聚类、实机适配与通用策略蒸馏（BumbleBee） | Unitree G1 29-DoF，控制 23 DoF（腕部不控制） | Sim+Real | 缓解多种敏捷动作间冲突，把多专家压入一个全身控制器 | 无 GPS/VIO 时参考漂移；专家—实机—蒸馏流水线复杂 | 精确状态估计、在线反馈和更简单的统一后训练 |
+| NeurIPS 2025 | [KungfuBot: Physics-Based Humanoid Whole-Body Control for Learning Highly-Dynamic Skills](https://proceedings.neurips.cc/paper_files/paper/2025/hash/5a0e51901cff2b42d379ec7869603e91-Abstract-Conference.html) | 物理模仿 + 自适应跟踪课程 | Unitree G1，控制 23 DoF（腕部不控制） | Sim→Real | 跟踪功夫、舞蹈等高速高动态人体动作 | 未覆盖复杂地形/障碍；每个参考动作仍需独立策略 | 感知条件、多技能统一策略与在线动作组合 |
+| CVPR 2025 | [Let Humanoids Hike! Integrative Skill Development on Complex Trails](https://openaccess.thecvf.com/content/CVPR2025/html/Lin_Let_Humanoids_Hike_Integrative_Skill_Development_on_Complex_Trails_CVPR_2025_paper.html) | 感知、落脚、平衡的集成式山径技能（LEGO-H） | Isaac 中 Unitree H1 与 G1；下肢/腿部位置控制，无手部 | Sim Only | 集成复杂山径中的感知、行走和动态平衡 | 原型只在仿真山径；主要足部接触；未评测公里级、能耗或真实户外 | 真实户外长程、能效、全身接触和高层路径规划 |
+| RSS 2024 | [Expressive Whole-Body Control for Humanoid Robots](https://www.roboticsproceedings.org/rss20/p107.html) | MoCap 上身模仿 + 鲁棒速度跟踪（ExBody） | Unitree H1，19 DoF；无灵巧手控制 | Sim→Real | 在人体—机器人形态不匹配下兼顾上身表达性和下肢稳定移动 | 低 DoF 映射丢失动作信息；需从静止站姿启动，缺少自动恢复 | 高保真重定向、自动初始化和跌倒恢复 |
+| RSS 2024 | [HumanoidBench: Simulated Humanoid Benchmark for Whole-Body Locomotion and Manipulation](https://www.roboticsproceedings.org/rss20/p061.html) | 27 项全身运动—操作基准 + 分层 RL | 主模型 Unitree H1 + 双 Shadow Hand；另含 G1、Digit、Robotiq 2F-85、13-DoF Unitree hand 模型 | Sim Only | 提供可复现高维、长时、全身运动与操作统一评测 | 论文基线只用状态观测；视觉/全身触觉未系统评测；环境真实度有限 | 多模态基线、更真实数字孪生和标准化 Sim2Real 评测 |
+| CoRL 2025 | [TWIST: Teleoperated Whole-Body Imitation System](https://proceedings.mlr.press/v305/ze25a.html) | MoCap 重定向 + RL/BC 单一全身控制器 | Unitree G1 29-DoF 主实机；Booster T1 仅 sim-to-sim；未披露独立灵巧手型号 | Sim+Real | 以人体动作统一遥操作全身操作、腿部操作、行走和表达动作 | 无第一视角视觉或触觉反馈；依赖不便携 MoCap；硬件过热 | RGB 姿态替代 MoCap，并用第一视角+触觉数据训练自主策略 |
+| RSS 2023 | [Robust and Versatile Bipedal Jumping Control through Reinforcement Learning](https://www.roboticsproceedings.org/rss19/p052.html) | 目标条件策略 + 多阶段强化学习 | Cassie 双足机器人 | Sim→Real | 用同一策略完成多方向、多高度跳跃、落点控制与扰动恢复 | 同一策略兼顾跳跃与静止时部分落地会振荡；缺少环境感知落点选择 | 加入感知与任务规划，在非结构环境自主选择落点 |
+| CoRL 2024 | [Adapting Humanoid Locomotion over Challenging Terrain via Two-Phase Training](https://proceedings.mlr.press/v270/cui25a.html) | 两阶段 RL + 命令课程 + 状态估计 | 自研 Noetix N1：18 DoF、0.95 m、23 kg；锁臂后控制 10 个腿关节 | Sim→Real | 改善小型人形在复杂地面上的高速跟踪、振荡和迁移 | 没有地形感知；跨机器人仍需复杂奖励、域随机化和时序调参 | 感知与模仿结合，并降低跨平台调参成本 |
+| IROS 2022 | [Adapting Rapid Motor Adaptation for Bipedal Robots](https://doi.org/10.1109/IROS47612.2022.9981091) | 外部参数估计 + 基础策略再适配（A-RMA） | Cassie，20 DoF / 10 个驱动关节 | Sim→Real | 在线适应湿滑、软地面、木板和约 40 kg 拖载等动力学变化 | 仅本体感知，是盲走控制器 | 机载视觉与快速动力学适应融合 |
+| ICRA 2024 | [Learning Vision-Based Bipedal Locomotion for Challenging Terrain](https://doi.org/10.1109/ICRA57147.2024.10611621) | 深度历史 + 本体状态预测局部高度图 | Cassie + RealSense D455 + Jetson Orin Nano | Sim→Real | 让双足从视觉提前感知台阶、楼梯和随机块地形 | 相机看不到脚下；足部碰撞是主要失败；高台阶会使支撑腿扭矩饱和 | 更大/全向视野、不确定性感知和碰撞约束落脚规划 |
+| ICRA 2024 | [HumanMimic: Learning Natural Locomotion and Transitions for Humanoid Robot via Wasserstein Adversarial Imitation](https://doi.org/10.1109/ICRA57147.2024.10610449) | Wasserstein 对抗模仿 + 统一动作重定向 | 全尺寸 JAXON 人形机器人模型 | Sim Only | 从混合人体动作学习站立、抗推、蹲走、直腿走、跑和自然切换 | 只在仿真/高保真 sim-to-sim 验证，尚无真机迁移 | 迁移到真实全尺寸人形并加入感知驱动的技能切换 |
+| IROS 2022 | [Learning Dynamic Bipedal Walking Across Stepping Stones](https://doi.org/10.1109/IROS47612.2022.9981884) | 单步 RL 控制器 + 可达性预测器 | Cassie + 固定俯视 RealSense D435 + ArUco 标记 | Sim+Real | 闭环选择可实现落脚点并动态穿越踏脚石 | 依赖外部相机和标记；视野主要覆盖下一步，缺少多步初态规划 | 降阶规划、多步前瞻和机载自中心视觉 |
+| CoRL 2024 | [Learning Decentralized Multi-Biped Control for Payload Transport](https://proceedings.mlr.press/v270/pandit25a.html) | 共享去中心化多智能体强化学习 | 实机 2/3 台 Cassie；仿真扩展至 10 台 | Sim→Real | 不同数量和队形双足无需重训即可协作搬运刚性载荷 | 仅平地；实机最多 3 台；无相机；成本、故障点和队形外泛化受限 | 粗糙地形、异构双足、分布式感知通信与容错 |
+| RSS 2025 | [Learning Getting-Up Policies for Real-World Humanoid Robots](https://www.roboticsproceedings.org/rss21/p063.html) | 两阶段课程：先发现、再平滑可部署起身动作 | Unitree G1 | Sim→Real | 从仰卧/俯卧在平地、湿滑、可变形、坡地、草雪地可靠起身 | 只覆盖仰卧和俯卧，未覆盖任意侧卧与杂乱接触 | 任意跌倒姿态、接触感知和起身—行走连续闭环 |
+| IROS 2024 | [Bipedal Safe Navigation over Uncertain Rough Terrain: Unifying Terrain Mapping and Locomotion Stability](https://doi.org/10.1109/IROS58592.2024.10802816) | GP 地形/偏差建模 + 分层安全导航规划 | Agility Digit（MuJoCo 模型） | Sim Only | 联合未知地形建图、运动偏差与动态可行落脚规划 | 尚无硬件实验 | Digit 户外实机、机载建图、不确定性校准和安全落脚闭环 |
+| IROS 2023 | [Overtaking Moving Obstacles with Digit: Path Following for Bipedal Robots via Model Predictive Contouring Control](https://doi.org/10.1109/IROS55552.2023.10342209) | 模型预测轮廓控制联合速度、路径偏差和落脚 | Agility Digit | Sim Only | 让双足在线权衡路径忠实度与速度并超越移动障碍 | 仅高保真仿真；未覆盖杂乱三维空间的完整安全走廊 | 真实 Digit 验证并集成安全行走走廊 |
+| IROS 2023 | [Template Model Inspired Task Space Learning for Robust Bipedal Locomotion](https://doi.org/10.1109/IROS55552.2023.10341263) | ALIP 启发高层 RL + 模型低层控制 | Rabbit、Walker2D、Digit（20 个驱动关节） | Sim Only | 以统一低维任务空间接口跨不同双足形态稳健行走 | 三种本体均无硬件验证；任务主要是速度、斜坡和扰动 | Digit 实机以及平衡、楼梯、踏脚石等更广任务 |
+| RSS 2025 | [HOMIE: Humanoid Loco-Manipulation with Isomorphic Exoskeleton Cockpit](https://www.roboticsproceedings.org/rss21/p070.html) | RL 下肢 + 同构外骨骼双臂 + 动作手套 | Unitree G1 + 双 Dex3-1（每手 7 DoF）主实机；Fourier GR-1 仿真/外骨骼适配 | Sim+Real | 以低成本驾驶舱高效遥操作大工作区、接触丰富的移动操作 | 复杂地形可靠性、手套拇指人体工学、力反馈和腰部遥操作不足 | 地形能力、力/触觉反馈、腰部控制和自主数据飞轮 |
+| RSS 2025 | [AMO: Adaptive Motion Optimization for Hyper-Dexterous Humanoid Whole-Body Control](https://www.roboticsproceedings.org/rss21/p061.html) | 轨迹优化 + Sim2Real RL 自适应器 | Unitree G1 29-DoF + 双 Dex3-1（每手 7 DoF）+ 3-DoF 主动头 + ZED Mini | Sim+Real | 扩大蹲、弯、拾地物等全身操作工作区并适应分布外命令 | 上下身解耦限制动态协调；手臂生成不感知基座状态 | 平衡感知上身生成与统一全身接触控制 |
+| RSS 2025 | [A Unified and General Humanoid Whole-Body Controller for Fine-Grained Locomotion](https://www.roboticsproceedings.org/rss21/p067.html) | 通用命令空间 + 对称损失 + 干预训练（HugWBC） | Unitree H1，19 DoF；无独立手指策略 | Sim→Real | 一个控制器统一走、跑、站、跳、单脚跳和细粒度步态参数 | 仍是低层 WBC；无自主高层规划；侧向命令和硬件磨损受 H1 限制 | 跨人形部署并叠加任务级规划器 |
+| RSS 2025 | [BeamDojo: Learning Agile Humanoid Locomotion on Sparse Footholds](https://www.roboticsproceedings.org/rss21/p068.html) | 多边形足稀疏奖励 + 双 critic + 两阶段 RL | Unitree G1，23 驱动 DoF + Orin NX + Livox Mid-360；无灵巧手 | Sim→Real | 在平衡木和踏脚石上实现精确落脚与抗扰 | LiDAR 里程计/地图漂移；动态支撑难仿真；极小踏脚石和大台阶性能陡降 | 不确定性感知、动态支撑建模和更强步幅/平衡目标 |
+| CoRL 2024 | [OKAMI: Teaching Humanoid Robots Manipulation Skills through Single Video Imitation](https://proceedings.mlr.press/v270/li25a.html) | 单段 RGB-D 人类视频 + 物体感知重定向 + 闭环策略 | Fourier GR-1 + 双 Inspire 灵巧手（每手 6 驱动 DoF） | Sim+Real | 无需遥操作，仅凭单视频教授双臂精细操作 | 仅上半身桌面工作区；依赖 RGB-D；对大物体形变不够稳健 | 互联网 RGB 视频、更强基础视觉模型和行走式全身操作 |
+| CoRL 2024 | [Open-TeleVision: Teleoperation with Immersive Active Visual Feedback](https://proceedings.mlr.press/v270/cheng25b.html) | 立体视觉回传 + 主动颈 + 手臂/手映射遥操作 | H1 + 双 Inspire 手 + 2-DoF 颈；GR-1 + jaw gripper + 3-DoF 颈 | Real | 提高长时精密人形操作的数据采集效率和可用性 | 无触觉反馈和专家数据重标注；实验未使用下肢移动 | 视觉—触觉闭环、移动全身遥操作和跨本体数据 |
+| CoRL 2024 Oral | [WoCoCo: Learning Whole-Body Humanoid Control with Sequential Contacts](https://proceedings.mlr.press/v270/zhang25a.html) | 顺序接触阶段 + 通用奖励的端到端 RL | Unitree H1（由官方代码/项目佐证，正文未直接写型号）；另有 22-DoF dinosaur 仿真 | Sim+Real | 无需运动先验学习跑酷、搬箱、拍击和攀爬等长时多接触任务 | 接触序列仍人工预设；不能预测失败；阶段切换依赖接触传感/人工观察 | 失败预测、机载感知和 LLM/采样式高层接触规划 |
+| ICRA 2025 | [Mobile-TeleVision: Predictive Motion Priors for Humanoid Whole-Body Control](https://mobile-tv.github.io/) | 上肢 IK/重定向 + 下肢 RL + CVAE 预测运动先验 | H1 + 双 6-DoF Inspire 手 + 主动颈/双目；GR-1 仿真/跨本体 | Sim+Real | 兼顾高自由度上肢精确操作与稳健行走 | 上下肢解耦限制敏捷性；硬件 DoF 和多输入带来操作者负担 | 统一全身策略、低负担接口和预测先验与自主视觉策略融合 |
+| RSS 2025 | [LangWBC: Language-directed Humanoid Whole-Body Control via End-to-end Learning](https://www.roboticsproceedings.org/rss21/p065.html) | RL 教师→CVAE 学生，CLIP 文本直达关节动作 | Unitree G1，27 维关节动作；不控制手指 | Sim+Real | 无需中间轨迹，直接以语言驱动真实人形全身动作及平滑切换 | 只有几十类动作；无视觉；任务仍以运动为主；VAE 带来 Sim2Real 差距 | 语言—动作基础控制器、扩散动作生成和视觉条件移动操作 |
+| RSS 2025 | [ASAP: Aligning Simulation and Real-World Physics for Learning Agile Humanoid Whole-Body Skills](https://www.roboticsproceedings.org/rss21/p066.html) | 真实轨迹学习残差动力学，再注入仿真微调 | Unitree G1，29/23-DoF 配置；无手指控制 | Sim→Real | 缩小踢球、跳跃、舞蹈等高动态技能的仿真—真实动力学差距 | 实机采数会过热/损坏；依赖 MoCap；完整 23-DoF 残差模型数据昂贵 | 损伤感知策略、无 MoCap 对齐和少样本/在线适应 |
+| ICRA 2026 | [HMC: Learning Heterogeneous Meta-Control for Contact-Rich Loco-Manipulation](https://loco-hmc.github.io/) | 位置/阻抗/力位混合专家的连续 MoE 路由 | Unitree G1，双 7-DoF 臂 + D435i；无夹爪/机器人手，靠裸末端摩擦 | Real | 在擦拭、拉抽屉、抬瓶等接触阶段自动切换精度、柔顺和施力 | 控制专家和任务规模小；未覆盖长时任务级自主规划 | 更多控制专家、力/触觉闭环与 VLA/任务规划器融合 |
+| ICRA 2026 | [ExBody2: Advanced Expressive Humanoid Whole-Body Control](https://arxiv.org/abs/2412.13196) | 数据筛选 + generalist/specialist 预训微调 + 蒸馏 | Unitree G1，23 维动作；Orin NX，50 Hz；无手指控制 | Sim+Real | 稳定复现长时舞蹈、侧步、拳击、蹲起等表达性动态动作 | 通用策略不及专家精度；多专家难以无缝组合和切换 | 动态专家路由与统一通用基础控制器 |
+| NeurIPS 2024 Spotlight | [Humanoid Locomotion as Next Token Prediction](https://papers.nips.cc/paper_files/paper/2024/file/90afd20dc776bc8849c31d61a0763a0b-Paper-Conference.pdf) | 混合传感运动序列的因果 Transformer 自回归建模 | Agility Digit：1.6 m、45 kg、36 DoF（20 驱动）；无灵巧手操作 | Sim+Real | 统一神经策略、MPC、MoCap 和视频数据，27 小时数据零样本实机行走 | 鲁棒性仍落后强 MPC/RL；大规模视频动作提取和清洗成本高 | 规模化人形传感运动基础模型和缺失模态预训练 |
+| RSS 2024 | [Advancing Humanoid Locomotion: Mastering Challenging Terrains with Denoising World Model Learning](https://www.roboticsproceedings.org/rss20/p058.html) | 去噪世界模型（DWL）+ 端到端 RL | 星动纪元 XBot-S（1.2 m/38 kg/26 驱动）与 XBot-L（1.65 m/57 kg/54 驱动） | Sim→Real | 同一策略零样本通过雪地、斜坡、楼梯和强不平/可变形地面 | 只控双腿、手臂固定；仅本体感知，缺少前视地形 | 视觉地形感知、状态去噪与全身任务控制一体化 |
+| RSS 2025 | [Gait-Net-augmented Implicit Kino-dynamic MPC for Dynamic Variable-frequency Humanoid Locomotion over Discrete Terrains](https://www.roboticsproceedings.org/rss21/p069.html) | Gait-Net 步时预测 + 隐式运动动力学 MPC | 自研 HECTOR V2：24 DoF，每腿 5/每臂 4 驱动关节，腿长 44 cm | Sim+Real | 联合自适应步频、落脚点和接触力以跨离散障碍/沟隙 | 只对下一步施加地形约束；实机先验知道地形图 | 多步可行域、机载在线感知和全尺寸长时域 MPC |
+| CoRL 2024 | [Humanoid Parkour Learning](https://openreview.net/forum?id=fs7ia3FqUM) | 端到端视觉全身控制 + 分阶段 RL | Unitree H1 | Sim→Real | 单一视觉策略自主选择跳台、越沟、跨栏、楼梯等跑酷技能 | 训练地形人工构建；未见地形需再训练；复杂上肢动作会干扰视觉 | 程序化开放地形、实景快速适配和跑酷—操作联合训练 |
+| ICRA 2025 | [Learning Humanoid Locomotion with Perceptive Internal Model](https://ieeexplore.ieee.org/document/11128333) | 机器人中心高程图 + 感知内部模型（PIM） | Unitree H1（每腿 5 DoF）与 Fourier GR-1（每腿 6 DoF） | Sim→Real | 以内部模型提升多本体、多传感配置下复杂静态地形行走 | 依赖局部高程图和里程计；未覆盖动态障碍与长程导航 | 原始多模态感知、动态障碍理解与全局导航融合 |
+| ICRA 2025 | [Berkeley Humanoid: A Research Platform for Learning-Based Control](https://ieeexplore.ieee.org/document/11127524) | 低成本本体—仿真共设计 + 极简 RL | 自研 Berkeley Humanoid（论文阶段无臂） | Sim→Real | 以易仿真硬件缩小 Sim2Real，完成长距离、山径、推扰和单腿跳 | 策略无历史，不能在线系统辨识；尚未验证双臂移动操作 | 装配机械臂、在线适应和可规模真实世界学习 |
+| IROS 2023 | [Exploring Kinodynamic Fabrics for Reactive Whole-Body Control of Underactuated Humanoid Robots](https://ieeexplore.ieee.org/document/10342091/) | 带优先级 Kinodynamic Fabrics 的 kHz 级全身控制 | Agility Robotics Digit | Sim+Real | 实时组合避障、搬箱、投掷和行走等多项全身任务 | 对欠驱动混杂系统的收敛/稳定理论未完成，本身不保证平衡稳定 | 与地形自适应 MPC 融合，兼顾反应性、操作和稳定性 |
+| IROS 2024 | [Demonstrating a Robust Walking Algorithm for Underactuated Bipedal Robots in Non-flat, Non-stationary Environments](https://ieeexplore.ieee.org/document/10802406/) | 变高度 ALIP-MPC + 虚拟约束 + 踝力矩 | Cassie，20 DoF | Sim+Real | 在连续变化坡面和运动地面上维持实时稳定行走 | 仅 3 条离散名义轨迹覆盖坡度；MPC 卸载到第二台计算机 | 连续地形参数化、感知驱动轨迹和全机载 MPC |
+| CoRL 2024 | [OmniH2O: Universal and Dexterous Human-to-Humanoid Whole-Body Teleoperation and Learning](https://proceedings.mlr.press/v270/he25b.html) | 统一运动学姿态接口 + 稀疏状态全身策略 | Unitree H1 + Damiao 腕 + 双 Inspire 手 | Sim→Real | 用消费级头手跟踪实现灵巧全身遥操作，并收集自主任务数据 | 自主学习只覆盖少量任务；依赖人体重定向和低驱动 DoF 手 | 视觉—触觉自主学习、长时任务和更高 DoF 手 |
+| IROS 2024 | [H2O: Human-to-Humanoid Real-Time Whole-Body Teleoperation](https://arxiv.org/abs/2403.04436) | 单目人体姿态 + 实时重定向/模仿控制 | Unitree H1，19 个机体 DoF；无灵巧手任务 | Sim→Real | 用普通相机实时驱动全尺寸人形复现全身动作 | 单目遮挡和姿态误差；只模仿动作，缺少物体/触觉闭环 | 稳健多视角感知并扩展到交互式操作 |
+| ICRA 2025 | [HOVER: Versatile Neural Whole-Body Controller for Humanoid Robots](https://research.nvidia.com/labs/lpr/publication/he2025hover/) | 多控制模式蒸馏到统一全身策略 | Unitree H1，19 DoF；不含手部接触控制 | Sim+Real | 用统一低层接口无缝切换速度、位置、上身姿态等控制模式 | 停留在状态/运动学命令层；无视觉、任务规划或手部接触 | 标准化基础控制接口，上接视觉、触觉和任务策略 |
+| RSS 2025 | [Learning Humanoid Standing-up Control across Diverse Postures](https://www.roboticsproceedings.org/rss21/p064.html) | 多 critic + 多地形课程的起身控制（HoST） | Unitree G1 | Sim→Real | 从多种姿态在实验室和户外平滑、稳定起身 | 专注起身，尚未形成任意跌倒检测—恢复—继续任务闭环 | 与跌倒检测、接触识别和任务恢复统一 |
+| CoRL 2025 Oral | [HuB: Learning Extreme Humanoid Balance](https://openreview.net/forum?id=FCpYuGtN4j) | 参考动作精化 + 平衡策略 + Sim2Real 鲁棒化 | Unitree G1 | Sim→Real | 复现极限准静态平衡动作并处理形态/动力学偏差 | 主要是准静态平衡；仍受参考动作、传感和形态差异限制 | 动态、多接触和操作中的平衡控制 |
+| CoRL 2025 | [Hand-Eye Autonomous Delivery: Learning Humanoid Navigation, Locomotion and Reaching](https://openreview.net/forum?id=H0EgeP3feg) | 眼/手目标的模块化导航—行走—到达（HEAD） | Unitree G1；无抓取/手指控制 | Sim+Real | 从人体 MoCap 与 AR 眼镜数据学习自主导航和到达 | 只到达不抓取；精确站位困难；感知、规划、控制仍解耦 | 闭环抓取、统一感知动作和长时配送 |
+| CoRL 2025 | [CLONE: Closed-Loop Whole-Body Humanoid Teleoperation for Long-Horizon Tasks](https://proceedings.mlr.press/v305/li25h.html) | MoE 全身策略 + LiDAR 里程计闭环纠偏 | Unitree G1；头手 VR 接口，无手指模型 | Sim+Real | 减少长距离遥操作漂移并采集长时移动操作数据 | 依赖 VR 头手接口；无手指、触觉和自主任务学习 | 灵巧手/触觉、低负担接口和从遥操作到自主策略 |
+| CoRL 2025 | [Sim-to-Real Reinforcement Learning for Vision-Based Dexterous Manipulation on Humanoids](https://proceedings.mlr.press/v305/lin25c.html) | 特权 RL + 视觉策略蒸馏的灵巧操作 | Fourier GR-1 + 双 Inspire 手（每手 6 驱动 + 6 欠驱动 DoF） | Sim→Real | 在真实人形上完成对未见物体有泛化的视觉多指操作 | 只覆盖 3 类任务；任务特定标定/奖励；头部/第三视角和手动力学有差距 | 可规模视觉—触觉策略、通用对象表示和多任务后训练 |
+| CoRL 2025 | [Embrace Contacts: humanoid shadowing with full body ground contacts](https://proceedings.mlr.press/v305/zhuang25b.html) | 离散动作命令 + 随机全身接触策略 | Unitree G1 | Sim→Real | 让脚手之外的躯干/肢体也能接地完成翻滚、坐起等影随 | 刚体碰撞仿真、数据和奖励设计困难；命令离散且无任务感知 | 学习接触模型、全身触觉和在线任务条件控制 |
+| RSS 2025 | [Demonstrating Berkeley Humanoid Lite: An Open-source, Accessible, and Customizable 3D-printed Humanoid Robot](https://www.roboticsproceedings.org/rss21/p062.html) | 低成本开源 3D 打印本体 + Sim2Real 控制 | 自研 Berkeley Humanoid Lite：0.8 m、16 kg、22 机体 DoF + 简单夹爪 | Sim+Real | 把可复现、可维护的人形研究平台成本降至约 5,000 美元以内 | 负载、精度和任务仍基础；无五指灵巧手 | 社区复现、多机真实数据和模块化高性能末端 |
+| CoRL 2025 | [ToddlerBot: Open-Source ML-Compatible Humanoid Platform for Loco-Manipulation](https://proceedings.mlr.press/v305/shi25a.html) | 面向学习的开源本体、数字孪生与遥操作 | 自研 ToddlerBot：0.56 m、3.4 kg、30 DoF + 并联夹爪/柔顺掌 | Sim+Real | 统一低成本本体、零样本 Sim2Real、数据采集和双机长时玩具整理 | 玩具尺度、负载、速度和地形能力有限 | 扩展开放数据、平台复现和更大尺度协作移动操作 |
+| RSS 2024 | [Design and Control of a Bipedal Robotic Character](https://www.roboticsproceedings.org/rss20/p103.html) | 动画引擎命令 + RL 表演控制 | Disney 自研双足角色：0.66 m、15.4 kg，双腿各 5 DoF + 头部 4 DoF；无臂/手 | Sim+Real | 统一艺术家指定的表达动作与稳健动态移动 | 依赖动画/操作者，面向娱乐表演；无自主感知和任务执行 | 把表达性 HRI 与自主任务级移动结合 |
+| CoRL 2024 | [Bi-Level Motion Imitation for Humanoid Robots](https://proceedings.mlr.press/v270/zhao25a.html) | 策略与参考 MoCap 交替优化的双层模仿 | Isaac Gym 中高保真 MIT Humanoid 模型 | Sim Only | 自动修改物理不可行动作，使模仿策略更可执行 | 仅仿真；双层优化计算较重；动作覆盖有限 | 在线可行重定向、更大动作库和真实本体验证 |
+
+##### 人形机器人研究方向凝练
+
+| 研究方向 | 代表论文 | 典型本体 / 末端 | 已取得进展 | 共性瓶颈 | 下一阶段趋势 |
+|---|---|---|---|---|---|
+| 复杂地形与敏捷运动 | DWL、Humanoid Parkour、PIM、BeamDojo、Cassie Jumping | H1/G1、Cassie、Digit、XBot、HECTOR V2 | 从盲走扩展到视觉落脚、跑酷、跳跃和稀疏支撑面 | 地图漂移、未知地形泛化、能耗与硬件热/冲击约束 | 原始多模态感知 + 在线适应 + 规划/控制联合学习 |
+| 全身模仿与表达运动 | HumanPlus、ExBody、TWIST、ALMI、KungfuBot、ExBody2 | H1/H1-2、G1、Booster T1 | 人体动作可迁移为稳定行走、舞蹈和高动态技能 | 形态/DoF 不匹配、重定向误差、每技能策略和硬件损伤 | 统一动作基础控制器、免重定向表示和损伤感知后训练 |
+| 平衡、起身与安全恢复 | HoST、Getting-Up、HuB、Keep On Going、HWC-Loco | 主要为 G1/H1 | 已能在多地面起身、极限平衡并抵抗外扰 | 初始跌倒姿态有限、失败不可预测、恢复后不能自动续接任务 | 跌倒检测—接触识别—恢复—续作闭环与安全 critic |
+| 遥操作与数据飞轮 | Open-TeleVision、Mobile-TeleVision、TWIST、CLONE、HOMIE、Humanoid Everyday | H1/G1、GR-1、Dex3-1/Inspire | 从上身桌面遥操作扩展到全身长时移动操作与大规模数据集 | 操作者负担、MoCap/VR 依赖、无力触觉、漂移与复位成本 | 低负担多模态遥操作、视觉—触觉反馈和自动数据闭环 |
+| 移动操作与灵巧手 | WholeBodyVLA、OKAMI、AMO、VIRAL、Vision-Based Dexterous RL | AgiBot X2、G1+Dex3-1、GR-1+Inspire | 行走、站位、双臂和多指操作开始在同一系统中协同 | 手部仿真差距、精确站位、接触力和长时失败恢复 | 触觉 VLA、接触感知世界模型、精确全身规划和自动恢复 |
+| 语言/VLM 与通用策略 | HumanVLA、BiBo、LangWBC、RoboGhost、BFM-Zero、HEAD | 虚拟人体、G1 | 语言可直接提示动作、目标、物体重排和部分导航/到达行为 | 动作词表小、手部/接触模型弱、尚未覆盖真正长时抓取 | 语言—视觉—触觉—动作统一模型与分层长时规划 |
+| 跨本体与开放平台 | XHugWBC、HumanoidBench、Berkeley Humanoid/Lite、ToddlerBot | 12+ 仿真本体和多类自研/商业平台 | 开始形成跨形态控制、标准基准和低成本可复现硬件 | 形态语义不一致、硬件差异大、仿真评测与实机能力脱节 | 形态感知动作空间、统一协议、跨平台真实数据与评测 |
+| 人体动作/交互基础研究 | TokenHSI、InterMimic、CLoSD、UniHSI、OmniControl、PhysDiff | SMPL/SMPL-X/PHC 等虚拟人体 | 提供动作、接触、姿态和任务组合的上游表示 | 多数不是机器人，缺少真实机器人执行器/手部模型、经标定接触动力学和 Sim2Real 验证 | 把生成式人体先验接到真实人形动力学、接触与安全闭环 |
 
 #### bimanual
 

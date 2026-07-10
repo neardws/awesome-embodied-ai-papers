@@ -25,7 +25,7 @@ Updated: 2026-07-10
 | 🗺️ | [Direction Overview](#direction-overview) | Six-track overview with paper counts |
 | 🔎 | [Reading Order](#reading-order) | Suggested priority list for deeper reading |
 | 🧾 | [Data Sources](#data-sources) | Source traceability and reference metadata |
-| 🦿 | [Humanoid & Biped Focus](#humanoid--biped-focus) | Conference research map, biped platforms, and dexterous-hand configurations |
+| 🦿 | [Humanoid & Biped Hardware Reference](#humanoid--biped-hardware-reference) | Biped platforms and dexterous-hand configurations; papers are consolidated into the humanoid master table |
 | 📚 | [Detailed Tables](#detailed-tables) | Paper-level tables by direction and subdirection |
 
 > [!NOTE]
@@ -172,7 +172,7 @@ The next research thread worth highlighting is not a single module, but a closed
 <td nowrap><code>Embodiment</code></td>
 <td nowrap>Embodiment Expansion / Dexterous Manipulation</td>
 <td nowrap>humanoid, bimanual, dexterous hand, tactile/contact-rich</td>
-<td nowrap>99</td>
+<td nowrap>159</td>
 <td nowrap>Embodiment expansion determines whether embodied AI can move beyond single-arm systems toward humanoids, bimanual robots, dexterous hands, and tactile/contact-rich tasks. These papers show how action spaces, sensing, and control objectives become more complex as the body changes.</td>
 </tr>
 <tr>
@@ -8853,7 +8853,7 @@ Embodiment expansion determines whether embodied AI can move beyond single-arm s
 
 Subdirections: humanoid, bimanual, dexterous hand, and tactile/contact-rich.
 
-Total: 114 papers.
+Total: 159 papers.
 
 <table>
 <thead>
@@ -8866,7 +8866,7 @@ Total: 114 papers.
 <tbody>
 <tr>
 <td nowrap>humanoid</td>
-<td nowrap>33</td>
+<td nowrap>78</td>
 <td nowrap>Focus on whole-body control, mobile manipulation, and humanoid embodiment generalization.</td>
 </tr>
 <tr>
@@ -8887,129 +8887,12 @@ Total: 114 papers.
 </tbody>
 </table>
 
-#### Humanoid & Biped Focus
+#### Humanoid & Biped Hardware Reference
 
-This focus section adds a searchable aggregate view above the existing humanoid paper table: it first maps what CCF-related AI/CV venues and robotics conferences are studying, then separates the deployed robots, Unitree and AgiBot biped models, lab-built platforms, and dexterous-hand configurations. Publication status and specifications were checked through **2026-07-10**. These cross-index tables are not counted again in the 114-paper total above.
+This section now serves only as a hardware index: Unitree and AgiBot biped models, lab-built platforms, and body-to-hand or body-to-gripper configurations. Papers are no longer duplicated in a separate table here. Venue, method, exact embodiment, evaluation setting, solved problem, current bottleneck, and future direction are consolidated into the single **humanoid paper master table** below. Specifications were checked through **2026-07-10**.
 
 > [!IMPORTANT]
-> “Body DoF” excludes optional end effectors unless the vendor explicitly reports a full-system total. The biped tables intentionally exclude wheeled or fixed-base platforms such as Unitree G1-D/R1-D/H2-D and AgiBot A2-W/G1/G2. `Sim Only` means that a robot model or URDF was used; it does not indicate deployment on physical hardware.
-
-##### Conference research map and concrete robots
-
-This is a representative, hardware-traceable sample of recent work rather than a second exhaustive list of every paper containing the word “humanoid.”
-
-<table>
-<thead>
-<tr>
-<th nowrap>Research focus</th>
-<th nowrap>Representative work / venue</th>
-<th nowrap>Venue group</th>
-<th nowrap>Concrete robot</th>
-<th nowrap>Validation</th>
-<th nowrap>Current question</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td nowrap>Human shadowing and skill imitation</td>
-<td nowrap><a href="https://proceedings.mlr.press/v270/fu25a.html">HumanPlus</a> / CoRL 2024</td>
-<td nowrap>Robotics</td>
-<td nowrap>Unitree H1 with research-team wrist joints and two Inspire RH56DFX hands; 33 DoF total</td>
-<td nowrap>Sim→Real</td>
-<td nowrap>Real-time monocular human shadowing followed by whole-body skill learning from teleoperated demonstrations.</td>
-</tr>
-<tr>
-<td nowrap>Whole-body teleoperation and dexterous loco-manipulation</td>
-<td nowrap><a href="https://proceedings.mlr.press/v270/he25b.html">OmniH2O</a> / CoRL 2024</td>
-<td nowrap>Robotics</td>
-<td nowrap>Unitree H1 with added Damiao wrist joints and Inspire hands</td>
-<td nowrap>Sim→Real</td>
-<td nowrap>Maps human whole-body motion to a humanoid online and learns autonomous loco-manipulation from teleoperation data.</td>
-</tr>
-<tr>
-<td nowrap>Dynamics alignment for agile skills</td>
-<td nowrap><a href="https://www.roboticsproceedings.org/rss21/p066.html">ASAP</a> / RSS 2025</td>
-<td nowrap>Robotics</td>
-<td nowrap>Unitree G1</td>
-<td nowrap>Sim + Real</td>
-<td nowrap>Learns a simulation-to-reality residual from limited real trajectories to transfer jumps, spins, and other dynamic whole-body skills.</td>
-</tr>
-<tr>
-<td nowrap>Natural language to whole-body control</td>
-<td nowrap><a href="https://www.roboticsproceedings.org/rss21/p065.html">LangWBC</a> / RSS 2025</td>
-<td nowrap>Robotics</td>
-<td nowrap>Unitree G1</td>
-<td nowrap>Sim + Real</td>
-<td nowrap>Maps language directly to low-level actions while preserving smooth composition and transitions between behaviors.</td>
-</tr>
-<tr>
-<td nowrap>Standing up and fall recovery</td>
-<td nowrap><a href="https://www.roboticsproceedings.org/rss21/p064.html">HoST</a> / RSS 2025</td>
-<td nowrap>Robotics</td>
-<td nowrap>Unitree G1 with 23 actuated DoF controlled in the paper</td>
-<td nowrap>Sim→Real</td>
-<td nowrap>Recovers from diverse fallen poses on rigid, deformable, and sloped terrain—an essential capability for sustained deployment.</td>
-</tr>
-<tr>
-<td nowrap>Unified whole-body control interface</td>
-<td nowrap><a href="https://rpl.cs.utexas.edu/publications/2025/05/19/he-icra25-hover/">HOVER</a> / ICRA 2025</td>
-<td nowrap>Robotics</td>
-<td nowrap>Unitree H1, 19 DoF, approximately 51.5 kg in the experimental configuration</td>
-<td nowrap>Sim + Real</td>
-<td nowrap>Unifies the target interfaces required by navigation, motion, manipulation, and teleoperation in one controller.</td>
-</tr>
-<tr>
-<td nowrap>Monocular human-to-humanoid teleoperation</td>
-<td nowrap><a href="https://human2humanoid.com/">H2O</a> / IROS 2024 Oral</td>
-<td nowrap>Robotics</td>
-<td nowrap>Unitree H1 with 19 actuated body DoF</td>
-<td nowrap>Sim→Real</td>
-<td nowrap>Reproduces full-body motion in real time from monocular RGB, focusing on motion control rather than fine hand manipulation.</td>
-</tr>
-<tr>
-<td nowrap>Vision-language whole-body rearrangement</td>
-<td nowrap><a href="https://proceedings.neurips.cc/paper_files/paper/2024/hash/215aeb07b5996c969c0123c3c6ee8f54-Abstract-Conference.html">HumanVLA</a> / NeurIPS 2024</td>
-<td nowrap>CCF-A</td>
-<td nowrap>Generic IsaacGym humanoid with spherical hands; no physical robot</td>
-<td nowrap>Sim Only</td>
-<td nowrap>Jointly studies locomotion and object rearrangement under language instructions while exposing the reality gap of simplified hands and simulation-only validation.</td>
-</tr>
-<tr>
-<td nowrap>Large-workspace end-to-end whole-body VLA</td>
-<td nowrap><a href="https://openreview.net/forum?id=OCJmVjyzN7">WholeBodyVLA</a> / ICLR 2026</td>
-<td nowrap>CCF-A</td>
-<td nowrap>AgiBot X2</td>
-<td nowrap>Sim + Real</td>
-<td nowrap>Unifies vision, language, locomotion, and manipulation in a latent VLA for long-horizon, large-workspace loco-manipulation.</td>
-</tr>
-<tr>
-<td nowrap>Cross-humanoid generalist control</td>
-<td nowrap><a href="https://openreview.net/forum?id=kovWCrgHxo">XHugWBC</a> / ICML 2026</td>
-<td nowrap>CCF-A</td>
-<td nowrap>12 simulated embodiments; 7 real configurations: Booster T1, Fourier N1, Unitree G1 (23/29-DoF configurations), AgiBot X2, Dobot Atom, and Unitree H1-2</td>
-<td nowrap>Sim + Real</td>
-<td nowrap>Uses semantically aligned joints and morphology randomization so one policy can transfer zero-shot across sizes, masses, and topologies.</td>
-</tr>
-<tr>
-<td nowrap>Visual sim-to-real for dexterous loco-manipulation</td>
-<td nowrap><a href="https://openaccess.thecvf.com/content/CVPR2026/html/He_VIRAL_Visual_Sim-to-Real_at_Scale_for_Humanoid_Loco-Manipulation_CVPR_2026_paper.html">VIRAL</a> / CVPR 2026</td>
-<td nowrap>CCF-A</td>
-<td nowrap>Unitree G1 with its native three-finger dexterous hands</td>
-<td nowrap>Sim→Real</td>
-<td nowrap>Scales visual-policy training in simulation and transfers locomotion plus bimanual manipulation zero-shot to hardware.</td>
-</tr>
-<tr>
-<td nowrap>Open-world humanoid data and cloud evaluation</td>
-<td nowrap><a href="https://humanoideveryday.github.io/">Humanoid Everyday</a> / arXiv 2025</td>
-<td nowrap>Preprint; formal venue unverified</td>
-<td nowrap>Unitree G1 + Dex3-1; Unitree H1 + 6-DoF Inspire hands</td>
-<td nowrap>Real Data</td>
-<td nowrap>Covers 260 everyday task categories and approximately 10.3K trajectories for data scaling, multi-task policies, and standardized remote evaluation.</td>
-</tr>
-</tbody>
-</table>
-
-Across these traceable examples, the field has expanded from stable bipedal walking into five parallel lines: language- or prompt-conditioned whole-body control, recovery under complex contacts, tightly coupled perception/locomotion/manipulation, real-data scaling with dexterous hands, and controller sharing across different humanoid morphologies. Unitree H1/G1 are currently the most common commercial research bases in papers, while AgiBot X2 is beginning to appear in end-to-end whole-body VLA and cross-embodiment control.
+> “Body DoF” excludes optional end effectors unless a vendor explicitly reports a complete-system total. The biped tables intentionally exclude wheeled or fixed-base systems such as Unitree G1-D/R1-D/H2-D and AgiBot A2-W/G1/G2. `Sim Only` in the paper table means that only a robot model or URDF was used; it does not imply physical deployment.
 
 ##### Unitree biped models and specifications
 
@@ -9278,524 +9161,101 @@ Both ecosystems use the general pattern “walking body + replaceable end effect
 
 #### humanoid
 
-Total: 33 papers.
+Total: 78 papers. This is the single humanoid paper master table. Every row was checked against the primary paper or official project material and distinguishes real hardware, simulated robot models, and non-robot virtual humans. CoRL 2024 papers are labeled by conference year even when the PMLR volume was published in 2025. **Current bottlenecks prioritize author-stated limitations; when a paper has no limitations section, the cell records a verifiable evaluation boundary. Future directions are research inferences from those boundaries, not quotations from the authors.**
 
-<table>
-<thead>
-<tr>
-<th nowrap>Venue/Year</th>
-<th nowrap>Paper/Method</th>
-<th nowrap>Abstract</th>
-<th nowrap>Embodiment Type</th>
-<th nowrap>Sensing/Contact</th>
-<th nowrap>Control Interface</th>
-<th nowrap>Training Mode</th>
-<th nowrap>Sim/Real</th>
-<th nowrap>Paper Task/Goal</th>
-<th nowrap>Paper</th>
-<th nowrap>Project</th>
-<th nowrap>Code</th>
-<th nowrap>Data/Bench</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td nowrap>CoRL 2024</td>
-<td nowrap><a href="https://scholar.google.com/scholar?q=HumanPlus%3A+Humanoid+Shadowing+and+Imitation+from+Humans">HumanPlus: Humanoid Shadowing and Imitation from Humans</a></td>
-<td nowrap>HumanPlus studies humanoid shadowing and imitation from human demonstrations.</td>
-<td nowrap>humanoid</td>
-<td nowrap>robot sensing/contact</td>
-<td nowrap>robot control</td>
-<td nowrap>robot learning</td>
-<td nowrap>robot benchmarks</td>
-<td nowrap>Add CoRL embodiment coverage.</td>
-<td nowrap><a href="https://scholar.google.com/scholar?q=HumanPlus%3A+Humanoid+Shadowing+and+Imitation+from+Humans">paper</a></td>
-<td nowrap>-</td>
-<td nowrap>-</td>
-<td nowrap>-</td>
-</tr>
-<tr>
-<td nowrap>CVPR 2025</td>
-<td nowrap><a href="https://openaccess.thecvf.com/content/CVPR2025/html/Pan_TokenHSI_Unified_Synthesis_of_Physical_Human-Scene_Interactions_through_Task_Tokenization_CVPR_2025_paper.html">TokenHSI: Unified Synthesis of Physical Human-Scene Interactions through Task Tokenization</a></td>
-<td nowrap>TokenHSI synthesizes physical human-scene interactions through task tokenization.</td>
-<td nowrap>Humanoid / human-scene interaction</td>
-<td nowrap>body-scene contact</td>
-<td nowrap>whole-body motion</td>
-<td nowrap>task-tokenized motion synthesis</td>
-<td nowrap>Simulation</td>
-<td nowrap>Synthesize task-conditioned physical human-scene interaction.</td>
-<td nowrap><a href="https://arxiv.org/abs/2503.19901">paper</a></td>
-<td nowrap>-</td>
-<td nowrap>-</td>
-<td nowrap>-</td>
-</tr>
-<tr>
-<td nowrap>CVPR 2025</td>
-<td nowrap><a href="https://openaccess.thecvf.com/content/CVPR2025/papers/Xu_InterMimic_Towards_Universal_Whole-Body_Control_for_Physics-Based_Human-Object_Interactions_CVPR_2025_paper.pdf">InterMimic: Towards Universal Whole-Body Control for Physics-Based Human-Object Interactions</a></td>
-<td nowrap>InterMimic studies universal whole-body control for physics-based human-object interaction.</td>
-<td nowrap>Humanoid / whole-body control</td>
-<td nowrap>body-object contact</td>
-<td nowrap>whole-body controller</td>
-<td nowrap>physics-based imitation</td>
-<td nowrap>Simulation</td>
-<td nowrap>Control human-object interactions with whole-body dynamics.</td>
-<td nowrap><a href="https://arxiv.org/abs/2502.20390">paper</a></td>
-<td nowrap>-</td>
-<td nowrap>-</td>
-<td nowrap>-</td>
-</tr>
-<tr>
-<td nowrap>ICLR 2025</td>
-<td nowrap><a href="https://openreview.net/forum?id=pZISppZSTv">CLoSD: Closing the Loop between Simulation and Diffusion for multi-task character control</a></td>
-<td nowrap>CLoSD closes the loop between simulation and diffusion models for multitask character control.</td>
-<td nowrap>Humanoid / character control</td>
-<td nowrap>whole-body state</td>
-<td nowrap>diffusion control</td>
-<td nowrap>simulation + diffusion</td>
-<td nowrap>Simulation</td>
-<td nowrap>Use diffusion and simulation together for multitask whole-body control.</td>
-<td nowrap><a href="https://arxiv.org/abs/2410.03441">paper</a></td>
-<td nowrap>-</td>
-<td nowrap>-</td>
-<td nowrap>-</td>
-</tr>
-<tr>
-<td nowrap>ICLR 2024</td>
-<td nowrap><a href="https://openreview.net/forum?id=1vCnDyQkjg">Unified Human-Scene Interaction via Prompted Chain-of-Contacts</a></td>
-<td nowrap>This work models human-scene interaction through prompted chains of contact states.</td>
-<td nowrap>Humanoid / human-scene interaction</td>
-<td nowrap>contact sequence</td>
-<td nowrap>whole-body motion</td>
-<td nowrap>prompted contact planning</td>
-<td nowrap>Simulation</td>
-<td nowrap>Generate human-scene interaction from contact chains.</td>
-<td nowrap><a href="https://arxiv.org/abs/2309.07918">paper</a></td>
-<td nowrap>-</td>
-<td nowrap>-</td>
-<td nowrap>-</td>
-</tr>
-<tr>
-<td nowrap>ICLR 2024</td>
-<td nowrap><a href="https://proceedings.iclr.cc/paper_files/paper/2024/hash/7827290f07f63485b849b66cfa3e5dd0-Abstract-Conference.html">OmniControl: Control Any Joint at Any Time for Human Motion Generation</a></td>
-<td nowrap>OmniControl controls arbitrary joints at arbitrary times for human motion generation.</td>
-<td nowrap>Humanoid / motion control</td>
-<td nowrap>joint constraints</td>
-<td nowrap>joint-level motion control</td>
-<td nowrap>controllable motion generation</td>
-<td nowrap>Motion benchmarks</td>
-<td nowrap>Generate controllable whole-body motion from sparse joint constraints.</td>
-<td nowrap><a href="https://arxiv.org/abs/2310.08580">paper</a></td>
-<td nowrap>-</td>
-<td nowrap>-</td>
-<td nowrap>-</td>
-</tr>
-<tr>
-<td nowrap>ICCV 2023</td>
-<td nowrap><a href="https://openaccess.thecvf.com/content/ICCV2023/html/Karunratanakul_Guided_Motion_Diffusion_for_Controllable_Human_Motion_Synthesis_ICCV_2023_paper.html">Guided Motion Diffusion for Controllable Human Motion Synthesis</a></td>
-<td nowrap>Guided Motion Diffusion enables controllable human motion synthesis through diffusion guidance.</td>
-<td nowrap>Humanoid / motion generation</td>
-<td nowrap>whole-body motion</td>
-<td nowrap>guided motion diffusion</td>
-<td nowrap>diffusion synthesis</td>
-<td nowrap>Motion benchmarks</td>
-<td nowrap>Control generated human motion through guidance signals.</td>
-<td nowrap><a href="https://arxiv.org/abs/2305.12577">paper</a></td>
-<td nowrap>-</td>
-<td nowrap>-</td>
-<td nowrap>-</td>
-</tr>
-<tr>
-<td nowrap>ICCV 2023</td>
-<td nowrap><a href="https://openaccess.thecvf.com/content/ICCV2023/html/Yuan_PhysDiff_Physics-Guided_Human_Motion_Diffusion_Model_ICCV_2023_paper.html">PhysDiff: Physics-Guided Human Motion Diffusion Model</a></td>
-<td nowrap>PhysDiff adds physics guidance to human motion diffusion for more plausible motion.</td>
-<td nowrap>Humanoid / motion generation</td>
-<td nowrap>physics constraints</td>
-<td nowrap>motion diffusion</td>
-<td nowrap>physics-guided generation</td>
-<td nowrap>Motion benchmarks</td>
-<td nowrap>Improve physical plausibility of generated whole-body motion.</td>
-<td nowrap><a href="https://arxiv.org/abs/2212.02500">paper</a></td>
-<td nowrap>-</td>
-<td nowrap>-</td>
-<td nowrap>-</td>
-</tr>
-<tr>
-<td nowrap>ECCV 2024</td>
-<td nowrap><a href="https://www.ecva.net/papers/eccv_2024/papers_ECCV/papers/00194.pdf">MANIKIN: Biomechanically Accurate Neural Inverse Kinematics for Human Motion Estimation</a></td>
-<td nowrap>MANIKIN estimates human motion with biomechanically accurate neural inverse kinematics.</td>
-<td nowrap>Humanoid / motion estimation</td>
-<td nowrap>body kinematics</td>
-<td nowrap>inverse kinematics</td>
-<td nowrap>neural IK</td>
-<td nowrap>Motion benchmarks</td>
-<td nowrap>Estimate physically plausible human motion from sparse observations.</td>
-<td nowrap><a href="https://www.ecva.net/papers/eccv_2024/papers_ECCV/papers/00194.pdf">paper</a></td>
-<td nowrap>-</td>
-<td nowrap>-</td>
-<td nowrap>-</td>
-</tr>
-<tr>
-<td nowrap>ECCV 2024</td>
-<td nowrap><a href="https://arxiv.org/abs/2308.06493">EgoPoser: Robust Real-Time Egocentric Pose Estimation from Sparse and Intermittent Observations Everywhere</a></td>
-<td nowrap>EgoPoser performs robust real-time egocentric pose estimation from sparse intermittent observations.</td>
-<td nowrap>Humanoid / pose estimation</td>
-<td nowrap>egocentric sparse sensing</td>
-<td nowrap>pose estimation</td>
-<td nowrap>real-time egocentric inference</td>
-<td nowrap>Motion benchmarks</td>
-<td nowrap>Recover whole-body pose from sparse egocentric observations.</td>
-<td nowrap><a href="https://arxiv.org/abs/2308.06493">paper</a></td>
-<td nowrap>-</td>
-<td nowrap>-</td>
-<td nowrap>-</td>
-</tr>
-<tr>
-<td nowrap>ECCV 2022</td>
-<td nowrap><a href="https://arxiv.org/abs/2207.13784">AvatarPoser: Articulated Full-Body Pose Tracking from Sparse Motion Sensing</a></td>
-<td nowrap>AvatarPoser tracks full-body articulated pose from sparse motion sensors.</td>
-<td nowrap>Humanoid / pose tracking</td>
-<td nowrap>sparse motion sensors</td>
-<td nowrap>full-body pose tracking</td>
-<td nowrap>sparse-sensing inference</td>
-<td nowrap>Motion benchmarks</td>
-<td nowrap>Track full-body pose from sparse wearable sensing.</td>
-<td nowrap><a href="https://arxiv.org/abs/2207.13784">paper</a></td>
-<td nowrap>-</td>
-<td nowrap>-</td>
-<td nowrap>-</td>
-</tr>
-<tr>
-<td nowrap>arXiv 2025</td>
-<td nowrap><a href="https://arxiv.org/abs/2510.08807">Humanoid Everyday: A Comprehensive Robotic Dataset for Open-World Humanoid Manipulation</a></td>
-<td nowrap>Humanoid Everyday provides 260 open-world humanoid manipulation task categories covering locomotion, interaction, manipulation, and multimodal sensing.</td>
-<td nowrap>Humanoid</td>
-<td nowrap>RGB-D / LiDAR / tactile / language</td>
-<td nowrap>whole-body manipulation</td>
-<td nowrap>large-scale dataset / benchmark</td>
-<td nowrap>Real</td>
-<td nowrap>Fill the data and evaluation gap for open-world humanoid manipulation.</td>
-<td nowrap><a href="https://arxiv.org/abs/2510.08807">paper</a></td>
-<td nowrap><a href="https://humanoideveryday.github.io/">project</a></td>
-<td nowrap><a href="https://github.com/physical-superintelligence-lab/Humanoid-Everyday">code</a></td>
-<td nowrap><a href="https://huggingface.co/datasets/USC-PSI-Lab/humanoid-everyday">hf</a></td>
-</tr>
-<tr>
-<td nowrap>ICLR 2026</td>
-<td nowrap><a href="https://openreview.net/forum?id=OCJmVjyzN7">WholeBodyVLA: Towards Unified Latent VLA for Whole-body Loco-manipulation Control</a></td>
-<td nowrap>Learn a unified latent-space VLA from egocentric videos, enabling humanoid robots to perform large-workspace vision-language whole-body loco-manipulation.</td>
-<td nowrap>Humanoid/Legged Robot</td>
-<td nowrap>Vision + language + proprioceptive state</td>
-<td nowrap>humanoid control / humanoid / whole-body control</td>
-<td nowrap>action-free egocentric video latent VLA + RL controller</td>
-<td nowrap>Sim + Real</td>
-<td nowrap>Addresses manipulation-aware locomotion, data scarcity, and unstable low-level control in humanoid loco-manipulation.</td>
-<td nowrap><a href="https://openreview.net/forum?id=OCJmVjyzN7">paper</a></td>
-<td nowrap><a href="https://opendrivelab.com/WholeBodyVLA/">project</a></td>
-<td nowrap><a href="https://github.com/OpenDriveLab/WholebodyVLA">code</a></td>
-<td nowrap>-</td>
-</tr>
-<tr>
-<td nowrap>ICLR 2026</td>
-<td nowrap><a href="https://openreview.net/forum?id=aQWSEjcN9V">Endowing GPT-4 with a Humanoid Body: Building the Bridge Between Off-the-Shelf VLMs and the Physical World</a></td>
-<td nowrap>BiBo uses off-the-shelf VLMs to compile high-level instructions into low-level control parameters and drives humanoid bodies with a diffusion motion actuator.</td>
-<td nowrap>Humanoid/Legged Robot</td>
-<td nowrap>Vision + language + physical feedback</td>
-<td nowrap>VLM instruction compiler + diffusion motion executor</td>
-<td nowrap>off-the-shelf VLM + diffusion executor</td>
-<td nowrap>-</td>
-<td nowrap>Addresses how to have GPT-4/VLM control humanoid agents without additional fine-tuning data.</td>
-<td nowrap><a href="https://openreview.net/forum?id=aQWSEjcN9V">paper</a></td>
-<td nowrap>-</td>
-<td nowrap>-</td>
-<td nowrap>-</td>
-</tr>
-<tr>
-<td nowrap>ICLR 2026</td>
-<td nowrap><a href="https://openreview.net/forum?id=3UE3Aatcjy">HWC-Loco: A Hierarchical Whole-Body Control Approach to Robust Humanoid Locomotion</a></td>
-<td nowrap>HWC-Loco frames humanoid locomotion control as robust optimization and uses a hierarchical policy to dynamically trade off safety recovery and target tracking.</td>
-<td nowrap>Humanoid/Legged Robot</td>
-<td nowrap>-</td>
-<td nowrap>humanoid control / humanoid / whole-body control</td>
-<td nowrap>hierarchical robust whole-body RL/control</td>
-<td nowrap>Sim + Real</td>
-<td nowrap>Addresses robust whole-body walking control for humanoid robots under train-deploy mismatch.</td>
-<td nowrap><a href="https://openreview.net/forum?id=3UE3Aatcjy">paper</a></td>
-<td nowrap><a href="https://simonlinsx.github.io/HWC_Loco/">project</a></td>
-<td nowrap><a href="https://github.com/EDEM-AI/HWC_Loco">code</a></td>
-<td nowrap>-</td>
-</tr>
-<tr>
-<td nowrap>ICLR 2026</td>
-<td nowrap><a href="https://openreview.net/forum?id=6T3wJQhvc3">Task Tokens: A Flexible Approach to Adapting Behavior Foundation Models</a></td>
-<td nowrap>Task Tokens freezes the behavior foundation model and trains only the task tokenizer/tokens for low-parameter adaptation to specific humanoid tasks.</td>
-<td nowrap>Humanoid/Legged Robot</td>
-<td nowrap>-</td>
-<td nowrap>task-token-conditioned behavior foundation model</td>
-<td nowrap>frozen BFM + task-specific tokenizer</td>
-<td nowrap>-</td>
-<td nowrap>Addresses BFM's reliance on prompt engineering for new tasks and low adaptation efficiency.</td>
-<td nowrap><a href="https://openreview.net/forum?id=6T3wJQhvc3">paper</a></td>
-<td nowrap>-</td>
-<td nowrap>-</td>
-<td nowrap>-</td>
-</tr>
-<tr>
-<td nowrap>ICLR 2026</td>
-<td nowrap><a href="https://openreview.net/forum?id=jkhl2oI0g5">BFM-Zero: A Promptable Behavioral Foundation Model for Humanoid Control Using Unsupervised Reinforcement Learning</a></td>
-<td nowrap>BFM-Zero learns a shared latent space via unsupervised RL, enabling a single humanoid policy to be prompted by motions, goals, or rewards.</td>
-<td nowrap>Humanoid/Legged Robot</td>
-<td nowrap>proprioceptive state / goal / reward prompts</td>
-<td nowrap>humanoid control / humanoid / whole-body control</td>
-<td nowrap>unsupervised RL + Forward-Backward latent model</td>
-<td nowrap>Sim + Real / Unitree G1</td>
-<td nowrap>Addresses the promptable generalist policy problem for humanoid multitask whole-body control without retraining.</td>
-<td nowrap><a href="https://openreview.net/forum?id=jkhl2oI0g5">paper</a></td>
-<td nowrap><a href="https://lecar-lab.github.io/BFM-Zero/">project</a></td>
-<td nowrap><a href="https://github.com/LeCAR-Lab/BFM-Zero">code</a></td>
-<td nowrap>-</td>
-</tr>
-<tr>
-<td nowrap>ICLR 2026</td>
-<td nowrap><a href="https://openreview.net/forum?id=k3Cyx3Uets">From Language to Locomotion: Retargeting-free Humanoid Control via Motion Latent Guidance</a></td>
-<td nowrap>RoboGhost bypasses human-motion decoding and retargeting, directly generating executable humanoid motions from language-conditioned motion latents.</td>
-<td nowrap>Humanoid/Legged Robot</td>
-<td nowrap>-</td>
-<td nowrap>language-conditioned motion latent + diffusion policy</td>
-<td nowrap>retargeting-free diffusion action policy</td>
-<td nowrap>-</td>
-<td nowrap>Addresses retargeting errors, high latency, and weak semantic-control coupling in the natural-language-to-humanoid-motion-control pipeline.</td>
-<td nowrap><a href="https://openreview.net/forum?id=k3Cyx3Uets">paper</a></td>
-<td nowrap>-</td>
-<td nowrap><a href="https://github.com/gentlefress/RoboGhost">code</a></td>
-<td nowrap>-</td>
-</tr>
-<tr>
-<td nowrap>ICLR 2026</td>
-<td nowrap><a href="https://openreview.net/forum?id=NEOTsyyYH7">Towards Bridging the Gap between Large-Scale Pretraining and Efficient Finetuning for Humanoid Control</a></td>
-<td nowrap>LIFT uses large-batch SAC for large-scale humanoid pretraining, then applies model-assisted fine-tuning for sample-efficient adaptation.</td>
-<td nowrap>Humanoid/Legged Robot</td>
-<td nowrap>-</td>
-<td nowrap>humanoid control / humanoid / whole-body control</td>
-<td nowrap>off-policy SAC pretraining + model-based fine-tuning</td>
-<td nowrap>Sim + Real</td>
-<td nowrap>Addresses the gap between large-scale pretraining and efficient fine-tuning in new environments for humanoid control.</td>
-<td nowrap><a href="https://openreview.net/forum?id=NEOTsyyYH7">paper</a></td>
-<td nowrap><a href="https://lift-humanoid.github.io/">project</a></td>
-<td nowrap><a href="https://github.com/bigai-ai/LIFT-humanoid">code</a></td>
-<td nowrap>-</td>
-</tr>
-<tr>
-<td nowrap>ICLR 2026</td>
-<td nowrap><a href="https://openreview.net/forum?id=eSkDNIGbcd">Hierarchical Value-Decomposed Offline Reinforcement Learning for Whole-Body Control</a></td>
-<td nowrap>This paper decomposes whole-body control into hierarchical value components, enabling offline RL to coordinate complex humanoid and legged-robot behaviors.</td>
-<td nowrap>Humanoid/Legged Robot</td>
-<td nowrap>tactile / contact</td>
-<td nowrap>humanoid control / humanoid / whole-body control</td>
-<td nowrap>humanoid control</td>
-<td nowrap>-</td>
-<td nowrap>Improves complex embodiment control</td>
-<td nowrap><a href="https://openreview.net/forum?id=eSkDNIGbcd">paper</a></td>
-<td nowrap>-</td>
-<td nowrap>-</td>
-<td nowrap>-</td>
-</tr>
-<tr>
-<td nowrap>AAAI 2026</td>
-<td nowrap><a href="https://ojs.aaai.org/index.php/AAAI/article/view/38908">Whole-Body Coordination for Dynamic Object Grasping with Legged Manipulators</a></td>
-<td nowrap>This paper coordinates locomotion and arm control so legged manipulators can track and grasp moving objects in dynamic scenes.</td>
-<td nowrap>quadruped / legged mobile base + manipulator</td>
-<td nowrap>-</td>
-<td nowrap>whole-body coordination for dynamic grasping</td>
-<td nowrap>humanoid control</td>
-<td nowrap>Sim + Real</td>
-<td nowrap>Addresses whole-body coordination between the mobile base and manipulator when a legged mobile manipulator grasps dynamic targets.</td>
-<td nowrap><a href="https://ojs.aaai.org/index.php/AAAI/article/view/38908">paper</a></td>
-<td nowrap>-</td>
-<td nowrap>-</td>
-<td nowrap>-</td>
-</tr>
-<tr>
-<td nowrap>AAAI 2026</td>
-<td nowrap><a href="https://ojs.aaai.org/index.php/AAAI/article/view/38918">Coordinated Humanoid Robot Locomotion with Symmetry Equivariant Reinforcement Learning Policy</a></td>
-<td nowrap>This paper builds symmetry equivariance into reinforcement learning policies to learn coordinated, transferable humanoid locomotion.</td>
-<td nowrap>Humanoid/Legged Robot</td>
-<td nowrap>proprioceptive state + foot contact</td>
-<td nowrap>humanoid control / humanoid / whole-body control</td>
-<td nowrap>symmetry-equivariant DRL</td>
-<td nowrap>Sim + Real / Unitree G1</td>
-<td nowrap>Addresses learning coordinated gaits for humanoid robots using symmetry-equivariant structure.</td>
-<td nowrap><a href="https://ojs.aaai.org/index.php/AAAI/article/view/38918">paper</a></td>
-<td nowrap>-</td>
-<td nowrap>-</td>
-<td nowrap>-</td>
-</tr>
-<tr>
-<td nowrap>AAAI 2026</td>
-<td nowrap><a href="https://ojs.aaai.org/index.php/AAAI/article/view/38924">FARM: Frame-Accelerated Augmentation and Residual Mixture-of-Experts for Physics-Based High-Dynamic Humanoid Control</a></td>
-<td nowrap>FARM combines frame-accelerated motion augmentation with residual mixture-of-experts policies to train high-dynamic physics-based humanoid skills.</td>
-<td nowrap>Humanoid/Legged Robot</td>
-<td nowrap>-</td>
-<td nowrap>humanoid control / humanoid / whole-body control</td>
-<td nowrap>frame-accelerated augmentation + residual MoE</td>
-<td nowrap>-</td>
-<td nowrap>Addresses data augmentation and expert residual fusion for controlling highly dynamic skills of humanoids in physics simulation.</td>
-<td nowrap><a href="https://ojs.aaai.org/index.php/AAAI/article/view/38924">paper</a></td>
-<td nowrap>-</td>
-<td nowrap><a href="https://github.com/Colin-Jing/FARM">code</a></td>
-<td nowrap>HDHM data</td>
-</tr>
-<tr>
-<td nowrap>AAAI 2026</td>
-<td nowrap><a href="https://ojs.aaai.org/index.php/AAAI/article/view/38927">ODYSSEY: Open-World Quadrupeds Exploration and Manipulation for Long-Horizon Tasks</a></td>
-<td nowrap>ODYSSEY targets long-horizon open-world quadruped tasks by combining exploration and manipulation for legged robots with arms.</td>
-<td nowrap>quadruped robot + manipulator</td>
-<td nowrap>-</td>
-<td nowrap>humanoid control / humanoid / whole-body control</td>
-<td nowrap>humanoid control</td>
-<td nowrap>-</td>
-<td nowrap>Addresses long-horizon exploration and manipulation tasks for quadruped robots in the open world.</td>
-<td nowrap><a href="https://ojs.aaai.org/index.php/AAAI/article/view/38927">paper</a></td>
-<td nowrap><a href="https://kaijwang.github.io/odyssey.github.io/">project</a></td>
-<td nowrap>-</td>
-<td nowrap>-</td>
-</tr>
-<tr>
-<td nowrap>AAAI 2026</td>
-<td nowrap><a href="https://ojs.aaai.org/index.php/AAAI/article/view/38949">Keep On Going: Learning Robust Humanoid Motion Skills via Selective Adversarial Training</a></td>
-<td nowrap>Keep On Going uses selective adversarial training to improve the robustness and persistence of humanoid motion skills under disturbances.</td>
-<td nowrap>Humanoid/Legged Robot</td>
-<td nowrap>-</td>
-<td nowrap>humanoid control / humanoid / whole-body control</td>
-<td nowrap>selective adversarial training</td>
-<td nowrap>-</td>
-<td nowrap>Addresses robustness and sustained execution of humanoid motion skills under disturbances.</td>
-<td nowrap><a href="https://ojs.aaai.org/index.php/AAAI/article/view/38949">paper</a></td>
-<td nowrap>-</td>
-<td nowrap>-</td>
-<td nowrap>-</td>
-</tr>
-<tr>
-<td nowrap>AAAI 2026</td>
-<td nowrap><a href="https://ojs.aaai.org/index.php/AAAI/article/view/38951">Towards Adaptive Humanoid Control via Multi-Behavior Distillation and Reinforced Fine-Tuning</a></td>
-<td nowrap>This paper distills multiple humanoid behaviors into a policy and uses reinforced fine-tuning to adapt it on real hardware.</td>
-<td nowrap>Humanoid/Legged Robot</td>
-<td nowrap>tactile / contact</td>
-<td nowrap>humanoid control / humanoid / whole-body control</td>
-<td nowrap>multi-behavior distillation + reinforced fine-tuning</td>
-<td nowrap>Sim + Real / Unitree G1</td>
-<td nowrap>Addresses adaptive fine-tuning on real robots after distilling multi-behavior humanoid control policies.</td>
-<td nowrap><a href="https://ojs.aaai.org/index.php/AAAI/article/view/38951">paper</a></td>
-<td nowrap><a href="https://ahc-humanoid.github.io">project</a></td>
-<td nowrap>-</td>
-<td nowrap>-</td>
-</tr>
-<tr>
-<td nowrap>ICML 2026</td>
-<td nowrap><a href="https://icml.cc/virtual/2026/poster/62003">Scalable and General Whole-Body Control for Cross-Humanoid Locomotion</a></td>
-<td nowrap>This paper uses cross-humanoid morphological variation to train a scalable whole-body locomotion controller that transfers across diverse humanoid robots.</td>
-<td nowrap>Humanoid Robot</td>
-<td nowrap>-</td>
-<td nowrap>humanoid control / humanoid / whole-body control</td>
-<td nowrap>cross-embodiment morphological randomization</td>
-<td nowrap>12 simulated humanoids + 7 real robots</td>
-<td nowrap>Addresses scalable general-purpose whole-body walking control across diverse humanoid morphologies.</td>
-<td nowrap><a href="https://icml.cc/virtual/2026/poster/62003">paper</a></td>
-<td nowrap><a href="https://xhugwbc.github.io/">project</a></td>
-<td nowrap>-</td>
-<td nowrap>-</td>
-</tr>
-<tr>
-<td nowrap>ICML 2026</td>
-<td nowrap><a href="https://icml.cc/virtual/2026/poster/65120">Learning Transferable Interaction Primitives from Game Videos for Humanoids</a></td>
-<td nowrap>This paper learns reusable humanoid interaction primitives from game videos to transfer human-like contact and object-interaction skills to robots.</td>
-<td nowrap>Humanoid Robot</td>
-<td nowrap>-</td>
-<td nowrap>humanoid control / humanoid / whole-body control</td>
-<td nowrap>humanoid control</td>
-<td nowrap>-</td>
-<td nowrap>Improves humanoid robot control</td>
-<td nowrap><a href="https://icml.cc/virtual/2026/poster/65120">paper</a></td>
-<td nowrap>-</td>
-<td nowrap>-</td>
-<td nowrap>-</td>
-</tr>
-<tr>
-<td nowrap>CVPR 2026</td>
-<td nowrap><a href="https://arxiv.org/abs/2511.15200">VIRAL: Visual Sim-to-Real at Scale for Humanoid Loco-Manipulation</a></td>
-<td nowrap>VIRAL trains a visual student policy in simulation and deploys it zero-shot to real humanoid robots, enabling scalable visual sim-to-real loco-manipulation.</td>
-<td nowrap>Humanoid Robot</td>
-<td nowrap>Vision</td>
-<td nowrap>humanoid control / humanoid / whole-body control</td>
-<td nowrap>privileged RL teacher + visual student distillation + DAgger/BC</td>
-<td nowrap>Sim training + Real zero-shot</td>
-<td nowrap>Addresses the difficulty of transferring visual loco-manipulation skills for humanoid robots from simulation to real hardware.</td>
-<td nowrap><a href="https://arxiv.org/abs/2511.15200">paper</a></td>
-<td nowrap><a href="https://viral-humanoid.github.io/">project</a></td>
-<td nowrap><a href="https://github.com/NVlabs/GR00T-VisualSim2Real">code</a></td>
-<td nowrap>-</td>
-</tr>
-<tr>
-<td nowrap>NeurIPS 2025</td>
-<td nowrap><a href="https://arxiv.org/abs/2504.14305">Adversarial Locomotion and Motion Imitation for Humanoid Policy Learning</a></td>
-<td nowrap>ALMI uses adversarial learning for upper and lower bodies, allowing the lower body to maintain stable walking while the upper body tracks diverse motions.</td>
-<td nowrap>Humanoid Robot</td>
-<td nowrap>-</td>
-<td nowrap>humanoid control / humanoid / whole-body control</td>
-<td nowrap>adversarial locomotion + motion imitation</td>
-<td nowrap>Sim + Real</td>
-<td nowrap>Addresses humanoid robots maintaining stable locomotion while performing expressive whole-body motion imitation.</td>
-<td nowrap><a href="https://arxiv.org/abs/2504.14305">paper</a></td>
-<td nowrap><a href="https://almi-humanoid.github.io/">project</a></td>
-<td nowrap><a href="https://github.com/TeleHuman/ALMI-Open">code</a></td>
-<td nowrap><a href="https://huggingface.co/datasets/TeleEmbodied/ALMI-X">hf</a></td>
-</tr>
-<tr>
-<td nowrap>NeurIPS 2025</td>
-<td nowrap><a href="https://arxiv.org/abs/2506.12779">From Experts to a Generalist: Toward General Whole-Body Control for Humanoid Robots</a></td>
-<td nowrap>BumbleBee first trains multiple experts by clustering, then adapts with real data and distills them into a unified humanoid whole-body controller.</td>
-<td nowrap>Humanoid Robot</td>
-<td nowrap>-</td>
-<td nowrap>humanoid control / humanoid / whole-body control</td>
-<td nowrap>expert-generalist distillation + sim-to-real adaptation</td>
-<td nowrap>Sim + Real</td>
-<td nowrap>Addresses the difficulty of training general policies caused by conflicting control requirements across diverse agile humanoid motions.</td>
-<td nowrap><a href="https://arxiv.org/abs/2506.12779">paper</a></td>
-<td nowrap><a href="https://beingbeyond.github.io/BumbleBee/">project</a></td>
-<td nowrap><a href="https://github.com/BeingBeyond/BumbleBee">code</a></td>
-<td nowrap>-</td>
-</tr>
-<tr>
-<td nowrap>NeurIPS 2025</td>
-<td nowrap><a href="https://kungfubot.github.io/">KungfuBot: Physics-Based Humanoid Whole-Body Control for Learning Highly-Dynamic Skills</a></td>
-<td nowrap>KungfuBot enables humanoid robots to learn highly dynamic skills such as kung fu and dance through motion processing, retargeting, and an adaptive tracking curriculum.</td>
-<td nowrap>Humanoid Robot</td>
-<td nowrap>-</td>
-<td nowrap>humanoid control / humanoid / whole-body control</td>
-<td nowrap>physics-based imitation + adaptive curriculum</td>
-<td nowrap>-</td>
-<td nowrap>Addresses the difficulty existing whole-body motion imitation has in tracking high-speed, highly dynamic human motions.</td>
-<td nowrap><a href="https://arxiv.org/abs/2506.12851">paper</a></td>
-<td nowrap><a href="https://kungfubot.github.io/">project</a></td>
-<td nowrap><a href="https://github.com/TeleHuman/PBHC">code</a></td>
-<td nowrap>-</td>
-</tr>
-<tr>
-<td nowrap>CVPR 2025</td>
-<td nowrap><a href="https://cvpr.thecvf.com/virtual/2025/poster/34565">Let Humanoids Hike! Integrative Skill Development on Complex Trails</a></td>
-<td nowrap>Let Humanoids Hike integrates perception, locomotion, and balance control so humanoids can traverse complex trail environments.</td>
-<td nowrap>Humanoid Robot</td>
-<td nowrap>-</td>
-<td nowrap>humanoid control / humanoid / whole-body control</td>
-<td nowrap>humanoid control</td>
-<td nowrap>-</td>
-<td nowrap>Addresses integrating perception, locomotion, and balance skills for humanoid robots on complex mountain roads/trails.</td>
-<td nowrap><a href="https://cvpr.thecvf.com/virtual/2025/poster/34565">paper</a></td>
-<td nowrap><a href="https://lego-h-humanoidrobothiking.github.io/">project</a></td>
-<td nowrap>-</td>
-<td nowrap>-</td>
-</tr>
-</tbody>
-</table>
+| Venue/Year | Paper/Method | Direction/Method | Exact Robot/Embodiment | Evaluation | Problem Solved | Current Bottleneck | Likely Next Direction (inference) |
+|---|---|---|---|---|---|---|---|
+| CoRL 2024 | [HumanPlus: Humanoid Shadowing and Imitation from Humans](https://proceedings.mlr.press/v270/fu25a.html) | Human retargeting + low-level imitation + high-level visuomotor policy | Modified Unitree H1 (33 DoF); dual Inspire RH56DFX 6-DoF hands + 1-DoF wrists | Sim→Real | Unifies human shadowing, skill imitation, and autonomous visuomotor tasks on a full-size humanoid | Limited robot DoF, hand occlusion from a fixed head camera, pose/retargeting errors, and no long-range navigation | Higher-DoF bodies, active viewpoints, robust pose estimation, and scaled demonstrations coupled with navigation |
+| CVPR 2025 Oral | [TokenHSI: Unified Synthesis of Physical Human-Scene Interactions through Task Tokenization](https://openaccess.thecvf.com/content/CVPR2025/html/Pan_TokenHSI_Unified_Synthesis_of_Physical_Human-Scene_Interactions_through_Task_Tokenization_CVPR_2025_paper.html) | Task tokenization + physics-based reinforcement learning | Physical human with a 32-dimensional controlled action space in Isaac Gym; no robot | Sim Only | Uses a unified task representation to synthesize diverse physical human-scene interactions | Relies on reward engineering and still needs human guidance for long-horizon tasks | Automatic reward/task planning and transfer of interaction representations to real humanoids |
+| CVPR 2025 Highlight | [InterMimic: Towards Universal Whole-Body Control for Physics-Based Human-Object Interactions](https://openaccess.thecvf.com/content/CVPR2025/html/Xu_InterMimic_Towards_Universal_Whole-Body_Control_for_Physics-Based_Human-Object_Interactions_CVPR_2025_paper.html) | Contact-aware universal whole-body interaction imitation | SMPL/SMPL-X physical humans; Unitree G1 + Inspire hands only in downstream simulation | Sim Only | Reproduces diverse human-object whole-body interactions in one controller | MoCap errors and simplified G1 self-collision, contact rewards, and hand coupling leave real transfer unproven | Complete contact, actuator, and hand models, followed by real-humanoid validation |
+| ICLR 2025 Spotlight | [CLoSD: Closing the Loop between Simulation and Diffusion for multi-task character control](https://openreview.net/forum?id=pZISppZSTv) | Diffusion motion planning + closed-loop physics RL | PHC/SMPL-compatible virtual human; no robot | Sim Only | Closes the loop between text-conditioned motion generation and feedback-driven multi-task physical control | No vision, exteroception, or height maps; mid/low-level skills and fixed feedback horizons still produce artifacts | Scene perception, hierarchical long-horizon planning, and adaptive control horizons |
+| ICLR 2024 | [Unified Human-Scene Interaction via Prompted Chain-of-Contacts](https://proceedings.iclr.cc/paper_files/paper/2024/hash/6a6ecedac816a24f92ad1f444b1edcb0-Abstract-Conference.html) | Prompted contact chains + universal human-scene policy | Generic physical human in Isaac Gym; no robot | Sim Only | Unifies sitting, lying, touching, and other human-scene interactions through contact sequences | Objects are fixed and the LLM only generates contact plans offline | Movable objects, online contact planning, and closed-loop execution on real humanoids |
+| ICLR 2024 | [OmniControl: Control Any Joint at Any Time for Human Motion Generation](https://openreview.net/forum?id=gd0lAEtWso) | Controllable diffusion under spatiotemporal joint constraints | HumanML3D 22-joint / KIT-ML 21-joint skeletons; no robot | Offline Benchmarks | Allows sparse control of arbitrary joints at arbitrary times | Roughly 1,000 denoising steps; conflicting constraints yield unnatural motion and no dynamics guarantee | Fast diffusion, constraint-feasibility checks, and physics projection |
+| ICCV 2023 | [Guided Motion Diffusion for Controllable Human Motion Synthesis](https://openaccess.thecvf.com/content/ICCV2023/html/Karunratanakul_Guided_Motion_Diffusion_for_Controllable_Human_Motion_Synthesis_ICCV_2023_paper.html) | Objective/classifier-guided motion diffusion | HumanML3D human skeleton; no robot | Offline Benchmarks | Controls generated motion toward trajectories and positions without retraining the generator | Needs hand-designed differentiable objectives or task classifiers and lacks contact dynamics | Composable guidance that unifies scene, contact, and physics constraints |
+| ICCV 2023 Oral | [PhysDiff: Physics-Guided Human Motion Diffusion Model](https://openaccess.thecvf.com/content/ICCV2023/html/Yuan_PhysDiff_Physics-Guided_Human_Motion_Diffusion_Model_ICCV_2023_paper.html) | Physics-controller projection inside diffusion sampling | SMPL physical human in Isaac Gym; no robot | Sim Only | Reduces foot sliding, penetration, and imbalance in human-motion diffusion | Physics projection makes inference roughly 2–3× slower and remains limited to virtual humans | Lightweight or learned physics projection jointly trained with robot dynamics |
+| ECCV 2024 | [MANIKIN: Biomechanically Accurate Neural Inverse Kinematics for Human Motion Estimation](https://siplab.org/projects/MANIKIN) | Biomechanically constrained neural inverse kinematics | Biomechanical SMPL human; real sparse-sensor input, no robot | Real Sensor Data | Recovers human motion from sparse observations while respecting biomechanical joint ranges | Requires known body size and remains ambiguous for seated or cross-legged poses | Calibration-free body shape, temporal uncertainty modeling, and multimodal observations |
+| ECCV 2024 | [EgoPoser: Robust Real-Time Egocentric Pose Estimation from Sparse and Intermittent Observations Everywhere](https://www.ecva.net/papers/eccv_2024/papers_ECCV/papers/00248.pdf) | Real-time pose estimation from sparse, intermittent head/hand observations | First 22 SMPL-H joints; MR headset + controllers, no robot | Real Sensor Data | Recovers full-body pose under intermittent observations across environments | Assumes a single floor and provides no contact or physics consistency | Multi-floor global localization, physics constraints, and richer wearable sensing |
+| ECCV 2022 | [AvatarPoser: Articulated Full-Body Pose Tracking from Sparse Motion Sensing](https://siplab.org/projects/AvatarPoser) | Transformer pose tracking from sparse head-and-hands sensing | SMPL 22-joint avatar; Vive headset/controllers, no robot | Real Sensor Data | Reconstructs full-body pose in real time from only three wearable devices | Highly underdetermined, with limited real demonstrations and no ground-contact or dynamics constraints | Explicit uncertainty, multimodal fusion, and contact-aware physics |
+| arXiv 2025 | [Humanoid Everyday: A Comprehensive Robotic Dataset for Open-World Humanoid Manipulation](https://arxiv.org/abs/2510.08807) | Large-scale real-world dataset and open-world evaluation | Unitree G1 29 DoF + dual Dex3-1; Unitree H1 27 DoF + dual 6-DoF Inspire hands | Real | Provides 10.3k trajectories over 260 tasks to fill the data/evaluation gap for open-world humanoid manipulation | Current imitation learning remains weak with 28-D actions and cloud evaluation lacks automatic reset | Tactile pretraining, humanoid VLAs, automatic reset, and failure recovery |
+| ICLR 2026 | [WholeBodyVLA: Towards Unified Latent VLA for Whole-body Loco-manipulation Control](https://openreview.net/forum?id=OCJmVjyzN7) | Action-free egocentric-video latent VLA + RL controller | AgiBot X2 prototype: dual 7-DoF arms, OmniPicker grippers, 6 DoF per leg, 1-DoF waist, D435i | Sim+Real | Unifies language understanding, target perception, locomotion, and manipulation in one latent space | Long-horizon and dexterous tasks remain weak; small stance/orientation errors break pick-place; end effectors are grippers | Memory and maps, active perception, precise footholds, and dexterous-hand/tactile integration |
+| NeurIPS 2024 | [HumanVLA: Towards Vision-Language Directed Object Rearrangement by Physical Humanoid](https://proceedings.neurips.cc/paper_files/paper/2024/hash/215aeb07b5996c969c0123c3c6ee8f54-Abstract-Conference.html) | State-based RL/AMP teacher distilled into an egocentric vision-language-action student | Isaac Gym physical humanoid: 15 rigid bodies, 28 PD-actuated joints, spherical hands; no real robot | Sim Only | Replaces privileged object/goal state with egocentric vision and language for general room-object rearrangement | Spherical hands cannot manipulate small objects; one object per task; no explicit memory, planning, navigation, or multi-agent module | Dexterous hands, long-horizon multi-object tasks, explicit memory/planning/navigation, and real-humanoid transfer |
+| ICLR 2026 | [Endowing GPT-4 with a Humanoid Body: Building the Bridge Between Off-the-Shelf VLMs and the Physical World](https://openreview.net/forum?id=aQWSEjcN9V) | VLM instruction compiler + diffusion motion executor (BiBo) | PHC/CLoSD virtual humanoid in Isaac Gym; no real robot | Sim Only | Turns natural language into executable humanoid motion parameters without fine-tuning GPT-4 | Small text-motion data, no scene geometry, and scope limited to human-scene interaction | Larger motion corpora, geometry, hand-object and human-human interaction, and real-robot closure |
+| ICLR 2026 | [HWC-Loco: A Hierarchical Whole-Body Control Approach to Robust Humanoid Locomotion](https://openreview.net/forum?id=3UE3Aatcjy) | Hierarchical robust control balancing recovery and target tracking | Unitree H1 (19-DoF primary hardware); Unitree G1 (23-DoF cross-embodiment) | Sim+Real | Dynamically trades locomotion tracking against safety recovery under train-deploy mismatch | Discrete hierarchy switching, a fixed low-level policy, limited disturbance coverage, and H1 DoF constraints | Jointly learned hierarchies, adversarial disturbances, and safe loco-manipulation |
+| ICLR 2026 | [Task Tokens: A Flexible Approach to Adapting Behavior Foundation Models](https://openreview.net/forum?id=6T3wJQhvc3) | Freeze the behavior foundation model and learn only task tokenizers/tokens | 69-DoF SMPL virtual humanoid; no robot | Sim Only | Adapts a behavior foundation model to new tasks with few trainable parameters | Validated on one BFM with simplified hand rewards/observations, per-task encoders, and no Sim2Real | Shared compositional tokens, continual learning, automatic task discovery, and real-robot adaptation |
+| ICLR 2026 | [BFM-Zero: A Promptable Behavioral Foundation Model for Humanoid Control Using Unsupervised Reinforcement Learning](https://openreview.net/forum?id=jkhl2oI0g5) | Promptable behavioral foundation model via unsupervised Forward-Backward RL | Unitree G1 29-DoF primary hardware; Booster T1 supplemental; no finger control | Sim+Real | Prompts one policy with motions, goals, or rewards for diverse whole-body skills | Capability is bounded by the motion library and lacks online adaptation | Behavior-data scaling laws, online post-training, and safe adaptation |
+| ICLR 2026 | [From Language to Locomotion: Retargeting-free Humanoid Control via Motion Latent Guidance](https://openreview.net/forum?id=k3Cyx3Uets) | Language-conditioned motion latents + direct action diffusion (RoboGhost) | Unitree G1 with 23-DoF PD targets and Orin NX; no finger control | Sim+Real | Bypasses human-motion decoding and retargeting to generate robot actions directly from language latents | Unseen MotionMillion latents degrade and larger DiTs increase real-time latency | Faster motion generators and multimodal latent spaces spanning vision and speech |
+| ICLR 2026 | [Towards Bridging the Gap between Large-Scale Pretraining and Efficient Finetuning for Humanoid Control](https://openreview.net/forum?id=NEOTsyyYH7) | Large-batch SAC pretraining + model-assisted fine-tuning (LIFT) | Simulation: Booster T1 (12/23 DoF) and G1 (29 DoF); hardware only T1 12-DoF legs | Sim+Real | Bridges large-scale off-policy pretraining and sample-efficient adaptation to new environments | Requires human e-stop/reset, Vicon height, serial training; suffers IMU drift and uses proprioception only | Automatic reset and safety, asynchronous fine-tuning, and visual/tactile feedback |
+| AAAI 2026 | [Coordinated Humanoid Robot Locomotion with Symmetry Equivariant Reinforcement Learning Policy](https://ojs.aaai.org/index.php/AAAI/article/view/38918) | Symmetry-equivariant reinforcement learning (SE-Policy) | Unitree G1, 27-DoF body; no finger control | Sim+Real | Builds left-right symmetry into the policy to improve coordinated locomotion and transfer | Only one symmetric G1 velocity task; strict symmetry does not fit asymmetric tasks or loads | Conditional/approximate symmetry, asymmetric manipulation, and cross-embodiment validation |
+| AAAI 2026 | [FARM: Frame-Accelerated Augmentation and Residual Mixture-of-Experts for Physics-Based High-Dynamic Humanoid Control](https://ojs.aaai.org/index.php/AAAI/article/view/38924) | Frame-accelerated augmentation + residual MoE | Unnamed physics-based humanoid character in Isaac Lab; no real robot | Sim Only | Augments high-dynamic motion data and fuses residual experts for better tracking | Source data contains penetration, floating, and jitter artifacts; no hardware validation | Physics-consistent data curation, contact-aware augmentation, and real-humanoid transfer |
+| AAAI 2026 | [Keep On Going: Learning Robust Humanoid Motion Skills via Selective Adversarial Training](https://ojs.aaai.org/index.php/AAAI/article/view/38949) | Selective adversarial disturbance training | Unitree G1; no finger control | Sim→Real | Improves persistence under disturbances while preserving motion quality | Does not cover environment-interaction disturbances and trades adversarial strength against agility | Contact-level adversaries, adaptive disturbance budgets, and task-level safety constraints |
+| AAAI 2026 | [Towards Adaptive Humanoid Control via Multi-Behavior Distillation and Reinforced Fine-Tuning](https://ojs.aaai.org/index.php/AAAI/article/view/38951) | Multi-behavior distillation + reinforced real-world fine-tuning | Unitree G1, 20 controlled DoF (waist excluded); no finger control | Sim→Real | Distills multiple behaviors into one policy and continues adaptation on hardware | Proprioception-only with limited behavior and environment coverage | Exteroception, larger unified skill libraries, and safe online adaptation |
+| ICML 2026 | [Scalable and General Whole-Body Control for Cross-Humanoid Locomotion](https://icml.cc/virtual/2026/poster/62003) | Morphology-randomized general whole-body control (XHugWBC) | 12 simulated platforms/13 configs; 7 real variants: Booster T1, Fourier N1, Unitree G1 (23/29 DoF), AgiBot X2, Dobot Atom, Unitree H1-2; no unified hand control | Sim+Real | Transfers one whole-body locomotion framework across many humanoid morphologies | Shared semantic commands compress embodiment-specific expressiveness; ranges and retargeting remain morphology dependent | Morphology-aware action spaces, retargeting-free transfer, and cross-platform whole-body operation |
+| ICML 2026 | [Learning Transferable Interaction Primitives from Game Videos for Humanoids](https://openreview.net/forum?id=Gd2S0bJqNZ) | Game-video VQ interaction primitives + physics policy (TRIP) | Generic simulated humanoid in PULSE/Isaac; no real robot | Sim Only | Extracts reusable interaction primitives from game videos for physical humanoid control | Motion reconstruction errors, terrain-centric tasks, and no real-robot transfer | First-person/depth input, object and tool interaction, and Sim2Real |
+| CVPR 2026 | [VIRAL: Visual Sim-to-Real at Scale for Humanoid Loco-Manipulation](https://openaccess.thecvf.com/content/CVPR2026/html/He_VIRAL_Visual_Sim-to-Real_at_Scale_for_Humanoid_Loco-Manipulation_CVPR_2026_paper.html) | Privileged teacher + visual student distillation + DAgger/BC | Unitree G1 29 DoF + dual 7-DoF Dex3-1 three-finger hands + RealSense D435i | Sim→Real | Scales training and zero-shot deployment of visual whole-body loco-manipulation | Long-tail physics/tasks, reward engineering, hand simulation gaps, and up to 64 GPUs | Mixed sim/real imitation data and humanoid visual-tactile foundation policies |
+| NeurIPS 2025 | [Adversarial Locomotion and Motion Imitation for Humanoid Policy Learning](https://proceedings.neurips.cc/paper_files/paper/2025/hash/6b081a311e0b9c75590ba97b104a2ce3-Abstract-Conference.html) | Adversarial upper/lower-body locomotion-imitation coupling (ALMI) | Unitree H1-2 (21 controlled DoF); ROBOTERA XHAND fingers are VR-retargeted, not learned end-to-end by ALMI | Sim+Real | Tracks diverse upper- and whole-body expressive motions while maintaining stable locomotion | Weak on dynamic dance; naively training one foundation model on all data degrades quality and efficiency | Unified rewards and stronger architectures with end-to-end fingers/contact |
+| NeurIPS 2025 | [From Experts to a Generalist: Toward General Whole-Body Control for Humanoid Robots](https://neurips.cc/virtual/2025/poster/117371) | Expert clustering, real adaptation, and generalist distillation (BumbleBee) | Unitree G1 29 DoF with 23 controlled DoF (wrists excluded) | Sim+Real | Reduces conflicts among agile motions and distills multiple experts into one whole-body controller | Reference drift without GPS/VIO and a complex expert-to-real-to-distillation pipeline | Accurate state estimation, online feedback, and simpler unified post-training |
+| NeurIPS 2025 | [KungfuBot: Physics-Based Humanoid Whole-Body Control for Learning Highly-Dynamic Skills](https://proceedings.neurips.cc/paper_files/paper/2025/hash/5a0e51901cff2b42d379ec7869603e91-Abstract-Conference.html) | Physics-based imitation + adaptive tracking curriculum | Unitree G1 with 23 controlled DoF (wrists excluded) | Sim→Real | Tracks high-speed, highly dynamic human motions such as kung fu and dance | No complex terrain or obstacles and still one policy per reference motion | Perception-conditioned unified multi-skill policies and online motion composition |
+| CVPR 2025 | [Let Humanoids Hike! Integrative Skill Development on Complex Trails](https://openaccess.thecvf.com/content/CVPR2025/html/Lin_Let_Humanoids_Hike_Integrative_Skill_Development_on_Complex_Trails_CVPR_2025_paper.html) | Integrated perception, foothold, and balance skills for trails (LEGO-H) | Unitree H1 and G1 in Isaac; lower-body position control, no hands | Sim Only | Integrates perception, locomotion, and dynamic balance on complex trails | Prototype is simulation-only, foot-contact centric, with no kilometer-scale, energy, or real-outdoor evaluation | Real outdoor long-range trials, energy efficiency, full-body contact, and high-level route planning |
+| RSS 2024 | [Expressive Whole-Body Control for Humanoid Robots](https://www.roboticsproceedings.org/rss20/p107.html) | MoCap upper-body imitation + robust velocity tracking (ExBody) | Unitree H1, 19 DoF; no dexterous-hand control | Sim→Real | Balances expressive upper-body motion and stable locomotion despite human-robot morphology mismatch | Low-DoF mapping loses motion detail, requires a standing start, and lacks automatic recovery | Higher-fidelity retargeting, automatic initialization, and fall recovery |
+| RSS 2024 | [HumanoidBench: Simulated Humanoid Benchmark for Whole-Body Locomotion and Manipulation](https://www.roboticsproceedings.org/rss20/p061.html) | 27-task whole-body locomotion/manipulation benchmark + hierarchical RL | Primary Unitree H1 + dual Shadow Hands; also G1, Digit, Robotiq 2F-85, and 13-DoF Unitree-hand models | Sim Only | Provides a reproducible high-dimensional, long-horizon benchmark spanning locomotion and manipulation | Baselines are state-only; vision/full-body touch are not systematically evaluated and environments remain simplified | Multimodal baselines, more realistic digital twins, and standardized Sim2Real evaluation |
+| CoRL 2025 | [TWIST: Teleoperated Whole-Body Imitation System](https://proceedings.mlr.press/v305/ze25a.html) | MoCap retargeting + a single RL/BC whole-body controller | Unitree G1 29-DoF primary hardware; Booster T1 only sim-to-sim; no separate hand model disclosed | Sim+Real | Uses human motion to teleoperate manipulation, legged manipulation, locomotion, and expressive behavior in one system | No first-person visual or tactile feedback, dependence on non-portable MoCap, and hardware overheating | Replace MoCap with RGB pose and train autonomous policies from egocentric plus tactile data |
+| RSS 2023 | [Robust and Versatile Bipedal Jumping Control through Reinforcement Learning](https://www.roboticsproceedings.org/rss19/p052.html) | Goal-conditioned policy + multi-stage reinforcement learning | Cassie biped | Sim→Real | Uses one policy for multi-direction/multi-height jumps, landing control, and disturbance recovery | Combining jumping and standing yields some landing oscillation and there is no perceptive foothold selection | Add perception and planning for autonomous foothold selection in unstructured environments |
+| CoRL 2024 | [Adapting Humanoid Locomotion over Challenging Terrain via Two-Phase Training](https://proceedings.mlr.press/v270/cui25a.html) | Two-phase RL + command curriculum + state estimation | In-house Noetix N1: 18 DoF, 0.95 m, 23 kg; 10 leg joints controlled with arms locked | Sim→Real | Improves high-speed tracking, oscillation, and transfer for a small humanoid over challenging terrain | No terrain perception; cross-robot transfer still needs complex rewards, randomization, and timing tuning | Combine perception with imitation and reduce cross-platform tuning |
+| IROS 2022 | [Adapting Rapid Motor Adaptation for Bipedal Robots](https://doi.org/10.1109/IROS47612.2022.9981091) | Extrinsics estimation + adapted base policy (A-RMA) | Cassie, 20 DoF / 10 actuated joints | Sim→Real | Adapts online to slippery/soft ground, planks, and roughly 40-kg towing | Proprioception-only blind controller | Fuse onboard vision with rapid dynamics adaptation |
+| ICRA 2024 | [Learning Vision-Based Bipedal Locomotion for Challenging Terrain](https://doi.org/10.1109/ICRA57147.2024.10611621) | Depth history + proprioception for local height-map prediction | Cassie + RealSense D455 + Jetson Orin Nano | Sim→Real | Lets a biped anticipate steps, stairs, and randomized blocks from vision | Camera cannot see directly underfoot; foot collisions dominate failures and high steps saturate stance torque | Wider/omnidirectional views, uncertainty awareness, and collision-constrained foothold planning |
+| ICRA 2024 | [HumanMimic: Learning Natural Locomotion and Transitions for Humanoid Robot via Wasserstein Adversarial Imitation](https://doi.org/10.1109/ICRA57147.2024.10610449) | Wasserstein adversarial imitation + unified motion retargeting | Full-size JAXON humanoid model | Sim Only | Learns standing, push recovery, squat walking, straight-leg walking, running, and natural transitions | Only simulation/high-fidelity sim-to-sim validation; no hardware transfer | Transfer to real full-size humanoids with perception-driven skill switching |
+| IROS 2022 | [Learning Dynamic Bipedal Walking Across Stepping Stones](https://doi.org/10.1109/IROS47612.2022.9981884) | One-step RL controller + reachability predictor | Cassie + fixed overhead RealSense D435 + ArUco markers | Sim+Real | Selects reachable footholds online for dynamic stepping-stone traversal | Depends on external camera/markers and mostly sees one step ahead | Reduced-order planning, multi-step foresight, and onboard egocentric vision |
+| CoRL 2024 | [Learning Decentralized Multi-Biped Control for Payload Transport](https://proceedings.mlr.press/v270/pandit25a.html) | Shared decentralized multi-agent reinforcement learning | Two/three real Cassies; simulation scaled to ten | Sim→Real | Lets varying numbers/configurations of bipeds transport a rigid payload without retraining | Flat terrain only, at most three real robots, no cameras, and limited cost/fault/configuration generalization | Rough terrain, heterogeneous bipeds, distributed sensing/communication, and fault tolerance |
+| RSS 2025 | [Learning Getting-Up Policies for Real-World Humanoid Robots](https://www.roboticsproceedings.org/rss21/p063.html) | Two-stage curriculum: discover, then smooth deployable get-up motions | Unitree G1 | Sim→Real | Gets up from supine/prone poses on flat, slippery, deformable, sloped, grass, and snow surfaces | Only supine and prone starts; arbitrary side-lying and cluttered contacts are not covered | Arbitrary fall poses, contact sensing, and a continuous get-up-to-walk loop |
+| IROS 2024 | [Bipedal Safe Navigation over Uncertain Rough Terrain: Unifying Terrain Mapping and Locomotion Stability](https://doi.org/10.1109/IROS58592.2024.10802816) | GP terrain/deviation modeling + hierarchical safe navigation | Agility Digit (MuJoCo model) | Sim Only | Jointly handles uncertain terrain mapping, motion deviation, and dynamically feasible footholds | No hardware experiment | Outdoor Digit hardware, onboard mapping, calibrated uncertainty, and safe foothold closure |
+| IROS 2023 | [Overtaking Moving Obstacles with Digit: Path Following for Bipedal Robots via Model Predictive Contouring Control](https://doi.org/10.1109/IROS55552.2023.10342209) | Model-predictive contouring control over speed, path error, and footholds | Agility Digit | Sim Only | Lets a biped trade path fidelity against speed to overtake moving obstacles | High-fidelity simulation only and no complete safety corridor in cluttered 3D spaces | Real Digit validation integrated with safe walking corridors |
+| IROS 2023 | [Template Model Inspired Task Space Learning for Robust Bipedal Locomotion](https://doi.org/10.1109/IROS55552.2023.10341263) | ALIP-inspired high-level RL + model-based low-level control | Rabbit, Walker2D, and Digit (20 actuated joints) | Sim Only | Uses a unified low-dimensional task-space interface across biped morphologies | No hardware validation on any embodiment; tasks focus on speed, slopes, and disturbances | Digit hardware plus broader balance, stair, and stepping-stone tasks |
+| RSS 2025 | [HOMIE: Humanoid Loco-Manipulation with Isomorphic Exoskeleton Cockpit](https://www.roboticsproceedings.org/rss21/p070.html) | RL lower body + isomorphic arm exoskeleton + motion gloves | Unitree G1 + dual Dex3-1 (7 DoF each) primary hardware; Fourier GR-1 in simulation/exoskeleton adaptation | Sim+Real | Efficient low-cost cockpit teleoperation for large-workspace, contact-rich loco-manipulation | Limited rough-terrain reliability, glove thumb ergonomics, force feedback, and waist teleoperation | Better terrain skills, force/tactile feedback, waist control, and an autonomous data flywheel |
+| RSS 2025 | [AMO: Adaptive Motion Optimization for Hyper-Dexterous Humanoid Whole-Body Control](https://www.roboticsproceedings.org/rss21/p061.html) | Trajectory optimization + Sim2Real RL adapter | Unitree G1 29 DoF + dual Dex3-1 (7 DoF each) + 3-DoF active head + ZED Mini | Sim+Real | Expands whole-body workspace for squatting/bending/ground pickup under OOD commands | Upper/lower-body decoupling limits dynamic coordination and arm generation ignores base state | Balance-aware upper-body generation and unified whole-body contact control |
+| RSS 2025 | [A Unified and General Humanoid Whole-Body Controller for Fine-Grained Locomotion](https://www.roboticsproceedings.org/rss21/p067.html) | General command space + symmetry loss + intervention training (HugWBC) | Unitree H1, 19 DoF; no independent finger policy | Sim→Real | One controller unifies walk/run/stand/jump/hop and fine-grained gait parameters | Still a low-level WBC with no autonomous planner; lateral commands and wear are H1-limited | Cross-humanoid deployment with task-level planners |
+| RSS 2025 | [BeamDojo: Learning Agile Humanoid Locomotion on Sparse Footholds](https://www.roboticsproceedings.org/rss21/p068.html) | Polygon-foot sparse reward + dual critic + two-stage RL | Unitree G1, 23 actuated DoF + Orin NX + Livox Mid-360; no dexterous hands | Sim→Real | Achieves precise, disturbance-robust footholds on beams and stepping stones | LiDAR odometry/map drift, hard-to-simulate dynamic support, and sharp degradation on tiny stones/large steps | Uncertainty awareness, dynamic-support modeling, and stronger stride/balance objectives |
+| CoRL 2024 | [OKAMI: Teaching Humanoid Robots Manipulation Skills through Single Video Imitation](https://proceedings.mlr.press/v270/li25a.html) | Single RGB-D human video + object-aware retargeting + closed-loop policy | Fourier GR-1 + dual Inspire dexterous hands (6 actuated DoF each) | Sim+Real | Teaches fine bimanual manipulation from one video without robot teleoperation | Upper-body tabletop scope, RGB-D dependence, and weak robustness to large object-shape changes | Internet RGB video, stronger foundation vision models, and walking whole-body manipulation |
+| CoRL 2024 | [Open-TeleVision: Teleoperation with Immersive Active Visual Feedback](https://proceedings.mlr.press/v270/cheng25b.html) | Stereo visual feedback + active neck + arm/hand teleoperation | H1 + dual Inspire hands + 2-DoF neck; GR-1 + jaw gripper + 3-DoF neck | Real | Improves collection efficiency and usability for long-horizon precise humanoid manipulation | No tactile feedback or expert relabeling, and experiments do not use legged mobility | Visual-tactile closure, mobile whole-body teleoperation, and cross-embodiment data |
+| CoRL 2024 Oral | [WoCoCo: Learning Whole-Body Humanoid Control with Sequential Contacts](https://proceedings.mlr.press/v270/zhang25a.html) | Sequential contact stages + generic-reward end-to-end RL | Unitree H1 (corroborated by official code/project, not named in main text); plus 22-DoF simulated dinosaur | Sim+Real | Learns long-horizon multi-contact parkour, box transport, striking, and climbing without motion priors | Contact sequences remain hand-specified, failures are not predicted, and stage switching needs contact sensing/observation | Failure prediction, onboard sensing, and LLM/sampling-based high-level contact planning |
+| ICRA 2025 | [Mobile-TeleVision: Predictive Motion Priors for Humanoid Whole-Body Control](https://mobile-tv.github.io/) | Upper-body IK/retargeting + lower-body RL + CVAE predictive motion priors | H1 + dual 6-DoF Inspire hands + active neck/stereo; GR-1 in simulation/cross-embodiment | Sim+Real | Combines precise high-DoF upper-body manipulation with robust locomotion | Upper/lower decoupling limits agility; hardware DoF and multiple inputs burden the operator | Unified whole-body policies, lower-burden interfaces, and fusion with autonomous visuomotor policies |
+| RSS 2025 | [LangWBC: Language-directed Humanoid Whole-Body Control via End-to-end Learning](https://www.roboticsproceedings.org/rss21/p065.html) | RL teacher→CVAE student, mapping CLIP text directly to joint actions | Unitree G1, 27-D joint action; no finger control | Sim+Real | Directly drives and smoothly switches real humanoid whole-body motions from language without intermediate trajectories | Only dozens of actions, no vision, locomotion-centric scope, and a VAE-induced Sim2Real gap | Language-action foundation controllers, diffusion motion generation, and vision-conditioned loco-manipulation |
+| RSS 2025 | [ASAP: Aligning Simulation and Real-World Physics for Learning Agile Humanoid Whole-Body Skills](https://www.roboticsproceedings.org/rss21/p066.html) | Learn residual dynamics from real trajectories and inject them into simulation fine-tuning | Unitree G1, 29/23-DoF configurations; no finger control | Sim→Real | Narrows the sim-real dynamics gap for kicking, jumping, dance, and other agile skills | Real data collection risks overheating/damage, depends on MoCap, and a full 23-DoF residual model is data-heavy | Damage-aware policies, MoCap-free alignment, and few-shot/online adaptation |
+| ICRA 2026 | [HMC: Learning Heterogeneous Meta-Control for Contact-Rich Loco-Manipulation](https://loco-hmc.github.io/) | Continuous MoE routing among position, impedance, and hybrid force-position experts | Unitree G1, dual 7-DoF arms + D435i; no gripper/hand, uses bare end-effectors and friction | Real | Switches precision, compliance, and force modes across wiping, drawer pulling, and bottle lifting | Small expert/task set and no long-horizon task-level autonomy | More control experts, force/tactile closure, and integration with VLA/task planners |
+| ICRA 2026 | [ExBody2: Advanced Expressive Humanoid Whole-Body Control](https://arxiv.org/abs/2412.13196) | Data filtering + generalist/specialist pretrain-finetune + distillation | Unitree G1, 23-D action; Orin NX at 50 Hz; no finger control | Sim+Real | Stably reproduces long dances, sidesteps, boxing, squats, and expressive dynamic motions | Generalist underperforms specialists and multiple specialists do not compose/switch smoothly | Dynamic expert routing inside a unified general foundation controller |
+| NeurIPS 2024 Spotlight | [Humanoid Locomotion as Next Token Prediction](https://papers.nips.cc/paper_files/paper/2024/file/90afd20dc776bc8849c31d61a0763a0b-Paper-Conference.pdf) | Causal-transformer autoregression over mixed sensorimotor sequences | Agility Digit: 1.6 m, 45 kg, 36 DoF (20 actuated); no dexterous manipulation | Sim+Real | Unifies neural, MPC, MoCap, and video data for zero-shot real walking from 27 hours of data | Robustness still trails strong MPC/RL and large-scale video action extraction/cleaning is costly | Scaled humanoid sensorimotor foundation models and missing-modality pretraining |
+| RSS 2024 | [Advancing Humanoid Locomotion: Mastering Challenging Terrains with Denoising World Model Learning](https://www.roboticsproceedings.org/rss20/p058.html) | Denoising world model (DWL) + end-to-end RL | Robot Era XBot-S (1.2 m/38 kg/26 actuators) and XBot-L (1.65 m/57 kg/54 actuators) | Sim→Real | One zero-shot policy traverses snow, slopes, stairs, and highly uneven/deformable ground | Leg-only control with fixed arms and proprioception-only deployment | Integrate visual terrain perception, state denoising, and whole-body task control |
+| RSS 2025 | [Gait-Net-augmented Implicit Kino-dynamic MPC for Dynamic Variable-frequency Humanoid Locomotion over Discrete Terrains](https://www.roboticsproceedings.org/rss21/p069.html) | Gait-Net step-time prediction + implicit kinodynamic MPC | In-house HECTOR V2: 24 DoF, 5 actuated joints/leg, 4/arm, 44-cm legs | Sim+Real | Jointly adapts cadence, footholds, and contact forces over discrete obstacles/gaps | Terrain constraints cover only the next step and hardware assumes a known terrain map | Multi-step feasible regions, onboard online perception, and full-size long-horizon MPC |
+| CoRL 2024 | [Humanoid Parkour Learning](https://openreview.net/forum?id=fs7ia3FqUM) | End-to-end visual whole-body control + staged RL | Unitree H1 | Sim→Real | One visual policy selects platform jumps, gap crossing, hurdles, stairs, and other parkour skills | Hand-built training terrain, retraining for unseen terrain, and visual interference from complex arm motion | Procedural open terrain, rapid real-scene adaptation, and joint parkour-manipulation training |
+| ICRA 2025 | [Learning Humanoid Locomotion with Perceptive Internal Model](https://ieeexplore.ieee.org/document/11128333) | Robot-centric elevation map + perceptive internal model (PIM) | Unitree H1 (5 DoF/leg) and Fourier GR-1 (6 DoF/leg) | Sim→Real | Improves complex static-terrain locomotion across embodiments and sensor configurations | Depends on local elevation maps/odometry and does not cover dynamic obstacles or long-range navigation | Raw multimodal perception, dynamic-obstacle understanding, and global navigation |
+| ICRA 2025 | [Berkeley Humanoid: A Research Platform for Learning-Based Control](https://ieeexplore.ieee.org/document/11127524) | Low-cost hardware-simulation co-design + minimalist RL | In-house Berkeley Humanoid (armless at paper stage) | Sim→Real | Uses simulation-friendly hardware to close Sim2Real for long walks, trails, pushes, and one-leg hops | History-free policy cannot identify systems online; bimanual loco-manipulation is not yet validated | Add arms, online adaptation, and scalable real-world learning |
+| IROS 2023 | [Exploring Kinodynamic Fabrics for Reactive Whole-Body Control of Underactuated Humanoid Robots](https://ieeexplore.ieee.org/document/10342091/) | Priority-aware kinodynamic fabrics for kHz whole-body control | Agility Robotics Digit | Sim+Real | Composes obstacle avoidance, box carrying, throwing, and walking in real time | Incomplete convergence/stability theory for underactuated hybrid systems and no standalone balance guarantee | Fuse with terrain-adaptive MPC for reactivity, manipulation, and stability |
+| IROS 2024 | [Demonstrating a Robust Walking Algorithm for Underactuated Bipedal Robots in Non-flat, Non-stationary Environments](https://ieeexplore.ieee.org/document/10802406/) | Variable-height ALIP-MPC + virtual constraints + ankle torque | Cassie, 20 DoF | Sim+Real | Maintains real-time stable walking on changing slopes and moving ground | Only three discrete nominal trajectories cover slopes and MPC is offloaded to a second computer | Continuous terrain parameterization, perception-driven trajectories, and fully onboard MPC |
+| CoRL 2024 | [OmniH2O: Universal and Dexterous Human-to-Humanoid Whole-Body Teleoperation and Learning](https://proceedings.mlr.press/v270/he25b.html) | Universal kinematic pose interface + sparse-state whole-body policy | Unitree H1 + Damiao wrists + dual Inspire hands | Sim→Real | Enables dexterous whole-body teleoperation from consumer head/hand tracking and collects autonomous-task data | Autonomous learning covers few tasks and depends on human retargeting and low-actuation hands | Visual-tactile autonomous learning, long-horizon tasks, and higher-DoF hands |
+| IROS 2024 | [H2O: Human-to-Humanoid Real-Time Whole-Body Teleoperation](https://arxiv.org/abs/2403.04436) | Monocular human pose + real-time retargeting/imitation control | Unitree H1, 19 body DoF; no dexterous-hand task | Sim→Real | Uses a standard camera to drive real-time whole-body motion on a full-size humanoid | Monocular occlusion/pose errors and motion-only control without object/tactile closure | Robust multi-view perception extended to interactive manipulation |
+| ICRA 2025 | [HOVER: Versatile Neural Whole-Body Controller for Humanoid Robots](https://research.nvidia.com/labs/lpr/publication/he2025hover/) | Distills multiple control modes into one whole-body policy | Unitree H1, 19 DoF; no hand-contact control | Sim+Real | Provides one low-level interface that switches among velocity, position, and upper-body pose modes | Limited to state/kinematic commands with no vision, task planning, or hand contact | A standardized foundation-control interface beneath visual, tactile, and task policies |
+| RSS 2025 | [Learning Humanoid Standing-up Control across Diverse Postures](https://www.roboticsproceedings.org/rss21/p064.html) | Multi-critic, multi-terrain curriculum for standing up (HoST) | Unitree G1 | Sim→Real | Stands up smoothly and robustly from diverse postures indoors and outdoors | Focuses on standing up rather than an arbitrary fall-detect-recover-resume loop | Unify with fall detection, contact recognition, and task resumption |
+| CoRL 2025 Oral | [HuB: Learning Extreme Humanoid Balance](https://openreview.net/forum?id=FCpYuGtN4j) | Reference refinement + balance policy + Sim2Real robustness | Unitree G1 | Sim→Real | Reproduces extreme quasi-static balances despite morphology/dynamics mismatch | Primarily quasi-static balance and still limited by reference, sensing, and morphology mismatch | Dynamic, multi-contact, manipulation-aware balance |
+| CoRL 2025 | [Hand-Eye Autonomous Delivery: Learning Humanoid Navigation, Locomotion and Reaching](https://openreview.net/forum?id=H0EgeP3feg) | Modular eye/hand-target navigation-locomotion-reaching (HEAD) | Unitree G1; no grasping/finger control | Sim+Real | Learns autonomous navigation and reaching from human MoCap and AR-glasses data | Reaches but does not grasp, precise stance placement is difficult, and perception/planning/control remain decoupled | Closed-loop grasping, unified perception-action, and long-horizon delivery |
+| CoRL 2025 | [CLONE: Closed-Loop Whole-Body Humanoid Teleoperation for Long-Horizon Tasks](https://proceedings.mlr.press/v305/li25h.html) | MoE whole-body policy + LiDAR-odometry closed-loop correction | Unitree G1; head/hand VR interface, no finger model | Sim+Real | Reduces long-range teleoperation drift and enables long-horizon loco-manipulation data collection | Depends on a VR head/hand interface and lacks fingers, touch, and autonomous task learning | Dexterous hands/touch, lower-burden interfaces, and conversion from teleoperation to autonomy |
+| CoRL 2025 | [Sim-to-Real Reinforcement Learning for Vision-Based Dexterous Manipulation on Humanoids](https://proceedings.mlr.press/v305/lin25c.html) | Privileged RL + visual-policy distillation for dexterous manipulation | Fourier GR-1 + dual Inspire hands (6 actuated + 6 underactuated DoF each) | Sim→Real | Achieves vision-based multi-finger manipulation that generalizes to unseen objects | Only three tasks, task-specific calibration/rewards, and gaps in head/third-person views and hand dynamics | Scalable visual-tactile policies, general object representations, and multi-task post-training |
+| CoRL 2025 | [Embrace Contacts: humanoid shadowing with full body ground contacts](https://proceedings.mlr.press/v305/zhuang25b.html) | Discrete motion commands + stochastic full-body contact policy | Unitree G1 | Sim→Real | Enables torso/limb ground contacts for rolling, sitting up, and other shadowed motions | Rigid-body collision simulation, data, and rewards are difficult; commands are discrete and task perception is absent | Learned contact models, full-body touch, and online task-conditioned control |
+| RSS 2025 | [Demonstrating Berkeley Humanoid Lite: An Open-source, Accessible, and Customizable 3D-printed Humanoid Robot](https://www.roboticsproceedings.org/rss21/p062.html) | Low-cost open 3D-printed hardware + Sim2Real control | In-house Berkeley Humanoid Lite: 0.8 m, 16 kg, 22 body DoF + simple grippers | Sim+Real | Lowers a reproducible, maintainable humanoid research platform to about USD 5,000 | Limited payload, precision, and task complexity; no five-finger dexterous hands | Community replication, multi-robot real data, and modular higher-performance end-effectors |
+| CoRL 2025 | [ToddlerBot: Open-Source ML-Compatible Humanoid Platform for Loco-Manipulation](https://proceedings.mlr.press/v305/shi25a.html) | Learning-oriented open hardware, digital twin, and teleoperation | In-house ToddlerBot: 0.56 m, 3.4 kg, 30 DoF + parallel gripper/compliant palm | Sim+Real | Unifies low-cost hardware, zero-shot Sim2Real, data collection, and two-robot long-horizon toy cleanup | Limited to toy scale with modest payload, speed, and terrain capability | Scale open data, platform replication, and larger collaborative loco-manipulation |
+| RSS 2024 | [Design and Control of a Bipedal Robotic Character](https://www.roboticsproceedings.org/rss20/p103.html) | Animation-engine commands + RL performance control | Disney in-house bipedal character: 0.66 m, 15.4 kg, 5 DoF/leg + 4-DoF head; no arms/hands | Sim+Real | Unifies artist-directed expressive motion with robust dynamic mobility | Depends on animation/operators, targets entertainment, and lacks autonomous perception/tasks | Combine expressive HRI with autonomous task-level mobility |
+| CoRL 2024 | [Bi-Level Motion Imitation for Humanoid Robots](https://proceedings.mlr.press/v270/zhao25a.html) | Bi-level imitation alternating policy and reference-MoCap optimization | High-fidelity MIT Humanoid model in Isaac Gym | Sim Only | Automatically modifies physically infeasible motion references to improve executable imitation | Simulation-only, computationally heavy bi-level optimization, and limited motion coverage | Online feasible retargeting, larger motion libraries, and real-hardware validation |
+
+##### Distilled Humanoid Research Directions
+
+| Direction | Representative Work | Typical Embodiments / End Effectors | Progress | Shared Bottleneck | Next Trend |
+|---|---|---|---|---|---|
+| Rough-terrain and agile locomotion | DWL, Humanoid Parkour, PIM, BeamDojo, Cassie Jumping | H1/G1, Cassie, Digit, XBot, HECTOR V2 | Progressed from blind walking to visual footholds, parkour, jumping, and sparse supports | Map drift, unseen-terrain generalization, energy, heat, and impact constraints | Raw multimodal perception + online adaptation + joint planning/control learning |
+| Whole-body imitation and expressiveness | HumanPlus, ExBody, TWIST, ALMI, KungfuBot, ExBody2 | H1/H1-2, G1, Booster T1 | Human motion now transfers to stable locomotion, dance, and agile skills | Morphology/DoF mismatch, retargeting error, per-skill policies, and hardware damage | Unified motion foundation controllers, retargeting-free representations, and damage-aware post-training |
+| Balance, getting up, and safe recovery | HoST, Getting-Up, HuB, Keep On Going, HWC-Loco | Mainly G1/H1 | Multi-surface getting-up, extreme balance, and disturbance resistance are feasible | Limited fall poses, no failure prediction, and no automatic task resumption | Fall detection—contact recognition—recovery—resume loops with safety critics |
+| Teleoperation and data flywheels | Open-TeleVision, Mobile-TeleVision, TWIST, CLONE, HOMIE, Humanoid Everyday | H1/G1, GR-1, Dex3-1/Inspire | Expanded from upper-body tabletop control to long-horizon whole-body loco-manipulation and large datasets | Operator burden, MoCap/VR dependence, no force/touch, drift, and reset cost | Lower-burden multimodal teleoperation, visual-tactile feedback, and automated data loops |
+| Loco-manipulation and dexterous hands | WholeBodyVLA, OKAMI, AMO, VIRAL, Vision-Based Dexterous RL | AgiBot X2, G1+Dex3-1, GR-1+Inspire | Locomotion, stance, bimanual control, and multi-finger manipulation are beginning to work together | Hand simulation gap, precise stance, contact force, and long-horizon recovery | Tactile VLAs, contact-aware world models, precise whole-body planning, and automatic recovery |
+| Language/VLM and generalist policies | HumanVLA, BiBo, LangWBC, RoboGhost, BFM-Zero, HEAD | Virtual humanoids and G1 | Language can prompt motions, goals, object rearrangement, and partial navigation/reaching | Small action vocabularies, weak hand/contact models, and no true long-horizon grasping | Unified language-vision-touch-action models with hierarchical long-horizon planning |
+| Cross-embodiment and open platforms | XHugWBC, HumanoidBench, Berkeley Humanoid/Lite, ToddlerBot | 12+ simulated and multiple in-house/commercial platforms | Cross-morphology control, standard benchmarks, and low-cost reproducible hardware are emerging | Inconsistent morphology semantics, large hardware variation, and sim/hardware evaluation gaps | Morphology-aware action spaces, common protocols, and cross-platform real data/evaluation |
+| Human-motion/interaction foundations | TokenHSI, InterMimic, CLoSD, UniHSI, OmniControl, PhysDiff | Virtual SMPL/SMPL-X/PHC humans | Supplies upstream representations for motion, contact, pose, and task composition | Most are not robots and lack real-robot actuators/hands, calibrated contact dynamics, and Sim2Real validation | Connect generative human priors to real humanoid dynamics, contact, and safety loops |
 
 #### bimanual
 
