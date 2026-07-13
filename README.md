@@ -151,7 +151,7 @@ The next research thread worth highlighting is not a single module, but a closed
 <td nowrap><code>VLA</code></td>
 <td nowrap>VLA / Manipulation Policies</td>
 <td nowrap>generalist VLA, action representation, diffusion/flow policy, 3D grounding, online/RL fine-tuning, safety/robustness</td>
-<td nowrap>242</td>
+<td nowrap>251</td>
 <td nowrap>VLA is the main track for robotic arms and mobile manipulation, but it is not just an action head attached to a large model. Survey papers concentrate on action representation, diffusion/flow policies, 3D grounding, online/RL fine-tuning, and robustness.</td>
 </tr>
 <tr>
@@ -172,14 +172,14 @@ The next research thread worth highlighting is not a single module, but a closed
 <td nowrap><code>Embodiment</code></td>
 <td nowrap>Embodiment Expansion / Dexterous Manipulation</td>
 <td nowrap>humanoid, bimanual, dexterous hand, tactile/contact-rich</td>
-<td nowrap>159</td>
+<td nowrap>146</td>
 <td nowrap>Embodiment expansion determines whether embodied AI can move beyond single-arm systems toward humanoids, bimanual robots, dexterous hands, and tactile/contact-rich tasks. These papers show how action spaces, sensing, and control objectives become more complex as the body changes.</td>
 </tr>
 <tr>
 <td nowrap><code>Deployment</code></td>
 <td nowrap>Efficiency / Evaluation / Data</td>
 <td nowrap>quantization/cache/tokenization, real-time execution, benchmark/dataset, sim2real, safety evaluation</td>
-<td nowrap>101</td>
+<td nowrap>105</td>
 <td nowrap>This direction determines whether systems can actually be deployed: on-device inference, caching/quantization/action tokenization, real-time execution, sim2real, benchmarks, and safety evaluation are all necessary conditions.</td>
 </tr>
 </tbody>
@@ -1821,7 +1821,7 @@ VLA is the main track for robotic arms and mobile manipulation, but it is not ju
 
 Subdirections: generalist VLA, action representation, diffusion/flow policy, 3D grounding, online/RL fine-tuning, and safety/robustness.
 
-Total: 242 papers.
+Total: 251 papers.
 
 <table>
 <thead>
@@ -1834,12 +1834,12 @@ Total: 242 papers.
 <tbody>
 <tr>
 <td nowrap>generalist VLA</td>
-<td nowrap>79</td>
+<td nowrap>80</td>
 <td nowrap>Focus: cross-task generalization, real-robot validation, and general manipulation ability.</td>
 </tr>
 <tr>
 <td nowrap>action representation</td>
-<td nowrap>28</td>
+<td nowrap>30</td>
 <td nowrap>Focus: action tokens, latent actions, chunking, and action-space design.</td>
 </tr>
 <tr>
@@ -1849,7 +1849,7 @@ Total: 242 papers.
 </tr>
 <tr>
 <td nowrap>3D grounding</td>
-<td nowrap>35</td>
+<td nowrap>41</td>
 <td nowrap>Focus: point clouds, geometry, affordance, and manipulation localization.</td>
 </tr>
 <tr>
@@ -1867,7 +1867,7 @@ Total: 242 papers.
 
 #### generalist VLA
 
-Total: 79 papers.
+Total: 80 papers.
 
 <table>
 <thead>
@@ -1889,6 +1889,22 @@ Total: 79 papers.
 </tr>
 </thead>
 <tbody>
+<tr>
+<td nowrap>LangRob @ CoRL 2023</td>
+<td nowrap><a href="https://openreview.net/forum?id=3mKb5iyZ2V">Reasoning Tuning Grasp: Adapting Multi-Modal Large Language Models for Robotic Grasping</a></td>
+<td nowrap>Tunes an MLLM to reason about and emit numerical planar grasp poses for a two-finger gripper.</td>
+<td nowrap>LLaVA-7B-v0 + CLIP ViT-L/14</td>
+<td nowrap>image grasp point [x,y] + end-effector rotation</td>
+<td nowrap>Cornell: 885 images/240 objects with 74 reasoning categories; LoRA reasoning tuning; 135 real trials</td>
+<td nowrap>reasoning-tuned multimodal LLM grasp prediction</td>
+<td nowrap>parallel-gripper grasp-pose VLM; not a dexterous-hand controller</td>
+<td nowrap>offline benchmark + Real; no physics simulator</td>
+<td nowrap>Cornell image/object accuracy 84.05±0.78/77.02±0.93%; real LoRA 113/135 = 83.7%</td>
+<td nowrap><a href="https://openreview.net/forum?id=3mKb5iyZ2V">paper</a></td>
+<td nowrap>-</td>
+<td nowrap>-</td>
+<td nowrap>Cornell Grasp Dataset; 27 unseen objects × 5 poses</td>
+</tr>
 <tr>
 <td nowrap>CoRL 2022</td>
 <td nowrap><a href="https://arxiv.org/abs/2109.12098">CLIPort: What and Where Pathways for Robotic Manipulation</a></td>
@@ -3158,7 +3174,7 @@ Total: 79 papers.
 
 #### action representation
 
-Total: 28 papers.
+Total: 30 papers.
 
 <table>
 <thead>
@@ -3180,6 +3196,38 @@ Total: 28 papers.
 </tr>
 </thead>
 <tbody>
+<tr>
+<td nowrap>ICML 2024</td>
+<td nowrap><a href="https://proceedings.mlr.press/v235/he24o.html">DynSyn: Dynamical Synergistic Representation for Efficient Learning and Control in Overactuated Embodied Systems</a></td>
+<td nowrap>Learns low-dimensional dynamical synergies for highly overactuated musculoskeletal control.</td>
+<td nowrap>- (non-robot musculoskeletal models)</td>
+<td nowrap>muscle excitation: MyoHand R39 / Arm-Locate R81, compressed through a learned synergy</td>
+<td nowrap>MuJoCo + MyoSuite; ~5×10^5 frames for synergy extraction; ~3M RL steps/task, 5 seeds</td>
+<td nowrap>unsupervised dynamical synergy representation + downstream RL</td>
+<td nowrap>Sim-only latent action representation; not physical robot-hand hardware</td>
+<td nowrap>Sim only</td>
+<td nowrap>Controls MS-HUMAN-700, Arm-Locate, and MyoHand-Reorient100; reports return/sample-efficiency curves rather than a stable grasp success rate</td>
+<td nowrap><a href="https://proceedings.mlr.press/v235/he24o.html">paper</a></td>
+<td nowrap>-</td>
+<td nowrap>-</td>
+<td nowrap>MuJoCo/MyoSuite; 100 MyoHand object geometries</td>
+</tr>
+<tr>
+<td nowrap>ICLR 2026</td>
+<td nowrap><a href="https://openreview.net/forum?id=tv0Sz8A9Tc">Robotic Manipulation by Imitating Generated Videos Without Physical Demonstrations (RIGVid)</a></td>
+<td nowrap>Turns generated task videos into executable robot trajectories without physical demonstrations or policy training.</td>
+<td nowrap>Kling/Sora video generators + FoundationPose</td>
+<td nowrap>tracked object 6-DoF trajectory → retargeted end-effector 6-DoF trajectory</td>
+<td nowrap>4 tasks; 10 generated videos per task/source; no physics simulator and no robot-policy dataset</td>
+<td nowrap>video filtering + object tracking + fixed gripper-object transform retargeting</td>
+<td nowrap>generated-video-to-action representation; xArm7 and ALOHA; ordinary grippers</td>
+<td nowrap>Real only; no Sim2Real physics pipeline</td>
+<td nowrap>Filtered Kling v1.6: 100/80/90/70% across four tasks; overall 85% vs ReKep 50%; ALOHA pouring 80%, xArm 100%</td>
+<td nowrap><a href="https://openreview.net/forum?id=tv0Sz8A9Tc">paper</a></td>
+<td nowrap><a href="https://rigvid-robot.github.io/">project</a></td>
+<td nowrap>-</td>
+<td nowrap>generated videos only; no physical demonstrations</td>
+</tr>
 <tr>
 <td nowrap>CoRL 2022</td>
 <td nowrap><a href="https://arxiv.org/abs/2203.06173">Real-World Robot Learning with Masked Visual Pre-training</a></td>
@@ -4812,7 +4860,7 @@ Total: 72 papers.
 
 #### 3D grounding
 
-Total: 35 papers.
+Total: 41 papers.
 
 <table>
 <thead>
@@ -4834,6 +4882,102 @@ Total: 35 papers.
 </tr>
 </thead>
 <tbody>
+<tr>
+<td nowrap>CoRL 2023</td>
+<td nowrap><a href="https://arxiv.org/abs/2311.05779">Language-guided Robot Grasping: CLIP-based Referring Grasp Synthesis in Clutter (CROG)</a></td>
+<td nowrap>Grounds a language-referred target in clutter and predicts a top-down two-finger grasp.</td>
+<td nowrap>CLIP-based referring segmentation</td>
+<td nowrap>4-DoF grasp [x,y,yaw,width]</td>
+<td nowrap>OCID-VLG: 1,763 RGB-D scenes, 75K grasp rectangles, 89.6K language-mask-grasp samples; Gazebo + real trials</td>
+<td nowrap>joint language segmentation and grasp synthesis</td>
+<td nowrap>language grounding + parallel-gripper grasping; not dexterous-hand control</td>
+<td nowrap>Gazebo + Real</td>
+<td nowrap>Sim grounding/task success: isolated 76/62%, clutter 60/42%; real 65/23.9% and 60/20%</td>
+<td nowrap><a href="https://arxiv.org/abs/2311.05779">paper</a></td>
+<td nowrap>-</td>
+<td nowrap><a href="https://github.com/HilbertXu/CROG">code</a></td>
+<td nowrap>OCID-VLG</td>
+</tr>
+<tr>
+<td nowrap>ICLR 2026</td>
+<td nowrap><a href="https://openreview.net/forum?id=RYwQ0xQcAh">Interaction-aware Representation Modeling With Co-Occurrence Consistency for Egocentric Hand-Object Parsing (InterFormer)</a></td>
+<td nowrap>Parses hands and interacted objects from egocentric RGB while reducing implausible hand-object co-occurrence.</td>
+<td nowrap>-</td>
+<td nowrap>2D hand/object segmentation masks; perception only</td>
+<td nowrap>EgoHOS: 8,993 train/1,124 val/1,126 in-domain/500 OOD; mini-HOI4D: 1,095 images</td>
+<td nowrap>interaction-aware segmentation + co-occurrence consistency</td>
+<td nowrap>egocentric HOI grounding; no robot, 3D action, or control</td>
+<td nowrap>offline real images; no simulator</td>
+<td nowrap>EgoHOS in-domain/OOD mIoU 73.22/72.82%; mini-HOI4D 66.07%; interaction-illusion rate 2.19→1.55%</td>
+<td nowrap><a href="https://openreview.net/forum?id=RYwQ0xQcAh">paper</a></td>
+<td nowrap>-</td>
+<td nowrap><a href="https://github.com/yuggiehk/InterFormer">code</a></td>
+<td nowrap>EgoHOS / mini-HOI4D</td>
+</tr>
+<tr>
+<td nowrap>AAAI 2026</td>
+<td nowrap><a href="https://ojs.aaai.org/index.php/AAAI/article/view/38873">GRIM: Task-Oriented Grasping with Conditioning on Generative Examples</a></td>
+<td nowrap>Retrieves task-oriented grasp examples and transfers their functional grasp geometry to a novel scene object.</td>
+<td nowrap>AnyGrasp candidates + generated/web/human examples</td>
+<td nowrap>6-DoF two-finger grasp pose</td>
+<td nowrap>No physics training; memory has 210 examples (180 generated frames + 15 web + 15 human); TaskGrasp offline test + real robot</td>
+<td nowrap>hand-object reconstruction + semantic 3D alignment/ICP + grasp reranking</td>
+<td nowrap>task-oriented parallel-gripper grasp retrieval</td>
+<td nowrap>offline benchmark + Real; no simulator</td>
+<td nowrap>TaskGrasp mAP all/held-out object/held-out task 0.67/0.65/0.64; Kinova Gen3 Lite real 39/50 = 78%</td>
+<td nowrap><a href="https://ojs.aaai.org/index.php/AAAI/article/view/38873">paper</a></td>
+<td nowrap><a href="https://grim-tog.github.io/">project</a></td>
+<td nowrap>-</td>
+<td nowrap>210-example memory / TaskGrasp</td>
+</tr>
+<tr>
+<td nowrap>AAAI 2026</td>
+<td nowrap><a href="https://ojs.aaai.org/index.php/AAAI/article/view/38940">GraphGrasp: Lightweight and Efficient Graph-Guided 6-DoF Robotic Grasp Pose Estimation Network</a></td>
+<td nowrap>Predicts efficient 6-DoF two-contact grasps in clutter with graph-guided point-cloud reasoning.</td>
+<td nowrap>-</td>
+<td nowrap>rotation + translation + parallel-gripper opening width</td>
+<td nowrap>GraspNet-1Billion RealSense split: 190 scenes × 256 views; 15K input points; no physics simulator</td>
+<td nowrap>scene/object/grasp graph network with force-closure and collision scoring</td>
+<td nowrap>point-cloud 6-DoF parallel-gripper grasp estimation</td>
+<td nowrap>offline benchmark + Real</td>
+<td nowrap>Seen/similar/novel AP 64.88/56.91/24.83; 3.2M parameters; UR3 real mean grasp success 92.1% (trial count undisclosed)</td>
+<td nowrap><a href="https://ojs.aaai.org/index.php/AAAI/article/view/38940">paper</a></td>
+<td nowrap>-</td>
+<td nowrap><a href="https://github.com/BIT-robot-group/GraphGrasp">code</a></td>
+<td nowrap>GraspNet-1Billion</td>
+</tr>
+<tr>
+<td nowrap>AAAI 2026</td>
+<td nowrap><a href="https://ojs.aaai.org/index.php/AAAI/article/view/38957">Effective Robotic Cloth Grasping Through Suppressing False Discoveries</a></td>
+<td nowrap>Localizes reliable grasp points on cluttered garments by suppressing false segmentation discoveries and using depth wrinkles.</td>
+<td nowrap>-</td>
+<td nowrap>single RGB-D grasp point + vertical parallel-jaw pickup</td>
+<td nowrap>No simulator; 7 garments; 640 train/440 validation RGB scenes; 50 real pile-clearing trials</td>
+<td nowrap>unsupervised RGB segmentation + false-discovery suppression + depth-wrinkle grasp scoring</td>
+<td nowrap>cloth perception/grasp-point grounding; Baxter gripper, not dexterous hand</td>
+<td nowrap>Real only</td>
+<td nowrap>Segmentation mFDR 0%; grasp success/pile-clearing 94%; +20/+14/+28 pp over three segmentation baselines</td>
+<td nowrap><a href="https://ojs.aaai.org/index.php/AAAI/article/view/38957">paper</a></td>
+<td nowrap>-</td>
+<td nowrap>-</td>
+<td nowrap>7-garment RGB-D dataset</td>
+</tr>
+<tr>
+<td nowrap>CVPR 2025</td>
+<td nowrap><a href="https://cvpr.thecvf.com/virtual/2025/poster/32440">ZeroGrasp: Zero-Shot Shape Reconstruction Enabled Robotic Grasping</a></td>
+<td nowrap>Combines single-view shape reconstruction, occlusion/spatial reasoning, and 6-DoF grasp prediction.</td>
+<td nowrap>ZeroGrasp reconstruction + grasp network</td>
+<td nowrap>6-DoF Robotiq 2F-85 parallel-gripper grasp</td>
+<td nowrap>ZeroGrasp-11B arXiv version: 1M RGB-D, 12K Objaverse-LVIS objects, 11.3B physics-validated grasps; Isaac Gym labels/filtering</td>
+<td nowrap>3D shape reconstruction + spatial relation reasoning + grasp pose estimation</td>
+<td nowrap>zero-shot parallel-gripper grasping; not dexterous-hand control</td>
+<td nowrap>Isaac Gym label validation + Real</td>
+<td nowrap>GraspNet AP seen/similar/novel 70.53/62.51/26.46; pretrain+FT 72.43/65.45/28.49; real 75% vs 56.25%</td>
+<td nowrap><a href="https://cvpr.thecvf.com/virtual/2025/poster/32440">paper</a></td>
+<td nowrap><a href="https://sh8.io/#/zerograsp">project</a></td>
+<td nowrap><a href="https://github.com/sh8/ZeroGrasp">code</a></td>
+<td nowrap>ZeroGrasp-11B (CVPR page reports 8.9B; arXiv reports 11.3B annotations)</td>
+</tr>
 <tr>
 <td nowrap>CoRL 2023</td>
 <td nowrap><a href="https://arxiv.org/abs/2308.07931">Distilled Feature Fields Enable Few-Shot Language-Guided Manipulation</a></td>
@@ -8856,7 +9000,7 @@ Subdirections: humanoid, bimanual, dexterous hand, and tactile/contact-rich.
 > [!TIP]
 > Tables in this section combine a fixed total width with explicit per-column widths. Short metadata columns stay on one line; long analytical columns wrap within their assigned width. GitHub keeps the table horizontally scrollable on narrow screens.
 
-Total: 159 papers.
+Total: 146 papers.
 
 <table width="960">
 <thead>
@@ -8874,12 +9018,12 @@ Total: 159 papers.
 </tr>
 <tr>
 <td width="150" nowrap>bimanual</td>
-<td width="90" nowrap>13</td>
+<td width="90" nowrap>12</td>
 <td width="720">Focus on bimanual coordination, long-horizon manipulation, and coordinated control.</td>
 </tr>
 <tr>
 <td width="150" nowrap>dexterous hand</td>
-<td width="90" nowrap>40</td>
+<td width="90" nowrap>28</td>
 <td width="720">Focus on dexterous-hand action spaces and grasp transfer.</td>
 </tr>
 <tr>
@@ -10204,221 +10348,208 @@ Total: 78 papers. This is the single humanoid paper master table. Every row was 
 
 #### bimanual
 
-Total: 13 papers.
+Total: 12 papers. DexH2R was moved to dexterous hand because the robot receiver is a single UR10e + ShadowHand; MobileH2R was moved to sim2real because it controls a mobile base and one left arm rather than two robot arms. SARM was moved here from dexterous hand because its platform is a dual-YAM parallel-gripper system.
 
-<table width="2260">
+The direction-specific fields distinguish the physical dual-arm embodiment, inter-arm coupling, action interface, simulator/data role, and coordination evidence. “Not disclosed” is used when the paper does not identify a model, engine, rate, or metric; it is not inferred from a neighboring benchmark.
+
+<table width="3040">
 <thead>
 <tr>
-<th width="110" nowrap>Venue/Year</th>
-<th width="300">Paper/Method</th>
-<th width="380">Abstract</th>
-<th width="150">Embodiment Type</th>
+<th width="100" nowrap>Venue/Year</th>
+<th width="270">Paper/Method</th>
+<th width="260">Problem/Goal</th>
+<th width="300">Exact Embodiment/End-Effectors</th>
 <th width="180">Sensing/Contact</th>
-<th width="180">Control Interface</th>
-<th width="180">Training Mode</th>
-<th width="100">Sim/Real</th>
-<th width="340">Paper Task/Goal</th>
-<th width="80">Paper</th>
-<th width="80">Project</th>
-<th width="80">Code</th>
-<th width="100">Data/Bench</th>
+<th width="300">Bimanual Coupling/Task Division</th>
+<th width="200">Control/Action Interface</th>
+<th width="200">Training Method</th>
+<th width="360">Simulation/Training Environment + Data Scale</th>
+<th width="110">Sim/Real Role</th>
+<th width="330">Coordination/Generalization Metrics</th>
+<th width="250">Evidence Boundary</th>
+<th width="180">Resources</th>
 </tr>
 </thead>
 <tbody>
 <tr>
-<td width="110" nowrap>ICLR 2025</td>
-<td width="300"><a href="https://openreview.net/forum?id=yAzN4tz7oI">RDT-1B: a Diffusion Foundation Model for Bimanual Manipulation</a></td>
-<td width="380">RDT-1B scales diffusion policy learning for bimanual robotic manipulation.</td>
-<td width="150">Bimanual manipulation</td>
-<td width="180">vision + proprioception</td>
-<td width="180">bimanual diffusion action</td>
-<td width="180">diffusion foundation model</td>
-<td width="100">Sim + Real</td>
-<td width="340">Train a large diffusion foundation model for bimanual manipulation.</td>
-<td width="80"><a href="https://arxiv.org/pdf/2410.07864">paper</a></td>
-<td width="80">-</td>
-<td width="80">-</td>
-<td width="100">-</td>
+<td width="100" nowrap>ICLR 2025</td>
+<td width="270"><a href="https://openreview.net/forum?id=yAzN4tz7oI">RDT-1B: a Diffusion Foundation Model for Bimanual Manipulation</a></td>
+<td width="260">Scale a language-conditioned bimanual diffusion policy across heterogeneous robot datasets, then adapt it with limited target demonstrations.</td>
+<td width="300">AgileX Cobot Mobile ALOHA; dual 6-DoF arms and two 0–80 mm parallel grippers. The mobile base carries the rig but is not controlled by the policy.</td>
+<td width="180">Front RGB + two wrist RGB cameras; dual-arm/gripper proprioception; no tactile sensing reported.</td>
+<td width="300">One diffusion policy jointly predicts both arm/gripper chunks; no fixed leader/follower. Tasks include handover, folding, and hand-specified pouring.</td>
+<td width="200">Joint-position action chunks for both 6-DoF arms and two grippers.</td>
+<td width="200">Multi-embodiment diffusion pretraining followed by target ALOHA fine-tuning.</td>
+<td width="360">No unified simulator. Pretraining uses 46 datasets, &gt;1M trajectories, and 21 TB; target ALOHA tuning covers 300+ tasks, 6K+ trajectories, and 3M+ frames.</td>
+<td width="110">Target Real; mixed-source pretraining; not a Sim2Real pipeline</td>
+<td width="330">Combined evaluation 68.2%; Handover 40%, Fold Shorts 68%, Robot Dog 76%; two specified-hand pouring variants reach 100%/87.5% total success.</td>
+<td width="250">Target evaluation is real-only and several long-horizon tasks remain below 70%; the mobile base is outside the learned action space.</td>
+<td width="180"><a href="https://openreview.net/forum?id=yAzN4tz7oI">OpenReview</a> / <a href="https://arxiv.org/abs/2410.07864">arXiv</a></td>
 </tr>
 <tr>
-<td width="110" nowrap>ICRA 2025</td>
-<td width="300"><a href="https://dexmimicgen.github.io/">DexMimicGen: Automated Data Generation for Bimanual Dexterous Manipulation via Imitation Learning</a></td>
-<td width="380">DexMimicGen automatically generates large-scale bimanual dexterous manipulation demonstrations from a small number of human demonstrations across sim and real settings.</td>
-<td width="150">Bimanual dexterous manipulation</td>
-<td width="180">vision + proprioception</td>
-<td width="180">bimanual action</td>
-<td width="180">imitation data generation</td>
-<td width="100">Sim + Real</td>
-<td width="340">Reduce the data collection cost for bimanual dexterous manipulation demonstrations.</td>
-<td width="80"><a href="https://dexmimicgen.github.io/">paper</a></td>
-<td width="80"><a href="https://dexmimicgen.github.io/">project</a></td>
-<td width="80"><a href="https://github.com/NVlabs/dexmimicgen/">code</a></td>
-<td width="100">-</td>
+<td width="100" nowrap>ICRA 2025</td>
+<td width="270"><a href="https://dexmimicgen.github.io/">DexMimicGen: Automated Data Generation for Bimanual Dexterous Manipulation via Imitation Learning</a></td>
+<td width="260">Generate large bimanual imitation datasets from a few seed demonstrations while preserving parallel, coordinated, and sequential constraints.</td>
+<td width="300">Simulation: dual Franka Panda + parallel grippers, dual Franka + unnamed dexterous hands, and Fourier GR-1 + unnamed dexterous hands. Real: Fourier GR1 + dual 6-DoF Inspire hands.</td>
+<td width="180">Simulation state/vision; real head/external RealSense D435i RGB-D plus robot state.</td>
+<td width="300">Left/right subtask queues encode parallel execution, shared-object transforms with synchronous completion, or explicit sequential ordering.</td>
+<td width="200">Object-centric transformed dual-arm demonstrations used to train imitation policies.</td>
+<td width="200">Seed-demo segmentation + automated MimicGen-style generation + imitation learning.</td>
+<td width="360">robosuite + MuJoCo: 9 tasks, 60 seeds, 1,000 generated demos/task (9K main; 21K total reported). BiGym: 3×1,000. Real can sorting: 4 seeds → 40 successful digital-twin demos.</td>
+<td width="110">Sim primary; one real-to-sim-to-real task</td>
+<td width="330">Sim success: Piece Assembly 80.7%, Threading 69.3%, Transport 83.3%, Tray Lift 88.7%, Can Sorting 97.3%. Real can sorting: generated data 90% vs four seeds 0% over 20 trials.</td>
+<td width="250">Real validation covers one task; the simulated dexterous-hand models are not named.</td>
+<td width="180"><a href="https://dexmimicgen.github.io/">paper/project</a> / <a href="https://github.com/NVlabs/dexmimicgen/">code</a></td>
 </tr>
 <tr>
-<td width="110" nowrap>ICLR 2026</td>
-<td width="300"><a href="https://openreview.net/forum?id=jG9W6nAwVz">TwinVLA: Data-Efficient Bimanual Manipulation with Twin Single-Arm Vision-Language-Action Models</a></td>
-<td width="380">TwinVLA combines two pretrained single-arm VLAs into a bimanual VLA, achieving coordinated manipulation with a small amount of bimanual data.</td>
-<td width="150">Bimanual Robot</td>
-<td width="180">Vision</td>
-<td width="180">twin single-arm VLA coordination</td>
-<td width="180">compose pretrained single-arm VLAs + limited bimanual finetuning</td>
-<td width="100">Sim + Real</td>
-<td width="340">Addresses the lack of large-scale bimanual data and high fine-tuning cost in bimanual VLA training.</td>
-<td width="80"><a href="https://openreview.net/forum?id=jG9W6nAwVz">paper</a></td>
-<td width="80">-</td>
-<td width="80">-</td>
-<td width="100">-</td>
+<td width="100" nowrap>ICLR 2026</td>
+<td width="270"><a href="https://openreview.net/forum?id=jG9W6nAwVz">TwinVLA: Data-Efficient Bimanual Manipulation with Twin Single-Arm Vision-Language-Action Models</a></td>
+<td width="260">Reuse single-arm VLA pretraining when large bimanual datasets are unavailable.</td>
+<td width="300">Real self-developed Anubis: dual 6-DoF arms + ALOHA-style transparent parallel grippers; three-wheel base unused. Tabletop-Sim uses ALOHA2 assets.</td>
+<td width="180">Shared egocentric RGB; one RealSense D405 at each wrist; per-arm proprioception.</td>
+<td width="300">Two arm-specific branches share language/ego inputs; Joint Attention exchanges cross-arm tokens and layer-level MoE emits separate action chunks.</td>
+<td width="200">Separate left/right action chunks from two coordinated VLA branches.</td>
+<td width="200">Copy SingleVLA weights, then fine-tune each target task with 50 bimanual episodes.</td>
+<td width="360">SingleVLA: ~0.5M OXE demos/~800 h. RoboTwin 2.0/SAPIEN: 50 tasks × 50 demos. Tabletop-Sim/dm_control: 5 × 50. Real: 50 episodes/task.</td>
+<td width="110">Pretrain + separate Sim/Real evaluation; not Sim2Real</td>
+<td width="330">Real five-task mean 71.0%; RoboTwin Easy/Hard 42.0/8.9%; Tabletop-Sim Easy/Hard 75.8/42.9%. Removing Joint Attention costs 27.0 pp on real tasks.</td>
+<td width="250">No bimanual pretraining; hard-split success is low and each target task still needs 50 demonstrations.</td>
+<td width="180"><a href="https://openreview.net/forum?id=jG9W6nAwVz">paper</a> / <a href="https://jellyho.github.io/TwinVLA/">project</a></td>
 </tr>
 <tr>
-<td width="110" nowrap>ICLR 2026</td>
-<td width="300"><a href="https://openreview.net/forum?id=he86smZzRk">VLBiMan: Vision-Language Anchored One-Shot Demonstration Enables Generalizable Bimanual Robotic Manipulation</a></td>
-<td width="380">VLBiMan decomposes reusable bimanual skills from a single human demonstration and adapts to scene changes with vision-language anchors.</td>
-<td width="150">Bimanual Robot</td>
-<td width="180">Vision</td>
-<td width="180">bimanual policy / bimanual manipulation</td>
-<td width="180">one-shot demonstration + VLM grounding + geometric constraints</td>
-<td width="100">Real</td>
-<td width="340">Addresses how bimanual manipulation can generalize from very few demonstrations to different backgrounds, object positions, and distractor scenes.</td>
-<td width="80"><a href="https://openreview.net/forum?id=he86smZzRk">paper</a></td>
-<td width="80">-</td>
-<td width="80">-</td>
-<td width="100">-</td>
+<td width="100" nowrap>ICLR 2026</td>
+<td width="270"><a href="https://openreview.net/forum?id=he86smZzRk">VLBiMan: Vision-Language Anchored One-Shot Demonstration Enables Generalizable Bimanual Robotic Manipulation</a></td>
+<td width="260">Generalize bimanual skills from one kinesthetic demonstration under object, scene, and dynamic-distractor changes.</td>
+<td width="300">Main: dual Aubo-i5 6-DoF arms + DH-Robotics 80 mm parallel grippers. Transfer: dual Rokae xMate CR73 + Jodell RG75-3004 75 mm grippers.</td>
+<td width="180">Kingfisher R-6000 third-person stereo; no wrist camera, force, or tactile sensor.</td>
+<td width="300">Decomposes per-arm atomic skills and inter-arm dependencies; supports synchronous/asynchronous execution with VLM anchors, IK, and collision constraints.</td>
+<td width="200">Sparse 6-DoF end-effector waypoints + binary gripper state; replay through IK/control APIs. Camera and state recording is 10 Hz; execution rate is not disclosed.</td>
+<td width="200">One kinesthetic seed/task + VLM grounding + constrained trajectory composition; no learned task policy.</td>
+<td width="360">No simulator or training dataset. Main platform: 10 tasks, one seed each, 25 trials/setting. Transfer platform: 4 tasks, 20 trials/setting.</td>
+<td width="110">Real only</td>
+<td width="330">Main six tasks: 85.3/78.0% same/new object without disturbance and 69.3/59.3% with disturbance. Cross-embodiment: 83.8/76.3% and 70.0/58.8%. Maximal synchronization shortens execution ~22%.</td>
+<td width="250">Initial-grasp execution accounts for 45% of failures and dual-arm coordination 21%; evidence remains one seed per task.</td>
+<td width="180"><a href="https://openreview.net/forum?id=he86smZzRk">paper</a></td>
 </tr>
 <tr>
-<td width="110" nowrap>AAAI 2026</td>
-<td width="300"><a href="https://ojs.aaai.org/index.php/AAAI/article/view/38926">LatentVLA: Taming Latent Space for Generalizable and Long-Horizon Bimanual Manipulation</a></td>
-<td width="380">LatentVLA structures the latent space of vision-language-action policies to improve generalization and long-horizon bimanual manipulation.</td>
-<td width="150">Bimanual Robot</td>
-<td width="180">-</td>
-<td width="180">bimanual policy / bimanual manipulation</td>
-<td width="180">latent-space VLA for long-horizon bimanual manipulation</td>
-<td width="100">-</td>
-<td width="340">Addresses VLA latent-space organization and generalizable control in long-horizon bimanual manipulation.</td>
-<td width="80"><a href="https://ojs.aaai.org/index.php/AAAI/article/view/38926">paper</a></td>
-<td width="80">-</td>
-<td width="80">-</td>
-<td width="100">-</td>
+<td width="100" nowrap>ICLR 2026</td>
+<td width="270"><a href="https://openreview.net/forum?id=aemqAxScl9">SARM: Stage-Aware Reward Modeling for Long Horizon Robot Manipulation</a></td>
+<td width="260">Learn a stage-aware reward that filters and reweights demonstrations for long-horizon bimanual tasks.</td>
+<td width="300">Dual YAM arms + parallel grippers. Main text says 7 DoF/arm while Appendix A.2 and vendor specification say 6 DoF/arm; gripper model is not disclosed.</td>
+<td width="180">Top + two wrist RealSense D405 cameras; joint states/actions; no tactile sensing.</td>
+<td width="300">A joint bimanual policy executes folding and dishwasher unloading/handover; stage labels model progress but the paper does not define a fixed leader/follower arm.</td>
+<td width="200">Dual-arm joint-angle commands; demonstrations recorded at 30 fps; policy control rate not disclosed.</td>
+<td width="200">Stage-aware reward modeling + reward-aware behavior cloning/filtering on GELLO demonstrations.</td>
+<td width="360">Main experiments are real-only: 200 h total T-shirt folding data, 20 h subset; reward model uses 200 dense + 500 sparse trajectories. MuJoCo/300 demos appear only in a separate appendix DiffQL pick-place study.</td>
+<td width="110">Main Real only</td>
+<td width="330">Reward-demo MSE 0.009 and rollout Spearman ρ=0.94. RA-BC folding: simple 12/12, medium 10/12 (83%), hard 8/12 (67%); ReWiND gives 50%/25% on medium/hard.</td>
+<td width="250">The paper conflicts on arm DoF; the main long-horizon system has no simulation transfer or dexterous hand.</td>
+<td width="180"><a href="https://openreview.net/forum?id=aemqAxScl9">paper</a> / <a href="https://qianzhong-chen.github.io/sarm.github.io/">project</a> / <a href="https://github.com/xdofai/opensarm">code</a></td>
 </tr>
 <tr>
-<td width="110" nowrap>ICML 2026</td>
-<td width="300"><a href="https://icml.cc/virtual/2026/poster/63277">DexMachina: Functional Retargeting for Bimanual Dexterous Manipulation</a></td>
-<td width="380">DexMachina retargets functional bimanual dexterous manipulation skills across hands and tools by preserving task-relevant effects.</td>
-<td width="150">Bimanual Robot</td>
-<td width="180">-</td>
-<td width="180">bimanual policy / bimanual manipulation</td>
-<td width="180">bimanual policy</td>
-<td width="100">-</td>
-<td width="340">-</td>
-<td width="80"><a href="https://icml.cc/virtual/2026/poster/63277">paper</a></td>
-<td width="80">-</td>
-<td width="80">-</td>
-<td width="100">-</td>
+<td width="100" nowrap>AAAI 2026</td>
+<td width="270"><a href="https://ojs.aaai.org/index.php/AAAI/article/view/38926">LatentVLA: Taming Latent Space for Generalizable and Long-Horizon Bimanual Manipulation</a></td>
+<td width="260">Structure a continuous VLA latent action space for long-horizon bimanual planning and generalization.</td>
+<td width="300">Paper does not disclose the robot, arm, or end-effector brands/models; it specifies a 14-D bimanual proprioception/action interface.</td>
+<td width="180">Language + vision + 14-D proprioception; camera and contact-sensor models not disclosed.</td>
+<td width="300">TA-LAM learns a joint language/action latent and LADT plans a long action sequence; no explicit fixed left/right task split.</td>
+<td width="200">Expert head decodes joint latent plans into 14-D bimanual action sequences.</td>
+<td width="200">Multi-source latent pretraining followed by eight-task bimanual fine-tuning.</td>
+<td width="360">52 sources, &gt;2.5M sequences; AgiBot World Beta + LatentVLA-Dexterous contribute ~0.5M. Eight real tasks add 1,600 h. Sim evaluation: RoboTwin 1.0, SIMPLER, CALVIN; engines/versions not disclosed.</td>
+<td width="110">Mixed pretraining; Sim + Real evaluation; not one Sim2Real pipeline</td>
+<td width="330">Real eight-task mean 63.8%, OOD 56%, 20-demo few-shot 61%; SIMPLER 65.7%; CALVIN average length 3.52; RoboTwin per-task range 33.7–98.3%.</td>
+<td width="250">Physical hardware and benchmark engine versions are undisclosed; cross-benchmark numbers are not directly comparable.</td>
+<td width="180"><a href="https://ojs.aaai.org/index.php/AAAI/article/view/38926">article</a> / <a href="https://ojs.aaai.org/index.php/AAAI/article/download/38926/42888">PDF</a></td>
 </tr>
 <tr>
-<td width="110" nowrap>ICML 2026</td>
-<td width="300"><a href="https://icml.cc/virtual/2026/poster/66358">DECO: Decoupled Multimodal Diffusion Transformer for Bimanual Dexterous Manipulation with a Plugin Tactile Adapter</a></td>
-<td width="380">DECO uses a decoupled multimodal diffusion Transformer with a tactile adapter to model vision, action, and touch for bimanual dexterous manipulation.</td>
-<td width="150">Bimanual Robot</td>
-<td width="180">tactile / contact</td>
-<td width="180">diffusion policy / tactile policy / diffusion transformer / bimanual manipulation</td>
-<td width="180">diffusion policy / tactile policy / diffusion transformer</td>
-<td width="100">-</td>
-<td width="340">-</td>
-<td width="80"><a href="https://icml.cc/virtual/2026/poster/66358">paper</a></td>
-<td width="80">-</td>
-<td width="80">-</td>
-<td width="100">-</td>
+<td width="100" nowrap>ICML 2026</td>
+<td width="270"><a href="https://icml.cc/virtual/2026/poster/63277">DexMachina: Functional Retargeting for Bimanual Dexterous Manipulation</a></td>
+<td width="260">Retarget functional human bimanual manipulation across dexterous hand morphologies while preserving task effects.</td>
+<td width="300">Two floating dexterous hands, each augmented with a 6-DoF wrist; core experiments use Inspire, Allegro, ROBOTERA XHand, and SCHUNK 5-finger hands. No robot arms or physical hardware.</td>
+<td width="180">Privileged object state, joint targets, finger-object distances, and contact force.</td>
+<td width="300">One state-based PPO policy controls both hands; motion/contact rewards induce task-dependent role allocation rather than an explicit left/right split.</td>
+<td width="200">Retargeted wrist-base motion + policy residuals for wrist and finger actions.</td>
+<td width="200">PPO with task/motion/contact rewards and a decaying virtual object-controller curriculum.</td>
+<td width="360">Genesis; ARCTIC provides 5 articulated objects and 7 human bimanual clips (one clip/task). Usually 12K parallel environments, 5 seeds, and 20 evaluation episodes/checkpoint.</td>
+<td width="110">Sim only</td>
+<td width="330">Reported “success” is articulated-part ADD-AUC: Allegro long-horizon tasks 83.0/81.1/87.1/75.4%; XHand 72.4/66.2/89.0/80.3%.</td>
+<td width="250">No real/Sim2Real validation; URDF inertia/collision quality can dominate transfer, and ADD-AUC is not binary task success.</td>
+<td width="180"><a href="https://icml.cc/virtual/2026/poster/63277">ICML</a> / <a href="https://arxiv.org/abs/2505.24853">paper</a> / <a href="https://project-dexmachina.github.io/">project</a></td>
 </tr>
 <tr>
-<td width="110" nowrap>ICML 2026</td>
-<td width="300"><a href="https://icml.cc/virtual/2026/poster/62192">RoboTwin 2.0: A Scalable Data Generator and Benchmark with Strong Domain Randomization for Robust Bimanual Robotic Manipulation</a></td>
-<td width="380">RoboTwin 2.0 provides a strongly domain-randomized bimanual robot data generator and benchmark.</td>
-<td width="150">Bimanual Robot</td>
-<td width="180">-</td>
-<td width="180">bimanual policy / bimanual manipulation</td>
-<td width="180">sim data generator / domain randomization / benchmark</td>
-<td width="100">Sim + Benchmark</td>
-<td width="340">Addresses the lack of scalable simulation data and robust evaluation tasks for bimanual manipulation.</td>
-<td width="80"><a href="https://icml.cc/virtual/2026/poster/62192">paper</a> / <a href="https://arxiv.org/pdf/2506.18088">paper</a> / <a href="https://arxiv.org/abs/2506.18088">paper</a></td>
-<td width="80"><a href="https://robotwin-platform.github.io/">project</a></td>
-<td width="80"><a href="https://github.com/robotwin-Platform/RoboTwin">code</a></td>
-<td width="100"><a href="https://huggingface.co/datasets/TianxingChen/RoboTwin2.0">hf</a></td>
+<td width="100" nowrap>ICML 2026</td>
+<td width="270"><a href="https://icml.cc/virtual/2026/poster/66358">DECO: Decoupled Multimodal Diffusion Transformer for Bimanual Dexterous Manipulation with a Plugin Tactile Adapter</a></td>
+<td width="260">Add tactile feedback to a bimanual humanoid diffusion policy without retraining the vision-action backbone.</td>
+<td width="300">Unitree H1-2 upper body: 14 arm DoF + dual Inspire RH56DFTP hands (6 DoF each); self-developed active stereo head adds yaw/pitch.</td>
+<td width="180">Stereo vision; 17 tactile pads/hand, 1,062 contact points total, value range 0–4096.</td>
+<td width="300">One joint 28-joint action-chunk policy; role division is task-dependent (hold/place, hold/open, or simultaneous plug/socket alignment), not two independent policies.</td>
+<td width="200">28 arm/hand/head joint actions; data at 30 Hz; chunk length 32 and execution chunk 16.</td>
+<td width="200">Decoupled multimodal diffusion Transformer + tactile cross-attention LoRA adapter.</td>
+<td width="360">No simulator. DECO-50 real teleoperation: 4 scenarios, 28 subtasks, 8,021 successful trajectories, ~48.704 successful hours, ~5M frames; &gt;2,000 real rollouts.</td>
+<td width="110">Real only</td>
+<td width="330">Vision-only mean 72.25%; tactile DECO.p 82.50% (+10.25 pp). Contact-heavy Waste Disposal + Assembly improve from 53.13% to 73.13% (+20 pp); Assembly total is 55/80.</td>
+<td width="250">Torso and lower body are not policy-controlled; evaluation spans four scenarios. Main Table 4 prints 55/100, but Table 1 and Appendix Table 14 support 55/80.</td>
+<td width="180"><a href="https://icml.cc/virtual/2026/poster/66358">ICML</a> / <a href="https://arxiv.org/abs/2602.05513">paper</a> / <a href="https://huggingface.co/datasets/BAAI-Humanoid/DECO-50">data</a></td>
 </tr>
 <tr>
-<td width="110" nowrap>ICCV 2025</td>
-<td width="300"><a href="https://arxiv.org/abs/2503.09186">Rethinking Bimanual Robotic Manipulation: Learning with Decoupled Interaction Framework</a></td>
-<td width="380">This paper separates bimanual tasks into coordinated and non-coordinated cases, improving learning with independent bimanual models plus a selective interaction module.</td>
-<td width="150">Bimanual Robot</td>
-<td width="180">-</td>
-<td width="180">per-arm policies + selective interaction module</td>
-<td width="180">decoupled interaction framework</td>
-<td width="100">-</td>
-<td width="340">Addresses integrated bimanual policies forcing early collaboration and ignoring non-cooperative subtasks.</td>
-<td width="80"><a href="https://arxiv.org/abs/2503.09186">paper</a></td>
-<td width="80">-</td>
-<td width="80">-</td>
-<td width="100">-</td>
+<td width="100" nowrap>ICML 2026</td>
+<td width="270"><a href="https://icml.cc/virtual/2026/poster/62192">RoboTwin 2.0: A Scalable Data Generator and Benchmark with Strong Domain Randomization for Robust Bimanual Robotic Manipulation</a></td>
+<td width="260">Scale bimanual expert data across tasks and embodiments and test policy robustness under strong domain randomization.</td>
+<td width="300">Sim pairs: Aloha-AgileX, ARX-X5, Piper, Franka-Panda, and UR5-WSG; only Panda/WSG grippers are explicitly mapped. Real: COBOT-Magic dual-arm platform; gripper model undisclosed.</td>
+<td width="180">Visual/state benchmark observations; no standardized tactile sensor reported.</td>
+<td width="300">Object-centric skill API tags left/right arms and supports sequential handover, synchronous/parallel execution, and heterogeneous pairings; no fixed leader arm.</td>
+<td width="200">Expert skill programs generate data; ACT/DP/DP3/RDT/π0-style learned policies are benchmarked.</td>
+<td width="200">Domain-randomized expert generation, robustness pretraining, and policy benchmarking.</td>
+<td width="360">SAPIEN 3.0.0b1; 50 tasks, 5 embodiments, 731 objects/147 classes, &gt;100K trajectories. Standard benchmark: 50 demos/task; robustness: 32×300; real: 10 demos/task + 1K randomized sim/task.</td>
+<td width="110">Sim + Real + Benchmark</td>
+<td width="330">Automatic collection 60.5% mean (52.2% baseline). Benchmark Easy/Hard: π0 46.4/16.3%, DP3 55.2/5.0%. Synthetic augmentation improves four real settings by 13.5–33.0 pp (24.4 pp mean).</td>
+<td width="250">Several gripper mappings and the real gripper are undisclosed; no separate collision, intervention, or coordination-rate metric.</td>
+<td width="180"><a href="https://arxiv.org/abs/2506.18088">paper</a> / <a href="https://robotwin-platform.github.io/">project</a> / <a href="https://github.com/RoboTwin-Platform/RoboTwin">code</a> / <a href="https://huggingface.co/datasets/TianxingChen/RoboTwin2.0">data</a></td>
 </tr>
 <tr>
-<td width="110" nowrap>ICCV 2025</td>
-<td width="300"><a href="https://arxiv.org/abs/2412.06779">AnyBimanual: Transferring Unimanual Policy for General Bimanual Manipulation</a></td>
-<td width="380">AnyBimanual transfers pretrained single-arm policies to language-conditioned bimanual manipulation through skill management and a few bimanual demonstrations.</td>
-<td width="150">Bimanual Robot</td>
-<td width="180">-</td>
-<td width="180">bimanual policy / bimanual manipulation</td>
-<td width="180">unimanual-to-bimanual transfer + few bimanual demos</td>
-<td width="100">Sim + Real</td>
-<td width="340">Addresses expensive bimanual manipulation data and the difficulty of reusing single-arm policy knowledge.</td>
-<td width="80"><a href="https://arxiv.org/abs/2412.06779">paper</a></td>
-<td width="80"><a href="https://anybimanual.github.io/">project</a></td>
-<td width="80"><a href="https://github.com/TengBoYu01/AnyBimanual">code</a></td>
-<td width="100">-</td>
+<td width="100" nowrap>ICCV 2025</td>
+<td width="270"><a href="https://openaccess.thecvf.com/content/ICCV2025/html/Jiang_Rethinking_Bimanual_Robotic_Manipulation_Learning_with_Decoupled_Interaction_Framework_ICCV_2025_paper.html">Rethinking Bimanual Robotic Manipulation: Learning with Decoupled Interaction Framework</a></td>
+<td width="260">Avoid forcing full inter-arm coupling on tasks or phases that can be learned independently.</td>
+<td width="300">Sim: RoboTwin dual-arm embodiment; the paper does not name its robot/grippers. Real: AgileX Cobot Magic dual arms; gripper model undisclosed.</td>
+<td width="180">Single third-person RealSense L515 point cloud + per-arm robot state; no tactile sensing.</td>
+<td width="300">Independent per-arm policies exchange the opposite arm’s state feature; a selective interaction module predicts scale/bias to vary coupling by task phase.</td>
+<td width="200">Each arm consumes its point cloud + 7-D state and predicts a 7-D action.</td>
+<td width="200">Decoupled imitation learning with selective inter-arm feature modulation.</td>
+<td width="360">SAPIEN + RoboTwin: 7 tasks, usually 50 demos/task; two tasks also use 100/150/200. Real: four tasks and 50 high-quality teleoperation demos; paper does not say total vs per-task.</td>
+<td width="110">Sim + Real</td>
+<td width="330">Sim mean 0.789 vs DP3 0.554; coordinated/non-coordinated 0.700/0.824 vs 0.465/0.590. Real 45/60 = 75% vs DP3 27/60 = 45%.</td>
+<td width="250">Sim robot/grippers and real gripper are not specified; no quantitative collision, intervention, or execution-time metric.</td>
+<td width="180"><a href="https://openaccess.thecvf.com/content/ICCV2025/html/Jiang_Rethinking_Bimanual_Robotic_Manipulation_Learning_with_Decoupled_Interaction_Framework_ICCV_2025_paper.html">CVF</a> / <a href="https://arxiv.org/abs/2503.09186">arXiv</a></td>
 </tr>
 <tr>
-<td width="110" nowrap>ICCV 2025</td>
-<td width="300"><a href="https://arxiv.org/abs/2506.23152">DexH2R: A Benchmark for Dynamic Dexterous Grasping in Human-to-Robot Handover</a></td>
-<td width="380">DexH2R builds a real human-to-dexterous-hand handover dataset and benchmark covering dynamic objects, human hand motion, and visual annotations.</td>
-<td width="150">Dexterous hand</td>
-<td width="180">-</td>
-<td width="180">bimanual policy / bimanual manipulation</td>
-<td width="180">bimanual policy</td>
-<td width="100">Real + Benchmark</td>
-<td width="340">Addresses the lack of real high-quality datasets for dexterous grasping in dynamic human-robot handovers.</td>
-<td width="80"><a href="https://arxiv.org/abs/2506.23152">paper</a></td>
-<td width="80"><a href="https://dexh2r.github.io/">project</a></td>
-<td width="80"><a href="https://github.com/4DVLab/DexH2R">code</a></td>
-<td width="100">DexH2R benchmark</td>
+<td width="100" nowrap>ICCV 2025</td>
+<td width="270"><a href="https://openaccess.thecvf.com/content/ICCV2025/html/Lu_AnyBimanual_Transferring_Unimanual_Policy_for_General_Bimanual_Manipulation_ICCV_2025_paper.html">AnyBimanual: Transferring Unimanual Policy for General Bimanual Manipulation</a></td>
+<td width="260">Compose pretrained single-arm skills into general language-conditioned bimanual manipulation with few bimanual demonstrations.</td>
+<td width="300">Sim: dual 7-DoF Franka Panda + Panda two-finger grippers. Real: dual UR5e + Robotiq 2F-85 grippers.</td>
+<td width="180">RealSense L515 RGB-D → shared 3D voxel scene; robot state; no tactile sensing.</td>
+<td width="300">Two single-arm policy copies are dynamically scheduled by a Skill Manager; Visual Aligner assigns each arm a soft voxel region. No fixed leader/follower.</td>
+<td width="200">Language-selected single-arm skill primitives composed into synchronous/asynchronous dual-arm actions.</td>
+<td width="200">Pretrain on 18 single-arm tasks; fine-tune on bimanual demonstrations.</td>
+<td width="360">RLBench2 + PyRep + CoppeliaSim 4.1: 12 tasks × 20 or 100 demos (240/1,200), 100 test episodes/task. Real: 9 tasks × 30 demos (270); few-shot 9×5.</td>
+<td width="110">Sim + Real</td>
+<td width="330">Sim 100-demo mean 32.00% vs PerAct2 14.67% (+17.33 pp). Real: 55/65 = 84.62%; five-demo/task real setting 53.33%.</td>
+<td width="250">Simulation success remains 32%; no collision/intervention metric. The ~1.5 min figure is demonstration collection + keyframe extraction, not execution time.</td>
+<td width="180"><a href="https://openaccess.thecvf.com/content/ICCV2025/html/Lu_AnyBimanual_Transferring_Unimanual_Policy_for_General_Bimanual_Manipulation_ICCV_2025_paper.html">CVF</a> / <a href="https://anybimanual.github.io/">project</a> / <a href="https://github.com/TengBoYu01/AnyBimanual">code</a></td>
 </tr>
 <tr>
-<td width="110" nowrap>CVPR 2025</td>
-<td width="300"><a href="https://arxiv.org/abs/2503.10743">Spatial-Temporal Graph Diffusion Policy with Kinematic Modeling for Bimanual Robotic Manipulation</a></td>
-<td width="380">KStar Diffuser explicitly models robot structure and kinematic constraints with a spatiotemporal graph diffusion policy.</td>
-<td width="150">Bimanual Robot</td>
-<td width="180">-</td>
-<td width="180">diffusion policy / bimanual manipulation</td>
-<td width="180">spatial-temporal graph diffusion policy + differentiable kinematics</td>
-<td width="100">Sim + Real</td>
-<td width="340">Addresses action prediction in bimanual imitation learning ignoring robot structure, causing collisions and joint-constraint violations.</td>
-<td width="80"><a href="https://arxiv.org/abs/2503.10743">paper</a></td>
-<td width="80">-</td>
-<td width="80">-</td>
-<td width="100">-</td>
-</tr>
-<tr>
-<td width="110" nowrap>CVPR 2025</td>
-<td width="300"><a href="https://arxiv.org/abs/2501.04595">MobileH2R: Learning Generalizable Human to Mobile Robot Handover Exclusively from Scalable and Diverse Synthetic Data</a></td>
-<td width="380">MobileH2R uses scalable synthetic human-motion data and 4D imitation learning to train mobile robots for object-receiving skills.</td>
-<td width="150">mobile robot + manipulator</td>
-<td width="180">-</td>
-<td width="180">bimanual policy / bimanual manipulation</td>
-<td width="180">synthetic data + 4D imitation learning</td>
-<td width="100">Sim training + Real evaluation</td>
-<td width="340">Addresses the large workspace and difficulty of collecting real demonstrations for mobile robots in human-to-robot handovers.</td>
-<td width="80"><a href="https://arxiv.org/abs/2501.04595">paper</a></td>
-<td width="80"><a href="https://mobileh2r.github.io/">project</a></td>
-<td width="80">-</td>
-<td width="100">-</td>
+<td width="100" nowrap>CVPR 2025</td>
+<td width="270"><a href="https://openaccess.thecvf.com/content/CVPR2025/html/Lv_Spatial-Temporal_Graph_Diffusion_Policy_with_Kinematic_Modeling_for_Bimanual_Robotic_CVPR_2025_paper.html">Spatial-Temporal Graph Diffusion Policy with Kinematic Modeling for Bimanual Robotic Manipulation (KStar Diffuser)</a></td>
+<td width="260">Make bimanual diffusion actions respect robot structure and joint kinematics to reduce interference and infeasible poses.</td>
+<td width="300">Sim: dual Franka Panda + parallel grippers. Real: Cobot AgileX ALOHA with dual 6-DoF arms; gripper model not disclosed.</td>
+<td width="180">Language + multiview RGB-D; no tactile sensing reported.</td>
+<td width="300">A dynamic spatial-temporal graph connects both arms’ joints across time; the policy jointly generates two end-effector trajectories rather than assigning a fixed leader.</td>
+<td width="200">Two 6-D end-effector pose trajectories + gripper open/close; differentiable FK regularizes predicted poses.</td>
+<td width="200">Graph-conditioned diffusion imitation learning with a kinematic regularizer.</td>
+<td width="360">RLBench2 (underlying engine not restated): 5 tasks, 20/100 demos/task, 100 trials × 3 seeds. Real ALOHA: 2 tasks, 100 demos/task, 15 evaluations/task.</td>
+<td width="110">Sim + Real</td>
+<td width="330">100-demo sim mean 68.2±2.1%; tasks 83.0/98.7/27.0/43.7/89.0%. Real Lift Plate 66.7±5.3%, Handover 19.7±5.3%, mean 43.1±17.8%.</td>
+<td width="250">Handover remains weak; the paper’s main text and appendix describe the handover_item_easy arm order differently, so the table does not resolve it.</td>
+<td width="180"><a href="https://openaccess.thecvf.com/content/CVPR2025/html/Lv_Spatial-Temporal_Graph_Diffusion_Policy_with_Kinematic_Modeling_for_Bimanual_Robotic_CVPR_2025_paper.html">CVF</a> / <a href="https://arxiv.org/abs/2503.10743">arXiv</a></td>
 </tr>
 </tbody>
 </table>
@@ -10490,7 +10621,7 @@ Total: 13 papers.
 
 **Hardware, simulation, and benchmark landscape.**
 
-_Current table mentions are counted once per paper row across the 40 dexterous-hand and 28 tactile/contact-rich papers below; they are README coverage signals, not bibliometric counts._
+_Current table mentions are counted once per paper row across the 28 dexterous-hand and 28 tactile/contact-rich papers below; they are README coverage signals, not bibliometric counts._
 
 <table width="1460">
 <thead>
@@ -10506,7 +10637,7 @@ _Current table mentions are counted once per paper row across the 40 dexterous-h
 <tbody>
 <tr>
 <td width="220">Franka Emika Panda / Franka Research 3</td>
-<td width="120">16</td>
+<td width="120">17</td>
 <td width="300">Most common carrier arm for dexterous hands, tactile grippers, and baseline grasping</td>
 <td width="220"><a href="https://frankarobotics.github.io/docs/">FCI docs</a> / <a href="https://github.com/frankarobotics/franka_ros2">franka_ros2</a> / <a href="https://github.com/frankarobotics/franka_description">models</a></td>
 <td width="300">Strong real-robot SDK/ROS2 and public URDF descriptions; hand mounts, tactile mounts, and sim controllers are usually paper-specific</td>
@@ -10514,7 +10645,7 @@ _Current table mentions are counted once per paper row across the 40 dexterous-h
 </tr>
 <tr>
 <td width="220">Intel RealSense RGB-D</td>
-<td width="120">12</td>
+<td width="120">19</td>
 <td width="300">External RGB-D perception for pose, point clouds, and policy input</td>
 <td width="220"><a href="https://github.com/realsenseai/librealsense">librealsense</a></td>
 <td width="300">Good SDK support for real rigs; it provides vision/depth, not contact or force sensing</td>
@@ -10522,7 +10653,7 @@ _Current table mentions are counted once per paper row across the 40 dexterous-h
 </tr>
 <tr>
 <td width="220">Allegro Hand</td>
-<td width="120">14</td>
+<td width="120">15</td>
 <td width="300">Four-finger dexterous hand used for rotation, articulated-object manipulation, and cross-hand transfer</td>
 <td width="220"><a href="https://www.allegrohand.com/">official</a> / <a href="https://github.com/simlabrobotics/allegro_hand_ros">ROS</a> / <a href="https://github.com/simlabrobotics/allegro_hand_ros_v4">ROS v4</a></td>
 <td width="300">Public ROS stack and recurring Isaac Gym / MuJoCo / DexArt usage; dense tactile sensing is not standard and is added case by case</td>
@@ -10538,7 +10669,7 @@ _Current table mentions are counted once per paper row across the 40 dexterous-h
 </tr>
 <tr>
 <td width="220">Shadow Dexterous Hand</td>
-<td width="120">9</td>
+<td width="120">14</td>
 <td width="300">High-DoF anthropomorphic hand and benchmark embodiment</td>
 <td width="220"><a href="https://shadowrobot.com/dexterous-hand-series/">official</a> / <a href="https://robotics.farama.org/envs/adroit_hand/index.html">Adroit</a></td>
 <td width="300">Very common in MuJoCo/Adroit and Isaac Gym-style simulation; real hardware transfer is less plug-and-play and costly</td>
@@ -10562,7 +10693,7 @@ _Current table mentions are counted once per paper row across the 40 dexterous-h
 </tr>
 <tr>
 <td width="220">GelSight / GelSight Mini</td>
-<td width="120">6</td>
+<td width="120">9</td>
 <td width="300">Commercial gel-based optical tactile sensing</td>
 <td width="220"><a href="https://www.gelsight.com/gelsightmini/">official</a> / <a href="https://github.com/gelsightinc/gsrobotics">SDK</a></td>
 <td width="300">Strong real sensor ecosystem; simulation is usually via TACTO/Taxim/TacEx/Taccel-style project pipelines rather than one universal stack</td>
@@ -10578,7 +10709,7 @@ _Current table mentions are counted once per paper row across the 40 dexterous-h
 </tr>
 <tr>
 <td width="220">xArm / UFACTORY</td>
-<td width="120">4</td>
+<td width="120">6</td>
 <td width="300">Carrier arm for dexterous hands and teleoperation setups</td>
 <td width="220"><a href="https://github.com/xArm-Developer/xarm_ros2">xarm_ros2</a> / <a href="https://github.com/xArm-developer/xarm_ros">xarm_ros</a></td>
 <td width="300">Public ROS/ROS2 packages include simulation models and control demos; dexterous-hand mounting remains custom</td>
@@ -10586,7 +10717,7 @@ _Current table mentions are counted once per paper row across the 40 dexterous-h
 </tr>
 <tr>
 <td width="220">Apple Vision Pro / Meta Quest / GELLO</td>
-<td width="120">Vision Pro 3; Meta Quest or VR 2; GELLO 2</td>
+<td width="120">Vision Pro 5; Meta Quest or VR 6; GELLO 1</td>
 <td width="300">Human demonstration, hand tracking, VR teleoperation, and retargeting data chain</td>
 <td width="220"><a href="https://developer.apple.com/documentation/visionos/tracking-and-visualizing-hand-movement">Apple hand tracking</a> / <a href="https://wuphilipp.github.io/gello_site/">GELLO</a> / <a href="https://github.com/wuphilipp/gello_software">GELLO code</a></td>
 <td width="300">Useful for scalable motion data; contact, force, and hand-to-robot retargeting are still algorithmic bottlenecks</td>
@@ -10594,7 +10725,7 @@ _Current table mentions are counted once per paper row across the 40 dexterous-h
 </tr>
 <tr>
 <td width="220">Robotiq 2F / parallel grippers</td>
-<td width="120">2</td>
+<td width="120">4</td>
 <td width="300">Baseline grasping hardware in non-dexterous rows</td>
 <td width="220"><a href="https://robotiq.com/products/2f85-140-adaptive-robot-gripper">official</a></td>
 <td width="300">Easy to simulate and deploy compared with dexterous hands; not a multi-finger manipulation platform</td>
@@ -10602,7 +10733,7 @@ _Current table mentions are counted once per paper row across the 40 dexterous-h
 </tr>
 <tr>
 <td width="220">Sharpa Wave / Dexmate Vega-1</td>
-<td width="120">2</td>
+<td width="120">3</td>
 <td width="300">High-DoF tactile dexterous hand and bimanual tactile-reactive robot setup</td>
 <td width="220"><a href="https://arxiv.org/abs/2602.16710">EgoScale</a> / <a href="https://arxiv.org/abs/2606.17055">T-Rex</a></td>
 <td width="300">Public evidence comes from paper/project descriptions; reusable public SDK/ROS2 and sim assets were not found</td>
@@ -10610,7 +10741,7 @@ _Current table mentions are counted once per paper row across the 40 dexterous-h
 </tr>
 <tr>
 <td width="220">Custom visuo-tactile grippers / tactile skins</td>
-<td width="120">8</td>
+<td width="120">12</td>
 <td width="300">Robot-free tactile data collection, portable tactile grippers, and high-coverage contact sensing</td>
 <td width="220"><a href="https://opendrivelab.com/FreeTacMan">FreeTacMan</a> / <a href="https://dex-skin.github.io/">DexSkin</a> / <a href="https://peilin-666.github.io/projects/PP-Tac/">PP-Tac</a></td>
 <td width="300">Most systems publish project pages or code, but mechanical mounting, calibration, and runtime integration are project-specific</td>
@@ -10641,7 +10772,7 @@ _Current table mentions are counted once per paper row across the 40 dexterous-h
 </tr>
 <tr>
 <td width="200">Isaac Lab / Isaac Sim</td>
-<td width="120">2</td>
+<td width="120">4</td>
 <td width="300">Successor stack for robot learning, sensor simulation, and tactile-aware experiments</td>
 <td width="220"><a href="https://developer.nvidia.com/isaac/lab">Isaac Lab</a> / <a href="https://github.com/isaac-sim/IsaacLab">code</a> / <a href="https://github.com/isaac-sim/IsaacSim">Isaac Sim</a></td>
 <td width="300">Good fit for Franka-style arms and newer tactile simulation papers; asset import from URDF/MJCF/CAD is supported by Isaac Sim</td>
@@ -10649,7 +10780,7 @@ _Current table mentions are counted once per paper row across the 40 dexterous-h
 </tr>
 <tr>
 <td width="200">MuJoCo / MJCF</td>
-<td width="120">3</td>
+<td width="120">4</td>
 <td width="300">Contact-rich dynamics, Adroit-style hand tasks, and compact reproducible benchmarks</td>
 <td width="220"><a href="https://mujoco.org/">official</a> / <a href="https://github.com/google-deepmind/mujoco">code</a> / <a href="https://github.com/google-deepmind/mujoco_menagerie">Menagerie</a></td>
 <td width="300">Strong for Shadow/Adroit and MJCF models; useful for reproducible task benchmarks</td>
@@ -10657,7 +10788,7 @@ _Current table mentions are counted once per paper row across the 40 dexterous-h
 </tr>
 <tr>
 <td width="200">SAPIEN / ManiSkill</td>
-<td width="120">SAPIEN 2; ManiSkill 2</td>
+<td width="120">SAPIEN 5; ManiSkill 2</td>
 <td width="300">Articulated objects, manipulation environments, and task/data generation</td>
 <td width="220"><a href="https://sapien.ucsd.edu/">SAPIEN</a> / <a href="https://github.com/haosulab/SAPIEN">SAPIEN code</a> / <a href="https://github.com/mani-skill/ManiSkill">ManiSkill</a></td>
 <td width="300">Good articulated-object and robot asset ecosystem; hand models depend on URDF/assets supplied by each work</td>
@@ -10665,7 +10796,7 @@ _Current table mentions are counted once per paper row across the 40 dexterous-h
 </tr>
 <tr>
 <td width="200">Adroit / Gymnasium Robotics</td>
-<td width="120">2</td>
+<td width="120">Adroit 2; Gymnasium 1</td>
 <td width="300">Dexterous manipulation benchmark with Shadow Hand and arm tasks</td>
 <td width="220"><a href="https://robotics.farama.org/envs/adroit_hand/index.html">docs</a> / <a href="https://github.com/Farama-Foundation/Gymnasium-Robotics">code</a></td>
 <td width="300">Strong Shadow-Hand benchmark fit; useful for algorithm comparison</td>
@@ -10681,7 +10812,7 @@ _Current table mentions are counted once per paper row across the 40 dexterous-h
 </tr>
 <tr>
 <td width="200">TACTO</td>
-<td width="120">1</td>
+<td width="120">2</td>
 <td width="300">Vision-based tactile rendering for sensors such as DIGIT and OmniTact</td>
 <td width="220"><a href="https://github.com/facebookresearch/tacto">code</a> / <a href="https://ai.meta.com/research/publications/tacto-a-fast-flexible-and-open-source-simulator-for-high-resolution-vision-based-tactile-sensors/">paper page</a></td>
 <td width="300">Good for tactile-image simulation and perception pretraining; originally integrates with PyBullet</td>
@@ -10933,625 +11064,505 @@ _Current table mentions are counted once per paper row across the 40 dexterous-h
 
 #### dexterous hand
 
-Total: 40 papers.
+Total: 28 papers.
 
-<table width="2830">
+The direction-specific columns below separate exact hardware, skill/contact mode, tactile sensing, action/control, simulation and data scale, transfer path, human-data chain, and reported metrics. “Not disclosed” means the checked paper/project sources do not state the item; simulated contact labels are not counted as tactile hardware.
+
+<table width="3380">
 <thead>
 <tr>
-<th width="110" nowrap>Venue/Year</th>
-<th width="280">Paper/Method</th>
-<th width="280">Research Problem</th>
-<th width="260">Solved / Progress</th>
-<th width="260">Open Limitation</th>
-<th width="200">Hand Model</th>
+<th width="100" nowrap>Venue</th>
+<th width="260">Paper</th>
+<th width="230">Research Problem</th>
+<th width="230">Solved / Progress</th>
+<th width="240">Open Limitation</th>
+<th width="280">Exact Hand / Arm / Carrier</th>
 <th width="160">DoF / Actuation</th>
-<th width="200">Tactile Setup</th>
-<th width="220">Carrier Platform</th>
-<th width="220">Simulation / Data</th>
-<th width="240">Teleop / VR Data Chain</th>
-<th width="220">SDK / ROS / Code</th>
-<th width="180">Evidence Links</th>
+<th width="220">Skill / Contact Mode</th>
+<th width="180">Tactile Setup</th>
+<th width="210">Action Space / Control Rate</th>
+<th width="330">Simulation / Training Environment + Data Scale</th>
+<th width="240">Sim2Real / Retargeting Path</th>
+<th width="220">Teleop / Human Data Chain</th>
+<th width="300">Core Metric</th>
+<th width="180">Resources</th>
 </tr>
 </thead>
 <tbody>
 <tr>
-<td width="110" nowrap>CoRL 2023</td>
-<td width="280"><a href="https://arxiv.org/abs/2309.09979">General In-hand Object Rotation with Vision and Touch</a></td>
-<td width="280">Generalize fingertip in-hand rotation across object shapes and axes using vision, touch, and proprioception.</td>
-<td width="260">RotateIt trains in Isaac Gym with privileged object properties and distills to a real visuotactile/proprioceptive policy.</td>
-<td width="260">Uses low-dimensional contact locations rather than full tactile images; broader long-horizon contact-rich manipulation remains open.</td>
-<td width="200">Allegro Hand</td>
-<td width="160">16 joints; position commands at 20 Hz; PD torque at 300 Hz</td>
-<td width="200">4 omnidirectional vision-based touch sensors at the fingertips; contact-location input</td>
-<td width="220">Allegro Hand + Intel RealSense D435</td>
-<td width="220">Isaac Gym; curated object datasets; sim-to-real</td>
-<td width="240">-</td>
-<td width="220">-</td>
-<td width="180"><a href="https://arxiv.org/abs/2309.09979">paper</a> / <a href="https://haozhi.io/rotateit/">project</a> / <a href="https://proceedings.mlr.press/v229/qi23a.html">pmlr</a></td>
+<td width="100" nowrap>CoRL 2023</td>
+<td width="260"><a href="https://arxiv.org/abs/2309.09979">General In-hand Object Rotation with Vision and Touch</a></td>
+<td width="230">Generalize fingertip in-hand rotation across object shapes and commanded axes.</td>
+<td width="230">RotateIt combines vision, low-dimensional touch, and proprioception in a distilled closed-loop policy that transfers directly to hardware.</td>
+<td width="240">Uses discretized contact locations rather than full tactile images; objects must fit the hand and the frozen policy cannot learn from deployment.</td>
+<td width="280">Allegro Hand; Intel RealSense D435; four fingertip omnidirectional vision-based touch sensors</td>
+<td width="160">16 hand joints; position controlled</td>
+<td width="220">Continuous fingertip in-hand rotation about x/y/z axes; multi-contact finger gaiting</td>
+<td width="180">Four optical fingertip sensors; policy uses 8-bin contact locations, not raw tactile images</td>
+<td width="210">16-D joint targets at 20 Hz; PD torque loop at 300 Hz</td>
+<td width="330">Isaac Gym; objects curated from EGAD, Google Scanned Objects, YCB, and ContactDB; 15 held-out OOD objects; no human demonstrations</td>
+<td width="240">Privileged PPO oracle → visuotactile Transformer distillation with domain/randomized depth → direct real deployment</td>
+<td width="220">None</td>
+<td width="300">Real x-axis ContactLoc rotation reward 102.36 vs 79.37 without touch; OOD reward drop 15.4% vs 41.6% for proprioception-only</td>
+<td width="180"><a href="https://arxiv.org/abs/2309.09979">paper</a> / <a href="https://haozhi.io/rotateit/">project</a> / <a href="https://proceedings.mlr.press/v229/qi23a.html">PMLR</a></td>
 </tr>
 <tr>
-<td width="110" nowrap>CoRL 2023</td>
-<td width="280"><a href="https://arxiv.org/abs/2311.05779">Language-guided Robot Grasping: CLIP-based Referring Grasp Synthesis in Clutter</a></td>
-<td width="280">Language-conditioned grasp synthesis in cluttered indoor scenes.</td>
-<td width="260">CROG builds an OCID-based referring-grasp benchmark and learns 4-DoF grasp poses from image-text pairs.</td>
-<td width="260">Targets top-down 4-DoF parallel-jaw grasps, not dexterous-hand control.</td>
-<td width="200">-</td>
-<td width="160">4-DoF grasp poses</td>
-<td width="200">-</td>
-<td width="220">dual UR5e manipulators + parallel-jaw grippers + Kinect</td>
-<td width="220">OCID-derived clutter benchmark; simulation and hardware experiments</td>
-<td width="240">-</td>
-<td width="220">code</td>
-<td width="180"><a href="https://arxiv.org/abs/2311.05779">paper</a> / <a href="https://proceedings.mlr.press/v229/tziafas23a.html">pmlr</a> / <a href="https://github.com/HilbertXu/CROG">code</a></td>
+<td width="100" nowrap>CVPR 2025</td>
+<td width="260"><a href="https://openaccess.thecvf.com/content/CVPR2025/html/Li_ManipTrans_Efficient_Dexterous_Bimanual_Manipulation_Transfer_via_Residual_Learning_CVPR_2025_paper.html">ManipTrans: Efficient Dexterous Bimanual Manipulation Transfer via Residual Learning</a></td>
+<td width="230">Transfer long, contact-rich human single- and bimanual manipulation trajectories to heterogeneous robot hands.</td>
+<td width="230">Separates morphology-level imitation from contact-aware residual RL and builds DexManipNet.</td>
+<td width="240">Deformable/oversized MoCap is excluded; real deployment is qualitative trajectory replay, without quantified closed-loop tactile control.</td>
+<td width="280">Sim: bimanual Shadow, MANO, Inspire, Allegro. Real: two 7-DoF RealMan arms + two upgraded Inspire Hands</td>
+<td width="160">Sim hands: 22/22/12/16 DoF; real Inspire: 6 DoF each</td>
+<td width="220">Pen capping, bottle unscrewing, articulated-object and coordinated bimanual manipulation; contact-force residual refinement</td>
+<td width="180">Sim fingertip contact forces; real Inspire hands include tactile sensors, but closed-loop use is not reported</td>
+<td width="210">Per hand: K joint PD targets + 6-D wrist force; Isaac Gym step 1/60 s</td>
+<td width="330">Isaac Gym, 4,096 parallel environments; DexManipNet: 61 tasks, 3.3K episodes, 1.2K objects, 1.34M frames, including about 600 bimanual sequences</td>
+<td width="240">MoCap → hand-trajectory imitation → object/contact residual RL; 12-DoF simulated Inspire is fitted to 6-DoF real Inspire for replay</td>
+<td width="220">OakInk-V2 optical MoCap; FAOVR VR/HITL; GRAB and ARCTIC sequences</td>
+<td width="300">Single/bimanual transfer SR 58.1/39.5% vs 47.8/13.9% for Retarget+Residual; real-robot evidence is qualitative</td>
+<td width="180"><a href="https://openaccess.thecvf.com/content/CVPR2025/papers/Li_ManipTrans_Efficient_Dexterous_Bimanual_Manipulation_Transfer_via_Residual_Learning_CVPR_2025_paper.pdf">paper</a> / <a href="https://openaccess.thecvf.com/content/CVPR2025/html/Li_ManipTrans_Efficient_Dexterous_Bimanual_Manipulation_Transfer_via_Residual_Learning_CVPR_2025_paper.html">CVF</a></td>
 </tr>
 <tr>
-<td width="110" nowrap>CoRL 2023</td>
-<td width="280"><a href="https://openreview.net/forum?id=3mKb5iyZ2V">Reasoning Tuning Grasp: Adapting Multi-Modal Large Language Models for Robotic Grasping</a></td>
-<td width="280">Adapt multimodal LLMs to output numerical grasp poses for robotic grasping.</td>
-<td width="260">Validated on a grasping benchmark and real-world grasping experiments for robot-arm grasp pose prediction.</td>
-<td width="260">-</td>
-<td width="200">-</td>
-<td width="160">grasp poses for robot arms</td>
-<td width="200">-</td>
-<td width="220">robot arms</td>
-<td width="220">grasping benchmark + real-world grasping experiments</td>
-<td width="240">-</td>
-<td width="220">-</td>
-<td width="180"><a href="https://openreview.net/forum?id=3mKb5iyZ2V">paper</a> / <a href="https://www.jinxuanxu.com/">author page</a></td>
+<td width="100" nowrap>ICCV 2025</td>
+<td width="260"><a href="https://openaccess.thecvf.com/content/ICCV2025/html/He_DexVLG_Dexterous_Vision-Language-Grasp_Model_at_Scale_ICCV_2025_paper.html">DexVLG: Dexterous Vision-Language-Grasp Model at Scale</a></td>
+<td width="230">Generate instruction-aligned, part-aware dexterous grasps from one RGB-D view.</td>
+<td width="230">Trains a VLM plus flow-matching pose head on DexGraspNet 3.0 and executes semantic grasps on hardware.</td>
+<td width="240">Floating-hand training ignores arm workspace; unsafe samples require filtering and the model lacks an effective pose-ranking mechanism.</td>
+<td width="280">ShadowHand on UR10e; wrist-mounted Intel RealSense D415</td>
+<td width="160">22 hand joint angles + 6-D wrist pose</td>
+<td width="220">Static functional grasp pose; part-, style-, and optional finger-contact-mode conditioned lifting</td>
+<td width="180">None; contact modes are synthetic labels, not tactile sensing</td>
+<td width="210">Grasp g = translation + SO(3) rotation + 22 joint angles; motion-planned execution; rate not disclosed</td>
+<td width="330">DexGraspNet 3.0: 170M pose-caption pairs across 174K Objaverse objects; Isaac Gym validation; Blender D415 rendering; 230 epochs on 64 RTX 4090 GPUs</td>
+<td width="240">Synthetic pose learning → single-view colored point cloud inference → safety filtering and motion planning on the real UR10e</td>
+<td width="220">No human demonstrations; SAMesh and GPT-4o generate part semantics/captions</td>
+<td width="300">Sim success seen/unseen/SamPart3D: 87.7/79.1/76.3%; real simple objects: 80% success and 75% part accuracy, trial count not stated</td>
+<td width="180"><a href="https://arxiv.org/pdf/2507.02747">paper</a> / <a href="https://jiaweihe.com/dexvlg">project</a> / <a href="https://openaccess.thecvf.com/content/ICCV2025/html/He_DexVLG_Dexterous_Vision-Language-Grasp_Model_at_Scale_ICCV_2025_paper.html">CVF</a></td>
 </tr>
 <tr>
-<td width="110" nowrap>CoRL 2025</td>
-<td width="280"><a href="https://arxiv.org/abs/2505.03233">GraspVLA: a Grasping Foundation Model Pre-trained on Billion-scale Synthetic Action Data</a></td>
-<td width="280">Scale general robotic grasping with synthetic action pretraining.</td>
-<td width="260">Pretrains on SynGrasp-1B generated with synthetic trajectories, photorealistic rendering, and physics validation.</td>
-<td width="260">Uses gripper-centric grasping; paper notes smooth-object slip where tactile feedback may help.</td>
-<td width="200">parallel gripper / Robotiq 2F-85 in transfer demo</td>
-<td width="160">-</td>
-<td width="200">-</td>
-<td width="220">Franka Emika Panda + RealSense D435i; UR5e + Robotiq 2F-85 in simulation transfer</td>
-<td width="220">SynGrasp-1B; CuRobo trajectory generation; Isaac Sim rendering; MuJoCo validation</td>
-<td width="240">-</td>
-<td width="220">code; real-world controller link in repo</td>
-<td width="180"><a href="https://arxiv.org/abs/2505.03233">paper</a> / <a href="https://pku-epic.github.io/GraspVLA-web/">project</a> / <a href="https://github.com/PKU-EPIC/GraspVLA">code</a></td>
+<td width="100" nowrap>ICCV 2025</td>
+<td width="260"><a href="https://openaccess.thecvf.com/content/ICCV2025/html/Wang_DexH2R_A_Benchmark_for_Dynamic_Dexterous_Grasping_in_Human-to-Robot_Handover_ICCV_2025_paper.html">DexH2R: A Benchmark for Dynamic Dexterous Grasping in Human-to-Robot Handover</a></td>
+<td width="230">Generate safe receiver-hand approach trajectories for dynamic human-to-robot handover.</td>
+<td width="230">Provides a real multimodal handover benchmark and compares autoregressive, 2-D diffusion, and 3-D diffusion approaches.</td>
+<td width="240">This is one robot arm/right hand receiving from a human, not robot bimanual manipulation; hard-mode success and safety remain low.</td>
+<td width="280">UR10e + right ShadowHand; 12 external RGB cameras, four Azure Kinects, two wrist RealSense D455 cameras</td>
+<td width="160">Hardware 24 DoF; modeled state uses 22 joints + global SE(3)</td>
+<td width="220">Moving-object receiver grasp; goal-pose preparation, reactive approach, and final alignment</td>
+<td width="180">None reported</td>
+<td width="210">Predicts future sequences of global SE(3) + 22-D articulation states; control frequency not disclosed</td>
+<td width="330">4,282 real handovers / 456K frames, 39 people, 56 objects; split 2,888/591/803; DexGraspNet pretraining and Isaac Gym stability screening</td>
+<td width="240">Synthetic grasp pretraining + Isaac stability filter → real-data fine-tuning → real receiver execution</td>
+<td width="220">&lt;50 ms glove teleoperation captures robot receiver motion; human giver remains external</td>
+<td width="300">Easy MotionNet/DP3 success 71.1/66.3%; Hard 26.6/27.1%, with safety 15.4/33.7%</td>
+<td width="180"><a href="https://openaccess.thecvf.com/content/ICCV2025/html/Wang_DexH2R_A_Benchmark_for_Dynamic_Dexterous_Grasping_in_Human-to-Robot_Handover_ICCV_2025_paper.html">paper</a> / <a href="https://dexh2r.github.io/">project</a> / <a href="https://github.com/4DVLab/DexH2R">code</a></td>
 </tr>
 <tr>
-<td width="110" nowrap>CVPR 2025</td>
-<td width="280"><a href="https://openaccess.thecvf.com/content/CVPR2025/html/Li_ManipTrans_Efficient_Dexterous_Bimanual_Manipulation_Transfer_via_Residual_Learning_CVPR_2025_paper.html">ManipTrans: Efficient Dexterous Bimanual Manipulation Transfer via Residual Learning</a></td>
-<td width="280">Transfer human bimanual manipulation motions to dexterous robotic hands.</td>
-<td width="260">Builds DexManipNet by transferring hand-object motions to dexterous hands in Isaac Gym with residual learning.</td>
-<td width="260">MoCap lacks tactile feedback; real-world deployment and fine contact remain difficult.</td>
-<td width="200">Shadow Hand; Inspire hand; MANO hand; Allegro in comparison</td>
-<td width="160">varies by hand morphology</td>
-<td width="200">-</td>
-<td width="220">dexterous bimanual simulation setup</td>
-<td width="220">DexManipNet; human MoCap; Isaac Gym</td>
-<td width="240">human MoCap retargeting / residual transfer</td>
-<td width="220">-</td>
-<td width="180"><a href="https://openaccess.thecvf.com/content/CVPR2025/papers/Li_ManipTrans_Efficient_Dexterous_Bimanual_Manipulation_Transfer_via_Residual_Learning_CVPR_2025_paper.pdf">paper</a></td>
-</tr>
-<tr>
-<td width="110" nowrap>ICML 2024</td>
-<td width="280"><a href="https://proceedings.mlr.press/v235/he24o.html">DynSyn: Dynamical Synergistic Representation for Efficient Learning and Control in Overactuated Embodied Systems</a></td>
-<td width="280">Reduce control complexity for overactuated embodied systems.</td>
-<td width="260">Learns dynamical synergies for efficient control across musculoskeletal control tasks.</td>
-<td width="260">Not a paper about a specific dexterous-hand hardware platform.</td>
-<td width="200">-</td>
-<td width="160">overactuated control systems</td>
-<td width="200">-</td>
-<td width="220">musculoskeletal models</td>
-<td width="220">control benchmarks</td>
-<td width="240">-</td>
-<td width="220">-</td>
-<td width="180"><a href="https://proceedings.mlr.press/v235/he24o/he24o.pdf">paper</a></td>
-</tr>
-<tr>
-<td width="110" nowrap>ICCV 2025</td>
-<td width="280"><a href="https://openaccess.thecvf.com/content/ICCV2025/html/He_DexVLG_Dexterous_Vision-Language-Grasp_Model_at_Scale_ICCV_2025_paper.html">DexVLG: Dexterous Vision-Language-Grasp Model at Scale</a></td>
-<td width="280">Instruction-aligned part-aware dexterous grasp generation from single-view RGB-D.</td>
-<td width="260">Creates DexGraspNet 3.0 with 170M grasp poses across 174K objects and trains a VLM with a flow-matching grasp head.</td>
-<td width="260">Generated grasp ranking and some real-world unsafe grasps remain limitations.</td>
-<td width="200">ShadowHand</td>
-<td width="160">22-D hand pose in model</td>
-<td width="200">-</td>
-<td width="220">ShadowHand on UR10e + Intel RealSense D415 wrist camera</td>
-<td width="220">DexGraspNet 3.0; Isaac Gym part-aware grasp benchmark</td>
-<td width="240">-</td>
-<td width="220">-</td>
-<td width="180"><a href="https://arxiv.org/pdf/2507.02747">paper</a></td>
-</tr>
-<tr>
-<td width="110" nowrap>IROS 2026</td>
-<td width="280"><a href="https://arxiv.org/abs/2606.24450">NoContactNoWorries: Estimating Contact through Vision and Proprioception for In-Hand Dexterous Manipulation</a></td>
-<td width="280">Estimate fingertip contact without tactile hardware for in-hand dexterous manipulation.</td>
-<td width="260">Predicts four fingertip binary contact signals from wrist RGB-D and proprioception and evaluates closed-loop substitution for tactile sensing.</td>
-<td width="260">Does not estimate dense contact maps, slip, force distribution, or local stability cues.</td>
-<td width="200">LEAP Hand</td>
-<td width="160">16-D joint state and commanded joint state</td>
-<td width="200">vision+proprioception contact estimation; four binary fingertip contact labels; FSRs for hardware evaluation</td>
-<td width="220">LEAP Hand + wrist-mounted Intel RealSense D455</td>
-<td width="220">NVIDIA Isaac Gym / PhysX contact labels; real LEAP Hand evaluation</td>
-<td width="240">-</td>
-<td width="220">-</td>
+<td width="100" nowrap>IROS 2026</td>
+<td width="260"><a href="https://arxiv.org/abs/2606.24450">NoContactNoWorries: Estimating Contact through Vision and Proprioception for In-Hand Dexterous Manipulation</a></td>
+<td width="230">Recover fingertip contact without tactile hardware under wrist-camera self-occlusion.</td>
+<td width="230">Predicts four binary contact states from RGB-D plus actual/commanded joints and substitutes them for oracle touch in closed-loop rotation.</td>
+<td width="240">Only fixed fingertip binary contacts are modeled—no dense map, slip, force distribution, or task-general contact representation.</td>
+<td width="280">LEAP Hand + wrist-mounted Intel RealSense D455; thin FSRs used only to score hardware predictions</td>
+<td width="160">16-D hand state/command</td>
+<td width="220">In-hand rotation with predicted fingertip contact; multi-contact closed-loop control</td>
+<td width="180">Four FSRs provide ground truth only and are removed during policy inference/deployment</td>
+<td width="210">Relative joint targets at 20 Hz; RGB-D at 30 Hz; compiled predictor latency 8 ms</td>
+<td width="330">Isaac Gym/PhysX; five training geometries × 50 rollouts × 15 s × 30 Hz ≈ 22.5K labeled frames; physics/perception randomization</td>
+<td width="240">PhysX binary contact supervision → visuo-proprioceptive predictor → direct real policy using pseudo-touch</td>
+<td width="220">None</td>
+<td width="300">Real F1 0.71–0.84 on seen objects and 0.80/0.74 on novel objects; under occlusion Full 0.85 vs vision-only 0.51</td>
 <td width="180"><a href="https://arxiv.org/abs/2606.24450">paper</a> / <a href="https://soham2560.github.io/no-contact-no-worries/">project</a></td>
 </tr>
 <tr>
-<td width="110" nowrap>ICLR 2026</td>
-<td width="280"><a href="https://openreview.net/forum?id=Bf4FeuW0Mr">DemoGrasp: Universal Dexterous Grasping from a Single Demonstration</a></td>
-<td width="280">Learn universal dexterous grasping from one successful demonstration.</td>
-<td width="260">The released repo trains RL policies from a single demonstration and includes Inspire-hand assets/checkpoints.</td>
-<td width="260">-</td>
-<td width="200">Inspire tactile hand asset (`inspire_tac`)</td>
-<td width="160">-</td>
-<td width="200">-</td>
-<td width="220">Franka + Inspire hand config (`fr3_inspire_tac`)</td>
-<td width="220">IsaacGym Preview 4; Union YCB/UniDex assets; single-demo RL</td>
-<td width="240">single demonstration trajectory</td>
-<td width="220">code</td>
-<td width="180"><a href="https://openreview.net/forum?id=Bf4FeuW0Mr">paper</a> / <a href="https://github.com/BeingBeyond/DemoGrasp">code</a></td>
+<td width="100" nowrap>ICLR 2026</td>
+<td width="260"><a href="https://openreview.net/forum?id=Bf4FeuW0Mr">DemoGrasp: Universal Dexterous Grasping from a Single Demonstration</a></td>
+<td width="230">Learn universal closed-loop dexterous grasping from one successful seed trajectory.</td>
+<td width="230">Edits wrist and finger actions in a compact one-step RL problem, then distills successful rollouts to vision policies.</td>
+<td width="240">The single edit is fixed for an episode, limiting recovery from large execution errors despite some vision-policy regrasp behavior.</td>
+<td width="280">Sim: Shadow, Inspire, SVH, Allegro, DClaw, Panda gripper. Real: 7-DoF FR3 + Inspire + two RealSense D435i</td>
+<td width="160">Real Inspire: 6 active + 6 passive joints</td>
+<td width="220">Tabletop grasp/lift, including small and thin objects; occasional finger-table contact is allowed</td>
+<td width="180">None reported</td>
+<td width="210">RL edit = wrist SE(3) transform + hand-joint deltas; low-level 60 Hz, vision policy 3 Hz</td>
+<td width="330">Isaac Gym; one seed trajectory; trained on 3,200 DexGraspNet objects or 175 cross-dataset objects; 35K successful rollouts for sampling/BC comparison</td>
+<td width="240">Single sim demonstration → RL trajectory editor → rendered successful rollouts → flow-matching vision policy → real FR3</td>
+<td width="220">Seed may be teleoperated or scripted; core real policy does not require a large human dataset</td>
+<td width="300">Vision success 90.1% on unseen categories; real 110 unseen objects 86.5% overall (95.3% normal, 71.1% small/thin)</td>
+<td width="180"><a href="https://openreview.net/forum?id=Bf4FeuW0Mr">paper</a> / <a href="https://beingbeyond.github.io/DemoGrasp/">project</a> / <a href="https://github.com/BeingBeyond/DemoGrasp">code</a></td>
 </tr>
 <tr>
-<td width="110" nowrap>ICLR 2026</td>
-<td width="280"><a href="https://openreview.net/forum?id=80vjyj5o7l">DexNDM: Closing the Reality Gap for Dexterous In-Hand Rotation via Joint-Wise Neural Dynamics Model</a></td>
-<td width="280">Close the sim-to-real dynamics gap for generalized in-hand rotation.</td>
-<td width="260">Uses joint-wise neural dynamics plus a residual policy to improve real-world in-air rotation across object shapes, wrist orientations, and rotation axes.</td>
-<td width="260">Still depends on real transition data; tactile integration is listed as future work, and prior tactile baselines could not be directly replicated on LEAP.</td>
-<td width="200">LEAP Hand; Allegro appears in baseline comparison</td>
-<td width="160">-</td>
-<td width="200">-</td>
-<td width="220">LEAP Hand + Franka arm</td>
-<td width="220">Isaac Gym simulation; 4,000 real-world training trajectories; autonomous real transition collection</td>
-<td width="240">Meta Quest 3 / BunnyVisionPro-derived teleoperation for assembly demos</td>
-<td width="220">supplemental code referenced in paper; public project</td>
+<td width="100" nowrap>ICLR 2026</td>
+<td width="260"><a href="https://openreview.net/forum?id=80vjyj5o7l">DexNDM: Closing the Reality Gap for Dexterous In-Hand Rotation via Joint-Wise Neural Dynamics Model</a></td>
+<td width="230">Close the interaction-dynamics gap for generalized in-air rotation across objects, axes, and wrist poses.</td>
+<td width="230">Learns joint-wise real dynamics from autonomous loaded interactions and trains a residual compensator over a sim policy.</td>
+<td width="240">Still needs substantial real transition collection; the dynamics model omits object shape and tactile feedback.</td>
+<td width="280">7-DoF Franka arm + LEAP Hand; Chaos Box loaded-interaction rig</td>
+<td width="160">LEAP 16 DoF; position controlled</td>
+<td width="220">Unsupported in-air rotation over multiple axes and wrist orientations; rapidly changing whole-hand contacts</td>
+<td width="180">None; tactile integration is future work</td>
+<td width="210">16-D relative joint targets at 20 Hz</td>
+<td width="330">Isaac Gym PPO teacher and BC policy; 24K real Chaos Box transition trajectories; Genesis/MuJoCo cross-simulator tests</td>
+<td width="240">Sim policy → autonomous real loaded transitions → joint-wise neural dynamics → residual policy → real deployment</td>
+<td width="220">Core rotation pipeline is autonomous; Meta Quest 3 arm teleoperation only demonstrates a downstream application</td>
+<td width="300">Representative real x/y/z rotation: 6.35/11.32/8.61 rad; cross-simulator tests expose residual domain sensitivity</td>
 <td width="180"><a href="https://arxiv.org/abs/2510.08556">paper</a> / <a href="https://meowuu7.github.io/DexNDM/">project</a></td>
 </tr>
 <tr>
-<td width="110" nowrap>ICLR 2026</td>
-<td width="280"><a href="https://openreview.net/forum?id=FFxkFMU89E">EgoDex: Learning Dexterous Manipulation from Large-Scale Egocentric Video</a></td>
-<td width="280">Provide large-scale egocentric human manipulation data for dexterous policy learning.</td>
-<td width="260">Collects 829 hours of 30 Hz 1080p video with 3D hand/head/upper-body pose and language annotations across 194 tabletop tasks.</td>
-<td width="260">Human hands/MANO annotations still require retargeting or policy learning for robot hand execution.</td>
-<td width="200">human hands / MANO annotations</td>
-<td width="160">3D hand-pose annotations; robot-hand DoF not applicable</td>
-<td width="200">-</td>
-<td width="220">Apple Vision Pro / ARKit capture</td>
-<td width="220">EgoDex dataset and benchmark; train/test/additional splits</td>
-<td width="240">Apple Vision Pro + ARKit egocentric hand tracking</td>
-<td width="220">code/data access scripts</td>
-<td width="180"><a href="https://arxiv.org/pdf/2505.11709">paper</a> / <a href="https://github.com/apple/ml-egodex">code</a></td>
-</tr>
-<tr>
-<td width="110" nowrap>ICLR 2026</td>
-<td width="280"><a href="https://openreview.net/forum?id=Kt9tJeOwjy">RFS: Reinforcement learning with Residual flow steering for dexterous manipulation</a></td>
-<td width="280">RL fine-tuning for dexterous manipulation with residual flow steering.</td>
-<td width="260">Adapts pretrained flow-matching policies with PPO/offline residual RL, improving six simulated tasks and real Franka-LEAP grasp/pick-place.</td>
-<td width="260">Still needs simulation pretraining plus limited real corrective demonstrations; no tactile hardware is reported.</td>
-<td width="200">LEAP Hand</td>
-<td width="160">-</td>
-<td width="200">-</td>
-<td width="220">Franka arm + LEAP Hand</td>
-<td width="220">six simulated tasks; sim-to-real pipeline; about 400 Apple Vision Pro AR demos per task; 50 SpaceMouse corrective demos</td>
-<td width="240">Apple Vision Pro AR teleoperation; SpaceMouse corrective intervention</td>
-<td width="220">project</td>
+<td width="100" nowrap>ICLR 2026</td>
+<td width="260"><a href="https://openreview.net/forum?id=Kt9tJeOwjy">RFS: Reinforcement learning with Residual flow steering for dexterous manipulation</a></td>
+<td width="230">Fine-tune multimodal flow policies without destroying pretrained behaviors.</td>
+<td width="230">Combines latent flow steering for global mode changes with bounded residual actions for local correction.</td>
+<td width="240">Still requires simulation pretraining and real corrective demonstrations; unseen-object success remains below seen-object performance.</td>
+<td width="280">7-DoF Franka arm + LEAP Hand under Cartesian impedance control</td>
+<td width="160">Hand DoF not stated in the checked paper</td>
+<td width="220">Six sim tasks; real grasp and pick-place with contact-sensitive finger adjustment</td>
+<td width="180">No real tactile hardware; sim observation includes binary fingertip contact</td>
+<td width="210">10 Hz; residual bounded to 1.5 cm Cartesian translation and 0.05 rad finger motion</td>
+<td width="330">Isaac Lab; six tasks with about 400 Vision Pro demos/task; 1,000 sim distillation demos for each real task; 50 real SpaceMouse corrections</td>
+<td width="240">State RL in Isaac Lab → point-cloud policy distillation/randomization → zero-shot real → offline residual/flow correction</td>
+<td width="220">Vision Pro teleoperation; SpaceMouse provides bounded corrective interventions</td>
+<td width="300">Sim average 0.87; real seen grasp/pick-place 90/80%, unseen 70/74%; zero-shot baselines 40/30% on unseen</td>
 <td width="180"><a href="https://arxiv.org/abs/2602.01789">paper</a> / <a href="https://weirdlabuw.github.io/rfs/">project</a></td>
 </tr>
 <tr>
-<td width="110" nowrap>ICLR 2026</td>
-<td width="280"><a href="https://openreview.net/forum?id=NZDaMcpXZm">Learning to Grasp Anything By Playing with Random Toys</a></td>
-<td width="280">Train grasp policies on randomized toys and test zero-shot generalization to real objects.</td>
-<td width="260">Reports 80% zero-shot success in ManiSkill YCB simulation, 67% real Franka DROID success on YCB, and 51% real H1-2 plus dexterous hands success.</td>
-<td width="260">Checked project page does not state the exact dexterous-hand model, DoF, tactile setup, or SDK.</td>
-<td width="200">-</td>
-<td width="160">-</td>
-<td width="200">-</td>
-<td width="220">Franka DROID; H1-2 humanoid with dexterous hands</td>
-<td width="220">250 randomized toys; 1,500 Franka toy demos; 500 H1-2 toy demos; ManiSkill/YCB evaluation</td>
-<td width="240">teleoperated data collection is implied by demos; exact device not stated</td>
-<td width="220">project</td>
-<td width="180"><a href="https://openreview.net/forum?id=NZDaMcpXZm">paper</a> / <a href="https://lego-grasp.github.io/">project</a></td>
+<td width="100" nowrap>ICLR 2026</td>
+<td width="260"><a href="https://openreview.net/forum?id=NZDaMcpXZm">Learning to Grasp Anything By Playing with Random Toys</a></td>
+<td width="230">Acquire object-general tabletop grasping from a small vocabulary of randomly assembled primitive toys.</td>
+<td width="230">LEGO uses detection pooling to learn object-centric features and transfers from toy data to YCB/everyday objects on gripper and humanoid hands.</td>
+<td width="240">Still requires embodiment-specific demonstrations; H1-2 success is about 51%, and hardware issues affected some Inspire thumb joints.</td>
+<td width="280">Sim: Franka + gripper. Real: Panda + Robotiq 2F-85; Unitree H1-2 left 7-DoF arm + Inspire RH56DFTP</td>
+<td width="160">Franka 7+1; Inspire 6 active DoF / 12 linked joints</td>
+<td width="220">Tabletop grasp-and-lift; zero-shot object generalization from spheres/cuboids/cylinders/rings</td>
+<td width="180">Inspire has pressure sensors, but LEGO does not use tactile input</td>
+<td width="210">Absolute joint/state actions: Franka 8-D, H1-2 40-D; 16-step history → 16-action chunk; rate not disclosed</td>
+<td width="330">ManiSkill/SAPIEN: 2,500 sim demonstrations from 250 toys; real: 1,500 Franka demos and 500 H1-2 demos</td>
+<td width="240">Toy-domain behavior cloning with object masks → direct embodiment-specific real training/evaluation; no sim-to-real policy transfer to H1-2</td>
+<td width="220">ManiSkill scripted/teleop data; Meta Quest 3 for Franka; Apple Vision Pro + Unitree XR Teleoperate for H1-2</td>
+<td width="300">Sim YCB 80%; real Franka 66.67%; real H1-2 50.77% over 13 objects (five trials/object)</td>
+<td width="180"><a href="https://arxiv.org/abs/2510.12866">paper</a> / <a href="https://lego-grasp.github.io/">project</a></td>
 </tr>
 <tr>
-<td width="110" nowrap>ICLR 2026</td>
-<td width="280"><a href="https://openreview.net/forum?id=aemqAxScl9">SARM: Stage-Aware Reward Modeling for Long Horizon Robot Manipulation</a></td>
-<td width="280">Stage-aware reward modeling for long-horizon robot manipulation.</td>
-<td width="260">Uses stage labels to filter/reweight demonstrations and reports 83% T-shirt folding from flattened state and 67% from crumpled state.</td>
-<td width="260">Not a dexterous-hand hardware paper; depends on large teleoperated video-action datasets and visual reward estimation.</td>
-<td width="200">-</td>
-<td width="160">-</td>
-<td width="200">-</td>
-<td width="220">YAM 7-DoF bimanual robot</td>
-<td width="220">200 hours of T-shirt folding demonstrations; top and wrist camera videos; joint states/actions; Pi0/LeRobot training</td>
-<td width="240">GELLO teleoperation</td>
-<td width="220">code; LeRobot integration</td>
-<td width="180"><a href="https://arxiv.org/abs/2509.25358">paper</a> / <a href="https://qianzhong-chen.github.io/sarm.github.io/">project</a> / <a href="https://github.com/xdofai/opensarm">code</a> / <a href="https://github.com/huggingface/lerobot/blob/main/docs/source/sarm.mdx">LeRobot</a></td>
-</tr>
-<tr>
-<td width="110" nowrap>ICLR 2026</td>
-<td width="280"><a href="https://openreview.net/forum?id=cVX3VqO8BO">UniHM: Unified Dexterous Hand Manipulation with Vision Language Model</a></td>
-<td width="280">Unified dexterous-hand manipulation with a vision-language model.</td>
-<td width="260">Trains a morphology-agnostic hand codebook/VLM from HOI data and validates cross-embodiment manipulation in simulation and real trials.</td>
-<td width="260">Uses RGB-D only; no tactile/force sensing, simplified contact modeling, and hand-token scale remain open limitations.</td>
-<td width="200">Shadow, Allegro, Schunk/SVH, LEAP, Ability, Panda gripper retargeting; real Panda Hand, XHand, Inspire Hand</td>
-<td width="160">real setup: 2-DoF Panda Hand, 12-DoF XHand, 6-DoF Inspire Hand</td>
-<td width="200">-</td>
-<td width="220">7-DoF Franka arm + ZED RGB-D camera</td>
-<td width="220">DexYCB and OakInk; SAPIEN visualization/simulation checks; HOI-to-robot retargeting</td>
-<td width="240">human-object interaction data; no massive real teleoperation dataset</td>
-<td width="220">code</td>
+<td width="100" nowrap>ICLR 2026</td>
+<td width="260"><a href="https://openreview.net/forum?id=cVX3VqO8BO">UniHM: Unified Dexterous Hand Manipulation with Vision Language Model</a></td>
+<td width="230">Generate open-vocabulary, multi-step hand-object interaction across hand morphologies.</td>
+<td width="230">Learns a shared discrete action codebook and refines decoded trajectories with object-centric physical constraints.</td>
+<td width="240">Uses RGB-D without tactile/force sensing; contact modeling is simplified and every new hand still needs a morphology-specific encoder/decoder.</td>
+<td width="280">Retargets Shadow, Allegro, SVH, LEAP, Panda (Ability in appendix); real 7-DoF Franka + Panda/XHand/Inspire + ZED</td>
+<td width="160">Real hands: Panda 2, XHand 12, Inspire 6 DoF</td>
+<td width="220">Open-vocabulary grasp, pick-place, pull-push, and open-close interaction sequences</td>
+<td width="180">None; contact comes from geometry/collision constraints</td>
+<td width="210">8,192-entry VQ codebook → hand-specific joint trajectory → Gauss-Newton refinement; rate not disclosed</td>
+<td width="330">DexYCB 582K frames and OakInk-Image 230K frames; 80/20 seen/unseen split; SAPIEN is used only to visualize/validate generated sequences</td>
+<td width="240">Human HOI → shared hand tokens → morphology decoder/retargeting → object-trajectory conditioning and physical refinement → real execution</td>
+<td width="220">Offline DexYCB/OakInk human interaction data; no large real-robot teleoperation set</td>
+<td width="300">Real seen success grasp/pick-place/pull-push/open-close 65/50/60/55%; unseen 60/35/55/45%</td>
 <td width="180"><a href="https://arxiv.org/abs/2603.00732">paper</a> / <a href="https://unihm.github.io/">project</a> / <a href="https://github.com/Zhenhao-Zhang/UniHM">code</a></td>
 </tr>
 <tr>
-<td width="110" nowrap>ICLR 2026</td>
-<td width="280"><a href="https://openreview.net/forum?id=k8ovuXEQQu">House Of Dextra : Cross-Embodied Co-Design for Dexterous Hands</a></td>
-<td width="280">Cross-embodied co-design for dexterous hands.</td>
-<td width="260">Searches morphology and policy jointly, then fabricates modular hands and deploys morphology-conditioned policies zero-shot in the real world.</td>
-<td width="260">Closed-loop policy is blind: no camera, object-state, or tactile feedback; morphology search is still task-family specific.</td>
-<td width="200">generated modular hands; LEAP baseline</td>
-<td width="160">variable 3-5 fingers; 2-3 actuated joints / 3-4 servo motors per finger; Dynamixel XL330-M288-T servos</td>
-<td width="200">no camera or tactile feedback</td>
-<td width="220">modular 3D-printed robot hands; fixed-wrist hand platform</td>
-<td width="220">2,000-8,000 generated hand variants; 2,048 parallel evaluations; PPO morphology-conditioned simulation-to-real</td>
-<td width="240">-</td>
-<td width="220">project/build guide</td>
+<td width="100" nowrap>ICLR 2026</td>
+<td width="260"><a href="https://openreview.net/forum?id=k8ovuXEQQu">House Of Dextra: Cross-Embodied Co-Design for Dexterous Hands</a></td>
+<td width="230">Jointly search hand morphology and control without making each candidate prohibitively expensive.</td>
+<td width="230">Uses graph-grammar design search and a morphology-conditioned PPO policy, then fabricates four modular hands for zero-shot real deployment.</td>
+<td width="240">Blind proprioception-only control limits object-state estimation; morphology search remains task-family specific and the simulator is not named.</td>
+<td width="280">Generated fixed-wrist modular hands; LEAP baseline; four real 3D-printed hands using Dynamixel XL330-M288-T servos</td>
+<td width="160">3–5 fingers; 2–3 actuated joints / 3–4 servos per finger</td>
+<td width="220">Blind in-hand rotation; sim-only grasping and object flipping; encoder-resistance contact effects are implicit</td>
+<td width="180">None; no camera or tactile feedback</td>
+<td width="210">Masked joint-position commands; closed-loop proprioception; control rate not disclosed</td>
+<td width="330">Simulator not disclosed; 2,000–8,000 generated morphologies, 50×40 search evaluations, 2,048 parallel randomized environments; PPO</td>
+<td width="240">Cross-embodiment co-search → domain-randomized blind policy → programmatic fabrication → PID tuning → zero-shot real</td>
+<td width="220">None</td>
+<td width="300">Optimal 3-finger hand rotates 15/17 unseen objects; anthropomorphic and 4-finger hands 3/17; best sim search reaches 3.3 rad/s</td>
 <td width="180"><a href="https://arxiv.org/abs/2512.03743">paper</a> / <a href="https://an-axolotl.github.io/HouseofDextra/">project</a></td>
 </tr>
 <tr>
-<td width="110" nowrap>ICLR 2026</td>
-<td width="280"><a href="https://openreview.net/forum?id=tv0Sz8A9Tc">Robotic Manipulation by Imitating Generated Videos Without Physical Demonstrations</a></td>
-<td width="280">Robot manipulation from generated videos without physical demonstrations.</td>
-<td width="260">RIGVid extracts 6D object trajectories from filtered generated videos and reports 85% success over four real tasks versus 50% for ReKep.</td>
-<td width="260">Not a dexterous-hand paper; failures are mainly from monocular depth and pose-estimation errors, with one reported gripper slip case.</td>
-<td width="200">-</td>
-<td width="160">parallel-jaw end-effector implied by grasp/retarget pipeline</td>
-<td width="200">-</td>
-<td width="220">xArm7 robot arm + stationary Orbbec Femto Bolt RGB-D camera</td>
-<td width="220">generated videos; VLM filtering; monocular depth; FoundationPose 6D tracking; four real-world tasks</td>
-<td width="240">no physical demonstrations; generated-video imitation</td>
-<td width="220">project</td>
-<td width="180"><a href="https://arxiv.org/abs/2507.00990">paper</a> / <a href="https://rigvid-robot.github.io/">project</a></td>
-</tr>
-<tr>
-<td width="110" nowrap>ICLR 2026</td>
-<td width="280"><a href="https://openreview.net/forum?id=wySMuWHmt4">Primary-Fine Decoupling for Action Generation in Robotic Imitation</a></td>
-<td width="280">Action generation for robotic imitation via primary/fine decoupling.</td>
-<td width="260">PF-DAG outperforms imitation baselines across 56 Adroit/DexArt/MetaWorld tasks and real tactile manipulation tasks.</td>
-<td width="260">Real failures still occur under out-of-distribution object placements and intermittent tactile noise.</td>
-<td width="200">Shadow Hand, Allegro Hand in simulation; ROBOTERA XHand in real tasks</td>
-<td width="160">real XHand setup uses 12-DoF hand; xArm adds 7 DoF</td>
-<td width="200">5 fingertips, 120 tactile taxels per fingertip, 3D force vector readings</td>
-<td width="220">UFACTORY xArm7 + two-finger gripper; xArm + ROBOTERA XHand</td>
-<td width="220">Adroit/DexArt/MetaWorld; MuJoCo/IsaacGym; scripted/RL expert demos; real point cloud/proprioception/tactile logs</td>
-<td width="240">GELLO for xArm gripper; Meta Quest 3 hand tracking + AnyTeleop retargeting for XHand</td>
-<td width="220">code</td>
+<td width="100" nowrap>ICLR 2026</td>
+<td width="260"><a href="https://openreview.net/forum?id=wySMuWHmt4">Primary-Fine Decoupling for Action Generation in Robotic Imitation</a></td>
+<td width="230">Represent multimodal demonstrations without averaging modes or switching incoherently between them.</td>
+<td width="230">PF-DAG predicts a discrete primary mode and a continuous fine action, improving low- and high-DoF imitation.</td>
+<td width="240">Real failures remain under OOD object placement and intermittent tactile noise; benchmarks do not share one uniform engine.</td>
+<td width="280">Sim: Adroit Shadow, DexArt Allegro, MetaWorld gripper. Real: xArm + gripper or xArm + ROBOTERA XHand + RealSense L515</td>
+<td width="160">Real: arm+gripper 7+1; arm+XHand 7+12 DoF</td>
+<td width="220">56 grasp/manipulation tasks; real pick cube, place toy, wipe table, and tactile bin placement</td>
+<td width="180">XHand: 5 fingertips × 120 taxels × 3-D force vector; no tactile on gripper tasks</td>
+<td width="210">Absolute joint positions at 30 Hz: 8-D or 19-D</td>
+<td width="330">56 Adroit/DexArt/MetaWorld tasks; 10 expert demos/task for Adroit/MetaWorld and 90 for DexArt; paper does not give one engine mapping for all suites</td>
+<td width="240">No sim-to-real transfer claim; the same primary/fine architecture is trained separately on real demonstrations</td>
+<td width="220">GELLO for xArm+gripper; Meta Quest 3 hand tracking + AnyTeleop retargeting for XHand</td>
+<td width="300">56-task overall success 79.6%; real four-task success 70/90/70/80%</td>
 <td width="180"><a href="https://arxiv.org/abs/2602.21684">paper</a> / <a href="https://xiaohanlei.github.io/projects/PF-DAG/">project</a> / <a href="https://github.com/XiaohanLei/PF-DAG">code</a></td>
 </tr>
 <tr>
-<td width="110" nowrap>ICLR 2026</td>
-<td width="280"><a href="https://openreview.net/forum?id=13jshGCK9i">D-REX: Differentiable Real-to-Sim-to-Real Engine for Learning Dexterous Grasping</a></td>
-<td width="280">Differentiable real-to-sim-to-real learning for dexterous grasping.</td>
-<td width="260">Builds differentiable MuJoCo/MJCF digital twins, identifies object mass, and trains force-aware grasping policies from human RGB demonstrations.</td>
-<td width="260">Current scope is rigid-body and object-specific; force-control effectiveness is unknown for linkage-driven hands such as Inspire.</td>
-<td width="200">Allegro Hand; LEAP Hand</td>
-<td width="160">both hands have 16 independently actuated DoF; direct-drive brushless motors; LEAP current/torque limiting</td>
-<td width="200">no tactile array; uses visual 6D pose plus actuator current/torque limits for force-aware control</td>
-<td width="220">7-DoF Franka Emika Panda + Allegro/LEAP; Intel RealSense D435i or iPhone scanning</td>
-<td width="220">MuJoCo differentiable physics; MJCF assets from Gaussian/mesh reconstruction; Dex-Retargeting human RGB demos</td>
-<td width="240">human RGB videos to robot demonstrations via Dex-Retargeting</td>
-<td width="220">code</td>
+<td width="100" nowrap>ICLR 2026</td>
+<td width="260"><a href="https://openreview.net/forum?id=13jshGCK9i">D-REX: Differentiable Real-to-Sim-to-Real Engine for Learning Dexterous Grasping</a></td>
+<td width="230">Build object-specific digital twins and identify dynamics for force-aware dexterous grasping.</td>
+<td width="230">Differentiates through reconstructed MuJoCo scenes to identify object mass and learn policies from retargeted human RGB videos.</td>
+<td width="240">Evidence is rigid-body and object specific; the appendix describes LEAP actuation inconsistently, and small objects remain limited by pose/mesh error and finger size.</td>
+<td width="280">7-DoF Franka Panda + Allegro Hand or LEAP Hand; RealSense D435i or iPhone capture</td>
+<td width="160">Both hands: 16 independently actuated DoF</td>
+<td width="220">Object-specific grasp/lift with position- and force-aware contact control</td>
+<td width="180">No tactile array; uses visual pose plus motor current/torque limits as force proxy</td>
+<td width="210">16-D joint targets plus contact/force conditioning; control rate not disclosed; single-pose inference is ~0.5 s and is not a control frequency</td>
+<td width="330">MuJoCo differentiable physics + Brax policy training + GradSim reconstruction; about 300 scene images and 200–300 grasp poses per object</td>
+<td width="240">Real scan → Gaussian/mesh digital twin → differentiable mass ID → human-video retargeting → force-aware sim policy → real</td>
+<td width="220">Human RGB videos → hand/object pose extraction → Dex-Retargeting to robot demonstrations</td>
+<td width="300">Average real success 86% vs 75/76% baselines; OOD objects score 9/10, 10/10, and 9/10</td>
 <td width="180"><a href="https://arxiv.org/abs/2603.01151">paper</a> / <a href="https://drex.github.io/">project</a> / <a href="https://github.com/louhz/D-rex">code</a></td>
 </tr>
 <tr>
-<td width="110" nowrap>ICLR 2026</td>
-<td width="280"><a href="https://openreview.net/forum?id=RYwQ0xQcAh">Interaction-aware Representation Modeling With Co-Occurrence Consistency for Egocentric Hand-Object Parsing</a></td>
-<td width="280">Egocentric hand-object parsing with interaction-aware representations.</td>
-<td width="260">InterFormer improves egocentric hand-object segmentation on EgoHOS in-domain/OOD and mini-HOI4D by modeling contact-aware queries and co-occurrence consistency.</td>
-<td width="260">Perception-only method; not a robot dexterous-hand, tactile, control, or SDK contribution.</td>
-<td width="200">-</td>
-<td width="160">-</td>
-<td width="200">vision-based hand-object contact parsing, not tactile sensing</td>
-<td width="220">-</td>
-<td width="220">EgoHOS; mini-HOI4D; egocentric images with hand/object masks</td>
-<td width="240">egocentric human interaction data</td>
-<td width="220">code/models promised on paper acceptance</td>
-<td width="180"><a href="https://arxiv.org/abs/2602.20597">paper</a> / <a href="https://github.com/yuggiehk/InterFormer">code</a></td>
-</tr>
-<tr>
-<td width="110" nowrap>AAAI 2026</td>
-<td width="280"><a href="https://ojs.aaai.org/index.php/AAAI/article/view/38873">GRIM: Task-Oriented Grasping with Conditioning on Generative Examples</a></td>
-<td width="280">Task-oriented grasping conditioned on generative examples.</td>
-<td width="260">Uses web images, human demos, and generative examples as a small memory to transfer 6D task-oriented parallel-jaw grasps; validates on TaskGrasp and Kinova Gen3 Lite.</td>
-<td width="260">Not a dexterous-hand hardware paper; semantic alignment quality and generated/web example fidelity remain key failure sources.</td>
-<td width="200">-</td>
-<td width="160">6D parallel-jaw gripper pose</td>
-<td width="200">-</td>
-<td width="220">Kinova Gen3 Lite manipulator</td>
-<td width="220">TaskGrasp; 210 memory instances from 180 generated frames, 15 web images, and 15 human demonstrations</td>
-<td width="240">web images, human demonstrations, and generated videos</td>
-<td width="220">project/code/data</td>
-<td width="180"><a href="https://arxiv.org/abs/2506.15607">paper</a> / <a href="https://grim-tog.github.io/">project</a></td>
-</tr>
-<tr>
-<td width="110" nowrap>AAAI 2026</td>
-<td width="280"><a href="https://ojs.aaai.org/index.php/AAAI/article/view/38874">Dexterous Manipulation Transfer via Progressive Kinematic-Dynamic Alignment</a></td>
-<td width="280">Dexterous manipulation transfer via kinematic/dynamic alignment.</td>
-<td width="260">Transfers human manipulation videos through staged kinematic and dynamic/contact alignment, reaching about 73% average transfer success.</td>
-<td width="260">Larger hands such as Allegro and LEAP still struggle on small or slender objects; dynamic multi-contact changes remain future work.</td>
-<td width="200">Adroit Hand, Allegro Hand, LEAP Hand</td>
-<td width="160">16 DoF for LEAP/Allegro; 24 DoF for Adroit</td>
-<td width="200">contact points/contact rewards from datasets or simulation, not tactile hardware</td>
-<td width="220">LEAP Hand on robot arm for real-world demonstration</td>
-<td width="220">GRAB, DexYCB, ARCTIC; simulated transfer with contact/dynamics optimization</td>
-<td width="240">offline human video/demonstration datasets</td>
-<td width="220">-</td>
+<td width="100" nowrap>AAAI 2026</td>
+<td width="260"><a href="https://ojs.aaai.org/index.php/AAAI/article/view/38874">Dexterous Manipulation Transfer via Progressive Kinematic-Dynamic Alignment</a></td>
+<td width="230">Transfer human manipulation videos to different dexterous hands with stable contact dynamics.</td>
+<td width="230">PKDA combines kinematic retargeting, thumb-guided pre-grasp, residual contact RL, and wrist trajectory planning.</td>
+<td width="240">Allegro/LEAP struggle with small or slender objects; changing multi-contact dynamics remain open and real results are qualitative.</td>
+<td width="280">Sim: Adroit, Allegro, LEAP Hands. Real: UR10 arm + LEAP Hand</td>
+<td width="160">Adroit 24; Allegro/LEAP 16 DoF</td>
+<td width="220">Grasp, in-hand/articulated manipulation, and object-following with changing fingertip contacts</td>
+<td width="180">No tactile hardware; contact points/rewards come from video estimates and simulation</td>
+<td width="210">Action first 6 dimensions control wrist, remainder finger joints; MuJoCo control at 120 Hz</td>
+<td width="330">MuJoCo; about 600 GRAB, 40 TCDM, 10 DexYCB, 10 TACO, and 5 self-captured trajectories</td>
+<td width="240">Video perception → hand retargeting → MuJoCo residual RL/contact alignment → wrist planning → open-loop real replay</td>
+<td width="220">Offline human videos/datasets; no online teleoperation</td>
+<td width="300">Transfer success Adroit/Allegro/LEAP 77.5/72.5/67.5%; real LEAP deployment is qualitative only</td>
 <td width="180"><a href="https://arxiv.org/abs/2511.10987">paper</a> / <a href="https://ojs.aaai.org/index.php/AAAI/article/view/38874">AAAI</a></td>
 </tr>
 <tr>
-<td width="110" nowrap>AAAI 2026</td>
-<td width="280"><a href="https://ojs.aaai.org/index.php/AAAI/article/view/38892">Learning Object-Centric Motion Priors from Human for Robotic Dexterous Manipulation</a></td>
-<td width="280">Learn object-centric motion priors from human motion for robotic dexterous manipulation.</td>
-<td width="260">Predicts future hand-object states from HOI data, then uses the object-centric prior to guide RL on grasping, articulated-object, and obstacle tasks.</td>
-<td width="260">No tactile sensors; contact is from SAPIEN collision checks, and deployment depends on object pose tracking/calibration.</td>
-<td width="200">PSYONIC Ability Hand, ROBOTERA XHand1, Inspire Hand</td>
-<td width="160">-</td>
-<td width="200">simulation collision contact, not tactile sensing</td>
-<td width="220">two xArm-7 arms + dexterous hands + RealSense D435i</td>
-<td width="220">DexYCB and ARCTIC HOI data; SAPIEN3/OpenAI-Gymnasium; 1,024 parallel environments</td>
-<td width="240">human-object interaction datasets, not online teleoperation</td>
-<td width="220">-</td>
-<td width="180"><a href="https://ojs.aaai.org/index.php/AAAI/article/view/38892">paper</a></td>
+<td width="100" nowrap>AAAI 2026</td>
+<td width="260"><a href="https://ojs.aaai.org/index.php/AAAI/article/view/38892">Learning Object-Centric Motion Priors from Human for Robotic Dexterous Manipulation</a></td>
+<td width="230">Learn reusable object-centric motion priors from HOI data without task-specific reward engineering.</td>
+<td width="230">A GPT-2 motion predictor supplies future hand-object states; object-following rewards guide PPO across grasping, articulation, obstacle avoidance, and hand embodiments.</td>
+<td width="240">Requires tracked 6-DoF object poses, calibrated retargeting, and per-hand system identification; contact comes from collision checks, not touch.</td>
+<td width="280">Dual xArm-7; each arm mounts a PSYONIC Ability, ROBOTERA XHand1, or Inspire hand; RealSense D435i</td>
+<td width="160">7 DoF/arm; hand DoF not stated</td>
+<td width="220">Grasp/lift, articulated-object rotation, collision-free grasping, cross-hand transfer</td>
+<td width="180">None; SAPIEN collision contact only</td>
+<td width="210">Delta end-effector pose + delta hand-joint positions; rate not stated</td>
+<td width="330">SAPIEN3 + OpenAI Gymnasium; 1,024 parallel environments; PPO for 1M steps; DexYCB and ARCTIC HOI data</td>
+<td width="240">HOI prediction → embodiment-specific retargeting → PPO with system identification and domain randomization → zero-shot real</td>
+<td width="220">Offline DexYCB/ARCTIC human-object data; no online teleoperation</td>
+<td width="300">Grasp sim/real 84%/77%; articulation 66%/53%; obstacle grasp 66%/63%</td>
+<td width="180"><a href="https://ojs.aaai.org/index.php/AAAI/article/view/38892">AAAI</a></td>
 </tr>
 <tr>
-<td width="110" nowrap>AAAI 2026</td>
-<td width="280"><a href="https://ojs.aaai.org/index.php/AAAI/article/view/38894">Real Garment Benchmark (RGBench): A Comprehensive Benchmark for Robotic Garment Manipulation Featuring a High-Fidelity Scalable Simulator</a></td>
-<td width="280">Benchmark and simulate robotic garment manipulation.</td>
-<td width="260">RGBench provides 6000+ garment meshes, a high-performance simulator, and measured real garment dynamics for evaluation.</td>
-<td width="260">Garment-simulation benchmark rather than dexterous-hand hardware paper.</td>
-<td width="200">-</td>
-<td width="160">-</td>
-<td width="200">-</td>
-<td width="220">robotic garment manipulation benchmark</td>
-<td width="220">6000+ garment meshes; measured real dynamics; scalable simulator</td>
-<td width="240">-</td>
-<td width="220">code</td>
-<td width="180"><a href="https://ojs.aaai.org/index.php/AAAI/article/view/38894">paper</a> / <a href="https://rgbench.github.io/">project</a> / <a href="https://github.com/hwk0809/RGBench">code</a></td>
-</tr>
-<tr>
-<td width="110" nowrap>AAAI 2026</td>
-<td width="280"><a href="https://ojs.aaai.org/index.php/AAAI/article/view/38940">GraphGrasp: Lightweight and Efficient Graph-Guided 6-DoF Robotic Grasp Pose Estimation Network</a></td>
-<td width="280">Lightweight graph-guided 6-DoF robotic grasp pose estimation.</td>
-<td width="260">Evaluates graph-guided 6-DoF grasp pose prediction on GraspNet-1Billion and real-world grasp pose detection with fewer parameters than baselines.</td>
-<td width="260">Parallel-gripper pose estimator rather than dexterous-hand hardware; no tactile/contact-rich policy is reported.</td>
-<td width="200">-</td>
-<td width="160">6-DoF parallel-gripper pose and opening width</td>
-<td width="200">-</td>
-<td width="220">Intel RealSense D435 used for real-world grasp-pose detection</td>
-<td width="220">GraspNet-1Billion dataset; point-cloud graph grasp prediction</td>
-<td width="240">-</td>
-<td width="220">code</td>
-<td width="180"><a href="https://ojs.aaai.org/index.php/AAAI/article/view/38940">paper</a> / <a href="https://github.com/BIT-robot-group/GraphGrasp">code</a></td>
-</tr>
-<tr>
-<td width="110" nowrap>AAAI 2026</td>
-<td width="280"><a href="https://ojs.aaai.org/index.php/AAAI/article/view/38953">DexGraspVLA: A Vision-Language-Action Framework Towards General Dexterous Grasping</a></td>
-<td width="280">Language-guided general dexterous grasping in clutter.</td>
-<td width="260">Uses a pretrained VLM planner and diffusion action controller; AAAI page reports 90+% success in unseen cluttered scenes.</td>
-<td width="260">Hardware-related code is not open-sourced; public repo exposes non-hardware controller/planner code and a small demo dataset.</td>
-<td width="200">-</td>
-<td width="160">13-DoF right arm+hand action/state in released demo data</td>
-<td width="200">-</td>
-<td width="220">-</td>
-<td width="220">51 human demonstration samples in Zarr example; real deployment logs; diffusion controller</td>
-<td width="240">human demonstration data; optional manual bbox mode</td>
-<td width="220">code; planner/controller configs; no hardware code</td>
+<td width="100" nowrap>AAAI 2026</td>
+<td width="260"><a href="https://ojs.aaai.org/index.php/AAAI/article/view/38953">DexGraspVLA: A Vision-Language-Action Framework Towards General Dexterous Grasping</a></td>
+<td width="230">Generalize language-guided dexterous grasping across unseen objects, clutter, lighting, and backgrounds.</td>
+<td width="230">A pretrained VLM plans target boxes/masks; a DINOv2-conditioned DiT controller executes grasping, long-horizon, and nonprehensile tasks.</td>
+<td width="240">Real-only evaluation uses one arm-hand stack and no tactile input; hardware code is not public.</td>
+<td width="280">7-DoF RealMan RM75-6F + 6-DoF PsiBot G0-R; wrist RealSense D405C + head RealSense D435</td>
+<td width="160">13 DoF total: 7 arm + 6 hand</td>
+<td width="220">Cluttered grasp/lift, repeated attempts, long-horizon task chains, nonprehensile grasping</td>
+<td width="180">None</td>
+<td width="210">13-D target joint angles; DiT action chunks at 20 Hz</td>
+<td width="330">Real-only; 2,094 successful grasp demos/36 objects, plus 1,029 nonprehensile demos/32 objects</td>
+<td width="240">Not applicable: trained and evaluated on the real platform</td>
+<td width="220">Kinesthetic human demonstrations; planner converts language/RGB into invariant masks</td>
+<td width="300">Single attempt 90.8%; ≤3 attempts 96.9%; long-horizon 89.6%; nonprehensile 84.7%</td>
 <td width="180"><a href="https://ojs.aaai.org/index.php/AAAI/article/view/38953">paper</a> / <a href="https://dexgraspvla.github.io/">project</a> / <a href="https://github.com/Psi-Robot/DexGraspVLA">code</a></td>
 </tr>
 <tr>
-<td width="110" nowrap>AAAI 2026</td>
-<td width="280"><a href="https://ojs.aaai.org/index.php/AAAI/article/view/38957">Effective Robotic Cloth Grasping Through Suppressing False Discoveries</a></td>
-<td width="280">Robotic cloth grasping through false-discovery suppression.</td>
-<td width="260">Combines annotation-free cloth segmentation with depth/wrinkle-based grasp point selection and deploys a Baxter cloth storage system.</td>
-<td width="260">Not a dexterous-hand paper; method is cloth-specific, vision/depth based, and does not use tactile feedback.</td>
-<td width="200">-</td>
-<td width="160">-</td>
-<td width="200">-</td>
-<td width="220">Baxter robot with RGB-D/depth perception</td>
-<td width="220">real cluttered-cloth experiments; unsupervised segmentation; depth wrinkle analysis</td>
-<td width="240">-</td>
-<td width="220">-</td>
-<td width="180"><a href="https://ojs.aaai.org/index.php/AAAI/article/view/38957">paper</a></td>
+<td width="100" nowrap>CVPR 2026</td>
+<td width="260"><a href="https://arxiv.org/abs/2603.22264">UniDex: A Robot Foundation Suite for Universal Dexterous Hand Control from Egocentric Human Videos</a></td>
+<td width="230">Reduce robot-demo cost and unify control across heterogeneous dexterous hands.</td>
+<td width="230">UniDex-Dataset, the 82-D FAAS action space, UniDex-VLA, and UniDex-Cap form one human-video-to-robot stack.</td>
+<td width="240">Still needs human-in-the-loop retargeting and per-hand actuator mappings; tactile/force feedback is absent.</td>
+<td width="280">Dataset: Allegro, Ability, Inspire, LEAP, OYMotion, Shadow, Wuji, XHand; real Franka + Inspire/Wuji/OYMotion + RealSense L515</td>
+<td width="160">8 hands; 6–24 active DoF</td>
+<td width="220">Five tool-use/multistage tasks; contact-preserving cross-hand transfer</td>
+<td width="180">None</td>
+<td width="210">82-D FAAS action chunks; robot control rate not stated</td>
+<td width="330">52K trajectories/9M frames from H2O, HOI4D, HOT3D, TACO and other egocentric data; PyBullet IK; 5 real tasks × 50 demos</td>
+<td width="240">Fingertip/contact alignment + human-in-loop correction + masked-hand point clouds; FAAS then decodes to each hand</td>
+<td width="220">Human videos at 30 fps; Apple Vision Pro/OpenTeleVision and UniDex-Cap for downstream demos</td>
+<td width="300">Average progress 81%, success 76%; π0 38%/35%; zero-shot cross-hand success 60% and 40%</td>
+<td width="180"><a href="https://arxiv.org/abs/2603.22264">paper</a> / <a href="https://unidex-ai.github.io/">project</a> / <a href="https://github.com/unidex-ai/UniDex">code</a> / <a href="https://huggingface.co/UniDex-ai/UniDex">data</a></td>
 </tr>
 <tr>
-<td width="110" nowrap>CVPR 2026</td>
-<td width="280"><a href="https://arxiv.org/abs/2603.22264">UniDex: A Robot Foundation Suite for Universal Dexterous Hand Control from Egocentric Human Videos</a></td>
-<td width="280">Universal dexterous-hand control from egocentric human videos.</td>
-<td width="260">Builds UniDex-Dataset with 50K trajectories across eight dexterous hands and trains a 3D VLA policy.</td>
-<td width="260">Retargeting human videos to each target robot hand remains necessary.</td>
-<td width="200">Allegro, Ability, Inspire, Leap, Oymotion, Shadow, Wuji, XHand</td>
-<td width="160">8 hands, 6-24 DoFs</td>
-<td width="200">-</td>
-<td width="220">Franka Panda arm + RealSense L515 in described setup; multiple hand embodiments</td>
-<td width="220">UniDex-Dataset; H2O / HOI4D / HOT3D / TACO retargeting; 50K trajectories</td>
-<td width="240">egocentric videos; human-in-the-loop retargeting; Apple Vision Pro teleoperation for downstream demos</td>
-<td width="220">code; retargeting scripts; Hugging Face dataset</td>
-<td width="180"><a href="https://arxiv.org/abs/2603.22264">paper</a> / <a href="https://unidex-ai.github.io/">project</a> / <a href="https://github.com/unidex-ai/UniDex">code</a> / <a href="https://huggingface.co/UniDex-ai/UniDex">hf</a></td>
+<td width="100" nowrap>NeurIPS 2025</td>
+<td width="260"><a href="https://arxiv.org/abs/2511.01276">Contact Map Transfer with Conditional Diffusion Model for Generalizable Dexterous Grasp Generation</a></td>
+<td width="230">Generate stable, task-conditioned grasps on novel objects without optimizing every grasp from scratch.</td>
+<td width="230">Cascaded diffusion transfers contact, part, and direction maps from shape templates, then robust grasp recovery optimizes the hand pose.</td>
+<td width="240">Depends on same-category templates; no tactile feedback; the exact custom humanoid and Inspire-hand model are not disclosed.</td>
+<td width="280">Sim ShadowHand; real custom humanoid + Inspire hand; ZED head camera + two RealSense cameras</td>
+<td width="160">Shadow: 24 hand parameters + 6-D root; real hand DoF not stated</td>
+<td width="220">Static task-conditioned power/functional grasp generation via object contact maps</td>
+<td width="180">None; contact maps are geometric conditions</td>
+<td width="210">24-D hand configuration + SE(3) hand-root pose; execution rate not stated</td>
+<td width="330">CapGrasp: ~1.8K objects/~50K template–novel pairs; Isaac Gym for stability filtering/evaluation</td>
+<td width="240">Template-map transfer + grasp recovery; real Inspire execution pipeline is not separately specified</td>
+<td width="220">No teleoperation; grasp templates/data are offline</td>
+<td width="300">Seen/unseen SR 79.32%/74.14%; task consistency 83.60%/79.28%; real success 70%</td>
+<td width="180"><a href="https://arxiv.org/abs/2511.01276">paper</a> / <a href="https://cmtdiffusion.github.io/">project</a> / <a href="https://github.com/Yiyao-Ma/cmtdiffusion">code</a></td>
 </tr>
 <tr>
-<td width="110" nowrap>NeurIPS 2025</td>
-<td width="280"><a href="https://arxiv.org/pdf/2511.01276">Generalizable Dexterous Grasp Generation via Contact Map Transfer</a></td>
-<td width="280">Generate dexterous grasps by transferring contact maps.</td>
-<td width="260">Uses contact-map-conditioned diffusion and evaluates ShadowHand grasps in Isaac Gym; real demo uses Inspire hand on a humanoid platform.</td>
-<td width="260">Tactile sensing is not used as hardware feedback; contact maps are generation conditions.</td>
-<td width="200">ShadowHand for training/evaluation; Inspire hand for real demo</td>
-<td width="160">ShadowHand k=24 in formulation; 6-DOF hand-root execution pose</td>
-<td width="200">contact maps, not tactile sensors</td>
-<td width="220">humanoid platform with Inspire hand; ZED head camera + two RealSense cameras</td>
-<td width="220">Isaac Gym success metrics; contact-map diffusion</td>
-<td width="240">human-to-robot grasp retargeting from prior pipeline</td>
-<td width="220">code</td>
-<td width="180"><a href="https://arxiv.org/pdf/2511.01276">paper</a> / <a href="https://cmtdiffusion.github.io/">project</a> / <a href="https://github.com/Yiyao-Ma/cmtdiffusion">code</a></td>
-</tr>
-<tr>
-<td width="110" nowrap>NeurIPS 2025</td>
-<td width="280"><a href="https://arxiv.org/abs/2506.02489">Grasp2Grasp: Vision-Based Dexterous Grasp Translation via Schrödinger Bridges</a></td>
-<td width="280">Translate functional grasp intent across hand morphologies.</td>
-<td width="260">Uses Schrodinger Bridge translation across Human-&gt;Allegro, Human-&gt;Shadow, and Shadow-&gt;Allegro settings.</td>
-<td width="260">Focuses on grasp translation, not full long-horizon manipulation or tactile feedback.</td>
-<td width="200">human hand, Allegro Hand, Shadow Hand</td>
-<td width="160">Allegro 16 DoFs; Shadow 22 DoFs</td>
-<td width="200">-</td>
-<td width="220">simulation evaluation in Isaac Gym</td>
-<td width="220">vision-conditioned grasp translation; Isaac Gym success tests</td>
-<td width="240">cross-hand translation, not teleoperation</td>
-<td width="220">code</td>
+<td width="100" nowrap>NeurIPS 2025</td>
+<td width="260"><a href="https://arxiv.org/abs/2506.02489">Grasp2Grasp: Vision-Based Dexterous Grasp Translation via Schrödinger Bridges</a></td>
+<td width="230">Translate functional grasps across human and robot hand morphologies.</td>
+<td width="230">A vision-conditioned Schrödinger Bridge learns Human→Allegro, Human→Shadow, and Shadow→Allegro grasp mappings.</td>
+<td width="240">A new hand requires target-domain training; evaluation is simulation-only, static-grasp-only, and touch-free.</td>
+<td width="280">Simulated human hand, Allegro Hand, and Shadow Hand; no carrier arm</td>
+<td width="160">Human 20; Allegro 16; Shadow 22 + SE(3) base</td>
+<td width="220">Cross-morphology static grasp translation and stability/contact preservation</td>
+<td width="180">None</td>
+<td width="210">Hand joint pose + SE(3) base pose generation; no control rate</td>
+<td width="330">MultiGripperGrasp: 30.4M grasps, 11 manipulators, 345 objects; Warp Jacobian + Isaac Gym stability tests</td>
+<td width="240">Simulation-only cross-hand translation; no real transfer</td>
+<td width="220">Human grasp poses in the dataset; no teleoperation</td>
+<td width="300">Cross-hand SR 77.23%/45.15%/79.98% (mean 67.45%); ~0.8 s per grasp</td>
 <td width="180"><a href="https://arxiv.org/abs/2506.02489">paper</a> / <a href="https://grasp2grasp.github.io/">project</a> / <a href="https://github.com/n3il666/grasp2grasp">code</a></td>
 </tr>
 <tr>
-<td width="110" nowrap>NeurIPS 2025</td>
-<td width="280"><a href="https://arxiv.org/abs/2506.19212">Scaffolding Dexterous Manipulation with Vision-Language Models</a></td>
-<td width="280">Use VLM-generated scaffolds to train dexterous manipulation policies.</td>
-<td width="260">Generates keypoint/wrist/object trajectories with VLMs, then trains residual closed-loop RL policies in simulation and transfers to real hardware.</td>
-<td width="260">Failures still stem from incomplete trajectory tracking and VLM keypoint errors.</td>
-<td width="200">Allegro Hand</td>
-<td width="160">16-DoF Allegro hand</td>
-<td width="200">-</td>
-<td width="220">16-DoF Allegro + 7-DoF KUKA LBR iiwa 14 + ZED 1 stereo camera</td>
-<td width="220">ManiSkill simulation; eight simulated tasks; real-world three-task evaluation</td>
-<td width="240">no human demonstrations; VLM-generated trajectories</td>
-<td width="220">code; ROS launch snippets for ZED and Allegro</td>
+<td width="100" nowrap>NeurIPS 2025</td>
+<td width="260"><a href="https://arxiv.org/abs/2506.19212">Scaffolding Dexterous Manipulation with Vision-Language Models</a></td>
+<td width="230">Replace task-specific rewards/demonstrations with VLM-generated manipulation scaffolds.</td>
+<td width="230">A VLM proposes keypoints and wrist/object trajectories; residual closed-loop RL tracks them and transfers zero-shot to hardware.</td>
+<td width="240">VLM keypoint and trajectory errors still dominate; only three real tasks, without tactile/force feedback.</td>
+<td width="280">16-DoF Allegro + 7-DoF KUKA LBR iiwa 14 + table-mounted ZED 1 stereo camera</td>
+<td width="160">23 DoF total: 7 arm + 16 hand</td>
+<td width="220">Placement, articulated opening, sliding/hammering, scissors/pliers manipulation</td>
+<td width="180">None</td>
+<td width="210">Wrist SE(3) + finger positions/residuals; policy 60 Hz, physics 120 Hz</td>
+<td width="330">ManiSkill3/ReplicaCAD; 2,048 environments; 8 tasks; 100 initial states × 20 rollouts × 3 seeds</td>
+<td width="240">Digital twin + domain randomization; low-level policy trains entirely in simulation</td>
+<td width="220">No human demos; plans come from VLM queries on one RGB-D scene</td>
+<td width="300">Sim mean 72%, refined 81%; real placement/slide/hammer 90%/85%/65% (20 trials each)</td>
 <td width="180"><a href="https://arxiv.org/abs/2506.19212">paper</a> / <a href="https://sites.google.com/view/dexterous-vlm-scaffolding">project</a> / <a href="https://github.com/vdebakker/vlm-scaffolding">code</a></td>
 </tr>
 <tr>
-<td width="110" nowrap>NeurIPS 2025</td>
-<td width="280"><a href="https://arxiv.org/abs/2505.11032">DexGarmentLab: Dexterous Garment Manipulation Environment with Generalizable Policy</a></td>
-<td width="280">Dexterous bimanual garment manipulation environment and policy learning.</td>
-<td width="260">Provides 15 garment tasks across 8 categories, assets, IsaacSim environment, and HALO policy; real setup uses RealMan arms with PsiBot hands.</td>
-<td width="260">Single-garment tasks only; challenging garment geometry and accurate grasping/placement remain limitations.</td>
-<td width="200">ShadowHand in simulation; PsiBot G0-R in real setup</td>
-<td width="160">ShadowHand 24 finger joints; real PsiBot G0-R listed as 6-DoF robotic hand</td>
-<td width="200">-</td>
-<td width="220">two UR10e + ShadowHands in simulation; two RealMan RM75-6F + PsiBot G0-R + RealSense D435 in real setup</td>
-<td width="220">IsaacSim 4.5.0; DexGarmentLab assets/dataset; Hugging Face assets</td>
-<td width="240">Leap Motion teleoperation guidance; trajectory retargeting from one demo</td>
-<td width="220">code; Hugging Face assets</td>
-<td width="180"><a href="https://arxiv.org/abs/2505.11032">paper</a> / <a href="https://wayrise.github.io/DexGarmentLab/">project</a> / <a href="https://github.com/wayrise/DexGarmentLab">code</a> / <a href="https://huggingface.co/datasets/wayrise/DexGarmentLab">hf</a></td>
+<td width="100" nowrap>NeurIPS 2025</td>
+<td width="260"><a href="https://arxiv.org/abs/2505.11032">DexGarmentLab: Dexterous Garment Manipulation Environment with Generalizable Policy</a></td>
+<td width="230">Provide scalable bimanual dexterous garment tasks, data generation, and sim-to-real policies.</td>
+<td width="230">DexGarmentLab supplies garment assets/15 task scenes; HALO uses affordance grounding and shape-adaptive diffusion trajectories.</td>
+<td width="240">Covers one garment at a time; deformable sim-to-real, target-region grasping, and precise placement remain weak.</td>
+<td width="280">Sim: dual UR10e + ShadowHands. Real A: dual RealMan RM75-6F + PsiBot G0-R + D435. Real B: dual UR10e + ShadowHands + Azure Kinect</td>
+<td width="160">Sim action 60-D; real A 7-DoF arm + 6-DoF hand/side</td>
+<td width="220">Bimanual fling, fold, hang, wear, and garment–environment interaction</td>
+<td width="180">None</td>
+<td width="210">Per side: 6-D arm pose + 24 hand joints; rate not stated</td>
+<td width="330">Isaac Sim 4.5.0; 2,500+ garments/8 categories/15 tasks; one seed demo expanded to 100 demos/task</td>
+<td width="240">Matched UR10e/Shadow digital twin; 15 real demos/task raise the two real tests to 13/15</td>
+<td width="220">Leap Motion supplies one ShadowHand seed; automated execution expands demonstrations</td>
+<td width="300">Real A: 13/15, 13/15, 11/15, 14/15. Real B sim-only: 8/15, 9/15; +15 real: 13/15, 13/15</td>
+<td width="180"><a href="https://arxiv.org/abs/2505.11032">paper</a> / <a href="https://wayrise.github.io/DexGarmentLab/">project</a> / <a href="https://github.com/wayrise/DexGarmentLab">code</a> / <a href="https://huggingface.co/datasets/wayrise/DexGarmentLab">data</a></td>
 </tr>
 <tr>
-<td width="110" nowrap>CVPR 2025</td>
-<td width="280"><a href="https://arxiv.org/abs/2412.02699">UniGraspTransformer: Simplified Policy Distillation for Scalable Dexterous Robotic Grasping</a></td>
-<td width="280">Scale policy distillation for dexterous robotic grasping.</td>
-<td width="260">Trains per-object RL experts in Isaac Gym and distills them into a Transformer policy for Shadow Hand grasping.</td>
-<td width="260">Primarily simulation/state- and vision-based evaluation; no tactile hardware is reported.</td>
-<td width="200">Shadow Hand</td>
-<td width="160">18 active finger DoFs + 6 wrist DoFs; 24 action actuators</td>
-<td width="200">-</td>
-<td width="220">simulated Shadow Hand tabletop grasping</td>
-<td width="220">Isaac Gym 3.0; expert trajectories; policy distillation</td>
-<td width="240">-</td>
-<td width="220">code; IsaacGym assets/models</td>
+<td width="100" nowrap>CVPR 2025</td>
+<td width="260"><a href="https://arxiv.org/abs/2412.02699">UniGraspTransformer: Simplified Policy Distillation for Scalable Dexterous Robotic Grasping</a></td>
+<td width="230">Distill thousands of object-specific grasp experts into one scalable policy.</td>
+<td width="230">Per-object PPO teachers generate trajectories; a Transformer student handles state- and point-cloud-based seen/unseen-object grasping.</td>
+<td width="240">ShadowHand simulation only; no real transfer or tactile feedback, and the state setting assumes object state.</td>
+<td width="280">Floating simulated Shadow Hand over a tabletop; no carrier arm</td>
+<td width="160">24 actuators: 6 wrist + 18 active finger DoF</td>
+<td width="220">Approach, enveloping grasp, lift to a target height</td>
+<td width="180">None</td>
+<td width="210">24-D: wrist force/torque (6) + finger joint positions (18); rate not stated</td>
+<td width="330">Isaac Gym 3.0; 3,200 objects; 3.2M successful trajectories, each 200 steps</td>
+<td width="240">Simulation-only; no sim-to-real path</td>
+<td width="220">No human/teleoperation data</td>
+<td width="300">State seen/same-category/unseen 91.2%/89.2%/88.3%; vision 88.9%/87.3%/86.8%</td>
 <td width="180"><a href="https://arxiv.org/abs/2412.02699">paper</a> / <a href="https://dexhand.github.io/UniGraspTransformer/">project</a> / <a href="https://github.com/microsoft/UniGraspTransformer">code</a></td>
 </tr>
 <tr>
-<td width="110" nowrap>CVPR 2025</td>
-<td width="280"><a href="https://arxiv.org/abs/2503.08257">DexGrasp Anything: Towards Universal Robotic Dexterous Grasping with Physics Awareness</a></td>
-<td width="280">Generate physically usable dexterous grasps for arbitrary objects.</td>
-<td width="260">Adds physics constraints to diffusion generation and releases a DGA dataset with 3.4M grasp poses for 15K+ objects.</td>
-<td width="260">Tactile feedback integration is noted as future work; real execution is mainly post-grasp stability / IK demonstrations.</td>
-<td width="200">ShadowHand</td>
-<td width="160">24-D ShadowHand pose in formulation</td>
-<td width="200">-</td>
-<td width="220">real ShadowHand robot for qualitative deployment</td>
-<td width="220">DGA dataset; Real+Sim; Isaac Gym filtering/evaluation; Hugging Face dataset</td>
-<td width="240">GRAB-to-robot retargeting used in dataset construction</td>
-<td width="220">code; dataset; checkpoints</td>
-<td width="180"><a href="https://arxiv.org/abs/2503.08257">paper</a> / <a href="https://dexgraspanything.github.io/">project</a> / <a href="https://github.com/4DVLab/DexGrasp-Anything">code</a> / <a href="https://huggingface.co/datasets/GaussionZhong/DexGrasp-Anything">hf</a></td>
+<td width="100" nowrap>CVPR 2025</td>
+<td width="260"><a href="https://arxiv.org/abs/2503.08257">DexGrasp Anything: Towards Universal Robotic Dexterous Grasping with Physics Awareness</a></td>
+<td width="230">Generate diverse, physically stable dexterous grasps for arbitrary objects.</td>
+<td width="230">Physics-aware diffusion adds penetration/contact constraints and an LLM object prior; DGA scales data to 3.40M poses.</td>
+<td width="240">No tactile feedback; real ShadowHand tests are qualitative, and the carrier hardware/control rate are not disclosed.</td>
+<td width="280">ShadowHand in data, Isaac Gym evaluation, and qualitative real deployment; carrier not stated</td>
+<td width="160">24-D hand pose + global rotation/translation</td>
+<td width="220">Static universal grasp-pose generation and six-direction stability</td>
+<td width="180">None</td>
+<td width="210">Generates q∈R24 plus global R,t; no online control rate</td>
+<td width="330">DGA: 3.40M poses/15,698 objects; Isaac Gym filtering/evaluation; curated real+sim sources</td>
+<td width="240">GRAB human poses are retargeted to ShadowHand; real pre-grasp execution follows a prior pipeline</td>
+<td width="220">Offline GRAB human capture; no online teleoperation</td>
+<td width="300">LLM variant MultiDex Suc.6/Suc.1 79.1%/98.1%; cross-dataset Suc.6 58.6%/53.4%</td>
+<td width="180"><a href="https://arxiv.org/abs/2503.08257">paper</a> / <a href="https://dexgraspanything.github.io/">project</a> / <a href="https://github.com/4DVLab/DexGrasp-Anything">code</a> / <a href="https://huggingface.co/datasets/GaussionZhong/DexGrasp-Anything">data</a></td>
 </tr>
 <tr>
-<td width="110" nowrap>CVPR 2025</td>
-<td width="280"><a href="https://cvpr.thecvf.com/virtual/2025/poster/32440">ZeroGrasp: Zero-Shot Shape Reconstruction Enabled Robotic Grasping</a></td>
-<td width="280">Use zero-shot shape reconstruction to support robotic grasping.</td>
-<td width="260">Jointly predicts 3D shape reconstruction and 6D grasp poses, trained with ZeroGrasp-11B and evaluated on GraspNet-1B plus real Franka/Robotiq experiments.</td>
-<td width="260">Parallel-gripper grasping, not dexterous-hand hardware; depends on RGB-D reconstruction quality under occlusion.</td>
-<td width="200">-</td>
-<td width="160">two-finger parallel gripper model; Robotiq 2F-85 in real setup</td>
-<td width="200">-</td>
-<td width="220">Franka Emika Panda + Robotiq 2F-85</td>
-<td width="220">ZeroGrasp-11B: 1M RGB-D images, 11.3B 6D grasp annotations, 12K Objaverse-LVIS objects; GraspNet-1B benchmark</td>
-<td width="240">-</td>
-<td width="220">code</td>
-<td width="180"><a href="https://arxiv.org/abs/2504.10857">paper</a> / <a href="https://cvpr.thecvf.com/virtual/2025/poster/32440">CVPR</a> / <a href="https://sh8.io/#/zerograsp">project</a> / <a href="https://github.com/sh8/ZeroGrasp">code</a></td>
-</tr>
-<tr>
-<td width="110" nowrap>arXiv 2026</td>
-<td width="280"><a href="https://arxiv.org/abs/2602.16710">EgoScale: Scaling Dexterous Manipulation with Diverse Egocentric Human Data</a></td>
-<td width="280">Scale human-to-robot transfer for high-DoF dexterous manipulation.</td>
-<td width="260">Trains a VLA model on 20,854 hours of action-labeled egocentric human video and uses aligned human-robot mid-training for dexterous transfer.</td>
-<td width="260">No formal venue was found; exact deployed hand models are not stated on the arXiv abstract page.</td>
-<td width="200">22-DoF dexterous robotic hand; lower-DoF transfer hands</td>
-<td width="160">22 DoF for the main reported hand</td>
-<td width="200">-</td>
-<td width="220">real dexterous robot setups</td>
-<td width="220">20,854 hours of action-labeled egocentric human video; aligned human-robot mid-training</td>
-<td width="240">human-to-robot transfer from egocentric video</td>
-<td width="220">project page</td>
+<td width="100" nowrap>arXiv 2025 (v2 2026)</td>
+<td width="260"><a href="https://arxiv.org/abs/2602.16710">EgoScale: Scaling Dexterous Manipulation with Diverse Egocentric Human Data</a></td>
+<td width="230">Scale egocentric human-video pretraining to high-DoF robot dexterity and new embodiments.</td>
+<td width="230">Large human pretraining, aligned human–robot mid-training, and small robot post-training enable one-shot tasks and G1 transfer.</td>
+<td width="240">No simulation or tactile feedback; the recipe is data-heavy, control rate is unstated, and no formal venue was found.</td>
+<td width="280">Galaxea R1Pro, dual 7-DoF arms + dual 22-DoF Sharpa Wave; transfer: Unitree G1 + 7-DoF tri-finger; OAK cameras</td>
+<td width="160">R1Pro: 7 arm + 22 hand/side; G1 hand: 7</td>
+<td width="220">Bimanual long-horizon dexterity, one-shot adaptation, cross-embodiment tool/object tasks</td>
+<td width="180">None reported</td>
+<td width="210">Per arm relative SE(3) + hand joints; rate not stated</td>
+<td width="330">Real-only: Stage I 20,854 h/9,869 scenes/6,015 tasks/43,237 objects; Stage II 50 h human + 4 h robot; post-train 100 robot demos</td>
+<td width="240">Human wrists/hands retarget to Sharpa space; embodiment adapters align the G1 hand/action space</td>
+<td width="220">Action-labeled egocentric human video + aligned human/robot play data</td>
+<td width="300">R1Pro completion/success .83/.56 vs no pretrain .24/.02; G1 two tasks .83/.67 and .88/.50</td>
 <td width="180"><a href="https://arxiv.org/abs/2602.16710">paper</a> / <a href="https://research.nvidia.com/labs/gear/egoscale/">project</a></td>
 </tr>
 <tr>
-<td width="110" nowrap>CVPR 2026</td>
-<td width="280"><a href="https://openaccess.thecvf.com/content/CVPR2026/papers/Jiang_Cross-Hand_Latent_Representation_for_Vision-Language-Action_Models_CVPR_2026_paper.pdf">XL-VLA: Cross-Hand Latent Representation for Vision-Language-Action Models</a></td>
-<td width="280">Share one VLA action space across different dexterous hands.</td>
-<td width="260">Learns a latent action representation that decodes into different dexterous hand joint trajectories.</td>
-<td width="260">Requires per-hand encoders/decoders; tactile sensing is not reported as a core input.</td>
-<td width="200">Ability Hand, Paxini DexH13, X-Hand1, Inspire hand</td>
-<td width="160">hand-specific DoFs</td>
-<td width="200">-</td>
-<td width="220">multi-hand real robot settings</td>
-<td width="220">cross-hand VLA training and latent action evaluation</td>
-<td width="240">retargeting through latent action decoders</td>
-<td width="220">code</td>
-<td width="180"><a href="https://xl-vla.github.io/">project</a> / <a href="https://github.com/EmptyBlueBox/DexLatent">code</a> / <a href="https://openaccess.thecvf.com/content/CVPR2026/papers/Jiang_Cross-Hand_Latent_Representation_for_Vision-Language-Action_Models_CVPR_2026_paper.pdf">paper</a></td>
+<td width="100" nowrap>CVPR 2026</td>
+<td width="260"><a href="https://openaccess.thecvf.com/content/CVPR2026/papers/Jiang_Cross-Hand_Latent_Representation_for_Vision-Language-Action_Models_CVPR_2026_paper.pdf">Cross-Hand Latent Representation for Vision-Language-Action Models (XL-VLA)</a></td>
+<td width="230">Share one VLA action space across hands with different joint structures.</td>
+<td width="230">A shared 32-D latent plus hand-specific encoders/decoders supports four-hand co-training and zero-shot hand–task combinations.</td>
+<td width="240">Still needs per-hand adapters and demonstrations; real-only evaluation has no tactile feedback.</td>
+<td width="280">Bimanual xArm7 with Ability, Inspire, X-Hand1, or Paxini DexH13; Unitree G1 cross-robot test</td>
+<td width="160">Ability 12(6 mimic), Inspire 12(6), XHand 12, Paxini 16(3)</td>
+<td width="220">Ten bimanual dexterous tasks; cross-hand trajectory replay/contact preservation</td>
+<td width="180">None</td>
+<td width="210">64 absolute joint commands at 20 Hz (3.2 s), encoded to 32-D latent</td>
+<td width="330">Real-only: 10 tasks × 4 hands × 50 demos = 2,000 demos/~2M state–action pairs</td>
+<td width="240">FK-regularized shared latent decodes directly to each hand; no simulator</td>
+<td width="220">Apple Vision Pro with Bunny-VisionPro teleoperation</td>
+<td width="300">Mean 0.72 vs π0 0.32; Ability/Inspire/Paxini/XHand .73/.68/.78/.70; G1 ~.825 vs .525</td>
+<td width="180"><a href="https://openaccess.thecvf.com/content/CVPR2026/papers/Jiang_Cross-Hand_Latent_Representation_for_Vision-Language-Action_Models_CVPR_2026_paper.pdf">paper</a> / <a href="https://xl-vla.github.io/">project</a> / <a href="https://github.com/EmptyBlueBox/DexLatent">code</a></td>
 </tr>
 <tr>
-<td width="110" nowrap>ECCV 2026</td>
-<td width="280"><a href="https://arxiv.org/abs/2512.13644">World Models for Learning Dexterous Hand-Object Interactions from Human Videos</a></td>
-<td width="280">Predict future dexterous hand-object interaction states from human videos.</td>
-<td width="260">DexWM uses finger keypoints and a hand-consistency loss, training on over 900 hours of human and non-dexterous robot data.</td>
-<td width="260">World-model planning remains action-optimization-heavy; tactile sensing is not reported.</td>
-<td width="200">Allegro gripper / hand</td>
-<td width="160">-</td>
-<td width="200">-</td>
-<td width="220">Franka Panda arm with Allegro gripper</td>
-<td width="220">900+ hours of human and non-dexterous robot data; RoboCasa fine-tuning noted on the project page</td>
-<td width="240">finger-keypoint action representation from egocentric videos</td>
-<td width="220">-</td>
-<td width="180"><a href="https://raktimgg.github.io/dexwm/">project</a> / <a href="https://arxiv.org/abs/2512.13644">paper</a></td>
+<td width="100" nowrap>ECCV 2026</td>
+<td width="260"><a href="https://arxiv.org/abs/2512.13644">World Models for Learning Dexterous Hand-Object Interactions from Human Videos (DexWM)</a></td>
+<td width="230">Learn dexterous interaction dynamics from human video for goal-conditioned robot planning.</td>
+<td width="230">Dense hand-keypoint actions and a hand-consistency loss let one latent world model support CEM/MPC planning and zero-shot real grasping.</td>
+<td width="240">Default CEM planning takes 168 s/episode; no tactile input, and RoboCasa uses only the right active hand.</td>
+<td width="280">RoboCasa: dual Franka + dual Allegro, right side active. Real: Franka Panda + Allegro hand</td>
+<td width="160">Planner: 7 arm + 16 hand = 23 joints</td>
+<td width="220">Reach, grasp, place; image-goal planning with predicted hand–object motion</td>
+<td width="180">None</td>
+<td width="210">World action 132-D MANO/camera keypoints at 5 Hz; planner outputs 23-D joints</td>
+<td width="330">EgoDex 829 h + DROID ~100 h pretrain; RoboCasa ~4 h random exploration fine-tune; no real fine-tune</td>
+<td width="240">Allegro maps to the five-finger keypoint space; CEM/MPC executes joint targets zero-shot on real hardware</td>
+<td width="220">EgoDex human Vision Pro video + DROID robot video; RoboCasa data need no teleop</td>
+<td width="300">Sim reach/grasp/place 72%/28%/58% vs DP 16%/8%/0%; real 10/12 (83%); default planning 168 s</td>
+<td width="180"><a href="https://arxiv.org/abs/2512.13644">paper</a> / <a href="https://raktimgg.github.io/dexwm/">project</a></td>
 </tr>
 <tr>
-<td width="110" nowrap>arXiv 2026</td>
-<td width="280"><a href="https://arxiv.org/abs/2512.24210">GR-Dexter Technical Report</a></td>
-<td width="280">Build a bimanual VLA stack around high-DoF dexterous hands.</td>
-<td width="260">Combines ByteDexter V2 hardware, bimanual teleoperation, and co-training with robot, vision-language, and cross-embodiment data.</td>
-<td width="260">Technical report rather than a formal venue paper; reproducible public dataset/SDK coverage needs checking before platform adoption.</td>
-<td width="200">ByteDexter V2</td>
-<td width="160">21 DoF; five fingertips with high-density piezoresistive normal-force arrays</td>
-<td width="200">piezoresistive fingertip arrays</td>
-<td width="220">two Franka arms with ByteDexter V2 hands</td>
-<td width="220">teleoperated robot trajectories plus cross-embodiment and vision-language data</td>
-<td width="240">Manus Metagloves, Meta Quest tracking, whole-body control retargeting</td>
-<td width="220">project page</td>
-<td width="180"><a href="https://byte-dexter.github.io/gr-dexter/">project</a> / <a href="https://arxiv.org/abs/2512.24210">paper</a></td>
+<td width="100" nowrap>arXiv 2026</td>
+<td width="260"><a href="https://arxiv.org/abs/2512.24210">GR-Dexter Technical Report</a></td>
+<td width="230">Build a bimanual VLA stack for 21-DoF anthropomorphic hands despite scarce robot data.</td>
+<td width="230">ByteDexter V2, whole-hand teleoperation, and robot/VL/cross-embodiment/human co-training form a 56-DoF real stack.</td>
+<td width="240">Technical report with no public code/dataset/SDK; fingertip tactile arrays are not used by the reported VLA.</td>
+<td width="280">Dual Franka Research 3 + dual ByteDexter V2; Meta Quest headset/controllers + Manus Metagloves</td>
+<td width="160">21 mechanical/16 active per hand; 56 total mechanical DoF</td>
+<td width="220">Bimanual makeup decluttering, long-horizon tool use, generalizable pick-and-place</td>
+<td width="180">Five high-density piezoresistive fingertip normal-force arrays/hand; not policy input</td>
+<td width="210">88-D: arm joints/EE poses + 16 hand joints/side + fingertip positions; rate not stated</td>
+<td width="330">Real-only; ~20 h own data per experiment; ActionNet ~140 h, OpenLoong 100K+, RoboMIND 107K demos, human video 800+ h</td>
+<td width="240">No sim; camera standardization + fingertip-centric retargeting aligns external embodiments to ByteDexter</td>
+<td width="220">Meta Quest + Manus bimanual teleop; egocentric human trajectories</td>
+<td width="300">Makeup basic/OOD .97/.89 vs plain .96/.64; pick-place basic/unseen-object/unseen-instruction .93/.85/.83</td>
+<td width="180"><a href="https://arxiv.org/abs/2512.24210">paper</a> / <a href="https://byte-dexter.github.io/gr-dexter/">project</a></td>
 </tr>
 <tr>
-<td width="110" nowrap>arXiv 2025</td>
-<td width="280"><a href="https://arxiv.org/abs/2511.01177">Scaling Cross-Embodiment World Models for Dexterous Manipulation</a></td>
-<td width="280">Use world models as a shared interface across hand morphologies.</td>
-<td width="260">Represents hands and objects as 3D particles, trains on diverse simulated robot hands plus real human hands, and uses model-based planning on new hardware.</td>
-<td width="260">No formal venue was found; exact per-hand SDK and tactile configuration are not specified in the abstract evidence.</td>
-<td width="200">multiple simulated robot hands and real human hands</td>
-<td width="160">varied DoFs</td>
-<td width="200">-</td>
-<td width="220">novel hardware deployment reported, exact public model not found</td>
-<td width="220">simulated exploration data plus real human-hand data</td>
-<td width="240">particle-based cross-embodiment action representation</td>
-<td width="220">-</td>
+<td width="100" nowrap>arXiv 2025</td>
+<td width="260"><a href="https://arxiv.org/abs/2511.01177">Scaling Cross-Embodiment World Models for Dexterous Manipulation</a></td>
+<td width="230">Unify dynamics/data and planning across hands with incompatible kinematics and action spaces.</td>
+<td width="230">Hand/object particles and displacement actions let one GNN world model co-train on simulated robots and real human hands, then plan on unseen hardware.</td>
+<td width="240">Only pushing and plasticine primitives are tested; no tactile input, binary success rate, or formal venue.</td>
+<td width="280">Sim: Ability, Allegro, XHand, LEAP, Shadow + second Shadow variant. Real: xArm7 + Ability or XHand + four RealSense cameras</td>
+<td width="160">Hands: 6/16/12/16/24 DoF</td>
+<td width="220">Rigid pushing; plasticine ThumbPinch, FingersPinch, PalmPress</td>
+<td width="180">None</td>
+<td width="210">Hand/object particles + EE displacement fields; CEM; rate not stated</td>
+<td width="330">SAPIEN rigid pushing + Rewarped plasticine; 100 random trajectories/task; real human data 30 min per primitive</td>
+<td width="240">Forward kinematics maps joints to shared particles; same world model plans on Ability/XHand without target fine-tuning</td>
+<td width="220">Real human-hand demonstrations; no robot teleoperation</td>
+<td width="300">Co-train CD/EMD (×10⁻³): Ability 6.95/4.92 vs human-only 7.15/5.23; XHand 6.85/4.78 vs 7.22/5.18</td>
 <td width="180"><a href="https://arxiv.org/abs/2511.01177">paper</a></td>
 </tr>
 </tbody>
@@ -11561,444 +11572,504 @@ Total: 40 papers.
 
 Total: 28 papers.
 
-<table width="2770">
+The direction-specific columns separate sensor specification, fusion location, feedback stage/rate, and tactile-specific gain. “Not disclosed” means the checked paper or official project source did not provide that detail.
+
+<table width="3520">
 <thead>
 <tr>
-<th width="110" nowrap>Venue/Year</th>
-<th width="280">Paper/Method</th>
-<th width="260">Research Problem</th>
-<th width="180">Tactile Type</th>
-<th width="200">Tactile Density / Location</th>
-<th width="140" nowrap>Closed-loop Control?</th>
-<th width="240">Manipulation Task</th>
-<th width="200">Hardware Used</th>
-<th width="200">Carrier Platform</th>
-<th width="220">Simulation / Dataset</th>
-<th width="260">Solved</th>
-<th width="260">Open Limitation</th>
-<th width="220">Code / Data / Project</th>
+<th width="100" nowrap>Venue/Year</th>
+<th width="260">Paper/Method</th>
+<th width="230">Research Problem</th>
+<th width="300">Exact Robot / End Effector / Sensor</th>
+<th width="280">Tactile Signal Specification</th>
+<th width="220">Contact / Perception Task</th>
+<th width="300">Fusion Architecture / Location</th>
+<th width="220">Closed-loop Stage / Control Rate</th>
+<th width="200">Action / Control Interface</th>
+<th width="330">Simulation / Training Environment + Data Scale</th>
+<th width="110">Sim / Real Role</th>
+<th width="320">Core Tactile-Gain / Task Metric</th>
+<th width="230">Solved / Progress</th>
+<th width="240">Limitation</th>
+<th width="180">Resources</th>
 </tr>
 </thead>
 <tbody>
 <tr>
-<td width="110" nowrap>CoRL 2024</td>
-<td width="280"><a href="https://arxiv.org/abs/2410.24091">3D-ViTac: Learning Fine-Grained Manipulation with Visuo-Tactile Sensing</a></td>
-<td width="260">Fine-grained manipulation with 3D visual-tactile point representations.</td>
-<td width="180">visuo-tactile</td>
-<td width="200">four tactile pads, each 16x16 / 256 units, 3 mm^2 per sensing point; 1,024 tactile units across the bimanual system</td>
-<td width="140" nowrap>yes</td>
-<td width="240">egg steaming, insertion, grape retrieval, and other fine-grained manipulation tasks</td>
-<td width="200">3D-ViTac visuo-tactile pads on soft fin-shaped grippers; RealSense RGB-D cameras</td>
-<td width="200">bimanual teleoperation system with two master robots and two puppet robots</td>
-<td width="220">real robot demonstrations at 10 Hz; tactile sensors, multi-view RGB-D, actions and joint states; hardware tutorial/code</td>
-<td width="260">Represents touch as 3D tactile points and uses them for policy learning in fine manipulation.</td>
-<td width="260">Hardware is custom and task demonstrations are limited to the reported bimanual setup.</td>
-<td width="220"><a href="https://arxiv.org/abs/2410.24091">paper</a> / <a href="https://binghao-huang.github.io/3D-ViTac/">project</a> / <a href="https://github.com/binghao-huang/3D-ViTac_Tactile_Hardware">hardware</a></td>
+<td width="100" nowrap>CoRL 2024</td>
+<td width="260"><a href="https://arxiv.org/abs/2410.24091">3D-ViTac: Learning Fine-Grained Manipulation with Visuo-Tactile Sensing</a></td>
+<td width="230">Learn fine manipulation from spatially aligned vision and touch.</td>
+<td width="300">Dual master-puppet arms; soft fin two-finger grippers; four custom Velostat pads; multi-view RealSense RGB-D.</td>
+<td width="280">Four 16x16 pads (1,024 points total), 3 mm² per point; tactile ROS publishes at 30 Hz (sensor maximum 32.2 FPS), synchronized demonstrations at 10 Hz.</td>
+<td width="220">Four fine-manipulation tasks including egg steaming, insertion, and grape retrieval.</td>
+<td width="300">3D tactile points and RGB-D point clouds are encoded by PointNet++ and fused before the diffusion policy.</td>
+<td width="220">Closed-loop rollout; policy rate is not separately disclosed. Tactile ROS publishes at 30 Hz (sensor maximum 32.2 FPS); synchronized demonstrations are 10 Hz.</td>
+<td width="200">Joint/action chunks for both puppet arms and grippers.</td>
+<td width="330">Real-only; 30/30/30/50 demonstrations across four tasks; 20 evaluation trials per task.</td>
+<td width="110">Real only</td>
+<td width="320">Four-task SR 85/80/90/85% versus RGB-only 50/45/45/60%.</td>
+<td width="230">Turns distributed touch into a common 3D point representation for precise policy learning.</td>
+<td width="240">Custom bimanual hardware and a four-task evaluation limit portability and breadth.</td>
+<td width="180"><a href="https://arxiv.org/abs/2410.24091">paper</a> / <a href="https://binghao-huang.github.io/3D-ViTac/">project</a> / <a href="https://github.com/binghao-huang/3D-ViTac_Tactile_Hardware">hardware</a></td>
 </tr>
 <tr>
-<td width="110" nowrap>CoRL 2023</td>
-<td width="280"><a href="https://arxiv.org/abs/2210.14210">Midastouch: Monte-carlo inference over distributions across sliding touch</a></td>
-<td width="260">Localize a vision-based tactile sensor on an object surface from sliding touch.</td>
-<td width="180">optical tactile</td>
-<td width="200">DIGIT tactile images / local heightmaps during sliding contact</td>
-<td width="140" nowrap>no</td>
-<td width="240">sliding-touch object localization and YCB-Slide interactions</td>
-<td width="200">DIGIT / vision-based tactile sensor</td>
-<td width="200">tactile sensor sliding on YCB objects</td>
-<td width="220">YCB-Slide real + simulated sliding-touch dataset</td>
-<td width="260">Performs online global localization from posed tactile images and learned tactile geometry codes.</td>
-<td width="260">Manipulation is localization-centric, not a full closed-loop dexterous policy.</td>
-<td width="220"><a href="https://arxiv.org/abs/2210.14210">paper</a> / <a href="https://suddhu.github.io/midastouch-tactile/">project</a> / <a href="https://github.com/facebookresearch/MidasTouch">code</a></td>
+<td width="100" nowrap>CoRL 2022</td>
+<td width="260"><a href="https://arxiv.org/abs/2210.14210">MidasTouch: Monte-Carlo Inference over Distributions across Sliding Touch</a></td>
+<td width="230">Globally localize a tactile sensor on an object during sliding contact.</td>
+<td width="300">Hand-held DIGIT with OptiTrack tracking; no robot executes manipulation.</td>
+<td width="280">DIGIT 240x320 RGB tactile images; real stream 30 Hz; online inference about 10 Hz.</td>
+<td width="220">Sliding-touch localization on YCB objects.</td>
+<td width="300">Tactile image to local height map and learned geometry code; a particle filter integrates pose hypotheses over time.</td>
+<td width="220">Online state-estimation loop at about 10 Hz; no robot manipulation-control loop.</td>
+<td width="200">Human-guided sliding; the method outputs the sensor pose distribution.</td>
+<td width="330">TACTO: 40 YCB objects x 5,000 contacts = 200k; YCB-Slide: 50 simulated and 50 real sequences.</td>
+<td width="110">Simulation training + real evaluation</td>
+<td width="320">Final simulated/real errors: 0.74 cm / 9.43° and 1.97 cm / 21.48°.</td>
+<td width="230">Provides online global localization from tactile-only sliding observations.</td>
+<td width="240">Requires known object geometry and human-guided contact; it is not a closed-loop manipulation policy.</td>
+<td width="180"><a href="https://arxiv.org/abs/2210.14210">paper</a> / <a href="https://suddhu.github.io/midastouch-tactile/">project</a> / <a href="https://github.com/facebookresearch/MidasTouch">code</a></td>
 </tr>
 <tr>
-<td width="110" nowrap>CoRL 2023</td>
-<td width="280"><a href="https://proceedings.mlr.press/v205/zhong23a.html">Touching a NeRF: Leveraging Neural Radiance Fields for Tactile Sensory Data Generation</a></td>
-<td width="260">Generate tactile sensory data using object NeRF representations.</td>
-<td width="180">optical tactile</td>
-<td width="200">DIGIT tactile images; simulated DIGIT via TACTO; OmniTact transfer experiment</td>
-<td width="140" nowrap>no</td>
-<td width="240">tactile data generation / perception training</td>
-<td width="200">DIGIT sensor attached to robot end effector; OmniTact in simulated transfer test</td>
-<td width="200">robot end-effector tactile data collection setup</td>
-<td width="220">YCB objects; NeRF-rendered RGB-D; cGAN tactile generation; 398 real touches / 19,900 frames; simulated TACTO dataset</td>
-<td width="260">Generates tactile images for novel object views and improves tactile classification with generated data.</td>
-<td width="260">Requires training a NeRF per object; focuses on rigid objects and data generation, not closed-loop control.</td>
-<td width="220"><a href="https://proceedings.mlr.press/v205/zhong23a.html">paper</a> / <a href="https://proceedings.mlr.press/v205/zhong23a/zhong23a.pdf">pdf</a></td>
+<td width="100" nowrap>CoRL 2022</td>
+<td width="260"><a href="https://proceedings.mlr.press/v205/zhong23a.html">Touching a NeRF: Leveraging Neural Radiance Fields for Tactile Sensory Data Generation</a></td>
+<td width="230">Generate useful tactile observations from visual object models to reduce real touch collection.</td>
+<td width="300">Franka Panda with DIGIT and Intel RealSense D415; OmniTact appears only in simulated transfer tests.</td>
+<td width="280">DIGIT optical tactile images; 398 real touches yield 19,900 frames; capture rate is not separately disclosed.</td>
+<td width="220">Tactile image generation and downstream object classification.</td>
+<td width="300">A per-object NeRF renders RGB-D; a conditional GAN maps rendered geometry to tactile images used for classifier augmentation.</td>
+<td width="220">No closed-loop control; robot contact is used only for dataset acquisition.</td>
+<td width="200">Scripted end-effector contacts; the learned output is a tactile image/class label.</td>
+<td width="330">TACTO with PyBullet + PyRender: 27 YCB objects x 500 contacts; real: 9 objects, 398 touches, 19.9k frames.</td>
+<td width="110">Simulation augmentation + real evaluation</td>
+<td width="320">Classifier accuracy rises 85→96% in simulation and 74→83% on real data.</td>
+<td width="230">Uses visual NeRF geometry to synthesize tactile data that improves tactile perception.</td>
+<td width="240">Needs a NeRF per object, targets rigid objects, and does not learn contact-rich control.</td>
+<td width="180"><a href="https://proceedings.mlr.press/v205/zhong23a.html">paper</a> / <a href="https://proceedings.mlr.press/v205/zhong23a/zhong23a.pdf">pdf</a></td>
 </tr>
 <tr>
-<td width="110" nowrap>CoRL 2021</td>
-<td width="280"><a href="https://arxiv.org/abs/2012.05205">Tactile object pose estimation from the first touch with geometric contact rendering</a></td>
-<td width="260">Estimate object pose from a single tactile contact.</td>
-<td width="180">optical tactile</td>
-<td width="200">first-touch tactile imprint/contact observation</td>
-<td width="140" nowrap>no</td>
-<td width="240">object pose estimation from first touch</td>
-<td width="200">-</td>
-<td width="200">-</td>
-<td width="220">geometric contact rendering; real tactile localization page</td>
-<td width="260">Uses geometric contact rendering to infer object pose from first touch.</td>
-<td width="260">Mainly pose estimation; full manipulation policy and tactile density remain unspecified.</td>
-<td width="220"><a href="https://arxiv.org/abs/2012.05205">paper</a> / <a href="https://proceedings.mlr.press/v155/villalonga21a.html">pmlr</a> / <a href="http://mcube.mit.edu/research/tactile_loc_first_touch.html">project</a></td>
+<td width="100" nowrap>CoRL 2020 (PMLR 2021)</td>
+<td width="260"><a href="https://arxiv.org/abs/2012.05205">Tactile object pose estimation from the first touch with geometric contact rendering</a></td>
+<td width="230">Estimate object pose from one tactile imprint with little real training data.</td>
+<td width="300">Fixed GelSlim sensor and four-axis positioning stage; no autonomous robot policy.</td>
+<td width="280">GelSlim 470x470 at 90 Hz; network input 200x200; rendered/contact depth range 0–2 mm.</td>
+<td width="220">First-touch object-pose estimation.</td>
+<td width="300">A geometric contact renderer produces training imprints for a tactile-only pose estimator.</td>
+<td width="220">No; one contact is observed and then pose is estimated.</td>
+<td width="200">Programmed stage contact followed by feed-forward pose prediction.</td>
+<td width="330">Custom geometric renderer; at least 150 real touches and 5k–20k simulated samples per object.</td>
+<td width="110">Simulation training + real evaluation</td>
+<td width="320">Pin-object median translation error is 4.8 mm; additional per-object pose errors are reported in the paper.</td>
+<td width="230">Shows geometry-based synthetic contacts can support accurate first-touch localization.</td>
+<td width="240">Object-specific training and a fixed contact setup do not cover sequential manipulation.</td>
+<td width="180"><a href="https://arxiv.org/abs/2012.05205">paper</a> / <a href="https://proceedings.mlr.press/v155/villalonga21a.html">PMLR</a> / <a href="http://mcube.mit.edu/research/tactile_loc_first_touch.html">project</a></td>
 </tr>
 <tr>
-<td width="110" nowrap>CoRL 2023</td>
-<td width="280"><a href="https://arxiv.org/abs/2210.01116">That Sounds Right: Auditory Self-Supervision for Dynamic Robot Manipulation</a></td>
-<td width="260">Use contact audio as self-supervision for dynamic manipulation.</td>
-<td width="180">audio/contact</td>
-<td width="200">audio events from robot-object contact</td>
-<td width="140" nowrap>yes</td>
-<td width="240">dynamic manipulation tasks with auditory feedback</td>
-<td width="200">-</td>
-<td width="200">robot manipulation setup</td>
-<td width="220">audio-robot-learning project data/code page</td>
-<td width="260">Uses auditory contact cues to supervise dynamic manipulation without manual labels.</td>
-<td width="260">Audio is indirect contact sensing and does not provide dense tactile force fields.</td>
-<td width="220"><a href="https://arxiv.org/abs/2210.01116">paper</a> / <a href="https://audio-robot-learning.github.io">project</a></td>
+<td width="100" nowrap>CoRL 2022</td>
+<td width="260"><a href="https://arxiv.org/abs/2210.01116">That Sounds Right: Auditory Self-Supervision for Dynamic Robot Manipulation</a></td>
+<td width="230">Use contact sound as self-supervision for selecting dynamic manipulation behavior.</td>
+<td width="300">UR10 arm with a contact microphone; no taxel-based tactile sensor.</td>
+<td width="280">Four-second audio at 44.1 kHz, downsampled to 11 kHz; contact events are acoustic rather than spatial taxels.</td>
+<td width="220">Dynamic contact behaviors selected from sound goals.</td>
+<td width="300">A BYOL-style audio encoder maps a target sound to a parameterized motion primitive.</td>
+<td width="220">One audio-to-primitive mapping is made before execution; the resulting motion is open-loop.</td>
+<td width="200">Select and execute a parameterized dynamic motion primitive.</td>
+<td width="330">No simulation; about 25k real robot behaviors with synchronized contact audio.</td>
+<td width="110">Real only</td>
+<td width="320">Evaluated with audio/trajectory MSE and DTW; no manipulation success rate is reported.</td>
+<td width="230">Learns dynamic behavior selection without manual semantic labels by exploiting contact audio.</td>
+<td width="240">Audio is indirect contact sensing, and execution does not close the loop on sound.</td>
+<td width="180"><a href="https://arxiv.org/abs/2210.01116">paper</a> / <a href="https://audio-robot-learning.github.io">project</a></td>
 </tr>
 <tr>
-<td width="110" nowrap>ICLR 2026</td>
-<td width="280"><a href="https://openreview.net/forum?id=dT3ZciXvNX">DexMove: Learning Tactile-Guided Non-Prehensile Manipulation with Dexterous Hands</a></td>
-<td width="260">Learn tactile-guided non-prehensile object moving with dexterous hands.</td>
-<td width="180">optical tactile</td>
-<td width="200">wearable multi-finger vision-based tactile sensors; marker displacement on PP-Tac-based gel surface</td>
-<td width="140" nowrap>yes</td>
-<td width="240">non-prehensile tabletop object moving; sorting/tidying demos</td>
-<td width="200">wearable visuo-tactile device for human contact data; PP-Tac-derived tactile sensor</td>
-<td width="200">-</td>
-<td width="220">physics-simulation trajectory pruning and force augmentation; human tactile demonstrations; flow policy</td>
-<td width="260">Manipulates six objects with 77.8% real-world success and combines synthesized force-aware trajectories with tactile demonstrations.</td>
-<td width="260">Public project page does not state the target robot hand model/DoF or robot SDK.</td>
-<td width="220"><a href="https://openreview.net/forum?id=dT3ZciXvNX">paper</a> / <a href="https://peilin-666.github.io/projects/DexMove/">project</a> / <a href="https://github.com/bigai-ai/PP-Tac/tree/main">PP-Tac code</a></td>
+<td width="100" nowrap>ICLR 2026</td>
+<td width="260"><a href="https://openreview.net/forum?id=dT3ZciXvNX">DexMove: Learning Tactile-Guided Non-Prehensile Manipulation with Dexterous Hands</a></td>
+<td width="230">Learn non-prehensile object motion from scarce tactile demonstrations.</td>
+<td width="300">Franka Research 3, Allegro Hand, RealSense D435i, and R-Tac-derived wearable/fingertip tactile hardware.</td>
+<td width="280">Each finger tracks 33 markers in four displacement directions at 30 FPS.</td>
+<td width="220">Move six tabletop objects without grasping; sorting and tidying demonstrations.</td>
+<td width="300">TaFo-Net encodes tactile force cues and fuses them with visual/proprioceptive state in a flow policy.</td>
+<td width="220">Closed-loop robot policy at 30 Hz.</td>
+<td width="200">Flow-policy arm/hand action trajectories for the FR3 + Allegro system.</td>
+<td width="330">MuJoCo: 352 layouts and 412k contact configurations; about 300k human tactile frames for force-aware learning.</td>
+<td width="110">Simulation augmentation + real execution</td>
+<td width="320">Real success is 77.8% across six objects, 36.6 percentage points above the reported ablation.</td>
+<td width="230">Combines pruned synthetic trajectories with real tactile demonstrations for non-prehensile dexterity.</td>
+<td width="240">Evidence covers six objects and sensor-specific calibration; broader objects and hands remain untested.</td>
+<td width="180"><a href="https://openreview.net/forum?id=dT3ZciXvNX">paper</a> / <a href="https://peilin-666.github.io/projects/DexMove/">project</a> / <a href="https://github.com/bigai-ai/PP-Tac/tree/main">sensor code</a></td>
 </tr>
 <tr>
-<td width="110" nowrap>ICLR 2026</td>
-<td width="280"><a href="https://openreview.net/forum?id=ndilONnABZ">AnyTouch 2: General Optical Tactile Representation Learning For Dynamic Tactile Perception</a></td>
-<td width="260">Learn general optical tactile representations for dynamic tactile perception.</td>
-<td width="180">optical tactile / force/torque</td>
-<td width="200">ToucHD dynamic tactile data; Sparsh GelSight/DIGIT force and pose datasets; FastUMI tactile gripper data</td>
-<td width="140" nowrap>yes</td>
-<td width="240">tactile grasping, whiteboard wiping, USB insertion, chip moving</td>
-<td width="200">GelSight, DIGIT, FastUMI grippers with tactile sensors, ToucHD collection hardware</td>
-<td width="200">real manipulation setups</td>
-<td width="220">ToucHD; Sparsh; Touch-and-Go; Cloth; real manipulation data</td>
-<td width="260">Learns force-aware dynamic tactile features across datasets and sensors.</td>
-<td width="260">Cross-sensor generalization is improving but still depends on available paired datasets.</td>
-<td width="220"><a href="https://openreview.net/forum?id=ndilONnABZ">paper</a> / <a href="https://gewu-lab.github.io/AnyTouch2/">project</a> / <a href="https://github.com/GeWu-Lab/AnyTouch2">code</a> / <a href="https://huggingface.co/collections/BAAI/touchd">hf</a></td>
+<td width="100" nowrap>ICLR 2026</td>
+<td width="260"><a href="https://openreview.net/forum?id=ndilONnABZ">AnyTouch 2: General Optical Tactile Representation Learning For Dynamic Tactile Perception</a></td>
+<td width="230">Learn dynamic tactile representations that transfer across optical sensors and robot tasks.</td>
+<td width="300">Multi-sensor pretraining; downstream Piper + GelSight Mini/DIGIT and xArm6 + GelSight Mini setups.</td>
+<td width="280">Dynamic optical streams are mostly 30 Hz; GelSight Mini is 18 Hz in the reported setup.</td>
+<td width="220">Grasping, whiteboard wiping, USB insertion, and chip moving.</td>
+<td width="300">An attentive pooler forms tactile features; features are concatenated with vision before a diffusion policy.</td>
+<td width="220">Closed-loop downstream policy at 3 Hz.</td>
+<td width="200">Diffusion-policy action chunks for the downstream arm/gripper.</td>
+<td width="330">IMPM + Blender synthetic 1,118,896; real tactile 584,842; force-labeled 722,436; total 2,426,174 samples.</td>
+<td width="110">Mixed simulation/real pretraining + real control</td>
+<td width="320">Reported task SRs span 0.25–0.85: 0.75/0.80, 0.85/0.80, 0.30/0.25, and 0.85 across sensor/settings.</td>
+<td width="230">Improves dynamic, force-aware transfer across several optical tactile sensors.</td>
+<td width="240">Cross-sensor performance is uneven and the downstream controller runs at only 3 Hz.</td>
+<td width="180"><a href="https://openreview.net/forum?id=ndilONnABZ">paper</a> / <a href="https://gewu-lab.github.io/AnyTouch2/">project</a> / <a href="https://github.com/GeWu-Lab/AnyTouch2">code</a> / <a href="https://huggingface.co/collections/BAAI/touchd">data</a></td>
 </tr>
 <tr>
-<td width="110" nowrap>ICLR 2026</td>
-<td width="280"><a href="https://openreview.net/forum?id=hU2gT2Ucua">APPLE: Toward General Active Perception via Reinforcement Learning</a></td>
-<td width="260">General active perception policy learning, including tactile exploration.</td>
-<td width="180">binary contact</td>
-<td width="200">Tactile MNIST-style active tactile observations</td>
-<td width="140" nowrap>yes</td>
-<td width="240">active perception / tactile exploration</td>
-<td width="200">-</td>
-<td width="200">-</td>
-<td width="220">Tactile MNIST benchmark and active perception tasks</td>
-<td width="260">Trains active policies that acquire sparse tactile information for classification/regression.</td>
-<td width="260">Not a contact-rich manipulation hardware paper.</td>
-<td width="220"><a href="https://openreview.net/forum?id=hU2gT2Ucua">paper</a> / <a href="https://timschneider42.github.io/apple">project</a></td>
+<td width="100" nowrap>ICLR 2026</td>
+<td width="260"><a href="https://openreview.net/forum?id=hU2gT2Ucua">APPLE: Toward General Active Perception via Reinforcement Learning</a></td>
+<td width="230">Learn a general policy that actively acquires informative tactile observations.</td>
+<td width="300">No physical robot; simulated GelSight Mini and Myrmex-style sensing.</td>
+<td width="280">Taxim GelSight Mini observations are 32x32; MHSB Myrmex observations are 16x16, not binary contacts.</td>
+<td width="220">Active tactile exploration for classification/regression, including Tactile-MNIST.</td>
+<td width="300">A ViT plus probe position feeds a temporal transformer policy/value model.</td>
+<td width="220">Closed-loop active perception, not manipulation control; interaction rate is not disclosed.</td>
+<td width="200">The RL agent selects the next probing/contact action.</td>
+<td width="330">Simulation only; Taxim and MHSB tasks trained for 5M/10M environment steps.</td>
+<td width="110">Simulation only</td>
+<td width="320">Tactile-MNIST final accuracy is about 87/89% in two settings versus 74% for random exploration.</td>
+<td width="230">Generalizes active information-gathering policies across tactile perception tasks.</td>
+<td width="240">No physical robot, contact-rich manipulation, or hardware sim-to-real evaluation.</td>
+<td width="180"><a href="https://openreview.net/forum?id=hU2gT2Ucua">paper</a> / <a href="https://timschneider42.github.io/apple">project</a></td>
 </tr>
 <tr>
-<td width="110" nowrap>AAAI 2026</td>
-<td width="280"><a href="https://ojs.aaai.org/index.php/AAAI/article/view/38882">STOLA: Self-Adaptive Touch-Language Framework for Tactile Commonsense Reasoning in Open-Ended Scenarios</a></td>
-<td width="260">Touch-language commonsense reasoning in open-ended scenarios.</td>
-<td width="180">touch-language</td>
-<td width="200">individual tactile images and tactile time-series; GelSight and GelSight Mini configurations</td>
-<td width="140" nowrap>no</td>
-<td width="240">open-ended tactile commonsense QA and reasoning</td>
-<td width="200">GelSight / GelSight Mini data sources</td>
-<td width="200">-</td>
-<td width="220">PHYSICLEAR, TactileBench, Touch100k-derived/self-constructed tactile instruction data</td>
-<td width="260">Introduces MoE-based touch-language reasoning and a free-form tactile commonsense benchmark covering 8 properties and 4 interaction characteristics.</td>
-<td width="260">Representation/reasoning benchmark only; no closed-loop robot control or tactile manipulation hardware.</td>
-<td width="220"><a href="https://arxiv.org/abs/2505.04201">paper</a> / <a href="https://cocacola-lab.github.io/SToLa-Page/">project</a></td>
+<td width="100" nowrap>AAAI 2026</td>
+<td width="260"><a href="https://ojs.aaai.org/index.php/AAAI/article/view/38882">STOLA: Self-Adaptive Touch-Language Framework for Tactile Commonsense Reasoning in Open-Ended Scenarios</a></td>
+<td width="230">Answer open-ended tactile commonsense questions across sensors and interaction sequences.</td>
+<td width="300">No robot; offline GelSight and GelSight Mini images/time series from public and constructed datasets.</td>
+<td width="280">Single tactile images and temporal tactile sequences; spatial density and acquisition rate vary by source and are not unified.</td>
+<td width="220">Open-ended tactile QA over eight properties and four interaction characteristics.</td>
+<td width="300">A tactile encoder and adapter condition Vicuna; a mixture-of-experts layer adapts touch-language reasoning.</td>
+<td width="220">No closed-loop robot control; offline inference only.</td>
+<td width="200">Free-form language generation from tactile observations and prompts.</td>
+<td width="330">Touch100k + PHYSICLEAR + 5k self-built instructions; TactileBench contains 600 QA items; no physics simulation.</td>
+<td width="110">Real offline datasets</td>
+<td width="320">PHYSICLEAR CIDEr reaches 195.03; additional QA/reasoning metrics are reported on TactileBench.</td>
+<td width="230">Extends tactile-language evaluation from fixed labels to open-ended commonsense reasoning.</td>
+<td width="240">Benchmark reasoning is not validated in real-time robot manipulation.</td>
+<td width="180"><a href="https://arxiv.org/abs/2505.04201">paper</a> / <a href="https://cocacola-lab.github.io/SToLa-Page/">project</a></td>
 </tr>
 <tr>
-<td width="110" nowrap>AAAI 2026</td>
-<td width="280"><a href="https://ojs.aaai.org/index.php/AAAI/article/view/38915">TouchFormer: A Robust Transformer-based Framework for Multimodal Material Perception</a></td>
-<td width="260">Robust multimodal material perception.</td>
-<td width="180">force/torque</td>
-<td width="200">uSkin fingertip measuring normal force, friction force, and acceleration; multimodal sound/touch sequences</td>
-<td width="140" nowrap>no</td>
-<td width="240">vision-free material classification and material sorting</td>
-<td width="200">uSkin tactile fingertip; RealMan RM65-B 6-DoF arm with TESOLLO hand for sorting demo</td>
-<td width="200">RealMan RM65-B + TESOLLO</td>
-<td width="220">LMTHM and FISHM material datasets; FISHM fine-tuning after LMTHM training</td>
-<td width="260">Improves robust multimodal material perception under noisy/missing modalities and validates a robot material-sorting scenario.</td>
-<td width="260">Perception-guided sorting demo, not a closed-loop force-control manipulation policy.</td>
-<td width="220"><a href="https://arxiv.org/abs/2511.19509">paper</a></td>
+<td width="100" nowrap>AAAI 2026</td>
+<td width="260"><a href="https://ojs.aaai.org/index.php/AAAI/article/view/38915">TouchFormer: A Robust Transformer-based Framework for Multimodal Material Perception</a></td>
+<td width="230">Recognize materials robustly when touch, inertial, or audio modalities are noisy or missing.</td>
+<td width="300">RealMan RM65-B arm, TESOLLO Gripper-3F, uSkin fingertip, 12-DoF IMU, and contact audio.</td>
+<td width="280">uSkin normal/friction force, 12-DoF inertial features, and audio sequences; rates are not disclosed.</td>
+<td width="220">Material classification and a perception-guided sorting demonstration.</td>
+<td width="300">Adaptive gating plus self- and cross-attention fuses touch, IMU, and audio features.</td>
+<td width="220">No manipulation feedback loop; the classifier selects material/sorting behavior.</td>
+<td width="200">Material label followed by a preprogrammed sorting action.</td>
+<td width="330">LMTHM reports 965 samples over 193 materials; FISHM is used for real multimodal fine-tuning/evaluation.</td>
+<td width="110">Real offline perception + real demo</td>
+<td width="320">Reported classification accuracy is 91.47% / 89.54% in the two principal benchmark settings.</td>
+<td width="230">Maintains material perception under noisy or missing modalities and demonstrates robot sorting.</td>
+<td width="240">The robot demo uses perception for selection, not closed-loop contact or force control.</td>
+<td width="180"><a href="https://arxiv.org/abs/2511.19509">paper</a></td>
 </tr>
 <tr>
-<td width="110" nowrap>AAAI 2026</td>
-<td width="280"><a href="https://ojs.aaai.org/index.php/AAAI/article/view/38956">Collaborative Representation Learning for Alignment of Tactile, Language, and Vision Modalities</a></td>
-<td width="260">Align tactile, language, and vision representations.</td>
-<td width="180">visuo-tactile / touch-language</td>
-<td width="200">GelSight, DIGIT, DuraGel, GelSight Mini datasets; TacQuad includes about 55k samples</td>
-<td width="140" nowrap>no</td>
-<td width="240">cross-modal representation learning</td>
-<td width="200">GelSight/DIGIT-style tactile image datasets</td>
-<td width="200">-</td>
-<td width="220">TAG, Octopi, TacQuad and other real-world tactile datasets; RSS evaluation framework</td>
-<td width="260">TLV-CoRe uses SAM/UBA to reduce sensor-specific bias and improve sensor-agnostic tactile-language-vision alignment.</td>
-<td width="260">No real-time robot or real manipulation evaluation is reported; expanding to real-time tasks is stated as future work.</td>
-<td width="220"><a href="https://arxiv.org/abs/2511.11512">paper</a> / <a href="https://ojs.aaai.org/index.php/AAAI/article/view/38956">AAAI</a></td>
+<td width="100" nowrap>AAAI 2026</td>
+<td width="260"><a href="https://ojs.aaai.org/index.php/AAAI/article/view/38956">Collaborative Representation Learning for Alignment of Tactile, Language, and Vision Modalities</a></td>
+<td width="230">Align touch, language, and vision while suppressing sensor-specific bias.</td>
+<td width="300">No robot; GelSight, DIGIT, DuraGel, and GelSight Mini data from eight offline datasets.</td>
+<td width="280">Real tactile-image datasets of about 9.3k/8.3k/7.2k/250k/4.5k/39k/39k/55k samples.</td>
+<td width="220">Cross-sensor material recognition and tactile-language-vision retrieval/alignment.</td>
+<td width="300">OpenCLIP-L with a unified bias adapter and contrastive objectives aligns the three modalities.</td>
+<td width="220">No; offline representation learning and evaluation.</td>
+<td width="200">Embedding, retrieval, and classification outputs only.</td>
+<td width="330">Eight real tactile datasets, including TAG and TacQuad; no physics simulation.</td>
+<td width="110">Real offline datasets</td>
+<td width="320">Cross-sensor material recognition reaches 55.59% in the reported setting.</td>
+<td width="230">Improves sensor-agnostic tactile-language-vision alignment across heterogeneous datasets.</td>
+<td width="240">No real-time robot, manipulation, or closed-loop sensor feedback evaluation.</td>
+<td width="180"><a href="https://arxiv.org/abs/2511.11512">paper</a> / <a href="https://ojs.aaai.org/index.php/AAAI/article/view/38956">AAAI</a></td>
 </tr>
 <tr>
-<td width="110" nowrap>ICML 2026</td>
-<td width="280"><a href="https://icml.cc/virtual/2026/poster/66793">Cross-Tactile Sensor Representation Learning</a></td>
-<td width="260">Sensor-agnostic tactile representation learning across visuo-tactile sensors.</td>
-<td width="180">visuo-tactile</td>
-<td width="200">aligned synthetic data across sensor domains + real multimodal tactile data</td>
-<td width="140" nowrap>no</td>
-<td width="240">cross-sensor tactile representation learning</td>
-<td width="200">-</td>
-<td width="200">-</td>
-<td width="220">synthetic aligned tactile data + real multimodal tactile data</td>
-<td width="260">Uses a Cross-Sensor Modulator and two-stage training for multi-sensor generalization.</td>
-<td width="260">-</td>
-<td width="220"><a href="https://icml.cc/virtual/2026/poster/66793">paper</a></td>
+<td width="100" nowrap>ICML 2026</td>
+<td width="260"><a href="https://icml.cc/virtual/2026/poster/66793">Cross-Tactile Sensor Representation Learning</a></td>
+<td width="230">Transfer tactile representations between optical sensors with different image domains.</td>
+<td width="300">No robot; aligned synthetic sensor domains and real tactile datasets.</td>
+<td width="280">SITR contains 50k aligned simulated samples (5 sensors x 10k); TAG contributes about 250k real samples, with other real sources.</td>
+<td width="220">Cross-sensor tactile recognition and representation transfer.</td>
+<td width="300">A Cross-Sensor Modulator is learned on aligned synthetic data, then adapted with real multimodal tactile data.</td>
+<td width="220">No; offline pretraining and evaluation.</td>
+<td width="200">Feature embedding and downstream classifier outputs.</td>
+<td width="330">SITR 50k simulated aligned samples plus TAG 250k and other real tactile datasets.</td>
+<td width="110">Simulation alignment + real evaluation</td>
+<td width="320">DIGIT↔GelSight Mini transfer improves by roughly 20 percentage points in the reported comparison.</td>
+<td width="230">Uses aligned simulation to reduce the domain gap between tactile sensor appearances.</td>
+<td width="240">No robot-control or closed-loop manipulation validation.</td>
+<td width="180"><a href="https://icml.cc/virtual/2026/poster/66793">paper</a></td>
 </tr>
 <tr>
-<td width="110" nowrap>ICML 2026</td>
-<td width="280"><a href="https://icml.cc/virtual/2026/poster/65669">Tabero: Learning Gentle Manipulation with Closed-Loop Force Feedback from Vision, Touch, and Language</a></td>
-<td width="260">Learn gentle manipulation from vision, touch, language, and force feedback.</td>
-<td width="180">force/torque / visuo-tactile / touch-language</td>
-<td width="200">simulated GelSight 320x240 RGB tactile images; left/right fingertip 3D force vectors; synchronized at 20 Hz</td>
-<td width="140" nowrap>yes</td>
-<td width="240">gentle vs firm grasp/manipulation with force control</td>
-<td width="200">tactile-equipped Franka gripper in Isaac Lab/Isaac Sim</td>
-<td width="200">Franka-style tactile gripper simulation</td>
-<td width="220">Tabero benchmark/model suite; replayed open-source trajectories with vision/tactile/force/language/actions; LeRobot/OpenPI conversion</td>
-<td width="260">Force-position controller maintains task success while reducing average grip force by over 70% under gentle instructions.</td>
-<td width="260">Current framework does not yet solve ultra-gentle regimes or real-world physical deployment.</td>
-<td width="220"><a href="https://arxiv.org/abs/2605.27886">paper</a> / <a href="https://github.com/NathanWu7/Tabero">code</a></td>
+<td width="100" nowrap>ICML 2026</td>
+<td width="260"><a href="https://icml.cc/virtual/2026/poster/65669">Tabero: Learning Gentle Manipulation with Closed-Loop Force Feedback from Vision, Touch, and Language</a></td>
+<td width="230">Execute gentle versus firm instructions while preserving task success and limiting grip force.</td>
+<td width="300">Simulated Franka Panda arm/hand with two GelSight fingertips in Isaac Lab/Isaac Sim.</td>
+<td width="280">Each simulated GelSight is 320x240 RGB with an 11x9 marker grid; two fingertip 3D force vectors; synchronized at 20 Hz.</td>
+<td width="220">Gentle and firm grasp/manipulation under language-conditioned force constraints.</td>
+<td width="300">A tactile TCN and cross-attention condition Pi0; a low-level admittance force-position controller executes commands.</td>
+<td width="220">Policy observations at 20 Hz; low-level admittance force-position loop, whose inner rate is not disclosed.</td>
+<td width="200">Pi0 produces motion/force targets for the admittance controller.</td>
+<td width="330">Isaac Lab/Isaac Sim + Taxim; open-source LIBERO trajectories are replayed; exact trajectory count is not disclosed.</td>
+<td width="110">Simulation only</td>
+<td width="320">In Task A, success is 0.87/0.79 while average grip force drops from 31.3 N to 8.5 N; average reduction exceeds 70%.</td>
+<td width="230">Adds language-conditioned force feedback without sacrificing most task success.</td>
+<td width="240">Ultra-gentle regimes and physical deployment are not demonstrated.</td>
+<td width="180"><a href="https://arxiv.org/abs/2605.27886">paper</a> / <a href="https://github.com/NathanWu7/Tabero">code</a></td>
 </tr>
 <tr>
-<td width="110" nowrap>NeurIPS 2025</td>
-<td width="280"><a href="https://arxiv.org/abs/2505.22566">Universal Visuo-Tactile Video Understanding for Embodied Interaction</a></td>
-<td width="260">Vision-tactile-language video understanding for embodied interaction.</td>
-<td width="180">visuo-tactile / touch-language</td>
-<td width="200">VTV150K: 150,000 frames, 100 objects, GelSight Mini + DIGIT + Tac3D; hardness/protrusion/elasticity/friction labels</td>
-<td width="140" nowrap>no</td>
-<td width="240">tactile video understanding and tactile-language QA</td>
-<td width="200">GelSight Mini, DIGIT, Tac3D</td>
-<td width="200">dataset collection setup</td>
-<td width="220">VTV150K / VBTS video dataset</td>
-<td width="260">Builds VTV-LLM and VTV150K for cross-sensor tactile-language-video understanding.</td>
-<td width="260">Representation-focused; no closed-loop manipulation policy in the checked evidence.</td>
-<td width="220"><a href="https://arxiv.org/abs/2505.22566">paper</a> / <a href="https://github.com/IvanXie416/VTV-LLM">code</a> / <a href="https://huggingface.co/datasets/Ivan416/VBTS_video">hf</a></td>
+<td width="100" nowrap>NeurIPS 2025</td>
+<td width="260"><a href="https://arxiv.org/abs/2505.22566">Universal Visuo-Tactile Video Understanding for Embodied Interaction</a></td>
+<td width="230">Understand dynamic touch jointly with video and language across tactile sensors.</td>
+<td width="300">No robot; human-collected GelSight Mini, DIGIT, and Tac3D videos.</td>
+<td width="280">VTV150K has 150k frames over 100 objects and three sensors, with hardness/protrusion/elasticity/friction labels.</td>
+<td width="220">Tactile-video property recognition and tactile-language QA.</td>
+<td width="300">VideoMAE features with flow masking condition a Qwen language model for video-touch reasoning.</td>
+<td width="220">No; offline video understanding.</td>
+<td width="200">Property prediction and language answers, not robot actions.</td>
+<td width="330">No simulation; 100 objects x 5 videos, totaling 150k real frames.</td>
+<td width="110">Real offline dataset</td>
+<td width="320">VTV-LLM average score is 60.4 across the reported understanding benchmarks.</td>
+<td width="230">Introduces a multi-sensor tactile-video-language dataset and universal video model.</td>
+<td width="240">No closed-loop manipulation or robot-hardware evaluation.</td>
+<td width="180"><a href="https://arxiv.org/abs/2505.22566">paper</a> / <a href="https://github.com/IvanXie416/VTV-LLM">code</a> / <a href="https://huggingface.co/datasets/Ivan416/VBTS_video">data</a></td>
 </tr>
 <tr>
-<td width="110" nowrap>NeurIPS 2025</td>
-<td width="280"><a href="https://arxiv.org/abs/2510.21609">Enhancing Tactile-based Reinforcement Learning for Robotic Control</a></td>
-<td width="260">Improve tactile RL with sparse binary contacts and self-supervised representation learning.</td>
-<td width="180">binary contact</td>
-<td width="200">proprioception + 17 binary contacts in simulation</td>
-<td width="140" nowrap>yes</td>
-<td width="240">find object, ball bouncing, Baoding ball rotation</td>
-<td width="200">Allegro Hand, ORCA Hand, Shadow Dexterous Hand, Shadow Dexterous Hand Lite, Franka</td>
-<td width="200">RoTO simulated embodiments</td>
-<td width="220">RoTO benchmark; simulation</td>
-<td width="260">Shows blind simulated dexterity with sparse contacts and SSL objectives across tactile-diverse tasks.</td>
-<td width="260">Simulation benchmark; real sensor durability and sim-to-real remain open.</td>
-<td width="220"><a href="https://arxiv.org/abs/2510.21609">paper</a> / <a href="https://elle-miller.github.io/tactile_rl/">project</a> / <a href="https://github.com/elle-miller/roto">code</a></td>
+<td width="100" nowrap>NeurIPS 2025</td>
+<td width="260"><a href="https://arxiv.org/abs/2510.21609">Enhancing Tactile-based Reinforcement Learning for Robotic Control</a></td>
+<td width="230">Make sparse contact signals useful for blind reinforcement-learning control.</td>
+<td width="300">Isaac Lab only: Franka for Find; fixed Shadow Dexterous Hand for Bounce and Baoding; no Allegro/ORCA hardware evaluation.</td>
+<td width="280">Find uses 9-D state + 2 binary contacts; Shadow tasks use 20-D hand state + 17 link contacts; physics 120 Hz, policy 60 Hz.</td>
+<td width="220">Find an object, bounce a ball, and rotate Baoding balls without vision.</td>
+<td width="300">PPO fuses proprioception and sparse contacts; self-supervised auxiliary objectives regularize the policy encoder.</td>
+<td width="220">Closed-loop simulated control at 60 Hz with 120 Hz physics.</td>
+<td width="200">Continuous PPO motor actions; low-level actuator mode is task dependent.</td>
+<td width="330">Isaac Lab RoTO benchmark; simulation only; task-specific training horizon is not uniformly disclosed.</td>
+<td width="110">Simulation only</td>
+<td width="320">Find time 1.4 s vs 1.9 s; Bounce 79 vs 69 hits/10 s; Baoding 17 vs 5 rotations in the reported comparisons.</td>
+<td width="230">Shows self-supervision can improve blind dexterity from very sparse binary contacts.</td>
+<td width="240">No real tactile hardware, durability study, or sim-to-real result.</td>
+<td width="180"><a href="https://arxiv.org/abs/2510.21609">paper</a> / <a href="https://elle-miller.github.io/tactile_rl/">project</a> / <a href="https://github.com/elle-miller/roto">code</a></td>
 </tr>
 <tr>
-<td width="110" nowrap>NeurIPS 2025</td>
-<td width="280"><a href="https://taccel-simulator.github.io/assets/taccel-paper.pdf">Taccel: Scaling Up Vision-based Tactile Robotics via High-performance GPU Simulation</a></td>
-<td width="260">Scale vision-based tactile robotics through high-performance GPU simulation.</td>
-<td width="180">optical tactile</td>
-<td width="200">vision-based tactile sensor models; sensor-elastomer / tactile-robot configs</td>
-<td width="140" nowrap>yes</td>
-<td width="240">peg insertion, grasping, deformable object, tactile-informed manipulation</td>
-<td width="200">simulated vision-based tactile sensors and tactile robots</td>
-<td width="200">GPU simulator, not a fixed robot platform</td>
-<td width="220">Taccel GPU simulator; IPC + ABD modeling; docs/code</td>
-<td width="260">Provides a fast simulator and APIs for tactile robot models and policy data generation.</td>
-<td width="260">Simulation fidelity-to-hardware transfer still needs task-specific validation.</td>
-<td width="220"><a href="https://taccel-simulator.github.io/assets/taccel-paper.pdf">paper</a> / <a href="https://taccel-simulator.github.io/">project</a> / <a href="https://github.com/Taccel-Simulator/Taccel">code</a></td>
+<td width="100" nowrap>NeurIPS 2025</td>
+<td width="260"><a href="https://taccel-simulator.github.io/assets/taccel-paper.pdf">Taccel: Scaling Up Vision-based Tactile Robotics via High-performance GPU Simulation</a></td>
+<td width="230">Scale deformable vision-based tactile simulation for robot learning.</td>
+<td width="300">Simulated optical tactile robots; sim-to-real classifier uses Robotiq 2F-85 + GelSight.</td>
+<td width="280">Task-dependent elastomer images; dual-GelSight peg setup runs 4,096 environments; five-finger model has 17 gel surfaces.</td>
+<td width="220">Peg insertion, tactile classification, and multi-finger grasping/manipulation.</td>
+<td width="300">Warp-based ABD + IPC simulate contact and tactile images; learned policies/classifiers consume the rendered signals.</td>
+<td width="220">Closed-loop in simulated control tasks; no single global control rate is disclosed.</td>
+<td width="200">Task-specific RL motor actions or classifier outputs.</td>
+<td width="330">Taccel GPU simulator; dual-GelSight peg: 4,096 envs at 915 FPS; multi-hand study uses about 14k grasps.</td>
+<td width="110">Simulation primary + limited real transfer</td>
+<td width="320">Real classifier accuracy is 70.94%; four reported grasp SRs are 44.56/44.61/54.30/42.54%.</td>
+<td width="230">Provides high-throughput deformable tactile simulation and robot/sensor APIs.</td>
+<td width="240">Hardware transfer remains task- and calibration-specific despite limited sim-to-real evidence.</td>
+<td width="180"><a href="https://taccel-simulator.github.io/assets/taccel-paper.pdf">paper</a> / <a href="https://taccel-simulator.github.io/">project</a> / <a href="https://github.com/Taccel-Simulator/Taccel">code</a></td>
 </tr>
 <tr>
-<td width="110" nowrap>NeurIPS 2025</td>
-<td width="280"><a href="https://arxiv.org/abs/2511.16596">Toward Artificial Palpation: Representation Learning of Touch on Soft Bodies</a></td>
-<td width="260">Learn tactile representations for soft-body palpation.</td>
-<td width="180">force/torque</td>
-<td width="200">single Xela uSkin tactile sensor with 30 3D force sensors at 85 Hz; PalpationSim models 16 2D sensor points</td>
-<td width="140" nowrap>no</td>
-<td width="240">automatic poking / palpation; MRI reconstruction and change detection</td>
-<td width="200">Franka Emika Panda arm with mounted Xela uSkin tactile sensor</td>
-<td width="200">Franka Emika Panda palpation setup</td>
-<td width="220">PalpationSim 2D FEM; real soft-body + MRI dataset; 30M instantaneous sensor readings; Zenodo data</td>
-<td width="260">Learns representations from palpation sequences and releases simulation/real data.</td>
-<td width="260">Simulation is explicitly not realistic; no sensor-motion planning is solved, and medical-grade deployment is not solved.</td>
-<td width="220"><a href="https://arxiv.org/abs/2511.16596">paper</a> / <a href="https://zoharri.github.io/artificial-palpation/">project</a> / <a href="https://github.com/zoharri/ArtificialPalpation">code</a> / <a href="https://zenodo.org/records/17608184">data</a></td>
+<td width="100" nowrap>NeurIPS 2025</td>
+<td width="260"><a href="https://arxiv.org/abs/2511.16596">Toward Artificial Palpation: Representation Learning of Touch on Soft Bodies</a></td>
+<td width="230">Learn representations of internal soft-body structure from palpation sequences.</td>
+<td width="300">Franka Emika Panda with one XELA uSkin sensor.</td>
+<td width="280">Thirty 3-axis force cells at 85 Hz; acquisition uses a 3.8 N low-level force target.</td>
+<td width="220">Automated poking/palpation, MRI reconstruction, and change detection.</td>
+<td width="300">Force and robot-pose sequences feed MLP/GRU representation models.</td>
+<td width="220">Only the data-collection controller closes a 3.8 N force loop; learned inference has no motion-planning loop.</td>
+<td width="200">Programmed poke positions with low-level force regulation.</td>
+<td width="330">PalpationSim 2D FEM; real: about 550 phantoms, 60k pokes, and 30M instantaneous readings.</td>
+<td width="110">Simulation + real perception</td>
+<td width="320">Size error 23%, center-of-mass error 2.4 mm, and change-detection F1 74.4%.</td>
+<td width="230">Connects sequential touch to soft-body reconstruction and releases simulation/real datasets.</td>
+<td width="240">The simulator is explicitly simplified; sensor-motion planning and clinical validation are unsolved.</td>
+<td width="180"><a href="https://arxiv.org/abs/2511.16596">paper</a> / <a href="https://zoharri.github.io/artificial-palpation/">project</a> / <a href="https://github.com/zoharri/ArtificialPalpation">code</a> / <a href="https://zenodo.org/records/17608184">data</a></td>
 </tr>
 <tr>
-<td width="110" nowrap>NeurIPS 2025</td>
-<td width="280"><a href="https://arxiv.org/abs/2507.15062v1">Touch in the Wild: Learning Fine-Grained Manipulation with a Portable Visuo-Tactile Gripper</a></td>
-<td width="260">Collect in-the-wild visuo-tactile demonstrations and learn fine-grained manipulation policies.</td>
-<td width="180">visuo-tactile</td>
-<td width="200">two 12x32 tactile pads forming 1x24x32 tactile image; tactile stream 23 Hz; GoPro Hero 9 60 Hz with QR synchronization</td>
-<td width="140" nowrap>yes</td>
-<td width="240">test-tube insertion, pencil insertion, fluid transfer, whiteboard erasing</td>
-<td width="200">portable handheld visuo-tactile gripper with soft fin-shaped fingers and Arduino-based PCB</td>
-<td width="200">xArm 850 with same sensor configuration; handheld gripper for data collection</td>
-<td width="220">2.6M visuo-tactile pairs, 2,700+ demonstrations, 43 tasks, 12 environments; ROS2 tactile logs; diffusion policy training</td>
-<td width="260">Shows tactile pretraining improves data efficiency and robustness under occlusion/disturbance.</td>
-<td width="260">Portable hardware helps data collection but still needs task-specific policy training.</td>
-<td width="220"><a href="https://arxiv.org/abs/2507.15062v1">paper</a> / <a href="https://binghao-huang.github.io/touch_in_the_wild/">project</a> / <a href="https://github.com/YolandaXinyueZhu/touch_in_the_wild">code</a> / <a href="https://huggingface.co/datasets/binghaohuang-robot/touch_in_the_wild-dataset">hf</a></td>
+<td width="100" nowrap>NeurIPS 2025</td>
+<td width="260"><a href="https://arxiv.org/abs/2507.15062v1">Touch in the Wild: Learning Fine-Grained Manipulation with a Portable Visuo-Tactile Gripper</a></td>
+<td width="230">Collect portable in-the-wild touch demonstrations and transfer them to precise robot policies.</td>
+<td width="300">Hand-held soft-fin tactile gripper for collection; xArm 850 with the same gripper for policy deployment; GoPro Hero 9.</td>
+<td width="280">Two 12x32 pads form a 1x24x32 tactile image, 2 mm² per taxel, at 23 Hz; GoPro video at 60 Hz.</td>
+<td width="220">Test-tube/pencil insertion, fluid transfer, and whiteboard erasing.</td>
+<td width="300">A tactile CNN and visual ViT are fused by cross-attention before a diffusion policy.</td>
+<td width="220">Closed-loop diffusion policy; policy rate is not reported; tactile/video streams are 23/60 Hz.</td>
+<td width="200">Arm/gripper action chunks from the diffusion policy.</td>
+<td width="330">Real-only: 2.6M visuo-tactile pairs, 2,700+ demonstrations, 43 tasks, and 12 environments.</td>
+<td width="110">Real collection + real deployment</td>
+<td width="320">Four-task SR 0.85/0.85/0.90/0.70 versus vision-only 0.25/0.45/0.55/0.55.</td>
+<td width="230">Portable data and tactile pretraining improve data efficiency and robustness to visual degradation.</td>
+<td width="240">Each downstream task still requires policy training on the custom gripper.</td>
+<td width="180"><a href="https://arxiv.org/abs/2507.15062v1">paper</a> / <a href="https://binghao-huang.github.io/touch_in_the_wild/">project</a> / <a href="https://github.com/YolandaXinyueZhu/touch_in_the_wild">code</a> / <a href="https://huggingface.co/datasets/binghaohuang-robot/touch_in_the_wild-dataset">data</a></td>
 </tr>
 <tr>
-<td width="110" nowrap>arXiv 2026</td>
-<td width="280"><a href="https://arxiv.org/abs/2606.17055">T-Rex: Tactile-Reactive Dexterous Manipulation</a></td>
-<td width="260">Tactile-reactive dexterous manipulation with high-frequency touch.</td>
-<td width="180">force/torque tactile</td>
-<td width="200">6D force/torque vectors from all 10 fingers</td>
-<td width="140" nowrap>yes</td>
-<td width="240">12 manipulation tasks requiring delicate force control and deformable-object handling</td>
-<td width="200">Dexmate Vega-1 bimanual robot with two Sharpa Wave dexterous hands; ZED cameras; Manus/VIVE teleoperation</td>
-<td width="200">Dexmate Vega-1 bimanual robot</td>
-<td width="220">100 h synchronized RGB/tactile/state/action/language data; 7,755 episodes; 200+ objects; 22 motor primitives</td>
-<td width="260">Uses a variable-rate Mixture-of-Transformers policy and temporal tactile VQ-VAE for tactile-reactive control.</td>
-<td width="260">Paper notes tactile sensor distortion/calibration drift and lack of dense palm sensing.</td>
-<td width="220"><a href="https://arxiv.org/abs/2606.17055">paper</a> / <a href="https://tactile-reactive-dexterous.github.io/">project</a></td>
+<td width="100" nowrap>arXiv 2026</td>
+<td width="260"><a href="https://arxiv.org/abs/2606.17055">T-Rex: Tactile-Reactive Dexterous Manipulation</a></td>
+<td width="230">Make a bimanual dexterous policy react to touch faster than its vision/action backbone.</td>
+<td width="300">Fixed-base Dexmate Vega-1 (14 arm joints) with two 22-DoF Sharpa Wave hands; ZED cameras.</td>
+<td width="280">All ten fingers provide deformation-depth maps and 6-axis wrenches; logged with RGB/state/action at 30 Hz.</td>
+<td width="220">Twelve delicate-force and deformable-object manipulation tasks.</td>
+<td width="300">A temporal tactile VQ-VAE feeds a three-expert asynchronous Mixture-of-Transformers; the tactile expert refines actions.</td>
+<td width="220">Action expert about 5 Hz, tactile expert about 20 Hz, PID at 300 Hz; synchronized demonstrations at 30 Hz.</td>
+<td width="200">Bimanual arm/hand action chunks refined asynchronously by touch and tracked by PID.</td>
+<td width="330">Real-only: 100 h, 7,755 episodes, 207 objects, 22 motor primitives; plus 22,889 h human video pretraining.</td>
+<td width="110">Real only</td>
+<td width="320">Average SR across 12 tasks is 65% versus 35% for the baseline and 42% without tactile input.</td>
+<td width="230">Separates slow semantic actions from fast tactile reactions for bimanual dexterity.</td>
+<td width="240">Sensor distortion/calibration drift and missing dense palm sensing remain limiting.</td>
+<td width="180"><a href="https://arxiv.org/abs/2606.17055">paper</a> / <a href="https://tactile-rex.github.io/">project</a></td>
 </tr>
 <tr>
-<td width="110" nowrap>arXiv 2026</td>
-<td width="280"><a href="https://arxiv.org/abs/2606.13102">FTP-1: A Foundation Tactile Policy for Generalizable Robot Manipulation</a></td>
-<td width="260">Train a generalist tactile policy across heterogeneous tactile sensors and robots.</td>
-<td width="180">image / array / state tactile</td>
-<td width="200">MTTS data spanning 21 tactile sensors and 26 data sources</td>
-<td width="140" nowrap>yes</td>
-<td width="240">contact-rich manipulation across five hardware configurations</td>
-<td width="200">heterogeneous tactile sensors and embodiments</td>
-<td width="200">five downstream hardware configurations</td>
-<td width="220">about 3,000 h tactile manipulation data from 26 sources and 21 sensors</td>
-<td width="260">Shows a shared tactile expert can transfer to seen and unseen tactile sensors after downstream adaptation.</td>
-<td width="260">Downstream tasks still need finetuning; general tactile servoing remains task- and hardware-dependent.</td>
-<td width="220"><a href="https://arxiv.org/abs/2606.13102">paper</a> / <a href="https://ftp1-policy.github.io/">project</a> / <a href="https://github.com/michaelyuancb/ftp1-policy">code</a></td>
+<td width="100" nowrap>arXiv 2026</td>
+<td width="260"><a href="https://arxiv.org/abs/2606.13102">FTP-1: A Generalist Foundation Tactile Policy Across Tactile Sensors for Contact-Rich Manipulation</a></td>
+<td width="230">Train one tactile expert across heterogeneous sensor formats and robot embodiments.</td>
+<td width="300">Five downstream configurations spanning UniVTAC simulation and Sharpa/Dexmate, Flexiv, and Franka real platforms.</td>
+<td width="280">MTTS covers 21 sensors/26 sources: 7 image, 5 array, and 9 state sensors mapped into 24 sensor slots.</td>
+<td width="220">General contact-rich manipulation across seen and unseen tactile hardware.</td>
+<td width="300">A 300M-parameter tactile Transformer conditions the action expert through a one-way interface.</td>
+<td width="220">High-level tactile-conditioned closed loop; force servo and control rate are not reported.</td>
+<td width="200">A downstream action expert outputs robot-specific actions conditioned on FTP-1 features.</td>
+<td width="330">About 3,000 h from 26 sources and 21 sensors; mixed UniVTAC simulation and real robot data.</td>
+<td width="110">Simulation + real pretraining/evaluation</td>
+<td width="320">Simulation 66.66% vs 49.16%; seen-real 62.5% vs 45.3%; unseen-real average 46.6% vs 15%.</td>
+<td width="230">Demonstrates shared tactile pretraining across sensor modalities and unseen downstream sensors.</td>
+<td width="240">Downstream fine-tuning is still required, and FTP-1 is not a general force-servo controller.</td>
+<td width="180"><a href="https://arxiv.org/abs/2606.13102">paper</a> / <a href="https://ftp1-policy.github.io/">project</a> / <a href="https://github.com/michaelyuancb/ftp1-policy">code</a></td>
 </tr>
 <tr>
-<td width="110" nowrap>ICRA 2026</td>
-<td width="280"><a href="https://opendrivelab.com/FreeTacMan">FreeTacMan: Robot-free Human-centric Visuo-Tactile Data Collection System for Generalizable Contact-Rich Manipulation</a></td>
-<td width="260">Collect scalable human-centric visuo-tactile data without a robot during data capture.</td>
-<td width="180">visuo-tactile</td>
-<td width="200">portable tactile gripper observations; public page does not state a full taxel map</td>
-<td width="140" nowrap>yes</td>
-<td width="240">50 contact-rich manipulation tasks with robot-policy transfer</td>
-<td width="200">FreeTacMan portable visuo-tactile gripper; quick-swap mounts for Piper and Franka</td>
-<td width="200">robot-free human collection, then Piper/Franka robot deployment</td>
-<td width="220">3M+ visuo-tactile pairs and 10k+ trajectories across 50 tasks</td>
-<td width="260">Decouples tactile data collection from robot hardware and reports higher robot success than vision-only baselines.</td>
-<td width="260">Sensor density and robot-side SDK details are not fully specified on the checked public page.</td>
-<td width="220"><a href="https://opendrivelab.com/FreeTacMan">project</a> / <a href="https://github.com/OpenDriveLab/FreeTacMan">code</a></td>
+<td width="100" nowrap>ICRA 2026</td>
+<td width="260"><a href="https://opendrivelab.com/FreeTacMan">FreeTacMan: Robot-free Visuo-Tactile Data Collection System for Contact-rich Manipulation</a></td>
+<td width="230">Scale contact-rich demonstrations by removing the robot from data collection.</td>
+<td width="300">Hand-held dual-finger McTac device for collection; 6-DoF Piper arm for learned-policy deployment.</td>
+<td width="280">McTac cameras 640x480 at 30 Hz; fisheye video 30 Hz; NOKOV tracking 240 Hz; synchronized records at 30 Hz.</td>
+<td width="220">Fifty contact-rich tasks followed by robot-policy transfer.</td>
+<td width="300">ResNet tactile features receive CLIP-style pretraining; touch and vision are concatenated before ACT.</td>
+<td width="220">Closed-loop ACT policy on Piper; policy execution rate is not disclosed.</td>
+<td width="200">ACT arm/gripper action chunks for the Piper platform.</td>
+<td width="330">No simulation; 3M+ visuo-tactile pairs and 10k+ trajectories across 50 real tasks.</td>
+<td width="110">Robot-free real collection + real robot deployment</td>
+<td width="320">Overall SR follows the reported ablation ladder 21%→55%→71% with tactile data/pretraining.</td>
+<td width="230">Decouples tactile demonstration collection from a specific robot and improves policy transfer.</td>
+<td width="240">Reported control results center on Piper, and policy frequency/hardware generality remain incompletely specified.</td>
+<td width="180"><a href="https://opendrivelab.com/FreeTacMan">project</a> / <a href="https://github.com/OpenDriveLab/FreeTacMan">code</a></td>
 </tr>
 <tr>
-<td width="110" nowrap>ICRA 2026</td>
-<td width="280"><a href="https://arxiv.org/abs/2602.11643">ViTaS: Building Embodied Tactile Foundation Model via Visuo-Tactile Simulation</a></td>
-<td width="260">Pretrain tactile policies using visuo-tactile simulation and soft visual-tactile fusion.</td>
-<td width="180">visuo-tactile</td>
-<td width="200">3D-ViTaC tactile sensors with 16x16x1 tactile maps</td>
-<td width="140" nowrap>yes</td>
-<td width="240">12 simulated and 3 real-world tactile manipulation environments</td>
-<td width="200">3D-ViTaC tactile sensors attached to a gripper; Galaxea-R1 setup with ZED 2 and RealSense D435i in checked evidence</td>
-<td width="200">Galaxea-R1 robot setup</td>
-<td width="220">ViTaS simulated tactile environments and three real-world evaluations</td>
-<td width="260">Uses contrastive soft fusion to bridge visual and tactile representations for policy learning.</td>
-<td width="260">Real coverage is smaller than simulation coverage, and tactile hardware is custom.</td>
-<td width="220"><a href="https://arxiv.org/abs/2602.11643">paper</a> / <a href="https://skyrainwind.github.io/ViTaS/index.html">project</a> / <a href="https://github.com/SkyRainWind/ViTaS">code</a></td>
+<td width="100" nowrap>ICRA 2026</td>
+<td width="260"><a href="https://arxiv.org/abs/2602.11643">ViTaS: Visual Tactile Soft Fusion Contrastive Learning for Visuomotor Learning</a></td>
+<td width="230">Pretrain visuomotor policies that use tactile information without hard feature alignment.</td>
+<td width="300">Real Galaxea-R1 with ZED 2 and 3D-ViTaC gripper; simulated parallel grippers and five-finger hand.</td>
+<td width="280">Simulation uses 32x32x3 maps or five 3x3x3 fingertip arrays; real 3D-ViTaC is 16x16x1.</td>
+<td width="220">Twelve tasks in five simulated environments and three real tactile tasks.</td>
+<td width="300">Soft-fusion contrastive learning precedes CVAE/PPO/diffusion-policy heads.</td>
+<td width="220">Closed-loop learned policies; execution rate is not disclosed.</td>
+<td width="200">PPO motor actions for RL or CVAE/diffusion action distributions for imitation learning.</td>
+<td width="330">Simulation: 12 tasks across Gymnasium, robosuite, Insertion, Mobile Catching, and Block Spinning environments; RL 3M steps, IL 50 demos/task. Real Galaxea-R1: 100 teleoperated trajectories/task.</td>
+<td width="110">Separate simulation and real training/evaluation; not Sim2Real</td>
+<td width="320">Simulation average 91.4% vs 71.5%; removing touch 92.5→60.9%; real average 46% vs DP 30%.</td>
+<td width="230">Soft contrastive fusion improves tactile visuomotor learning across RL, IL, and separately trained real-world policies.</td>
+<td width="240">Real evaluation has only three tasks and relies on custom tactile hardware.</td>
+<td width="180"><a href="https://arxiv.org/abs/2602.11643">paper</a> / <a href="https://skyrainwind.github.io/ViTaS/index.html">project</a> / <a href="https://github.com/SkyRainWind/ViTaS">code</a></td>
 </tr>
 <tr>
-<td width="110" nowrap>ICRA 2026</td>
-<td width="280"><a href="https://arxiv.org/abs/2510.06339">Vi-TacMan: Making Vision and Tactile Sensing Complementary for Vision-based Manipulation</a></td>
-<td width="260">Combine vision-based action proposals with tactile refinement for articulated-object manipulation.</td>
-<td width="180">vision + optical tactile</td>
-<td width="200">GelSight-type tactile sensors replacing the gripper pads</td>
-<td width="140" nowrap>yes</td>
-<td width="240">articulated-object manipulation under visual ambiguity</td>
-<td width="200">Kinova Gen3 7-DoF arm with GelSight-style tactile gripper pads</td>
-<td width="200">Kinova Gen3</td>
-<td width="220">50k+ simulated and real articulated-object interactions</td>
-<td width="260">Uses vision to propose grasps/directions and tactile feedback to refine execution.</td>
-<td width="260">Generalization beyond the reported articulated-object suite and tactile gripper geometry remains open.</td>
-<td width="220"><a href="https://arxiv.org/abs/2510.06339">paper</a> / <a href="https://vi-tacman.github.io/">project</a></td>
+<td width="100" nowrap>ICRA 2026</td>
+<td width="260"><a href="https://arxiv.org/abs/2510.06339">Vi-TacMan: Articulated Object Manipulation via Vision and Touch</a></td>
+<td width="230">Use vision for global initialization and touch for precise articulated-object execution.</td>
+<td width="300">Kinova Gen3, two custom GelSight-style gripper pads, Intel RealSense Femto Bolt.</td>
+<td width="280">Marker-based optical tactile images; registration-based tactile controller runs at 50 Hz.</td>
+<td width="220">Manipulate articulated objects under visual pose/direction ambiguity.</td>
+<td width="300">DINOv3/SAM2 provide visual grasp proposals; PointNet/vMF predicts direction; tactile Kabsch registration refines execution.</td>
+<td width="220">Vision initializes grasp/direction once; execution then uses a tactile-only 50 Hz loop.</td>
+<td width="200">Cartesian direction/pose corrections from tactile registration.</td>
+<td width="330">SAPIEN: 385 objects and 55,241 visual displacement samples; real: 4 objects x 5 views; no tactile physics simulator reported.</td>
+<td width="110">Simulation for visual module + real tactile execution</td>
+<td width="320">Unseen-object direction error is 8.13°; real robot results are qualitative and report no success rate.</td>
+<td width="230">Assigns complementary roles to global vision and local tactile feedback.</td>
+<td width="240">Real evaluation lacks quantitative SR and covers few articulated objects.</td>
+<td width="180"><a href="https://arxiv.org/abs/2510.06339">paper</a> / <a href="https://vi-tacman.github.io/">project</a></td>
 </tr>
 <tr>
-<td width="110" nowrap>CoRL 2025</td>
-<td width="280"><a href="https://proceedings.mlr.press/v305/xu25e.html">exUMI: Extensible Visuo-Tactile Teleoperation for Learning Diverse Skills</a></td>
-<td width="260">Build an extensible UMI-style teleoperation stack with tactile sensing and calibration.</td>
-<td width="180">visuo-tactile</td>
-<td width="200">modular tactile sensing; over 1M tactile frames reported</td>
-<td width="140" nowrap>yes</td>
-<td width="240">diverse manipulation skills collected by extensible teleoperation</td>
-<td width="200">exUMI handheld interface with AR MoCap, rotary encoder, modular visuo-tactile sensing, and automated calibration</td>
-<td width="200">UMI-style robot deployment pipeline</td>
-<td width="220">real teleoperation data with 100% reported data usability and over 1M tactile frames</td>
-<td width="260">Improves tactile-aware teleoperation data quality through modular sensing and automated calibration.</td>
-<td width="260">Exact downstream robot/hardware coverage varies by setup and must be checked before reuse.</td>
-<td width="220"><a href="https://proceedings.mlr.press/v305/xu25e.html">pmlr</a> / <a href="https://silicx.github.io/exUMI/">project</a> / <a href="https://github.com/silicx/exUMI">code</a></td>
+<td width="100" nowrap>CoRL 2025</td>
+<td width="260"><a href="https://proceedings.mlr.press/v305/xu25e.html">exUMI: Extensible Robot Teaching System with Action-aware Task-agnostic Tactile Representation</a></td>
+<td width="230">Collect calibrated tactile demonstrations and learn reusable action-aware touch features.</td>
+<td width="300">Teaching device: Meta Quest 3, rotary encoder, Orange Pi, and two 9DTact sensors; deployment: Flexiv Rizon 4 + Grav gripper + GoPro.</td>
+<td width="280">Two 9DTact grayscale streams resized to 224x224; over 1M aligned frames, including 480k touch frames / 5 h.</td>
+<td width="220">Four diverse contact-rich skills collected with an extensible UMI-style device.</td>
+<td width="300">TPP uses a VAE, Transformer, and latent diffusion model; its tactile embedding is concatenated into a diffusion policy.</td>
+<td width="220">Closed-loop diffusion policy at 10 Hz.</td>
+<td width="200">End-effector and gripper action chunks from the diffusion policy.</td>
+<td width="330">Real-only: 10 environments, 300+ objects, over 1M aligned frames; 480k tactile frames / 5 h.</td>
+<td width="110">Real teaching + real deployment</td>
+<td width="320">Across 20 trials per task, TPP SR is 85/60/95/80% on the four tasks.</td>
+<td width="230">Improves tactile teaching data quality and transfers task-agnostic touch representations to policies.</td>
+<td width="240">The custom teaching/deployment stack still needs setup-specific calibration.</td>
+<td width="180"><a href="https://proceedings.mlr.press/v305/xu25e.html">PMLR</a> / <a href="https://silicx.github.io/exUMI/">project</a> / <a href="https://github.com/silicx/exUMI">code</a></td>
 </tr>
 <tr>
-<td width="110" nowrap>CoRL 2025</td>
-<td width="280"><a href="https://proceedings.mlr.press/v305/wistreich25a.html">DexSkin: High-Coverage Conformable Robot Skin for Learning Dexterous Manipulation</a></td>
-<td width="260">Provide high-coverage conformable tactile skin for manipulation learning.</td>
-<td width="180">capacitive tactile skin</td>
-<td width="200">conformable sensorized finger surfaces on a parallel-jaw gripper</td>
-<td width="140" nowrap>yes</td>
-<td width="240">in-hand reorientation and elastic-band wrapping</td>
-<td width="200">DexSkin capacitive electronic skin on parallel-jaw gripper fingers</td>
-<td width="200">parallel-jaw gripper manipulation setup</td>
-<td width="220">real robot calibration/model-transfer experiments and online RL</td>
-<td width="260">Shows broad finger-surface tactile coverage can support model transfer and online RL for dexterous behaviors.</td>
-<td width="260">Not a full multi-finger dexterous-hand benchmark; broader robot-hand integration remains to be proven.</td>
-<td width="220"><a href="https://proceedings.mlr.press/v305/wistreich25a.html">pmlr</a> / <a href="https://dex-skin.github.io/">project</a> / <a href="https://github.com/sdwistreich/dexskin">code</a></td>
+<td width="100" nowrap>CoRL 2025</td>
+<td width="260"><a href="https://proceedings.mlr.press/v305/wistreich25a.html">DexSkin: High-Coverage Conformable Robotic Skin for Learning Contact-Rich Manipulation</a></td>
+<td width="230">Give a simple gripper broad contact coverage for learning contact-rich behaviors.</td>
+<td width="300">Franka Panda, SSG-48 parallel gripper with DexSkin on both fingers, and RealSense D415.</td>
+<td width="280">60 capacitive taxels per finger (120 total), 294° coverage, 30 Hz, 0–2.5 N; force RMSE 0.086 N.</td>
+<td width="220">In-hand pen reorientation under disturbance, berry handling, and elastic-band manipulation.</td>
+<td width="300">Calibrated tactile vectors are fused with vision/proprioception in diffusion-policy and online-RL pipelines.</td>
+<td width="220">Closed-loop diffusion policy at 20 Hz; online RL is also tactile-conditioned.</td>
+<td width="200">Arm/gripper policy actions using high-coverage finger contact.</td>
+<td width="330">Real-only; 50 demonstrations for diffusion-policy tasks plus calibration/model-transfer and online-RL runs.</td>
+<td width="110">Real only</td>
+<td width="320">Pen perturbation: 19/20 vs 0/20 without touch; intact-berry rate 60% vs 20%.</td>
+<td width="230">Shows conformable high-coverage skin can support model transfer and learned reactive behaviors.</td>
+<td width="240">Evaluated on a parallel-jaw gripper rather than a full multi-finger hand.</td>
+<td width="180"><a href="https://proceedings.mlr.press/v305/wistreich25a.html">PMLR</a> / <a href="https://dex-skin.github.io/">project</a> / <a href="https://github.com/sdwistreich/dexskin">code</a></td>
 </tr>
 <tr>
-<td width="110" nowrap>RSS 2025</td>
-<td width="280"><a href="https://arxiv.org/abs/2504.16649">PP-Tac: Paper Picking Using Tactile Feedback</a></td>
-<td width="260">Use fingertip tactile feedback for paper picking and slip-aware force control.</td>
-<td width="180">optical tactile</td>
-<td width="200">four fingertip-mounted round R-Tac tactile sensors</td>
-<td width="140" nowrap>yes</td>
-<td width="240">paper picking with slip detection, online force control, trajectory synthesis, and diffusion policy</td>
-<td width="200">R-Tac / PP-Tac tactile fingertips</td>
-<td width="200">Franka Research 3 robot arm</td>
-<td width="220">real tactile demonstrations and policy training; no public tactile/physics simulator found</td>
-<td width="260">Reports robust paper picking by combining tactile slip detection, force control, and diffusion policy learning.</td>
-<td width="260">Task is narrow and paper-focused; tactile hardware generalization beyond the reported setup is unproven.</td>
-<td width="220"><a href="https://arxiv.org/abs/2504.16649">paper</a> / <a href="https://www.roboticsproceedings.org/rss21/p056.pdf">rss</a> / <a href="https://peilin-666.github.io/projects/PP-Tac/">project</a> / <a href="https://github.com/bigai-ai/PP-Tac">code</a></td>
+<td width="100" nowrap>RSS 2025</td>
+<td width="260"><a href="https://arxiv.org/abs/2504.16649">PP-Tac: Paper Picking Using Tactile Feedback in Dexterous Robotic Hands</a></td>
+<td width="230">Pick one or several paper sheets using slip-aware fingertip feedback.</td>
+<td width="300">Franka Research 3 with a custom 16-DoF four-finger hand and four R-Tac fingertips.</td>
+<td width="280">OV9281 640x480, up to 120 Hz, about 100 ms latency, 2 mm gel layer.</td>
+<td width="220">Paper picking with slip detection, online grip-force adjustment, and learned trajectories.</td>
+<td width="300">Tactile depth and 152-D proprioception condition a diffusion policy; detected slip triggers force increase.</td>
+<td width="220">Slip-triggered force feedback is closed-loop; diffusion-policy rate is not disclosed.</td>
+<td width="200">Arm/16-DoF hand action sequence with online grip-force increments.</td>
+<td width="330">500k rigid grasp sequences x 100 frames for policy training; no tactile physics simulator; real tactile evaluation.</td>
+<td width="110">Generated rigid sequences + real evaluation</td>
+<td width="320">Overall success 87.5%; selecting exactly 1/3/5/7 sheets succeeds 90/75/30/5%.</td>
+<td width="230">Combines tactile depth, slip detection, force adjustment, and diffusion control for paper separation.</td>
+<td width="240">The task is narrow; performance drops sharply for thicker sheet counts, and sensing has notable latency.</td>
+<td width="180"><a href="https://arxiv.org/abs/2504.16649">paper</a> / <a href="https://www.roboticsproceedings.org/rss21/p056.pdf">RSS</a> / <a href="https://peilin-666.github.io/projects/PP-Tac/">project</a> / <a href="https://github.com/bigai-ai/PP-Tac">code</a></td>
 </tr>
 <tr>
-<td width="110" nowrap>ICRA 2026</td>
-<td width="280"><a href="https://arxiv.org/abs/2509.23468">Multi-Modal Manipulation via Multi-Modal Policy Consensus</a></td>
-<td width="260">Fuse modality-specific policies for robust manipulation under sensor corruption.</td>
-<td width="180">vision + tactile + proprioception</td>
-<td width="200">tactile stream used as one policy modality; exact sensor density not found in checked abstract/project evidence</td>
-<td width="140" nowrap>yes</td>
-<td width="240">RLBench simulation plus real occluded picking, in-hand spoon reorientation, and puzzle insertion tasks</td>
-<td width="200">multi-modal robot manipulation setup; exact tactile sensor model not found in checked public evidence</td>
-<td width="200">real robot platform plus RLBench simulation</td>
-<td width="220">RLBench simulated tasks and real multi-modal manipulation demonstrations</td>
-<td width="260">Uses adaptive policy consensus to keep control robust when individual modalities are corrupted.</td>
-<td width="260">Public evidence does not fully specify tactile hardware density/model or SDK.</td>
-<td width="220"><a href="https://arxiv.org/abs/2509.23468">paper</a> / <a href="https://policyconsensus.github.io/">project</a> / <a href="https://openreview.net/forum?id=CJDU8IvF3y">openreview</a></td>
+<td width="100" nowrap>ICRA 2026</td>
+<td width="260"><a href="https://arxiv.org/abs/2509.23468">Multi-Modal Manipulation via Multi-Modal Policy Consensus</a></td>
+<td width="230">Remain robust when vision, touch, or proprioception is corrupted by avoiding early feature fusion.</td>
+<td width="300">UR5e, two RealSense D415 streams at 96x128, and FlexiTac pads on both gripper fingers.</td>
+<td width="280">Each FlexiTac pad is 12x32 with 2 mm spatial pitch; tactile sampling rate is not disclosed.</td>
+<td width="220">Four RLBench tasks and real occluded picking, spoon reorientation, and puzzle insertion/manipulation.</td>
+<td width="300">Each modality has a DDPM score expert; a router combines their action distributions at policy-consensus time.</td>
+<td width="220">Closed-loop policy; execution rate is not disclosed.</td>
+<td width="200">Consensus diffusion action trajectory for the arm/gripper.</td>
+<td width="330">RLBench: 4 tasks, 200 demonstrations, 200 unseen tests; real demonstrations: 80/60/50 across three collections.</td>
+<td width="110">Simulation + real evaluation</td>
+<td width="320">Simulation average SR 0.66 vs 0.56 for feature concatenation; four real settings score 0.65/0.75/0.58/0.45.</td>
+<td width="230">Action-space consensus preserves useful modalities when another sensor is unreliable.</td>
+<td width="240">Control rate and some low-level hardware details are undisclosed; real coverage is small.</td>
+<td width="180"><a href="https://arxiv.org/abs/2509.23468">paper</a> / <a href="https://policyconsensus.github.io/">project</a> / <a href="https://openreview.net/forum?id=CJDU8IvF3y">OpenReview</a></td>
 </tr>
 <tr>
-<td width="110" nowrap>arXiv 2026</td>
-<td width="280"><a href="https://arxiv.org/abs/2602.06001">Visuo-Tactile World Models for Robot Manipulation</a></td>
-<td width="260">Use a visuo-tactile world model to predict contact dynamics for manipulation.</td>
-<td width="180">visuo-tactile</td>
-<td width="200">Digit 360 tactile sensors used as fingertips on an Allegro Hand</td>
-<td width="140" nowrap>yes</td>
-<td width="240">zero-shot real-robot manipulation under occlusion and contact uncertainty</td>
-<td width="200">Digit 360 tactile fingertips on Allegro Hand</td>
-<td width="200">Franka Panda arm with Allegro Hand</td>
-<td width="220">limited real demonstrations; Sparsh-X tactile embeddings and Cosmos RGB embeddings</td>
-<td width="260">Improves object permanence and laws-of-motion compliance through tactile-conditioned world modeling.</td>
-<td width="260">Demonstration scale is limited and the pipeline depends on pretrained embeddings and sensor-specific calibration.</td>
-<td width="220"><a href="https://arxiv.org/abs/2602.06001">paper</a> / <a href="https://carolinahiguera.github.io/vtml/">project</a></td>
+<td width="100" nowrap>arXiv 2026</td>
+<td width="260"><a href="https://arxiv.org/abs/2602.06001">Visuo-Tactile World Models for Robot Manipulation</a></td>
+<td width="230">Predict contact dynamics under occlusion and use the model to plan real robot motion.</td>
+<td width="300">Franka Panda, Allegro Hand, and four DIGIT 360 fingertips.</td>
+<td width="280">Touch at 30 FPS; vision/action trajectory chunks execute at 6 Hz.</td>
+<td width="220">Real-robot reach, push, reach-push, wipe, and stack under contact uncertainty.</td>
+<td width="300">Cosmos visual and Sparsh-X tactile embeddings feed a 12-layer Transformer world model; CEM searches action chunks.</td>
+<td width="220">No tactile feedback inside a trajectory chunk; chunks execute open-loop at 6 Hz, so this is not a tactile servo loop.</td>
+<td width="200">CEM-selected open-loop action chunks for arm/hand motion.</td>
+<td width="330">Real-only: 124 demonstrations / 112k training points; validation 26 demonstrations / 17k points.</td>
+<td width="110">Real only</td>
+<td width="320">V-WM→VT-WM SR: Reach 100→100, Push 83→92, Reach-Push 69→93, Wipe 70→92, Stack 75→83%.</td>
+<td width="230">Touch improves object permanence and contact-dynamics prediction for model-based planning.</td>
+<td width="240">CEM planning is computationally expensive, data are limited, and execution remains open-loop within each chunk.</td>
+<td width="180"><a href="https://arxiv.org/abs/2602.06001">paper</a> / <a href="https://carolinahiguera.github.io/vtml/">project</a></td>
 </tr>
 </tbody>
 </table>
@@ -12009,7 +12080,7 @@ This direction determines whether systems can actually be deployed: on-device in
 
 Subdirections: quantization/cache/tokenization, real-time execution, benchmark/dataset, sim2real, and safety evaluation.
 
-Total: 101 papers.
+Total: 105 papers.
 
 <table>
 <thead>
@@ -12032,12 +12103,12 @@ Total: 101 papers.
 </tr>
 <tr>
 <td nowrap>benchmark/dataset</td>
-<td nowrap>42</td>
+<td nowrap>44</td>
 <td nowrap>Focus: data coverage, task design, and evaluation credibility.</td>
 </tr>
 <tr>
 <td nowrap>sim2real</td>
-<td nowrap>18</td>
+<td nowrap>20</td>
 <td nowrap>Focus: sim-to-real transfer and the real-world deployment gap.</td>
 </tr>
 <tr>
@@ -12522,7 +12593,7 @@ Total: 6 papers.
 
 #### benchmark/dataset
 
-Total: 42 papers.
+Total: 44 papers.
 
 <table>
 <thead>
@@ -12543,6 +12614,36 @@ Total: 42 papers.
 </tr>
 </thead>
 <tbody>
+<tr>
+<td nowrap>ICLR 2026</td>
+<td nowrap><a href="https://arxiv.org/abs/2505.11709">EgoDex: Learning Dexterous Manipulation from Large-Scale Egocentric Video</a></td>
+<td nowrap>Provides large-scale first-person human hand-object video and a future hand-trajectory prediction benchmark.</td>
+<td nowrap>human egocentric dexterous HOI dataset</td>
+<td nowrap>829 h, 338K episodes, 90M 1080p frames, 194 tasks, ~2 TB; data at 30 Hz</td>
+<td nowrap>Apple Vision Pro (visionOS 2/ARKit); no robot or simulator</td>
+<td nowrap>194 human tabletop interactions; 48-D two-hand trajectory prediction</td>
+<td nowrap><a href="https://github.com/apple/ml-egodex">code/data</a></td>
+<td nowrap>At 2 s, EncDec+FM K=10 average/final error is 0.038/0.041 m; human-to-robot retargeting is future work, not evaluated</td>
+<td nowrap><a href="https://arxiv.org/abs/2505.11709">paper</a></td>
+<td nowrap>-</td>
+<td nowrap><a href="https://github.com/apple/ml-egodex">code</a></td>
+<td nowrap>EgoDex</td>
+</tr>
+<tr>
+<td nowrap>AAAI 2026</td>
+<td nowrap><a href="https://ojs.aaai.org/index.php/AAAI/article/view/38894">Real Garment Benchmark (RGBench): A Comprehensive Benchmark for Robotic Garment Manipulation Featuring a High-Fidelity Scalable Simulator</a></td>
+<td nowrap>Benchmarks real-garment simulation fidelity and supplies a scalable FEM GPU simulator and garment assets.</td>
+<td nowrap>garment/deformable-object simulator benchmark</td>
+<td nowrap>6K+ meshes, 10+ materials/100+ subtypes; 2.7 ms minimum step; 3–7× faster than Isaac Sim and up to 65× vs MuJoCo at 20K vertices</td>
+<td nowrap>dual AGILEX Piper or dual JAKA K1 + DH PGC-50-35 grippers; RealSense L515</td>
+<td nowrap>grasp, fling, fold; simulator fidelity rather than a learned policy</td>
+<td nowrap><a href="https://rgbench.github.io/">project</a> / <a href="https://github.com/hwk0809/RGBench">code</a></td>
+<td nowrap>GarmentDynamics reduces average simulation error by ~20%; grasp/fold Chamfer distance improves by up to 35/58%</td>
+<td nowrap><a href="https://ojs.aaai.org/index.php/AAAI/article/view/38894">paper</a></td>
+<td nowrap><a href="https://rgbench.github.io/">project</a></td>
+<td nowrap><a href="https://github.com/hwk0809/RGBench">code</a></td>
+<td nowrap>RGBench / GarmentDynamics; compared with MuJoCo, PyBullet, Isaac Sim</td>
+</tr>
 <tr>
 <td nowrap>CoRL 2023</td>
 <td nowrap><a href="https://scholar.google.com/scholar?q=Behavior-1K%3A+A+Benchmark+for+Embodied+AI+with+1%2C000+Everyday+Activities+and+Realistic+Simulation">Behavior-1K: A Benchmark for Embodied AI with 1,000 Everyday Activities and Realistic Simulation</a></td>
@@ -13178,7 +13279,7 @@ Total: 42 papers.
 
 #### sim2real
 
-Total: 18 papers.
+Total: 20 papers.
 
 <table>
 <thead>
@@ -13199,6 +13300,36 @@ Total: 18 papers.
 </tr>
 </thead>
 <tbody>
+<tr>
+<td nowrap>CoRL 2025</td>
+<td nowrap><a href="https://arxiv.org/abs/2505.03233">GraspVLA: a Grasping Foundation Model Pre-trained on Billion-scale Synthetic Action Data</a></td>
+<td nowrap>Pretrains a language-conditioned closed-loop grasp VLA on synthetic action data and transfers it to real robots.</td>
+<td nowrap>open-vocabulary parallel-gripper grasping</td>
+<td nowrap>SynGrasp-1B: 10M trajectories/~1B frames; real mean 84.7%; 5 Hz model execution; 5K synthetic trajectories adapt a new embodiment/view</td>
+<td nowrap>Main: Franka Panda + original two-finger gripper (fingers extended 2 cm), D435 front + D415i side; adaptation: UR5e + Robotiq 2F-85</td>
+<td nowrap>language-conditioned closed-loop grasping and embodiment/view adaptation</td>
+<td nowrap><a href="https://pku-epic.github.io/GraspVLA-web/">project</a> / <a href="https://github.com/PKU-EPIC/GraspVLA">code</a></td>
+<td nowrap>Use billion-scale synthetic action supervision to reduce real grasp data; real overall/language/arbitrary/transparent success 93.3/93.3/93.3/86.6%</td>
+<td nowrap><a href="https://arxiv.org/abs/2505.03233">paper</a></td>
+<td nowrap><a href="https://pku-epic.github.io/GraspVLA-web/">project</a></td>
+<td nowrap><a href="https://github.com/PKU-EPIC/GraspVLA">code</a></td>
+<td nowrap>SynGrasp-1B; CuRobo planning + MuJoCo physics validation + Isaac Sim rendering; LIBERO evaluation</td>
+</tr>
+<tr>
+<td nowrap>CVPR 2025</td>
+<td nowrap><a href="https://openaccess.thecvf.com/content/CVPR2025/html/Wang_MobileH2R_Learning_Generalizable_Human_to_Mobile_Robot_Handover_Exclusively_from_CVPR_2025_paper.html">MobileH2R: Learning Generalizable Human to Mobile Robot Handover Exclusively from Scalable and Diverse Synthetic Data</a></td>
+<td nowrap>Trains mobile human-to-robot object reception exclusively from scalable synthetic human motion and 4D imitation learning.</td>
+<td nowrap>mobile manipulation / human-to-robot handover</td>
+<td nowrap>100K+ synthetic demonstrations; real simple/complex success 80.0/63.3% vs baseline 40.0/30.0% over 30 trials/setting</td>
+<td nowrap>Galbot G1 mobile base + single left 7-DoF arm + gripper</td>
+<td nowrap>whole-body approach and object reception from humans</td>
+<td nowrap><a href="https://mobileh2r.github.io/">project</a></td>
+<td nowrap>Bridge a large mobile workspace without collecting real handover demonstrations; this is not bimanual manipulation.</td>
+<td nowrap><a href="https://openaccess.thecvf.com/content/CVPR2025/html/Wang_MobileH2R_Learning_Generalizable_Human_to_Mobile_Robot_Handover_Exclusively_from_CVPR_2025_paper.html">paper</a></td>
+<td nowrap><a href="https://mobileh2r.github.io/">project</a></td>
+<td nowrap>-</td>
+<td nowrap>MobileH2R-Sim (PyBullet + Ray); 8,836 ShapeNet objects</td>
+</tr>
 <tr>
 <td nowrap>CoRL 2018</td>
 <td nowrap><a href="https://scholar.google.com/scholar?q=Sim-to-Real+Reinforcement+Learning+for+Deformable+Object+Manipulation">Sim-to-Real Reinforcement Learning for Deformable Object Manipulation</a></td>
@@ -13733,14 +13864,6 @@ The following entries come from archived README snapshots and are not merged int
 <td nowrap>2026-01</td>
 <td nowrap><a href="https://arxiv.org/pdf/2601.02456">paper</a> / <a href="https://internrobotics.github.io/interndata-a1.github.io/">web</a> / <a href="https://huggingface.co/datasets/InternRobotics/InternData-A1">dataset</a> / <a href="https://github.com/InternRobotics/InternVLA-A1">code</a></td>
 <td nowrap>Includes data, models, and code, making it suitable as a joint VLA/WAM entry point.</td>
-</tr>
-<tr>
-<td nowrap>EgoDex</td>
-<td nowrap>WAM</td>
-<td nowrap>egocentric dexterous data</td>
-<td nowrap>2025-05</td>
-<td nowrap><a href="https://arxiv.org/pdf/2505.11709">paper</a> / <a href="https://github.com/apple/ml-egodex">dataset+code</a></td>
-<td nowrap>Egocentric dexterous manipulation data, useful for filling the path from human video to robot policy.</td>
 </tr>
 <tr>
 <td nowrap>ARM</td>
