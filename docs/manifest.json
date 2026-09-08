@@ -1,0 +1,343 @@
+{
+  "tracks": [
+    {
+      "id": "vln",
+      "title": {
+        "en": "VLN / Large-scale Navigation",
+        "zh-CN": "VLN / 大范围导航"
+      },
+      "subdirections": [
+        {
+          "path": "vln/continuous.md",
+          "title": {
+            "en": "Continuous VLN",
+            "zh-CN": "连续视觉语言导航"
+          },
+          "count": 39
+        },
+        {
+          "path": "vln/map-memory.md",
+          "title": {
+            "en": "Map Memory",
+            "zh-CN": "地图与记忆"
+          },
+          "count": 23
+        },
+        {
+          "path": "vln/physically-executable.md",
+          "title": {
+            "en": "Physically Executable Navigation",
+            "zh-CN": "物理可执行导航"
+          },
+          "count": 7
+        },
+        {
+          "path": "vln/urban-open-world.md",
+          "title": {
+            "en": "Urban / Open-world Navigation",
+            "zh-CN": "城市与开放世界导航"
+          },
+          "count": 20
+        },
+        {
+          "path": "vln/on-device.md",
+          "title": {
+            "en": "Low-cost / On-device Navigation",
+            "zh-CN": "低成本与端侧导航"
+          },
+          "count": 3
+        }
+      ]
+    },
+    {
+      "id": "vla",
+      "title": {
+        "en": "VLA / Manipulation Policies",
+        "zh-CN": "VLA / 操作策略"
+      },
+      "subdirections": [
+        {
+          "path": "vla/generalist.md",
+          "title": {
+            "en": "generalist VLA",
+            "zh-CN": "通用 VLA"
+          },
+          "count": 80
+        },
+        {
+          "path": "vla/action-representation.md",
+          "title": {
+            "en": "action representation",
+            "zh-CN": "动作表示"
+          },
+          "count": 30
+        },
+        {
+          "path": "vla/diffusion-flow.md",
+          "title": {
+            "en": "diffusion/flow policy",
+            "zh-CN": "扩散与流策略"
+          },
+          "count": 72
+        },
+        {
+          "path": "vla/3d-grounding.md",
+          "title": {
+            "en": "3D grounding",
+            "zh-CN": "三维空间落地"
+          },
+          "count": 41
+        },
+        {
+          "path": "vla/online-rl.md",
+          "title": {
+            "en": "online/RL fine-tuning",
+            "zh-CN": "在线与强化学习微调"
+          },
+          "count": 21
+        },
+        {
+          "path": "vla/safety-robustness.md",
+          "title": {
+            "en": "Safety and Robustness",
+            "zh-CN": "安全性与鲁棒性"
+          },
+          "count": 7
+        }
+      ]
+    },
+    {
+      "id": "wam",
+      "title": {
+        "en": "WAM / World Models",
+        "zh-CN": "WAM / 世界模型"
+      },
+      "subdirections": [
+        {
+          "path": "wam/cascaded.md",
+          "title": {
+            "en": "cascaded WAM",
+            "zh-CN": "级联世界动作模型"
+          },
+          "count": 24
+        },
+        {
+          "path": "wam/joint.md",
+          "title": {
+            "en": "joint WAM",
+            "zh-CN": "联合世界动作模型"
+          },
+          "count": 3
+        },
+        {
+          "path": "wam/video-latent.md",
+          "title": {
+            "en": "video/latent world model",
+            "zh-CN": "视频与潜在世界模型"
+          },
+          "count": 33
+        },
+        {
+          "path": "wam/for-vla.md",
+          "title": {
+            "en": "world model for VLA",
+            "zh-CN": "面向 VLA 的世界模型"
+          },
+          "count": 10
+        }
+      ]
+    },
+    {
+      "id": "planning",
+      "title": {
+        "en": "Agentic Planning / Reasoning and Planning",
+        "zh-CN": "智能体规划 / 推理规划"
+      },
+      "subdirections": [
+        {
+          "path": "planning/task-decomposition.md",
+          "title": {
+            "en": "Task Decomposition",
+            "zh-CN": "任务分解"
+          },
+          "count": 40
+        },
+        {
+          "path": "planning/memory.md",
+          "title": {
+            "en": "memory",
+            "zh-CN": "记忆"
+          },
+          "count": 11
+        },
+        {
+          "path": "planning/failure-monitor.md",
+          "title": {
+            "en": "failure monitor",
+            "zh-CN": "失败监测"
+          },
+          "count": 9
+        },
+        {
+          "path": "planning/constraint-affordance.md",
+          "title": {
+            "en": "constraint / affordance planning",
+            "zh-CN": "约束与可供性规划"
+          },
+          "count": 11
+        },
+        {
+          "path": "planning/self-improving.md",
+          "title": {
+            "en": "self-improving planning",
+            "zh-CN": "自我改进规划"
+          },
+          "count": 32
+        }
+      ]
+    },
+    {
+      "id": "embodiment",
+      "title": {
+        "en": "Embodiment Expansion / Dexterous Manipulation",
+        "zh-CN": "本体扩展 / 灵巧操作"
+      },
+      "subdirections": [
+        {
+          "path": "embodiment/hardware.md",
+          "title": {
+            "en": "Humanoid & Biped Hardware Reference",
+            "zh-CN": "人形与双足硬件参考"
+          },
+          "count": null
+        },
+        {
+          "path": "embodiment/humanoid.md",
+          "title": {
+            "en": "humanoid",
+            "zh-CN": "人形机器人"
+          },
+          "count": 78
+        },
+        {
+          "path": "embodiment/bimanual.md",
+          "title": {
+            "en": "bimanual",
+            "zh-CN": "双臂操作"
+          },
+          "count": 12
+        },
+        {
+          "path": "embodiment/dexterous-hand.md",
+          "title": {
+            "en": "dexterous hand",
+            "zh-CN": "灵巧手"
+          },
+          "count": 28
+        },
+        {
+          "path": "embodiment/tactile-contact.md",
+          "title": {
+            "en": "tactile/contact-rich",
+            "zh-CN": "触觉与接触丰富操作"
+          },
+          "count": 28
+        }
+      ]
+    },
+    {
+      "id": "deployment",
+      "title": {
+        "en": "Efficiency / Evaluation / Data",
+        "zh-CN": "轻量化 / 评测 / 数据"
+      },
+      "subdirections": [
+        {
+          "path": "deployment/quantization-cache-tokenization.md",
+          "title": {
+            "en": "quantization/cache/tokenization",
+            "zh-CN": "量化、缓存与词元化"
+          },
+          "count": 22
+        },
+        {
+          "path": "deployment/real-time.md",
+          "title": {
+            "en": "real-time execution",
+            "zh-CN": "实时执行"
+          },
+          "count": 6
+        },
+        {
+          "path": "deployment/benchmarks-datasets.md",
+          "title": {
+            "en": "benchmark/dataset",
+            "zh-CN": "基准与数据集"
+          },
+          "count": 44
+        },
+        {
+          "path": "deployment/sim2real.md",
+          "title": {
+            "en": "sim2real",
+            "zh-CN": "仿真到现实"
+          },
+          "count": 20
+        },
+        {
+          "path": "deployment/safety-evaluation.md",
+          "title": {
+            "en": "safety evaluation",
+            "zh-CN": "安全评测"
+          },
+          "count": 13
+        }
+      ]
+    }
+  ],
+  "pages": [
+    "overview.md",
+    "reading-order.md",
+    "sources.md",
+    "additional-sources.md",
+    "vln/continuous.md",
+    "vln/map-memory.md",
+    "vln/physically-executable.md",
+    "vln/urban-open-world.md",
+    "vln/on-device.md",
+    "vln/README.md",
+    "vla/generalist.md",
+    "vla/action-representation.md",
+    "vla/diffusion-flow.md",
+    "vla/3d-grounding.md",
+    "vla/online-rl.md",
+    "vla/safety-robustness.md",
+    "vla/README.md",
+    "wam/cascaded.md",
+    "wam/joint.md",
+    "wam/video-latent.md",
+    "wam/for-vla.md",
+    "wam/README.md",
+    "planning/task-decomposition.md",
+    "planning/memory.md",
+    "planning/failure-monitor.md",
+    "planning/constraint-affordance.md",
+    "planning/self-improving.md",
+    "planning/README.md",
+    "embodiment/hardware.md",
+    "embodiment/humanoid.md",
+    "embodiment/bimanual.md",
+    "embodiment/dexterous-hand.md",
+    "embodiment/tactile-contact.md",
+    "embodiment/README.md",
+    "deployment/quantization-cache-tokenization.md",
+    "deployment/real-time.md",
+    "deployment/benchmarks-datasets.md",
+    "deployment/sim2real.md",
+    "deployment/safety-evaluation.md",
+    "deployment/README.md",
+    "consistency-audit.md"
+  ],
+  "paper_entries": 767,
+  "additional_entries": 7
+}

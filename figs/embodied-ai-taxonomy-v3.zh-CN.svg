@@ -80,17 +80,17 @@
         <rect x="890" y="379" width="68" height="8" rx="4" fill="#edf1f5"/>
         <rect x="890" y="379" width="23" height="8" rx="4" fill="#E15759"/>
 
-        <text x="666" y="411" font-size="14" fill="#172033" font-weight="650">diffusion/flow 策略</text>
+        <text x="666" y="411" font-size="14" fill="#172033" font-weight="650">扩散/流策略</text>
         <text x="878" y="411" font-size="13" fill="#5f6b7a" text-anchor="end">72</text>
         <rect x="890" y="400" width="68" height="8" rx="4" fill="#edf1f5"/>
         <rect x="890" y="400" width="58" height="8" rx="4" fill="#E15759"/>
 
-        <text x="666" y="432" font-size="14" fill="#172033" font-weight="650">3D 定位</text>
+        <text x="666" y="432" font-size="14" fill="#172033" font-weight="650">三维 定位</text>
         <text x="878" y="432" font-size="13" fill="#5f6b7a" text-anchor="end">35</text>
         <rect x="890" y="421" width="68" height="8" rx="4" fill="#edf1f5"/>
         <rect x="890" y="421" width="28" height="8" rx="4" fill="#E15759"/>
 
-        <text x="666" y="453" font-size="14" fill="#172033" font-weight="650">在线/RL 调优</text>
+        <text x="666" y="453" font-size="14" fill="#172033" font-weight="650">在线强化微调</text>
         <text x="878" y="453" font-size="13" fill="#5f6b7a" text-anchor="end">21</text>
         <rect x="890" y="442" width="68" height="8" rx="4" fill="#edf1f5"/>
         <rect x="890" y="442" width="17" height="8" rx="4" fill="#E15759"/>
@@ -129,7 +129,7 @@
         <rect x="1450" y="379" width="68" height="8" rx="4" fill="#edf1f5"/>
         <rect x="1450" y="379" width="16" height="8" rx="4" fill="#59A14F"/>
 
-        <text x="1226" y="411" font-size="14" fill="#172033" font-weight="650">视频/latent 世界模型</text>
+        <text x="1226" y="411" font-size="14" fill="#172033" font-weight="650">视频/潜在世界模型</text>
         <text x="1438" y="411" font-size="13" fill="#5f6b7a" text-anchor="end">33</text>
         <rect x="1450" y="400" width="68" height="8" rx="4" fill="#edf1f5"/>
         <rect x="1450" y="400" width="64" height="8" rx="4" fill="#59A14F"/>
@@ -138,7 +138,7 @@
         <text x="1438" y="432" font-size="13" fill="#5f6b7a" text-anchor="end">10</text>
         <rect x="1450" y="421" width="68" height="8" rx="4" fill="#edf1f5"/>
         <rect x="1450" y="421" width="19" height="8" rx="4" fill="#59A14F"/>
-      <text x="1538" y="370" font-size="15" fill="#172033" font-weight="800">2022  DayDreamer</text><text x="1538" y="389" font-size="13" fill="#5f6b7a">视频/latent 世界模型</text><text x="1538" y="412" font-size="15" fill="#172033" font-weight="800">2024  Dreamitate</text><text x="1538" y="431" font-size="13" fill="#5f6b7a">视频/latent 世界模型</text><text x="1538" y="454" font-size="15" fill="#172033" font-weight="800">2025  Gen2Act</text><text x="1538" y="473" font-size="13" fill="#5f6b7a">视频/latent 世界模型</text><text class="tiny" x="1224" y="520" font-size="13" font-weight="800" fill="#5f6b7a">技术字段</text><rect x="1224" y="534" width="146" height="28" rx="7" fill="#59A14F10" stroke="#59A14F45"/>
+      <text x="1538" y="370" font-size="15" fill="#172033" font-weight="800">2022  DayDreamer</text><text x="1538" y="389" font-size="13" fill="#5f6b7a">视频/潜在世界模型</text><text x="1538" y="412" font-size="15" fill="#172033" font-weight="800">2024  Dreamitate</text><text x="1538" y="431" font-size="13" fill="#5f6b7a">视频/潜在世界模型</text><text x="1538" y="454" font-size="15" fill="#172033" font-weight="800">2025  Gen2Act</text><text x="1538" y="473" font-size="13" fill="#5f6b7a">视频/潜在世界模型</text><text class="tiny" x="1224" y="520" font-size="13" font-weight="800" fill="#5f6b7a">技术字段</text><rect x="1224" y="534" width="146" height="28" rx="7" fill="#59A14F10" stroke="#59A14F45"/>
             <text x="1297" y="553" font-size="12" font-weight="750" fill="#59A14F" text-anchor="middle">WAM 类型</text><rect x="1382" y="534" width="132" height="28" rx="7" fill="#59A14F10" stroke="#59A14F45"/>
             <text x="1448" y="553" font-size="12" font-weight="750" fill="#59A14F" text-anchor="middle">状态</text><rect x="1540" y="534" width="132" height="28" rx="7" fill="#59A14F10" stroke="#59A14F45"/>
             <text x="1606" y="553" font-size="12" font-weight="750" fill="#59A14F" text-anchor="middle">用途</text>
@@ -241,7 +241,7 @@
       <text class="tiny" x="1224" y="778" font-size="13" font-weight="800" fill="#5f6b7a">子方向结构</text>
       <text class="tiny" x="1538" y="778" font-size="13" font-weight="800" fill="#5f6b7a">代表方法</text>
 
-        <text x="1226" y="804" font-size="14" fill="#172033" font-weight="650">量化/缓存/token</text>
+        <text x="1226" y="804" font-size="14" fill="#172033" font-weight="650">量化/缓存/词元</text>
         <text x="1438" y="804" font-size="13" fill="#5f6b7a" text-anchor="end">22</text>
         <rect x="1450" y="793" width="68" height="8" rx="4" fill="#edf1f5"/>
         <rect x="1450" y="793" width="34" height="8" rx="4" fill="#76B7B2"/>
@@ -256,7 +256,7 @@
         <rect x="1450" y="835" width="68" height="8" rx="4" fill="#edf1f5"/>
         <rect x="1450" y="835" width="64" height="8" rx="4" fill="#76B7B2"/>
 
-        <text x="1226" y="867" font-size="14" fill="#172033" font-weight="650">sim2real</text>
+        <text x="1226" y="867" font-size="14" fill="#172033" font-weight="650">仿真到现实</text>
         <text x="1438" y="867" font-size="13" fill="#5f6b7a" text-anchor="end">18</text>
         <rect x="1450" y="856" width="68" height="8" rx="4" fill="#edf1f5"/>
         <rect x="1450" y="856" width="27" height="8" rx="4" fill="#76B7B2"/>
@@ -265,7 +265,7 @@
         <text x="1438" y="888" font-size="13" fill="#5f6b7a" text-anchor="end">13</text>
         <rect x="1450" y="877" width="68" height="8" rx="4" fill="#edf1f5"/>
         <rect x="1450" y="877" width="20" height="8" rx="4" fill="#76B7B2"/>
-      <text x="1538" y="805" font-size="15" fill="#172033" font-weight="800">2023  Behavior-1K</text><text x="1538" y="824" font-size="13" fill="#5f6b7a">基准/数据集</text><text x="1538" y="847" font-size="15" fill="#172033" font-weight="800">2024  RoboMamba</text><text x="1538" y="866" font-size="13" fill="#5f6b7a">量化/缓存/token</text><text x="1538" y="889" font-size="15" fill="#172033" font-weight="800">2026  Sim2Real VLA</text><text x="1538" y="908" font-size="13" fill="#5f6b7a">sim2real</text><text class="tiny" x="1224" y="955" font-size="13" font-weight="800" fill="#5f6b7a">技术字段</text><rect x="1224" y="969" width="146" height="28" rx="7" fill="#76B7B210" stroke="#76B7B245"/>
+      <text x="1538" y="805" font-size="15" fill="#172033" font-weight="800">2023  Behavior-1K</text><text x="1538" y="824" font-size="13" fill="#5f6b7a">基准/数据集</text><text x="1538" y="847" font-size="15" fill="#172033" font-weight="800">2024  RoboMamba</text><text x="1538" y="866" font-size="13" fill="#5f6b7a">量化/缓存/词元</text><text x="1538" y="889" font-size="15" fill="#172033" font-weight="800">2026  Sim2Real VLA</text><text x="1538" y="908" font-size="13" fill="#5f6b7a">仿真到现实</text><text class="tiny" x="1224" y="955" font-size="13" font-weight="800" fill="#5f6b7a">技术字段</text><rect x="1224" y="969" width="146" height="28" rx="7" fill="#76B7B210" stroke="#76B7B245"/>
             <text x="1297" y="988" font-size="12" font-weight="750" fill="#76B7B2" text-anchor="middle">对象类型</text><rect x="1382" y="969" width="132" height="28" rx="7" fill="#76B7B210" stroke="#76B7B245"/>
             <text x="1448" y="988" font-size="12" font-weight="750" fill="#76B7B2" text-anchor="middle">效率指标</text><rect x="1540" y="969" width="132" height="28" rx="7" fill="#76B7B210" stroke="#76B7B245"/>
             <text x="1606" y="988" font-size="12" font-weight="750" fill="#76B7B2" text-anchor="middle">任务覆盖</text>
