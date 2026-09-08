@@ -1,0 +1,162 @@
+{
+  "id": "03-end-effectors",
+  "title": {
+    "zh-CN": "末端与操作机构",
+    "en": "End effectors and manipulation mechanisms"
+  },
+  "question": {
+    "zh-CN": "如何根据物体与工艺选择接触方式，而非只增加手指数量？",
+    "en": "How should contact mechanisms be matched to objects and processes beyond adding fingers?"
+  },
+  "sources": [
+    "leap",
+    "shadow",
+    "franka",
+    "umi",
+    "inspire"
+  ],
+  "papers": [
+    "embodiment/dexterous-hand.md",
+    "embodiment/bimanual.md"
+  ],
+  "subcategories": [
+    {
+      "id": "03-01",
+      "name": {
+        "zh-CN": "平行与自适应夹爪",
+        "en": "Parallel and adaptive grippers"
+      },
+      "problem": {
+        "zh-CN": "稳定夹持尺寸或形状不同的物体。",
+        "en": "Hold objects with varying sizes or shapes."
+      },
+      "research": {
+        "zh-CN": "抓取生成、柔顺设计与接触建模。",
+        "en": "Grasp synthesis, compliance design and contact modeling."
+      },
+      "industry": {
+        "zh-CN": "指尖工装、寿命、夹持检测与接口。",
+        "en": "Fingertip tooling, life, grasp detection and interfaces."
+      },
+      "compare": {
+        "zh-CN": "开口、夹持力、质量与可替换指尖。",
+        "en": "Opening, gripping force, mass and replaceable fingertips."
+      }
+    },
+    {
+      "id": "03-02",
+      "name": {
+        "zh-CN": "吸附、气动与柔性末端",
+        "en": "Suction, pneumatic and soft tools"
+      },
+      "problem": {
+        "zh-CN": "处理薄片、易损或不规则物体。",
+        "en": "Handle sheets, fragile items and irregular shapes."
+      },
+      "research": {
+        "zh-CN": "密封接触、材料形变与抓取可行性。",
+        "en": "Sealing contact, deformation and grasp feasibility."
+      },
+      "industry": {
+        "zh-CN": "气源、泄漏、污染与耗材更换。",
+        "en": "Air supply, leakage, contamination and consumable replacement."
+      },
+      "compare": {
+        "zh-CN": "表面适应性、压差、抓取失败检测。",
+        "en": "Surface compatibility, pressure differential and failure detection."
+      }
+    },
+    {
+      "id": "03-03",
+      "name": {
+        "zh-CN": "多指灵巧手",
+        "en": "Multi-finger dexterous hands"
+      },
+      "problem": {
+        "zh-CN": "在抓取后继续调整物体姿态。",
+        "en": "Reorient objects after grasping."
+      },
+      "research": {
+        "zh-CN": "高维动作学习、手内操作与跨手迁移。",
+        "en": "High-dimensional learning, in-hand manipulation and hand transfer."
+      },
+      "industry": {
+        "zh-CN": "驱动集成、耐久性、触觉布置与供货。",
+        "en": "Drive integration, durability, tactile placement and supply."
+      },
+      "compare": {
+        "zh-CN": "主动与总自由度、指尖力、控制接口。",
+        "en": "Active versus total degrees of freedom, fingertip force and control interface."
+      }
+    },
+    {
+      "id": "03-04",
+      "name": {
+        "zh-CN": "绳驱、欠驱动与仿生结构",
+        "en": "Tendon-driven, underactuated and biomimetic mechanisms"
+      },
+      "problem": {
+        "zh-CN": "降低手部重量与驱动数量。",
+        "en": "Reduce hand mass and actuator count."
+      },
+      "research": {
+        "zh-CN": "耦合辨识、迟滞补偿与形态计算。",
+        "en": "Coupling identification, hysteresis compensation and morphology computation."
+      },
+      "industry": {
+        "zh-CN": "张力调节、传动维护与一致性。",
+        "en": "Tension adjustment, transmission service and consistency."
+      },
+      "compare": {
+        "zh-CN": "独立可控维度、迟滞、张力与寿命。",
+        "en": "Independent control dimensions, hysteresis, tension and life."
+      }
+    },
+    {
+      "id": "03-05",
+      "name": {
+        "zh-CN": "工具快换与工艺末端",
+        "en": "Tool changing and process tooling"
+      },
+      "problem": {
+        "zh-CN": "在抓取、拧紧、加工等工序间切换。",
+        "en": "Switch between grasping, fastening and processing."
+      },
+      "research": {
+        "zh-CN": "工具使用推理与接触技能组合。",
+        "en": "Tool-use reasoning and contact-skill composition."
+      },
+      "industry": {
+        "zh-CN": "快换定位、介质连接、工艺认证。",
+        "en": "Changer repeatability, utility connections and process qualification."
+      },
+      "compare": {
+        "zh-CN": "换装时间、连接可靠性与工具标定。",
+        "en": "Changeover time, connection reliability and tool calibration."
+      }
+    },
+    {
+      "id": "03-06",
+      "name": {
+        "zh-CN": "双手与手臂协同",
+        "en": "Bimanual and hand-arm coordination"
+      },
+      "problem": {
+        "zh-CN": "共同支撑、交接或装配物体。",
+        "en": "Support, hand over or assemble objects cooperatively."
+      },
+      "research": {
+        "zh-CN": "耦合约束、角色分工与协调策略。",
+        "en": "Coupled constraints, role assignment and coordination policies."
+      },
+      "industry": {
+        "zh-CN": "碰撞规避、同步控制与工位布局。",
+        "en": "Collision avoidance, synchronization and cell layout."
+      },
+      "compare": {
+        "zh-CN": "协调成功率、接触力、同步误差。",
+        "en": "Coordination success, contact forces and synchronization error."
+      }
+    }
+  ]
+}

@@ -17,3 +17,9 @@ The initial reorganization and audit are recorded in [the audit report](docs/en/
 All documentation tables use the hardware-reference style: an explicit total width and matching widths on every header and data cell. Short metadata may use `nowrap`; titles, summaries and analysis wrap within their columns. GitHub supplies horizontal scrolling when a table exceeds the available width; no custom scrolling script is required.
 
 Run `python3 scripts/format_tables.py` after editing table structure, then `python3 scripts/check_docs.py`. The formatter uses English field names to apply the same widths to both languages and preserves existing explicit widths. Add new field defaults to `WIDTHS` when needed. Keep the total width equal to the sum of the column widths. The checker rejects missing widths, mismatched bilingual layouts and new pipe tables. Archived source README snapshots are excluded.
+
+## Landscape updates
+
+The landscape is maintained by topic in `sources/landscape/topics/`. Update both language fields in the relevant JSON file, then run `python3 scripts/build_landscape.py` and `python3 scripts/check_docs.py`. The builder refreshes the paired topic pages, overview, diagram, homepage section and research cross-links. Avoid editing generated sections directly.
+
+Maintain primary examples and their scoped claims in `sources/landscape/sources.json`, synthesis in `sources/landscape/progress.json`, and taxonomy order in `sources/landscape/index.json`. Each source needs a role, an exact URL, a check date and evidence states. Taxonomy changes must preserve stable subcategory anchors or provide a migration. Examples are not an exhibitor census, compatibility guarantee or market ranking.

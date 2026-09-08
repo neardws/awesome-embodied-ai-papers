@@ -78,3 +78,50 @@
 </tr>
 </tbody>
 </table>
+
+<!-- landscape-links:start -->
+
+## 学术与产业关联
+
+从以下板块继续查看与本研究方向相关的硬件、软件和交付问题。
+
+<table width="1060">
+<thead>
+<tr>
+<th width="300" nowrap>全景板块</th>
+<th width="760">系统问题</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td width="300" nowrap><a href="../landscape/05-compute.md">计算、通信与能源</a></td>
+<td width="760">怎样把高算力推理与确定性控制放进同一台机器人？</td>
+</tr>
+<tr>
+<td width="300" nowrap><a href="../landscape/09-systems.md">系统软件与集成平台</a></td>
+<td width="760">如何把异构设备、模型和技能组成可开发、可调试的机器人系统？</td>
+</tr>
+<tr>
+<td width="300" nowrap><a href="../landscape/10-data.md">数据采集与治理</a></td>
+<td width="760">怎样把分散的演示与运行经验变成可复用、可追溯的数据资产？</td>
+</tr>
+<tr>
+<td width="300" nowrap><a href="../landscape/11-simulation.md">仿真与训练基础设施</a></td>
+<td width="760">如何用可控实验加速研发，同时识别仿真无法替代的真实因素？</td>
+</tr>
+<tr>
+<td width="300" nowrap><a href="../landscape/12-operations.md">评测、安全与部署运维</a></td>
+<td width="760">怎样把单次任务效果转化为可测、可恢复、可持续运行的系统能力？</td>
+</tr>
+<tr>
+<td width="300" nowrap><a href="../landscape/13-manufacturing.md">制造、集成与交付</a></td>
+<td width="760">怎样把实验样机变成可制造、可维护且配置明确的交付物？</td>
+</tr>
+<tr>
+<td width="300" nowrap><a href="../landscape/14-applications.md">应用与解决方案</a></td>
+<td width="760">机器人服务于哪些工作流程，价值如何通过真实任务衡量？</td>
+</tr>
+</tbody>
+</table>
+
+<!-- landscape-links:end -->

@@ -1,0 +1,162 @@
+{
+  "id": "14-applications",
+  "title": {
+    "zh-CN": "应用与解决方案",
+    "en": "Applications and solutions"
+  },
+  "question": {
+    "zh-CN": "机器人服务于哪些工作流程，价值如何通过真实任务衡量？",
+    "en": "Which workflows do robots serve, and how is value measured through real tasks?"
+  },
+  "sources": [
+    "ur",
+    "gxo",
+    "nist",
+    "rmf"
+  ],
+  "papers": [
+    "deployment/benchmarks-datasets.md",
+    "vln/urban-open-world.md",
+    "embodiment/bimanual.md"
+  ],
+  "subcategories": [
+    {
+      "id": "14-01",
+      "name": {
+        "zh-CN": "制造、装配与工艺操作",
+        "en": "Manufacturing, assembly and process work"
+      },
+      "problem": {
+        "zh-CN": "完成取放、装配、检测与加工工序。",
+        "en": "Perform handling, assembly, inspection and processing."
+      },
+      "research": {
+        "zh-CN": "接触丰富操作、柔性工件与技能组合。",
+        "en": "Contact-rich manipulation, deformable parts and skill composition."
+      },
+      "industry": {
+        "zh-CN": "工装、质量、节拍与换型。",
+        "en": "Tooling, quality, cycle time and changeovers."
+      },
+      "compare": {
+        "zh-CN": "良率、节拍、换型成本与人工介入。",
+        "en": "Yield, cycle time, changeover cost and interventions."
+      }
+    },
+    {
+      "id": "14-02",
+      "name": {
+        "zh-CN": "仓储物流与搬运配送",
+        "en": "Warehousing, logistics and delivery"
+      },
+      "problem": {
+        "zh-CN": "连接存储、分拣、搬运与交付。",
+        "en": "Connect storage, sorting, transport and handoff."
+      },
+      "research": {
+        "zh-CN": "移动操作、多机协同与动态规划。",
+        "en": "Mobile manipulation, multi-robot coordination and dynamic planning."
+      },
+      "industry": {
+        "zh-CN": "设施对接、拥堵、峰值负载与运营维护。",
+        "en": "Facility integration, congestion, peak loads and service."
+      },
+      "compare": {
+        "zh-CN": "吞吐、订单完成率、接管与停机。",
+        "en": "Throughput, order completion, takeover and downtime."
+      }
+    },
+    {
+      "id": "14-03",
+      "name": {
+        "zh-CN": "商业服务与楼宇作业",
+        "en": "Commercial services and building operations"
+      },
+      "problem": {
+        "zh-CN": "完成清洁、配送、接待等日常服务。",
+        "en": "Perform cleaning, delivery, reception and routine services."
+      },
+      "research": {
+        "zh-CN": "社会导航、人机交互与任务切换。",
+        "en": "Social navigation, human interaction and task switching."
+      },
+      "industry": {
+        "zh-CN": "楼宇权限、人员混行与服务流程。",
+        "en": "Building access, shared spaces and service workflows."
+      },
+      "compare": {
+        "zh-CN": "服务完成率、覆盖率与用户介入。",
+        "en": "Service completion, coverage and user intervention."
+      }
+    },
+    {
+      "id": "14-04",
+      "name": {
+        "zh-CN": "家庭消费与陪伴",
+        "en": "Home, consumer and companion robots"
+      },
+      "problem": {
+        "zh-CN": "适应非结构化家庭及不同用户。",
+        "en": "Adapt to unstructured homes and varied users."
+      },
+      "research": {
+        "zh-CN": "常识、个性化、开放物体与长期记忆。",
+        "en": "Commonsense, personalization, open objects and long-term memory."
+      },
+      "industry": {
+        "zh-CN": "易用性、成本、隐私与持续支持。",
+        "en": "Usability, cost, privacy and continued support."
+      },
+      "compare": {
+        "zh-CN": "真实家庭任务、故障率与维护负担。",
+        "en": "Real household tasks, failures and maintenance burden."
+      }
+    },
+    {
+      "id": "14-05",
+      "name": {
+        "zh-CN": "能源、农业与特种作业",
+        "en": "Energy, agriculture and specialized field work"
+      },
+      "problem": {
+        "zh-CN": "在复杂或危险环境中感知和作业。",
+        "en": "Sense and act in complex or hazardous environments."
+      },
+      "research": {
+        "zh-CN": "越障、目标识别与环境适应。",
+        "en": "Obstacle traversal, target recognition and environmental adaptation."
+      },
+      "industry": {
+        "zh-CN": "防护、通信、任务载荷与远程操作。",
+        "en": "Protection, communication, mission payloads and remote operation."
+      },
+      "compare": {
+        "zh-CN": "任务覆盖、环境边界与救援恢复。",
+        "en": "Mission coverage, environmental envelope and retrieval or recovery."
+      }
+    },
+    {
+      "id": "14-06",
+      "name": {
+        "zh-CN": "医疗、康复与辅助行动",
+        "en": "Medical, rehabilitation and assistive robotics"
+      },
+      "problem": {
+        "zh-CN": "在人的身体与临床工作流中提供辅助。",
+        "en": "Provide assistance around human bodies and clinical workflows."
+      },
+      "research": {
+        "zh-CN": "人机耦合、精密控制与个体适配。",
+        "en": "Human-robot coupling, precision control and personalization."
+      },
+      "industry": {
+        "zh-CN": "使用条件、临床验证、维护与专业培训。",
+        "en": "Conditions of use, clinical validation, service and specialist training."
+      },
+      "compare": {
+        "zh-CN": "任务精度、使用边界与特定场景验证。",
+        "en": "Task accuracy, use boundaries and setting-specific validation."
+      }
+    }
+  ]
+}

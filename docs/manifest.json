@@ -336,8 +336,47 @@
     "deployment/sim2real.md",
     "deployment/safety-evaluation.md",
     "deployment/README.md",
-    "consistency-audit.md"
+    "consistency-audit.md",
+    "landscape/README.md",
+    "landscape/progress.md",
+    "landscape/sources.md",
+    "landscape/01-bodies.md",
+    "landscape/02-actuation.md",
+    "landscape/03-end-effectors.md",
+    "landscape/04-sensing.md",
+    "landscape/05-compute.md",
+    "landscape/06-perception.md",
+    "landscape/07-control.md",
+    "landscape/08-models.md",
+    "landscape/09-systems.md",
+    "landscape/10-data.md",
+    "landscape/11-simulation.md",
+    "landscape/12-operations.md",
+    "landscape/13-manufacturing.md",
+    "landscape/14-applications.md"
   ],
   "paper_entries": 767,
-  "additional_entries": 7
+  "additional_entries": 7,
+  "landscape": {
+    "domains": 14,
+    "subcategories": 84,
+    "sources": 37,
+    "topics": [
+      "01-bodies",
+      "02-actuation",
+      "03-end-effectors",
+      "04-sensing",
+      "05-compute",
+      "06-perception",
+      "07-control",
+      "08-models",
+      "09-systems",
+      "10-data",
+      "11-simulation",
+      "12-operations",
+      "13-manufacturing",
+      "14-applications"
+    ],
+    "checked_on": "2026-09-08"
+  }
 }

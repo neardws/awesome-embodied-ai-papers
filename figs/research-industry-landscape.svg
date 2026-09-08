@@ -1,0 +1,77 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1600" height="1050" viewBox="0 0 1600 1050" role="img">
+<title>Embodied AI research and industry landscape</title>
+<rect width="1600" height="1050" fill="#f8fafc"/>
+<style>text{font-family:"Arial","PingFang SC","Microsoft YaHei",sans-serif}</style>
+<text x="48" y="62" font-size="34" font-weight="700" fill="#1e293b">Embodied AI: research and industry</text>
+<text x="48" y="99" font-size="20" font-weight="400" fill="#475569">14 domains · 84 subcategories · hardware, software and delivery</text>
+<text x="48" y="130" font-size="17" font-weight="400" fill="#64748b">A taxonomy of capabilities and problems; not a market-share or maturity ranking.</text>
+<rect x="48" y="168" width="360" height="570" rx="12" fill="#ffffff" stroke="#dbe3ed"/>
+<rect x="48" y="168" width="360" height="7" rx="3" fill="#2563eb" stroke="none"/>
+<text x="66" y="205" font-size="20" font-weight="700" fill="#2563eb">Physical platforms</text>
+<rect x="62" y="226" width="332" height="86" rx="8" fill="#f8fafc" stroke="#e2e8f0"/>
+<text x="74" y="251" font-size="13" font-weight="700" fill="#2563eb">01</text>
+<text x="74" y="273" font-size="16" font-weight="400" fill="#1e293b">Robot bodies and form factors</text>
+<rect x="62" y="324" width="332" height="86" rx="8" fill="#f8fafc" stroke="#e2e8f0"/>
+<text x="74" y="349" font-size="13" font-weight="700" fill="#2563eb">02</text>
+<text x="74" y="371" font-size="16" font-weight="400" fill="#1e293b">Actuation and precision</text>
+<text x="74" y="388" font-size="16" font-weight="400" fill="#1e293b">transmission</text>
+<rect x="62" y="422" width="332" height="86" rx="8" fill="#f8fafc" stroke="#e2e8f0"/>
+<text x="74" y="447" font-size="13" font-weight="700" fill="#2563eb">03</text>
+<text x="74" y="469" font-size="16" font-weight="400" fill="#1e293b">End effectors and manipulation</text>
+<text x="74" y="486" font-size="16" font-weight="400" fill="#1e293b">mechanisms</text>
+<rect x="62" y="520" width="332" height="86" rx="8" fill="#f8fafc" stroke="#e2e8f0"/>
+<text x="74" y="545" font-size="13" font-weight="700" fill="#2563eb">04</text>
+<text x="74" y="567" font-size="16" font-weight="400" fill="#1e293b">Sensing and interaction hardware</text>
+<rect x="62" y="618" width="332" height="86" rx="8" fill="#f8fafc" stroke="#e2e8f0"/>
+<text x="74" y="643" font-size="13" font-weight="700" fill="#2563eb">05</text>
+<text x="74" y="665" font-size="16" font-weight="400" fill="#1e293b">Compute, communication and energy</text>
+<rect x="428" y="168" width="360" height="570" rx="12" fill="#ffffff" stroke="#dbe3ed"/>
+<rect x="428" y="168" width="360" height="7" rx="3" fill="#0f766e" stroke="none"/>
+<text x="446" y="205" font-size="20" font-weight="700" fill="#0f766e">Software capabilities</text>
+<rect x="442" y="226" width="332" height="86" rx="8" fill="#f8fafc" stroke="#e2e8f0"/>
+<text x="454" y="251" font-size="13" font-weight="700" fill="#0f766e">06</text>
+<text x="454" y="273" font-size="16" font-weight="400" fill="#1e293b">Perception, localization and</text>
+<text x="454" y="290" font-size="16" font-weight="400" fill="#1e293b">spatial representations</text>
+<rect x="442" y="324" width="332" height="86" rx="8" fill="#f8fafc" stroke="#e2e8f0"/>
+<text x="454" y="349" font-size="13" font-weight="700" fill="#0f766e">07</text>
+<text x="454" y="371" font-size="16" font-weight="400" fill="#1e293b">Motion control and action learning</text>
+<rect x="442" y="422" width="332" height="86" rx="8" fill="#f8fafc" stroke="#e2e8f0"/>
+<text x="454" y="447" font-size="13" font-weight="700" fill="#0f766e">08</text>
+<text x="454" y="469" font-size="16" font-weight="400" fill="#1e293b">Robot models, reasoning and</text>
+<text x="454" y="486" font-size="16" font-weight="400" fill="#1e293b">planning</text>
+<rect x="442" y="520" width="332" height="86" rx="8" fill="#f8fafc" stroke="#e2e8f0"/>
+<text x="454" y="545" font-size="13" font-weight="700" fill="#0f766e">09</text>
+<text x="454" y="567" font-size="16" font-weight="400" fill="#1e293b">System software and integration</text>
+<text x="454" y="584" font-size="16" font-weight="400" fill="#1e293b">platforms</text>
+<rect x="808" y="168" width="360" height="570" rx="12" fill="#ffffff" stroke="#dbe3ed"/>
+<rect x="808" y="168" width="360" height="7" rx="3" fill="#7c3aed" stroke="none"/>
+<text x="826" y="205" font-size="20" font-weight="700" fill="#7c3aed">Development &amp; operations</text>
+<rect x="822" y="226" width="332" height="86" rx="8" fill="#f8fafc" stroke="#e2e8f0"/>
+<text x="834" y="251" font-size="13" font-weight="700" fill="#7c3aed">10</text>
+<text x="834" y="273" font-size="16" font-weight="400" fill="#1e293b">Data collection and governance</text>
+<rect x="822" y="324" width="332" height="86" rx="8" fill="#f8fafc" stroke="#e2e8f0"/>
+<text x="834" y="349" font-size="13" font-weight="700" fill="#7c3aed">11</text>
+<text x="834" y="371" font-size="16" font-weight="400" fill="#1e293b">Simulation and training</text>
+<text x="834" y="388" font-size="16" font-weight="400" fill="#1e293b">infrastructure</text>
+<rect x="822" y="422" width="332" height="86" rx="8" fill="#f8fafc" stroke="#e2e8f0"/>
+<text x="834" y="447" font-size="13" font-weight="700" fill="#7c3aed">12</text>
+<text x="834" y="469" font-size="16" font-weight="400" fill="#1e293b">Evaluation, safety, deployment and</text>
+<text x="834" y="486" font-size="16" font-weight="400" fill="#1e293b">operations</text>
+<rect x="1188" y="168" width="360" height="570" rx="12" fill="#ffffff" stroke="#dbe3ed"/>
+<rect x="1188" y="168" width="360" height="7" rx="3" fill="#c2410c" stroke="none"/>
+<text x="1206" y="205" font-size="20" font-weight="700" fill="#c2410c">Manufacturing &amp; applications</text>
+<rect x="1202" y="226" width="332" height="86" rx="8" fill="#f8fafc" stroke="#e2e8f0"/>
+<text x="1214" y="251" font-size="13" font-weight="700" fill="#c2410c">13</text>
+<text x="1214" y="273" font-size="16" font-weight="400" fill="#1e293b">Manufacturing, integration and</text>
+<text x="1214" y="290" font-size="16" font-weight="400" fill="#1e293b">delivery</text>
+<rect x="1202" y="324" width="332" height="86" rx="8" fill="#f8fafc" stroke="#e2e8f0"/>
+<text x="1214" y="349" font-size="13" font-weight="700" fill="#c2410c">14</text>
+<text x="1214" y="371" font-size="16" font-weight="400" fill="#1e293b">Applications and solutions</text>
+<rect x="48" y="768" width="1500" height="104" rx="12" fill="#eff6ff" stroke="#bfdbfe"/>
+<text x="70" y="800" font-size="21" font-weight="700" fill="#1d4ed8">Research → methods, open artifacts and controlled evaluation</text>
+<text x="70" y="838" font-size="21" font-weight="700" fill="#0f766e">Industry → components, platforms, integration and operational evidence</text>
+<rect x="48" y="894" width="1500" height="78" rx="12" fill="#ffffff" stroke="#cbd5e1"/>
+<text x="70" y="923" font-size="19" font-weight="400" fill="#1e293b">Field problems and failure data feed back into models, hardware and evaluation.</text>
+<text x="70" y="950" font-size="17" font-weight="400" fill="#64748b">Participants may span several layers. An example is not a claim of supply-chain compatibility.</text>
+<text x="48" y="1012" font-size="15" font-weight="400" fill="#64748b">Framework and selected source review: 2026-09-08</text>
+</svg>

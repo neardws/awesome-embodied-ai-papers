@@ -87,3 +87,38 @@ Total: 251 papers.
 </tr>
 </tbody>
 </table>
+
+<!-- landscape-links:start -->
+
+## Research and industrial context
+
+Explore the hardware, software and delivery questions connected with this research track.
+
+<table width="1060">
+<thead>
+<tr>
+<th width="300" nowrap>Landscape domain</th>
+<th width="760">System question</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td width="300" nowrap><a href="../landscape/06-perception.md">Perception, localization and spatial representations</a></td>
+<td width="760">How are sensor streams converted into states usable by navigation, planning and manipulation?</td>
+</tr>
+<tr>
+<td width="300" nowrap><a href="../landscape/07-control.md">Motion control and action learning</a></td>
+<td width="760">How are task goals converted into continuous, stable and dynamically feasible actions?</td>
+</tr>
+<tr>
+<td width="300" nowrap><a href="../landscape/08-models.md">Robot models, reasoning and planning</a></td>
+<td width="760">How are language understanding, world prediction, skills and execution feedback connected?</td>
+</tr>
+<tr>
+<td width="300" nowrap><a href="../landscape/10-data.md">Data collection and governance</a></td>
+<td width="760">How are demonstrations and operational experience turned into reusable, traceable data assets?</td>
+</tr>
+</tbody>
+</table>
+
+<!-- landscape-links:end -->

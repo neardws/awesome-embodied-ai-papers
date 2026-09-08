@@ -1,0 +1,162 @@
+{
+  "id": "09-systems",
+  "title": {
+    "zh-CN": "系统软件与集成平台",
+    "en": "System software and integration platforms"
+  },
+  "question": {
+    "zh-CN": "如何把异构设备、模型和技能组成可开发、可调试的机器人系统？",
+    "en": "How are heterogeneous devices, models and skills composed into a developable and debuggable system?"
+  },
+  "sources": [
+    "ros",
+    "control",
+    "moveit",
+    "nav2",
+    "rmf"
+  ],
+  "papers": [
+    "planning/constraint-affordance.md",
+    "deployment/real-time.md"
+  ],
+  "subcategories": [
+    {
+      "id": "09-01",
+      "name": {
+        "zh-CN": "操作系统与通信中间件",
+        "en": "Operating systems and communication middleware"
+      },
+      "problem": {
+        "zh-CN": "组织进程、消息与分布式组件。",
+        "en": "Organize processes, messages and distributed components."
+      },
+      "research": {
+        "zh-CN": "实时通信、模块化与系统架构。",
+        "en": "Real-time communication, modularity and system architecture."
+      },
+      "industry": {
+        "zh-CN": "版本支持、部署配置与兼容性。",
+        "en": "Version support, deployment configuration and compatibility."
+      },
+      "compare": {
+        "zh-CN": "消息时延、服务生命周期与可诊断性。",
+        "en": "Message latency, service lifecycle and diagnosability."
+      }
+    },
+    {
+      "id": "09-02",
+      "name": {
+        "zh-CN": "驱动、硬件抽象与控制接口",
+        "en": "Drivers, hardware abstraction and control interfaces"
+      },
+      "problem": {
+        "zh-CN": "统一传感读取与执行器命令。",
+        "en": "Unify sensor reads and actuator commands."
+      },
+      "research": {
+        "zh-CN": "接口抽象、控制切换与仿真实机一致性。",
+        "en": "Interface abstraction, controller switching and sim-real consistency."
+      },
+      "industry": {
+        "zh-CN": "驱动维护、校准、故障码与设备支持。",
+        "en": "Driver maintenance, calibration, fault codes and device support."
+      },
+      "compare": {
+        "zh-CN": "接口覆盖、状态语义与时序一致性。",
+        "en": "Interface coverage, state semantics and timing consistency."
+      }
+    },
+    {
+      "id": "09-03",
+      "name": {
+        "zh-CN": "导航与操作软件栈",
+        "en": "Navigation and manipulation stacks"
+      },
+      "problem": {
+        "zh-CN": "组合感知、规划与控制模块。",
+        "en": "Combine perception, planning and control modules."
+      },
+      "research": {
+        "zh-CN": "可插拔算法与端到端系统比较。",
+        "en": "Pluggable algorithms and end-to-end system comparison."
+      },
+      "industry": {
+        "zh-CN": "场景整定、机器人适配与稳定版本。",
+        "en": "Site tuning, robot adaptation and stable releases."
+      },
+      "compare": {
+        "zh-CN": "集成成本、任务完成率与异常处理。",
+        "en": "Integration cost, completion and exception handling."
+      }
+    },
+    {
+      "id": "09-04",
+      "name": {
+        "zh-CN": "技能库、行为树与工作流",
+        "en": "Skill libraries, behavior trees and workflows"
+      },
+      "problem": {
+        "zh-CN": "表达任务顺序、并发与恢复。",
+        "en": "Express task order, concurrency and recovery."
+      },
+      "research": {
+        "zh-CN": "技能组合、形式约束与层级决策。",
+        "en": "Skill composition, formal constraints and hierarchical decisions."
+      },
+      "industry": {
+        "zh-CN": "可视化编排、接口版本与操作权限。",
+        "en": "Visual orchestration, interface versions and operator permissions."
+      },
+      "compare": {
+        "zh-CN": "技能复用率、失败定位与恢复路径。",
+        "en": "Skill reuse, failure localization and recovery paths."
+      }
+    },
+    {
+      "id": "09-05",
+      "name": {
+        "zh-CN": "开发、调试与可观测性",
+        "en": "Development, debugging and observability"
+      },
+      "problem": {
+        "zh-CN": "解释系统运行中的数据与故障。",
+        "en": "Explain runtime data and failures."
+      },
+      "research": {
+        "zh-CN": "因果调试、日志压缩与可解释执行。",
+        "en": "Causal debugging, log compression and interpretable execution."
+      },
+      "industry": {
+        "zh-CN": "回放、可视化、报警与远程诊断。",
+        "en": "Replay, visualization, alerts and remote diagnostics."
+      },
+      "compare": {
+        "zh-CN": "复现故障时间、日志完整性与排障成本。",
+        "en": "Time to reproduce failures, log completeness and diagnosis cost."
+      }
+    },
+    {
+      "id": "09-06",
+      "name": {
+        "zh-CN": "设施对接与多机协调",
+        "en": "Facility integration and multi-robot coordination"
+      },
+      "problem": {
+        "zh-CN": "让机器人与电梯、门禁、机队协同。",
+        "en": "Coordinate robots with lifts, doors and fleets."
+      },
+      "research": {
+        "zh-CN": "多智能体调度、冲突消解与协作。",
+        "en": "Multi-agent scheduling, conflict resolution and cooperation."
+      },
+      "industry": {
+        "zh-CN": "设施协议、任务系统、交通与权限。",
+        "en": "Facility protocols, task systems, traffic and permissions."
+      },
+      "compare": {
+        "zh-CN": "拥堵、吞吐、资源等待与异常恢复。",
+        "en": "Congestion, throughput, resource waits and exception recovery."
+      }
+    }
+  ]
+}

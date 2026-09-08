@@ -1,0 +1,161 @@
+{
+  "id": "06-perception",
+  "title": {
+    "zh-CN": "感知、定位与空间表示",
+    "en": "Perception, localization and spatial representations"
+  },
+  "question": {
+    "zh-CN": "怎样把传感数据转换为可供导航、规划和操作使用的状态？",
+    "en": "How are sensor streams converted into states usable by navigation, planning and manipulation?"
+  },
+  "sources": [
+    "nav2",
+    "rvt",
+    "voxposer",
+    "nvidia"
+  ],
+  "papers": [
+    "vln/map-memory.md",
+    "vla/3d-grounding.md"
+  ],
+  "subcategories": [
+    {
+      "id": "06-01",
+      "name": {
+        "zh-CN": "目标识别与开放词汇感知",
+        "en": "Object recognition and open-vocabulary perception"
+      },
+      "problem": {
+        "zh-CN": "找到任务相关物体及其属性。",
+        "en": "Identify task-relevant objects and properties."
+      },
+      "research": {
+        "zh-CN": "开放类别、指代表达与分布外识别。",
+        "en": "Open categories, referring expressions and out-of-distribution recognition."
+      },
+      "industry": {
+        "zh-CN": "误检控制、现场数据与推理成本。",
+        "en": "False detections, site data and inference cost."
+      },
+      "compare": {
+        "zh-CN": "任务相关召回、误检与时延。",
+        "en": "Task-relevant recall, false detections and latency."
+      }
+    },
+    {
+      "id": "06-02",
+      "name": {
+        "zh-CN": "位姿、几何与可供性",
+        "en": "Pose, geometry and affordances"
+      },
+      "problem": {
+        "zh-CN": "定位可抓取、可接触和可操作部位。",
+        "en": "Locate graspable, contactable and actionable regions."
+      },
+      "research": {
+        "zh-CN": "几何语义融合、姿态估计与接触先验。",
+        "en": "Geometry-semantic fusion, pose estimation and contact priors."
+      },
+      "industry": {
+        "zh-CN": "标定、遮挡处理与末端对齐。",
+        "en": "Calibration, occlusion handling and end-effector alignment."
+      },
+      "compare": {
+        "zh-CN": "位姿误差、可达性与下游任务成功。",
+        "en": "Pose error, reachability and downstream task success."
+      }
+    },
+    {
+      "id": "06-03",
+      "name": {
+        "zh-CN": "定位建图与状态估计",
+        "en": "Localization, mapping and state estimation"
+      },
+      "problem": {
+        "zh-CN": "维护机器人相对环境的位置。",
+        "en": "Maintain robot position relative to its environment."
+      },
+      "research": {
+        "zh-CN": "多模态融合、回环和动态场景估计。",
+        "en": "Multimodal fusion, loop closure and dynamic-scene estimation."
+      },
+      "industry": {
+        "zh-CN": "初始化、重定位、地图维护与退化处理。",
+        "en": "Initialization, relocalization, map maintenance and degradation handling."
+      },
+      "compare": {
+        "zh-CN": "漂移、重定位时间与可用率。",
+        "en": "Drift, relocalization time and availability."
+      }
+    },
+    {
+      "id": "06-04",
+      "name": {
+        "zh-CN": "三维重建与场景表征",
+        "en": "3D reconstruction and scene representations"
+      },
+      "problem": {
+        "zh-CN": "构建可查询的空间模型。",
+        "en": "Build queryable spatial models."
+      },
+      "research": {
+        "zh-CN": "神经场、高斯表示与几何一致性。",
+        "en": "Neural fields, Gaussian representations and geometric consistency."
+      },
+      "industry": {
+        "zh-CN": "建图速度、存储、更新与工具接口。",
+        "en": "Mapping speed, storage, updates and tool interfaces."
+      },
+      "compare": {
+        "zh-CN": "几何精度、更新开销与查询时延。",
+        "en": "Geometry accuracy, update cost and query latency."
+      }
+    },
+    {
+      "id": "06-05",
+      "name": {
+        "zh-CN": "语义地图与空间记忆",
+        "en": "Semantic maps and spatial memory"
+      },
+      "problem": {
+        "zh-CN": "保留跨时刻、跨任务的场景知识。",
+        "en": "Retain scene knowledge across time and tasks."
+      },
+      "research": {
+        "zh-CN": "拓扑图、检索记忆与长期一致性。",
+        "en": "Topological graphs, retrieval memory and long-term consistency."
+      },
+      "industry": {
+        "zh-CN": "地图版本、对象变化与运行维护。",
+        "en": "Map versions, object changes and operational maintenance."
+      },
+      "compare": {
+        "zh-CN": "记忆一致性、检索效果与任务增益。",
+        "en": "Memory consistency, retrieval quality and task benefit."
+      }
+    },
+    {
+      "id": "06-06",
+      "name": {
+        "zh-CN": "主动感知与不确定性",
+        "en": "Active perception and uncertainty"
+      },
+      "problem": {
+        "zh-CN": "决定下一步看哪里及何时重新观测。",
+        "en": "Choose where to look next and when to reobserve."
+      },
+      "research": {
+        "zh-CN": "信息增益、探索与不确定性校准。",
+        "en": "Information gain, exploration and uncertainty calibration."
+      },
+      "industry": {
+        "zh-CN": "传感预算、安全运动与异常触发。",
+        "en": "Sensing budgets, safe motion and anomaly triggers."
+      },
+      "compare": {
+        "zh-CN": "观测成本、校准误差与失败减少量。",
+        "en": "Observation cost, calibration error and failure reduction."
+      }
+    }
+  ]
+}

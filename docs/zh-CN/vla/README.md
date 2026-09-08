@@ -87,3 +87,38 @@ VLA 是机械臂和移动操作的主战场，但它不只是“大模型接动�
 </tr>
 </tbody>
 </table>
+
+<!-- landscape-links:start -->
+
+## 学术与产业关联
+
+从以下板块继续查看与本研究方向相关的硬件、软件和交付问题。
+
+<table width="1060">
+<thead>
+<tr>
+<th width="300" nowrap>全景板块</th>
+<th width="760">系统问题</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td width="300" nowrap><a href="../landscape/06-perception.md">感知、定位与空间表示</a></td>
+<td width="760">怎样把传感数据转换为可供导航、规划和操作使用的状态？</td>
+</tr>
+<tr>
+<td width="300" nowrap><a href="../landscape/07-control.md">运动控制与动作学习</a></td>
+<td width="760">如何把任务目标转成连续、稳定且符合动力学的动作？</td>
+</tr>
+<tr>
+<td width="300" nowrap><a href="../landscape/08-models.md">机器人模型、推理与规划</a></td>
+<td width="760">怎样连接语言理解、世界预测、技能与执行反馈？</td>
+</tr>
+<tr>
+<td width="300" nowrap><a href="../landscape/10-data.md">数据采集与治理</a></td>
+<td width="760">怎样把分散的演示与运行经验变成可复用、可追溯的数据资产？</td>
+</tr>
+</tbody>
+</table>
+
+<!-- landscape-links:end -->

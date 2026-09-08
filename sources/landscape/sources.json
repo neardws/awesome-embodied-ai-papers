@@ -1,0 +1,754 @@
+[
+  {
+    "id": "unitree",
+    "name": {
+      "zh-CN": "宇树 G1",
+      "en": "Unitree G1"
+    },
+    "url": "https://www.unitree.com/g1/",
+    "role": {
+      "zh-CN": "企业 / 整机平台",
+      "en": "Company / robot platform"
+    },
+    "evidence": [
+      "P"
+    ],
+    "scope": {
+      "zh-CN": "人形机体与可选配置的公开产品资料。",
+      "en": "Public product information for a humanoid body and optional configurations."
+    },
+    "checked_on": "2026-09-08"
+  },
+  {
+    "id": "franka",
+    "name": {
+      "zh-CN": "Franka Research 3",
+      "en": "Franka Research 3"
+    },
+    "url": "https://franka.de/franka-research-3",
+    "role": {
+      "zh-CN": "企业 / 研究型机械臂",
+      "en": "Company / research manipulator"
+    },
+    "evidence": [
+      "P"
+    ],
+    "scope": {
+      "zh-CN": "面向研究开发的机械臂系统与控制接入入口。",
+      "en": "Research manipulator system and control integration entry point."
+    },
+    "checked_on": "2026-09-08"
+  },
+  {
+    "id": "toddler",
+    "name": {
+      "zh-CN": "ToddlerBot（斯坦福大学）",
+      "en": "ToddlerBot (Stanford University)"
+    },
+    "url": "https://toddlerbot.github.io/",
+    "role": {
+      "zh-CN": "高校 / 开放本体研究",
+      "en": "University / open robot research"
+    },
+    "evidence": [
+      "R",
+      "O"
+    ],
+    "scope": {
+      "zh-CN": "公开本体设计、装配资料和运动操作研究。",
+      "en": "Published robot design, assembly resources and loco-manipulation research."
+    },
+    "checked_on": "2026-09-08"
+  },
+  {
+    "id": "harmonic",
+    "name": {
+      "zh-CN": "Harmonic Drive",
+      "en": "Harmonic Drive"
+    },
+    "url": "https://www.harmonicdrive.net/products",
+    "role": {
+      "zh-CN": "企业 / 传动与执行器",
+      "en": "Company / transmission and actuators"
+    },
+    "evidence": [
+      "P"
+    ],
+    "scope": {
+      "zh-CN": "精密齿轮、旋转与直线执行器、伺服驱动产品类别。",
+      "en": "Precision gearing, rotary and linear actuators, and servo-drive product families."
+    },
+    "checked_on": "2026-09-08"
+  },
+  {
+    "id": "shadow",
+    "name": {
+      "zh-CN": "Shadow Robot 灵巧手",
+      "en": "Shadow Robot dexterous hands"
+    },
+    "url": "https://shadowrobot.com/dexterous-hand-series/",
+    "role": {
+      "zh-CN": "企业 / 灵巧操作硬件",
+      "en": "Company / dexterous hardware"
+    },
+    "evidence": [
+      "P"
+    ],
+    "scope": {
+      "zh-CN": "面向研究开发的多指灵巧手系列。",
+      "en": "Multi-finger hand families intended for research and development."
+    },
+    "checked_on": "2026-09-08"
+  },
+  {
+    "id": "leap",
+    "name": {
+      "zh-CN": "LEAP Hand 研究团队",
+      "en": "LEAP Hand research team"
+    },
+    "url": "https://arxiv.org/abs/2309.06440",
+    "role": {
+      "zh-CN": "学术研究 / 开放硬件",
+      "en": "Academic research / open hardware"
+    },
+    "evidence": [
+      "R"
+    ],
+    "scope": {
+      "zh-CN": "低成本灵巧手设计及论文中的机器人学习实验。",
+      "en": "Low-cost dexterous hand design and robot-learning experiments reported in the paper."
+    },
+    "checked_on": "2026-09-08"
+  },
+  {
+    "id": "digit",
+    "name": {
+      "zh-CN": "GelSight DIGIT",
+      "en": "GelSight DIGIT"
+    },
+    "url": "https://www.gelsight.com/product/digit-tactile-sensor/",
+    "role": {
+      "zh-CN": "企业 / 触觉器件",
+      "en": "Company / tactile device"
+    },
+    "evidence": [
+      "P"
+    ],
+    "scope": {
+      "zh-CN": "用于机器人操作研究的触觉传感器产品页。",
+      "en": "Product page for a tactile sensor used in manipulation research."
+    },
+    "checked_on": "2026-09-08"
+  },
+  {
+    "id": "ati",
+    "name": {
+      "zh-CN": "ATI 六维力传感器",
+      "en": "ATI force/torque sensors"
+    },
+    "url": "https://www.ati-ia.com/products/ft/sensors.aspx",
+    "role": {
+      "zh-CN": "企业 / 力传感器",
+      "en": "Company / force sensing"
+    },
+    "evidence": [
+      "P"
+    ],
+    "scope": {
+      "zh-CN": "力与力矩测量系统及其工业、研究用途。",
+      "en": "Force/torque measurement systems and their industrial and research uses."
+    },
+    "checked_on": "2026-09-08"
+  },
+  {
+    "id": "ti",
+    "name": {
+      "zh-CN": "德州仪器机器人设计资源",
+      "en": "Texas Instruments robotics design resources"
+    },
+    "url": "https://www.ti.com/applications/industrial/robotics/overview.html",
+    "role": {
+      "zh-CN": "企业 / 电子与控制部件",
+      "en": "Company / electronics and control components"
+    },
+    "evidence": [
+      "P"
+    ],
+    "scope": {
+      "zh-CN": "机器人电子、驱动、传感和通信设计入口。",
+      "en": "Design resources for robot electronics, drives, sensing and communication."
+    },
+    "checked_on": "2026-09-08"
+  },
+  {
+    "id": "nvidia",
+    "name": {
+      "zh-CN": "NVIDIA 机器人平台",
+      "en": "NVIDIA robotics platform"
+    },
+    "url": "https://www.nvidia.com/en-us/industries/robotics/",
+    "role": {
+      "zh-CN": "企业 / 计算与开发平台",
+      "en": "Company / compute and development platform"
+    },
+    "evidence": [
+      "P"
+    ],
+    "scope": {
+      "zh-CN": "训练、仿真、机器人软件加速和端侧推理的平台分工。",
+      "en": "Platform roles across training, simulation, accelerated robot software and edge inference."
+    },
+    "checked_on": "2026-09-08"
+  },
+  {
+    "id": "ros",
+    "name": {
+      "zh-CN": "ROS 2 社区",
+      "en": "ROS 2 community"
+    },
+    "url": "https://github.com/ros2/ros2",
+    "role": {
+      "zh-CN": "开源社区 / 中间件",
+      "en": "Open-source community / middleware"
+    },
+    "evidence": [
+      "O"
+    ],
+    "scope": {
+      "zh-CN": "机器人软件生态的主仓库与组件入口。",
+      "en": "Primary repository and component entry points for the robot software ecosystem."
+    },
+    "checked_on": "2026-09-08"
+  },
+  {
+    "id": "moveit",
+    "name": {
+      "zh-CN": "MoveIt / PickNik",
+      "en": "MoveIt / PickNik"
+    },
+    "url": "https://moveit.ai/",
+    "role": {
+      "zh-CN": "开源社区与企业 / 操作软件",
+      "en": "Community and company / manipulation software"
+    },
+    "evidence": [
+      "O",
+      "P"
+    ],
+    "scope": {
+      "zh-CN": "运动规划、运动学、感知和执行接口；另有商业支持入口。",
+      "en": "Motion planning, kinematics, perception and execution interfaces, with a commercial support offering."
+    },
+    "checked_on": "2026-09-08"
+  },
+  {
+    "id": "control",
+    "name": {
+      "zh-CN": "ros2_control 社区",
+      "en": "ros2_control community"
+    },
+    "url": "https://github.com/ros-controls/ros2_control",
+    "role": {
+      "zh-CN": "开源社区 / 控制框架",
+      "en": "Open-source community / control framework"
+    },
+    "evidence": [
+      "O"
+    ],
+    "scope": {
+      "zh-CN": "控制器与机器人硬件接口的开源框架。",
+      "en": "Open framework connecting controllers and robot hardware interfaces."
+    },
+    "checked_on": "2026-09-08"
+  },
+  {
+    "id": "nav2",
+    "name": {
+      "zh-CN": "Nav2 社区",
+      "en": "Nav2 community"
+    },
+    "url": "https://docs.nav2.org/rolling/",
+    "role": {
+      "zh-CN": "开源社区 / 自主导航",
+      "en": "Open-source community / autonomous navigation"
+    },
+    "evidence": [
+      "O"
+    ],
+    "scope": {
+      "zh-CN": "导航软件框架及其规划、控制和行为组织接口。",
+      "en": "Navigation framework with planning, control and behavior interfaces."
+    },
+    "checked_on": "2026-09-08"
+  },
+  {
+    "id": "openvla",
+    "name": {
+      "zh-CN": "OpenVLA 联合研究团队",
+      "en": "OpenVLA research collaboration"
+    },
+    "url": "https://openvla.github.io/",
+    "role": {
+      "zh-CN": "高校与企业 / 模型研究",
+      "en": "Universities and companies / model research"
+    },
+    "evidence": [
+      "R",
+      "O"
+    ],
+    "scope": {
+      "zh-CN": "公开视觉语言动作模型、训练代码和多机器人实验。",
+      "en": "Public vision-language-action model, training code and multi-robot experiments."
+    },
+    "checked_on": "2026-09-08"
+  },
+  {
+    "id": "pi",
+    "name": {
+      "zh-CN": "Physical Intelligence / π0",
+      "en": "Physical Intelligence / pi0"
+    },
+    "url": "https://www.pi.website/blog/pi0",
+    "role": {
+      "zh-CN": "企业 / 基础策略研究",
+      "en": "Company / foundation-policy research"
+    },
+    "evidence": [
+      "R"
+    ],
+    "scope": {
+      "zh-CN": "企业发布的通用机器人策略研究与任务演示。",
+      "en": "Company-published generalist robot policy research and task demonstrations."
+    },
+    "checked_on": "2026-09-08"
+  },
+  {
+    "id": "oxe",
+    "name": {
+      "zh-CN": "Open X-Embodiment 协作组",
+      "en": "Open X-Embodiment collaboration"
+    },
+    "url": "https://robotics-transformer-x.github.io/",
+    "role": {
+      "zh-CN": "高校与企业 / 数据协作",
+      "en": "Universities and companies / data collaboration"
+    },
+    "evidence": [
+      "R",
+      "O"
+    ],
+    "scope": {
+      "zh-CN": "跨本体数据格式、数据集合与策略迁移研究。",
+      "en": "Cross-embodiment data formats, collections and policy-transfer research."
+    },
+    "checked_on": "2026-09-08"
+  },
+  {
+    "id": "droid",
+    "name": {
+      "zh-CN": "DROID 多机构团队",
+      "en": "DROID multi-institution team"
+    },
+    "url": "https://droid-dataset.github.io/",
+    "role": {
+      "zh-CN": "研究协作 / 真实数据",
+      "en": "Research collaboration / real-world data"
+    },
+    "evidence": [
+      "R",
+      "O"
+    ],
+    "scope": {
+      "zh-CN": "面向真实多样环境的机器人操作数据与采集方案。",
+      "en": "Robot manipulation data and collection setup for diverse real environments."
+    },
+    "checked_on": "2026-09-08"
+  },
+  {
+    "id": "umi",
+    "name": {
+      "zh-CN": "UMI 研究团队",
+      "en": "UMI research team"
+    },
+    "url": "https://umi-gripper.github.io/",
+    "role": {
+      "zh-CN": "学术研究 / 数据工具",
+      "en": "Academic research / data tools"
+    },
+    "evidence": [
+      "R",
+      "O"
+    ],
+    "scope": {
+      "zh-CN": "便携示教接口与人类示范到机器人策略的研究。",
+      "en": "Portable teaching interface and transfer from human demonstrations to robot policies."
+    },
+    "checked_on": "2026-09-08"
+  },
+  {
+    "id": "lerobot",
+    "name": {
+      "zh-CN": "Hugging Face / LeRobot",
+      "en": "Hugging Face / LeRobot"
+    },
+    "url": "https://huggingface.co/docs/lerobot/index",
+    "role": {
+      "zh-CN": "企业与社区 / 学习工具链",
+      "en": "Company and community / learning toolchain"
+    },
+    "evidence": [
+      "O"
+    ],
+    "scope": {
+      "zh-CN": "机器人数据、训练与真实设备接入的开源工具链。",
+      "en": "Open toolchain for robot data, learning and real-device integration."
+    },
+    "checked_on": "2026-09-08"
+  },
+  {
+    "id": "mujoco",
+    "name": {
+      "zh-CN": "MuJoCo / Google DeepMind",
+      "en": "MuJoCo / Google DeepMind"
+    },
+    "url": "https://mujoco.org/",
+    "role": {
+      "zh-CN": "企业支持的开源项目 / 物理仿真",
+      "en": "Company-backed open source / physics simulation"
+    },
+    "evidence": [
+      "O"
+    ],
+    "scope": {
+      "zh-CN": "用于机器人和接触动力学研究的物理仿真器。",
+      "en": "Physics simulator used for robotics and contact-dynamics research."
+    },
+    "checked_on": "2026-09-08"
+  },
+  {
+    "id": "isaac",
+    "name": {
+      "zh-CN": "NVIDIA Isaac Lab",
+      "en": "NVIDIA Isaac Lab"
+    },
+    "url": "https://isaac-sim.github.io/IsaacLab/main/index.html",
+    "role": {
+      "zh-CN": "企业与社区 / 训练框架",
+      "en": "Company and community / training framework"
+    },
+    "evidence": [
+      "O"
+    ],
+    "scope": {
+      "zh-CN": "面向机器人学习的仿真环境与训练工作流。",
+      "en": "Simulation environments and training workflows for robot learning."
+    },
+    "checked_on": "2026-09-08"
+  },
+  {
+    "id": "robotwin",
+    "name": {
+      "zh-CN": "RoboTwin 联合团队",
+      "en": "RoboTwin collaboration"
+    },
+    "url": "https://robotwin-platform.github.io/",
+    "role": {
+      "zh-CN": "高校、研究院与企业 / 数据和评测",
+      "en": "Universities, institutes and companies / data and evaluation"
+    },
+    "evidence": [
+      "R",
+      "O"
+    ],
+    "scope": {
+      "zh-CN": "双臂任务生成、领域随机化与统一评测资源。",
+      "en": "Bimanual task generation, domain randomization and unified evaluation resources."
+    },
+    "checked_on": "2026-09-08"
+  },
+  {
+    "id": "saycan",
+    "name": {
+      "zh-CN": "SayCan 研究团队",
+      "en": "SayCan research team"
+    },
+    "url": "https://say-can.github.io/",
+    "role": {
+      "zh-CN": "企业研究 / 语言与技能规划",
+      "en": "Industrial research / language and skill planning"
+    },
+    "evidence": [
+      "R"
+    ],
+    "scope": {
+      "zh-CN": "通过技能可供性约束语言模型提出的行动。",
+      "en": "Grounds language-proposed actions using skill affordances."
+    },
+    "checked_on": "2026-09-08"
+  },
+  {
+    "id": "voxposer",
+    "name": {
+      "zh-CN": "VoxPoser 研究团队",
+      "en": "VoxPoser research team"
+    },
+    "url": "https://voxposer.github.io/",
+    "role": {
+      "zh-CN": "学术研究 / 空间规划",
+      "en": "Academic research / spatial planning"
+    },
+    "evidence": [
+      "R",
+      "O"
+    ],
+    "scope": {
+      "zh-CN": "将语言目标组织为空间价值表示与操作规划。",
+      "en": "Connects language goals with spatial value representations and manipulation planning."
+    },
+    "checked_on": "2026-09-08"
+  },
+  {
+    "id": "daydreamer",
+    "name": {
+      "zh-CN": "DayDreamer 研究团队",
+      "en": "DayDreamer research team"
+    },
+    "url": "https://danijar.com/project/daydreamer/",
+    "role": {
+      "zh-CN": "研究协作 / 世界模型",
+      "en": "Research collaboration / world models"
+    },
+    "evidence": [
+      "R",
+      "O"
+    ],
+    "scope": {
+      "zh-CN": "利用学习得到的世界模型开展实体机器人学习。",
+      "en": "Studies physical robot learning with learned world models."
+    },
+    "checked_on": "2026-09-08"
+  },
+  {
+    "id": "diffusion",
+    "name": {
+      "zh-CN": "Diffusion Policy 研究团队",
+      "en": "Diffusion Policy research team"
+    },
+    "url": "https://diffusion-policy.cs.columbia.edu/",
+    "role": {
+      "zh-CN": "学界与产业研究 / 动作学习",
+      "en": "Academic and industrial research / action learning"
+    },
+    "evidence": [
+      "R",
+      "O"
+    ],
+    "scope": {
+      "zh-CN": "以条件扩散生成视觉运动动作序列。",
+      "en": "Generates visuomotor action sequences through conditional diffusion."
+    },
+    "checked_on": "2026-09-08"
+  },
+  {
+    "id": "rvt",
+    "name": {
+      "zh-CN": "RVT 研究团队",
+      "en": "RVT research team"
+    },
+    "url": "https://robotic-view-transformer.github.io/",
+    "role": {
+      "zh-CN": "研究协作 / 三维操作",
+      "en": "Research collaboration / 3D manipulation"
+    },
+    "evidence": [
+      "R",
+      "O"
+    ],
+    "scope": {
+      "zh-CN": "面向三维操作的多视角表示与策略研究。",
+      "en": "Multi-view representations and policies for 3D manipulation."
+    },
+    "checked_on": "2026-09-08"
+  },
+  {
+    "id": "rmf",
+    "name": {
+      "zh-CN": "Open-RMF 社区",
+      "en": "Open-RMF community"
+    },
+    "url": "https://www.open-rmf.org/",
+    "role": {
+      "zh-CN": "开源生态 / 多机协调",
+      "en": "Open-source ecosystem / multi-robot coordination"
+    },
+    "evidence": [
+      "O"
+    ],
+    "scope": {
+      "zh-CN": "机器人机队与设施交互的协调框架。",
+      "en": "Coordination framework for robot fleets and facility interactions."
+    },
+    "checked_on": "2026-09-08"
+  },
+  {
+    "id": "foxglove",
+    "name": {
+      "zh-CN": "Foxglove",
+      "en": "Foxglove"
+    },
+    "url": "https://foxglove.dev/",
+    "role": {
+      "zh-CN": "企业 / 数据与可观测性平台",
+      "en": "Company / data and observability platform"
+    },
+    "evidence": [
+      "P"
+    ],
+    "scope": {
+      "zh-CN": "机器人数据记录、管理和可视化分析工具。",
+      "en": "Tools for robot data recording, management and visualization."
+    },
+    "checked_on": "2026-09-08"
+  },
+  {
+    "id": "nist",
+    "name": {
+      "zh-CN": "美国国家标准与技术研究院",
+      "en": "NIST"
+    },
+    "url": "https://www.nist.gov/el/intelligent-systems-division-73500/robotic-grasping-and-manipulation-assembly",
+    "role": {
+      "zh-CN": "研究机构 / 测量与评测",
+      "en": "Research institute / measurement and evaluation"
+    },
+    "evidence": [
+      "R"
+    ],
+    "scope": {
+      "zh-CN": "围绕抓取、操作与装配建立性能测量研究。",
+      "en": "Performance-measurement research for grasping, manipulation and assembly."
+    },
+    "checked_on": "2026-09-08"
+  },
+  {
+    "id": "protolabs",
+    "name": {
+      "zh-CN": "Protolabs",
+      "en": "Protolabs"
+    },
+    "url": "https://www.protolabs.com/industries/robotics/",
+    "role": {
+      "zh-CN": "企业 / 制造服务",
+      "en": "Company / manufacturing services"
+    },
+    "evidence": [
+      "P"
+    ],
+    "scope": {
+      "zh-CN": "机器人零件的数控加工、增材制造与成型服务。",
+      "en": "Machining, additive manufacturing and molding services for robot parts."
+    },
+    "checked_on": "2026-09-08"
+  },
+  {
+    "id": "ur",
+    "name": {
+      "zh-CN": "Universal Robots",
+      "en": "Universal Robots"
+    },
+    "url": "https://www.universal-robots.com/products/",
+    "role": {
+      "zh-CN": "企业 / 协作机械臂",
+      "en": "Company / collaborative manipulators"
+    },
+    "evidence": [
+      "P"
+    ],
+    "scope": {
+      "zh-CN": "协作机械臂产品与自动化集成入口。",
+      "en": "Collaborative manipulator products and automation integration entry points."
+    },
+    "checked_on": "2026-09-08"
+  },
+  {
+    "id": "gxo",
+    "name": {
+      "zh-CN": "GXO / Agility Robotics",
+      "en": "GXO / Agility Robotics"
+    },
+    "url": "https://investors.gxo.com/news-releases/news-release-details/gxo-signs-industry-first-multi-year-agreement-agility-robotics",
+    "role": {
+      "zh-CN": "运营方与企业 / 物流部署",
+      "en": "Operator and vendor / logistics deployment"
+    },
+    "evidence": [
+      "F"
+    ],
+    "scope": {
+      "zh-CN": "运营方于 2024 年披露 Digit 的商业部署协议与物流场景。",
+      "en": "The operator disclosed a Digit commercial deployment agreement and logistics setting in 2024."
+    },
+    "checked_on": "2026-09-08"
+  },
+  {
+    "id": "agibot",
+    "name": {
+      "en": "AgiBot World / OpenDriveLab",
+      "zh-CN": "AgiBot World / OpenDriveLab"
+    },
+    "url": "https://github.com/OpenDriveLab/AgiBot-World",
+    "role": {
+      "en": "Academic-industrial collaboration / data and foundation policies",
+      "zh-CN": "学界与产业协作 / 数据和基础策略"
+    },
+    "scope": {
+      "en": "Public manipulation data, models and development resources.",
+      "zh-CN": "公开机器人操作数据、模型和开发资料。"
+    },
+    "evidence": [
+      "R",
+      "O"
+    ],
+    "checked_on": "2026-09-08"
+  },
+  {
+    "id": "inspire",
+    "name": {
+      "en": "Inspire Robots",
+      "zh-CN": "因时机器人"
+    },
+    "url": "https://www.inspire-robots.com/",
+    "role": {
+      "en": "Company / miniature actuators and dexterous hands",
+      "zh-CN": "企业 / 微型执行器与灵巧手"
+    },
+    "scope": {
+      "en": "Miniature servo actuators, dexterous hand families and product documentation.",
+      "zh-CN": "微型伺服电缸、灵巧手系列与产品资料入口。"
+    },
+    "evidence": [
+      "P"
+    ],
+    "checked_on": "2026-09-08"
+  },
+  {
+    "id": "lightwheel",
+    "name": {
+      "en": "Lightwheel",
+      "zh-CN": "光轮智能"
+    },
+    "url": "https://www.lightwheel.ai/",
+    "role": {
+      "en": "Company / simulation, data and evaluation",
+      "zh-CN": "企业 / 仿真、数据与评测"
+    },
+    "scope": {
+      "en": "Public descriptions of simulation assets, egocentric data and simulation evaluation platforms.",
+      "zh-CN": "公开仿真资产、第一视角数据和仿真评测平台介绍。"
+    },
+    "evidence": [
+      "P"
+    ],
+    "checked_on": "2026-09-08"
+  }
+]

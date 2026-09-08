@@ -69,3 +69,30 @@ Total: 70 papers.
 </tr>
 </tbody>
 </table>
+
+<!-- landscape-links:start -->
+
+## Research and industrial context
+
+Explore the hardware, software and delivery questions connected with this research track.
+
+<table width="1060">
+<thead>
+<tr>
+<th width="300" nowrap>Landscape domain</th>
+<th width="760">System question</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td width="300" nowrap><a href="../landscape/08-models.md">Robot models, reasoning and planning</a></td>
+<td width="760">How are language understanding, world prediction, skills and execution feedback connected?</td>
+</tr>
+<tr>
+<td width="300" nowrap><a href="../landscape/11-simulation.md">Simulation and training infrastructure</a></td>
+<td width="760">How can controlled experiments accelerate development while exposing what simulation cannot replace?</td>
+</tr>
+</tbody>
+</table>
+
+<!-- landscape-links:end -->

@@ -1,0 +1,162 @@
+{
+  "id": "01-bodies",
+  "title": {
+    "zh-CN": "整机与本体形态",
+    "en": "Robot bodies and form factors"
+  },
+  "question": {
+    "zh-CN": "什么身体适合什么任务，如何平衡可达空间、运动能力、成本与可靠性？",
+    "en": "Which body fits a task, balancing reach, mobility, cost and reliability?"
+  },
+  "sources": [
+    "toddler",
+    "unitree",
+    "franka",
+    "ur"
+  ],
+  "papers": [
+    "embodiment/humanoid.md",
+    "embodiment/bimanual.md",
+    "vln/physically-executable.md"
+  ],
+  "subcategories": [
+    {
+      "id": "01-01",
+      "name": {
+        "zh-CN": "双足与通用人形",
+        "en": "Bipeds and general-purpose humanoids"
+      },
+      "problem": {
+        "zh-CN": "在人类尺度空间中移动并操作。",
+        "en": "Move and manipulate in human-scale spaces."
+      },
+      "research": {
+        "zh-CN": "全身协调、平衡与跨形态迁移。",
+        "en": "Whole-body coordination, balance and morphology transfer."
+      },
+      "industry": {
+        "zh-CN": "跌倒防护、热管理、维修与稳定交付。",
+        "en": "Fall protection, thermal management, service and reliable delivery."
+      },
+      "compare": {
+        "zh-CN": "持续负载、工作空间、故障恢复时间。",
+        "en": "Sustained payload, workspace and recovery time."
+      }
+    },
+    {
+      "id": "01-02",
+      "name": {
+        "zh-CN": "轮式双臂与移动操作",
+        "en": "Wheeled bimanual mobile manipulators"
+      },
+      "problem": {
+        "zh-CN": "把导航、站位和双臂操作连成任务。",
+        "en": "Connect navigation, positioning and bimanual work."
+      },
+      "research": {
+        "zh-CN": "基座与手臂联合规划、长时程策略。",
+        "en": "Joint base-arm planning and long-horizon policies."
+      },
+      "industry": {
+        "zh-CN": "底盘定位、升降结构、工位接口。",
+        "en": "Base localization, lifts and workstation interfaces."
+      },
+      "compare": {
+        "zh-CN": "定位误差、操作成功率、任务周期。",
+        "en": "Positioning error, task success and cycle time."
+      }
+    },
+    {
+      "id": "01-03",
+      "name": {
+        "zh-CN": "四足与轮足",
+        "en": "Quadrupeds and wheeled-legged robots"
+      },
+      "problem": {
+        "zh-CN": "在楼梯、坡面和不平地面移动。",
+        "en": "Traverse stairs, slopes and uneven ground."
+      },
+      "research": {
+        "zh-CN": "地形适应、视觉运动控制。",
+        "en": "Terrain adaptation and visual locomotion."
+      },
+      "industry": {
+        "zh-CN": "巡检载荷、防护与续航管理。",
+        "en": "Inspection payloads, protection and endurance."
+      },
+      "compare": {
+        "zh-CN": "地形边界、载荷工况、任务续航。",
+        "en": "Terrain envelope, payload conditions and mission endurance."
+      }
+    },
+    {
+      "id": "01-04",
+      "name": {
+        "zh-CN": "固定工业与协作机械臂",
+        "en": "Fixed industrial and collaborative arms"
+      },
+      "problem": {
+        "zh-CN": "在受限工位完成重复或柔性操作。",
+        "en": "Perform repetitive or flexible work in constrained cells."
+      },
+      "research": {
+        "zh-CN": "精细操作、力控与技能迁移。",
+        "en": "Fine manipulation, force control and skill transfer."
+      },
+      "industry": {
+        "zh-CN": "节拍、重复定位、工装和集成维护。",
+        "en": "Throughput, repeatability, tooling and integration service."
+      },
+      "compare": {
+        "zh-CN": "工作空间、重复精度、力控接口。",
+        "en": "Workspace, repeatability and force-control interfaces."
+      }
+    },
+    {
+      "id": "01-05",
+      "name": {
+        "zh-CN": "小型开放与教学平台",
+        "en": "Small open and educational platforms"
+      },
+      "problem": {
+        "zh-CN": "降低实验、教学和复现门槛。",
+        "en": "Lower barriers to experiments, teaching and reproduction."
+      },
+      "research": {
+        "zh-CN": "可复现本体、低成本策略学习。",
+        "en": "Reproducible bodies and low-cost policy learning."
+      },
+      "industry": {
+        "zh-CN": "易装配、备件、文档与开发支持。",
+        "en": "Assembly, spares, documentation and developer support."
+      },
+      "compare": {
+        "zh-CN": "物料成本、装配步骤、开放范围。",
+        "en": "Bill of materials, assembly process and openness scope."
+      }
+    },
+    {
+      "id": "01-06",
+      "name": {
+        "zh-CN": "专用、柔性与可穿戴本体",
+        "en": "Specialized, soft and wearable bodies"
+      },
+      "problem": {
+        "zh-CN": "适配狭窄、柔性或人体耦合任务。",
+        "en": "Fit confined, compliant or human-coupled tasks."
+      },
+      "research": {
+        "zh-CN": "形态设计、人机动力学与柔性建模。",
+        "en": "Morphology design, human-robot dynamics and soft modeling."
+      },
+      "industry": {
+        "zh-CN": "任务专用结构、佩戴舒适与维护。",
+        "en": "Task-specific mechanics, comfort and maintenance."
+      },
+      "compare": {
+        "zh-CN": "适用人群或场景、力学边界、验证条件。",
+        "en": "Intended users or settings, mechanical limits and validation conditions."
+      }
+    }
+  ]
+}

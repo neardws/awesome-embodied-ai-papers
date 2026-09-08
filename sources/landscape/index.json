@@ -1,0 +1,20 @@
+{
+  "checked_on": "2026-09-08",
+  "topics": [
+    "01-bodies",
+    "02-actuation",
+    "03-end-effectors",
+    "04-sensing",
+    "05-compute",
+    "06-perception",
+    "07-control",
+    "08-models",
+    "09-systems",
+    "10-data",
+    "11-simulation",
+    "12-operations",
+    "13-manufacturing",
+    "14-applications"
+  ],
+  "subcategories": 84
+}

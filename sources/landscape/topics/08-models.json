@@ -1,0 +1,164 @@
+{
+  "id": "08-models",
+  "title": {
+    "zh-CN": "机器人模型、推理与规划",
+    "en": "Robot models, reasoning and planning"
+  },
+  "question": {
+    "zh-CN": "怎样连接语言理解、世界预测、技能与执行反馈？",
+    "en": "How are language understanding, world prediction, skills and execution feedback connected?"
+  },
+  "sources": [
+    "openvla",
+    "pi",
+    "saycan",
+    "voxposer",
+    "daydreamer",
+    "agibot"
+  ],
+  "papers": [
+    "vla/generalist.md",
+    "wam/README.md",
+    "planning/README.md"
+  ],
+  "subcategories": [
+    {
+      "id": "08-01",
+      "name": {
+        "zh-CN": "视觉语言动作基础模型",
+        "en": "Vision-language-action foundation models"
+      },
+      "problem": {
+        "zh-CN": "从多模态任务输入产生机器人动作。",
+        "en": "Generate robot actions from multimodal task inputs."
+      },
+      "research": {
+        "zh-CN": "跨任务与跨本体泛化、动作编码。",
+        "en": "Cross-task and cross-body generalization, action encoding."
+      },
+      "industry": {
+        "zh-CN": "特定机器人适配、时延和失败处置。",
+        "en": "Robot-specific adaptation, latency and failure handling."
+      },
+      "compare": {
+        "zh-CN": "未见任务、未见场景与实机表现。",
+        "en": "Unseen tasks, unseen scenes and physical-robot performance."
+      }
+    },
+    {
+      "id": "08-02",
+      "name": {
+        "zh-CN": "世界模型与行动后果预测",
+        "en": "World models and action consequence prediction"
+      },
+      "problem": {
+        "zh-CN": "预测动作后的环境状态。",
+        "en": "Predict environmental states after actions."
+      },
+      "research": {
+        "zh-CN": "视频、潜在状态与动作联合建模。",
+        "en": "Joint video, latent-state and action modeling."
+      },
+      "industry": {
+        "zh-CN": "与控制器连接、误差识别与计算成本。",
+        "en": "Controller interfaces, error detection and compute cost."
+      },
+      "compare": {
+        "zh-CN": "行动条件预测误差与决策收益。",
+        "en": "Action-conditioned prediction error and decision benefit."
+      }
+    },
+    {
+      "id": "08-03",
+      "name": {
+        "zh-CN": "任务分解与技能规划",
+        "en": "Task decomposition and skill planning"
+      },
+      "problem": {
+        "zh-CN": "把需求拆成有约束的可执行步骤。",
+        "en": "Decompose requests into constrained executable steps."
+      },
+      "research": {
+        "zh-CN": "程序生成、可供性与任务运动联合规划。",
+        "en": "Program generation, affordances and task-motion planning."
+      },
+      "industry": {
+        "zh-CN": "技能接口、先决条件与执行编排。",
+        "en": "Skill interfaces, preconditions and orchestration."
+      },
+      "compare": {
+        "zh-CN": "可执行率、长任务完成率与人工介入。",
+        "en": "Executability, long-task completion and human intervention."
+      }
+    },
+    {
+      "id": "08-04",
+      "name": {
+        "zh-CN": "长期记忆与个性化",
+        "en": "Long-term memory and personalization"
+      },
+      "problem": {
+        "zh-CN": "利用历史经验适应用户与环境。",
+        "en": "Adapt to users and environments using past experience."
+      },
+      "research": {
+        "zh-CN": "检索、记忆更新与遗忘控制。",
+        "en": "Retrieval, memory updates and forgetting control."
+      },
+      "industry": {
+        "zh-CN": "用户隔离、数据治理与版本管理。",
+        "en": "User isolation, data governance and versioning."
+      },
+      "compare": {
+        "zh-CN": "记忆有效性、更新代价与错误传播。",
+        "en": "Memory utility, update cost and error propagation."
+      }
+    },
+    {
+      "id": "08-05",
+      "name": {
+        "zh-CN": "失败监测与恢复",
+        "en": "Failure monitoring and recovery"
+      },
+      "problem": {
+        "zh-CN": "识别偏离目标并重新组织行动。",
+        "en": "Detect deviations and reorganize actions."
+      },
+      "research": {
+        "zh-CN": "异常解释、进度估计与恢复策略。",
+        "en": "Anomaly explanations, progress estimation and recovery policies."
+      },
+      "industry": {
+        "zh-CN": "监测接口、接管规则与安全退出。",
+        "en": "Monitoring interfaces, takeover rules and safe exits."
+      },
+      "compare": {
+        "zh-CN": "检出率、误报率与恢复后完成率。",
+        "en": "Detection, false alarms and completion after recovery."
+      }
+    },
+    {
+      "id": "08-06",
+      "name": {
+        "zh-CN": "分层智能体与混合系统",
+        "en": "Hierarchical agents and hybrid systems"
+      },
+      "problem": {
+        "zh-CN": "连接慢推理、快速动作与传统控制。",
+        "en": "Connect slow reasoning, fast actions and classical control."
+      },
+      "research": {
+        "zh-CN": "层级接口、不确定性传递与协同学习。",
+        "en": "Hierarchical interfaces, uncertainty propagation and joint learning."
+      },
+      "industry": {
+        "zh-CN": "时间预算、接口契约与失效隔离。",
+        "en": "Timing budgets, interface contracts and fault isolation."
+      },
+      "compare": {
+        "zh-CN": "全链路时延、约束满足与任务可靠性。",
+        "en": "Full-chain latency, constraint satisfaction and task reliability."
+      }
+    }
+  ]
+}

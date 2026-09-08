@@ -76,3 +76,50 @@ Total: 146 papers.
 </tr>
 </tbody>
 </table>
+
+<!-- landscape-links:start -->
+
+## Research and industrial context
+
+Explore the hardware, software and delivery questions connected with this research track.
+
+<table width="1060">
+<thead>
+<tr>
+<th width="300" nowrap>Landscape domain</th>
+<th width="760">System question</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td width="300" nowrap><a href="../landscape/01-bodies.md">Robot bodies and form factors</a></td>
+<td width="760">Which body fits a task, balancing reach, mobility, cost and reliability?</td>
+</tr>
+<tr>
+<td width="300" nowrap><a href="../landscape/02-actuation.md">Actuation and precision transmission</a></td>
+<td width="760">How is electrical energy converted into controllable force and motion under impact, heat and wear?</td>
+</tr>
+<tr>
+<td width="300" nowrap><a href="../landscape/03-end-effectors.md">End effectors and manipulation mechanisms</a></td>
+<td width="760">How should contact mechanisms be matched to objects and processes beyond adding fingers?</td>
+</tr>
+<tr>
+<td width="300" nowrap><a href="../landscape/04-sensing.md">Sensing and interaction hardware</a></td>
+<td width="760">How are environment, body and contact signals measured and aligned?</td>
+</tr>
+<tr>
+<td width="300" nowrap><a href="../landscape/07-control.md">Motion control and action learning</a></td>
+<td width="760">How are task goals converted into continuous, stable and dynamically feasible actions?</td>
+</tr>
+<tr>
+<td width="300" nowrap><a href="../landscape/13-manufacturing.md">Manufacturing, integration and delivery</a></td>
+<td width="760">How can prototypes become manufacturable, serviceable deliverables with explicit configurations?</td>
+</tr>
+<tr>
+<td width="300" nowrap><a href="../landscape/14-applications.md">Applications and solutions</a></td>
+<td width="760">Which workflows do robots serve, and how is value measured through real tasks?</td>
+</tr>
+</tbody>
+</table>
+
+<!-- landscape-links:end -->

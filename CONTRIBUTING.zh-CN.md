@@ -17,3 +17,9 @@
 所有文档表格采用硬件参考表样式：显式设置总宽度，每个表头和单元格设置对应列宽。年份、数量等短字段可保持单行；标题、摘要和分析按列宽换行。表格超出可用宽度时，由 GitHub 提供横向滚动，无需额外滚动脚本。
 
 修改表格结构后，先运行 `python3 scripts/format_tables.py`，再运行 `python3 scripts/check_docs.py`。格式化脚本依据英文字段名，为两种语言设置相同列宽，并保留已有显式列宽。新增字段需要默认宽度时，在脚本的 `WIDTHS` 中补充。总宽度必须等于各列宽度之和。检查脚本会拦截缺失列宽、双语布局不一致和新增竖线表格。归档来源文件不参与格式化。
+
+## 全景内容更新
+
+全景按板块维护在 `sources/landscape/topics/`。修改对应文件中的中英文字段，然后运行 `python3 scripts/build_landscape.py` 和 `python3 scripts/check_docs.py`。生成器同步更新双语主题页、总览、图示、首页板块和论文交叉入口，避免直接修改生成区域。
+
+原始示例及其能力范围维护在 `sources/landscape/sources.json`，进展归纳在 `sources/landscape/progress.json`，分类顺序在 `sources/landscape/index.json`。每条来源须写明角色、具体网址、核对日期和证据状态；调整分类时保留稳定细类锚点或处理迁移。示例不是展商普查、兼容性保证或市场排名。

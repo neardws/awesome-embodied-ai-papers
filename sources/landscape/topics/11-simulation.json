@@ -1,0 +1,162 @@
+{
+  "id": "11-simulation",
+  "title": {
+    "zh-CN": "仿真与训练基础设施",
+    "en": "Simulation and training infrastructure"
+  },
+  "question": {
+    "zh-CN": "如何用可控实验加速研发，同时识别仿真无法替代的真实因素？",
+    "en": "How can controlled experiments accelerate development while exposing what simulation cannot replace?"
+  },
+  "sources": [
+    "mujoco",
+    "isaac",
+    "robotwin",
+    "nvidia",
+    "lightwheel"
+  ],
+  "papers": [
+    "deployment/sim2real.md",
+    "wam/video-latent.md"
+  ],
+  "subcategories": [
+    {
+      "id": "11-01",
+      "name": {
+        "zh-CN": "物理引擎与接触求解",
+        "en": "Physics engines and contact solving"
+      },
+      "problem": {
+        "zh-CN": "计算运动、碰撞与接触响应。",
+        "en": "Compute motion, collision and contact responses."
+      },
+      "research": {
+        "zh-CN": "可微物理、摩擦模型与数值稳定。",
+        "en": "Differentiable physics, friction models and numerical stability."
+      },
+      "industry": {
+        "zh-CN": "求解速度、模型标定与资产兼容。",
+        "en": "Solver speed, model calibration and asset compatibility."
+      },
+      "compare": {
+        "zh-CN": "接触误差、稳定性与仿真吞吐。",
+        "en": "Contact error, stability and simulation throughput."
+      }
+    },
+    {
+      "id": "11-02",
+      "name": {
+        "zh-CN": "数字孪生与资产构建",
+        "en": "Digital twins and asset construction"
+      },
+      "problem": {
+        "zh-CN": "建立场景、机器人与物体的数字表示。",
+        "en": "Build digital representations of scenes, robots and objects."
+      },
+      "research": {
+        "zh-CN": "重建、参数辨识与自动资产生成。",
+        "en": "Reconstruction, parameter identification and automated asset generation."
+      },
+      "industry": {
+        "zh-CN": "资产质量、版本维护与现场一致性。",
+        "en": "Asset quality, version maintenance and site consistency."
+      },
+      "compare": {
+        "zh-CN": "几何动力学误差、制作成本与更新时间。",
+        "en": "Geometry and dynamics error, creation cost and update time."
+      }
+    },
+    {
+      "id": "11-03",
+      "name": {
+        "zh-CN": "传感仿真与合成数据",
+        "en": "Sensor simulation and synthetic data"
+      },
+      "problem": {
+        "zh-CN": "生成多模态观测及其标签。",
+        "en": "Generate multimodal observations and labels."
+      },
+      "research": {
+        "zh-CN": "渲染真实性、触觉仿真与数据混合。",
+        "en": "Rendering fidelity, tactile simulation and data mixing."
+      },
+      "industry": {
+        "zh-CN": "生成流程、标注规范与域差评估。",
+        "en": "Generation workflows, annotation standards and domain-gap assessment."
+      },
+      "compare": {
+        "zh-CN": "传感差异、标签质量与真实任务增益。",
+        "en": "Sensor gap, label quality and real-task benefit."
+      }
+    },
+    {
+      "id": "11-04",
+      "name": {
+        "zh-CN": "并行训练与实验管理",
+        "en": "Parallel training and experiment management"
+      },
+      "problem": {
+        "zh-CN": "提高策略训练和比较效率。",
+        "en": "Improve policy training and comparison efficiency."
+      },
+      "research": {
+        "zh-CN": "分布式采样、优化稳定与可复现性。",
+        "en": "Distributed sampling, optimization stability and reproducibility."
+      },
+      "industry": {
+        "zh-CN": "资源调度、检查点、成本与版本固定。",
+        "en": "Resource scheduling, checkpoints, cost and pinned versions."
+      },
+      "compare": {
+        "zh-CN": "训练预算、随机种子方差与复现实验。",
+        "en": "Training budget, seed variance and reproducible runs."
+      }
+    },
+    {
+      "id": "11-05",
+      "name": {
+        "zh-CN": "领域随机化与迁移",
+        "en": "Domain randomization and transfer"
+      },
+      "problem": {
+        "zh-CN": "降低仿真与实机行为差异。",
+        "en": "Reduce behavioral differences between simulation and hardware."
+      },
+      "research": {
+        "zh-CN": "自适应随机化、系统辨识与残差学习。",
+        "en": "Adaptive randomization, identification and residual learning."
+      },
+      "industry": {
+        "zh-CN": "真实校准、迁移测试与故障回退。",
+        "en": "Real calibration, transfer tests and fallback behavior."
+      },
+      "compare": {
+        "zh-CN": "真实任务成功率与迁移所需数据。",
+        "en": "Real-task success and data needed for transfer."
+      }
+    },
+    {
+      "id": "11-06",
+      "name": {
+        "zh-CN": "软件、硬件在环验证",
+        "en": "Software- and hardware-in-the-loop validation"
+      },
+      "problem": {
+        "zh-CN": "在上线前测试控制与通信链路。",
+        "en": "Test control and communication chains before release."
+      },
+      "research": {
+        "zh-CN": "联合仿真、时序一致与边界覆盖。",
+        "en": "Co-simulation, temporal consistency and boundary coverage."
+      },
+      "industry": {
+        "zh-CN": "真实控制器接入、故障注入与回归测试。",
+        "en": "Real controller integration, fault injection and regression tests."
+      },
+      "compare": {
+        "zh-CN": "时序误差、故障覆盖与测试可重复性。",
+        "en": "Timing error, fault coverage and repeatability."
+      }
+    }
+  ]
+}

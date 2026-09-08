@@ -69,3 +69,30 @@ WAM 将未来世界状态预测和动作生成合在一起，适合放在智能�
 </tr>
 </tbody>
 </table>
+
+<!-- landscape-links:start -->
+
+## 学术与产业关联
+
+从以下板块继续查看与本研究方向相关的硬件、软件和交付问题。
+
+<table width="1060">
+<thead>
+<tr>
+<th width="300" nowrap>全景板块</th>
+<th width="760">系统问题</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td width="300" nowrap><a href="../landscape/08-models.md">机器人模型、推理与规划</a></td>
+<td width="760">怎样连接语言理解、世界预测、技能与执行反馈？</td>
+</tr>
+<tr>
+<td width="300" nowrap><a href="../landscape/11-simulation.md">仿真与训练基础设施</a></td>
+<td width="760">如何用可控实验加速研发，同时识别仿真无法替代的真实因素？</td>
+</tr>
+</tbody>
+</table>
+
+<!-- landscape-links:end -->

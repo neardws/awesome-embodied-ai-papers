@@ -1,0 +1,161 @@
+{
+  "id": "04-sensing",
+  "title": {
+    "zh-CN": "传感与交互硬件",
+    "en": "Sensing and interaction hardware"
+  },
+  "question": {
+    "zh-CN": "如何测量外部环境、身体状态与接触过程，并把多种信号对齐？",
+    "en": "How are environment, body and contact signals measured and aligned?"
+  },
+  "sources": [
+    "digit",
+    "ati",
+    "unitree",
+    "umi"
+  ],
+  "papers": [
+    "embodiment/tactile-contact.md",
+    "vln/map-memory.md"
+  ],
+  "subcategories": [
+    {
+      "id": "04-01",
+      "name": {
+        "zh-CN": "图像、深度与三维视觉",
+        "en": "Imaging, depth and 3D vision"
+      },
+      "problem": {
+        "zh-CN": "获取物体外观、形状与距离。",
+        "en": "Capture appearance, geometry and distance."
+      },
+      "research": {
+        "zh-CN": "遮挡、透明反光与主动视觉。",
+        "en": "Occlusion, transparent or reflective objects and active vision."
+      },
+      "industry": {
+        "zh-CN": "标定、光照适应、接口与带宽。",
+        "en": "Calibration, lighting tolerance, interfaces and bandwidth."
+      },
+      "compare": {
+        "zh-CN": "深度误差、视场、帧率与同步。",
+        "en": "Depth error, field of view, frame rate and synchronization."
+      }
+    },
+    {
+      "id": "04-02",
+      "name": {
+        "zh-CN": "激光、雷达与测距",
+        "en": "LiDAR, radar and ranging"
+      },
+      "problem": {
+        "zh-CN": "支持远距离或复杂环境测量。",
+        "en": "Support ranging over distance and difficult environments."
+      },
+      "research": {
+        "zh-CN": "多传感融合、动态目标与稀疏感知。",
+        "en": "Sensor fusion, moving targets and sparse perception."
+      },
+      "industry": {
+        "zh-CN": "安装遮挡、环境防护与成本。",
+        "en": "Mounting occlusion, environmental protection and cost."
+      },
+      "compare": {
+        "zh-CN": "量程、角分辨率、回波条件与时延。",
+        "en": "Range, angular resolution, return conditions and latency."
+      }
+    },
+    {
+      "id": "04-03",
+      "name": {
+        "zh-CN": "惯性、编码器与本体反馈",
+        "en": "Inertial, encoder and proprioceptive sensing"
+      },
+      "problem": {
+        "zh-CN": "估计机体姿态、关节位置和运动。",
+        "en": "Estimate body attitude, joint positions and motion."
+      },
+      "research": {
+        "zh-CN": "漂移补偿、状态估计与传感容错。",
+        "en": "Drift correction, state estimation and sensor fault tolerance."
+      },
+      "industry": {
+        "zh-CN": "温漂、线缆、安装和时间同步。",
+        "en": "Thermal drift, wiring, mounting and time synchronization."
+      },
+      "compare": {
+        "zh-CN": "噪声、漂移、分辨率与更新率。",
+        "en": "Noise, drift, resolution and update rate."
+      }
+    },
+    {
+      "id": "04-04",
+      "name": {
+        "zh-CN": "六维力与关节力矩",
+        "en": "Force/torque and joint-torque sensing"
+      },
+      "problem": {
+        "zh-CN": "判断接触载荷及外力。",
+        "en": "Measure contact loads and external forces."
+      },
+      "research": {
+        "zh-CN": "力估计、柔顺控制与碰撞识别。",
+        "en": "Force estimation, compliance control and collision detection."
+      },
+      "industry": {
+        "zh-CN": "过载防护、标定与工业通信。",
+        "en": "Overload protection, calibration and industrial communication."
+      },
+      "compare": {
+        "zh-CN": "量程、串扰、迟滞、采样率。",
+        "en": "Range, cross-talk, hysteresis and sample rate."
+      }
+    },
+    {
+      "id": "04-05",
+      "name": {
+        "zh-CN": "触觉阵列与电子皮肤",
+        "en": "Tactile arrays and electronic skin"
+      },
+      "problem": {
+        "zh-CN": "感知接触分布、滑移和局部几何。",
+        "en": "Sense contact distribution, slip and local geometry."
+      },
+      "research": {
+        "zh-CN": "跨传感器表示与视觉触觉融合。",
+        "en": "Cross-sensor representations and visuotactile fusion."
+      },
+      "industry": {
+        "zh-CN": "耐磨、表皮更换、布线与批次标定。",
+        "en": "Wear, replaceable skin, wiring and batch calibration."
+      },
+      "compare": {
+        "zh-CN": "触点覆盖、采样同步、滑移检测与耐久。",
+        "en": "Taxel coverage, synchronization, slip detection and durability."
+      }
+    },
+    {
+      "id": "04-06",
+      "name": {
+        "zh-CN": "动作捕捉、语音与人机交互",
+        "en": "Motion capture, speech and human interfaces"
+      },
+      "problem": {
+        "zh-CN": "把人的动作和意图接入机器人。",
+        "en": "Connect human motion and intent to robots."
+      },
+      "research": {
+        "zh-CN": "意图理解、重定向与多模态交互。",
+        "en": "Intent understanding, retargeting and multimodal interaction."
+      },
+      "industry": {
+        "zh-CN": "佩戴舒适、遮挡、延迟与操作负担。",
+        "en": "Comfort, occlusion, latency and operator burden."
+      },
+      "compare": {
+        "zh-CN": "跟踪误差、端到端时延与交互成功率。",
+        "en": "Tracking error, end-to-end latency and interaction success."
+      }
+    }
+  ]
+}

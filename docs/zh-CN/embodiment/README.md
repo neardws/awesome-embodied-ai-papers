@@ -76,3 +76,50 @@
 </tr>
 </tbody>
 </table>
+
+<!-- landscape-links:start -->
+
+## 学术与产业关联
+
+从以下板块继续查看与本研究方向相关的硬件、软件和交付问题。
+
+<table width="1060">
+<thead>
+<tr>
+<th width="300" nowrap>全景板块</th>
+<th width="760">系统问题</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td width="300" nowrap><a href="../landscape/01-bodies.md">整机与本体形态</a></td>
+<td width="760">什么身体适合什么任务，如何平衡可达空间、运动能力、成本与可靠性？</td>
+</tr>
+<tr>
+<td width="300" nowrap><a href="../landscape/02-actuation.md">执行与精密传动</a></td>
+<td width="760">怎样把电能变成可控的力与运动，并在冲击、温升和磨损下保持性能？</td>
+</tr>
+<tr>
+<td width="300" nowrap><a href="../landscape/03-end-effectors.md">末端与操作机构</a></td>
+<td width="760">如何根据物体与工艺选择接触方式，而非只增加手指数量？</td>
+</tr>
+<tr>
+<td width="300" nowrap><a href="../landscape/04-sensing.md">传感与交互硬件</a></td>
+<td width="760">如何测量外部环境、身体状态与接触过程，并把多种信号对齐？</td>
+</tr>
+<tr>
+<td width="300" nowrap><a href="../landscape/07-control.md">运动控制与动作学习</a></td>
+<td width="760">如何把任务目标转成连续、稳定且符合动力学的动作？</td>
+</tr>
+<tr>
+<td width="300" nowrap><a href="../landscape/13-manufacturing.md">制造、集成与交付</a></td>
+<td width="760">怎样把实验样机变成可制造、可维护且配置明确的交付物？</td>
+</tr>
+<tr>
+<td width="300" nowrap><a href="../landscape/14-applications.md">应用与解决方案</a></td>
+<td width="760">机器人服务于哪些工作流程，价值如何通过真实任务衡量？</td>
+</tr>
+</tbody>
+</table>
+
+<!-- landscape-links:end -->

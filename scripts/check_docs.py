@@ -120,6 +120,47 @@ def check_table_layout(path, text):
     return layouts
 
 
+def check_landscape(manifest):
+    """Check source completeness and exact bilingual generated-page parity."""
+    if 'landscape' not in manifest:
+        return
+    import build_landscape as landscape
+    config = manifest['landscape']
+    topics = landscape.TOPICS
+    sources = landscape.SOURCES
+    require(len(topics) == config['domains'], 'Landscape domain count differs')
+    children = [c for t in topics for c in t['subcategories']]
+    require(len(children) == config['subcategories'], 'Landscape subcategory count differs')
+    require(len({c['id'] for c in children}) == len(children), 'Duplicate landscape subcategory IDs')
+    require(len(sources) == config['sources'], 'Landscape source count differs')
+    require([t['id'] for t in topics] == config['topics'], 'Landscape topic order differs')
+    source_rows = json.loads((ROOT / 'sources/landscape/sources.json').read_text())
+    require(len(source_rows) == len(sources), 'Duplicate landscape source IDs')
+    used = set()
+    for t in topics:
+        for key in t['sources']:
+            require(key in sources, f'{t["id"]}: unknown source {key}')
+            used.add(key)
+        for row in t['subcategories']:
+            for field in ('name', 'problem', 'research', 'industry', 'compare'):
+                require(set(row[field]) == {'en', 'zh-CN'} and all(row[field].values()),
+                        f'{row["id"]}: missing bilingual {field}')
+        for lang in ('en', 'zh-CN'):
+            path = ROOT / 'docs' / lang / 'landscape' / (t['id'] + '.md')
+            require(path.read_text() == landscape.make_topic(t, lang), f'{path.relative_to(ROOT)}: regenerate from topic source')
+    require(used == set(sources), 'Landscape contains unreferenced source records')
+    for s in sources.values():
+        require(s['checked_on'] == config['checked_on'], f'{s["id"]}: source review date differs')
+        require(set(s['evidence']) <= set(landscape.EVIDENCE) and bool(s['evidence']), f'{s["id"]}: invalid evidence state')
+        require(s['url'].startswith('https://'), f'{s["id"]}: expected HTTPS source')
+    for lang in ('en', 'zh-CN'):
+        for file, render in [('README.md', landscape.make_index), ('progress.md', landscape.make_progress), ('sources.md', landscape.make_sources)]:
+            path = ROOT / 'docs' / lang / 'landscape' / file
+            require(path.read_text() == render(lang), f'{path.relative_to(ROOT)}: generated content differs')
+        asset = ROOT / 'figs' / ('research-industry-landscape' + ('.zh-CN' if lang == 'zh-CN' else '') + '.svg')
+        require(asset.read_text() == landscape.figure(lang), f'{asset.name}: diagram differs from taxonomy')
+
+
 def main():
     manifest = json.loads((ROOT / 'docs/manifest.json').read_text())
     paths = manifest['pages']
@@ -212,6 +253,7 @@ def main():
     require(check_table_layout(ROOT / 'README.md', (ROOT / 'README.md').read_text()) ==
             check_table_layout(ROOT / 'README.zh-CN.md', (ROOT / 'README.zh-CN.md').read_text()),
             'Root README bilingual table layouts differ')
+    check_landscape(manifest)
     if ERRORS:
         print('\n'.join(ERRORS))
         return 1

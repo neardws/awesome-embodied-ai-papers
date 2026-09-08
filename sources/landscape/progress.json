@@ -1,0 +1,192 @@
+[
+  {
+    "theme": {
+      "zh-CN": "可获得的本体与可复现研究",
+      "en": "Available bodies and reproducible research"
+    },
+    "observed": {
+      "zh-CN": "开放本体、研究型机械臂和商业人形已有不同形式的设计或产品入口。",
+      "en": "Open bodies, research arms and commercial humanoids expose different design or product entry points."
+    },
+    "gap": {
+      "zh-CN": "可获得硬件仍不等于通用任务能力；个体差异、散热和维护会影响复现。",
+      "en": "Access to hardware does not establish general task capability; unit variation, heat and service affect reproduction."
+    },
+    "next": {
+      "zh-CN": "在明确配置与任务上报告成功、故障、维修和重复试验。",
+      "en": "Report success, failures, repairs and repeated trials for explicit configurations and tasks."
+    },
+    "sources": [
+      "toddler",
+      "unitree",
+      "franka"
+    ]
+  },
+  {
+    "theme": {
+      "zh-CN": "动作学习与基础策略",
+      "en": "Action learning and foundation policies"
+    },
+    "observed": {
+      "zh-CN": "扩散策略与视觉语言动作模型提供了可研究的动作生成路线。",
+      "en": "Diffusion policies and vision-language-action models provide concrete action-generation research routes."
+    },
+    "gap": {
+      "zh-CN": "跨场景、长时程和真实异常恢复不能由单一演示证明。",
+      "en": "A single demonstration cannot establish cross-scene, long-horizon or real failure-recovery ability."
+    },
+    "next": {
+      "zh-CN": "对齐训练数据、机器人配置、未见条件及人工介入预算。",
+      "en": "Align training data, robot configurations, unseen conditions and intervention budgets."
+    },
+    "sources": [
+      "diffusion",
+      "openvla",
+      "pi"
+    ]
+  },
+  {
+    "theme": {
+      "zh-CN": "世界预测与可执行规划",
+      "en": "World prediction and executable planning"
+    },
+    "observed": {
+      "zh-CN": "世界模型、语言技能规划和空间价值表示分别提供闭环中的不同能力。",
+      "en": "World models, language-based skill planning and spatial value representations contribute different closed-loop capabilities."
+    },
+    "gap": {
+      "zh-CN": "预测看起来合理，不代表动作满足物理约束或能可靠恢复。",
+      "en": "Plausible predictions do not establish physically constrained actions or reliable recovery."
+    },
+    "next": {
+      "zh-CN": "比较有无该模块时的任务收益、错误预测与失败恢复。",
+      "en": "Compare task benefit, incorrect predictions and recovery with and without the module."
+    },
+    "sources": [
+      "daydreamer",
+      "saycan",
+      "voxposer"
+    ]
+  },
+  {
+    "theme": {
+      "zh-CN": "数据工具链与跨本体复用",
+      "en": "Data toolchains and cross-body reuse"
+    },
+    "observed": {
+      "zh-CN": "多机构数据集、便携示教与开源工具链形成互补的数据入口。",
+      "en": "Multi-institution data, portable teaching and open toolchains provide complementary data entry points."
+    },
+    "gap": {
+      "zh-CN": "数据量无法替代动作语义、时间同步、授权和分布覆盖。",
+      "en": "Volume cannot substitute for action semantics, synchronization, permission and distribution coverage."
+    },
+    "next": {
+      "zh-CN": "记录数据版本、来源、隔离划分和新增真实任务收益。",
+      "en": "Record versions, provenance, isolated splits and gains on new real tasks."
+    },
+    "sources": [
+      "oxe",
+      "droid",
+      "umi",
+      "lerobot",
+      "agibot"
+    ]
+  },
+  {
+    "theme": {
+      "zh-CN": "仿真与评测基础设施",
+      "en": "Simulation and evaluation infrastructure"
+    },
+    "observed": {
+      "zh-CN": "物理引擎、训练框架与双臂任务生成工具支持更可控的实验。",
+      "en": "Physics engines, training frameworks and bimanual task generation support more controlled experiments."
+    },
+    "gap": {
+      "zh-CN": "接触、传感与资产误差仍需真实验证；合成指标不能替代实机指标。",
+      "en": "Contact, sensor and asset errors still require physical validation; synthetic metrics do not replace real metrics."
+    },
+    "next": {
+      "zh-CN": "固定仿真版本、随机化范围、真实校准与迁移测试条件。",
+      "en": "Pin simulator versions, randomization ranges, real calibration and transfer-test conditions."
+    },
+    "sources": [
+      "mujoco",
+      "isaac",
+      "robotwin",
+      "lightwheel"
+    ]
+  },
+  {
+    "theme": {
+      "zh-CN": "硬件接触与触觉学习",
+      "en": "Contact hardware and tactile learning"
+    },
+    "observed": {
+      "zh-CN": "研究灵巧手、商品化末端和触觉器件提供不同接触能力。",
+      "en": "Research hands, commercial end effectors and tactile devices provide different contact capabilities."
+    },
+    "gap": {
+      "zh-CN": "更多自由度或触点不自动带来更好的控制；还受耐久、标定和数据约束。",
+      "en": "More joints or taxels do not automatically improve control; durability, calibration and data remain constraints."
+    },
+    "next": {
+      "zh-CN": "比较感知增益、任务效果、控制延迟和更换维护成本。",
+      "en": "Compare sensing benefit, task outcomes, control latency and replacement or service cost."
+    },
+    "sources": [
+      "leap",
+      "shadow",
+      "digit",
+      "inspire"
+    ]
+  },
+  {
+    "theme": {
+      "zh-CN": "软件接口与运营闭环",
+      "en": "Software interfaces and operational feedback"
+    },
+    "observed": {
+      "zh-CN": "控制、导航、操作、机队和数据工具分别覆盖系统集成环节。",
+      "en": "Control, navigation, manipulation, fleet and data tools cover different integration layers."
+    },
+    "gap": {
+      "zh-CN": "接口存在不等于系统互通；版本、时序、故障语义仍须逐项验证。",
+      "en": "Interfaces do not establish interoperability; versions, timing and failure semantics need explicit verification."
+    },
+    "next": {
+      "zh-CN": "保留部署配置、端到端测试、故障注入和回滚记录。",
+      "en": "Retain deployment configurations, end-to-end tests, fault injection and rollback records."
+    },
+    "sources": [
+      "control",
+      "moveit",
+      "nav2",
+      "rmf",
+      "foxglove"
+    ]
+  },
+  {
+    "theme": {
+      "zh-CN": "现场价值与规模交付",
+      "en": "Field value and scalable delivery"
+    },
+    "observed": {
+      "zh-CN": "运营方披露的物流案例说明了具体任务与商业交付之间的连接。",
+      "en": "An operator-disclosed logistics case connects a specific task with commercial delivery."
+    },
+    "gap": {
+      "zh-CN": "单个场地案例不能代表全行业成熟；维护、改造和停机成本须纳入。",
+      "en": "One site does not represent industry-wide maturity; service, retrofit and downtime costs must be included."
+    },
+    "next": {
+      "zh-CN": "同时记录任务周期、可用时长、介入、故障恢复和完整成本。",
+      "en": "Record cycle time, availability duration, interventions, recovery and full cost together."
+    },
+    "sources": [
+      "gxo",
+      "protolabs",
+      "nist"
+    ]
+  }
+]

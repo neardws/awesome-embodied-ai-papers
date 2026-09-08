@@ -78,3 +78,50 @@ Total: 105 papers.
 </tr>
 </tbody>
 </table>
+
+<!-- landscape-links:start -->
+
+## Research and industrial context
+
+Explore the hardware, software and delivery questions connected with this research track.
+
+<table width="1060">
+<thead>
+<tr>
+<th width="300" nowrap>Landscape domain</th>
+<th width="760">System question</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td width="300" nowrap><a href="../landscape/05-compute.md">Compute, communication and energy</a></td>
+<td width="760">How can high-compute inference coexist with deterministic control on one robot?</td>
+</tr>
+<tr>
+<td width="300" nowrap><a href="../landscape/09-systems.md">System software and integration platforms</a></td>
+<td width="760">How are heterogeneous devices, models and skills composed into a developable and debuggable system?</td>
+</tr>
+<tr>
+<td width="300" nowrap><a href="../landscape/10-data.md">Data collection and governance</a></td>
+<td width="760">How are demonstrations and operational experience turned into reusable, traceable data assets?</td>
+</tr>
+<tr>
+<td width="300" nowrap><a href="../landscape/11-simulation.md">Simulation and training infrastructure</a></td>
+<td width="760">How can controlled experiments accelerate development while exposing what simulation cannot replace?</td>
+</tr>
+<tr>
+<td width="300" nowrap><a href="../landscape/12-operations.md">Evaluation, safety, deployment and operations</a></td>
+<td width="760">How is single-task performance turned into measurable, recoverable and sustained system capability?</td>
+</tr>
+<tr>
+<td width="300" nowrap><a href="../landscape/13-manufacturing.md">Manufacturing, integration and delivery</a></td>
+<td width="760">How can prototypes become manufacturable, serviceable deliverables with explicit configurations?</td>
+</tr>
+<tr>
+<td width="300" nowrap><a href="../landscape/14-applications.md">Applications and solutions</a></td>
+<td width="760">Which workflows do robots serve, and how is value measured through real tasks?</td>
+</tr>
+</tbody>
+</table>
+
+<!-- landscape-links:end -->

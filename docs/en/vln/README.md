@@ -78,3 +78,38 @@ Total: 92 papers.
 </tr>
 </tbody>
 </table>
+
+<!-- landscape-links:start -->
+
+## Research and industrial context
+
+Explore the hardware, software and delivery questions connected with this research track.
+
+<table width="1060">
+<thead>
+<tr>
+<th width="300" nowrap>Landscape domain</th>
+<th width="760">System question</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td width="300" nowrap><a href="../landscape/01-bodies.md">Robot bodies and form factors</a></td>
+<td width="760">Which body fits a task, balancing reach, mobility, cost and reliability?</td>
+</tr>
+<tr>
+<td width="300" nowrap><a href="../landscape/04-sensing.md">Sensing and interaction hardware</a></td>
+<td width="760">How are environment, body and contact signals measured and aligned?</td>
+</tr>
+<tr>
+<td width="300" nowrap><a href="../landscape/06-perception.md">Perception, localization and spatial representations</a></td>
+<td width="760">How are sensor streams converted into states usable by navigation, planning and manipulation?</td>
+</tr>
+<tr>
+<td width="300" nowrap><a href="../landscape/14-applications.md">Applications and solutions</a></td>
+<td width="760">Which workflows do robots serve, and how is value measured through real tasks?</td>
+</tr>
+</tbody>
+</table>
+
+<!-- landscape-links:end -->

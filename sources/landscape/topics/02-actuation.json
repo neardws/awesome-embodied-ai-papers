@@ -1,0 +1,161 @@
+{
+  "id": "02-actuation",
+  "title": {
+    "zh-CN": "执行与精密传动",
+    "en": "Actuation and precision transmission"
+  },
+  "question": {
+    "zh-CN": "怎样把电能变成可控的力与运动，并在冲击、温升和磨损下保持性能？",
+    "en": "How is electrical energy converted into controllable force and motion under impact, heat and wear?"
+  },
+  "sources": [
+    "harmonic",
+    "ti",
+    "toddler",
+    "inspire"
+  ],
+  "papers": [
+    "embodiment/humanoid.md",
+    "embodiment/hardware.md"
+  ],
+  "subcategories": [
+    {
+      "id": "02-01",
+      "name": {
+        "zh-CN": "电机与直接驱动",
+        "en": "Motors and direct drives"
+      },
+      "problem": {
+        "zh-CN": "提供可调的力矩与转速。",
+        "en": "Provide controllable torque and speed."
+      },
+      "research": {
+        "zh-CN": "力矩密度、反驱性与驱控协同设计。",
+        "en": "Torque density, backdrivability and co-design."
+      },
+      "industry": {
+        "zh-CN": "热设计、绕组制造与一致性。",
+        "en": "Thermal design, winding production and consistency."
+      },
+      "compare": {
+        "zh-CN": "持续与峰值力矩、效率曲线、温升。",
+        "en": "Continuous versus peak torque, efficiency curves and heating."
+      }
+    },
+    {
+      "id": "02-02",
+      "name": {
+        "zh-CN": "谐波、行星与摆线减速",
+        "en": "Strain-wave, planetary and cycloidal gearing"
+      },
+      "problem": {
+        "zh-CN": "在体积约束下放大力矩。",
+        "en": "Multiply torque within a compact envelope."
+      },
+      "research": {
+        "zh-CN": "摩擦、回差补偿与传动柔性建模。",
+        "en": "Friction, backlash compensation and compliance modeling."
+      },
+      "industry": {
+        "zh-CN": "寿命、精度、冲击承载与批次差异。",
+        "en": "Life, precision, impact tolerance and batch variation."
+      },
+      "compare": {
+        "zh-CN": "减速比、回差、刚度与疲劳工况。",
+        "en": "Ratio, backlash, stiffness and fatigue conditions."
+      }
+    },
+    {
+      "id": "02-03",
+      "name": {
+        "zh-CN": "丝杠与线性执行器",
+        "en": "Screws and linear actuators"
+      },
+      "problem": {
+        "zh-CN": "产生直线推力与精密位移。",
+        "en": "Generate linear thrust and precise displacement."
+      },
+      "research": {
+        "zh-CN": "非线性摩擦、载荷估计与结构优化。",
+        "en": "Nonlinear friction, load estimation and structural optimization."
+      },
+      "industry": {
+        "zh-CN": "润滑、密封、安装与轴向寿命。",
+        "en": "Lubrication, sealing, mounting and axial life."
+      },
+      "compare": {
+        "zh-CN": "额定推力、行程、速度与工作循环。",
+        "en": "Rated thrust, stroke, speed and duty cycle."
+      }
+    },
+    {
+      "id": "02-04",
+      "name": {
+        "zh-CN": "一体化关节模组",
+        "en": "Integrated joint modules"
+      },
+      "problem": {
+        "zh-CN": "把电机、传动、驱动与传感封装为关节。",
+        "en": "Package motor, transmission, drive and sensing as a joint."
+      },
+      "research": {
+        "zh-CN": "模块化本体与动力学辨识。",
+        "en": "Modular bodies and dynamics identification."
+      },
+      "industry": {
+        "zh-CN": "线束、散热、总线与更换效率。",
+        "en": "Wiring, heat removal, buses and replacement effort."
+      },
+      "compare": {
+        "zh-CN": "关节接口、质量、持续输出与总线时延。",
+        "en": "Joint interface, mass, sustained output and bus latency."
+      }
+    },
+    {
+      "id": "02-05",
+      "name": {
+        "zh-CN": "伺服驱动与底层控制",
+        "en": "Servo drives and low-level control"
+      },
+      "problem": {
+        "zh-CN": "把电流、速度与位置指令稳定执行。",
+        "en": "Execute current, velocity and position commands stably."
+      },
+      "research": {
+        "zh-CN": "高带宽控制、扰动观测与力矩估计。",
+        "en": "High-bandwidth control, disturbance observers and torque estimation."
+      },
+      "industry": {
+        "zh-CN": "保护机制、实时性与参数整定。",
+        "en": "Protection, real-time behavior and tuning."
+      },
+      "compare": {
+        "zh-CN": "控制周期、抖动、反馈分辨率。",
+        "en": "Control period, jitter and feedback resolution."
+      }
+    },
+    {
+      "id": "02-06",
+      "name": {
+        "zh-CN": "支承、制动与运动连接",
+        "en": "Bearings, brakes and moving connections"
+      },
+      "problem": {
+        "zh-CN": "保障关节承载、停机保持与运动供能。",
+        "en": "Support loads, hold safely at rest and route moving power."
+      },
+      "research": {
+        "zh-CN": "接触磨损、失效预测与轻量结构。",
+        "en": "Contact wear, failure prediction and lightweight structures."
+      },
+      "industry": {
+        "zh-CN": "轴承、制动器、拖链、线束与密封配套。",
+        "en": "Bearings, brakes, cable carriers, harnesses and seals."
+      },
+      "compare": {
+        "zh-CN": "承载寿命、弯折寿命、防护与维护周期。",
+        "en": "Load life, flex life, protection and service intervals."
+      }
+    }
+  ]
+}

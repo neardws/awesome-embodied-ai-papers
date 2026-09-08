@@ -1,0 +1,160 @@
+{
+  "id": "05-compute",
+  "title": {
+    "zh-CN": "计算、通信与能源",
+    "en": "Compute, communication and energy"
+  },
+  "question": {
+    "zh-CN": "怎样把高算力推理与确定性控制放进同一台机器人？",
+    "en": "How can high-compute inference coexist with deterministic control on one robot?"
+  },
+  "sources": [
+    "nvidia",
+    "ti",
+    "toddler"
+  ],
+  "papers": [
+    "deployment/real-time.md",
+    "deployment/quantization-cache-tokenization.md"
+  ],
+  "subcategories": [
+    {
+      "id": "05-01",
+      "name": {
+        "zh-CN": "推理芯片与异构加速",
+        "en": "Inference chips and heterogeneous acceleration"
+      },
+      "problem": {
+        "zh-CN": "在设备上执行感知与策略模型。",
+        "en": "Execute perception and policy models on-device."
+      },
+      "research": {
+        "zh-CN": "压缩、编译与模型硬件协同。",
+        "en": "Compression, compilation and model-hardware co-design."
+      },
+      "industry": {
+        "zh-CN": "算子支持、工具链、内存与供货。",
+        "en": "Operator support, toolchains, memory and supply."
+      },
+      "compare": {
+        "zh-CN": "目标模型实测时延、内存与功耗。",
+        "en": "Measured target-model latency, memory and power."
+      }
+    },
+    {
+      "id": "05-02",
+      "name": {
+        "zh-CN": "边缘计算与域控制器",
+        "en": "Edge computers and domain controllers"
+      },
+      "problem": {
+        "zh-CN": "承载多传感、多模型与系统服务。",
+        "en": "Host sensors, models and system services together."
+      },
+      "research": {
+        "zh-CN": "多任务调度、计算分层与资源共享。",
+        "en": "Multi-task scheduling, compute hierarchy and resource sharing."
+      },
+      "industry": {
+        "zh-CN": "散热、连接器、抗振与远程管理。",
+        "en": "Cooling, connectors, vibration tolerance and remote management."
+      },
+      "compare": {
+        "zh-CN": "并发负载下时延、热稳态与接口数量。",
+        "en": "Latency under concurrency, thermal steady state and interfaces."
+      }
+    },
+    {
+      "id": "05-03",
+      "name": {
+        "zh-CN": "实时微控制与功率驱动",
+        "en": "Real-time microcontrollers and power drives"
+      },
+      "problem": {
+        "zh-CN": "保持底层闭环与电机保护。",
+        "en": "Maintain low-level loops and motor protection."
+      },
+      "research": {
+        "zh-CN": "实时调度、控制鲁棒性与故障检测。",
+        "en": "Real-time scheduling, robust control and fault detection."
+      },
+      "industry": {
+        "zh-CN": "电流采样、保护链路与固件维护。",
+        "en": "Current sampling, protection chains and firmware maintenance."
+      },
+      "compare": {
+        "zh-CN": "最坏控制周期、抖动与故障响应。",
+        "en": "Worst-case control period, jitter and fault response."
+      }
+    },
+    {
+      "id": "05-04",
+      "name": {
+        "zh-CN": "机内总线与工业网络",
+        "en": "On-robot buses and industrial networks"
+      },
+      "problem": {
+        "zh-CN": "传送有时限的状态与指令。",
+        "en": "Transport time-sensitive states and commands."
+      },
+      "research": {
+        "zh-CN": "网络化控制与时间同步。",
+        "en": "Networked control and clock synchronization."
+      },
+      "industry": {
+        "zh-CN": "布线、兼容性、诊断与电磁环境。",
+        "en": "Wiring, compatibility, diagnostics and electromagnetic conditions."
+      },
+      "compare": {
+        "zh-CN": "端到端延迟、丢包、同步与恢复。",
+        "en": "End-to-end delay, packet loss, synchronization and recovery."
+      }
+    },
+    {
+      "id": "05-05",
+      "name": {
+        "zh-CN": "无线、云边与远程连接",
+        "en": "Wireless, cloud-edge and remote connectivity"
+      },
+      "problem": {
+        "zh-CN": "支持遥操作、更新和跨设备协作。",
+        "en": "Support teleoperation, updates and cross-device collaboration."
+      },
+      "research": {
+        "zh-CN": "延迟补偿、任务卸载与断连自治。",
+        "en": "Delay compensation, offloading and disconnected autonomy."
+      },
+      "industry": {
+        "zh-CN": "覆盖、带宽、身份管理与回滚。",
+        "en": "Coverage, bandwidth, identity management and rollback."
+      },
+      "compare": {
+        "zh-CN": "断网行为、回传负载与接管时延。",
+        "en": "Offline behavior, uplink load and takeover delay."
+      }
+    },
+    {
+      "id": "05-06",
+      "name": {
+        "zh-CN": "电池、电源与热管理",
+        "en": "Batteries, power conversion and thermal management"
+      },
+      "problem": {
+        "zh-CN": "在持续任务中稳定供能。",
+        "en": "Deliver stable energy during sustained tasks."
+      },
+      "research": {
+        "zh-CN": "能耗建模、能量感知规划与热控制。",
+        "en": "Energy modeling, energy-aware planning and thermal control."
+      },
+      "industry": {
+        "zh-CN": "电池管理、充换电、散热与寿命。",
+        "en": "Battery management, charging or swapping, cooling and life."
+      },
+      "compare": {
+        "zh-CN": "任务续航、峰值电流、温升与循环寿命。",
+        "en": "Mission endurance, peak current, heating and cycle life."
+      }
+    }
+  ]
+}

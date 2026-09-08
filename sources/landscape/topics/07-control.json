@@ -1,0 +1,161 @@
+{
+  "id": "07-control",
+  "title": {
+    "zh-CN": "运动控制与动作学习",
+    "en": "Motion control and action learning"
+  },
+  "question": {
+    "zh-CN": "如何把任务目标转成连续、稳定且符合动力学的动作？",
+    "en": "How are task goals converted into continuous, stable and dynamically feasible actions?"
+  },
+  "sources": [
+    "moveit",
+    "control",
+    "diffusion",
+    "franka"
+  ],
+  "papers": [
+    "vla/diffusion-flow.md",
+    "embodiment/humanoid.md"
+  ],
+  "subcategories": [
+    {
+      "id": "07-01",
+      "name": {
+        "zh-CN": "运动学与轨迹规划",
+        "en": "Kinematics and trajectory planning"
+      },
+      "problem": {
+        "zh-CN": "寻找可达、无碰撞的动作路径。",
+        "en": "Find reachable and collision-free motion paths."
+      },
+      "research": {
+        "zh-CN": "约束求解、采样与优化规划。",
+        "en": "Constraint solving, sampling and optimization planning."
+      },
+      "industry": {
+        "zh-CN": "机器人模型、碰撞几何与执行时间参数化。",
+        "en": "Robot models, collision geometry and execution timing."
+      },
+      "compare": {
+        "zh-CN": "规划成功率、计算时间与碰撞余量。",
+        "en": "Planning success, computation time and collision margins."
+      }
+    },
+    {
+      "id": "07-02",
+      "name": {
+        "zh-CN": "模型预测与最优控制",
+        "en": "Model predictive and optimal control"
+      },
+      "problem": {
+        "zh-CN": "在动力学约束下滚动调整动作。",
+        "en": "Adapt actions under dynamics constraints in a receding horizon."
+      },
+      "research": {
+        "zh-CN": "模型误差、约束优化与稳定性。",
+        "en": "Model error, constrained optimization and stability."
+      },
+      "industry": {
+        "zh-CN": "实时求解、状态估计与故障降级。",
+        "en": "Real-time solving, state estimation and degraded operation."
+      },
+      "compare": {
+        "zh-CN": "求解最坏时延、跟踪误差与约束违反。",
+        "en": "Worst-case solve time, tracking error and constraint violations."
+      }
+    },
+    {
+      "id": "07-03",
+      "name": {
+        "zh-CN": "力控、阻抗与接触控制",
+        "en": "Force, impedance and contact control"
+      },
+      "problem": {
+        "zh-CN": "在接触中控制力与柔顺性。",
+        "en": "Regulate force and compliance during contact."
+      },
+      "research": {
+        "zh-CN": "接触切换、未知刚度与安全探索。",
+        "en": "Contact transitions, unknown stiffness and safe exploration."
+      },
+      "industry": {
+        "zh-CN": "工艺整定、传感标定与过载保护。",
+        "en": "Process tuning, sensor calibration and overload protection."
+      },
+      "compare": {
+        "zh-CN": "接触力误差、超调与损伤率。",
+        "en": "Force error, overshoot and damage rate."
+      }
+    },
+    {
+      "id": "07-04",
+      "name": {
+        "zh-CN": "腿式与全身协调控制",
+        "en": "Legged and whole-body coordination"
+      },
+      "problem": {
+        "zh-CN": "协调平衡、行走、手臂与接触点。",
+        "en": "Coordinate balance, locomotion, arms and contacts."
+      },
+      "research": {
+        "zh-CN": "运动模仿、落脚规划与多接触优化。",
+        "en": "Motion imitation, foothold planning and multi-contact optimization."
+      },
+      "industry": {
+        "zh-CN": "本体约束、热负载、跌倒恢复。",
+        "en": "Body limits, thermal load and fall recovery."
+      },
+      "compare": {
+        "zh-CN": "地形通过率、能耗与恢复能力。",
+        "en": "Terrain completion, energy use and recovery capability."
+      }
+    },
+    {
+      "id": "07-05",
+      "name": {
+        "zh-CN": "模仿与扩散、流动作策略",
+        "en": "Imitation, diffusion and flow policies"
+      },
+      "problem": {
+        "zh-CN": "从示范学习多模态动作分布。",
+        "en": "Learn multimodal action distributions from demonstrations."
+      },
+      "research": {
+        "zh-CN": "动作表示、时间建模与误差累积。",
+        "en": "Action representations, temporal modeling and compounding error."
+      },
+      "industry": {
+        "zh-CN": "采集成本、推理时延与控制频率匹配。",
+        "en": "Collection cost, inference latency and control-rate matching."
+      },
+      "compare": {
+        "zh-CN": "成功率、动作平滑性与端到端时延。",
+        "en": "Success, action smoothness and end-to-end latency."
+      }
+    },
+    {
+      "id": "07-06",
+      "name": {
+        "zh-CN": "强化学习与在线适应",
+        "en": "Reinforcement learning and online adaptation"
+      },
+      "problem": {
+        "zh-CN": "通过反馈改进策略并适应变化。",
+        "en": "Improve policies through feedback and adapt to changes."
+      },
+      "research": {
+        "zh-CN": "奖励设计、样本效率与安全学习。",
+        "en": "Reward design, sample efficiency and safe learning."
+      },
+      "industry": {
+        "zh-CN": "真实试错成本、接管与回滚。",
+        "en": "Real-world trial cost, takeover and rollback."
+      },
+      "compare": {
+        "zh-CN": "新增交互量、风险暴露与持续性能。",
+        "en": "Additional interactions, risk exposure and sustained performance."
+      }
+    }
+  ]
+}

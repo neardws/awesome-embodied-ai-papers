@@ -1,0 +1,162 @@
+{
+  "id": "12-operations",
+  "title": {
+    "zh-CN": "评测、安全与部署运维",
+    "en": "Evaluation, safety, deployment and operations"
+  },
+  "question": {
+    "zh-CN": "怎样把单次任务效果转化为可测、可恢复、可持续运行的系统能力？",
+    "en": "How is single-task performance turned into measurable, recoverable and sustained system capability?"
+  },
+  "sources": [
+    "nist",
+    "robotwin",
+    "rmf",
+    "foxglove",
+    "gxo"
+  ],
+  "papers": [
+    "deployment/safety-evaluation.md",
+    "deployment/real-time.md"
+  ],
+  "subcategories": [
+    {
+      "id": "12-01",
+      "name": {
+        "zh-CN": "能力基准与任务评测",
+        "en": "Capability benchmarks and task evaluation"
+      },
+      "problem": {
+        "zh-CN": "以可比条件衡量能力。",
+        "en": "Measure capability under comparable conditions."
+      },
+      "research": {
+        "zh-CN": "任务设计、泛化划分与统计显著性。",
+        "en": "Task design, generalization splits and statistical significance."
+      },
+      "industry": {
+        "zh-CN": "现场任务映射、验收条件与回归集。",
+        "en": "Mapping to site tasks, acceptance conditions and regression suites."
+      },
+      "compare": {
+        "zh-CN": "成功率、覆盖、方差与失败分布。",
+        "en": "Success, coverage, variance and failure distribution."
+      }
+    },
+    {
+      "id": "12-02",
+      "name": {
+        "zh-CN": "可靠性与长时程测试",
+        "en": "Reliability and long-horizon testing"
+      },
+      "problem": {
+        "zh-CN": "发现连续运行中的累积故障。",
+        "en": "Expose failures accumulating during sustained operation."
+      },
+      "research": {
+        "zh-CN": "误差传播、鲁棒性与寿命建模。",
+        "en": "Error propagation, robustness and lifetime modeling."
+      },
+      "industry": {
+        "zh-CN": "老化测试、任务中断与备件维护。",
+        "en": "Aging tests, interruptions and spare-part service."
+      },
+      "compare": {
+        "zh-CN": "运行时长、故障频率与恢复时间。",
+        "en": "Operating duration, failure frequency and recovery time."
+      }
+    },
+    {
+      "id": "12-03",
+      "name": {
+        "zh-CN": "安全约束与系统防护",
+        "en": "Safety constraints and system protection"
+      },
+      "problem": {
+        "zh-CN": "限制危险动作和失控传播。",
+        "en": "Limit hazardous actions and failure propagation."
+      },
+      "research": {
+        "zh-CN": "安全控制、约束验证与风险感知。",
+        "en": "Safe control, constraint verification and risk awareness."
+      },
+      "industry": {
+        "zh-CN": "保护链路、急停、隔离与责任边界。",
+        "en": "Protection chains, emergency stops, isolation and responsibility boundaries."
+      },
+      "compare": {
+        "zh-CN": "约束违反、响应时间与验证覆盖。",
+        "en": "Constraint violations, response time and validation coverage."
+      }
+    },
+    {
+      "id": "12-04",
+      "name": {
+        "zh-CN": "端侧部署与模型更新",
+        "en": "Edge deployment and model updates"
+      },
+      "problem": {
+        "zh-CN": "把模型稳定运行在目标设备上。",
+        "en": "Run models reliably on target devices."
+      },
+      "research": {
+        "zh-CN": "压缩、缓存、推理调度与在线适配。",
+        "en": "Compression, caching, inference scheduling and online adaptation."
+      },
+      "industry": {
+        "zh-CN": "版本发布、灰度更新、回滚与兼容。",
+        "en": "Release management, staged updates, rollback and compatibility."
+      },
+      "compare": {
+        "zh-CN": "端到端时延、资源占用与回归结果。",
+        "en": "End-to-end latency, resource use and regression results."
+      }
+    },
+    {
+      "id": "12-05",
+      "name": {
+        "zh-CN": "接管、诊断与恢复",
+        "en": "Takeover, diagnostics and recovery"
+      },
+      "problem": {
+        "zh-CN": "在失败时维持可控运行。",
+        "en": "Maintain controllable operation during failures."
+      },
+      "research": {
+        "zh-CN": "异常检测、恢复策略与人机协同。",
+        "en": "Anomaly detection, recovery policies and human-robot cooperation."
+      },
+      "industry": {
+        "zh-CN": "报警、远程接管、故障定位与复位。",
+        "en": "Alerts, remote takeover, fault localization and resets."
+      },
+      "compare": {
+        "zh-CN": "介入次数、接管时延与恢复后完成率。",
+        "en": "Intervention count, takeover delay and completion after recovery."
+      }
+    },
+    {
+      "id": "12-06",
+      "name": {
+        "zh-CN": "机队、服务与运营指标",
+        "en": "Fleet, service and operational metrics"
+      },
+      "problem": {
+        "zh-CN": "管理多机任务与长期服务。",
+        "en": "Manage multi-robot tasks and ongoing service."
+      },
+      "research": {
+        "zh-CN": "协作调度、队列与资源优化。",
+        "en": "Cooperative scheduling, queues and resource optimization."
+      },
+      "industry": {
+        "zh-CN": "工单、可用率、运维成本与设施对接。",
+        "en": "Work orders, availability, service cost and facility integration."
+      },
+      "compare": {
+        "zh-CN": "吞吐、利用率、每任务成本与停机。",
+        "en": "Throughput, utilization, cost per task and downtime."
+      }
+    }
+  ]
+}

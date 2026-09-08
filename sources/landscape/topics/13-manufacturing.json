@@ -1,0 +1,161 @@
+{
+  "id": "13-manufacturing",
+  "title": {
+    "zh-CN": "制造、集成与交付",
+    "en": "Manufacturing, integration and delivery"
+  },
+  "question": {
+    "zh-CN": "怎样把实验样机变成可制造、可维护且配置明确的交付物？",
+    "en": "How can prototypes become manufacturable, serviceable deliverables with explicit configurations?"
+  },
+  "sources": [
+    "protolabs",
+    "harmonic",
+    "toddler",
+    "nist"
+  ],
+  "papers": [
+    "deployment/sim2real.md",
+    "embodiment/hardware.md"
+  ],
+  "subcategories": [
+    {
+      "id": "13-01",
+      "name": {
+        "zh-CN": "结构材料与精密制造",
+        "en": "Structural materials and precision manufacturing"
+      },
+      "problem": {
+        "zh-CN": "实现强度、重量与尺寸要求。",
+        "en": "Meet strength, weight and dimensional requirements."
+      },
+      "research": {
+        "zh-CN": "轻量结构、材料设计与拓扑优化。",
+        "en": "Lightweight structures, materials design and topology optimization."
+      },
+      "industry": {
+        "zh-CN": "加工能力、表面处理与公差控制。",
+        "en": "Process capability, finishing and tolerance control."
+      },
+      "compare": {
+        "zh-CN": "质量、公差、疲劳与材料批次。",
+        "en": "Mass, tolerances, fatigue and material batches."
+      }
+    },
+    {
+      "id": "13-02",
+      "name": {
+        "zh-CN": "增材制造与快速迭代",
+        "en": "Additive manufacturing and rapid iteration"
+      },
+      "problem": {
+        "zh-CN": "缩短设计验证与样件制造周期。",
+        "en": "Shorten design validation and prototype fabrication cycles."
+      },
+      "research": {
+        "zh-CN": "复杂结构、柔性器件与多材料设计。",
+        "en": "Complex structures, compliant devices and multi-material design."
+      },
+      "industry": {
+        "zh-CN": "工艺选择、后处理与一致性。",
+        "en": "Process selection, post-processing and consistency."
+      },
+      "compare": {
+        "zh-CN": "样件周期、强度方向性与返工率。",
+        "en": "Prototype lead time, strength anisotropy and rework rate."
+      }
+    },
+    {
+      "id": "13-03",
+      "name": {
+        "zh-CN": "装配、标定与出厂测试",
+        "en": "Assembly, calibration and factory tests"
+      },
+      "problem": {
+        "zh-CN": "降低个体间性能差异。",
+        "en": "Reduce performance variation between units."
+      },
+      "research": {
+        "zh-CN": "自动标定、参数辨识与误差传播。",
+        "en": "Automated calibration, identification and error propagation."
+      },
+      "industry": {
+        "zh-CN": "装配工艺、检测工装与可追溯记录。",
+        "en": "Assembly processes, test fixtures and traceable records."
+      },
+      "compare": {
+        "zh-CN": "标定残差、合格率与一致性。",
+        "en": "Calibration residuals, yield and consistency."
+      }
+    },
+    {
+      "id": "13-04",
+      "name": {
+        "zh-CN": "供应链与配置管理",
+        "en": "Supply chain and configuration management"
+      },
+      "problem": {
+        "zh-CN": "控制部件变化及其系统影响。",
+        "en": "Control component changes and system consequences."
+      },
+      "research": {
+        "zh-CN": "可替代设计与模块化架构。",
+        "en": "Substitution-friendly design and modular architectures."
+      },
+      "industry": {
+        "zh-CN": "物料清单、替代件、版本与交期。",
+        "en": "Bills of materials, alternatives, versions and lead times."
+      },
+      "compare": {
+        "zh-CN": "配置可追溯性、替代验证与维护兼容。",
+        "en": "Configuration traceability, substitution validation and service compatibility."
+      }
+    },
+    {
+      "id": "13-05",
+      "name": {
+        "zh-CN": "系统集成与工位改造",
+        "en": "System integration and workstation adaptation"
+      },
+      "problem": {
+        "zh-CN": "把机器人接入真实业务流程。",
+        "en": "Integrate robots into actual business workflows."
+      },
+      "research": {
+        "zh-CN": "任务建模、人机协作与混合自动化。",
+        "en": "Task modeling, human-robot cooperation and hybrid automation."
+      },
+      "industry": {
+        "zh-CN": "工装、现场接口、调试与验收。",
+        "en": "Tooling, site interfaces, commissioning and acceptance."
+      },
+      "compare": {
+        "zh-CN": "改造时间、稳定节拍与异常处理。",
+        "en": "Retrofit time, stable cycle time and exception handling."
+      }
+    },
+    {
+      "id": "13-06",
+      "name": {
+        "zh-CN": "维护、培训与生命周期",
+        "en": "Service, training and lifecycle support"
+      },
+      "problem": {
+        "zh-CN": "保持设备与人员长期可用。",
+        "en": "Maintain equipment and workforce readiness over time."
+      },
+      "research": {
+        "zh-CN": "预测维护、维修性设计与技能迁移。",
+        "en": "Predictive maintenance, serviceability design and skill transfer."
+      },
+      "industry": {
+        "zh-CN": "备件、培训、维修流程与版本支持。",
+        "en": "Spares, training, repair procedures and version support."
+      },
+      "compare": {
+        "zh-CN": "维修时间、维护成本与支持周期。",
+        "en": "Repair time, maintenance cost and support period."
+      }
+    }
+  ]
+}

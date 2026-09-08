@@ -78,3 +78,30 @@
 </tr>
 </tbody>
 </table>
+
+<!-- landscape-links:start -->
+
+## 学术与产业关联
+
+从以下板块继续查看与本研究方向相关的硬件、软件和交付问题。
+
+<table width="1060">
+<thead>
+<tr>
+<th width="300" nowrap>全景板块</th>
+<th width="760">系统问题</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td width="300" nowrap><a href="../landscape/08-models.md">机器人模型、推理与规划</a></td>
+<td width="760">怎样连接语言理解、世界预测、技能与执行反馈？</td>
+</tr>
+<tr>
+<td width="300" nowrap><a href="../landscape/09-systems.md">系统软件与集成平台</a></td>
+<td width="760">如何把异构设备、模型和技能组成可开发、可调试的机器人系统？</td>
+</tr>
+</tbody>
+</table>
+
+<!-- landscape-links:end -->

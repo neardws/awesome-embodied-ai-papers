@@ -78,3 +78,38 @@ VLN 关注语言目标、空间地图、记忆、探索和导航决策，核心�
 </tr>
 </tbody>
 </table>
+
+<!-- landscape-links:start -->
+
+## 学术与产业关联
+
+从以下板块继续查看与本研究方向相关的硬件、软件和交付问题。
+
+<table width="1060">
+<thead>
+<tr>
+<th width="300" nowrap>全景板块</th>
+<th width="760">系统问题</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td width="300" nowrap><a href="../landscape/01-bodies.md">整机与本体形态</a></td>
+<td width="760">什么身体适合什么任务，如何平衡可达空间、运动能力、成本与可靠性？</td>
+</tr>
+<tr>
+<td width="300" nowrap><a href="../landscape/04-sensing.md">传感与交互硬件</a></td>
+<td width="760">如何测量外部环境、身体状态与接触过程，并把多种信号对齐？</td>
+</tr>
+<tr>
+<td width="300" nowrap><a href="../landscape/06-perception.md">感知、定位与空间表示</a></td>
+<td width="760">怎样把传感数据转换为可供导航、规划和操作使用的状态？</td>
+</tr>
+<tr>
+<td width="300" nowrap><a href="../landscape/14-applications.md">应用与解决方案</a></td>
+<td width="760">机器人服务于哪些工作流程，价值如何通过真实任务衡量？</td>
+</tr>
+</tbody>
+</table>
+
+<!-- landscape-links:end -->
