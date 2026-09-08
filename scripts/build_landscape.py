@@ -33,13 +33,13 @@ def link(label, target):
     return f'<a href="{escape(target, quote=True)}">{escape(label)}</a>'
 
 
-def table(headers, widths, rows):
+def table(headers, widths, rows, nowrap_first=True):
     out = [f'<table width="{sum(widths)}">', '<thead>', '<tr>']
-    out += [f'<th width="{w}"' + (' nowrap' if i == 0 else '') + f'>{escape(h)}</th>' for i, (h, w) in enumerate(zip(headers, widths))]
+    out += [f'<th width="{w}"' + (' nowrap' if nowrap_first and i == 0 else '') + f'>{escape(h)}</th>' for i, (h, w) in enumerate(zip(headers, widths))]
     out += ['</tr>', '</thead>', '<tbody>']
     for row in rows:
         assert len(row) == len(widths)
-        out += ['<tr>'] + [f'<td width="{w}"' + (' nowrap' if i == 0 else '') + f'>{c}</td>' for i, (w, c) in enumerate(zip(widths, row))] + ['</tr>']
+        out += ['<tr>'] + [f'<td width="{w}"' + (' nowrap' if nowrap_first and i == 0 else '') + f'>{c}</td>' for i, (w, c) in enumerate(zip(widths, row))] + ['</tr>']
     return '\n'.join(out + ['</tbody>', '</table>']) + '\n'
 
 
@@ -57,10 +57,10 @@ def category_table(lang, prefix=''):
     headers = bi(['Domain', 'Question', 'Subcategories', 'Representative entry points'], ['板块', '核心问题', '细类', '代表性入口'], lang)
     rows = []
     for t in TOPICS:
-        children = ' · '.join(link(c['name'][lang], prefix + t['id'] + '.md#' + c['id']) for c in t['subcategories'])
-        examples = ' · '.join(link(SOURCES[key]['name'][lang], prefix + 'sources.md#source-' + key) for key in t['sources'][:3])
+        children = '<br>'.join(link(c['name'][lang], prefix + t['id'] + '.md#' + c['id']) for c in t['subcategories'])
+        examples = '<br>'.join(link(SOURCES[key]['name'][lang], prefix + 'sources.md#source-' + key) for key in t['sources'][:3])
         rows.append([link(t['title'][lang], prefix + t['id'] + '.md'), escape(t['question'][lang]), children, examples])
-    return table(headers, [230, 360, 680, 360], rows)
+    return table(headers, [260, 340, 580, 330], rows, nowrap_first=False)
 
 
 def make_topic(t, lang):
