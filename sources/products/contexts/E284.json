@@ -1,0 +1,35 @@
+{
+  "id": "E284",
+  "supplier_as_published": "深圳慧闻智造技术有限公司",
+  "source_category": "10-03",
+  "source_url": "https://www.worldrobotconference.com/expo/company/771.html",
+  "original_source_urls": [
+    "https://www.worldrobotconference.com/expo/company/771.html",
+    "https://www.worldrobotconference.com/expo/product/1476.html",
+    "https://www.worldrobotconference.com/expo/product/1477.html",
+    "https://www.worldrobotconference.com/expo/product/1478.html"
+  ],
+  "source_checked_on": "2026-09-05",
+  "evidence": "official_page",
+  "technical": {
+    "zh-CN": "提供七自由度力反馈手柄、双臂双边力反馈遥操作及五轴加工、车铣、打印等制造服务；交互设备与制造服务分别索引。",
+    "en": "The offering includes seven-degree-of-freedom force-feedback handles, bilateral bimanual teleoperation and five-axis machining, turning/milling and printing. Interaction devices and manufacturing services are indexed separately."
+  },
+  "original_product_line": "七轴串联力反馈手柄、力反馈双臂机器人、机器人腿部组件与零部件",
+  "original_application_wording": "物理 AI 数据采集、柔性装配、复杂场景人机协作、遥操作",
+  "original_issue_notes": [],
+  "item_ids": [
+    "item-d228ae53bb75",
+    "item-74e898df31eb",
+    "item-2c021a972610"
+  ],
+  "source_technical_sha256": "b56944e4fc6e88fa682dd9906e6ae6a61ea9a2e76ce5f240f26e1289237985e6",
+  "cross_source_categories": [
+    "02-02",
+    "09-03",
+    "10-01"
+  ],
+  "original_tags": "机器人本体与零部件精密制造/装配",
+  "original_verification_wording": "大会官方页已核验。",
+  "original_review_wording": "检索/读取日期：2026-09-05。核验口径：已读取官方网页；参数属发布方声明。"
+}

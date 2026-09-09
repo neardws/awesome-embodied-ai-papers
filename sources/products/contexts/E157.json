@@ -1,0 +1,27 @@
+{
+  "id": "E157",
+  "supplier_as_published": "苏州希瑞格机器人科技有限公司",
+  "source_category": "06-02",
+  "source_url": "https://www.worldrobotconference.com/expo/company/817.html",
+  "original_source_urls": [
+    "https://www.worldrobotconference.com/expo/company/817.html",
+    "https://www.worldrobotconference.com/expo/product/854.html"
+  ],
+  "source_checked_on": "2026-09-05",
+  "evidence": "official_page",
+  "technical": {
+    "zh-CN": "CRG 自动快换通过定位和锁紧连接机器人与夹爪、吸盘、焊枪，可集成气、电和信号通路；定位重复性及安全锁紧等级尚未列明。",
+    "en": "CRG automatic tool changers locate and lock robots to grippers, suction tools and welding torches, with optional air, power and signal paths. Repeatability and locking safety grades are unspecified."
+  },
+  "original_product_line": "机器人自动快换盘、夹爪、真空及剪切类末端执行组件",
+  "original_application_wording": "汽车、包装、家电、食品、医疗、3C 等行业的末端工装自动更换与作业",
+  "original_issue_notes": [],
+  "item_ids": [
+    "item-939e6707d3d9"
+  ],
+  "source_technical_sha256": "208deb6a66d2ceb0960a0925fd87ee49466786c1afca357d01335e3d45b0eb4e",
+  "cross_source_categories": [],
+  "original_tags": "末端执行器与工具快换",
+  "original_verification_wording": "官方页已核对。",
+  "original_review_wording": "检索/读取日期：2026-09-05。核验口径：已读取官方网页；参数属发布方声明。"
+}

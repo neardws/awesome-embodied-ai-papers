@@ -1,0 +1,31 @@
+{
+  "id": "E135",
+  "supplier_as_published": "极创机器人智能科技（山东）有限公司",
+  "source_category": "04-03",
+  "source_url": "https://www.worldrobotconference.com/expo/company/480.html",
+  "original_source_urls": [
+    "https://www.worldrobotconference.com/expo/company/480.html",
+    "https://www.worldrobotconference.com/expo/product/348.html",
+    "https://www.worldrobotconference.com/expo/product/350.html",
+    "https://www.worldrobotconference.com/expo/product/1276.html"
+  ],
+  "source_checked_on": "2026-09-05",
+  "evidence": "official_page",
+  "technical": {
+    "zh-CN": "Komodo-ZERO 标注自重小于 50kg、直线最高 20km/h，采用铝架与碳纤维悬挂；Warthog-02M 为四轮差速底盘，支持配置定制。",
+    "en": "Komodo-ZERO reports under 50kg mass and up to 20km/h straight-line speed, with aluminum frame and carbon-fiber suspension. Warthog-02M is a customizable four-wheel differential base."
+  },
+  "original_product_line": "水陆两栖超轻型履带 UGV、Komodo-ZERO 履带底盘、Warthog-02M-Pro 轮式 UGV",
+  "original_application_wording": "应急救援、军工侦察、巡检、安防、特种作业、农业与能源",
+  "original_issue_notes": [],
+  "item_ids": [
+    "item-5628b3e95c99",
+    "item-d528f860e601",
+    "item-b2211396bf6e"
+  ],
+  "source_technical_sha256": "e93c178473b48d660b6ae98dcf492508aaca0547f19f744c6146fc05e854bf2e",
+  "cross_source_categories": [],
+  "original_tags": "履带/轮式移动机器人底盘",
+  "original_verification_wording": "大会官方页已核验。",
+  "original_review_wording": "检索/读取日期：2026-09-05。核验口径：已读取官方网页；参数属发布方声明。"
+}

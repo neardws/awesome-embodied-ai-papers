@@ -20,42 +20,42 @@
 </thead>
 <tbody>
 <tr>
-<td width="240" nowrap><a id="07-01"></a>运动学与轨迹规划</td>
+<td width="240" nowrap><a id="07-01"></a>运动学与轨迹规划<br><a href="../products/topics/07-01.md">产品细节</a></td>
 <td width="300">寻找可达、无碰撞的动作路径。</td>
 <td width="320">约束求解、采样与优化规划。</td>
 <td width="320">机器人模型、碰撞几何与执行时间参数化。</td>
 <td width="340">规划成功率、计算时间与碰撞余量。</td>
 </tr>
 <tr>
-<td width="240" nowrap><a id="07-02"></a>模型预测与最优控制</td>
+<td width="240" nowrap><a id="07-02"></a>模型预测与最优控制<br><a href="../products/topics/07-02.md">产品细节</a></td>
 <td width="300">在动力学约束下滚动调整动作。</td>
 <td width="320">模型误差、约束优化与稳定性。</td>
 <td width="320">实时求解、状态估计与故障降级。</td>
 <td width="340">求解最坏时延、跟踪误差与约束违反。</td>
 </tr>
 <tr>
-<td width="240" nowrap><a id="07-03"></a>力控、阻抗与接触控制</td>
+<td width="240" nowrap><a id="07-03"></a>力控、阻抗与接触控制<br><a href="../products/topics/07-03.md">产品细节</a></td>
 <td width="300">在接触中控制力与柔顺性。</td>
 <td width="320">接触切换、未知刚度与安全探索。</td>
 <td width="320">工艺整定、传感标定与过载保护。</td>
 <td width="340">接触力误差、超调与损伤率。</td>
 </tr>
 <tr>
-<td width="240" nowrap><a id="07-04"></a>腿式与全身协调控制</td>
+<td width="240" nowrap><a id="07-04"></a>腿式与全身协调控制<br><a href="../products/topics/07-04.md">产品细节</a></td>
 <td width="300">协调平衡、行走、手臂与接触点。</td>
 <td width="320">运动模仿、落脚规划与多接触优化。</td>
 <td width="320">本体约束、热负载、跌倒恢复。</td>
 <td width="340">地形通过率、能耗与恢复能力。</td>
 </tr>
 <tr>
-<td width="240" nowrap><a id="07-05"></a>模仿与扩散、流动作策略</td>
+<td width="240" nowrap><a id="07-05"></a>模仿与扩散、流动作策略<br><a href="../products/topics/07-05.md">产品细节</a></td>
 <td width="300">从示范学习多模态动作分布。</td>
 <td width="320">动作表示、时间建模与误差累积。</td>
 <td width="320">采集成本、推理时延与控制频率匹配。</td>
 <td width="340">成功率、动作平滑性与端到端时延。</td>
 </tr>
 <tr>
-<td width="240" nowrap><a id="07-06"></a>强化学习与在线适应</td>
+<td width="240" nowrap><a id="07-06"></a>强化学习与在线适应<br><a href="../products/topics/07-06.md">产品细节</a></td>
 <td width="300">通过反馈改进策略并适应变化。</td>
 <td width="320">奖励设计、样本效率与安全学习。</td>
 <td width="320">真实试错成本、接管与回滚。</td>
@@ -63,6 +63,14 @@
 </tr>
 </tbody>
 </table>
+
+## 技术与产品细节
+
+<a href="../products/comparisons/07-control.md">查看 1 条相关对照记录</a>
+
+继续比较逐型号参数、工况、接口、研究关联和来源问题，并下钻查看完整技术摘录与原始展项链接。
+
+<a href="../products/references/02-02.md">协作机械臂与自适应力控</a>
 
 ## 研究、平台与产业代表
 

@@ -1,0 +1,38 @@
+{
+  "id": "E176",
+  "supplier_as_published": "美蓓亚三美集团",
+  "source_category": "07-01",
+  "source_url": "https://www.worldrobotconference.com/expo/company/703.html",
+  "original_source_urls": [
+    "https://www.worldrobotconference.com/expo/company/703.html",
+    "https://www.worldrobotconference.com/expo/product/1278.html",
+    "https://www.worldrobotconference.com/expo/product/1279.html",
+    "https://www.worldrobotconference.com/expo/product/1280.html",
+    "https://www.worldrobotconference.com/expo/product/1284.html",
+    "https://www.worldrobotconference.com/expo/product/1285.html"
+  ],
+  "source_checked_on": "2026-09-05",
+  "evidence": "official_page",
+  "technical": {
+    "zh-CN": "MEMS 六维力传感器标注直径 9.6mm、高 9mm、重量 3g、SPI 输出；应变式 MX084-30NM 为另一产品，不与 MEMS 参数混用。",
+    "en": "The MEMS six-axis force sensor reports 9.6mm diameter, 9mm height, 3g and SPI. The strain-gauge MX084-30NM is a separate product and must not inherit MEMS specifications."
+  },
+  "original_product_line": "应变式/MEMS 式六维力传感器、薄壁轴承、无框力矩电机、机器人手部电机",
+  "original_application_wording": "机器人关节、自动化设备、协作机器人和输送系统",
+  "original_issue_notes": [],
+  "item_ids": [
+    "item-bf485717df4a",
+    "item-1347d4892662",
+    "item-64fe0662ed58",
+    "item-965e27144e0d",
+    "item-7471d7bc77b1",
+    "item-2bfa9bca2666",
+    "item-0680834493c2",
+    "item-9183780509ef"
+  ],
+  "source_technical_sha256": "7b739dbf6883f1fc0459a8b9c9fd9fe24905ef2dcb75ae43788525529da3c0ff",
+  "cross_source_categories": [],
+  "original_tags": "六维力传感器、精密轴承与无框力矩电机",
+  "original_verification_wording": "大会官方页已核验。",
+  "original_review_wording": "检索/读取日期：2026-09-05。核验口径：已读取官方网页；参数属发布方声明。"
+}

@@ -1,0 +1,27 @@
+{
+  "id": "E146",
+  "supplier_as_published": "杭州玖月捌传动科技有限公司",
+  "source_category": "06-08",
+  "source_url": "https://www.worldrobotconference.com/expo/company/888.html",
+  "original_source_urls": [
+    "https://www.worldrobotconference.com/expo/company/888.html",
+    "https://www.worldrobotconference.com/expo/product/1516.html"
+  ],
+  "source_checked_on": "2026-09-05",
+  "evidence": "official_page",
+  "technical": {
+    "zh-CN": "微型反向行星滚柱丝杠面向灵巧手；寿命和承载提升仅以“数倍”表述，缺少对照规格、导程、推力及寿命试验条件。",
+    "en": "Miniature inverted planetary roller screws target dexterous hands. Life/load gains are only stated as multiples, without reference specifications, lead, thrust or life-test conditions."
+  },
+  "original_product_line": "微型反向式行星滚柱丝杠",
+  "original_application_wording": "高自由度、高负载灵巧手及人形机器人",
+  "original_issue_notes": [],
+  "item_ids": [
+    "item-6cecd02b3f3c"
+  ],
+  "source_technical_sha256": "d0ad83cea1a1f1acf66d2ac67a782d5ea450d955081ffd76081a76b4aefcd49e",
+  "cross_source_categories": [],
+  "original_tags": "行星滚柱丝杠",
+  "original_verification_wording": "大会官方页已核验。",
+  "original_review_wording": "检索/读取日期：2026-09-05。核验口径：已读取官方网页；参数属发布方声明。"
+}

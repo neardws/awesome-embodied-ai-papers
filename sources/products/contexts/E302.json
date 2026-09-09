@@ -1,0 +1,29 @@
+{
+  "id": "E302",
+  "supplier_as_published": "西安交通大学医工交叉研究所",
+  "source_category": "11-01",
+  "source_url": "https://www.worldrobotconference.com/expo/company/658.html",
+  "original_source_urls": [
+    "https://www.worldrobotconference.com/expo/company/658.html",
+    "https://www.worldrobotconference.com/expo/product/1586.html"
+  ],
+  "source_checked_on": "2026-09-05",
+  "evidence": "official_page",
+  "technical": {
+    "zh-CN": "智慧脑结合视觉语言、图网络及脑机接口，包含基于 AR 的稳态视觉诱发电位异步交互；科研展示不能作为医疗注册或临床疗效依据。",
+    "en": "智慧脑 combines vision-language, graph networks and brain-computer interfaces, including AR-based asynchronous steady-state visual-evoked-potential interaction. Research display does not establish medical registration or clinical efficacy."
+  },
+  "original_product_line": "脑机接口、脑控康复机器人、具身人形智能大脑",
+  "original_application_wording": "神经康复、老年/残障陪伴、导引/搬运",
+  "original_issue_notes": [],
+  "item_ids": [
+    "item-2bde463462df"
+  ],
+  "source_technical_sha256": "73ef4d5f7677b408810b0aa67106c65c587f089fe2d8cac01779a88a448ff9a2",
+  "cross_source_categories": [
+    "05-04"
+  ],
+  "original_tags": "脑机接口/康复机器人/医工交叉",
+  "original_verification_wording": "展会官方页已核对。",
+  "original_review_wording": "检索/读取日期：2026-09-05。核验口径：已读取官方网页；参数属发布方声明。"
+}

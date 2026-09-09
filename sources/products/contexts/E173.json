@@ -1,0 +1,25 @@
+{
+  "id": "E173",
+  "supplier_as_published": "纽氏达特行星传动系统技术（淄博）股份有限公司",
+  "source_category": "06-07",
+  "source_url": "https://www.newstart.cn/product/show/28.html",
+  "original_source_urls": [
+    "https://www.newstart.cn/product/show/28.html",
+    "https://www.newstart.cn/"
+  ],
+  "source_checked_on": "2026-09-05",
+  "evidence": "official_search_or_alternate",
+  "technical": {
+    "zh-CN": "AB/ABR/TAB 产品页提供基座、级数和安装尺寸组合，并列 PDF、STEP、DWG 下载入口；部分速比和功率表格为空，不能自行补齐数值。",
+    "en": "AB/ABR/TAB offer combinations of frame, stages and mounting dimensions, with PDF/STEP/DWG links. Some ratio and power tables are empty; missing values must not be invented."
+  },
+  "original_product_line": "AB/ABR、AD/ADR、AE/AER 等系列精密行星减速机",
+  "original_application_wording": "适配安川、松下、三菱、富士、东元等伺服马达；终端应用待官网核实",
+  "original_issue_notes": [],
+  "item_ids": [],
+  "source_technical_sha256": "885a48be470942b16d8884cc63f6c91750d7c17fe4e7b0b79ba435a711617aa6",
+  "cross_source_categories": [],
+  "original_tags": "精密行星减速器",
+  "original_verification_wording": "部分核验（产品已核验；终端应用待官网核实）。",
+  "original_review_wording": "检索/读取日期：2026-09-05。核验口径：官方搜索正文补充（直连受限或改用替代页）。"
+}

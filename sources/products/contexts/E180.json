@@ -1,0 +1,35 @@
+{
+  "id": "E180",
+  "supplier_as_published": "浙江灵巧智能科技有限公司",
+  "source_category": "06-01",
+  "source_url": "https://www.worldrobotconference.com/expo/company/511.html",
+  "original_source_urls": [
+    "https://www.worldrobotconference.com/expo/company/511.html",
+    "https://www.worldrobotconference.com/expo/product/171.html",
+    "https://www.worldrobotconference.com/expo/product/172.html",
+    "https://www.worldrobotconference.com/expo/product/223.html",
+    "https://www.worldrobotconference.com/expo/product/224.html",
+    "https://www.worldrobotconference.com/expo/product/1246.html"
+  ],
+  "source_checked_on": "2026-09-05",
+  "evidence": "official_page",
+  "technical": {
+    "zh-CN": "DexHand021 为 19 自由度、23 个传感器；S 三指型号为 8 自由度、22N 抓握力、0.6kg；Pro 为 22 自由度双绳驱，型号必须分开。",
+    "en": "DexHand021 reports 19 degrees of freedom and 23 sensors. The S three-finger version reports 8 degrees of freedom, 22N grip and 0.6kg. Pro uses dual-tendon drive with 22 degrees of freedom. Keep models separate."
+  },
+  "original_product_line": "DexHand021 三指/五指灵巧手、DexCap 与 Dexele 遥操作数据采集系统",
+  "original_application_wording": "服务机器人、工业检测、农业采摘、科研教育与具身模型训练",
+  "original_issue_notes": [],
+  "item_ids": [
+    "item-ef62a5e16c99",
+    "item-a908ac309d68",
+    "item-5585df1e08f0",
+    "item-400feb3316c5",
+    "item-8af6ab6028f7"
+  ],
+  "source_technical_sha256": "cd80066a9bfe848f1ff9674c908529994c3057bce2e415acf4cebe786b0a9fc6",
+  "cross_source_categories": [],
+  "original_tags": "灵巧手与遥操作数据采集",
+  "original_verification_wording": "大会官方页已核验。",
+  "original_review_wording": "检索/读取日期：2026-09-05。核验口径：已读取官方网页；参数属发布方声明。"
+}

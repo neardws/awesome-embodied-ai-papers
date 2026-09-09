@@ -1,0 +1,31 @@
+{
+  "id": "E294",
+  "supplier_as_published": "深圳市格瑞普电池有限公司",
+  "source_category": "08-06",
+  "source_url": "https://www.worldrobotconference.com/expo/company/566.html",
+  "original_source_urls": [
+    "https://www.worldrobotconference.com/expo/company/566.html",
+    "https://www.worldrobotconference.com/expo/product/470.html",
+    "https://www.worldrobotconference.com/expo/product/471.html",
+    "https://www.worldrobotconference.com/expo/product/472.html"
+  ],
+  "source_checked_on": "2026-09-05",
+  "evidence": "official_page",
+  "technical": {
+    "zh-CN": "TATTU neo 具有通信反馈及多串并配置；智能版本另列加热与 MOSFET 保护，配套智能充电器。容量、倍率、连接器需按具体电池型号补充。",
+    "en": "TATTU neo supports communication feedback and multiple series/parallel configurations. Smart versions add heating and MOSFET protection, with smart chargers. Capacity, discharge rate and connectors require exact battery models."
+  },
+  "original_product_line": "TATTU neo 智能电池、简易智能电池与智能充电器",
+  "original_application_wording": "无人机、机器人、农业植保、测绘、医疗、工业与特种装备",
+  "original_issue_notes": [],
+  "item_ids": [
+    "item-deab8bac39ce",
+    "item-00b8ebeb85fe",
+    "item-80fa8c9f7add"
+  ],
+  "source_technical_sha256": "30cc1cd2b17655a461f44e3341dddca3de7a78932e332672393e78fb58a12a26",
+  "cross_source_categories": [],
+  "original_tags": "软包锂电池与智能充电",
+  "original_verification_wording": "大会官方页已核验。",
+  "original_review_wording": "检索/读取日期：2026-09-05。核验口径：已读取官方网页；参数属发布方声明。"
+}

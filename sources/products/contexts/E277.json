@@ -1,0 +1,27 @@
+{
+  "id": "E277",
+  "supplier_as_published": "浙江艾图具身智能科技有限公司",
+  "source_category": "02-04",
+  "source_url": "https://www.worldrobotconference.com/news/3579.html",
+  "original_source_urls": [
+    "https://www.worldrobotconference.com/news/3579.html",
+    "https://www.aitu-ai.com/products/robot"
+  ],
+  "source_checked_on": "2026-09-05",
+  "evidence": "official_page",
+  "technical": {
+    "zh-CN": "大会亮点页的艾图段落展示缝纫机器人与模板机协同，处理堆叠及零散柔性面料；未给针距、节拍和面料适配边界。",
+    "en": "The conference feature's 艾图 passage describes cooperation between sewing robots and template machines for stacked/loose fabrics. Stitch spacing, cycle time and fabric boundaries are absent."
+  },
+  "original_product_line": "缝纫人形机器人、AI 平缝机",
+  "original_application_wording": "服装柔性制造：面料分离、抓取、对位、自动缝制；适配小批量、多品类生产",
+  "original_issue_notes": [
+    "具体问题：来源为多企业合辑，仅采用艾图缝纫对应段落。"
+  ],
+  "item_ids": [],
+  "source_technical_sha256": "86cd1d9a17874b5b959b5b3453c652f24f8eee865444e0c7d4dd7e34edb3feee",
+  "cross_source_categories": [],
+  "original_tags": "服装柔性制造与 AI 缝纫机器人",
+  "original_verification_wording": "已核验（官网与大会官方页）。",
+  "original_review_wording": "检索/读取日期：2026-09-05。核验口径：已读取官方网页；参数属发布方声明。"
+}

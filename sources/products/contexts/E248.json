@@ -1,0 +1,33 @@
+{
+  "id": "E248",
+  "supplier_as_published": "安徽希磁科技股份有限公司",
+  "source_category": "07-06",
+  "source_url": "https://www.worldrobotconference.com/expo/company/561.html",
+  "original_source_urls": [
+    "https://www.worldrobotconference.com/expo/company/561.html",
+    "https://www.worldrobotconference.com/expo/product/402.html",
+    "https://www.worldrobotconference.com/expo/product/403.html",
+    "https://www.worldrobotconference.com/expo/product/404.html",
+    "https://www.worldrobotconference.com/expo/product/1066.html"
+  ],
+  "source_checked_on": "2026-09-05",
+  "evidence": "official_page",
+  "technical": {
+    "zh-CN": "产品分人形关节编码器套件、协作关节编码器套件和磁性线性位移编码器；未给分辨率、绝对精度或通讯协议。",
+    "en": "Products separate humanoid-joint encoder kits, collaborative-joint encoder kits and magnetic linear encoders. Resolution, absolute accuracy and communication protocols are not stated."
+  },
+  "original_product_line": "AMR/GMR/TMR 磁传感器晶圆，磁性角度/位移编码器、电流传感器，人形与协作机器人关节编码器套件",
+  "original_application_wording": "人形、协作和四足机器人关节位置检测及磁检测",
+  "original_issue_notes": [],
+  "item_ids": [
+    "item-ec789fdd6043",
+    "item-97be5820f47c",
+    "item-62bed1a49b4e",
+    "item-a2fc89fffd7c"
+  ],
+  "source_technical_sha256": "f5aa71ba88aa188e69696686450245529eadcd521def14e6a3e5c5197329a940",
+  "cross_source_categories": [],
+  "original_tags": "磁传感器与机器人编码器",
+  "original_verification_wording": "大会官方页已核验。",
+  "original_review_wording": "检索/读取日期：2026-09-05。核验口径：已读取官方网页；参数属发布方声明。"
+}

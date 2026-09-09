@@ -1,0 +1,29 @@
+{
+  "id": "E006",
+  "supplier_as_published": "苏州博特勒机器人有限公司",
+  "source_category": "01-02",
+  "source_url": "https://www.worldrobotconference.com/expo/company/818.html",
+  "original_source_urls": [
+    "https://www.worldrobotconference.com/expo/company/818.html",
+    "https://www.worldrobotconference.com/expo/product/931.html"
+  ],
+  "source_checked_on": "2026-09-05",
+  "evidence": "official_page",
+  "technical": {
+    "zh-CN": "轮式平台增加升降机构，针对不同高度的搬运、分拣；页面未公布升降行程、负载和重复定位精度。",
+    "en": "The wheeled platform adds a lift for transport and sorting at different heights. Lift stroke, payload and positioning repeatability are not published."
+  },
+  "original_product_line": "轮式升降人形机器人",
+  "original_application_wording": "工业/商业场景的搬运、分拣；汽车零部件工厂智能制造",
+  "original_issue_notes": [],
+  "item_ids": [
+    "item-bbac18fac13f"
+  ],
+  "source_technical_sha256": "1da9bca81a747ef9f43007e8acefc7052bc036aa481a5bc9b97fd30b2906ee2c",
+  "cross_source_categories": [
+    "04-01"
+  ],
+  "original_tags": "轮式升降人形机器人",
+  "original_verification_wording": "展会官方页已核对。",
+  "original_review_wording": "检索/读取日期：2026-09-05。核验口径：已读取官方网页；参数属发布方声明。"
+}

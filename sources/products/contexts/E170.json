@@ -1,0 +1,31 @@
+{
+  "id": "E170",
+  "supplier_as_published": "苏州智行腱机器人科技有限公司",
+  "source_category": "06-01",
+  "source_url": "https://www.worldrobotconference.com/expo/company/636.html",
+  "original_source_urls": [
+    "https://www.worldrobotconference.com/expo/company/636.html",
+    "https://www.worldrobotconference.com/expo/product/1312.html",
+    "https://www.worldrobotconference.com/expo/product/1313.html",
+    "https://www.worldrobotconference.com/expo/product/1314.html"
+  ],
+  "source_checked_on": "2026-09-05",
+  "evidence": "official_page",
+  "technical": {
+    "zh-CN": "直驱肌腱手标注 15+运动自由度；灵动眼列二自由度、UART/CAN；数据手套另提供动作映射和力反馈，三者应分产品比较。",
+    "en": "The direct-drive tendon hand reports 15+ motion degrees of freedom. 灵动眼 lists two degrees of freedom and UART/CAN. A separate data glove provides motion mapping and force feedback."
+  },
+  "original_product_line": "仿生直驱肌腱、灵巧手、灵动眼、仿真脸",
+  "original_application_wording": "人形机器人交互与操作",
+  "original_issue_notes": [],
+  "item_ids": [
+    "item-11d8e126874e",
+    "item-5ab27d84ec64",
+    "item-ea7cd81c7612"
+  ],
+  "source_technical_sha256": "5cdc05b00e34f4deaea4c7147fe724778bf1b08880390da50594e5b20a27707f",
+  "cross_source_categories": [],
+  "original_tags": "仿生肌腱/灵巧手",
+  "original_verification_wording": "展会官方页已核对。",
+  "original_review_wording": "检索/读取日期：2026-09-05。核验口径：已读取官方网页；参数属发布方声明。"
+}

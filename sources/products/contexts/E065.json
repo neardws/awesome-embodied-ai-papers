@@ -1,0 +1,36 @@
+{
+  "id": "E065",
+  "supplier_as_published": "浙江中坚科技股份有限公司",
+  "source_category": "01-01",
+  "source_url": "https://www.worldrobotconference.com/expo/company/505.html",
+  "original_source_urls": [
+    "https://www.worldrobotconference.com/expo/company/505.html",
+    "https://www.worldrobotconference.com/expo/product/1320.html",
+    "https://www.worldrobotconference.com/expo/product/1490.html",
+    "https://www.worldrobotconference.com/expo/product/1492.html"
+  ],
+  "source_checked_on": "2026-09-05",
+  "evidence": "official_page",
+  "technical": {
+    "zh-CN": "Zero 明确属于概念机；P1 是工业重载四足，关节模组另有产品线。页面没有进一步披露性能，不能把概念机计作已交付产品。",
+    "en": "Zero is explicitly a concept robot. P1 is an industrial heavy-load quadruped, with joints as another product line. No further performance is disclosed; Zero is not a delivered product."
+  },
+  "original_product_line": "Zero 人形机器人概念机、灵睿 P1 工业级重载机器狗、关节模组系列",
+  "original_application_wording": "具身智能整机与关节模组研发；具体落地场景待核实",
+  "original_issue_notes": [
+    "具体问题：Zero 为概念机，不作已交付产品。"
+  ],
+  "item_ids": [
+    "item-d7c9ee6ae682",
+    "item-dbebb3ad44a4",
+    "item-47951f603d15"
+  ],
+  "source_technical_sha256": "b7bcf814d606c24e125e387e5191cce734f960e88ffa9c1fff82ffd36846ced9",
+  "cross_source_categories": [
+    "01-03",
+    "06-03"
+  ],
+  "original_tags": "人形与重载四足机器人",
+  "original_verification_wording": "大会官方页已核验；具体应用待核实。",
+  "original_review_wording": "检索/读取日期：2026-09-05。核验口径：已读取官方网页；参数属发布方声明。"
+}

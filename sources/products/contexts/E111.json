@@ -1,0 +1,36 @@
+{
+  "id": "E111",
+  "supplier_as_published": "北京云迹科技股份有限公司",
+  "source_category": "03-02",
+  "source_url": "https://www.worldrobotconference.com/expo/company/453.html",
+  "original_source_urls": [
+    "https://www.worldrobotconference.com/expo/company/453.html",
+    "https://www.worldrobotconference.com/expo/product/1034.html",
+    "https://www.worldrobotconference.com/expo/product/1035.html",
+    "https://www.worldrobotconference.com/expo/product/1036.html",
+    "https://www.worldrobotconference.com/expo/product/1037.html",
+    "https://www.worldrobotconference.com/expo/product/1038.html"
+  ],
+  "source_checked_on": "2026-09-05",
+  "evidence": "official_page",
+  "technical": {
+    "zh-CN": "炒菜设备支持自动投料及菜单管理；咖啡产品标注双臂 80 秒出双杯；煮面设备分面档配套与独立一体机，按餐饮工序可再作产品区分。",
+    "en": "Cooking equipment supports automatic ingredient dispensing and menu management. The coffee product reports two cups in 80 seconds with dual arms. Noodle equipment separates counter modules from standalone systems."
+  },
+  "original_product_line": "炒菜、咖啡、煮面机器人，单臂协作机器人，“小马”与 UP 服务机器人",
+  "original_application_wording": "酒店与餐饮、养老、楼宇物流、商场与机场",
+  "original_issue_notes": [],
+  "item_ids": [
+    "item-ffc4c79c3f89",
+    "item-6cd6ee0527ca",
+    "item-4a4fa34acff3",
+    "item-dc090dc4ff9b",
+    "item-044734d18748",
+    "item-8d37b6e598ea"
+  ],
+  "source_technical_sha256": "582e0057b9adf0f2102a879e829eadc6470c822f66013adaf6f77e62b89b13b4",
+  "cross_source_categories": [],
+  "original_tags": "酒店餐饮与商用服务机器人",
+  "original_verification_wording": "大会官方页已核验。",
+  "original_review_wording": "检索/读取日期：2026-09-05。核验口径：已读取官方网页；参数属发布方声明。"
+}

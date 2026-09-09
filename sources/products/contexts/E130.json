@@ -1,0 +1,29 @@
+{
+  "id": "E130",
+  "supplier_as_published": "越甲灵动（深圳）科技有限公司",
+  "source_category": "01-03",
+  "source_url": "https://www.worldrobotconference.com/expo/company/798.html",
+  "original_source_urls": [
+    "https://www.worldrobotconference.com/expo/company/798.html",
+    "https://www.worldrobotconference.com/expo/product/811.html",
+    "https://www.worldrobotconference.com/expo/product/812.html"
+  ],
+  "source_checked_on": "2026-09-05",
+  "evidence": "official_page",
+  "technical": {
+    "zh-CN": "YJ30 系列分足式和轮足式；Max 系列明确区分静态 50–55kg、动态 30–35kg。续航、台阶高度等系列范围须对应具体配置。",
+    "en": "YJ30 separates legged and wheeled-legged versions. Max distinguishes 50–55kg static from 30–35kg dynamic load. Series ranges for endurance and step height need exact configurations."
+  },
+  "original_product_line": "YJ30 小型四足/轮足机器狗、YJ30 Max 大型四足/轮足机器狗",
+  "original_application_wording": "中小型工业、园区巡逻、应急救援、文旅展演；大型工业巡检、消防应急、公安安防",
+  "original_issue_notes": [],
+  "item_ids": [
+    "item-b2b861968861",
+    "item-749227ebc6fc"
+  ],
+  "source_technical_sha256": "d2ac284756cbad59c45be0154928beba67018c8c6894095cc3b2dbd014f69c43",
+  "cross_source_categories": [],
+  "original_tags": "四足/轮足巡检机器人",
+  "original_verification_wording": "官方页已核对。",
+  "original_review_wording": "检索/读取日期：2026-09-05。核验口径：已读取官方网页；参数属发布方声明。"
+}

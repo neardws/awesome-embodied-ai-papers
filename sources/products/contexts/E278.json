@@ -1,0 +1,27 @@
+{
+  "id": "E278",
+  "supplier_as_published": "中科开创（广州）智能科技发展有限公司",
+  "source_category": "04-05",
+  "source_url": "https://www.cspid.cn/gywm1",
+  "original_source_urls": [
+    "https://www.cspid.cn/gywm1",
+    "https://www.cspid.cn/newsinfo/11141555.html"
+  ],
+  "source_checked_on": "2026-09-05",
+  "evidence": "official_search_or_alternate",
+  "technical": {
+    "zh-CN": "官网将机器人、智慧感知和新能源列为三条产品线，介绍与海南电网共建无人系统实验室，并列 V2G 空中移动充电项目；项目与产品应分别建档。",
+    "en": "The site separates robotics, intelligent sensing and new energy, mentioning a joint unmanned-systems laboratory with Hainan Power Grid and a V2G aerial mobile-charging project. Keep projects separate from products."
+  },
+  "original_product_line": "多场景电力巡检机器人、V2G 空地一体移动充电机器人、“一脑多机”具身智能系统",
+  "original_application_wording": "变电站、隧道、电厂、储能等电力巡检；V2G 移动充电",
+  "original_issue_notes": [],
+  "item_ids": [],
+  "source_technical_sha256": "5f237143213f20c8ac3261180ed9273a6411b7904902c413a5a36e55b9075c15",
+  "cross_source_categories": [
+    "03-06"
+  ],
+  "original_tags": "电力智能巡检与具身智能运维系统",
+  "original_verification_wording": "已核验（官网）。",
+  "original_review_wording": "检索/读取日期：2026-09-05。核验口径：官方搜索正文补充（直连受限或改用替代页）。"
+}

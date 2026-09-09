@@ -20,42 +20,42 @@
 </thead>
 <tbody>
 <tr>
-<td width="240" nowrap><a id="02-01"></a>电机与直接驱动</td>
+<td width="240" nowrap><a id="02-01"></a>电机与直接驱动<br><a href="../products/topics/02-01.md">产品细节</a></td>
 <td width="300">提供可调的力矩与转速。</td>
 <td width="320">力矩密度、反驱性与驱控协同设计。</td>
 <td width="320">热设计、绕组制造与一致性。</td>
 <td width="340">持续与峰值力矩、效率曲线、温升。</td>
 </tr>
 <tr>
-<td width="240" nowrap><a id="02-02"></a>谐波、行星与摆线减速</td>
+<td width="240" nowrap><a id="02-02"></a>谐波、行星与摆线减速<br><a href="../products/topics/02-02.md">产品细节</a></td>
 <td width="300">在体积约束下放大力矩。</td>
 <td width="320">摩擦、回差补偿与传动柔性建模。</td>
 <td width="320">寿命、精度、冲击承载与批次差异。</td>
 <td width="340">减速比、回差、刚度与疲劳工况。</td>
 </tr>
 <tr>
-<td width="240" nowrap><a id="02-03"></a>丝杠与线性执行器</td>
+<td width="240" nowrap><a id="02-03"></a>丝杠与线性执行器<br><a href="../products/topics/02-03.md">产品细节</a></td>
 <td width="300">产生直线推力与精密位移。</td>
 <td width="320">非线性摩擦、载荷估计与结构优化。</td>
 <td width="320">润滑、密封、安装与轴向寿命。</td>
 <td width="340">额定推力、行程、速度与工作循环。</td>
 </tr>
 <tr>
-<td width="240" nowrap><a id="02-04"></a>一体化关节模组</td>
+<td width="240" nowrap><a id="02-04"></a>一体化关节模组<br><a href="../products/topics/02-04.md">产品细节</a></td>
 <td width="300">把电机、传动、驱动与传感封装为关节。</td>
 <td width="320">模块化本体与动力学辨识。</td>
 <td width="320">线束、散热、总线与更换效率。</td>
 <td width="340">关节接口、质量、持续输出与总线时延。</td>
 </tr>
 <tr>
-<td width="240" nowrap><a id="02-05"></a>伺服驱动与底层控制</td>
+<td width="240" nowrap><a id="02-05"></a>伺服驱动与底层控制<br><a href="../products/topics/02-05.md">产品细节</a></td>
 <td width="300">把电流、速度与位置指令稳定执行。</td>
 <td width="320">高带宽控制、扰动观测与力矩估计。</td>
 <td width="320">保护机制、实时性与参数整定。</td>
 <td width="340">控制周期、抖动、反馈分辨率。</td>
 </tr>
 <tr>
-<td width="240" nowrap><a id="02-06"></a>支承、制动与运动连接</td>
+<td width="240" nowrap><a id="02-06"></a>支承、制动与运动连接<br><a href="../products/topics/02-06.md">产品细节</a></td>
 <td width="300">保障关节承载、停机保持与运动供能。</td>
 <td width="320">接触磨损、失效预测与轻量结构。</td>
 <td width="320">轴承、制动器、拖链、线束与密封配套。</td>
@@ -63,6 +63,14 @@
 </tr>
 </tbody>
 </table>
+
+## 技术与产品细节
+
+<a href="../products/comparisons/02-actuation.md">查看 20 条相关对照记录</a>
+
+继续比较逐型号参数、工况、接口、研究关联和来源问题，并下钻查看完整技术摘录与原始展项链接。
+
+<a href="../products/references/06-03.md">一体化关节与执行模组</a> · <a href="../products/references/06-04.md">无框微型与直驱电机</a> · <a href="../products/references/06-05.md">伺服驱动与运动控制</a> · <a href="../products/references/06-06.md">谐波减速器</a> · <a href="../products/references/06-07.md">行星摆线与精密减速器</a> · <a href="../products/references/06-08.md">丝杠与线性执行器</a> · <a href="../products/references/06-09.md">轴承与精密支承</a> · <a href="../products/references/06-10.md">制动器与离合器</a> · <a href="../products/references/06-11.md">拖链电缆与线束</a> · <a href="../products/references/06-12.md">密封与关节防护</a>
 
 ## 研究、平台与产业代表
 

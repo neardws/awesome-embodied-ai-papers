@@ -1,0 +1,4405 @@
+[
+  {
+    "id": "detail-aa512b117bd9",
+    "source_id": "E002",
+    "model_as_reported": "M7",
+    "related_subcategories": [
+      "01-08"
+    ],
+    "facts": {
+      "structure": {
+        "zh-CN": "立柱式半身平台，固定工位",
+        "en": "Column-mounted upper-body platform for fixed workstations"
+      },
+      "dof": {
+        "zh-CN": "全身43；五指手12主动自由度",
+        "en": "43 total; 12 active degrees of freedom in the five-finger hand"
+      }
+    },
+    "research_relation": {
+      "kind": "related_route",
+      "note": {
+        "zh-CN": "相关研究路线；未据此认定论文使用本型号。",
+        "en": "Related research route; this does not establish that a paper used this model."
+      }
+    }
+  },
+  {
+    "id": "detail-9899b73441a5",
+    "source_id": "E002",
+    "model_as_reported": "L7",
+    "related_subcategories": [
+      "01-01",
+      "10-01"
+    ],
+    "facts": {
+      "function": {
+        "zh-CN": "全身遥操作及训练数据采集展示",
+        "en": "Demonstration of whole-body teleoperation and training-data capture"
+      }
+    },
+    "research_relation": {
+      "kind": "related_route",
+      "note": {
+        "zh-CN": "相关研究路线；未据此认定论文使用本型号。",
+        "en": "Related research route; this does not establish that a paper used this model."
+      }
+    }
+  },
+  {
+    "id": "detail-6b43140535c4",
+    "source_id": "E003",
+    "model_as_reported": "ROBOTO Origin",
+    "related_subcategories": [
+      "01-05"
+    ],
+    "facts": {
+      "structure": {
+        "zh-CN": "开放机械、电气、底层控制及仿真资料",
+        "en": "Mechanical, electrical, low-level control and simulation resources described as open"
+      },
+      "dof": {
+        "zh-CN": "23",
+        "en": "23"
+      },
+      "mass": {
+        "zh-CN": "约34kg",
+        "en": "About 34kg"
+      },
+      "interface": {
+        "zh-CN": "ROS 2、OTA",
+        "en": "ROS 2, OTA"
+      }
+    },
+    "research_relation": {
+      "kind": "related_route",
+      "note": {
+        "zh-CN": "相关研究路线；未据此认定论文使用本型号。",
+        "en": "Related research route; this does not establish that a paper used this model."
+      }
+    }
+  },
+  {
+    "id": "detail-1ff8c555c0c9",
+    "source_id": "E003",
+    "model_as_reported": "RP1",
+    "related_subcategories": [
+      "01-05"
+    ],
+    "facts": {
+      "energy": {
+        "zh-CN": "热插拔换电",
+        "en": "Hot-swappable battery replacement"
+      },
+      "structure": {
+        "zh-CN": "可选头部方案",
+        "en": "Optional head configurations"
+      }
+    },
+    "research_relation": {
+      "kind": "related_route",
+      "note": {
+        "zh-CN": "相关研究路线；未据此认定论文使用本型号。",
+        "en": "Related research route; this does not establish that a paper used this model."
+      }
+    }
+  },
+  {
+    "id": "detail-66018ddcbf55",
+    "source_id": "E008",
+    "model_as_reported": "锦宝",
+    "related_subcategories": [
+      "01-01",
+      "04-06"
+    ],
+    "facts": {
+      "structure": {
+        "zh-CN": "身高1.52m",
+        "en": "1.52m height"
+      },
+      "function": {
+        "zh-CN": "语音、动作、眼部表情交互",
+        "en": "Speech, motion and eye-expression interaction"
+      }
+    },
+    "research_relation": {
+      "kind": "related_route",
+      "note": {
+        "zh-CN": "相关研究路线；未据此认定论文使用本型号。",
+        "en": "Related research route; this does not establish that a paper used this model."
+      }
+    }
+  },
+  {
+    "id": "detail-4311cb1f48a4",
+    "source_id": "E008",
+    "model_as_reported": "贡嘎一号",
+    "related_subcategories": [
+      "01-01"
+    ],
+    "facts": {
+      "mass": {
+        "zh-CN": "25kg",
+        "en": "25kg"
+      },
+      "load": {
+        "zh-CN": "5.5kg；工况未列",
+        "en": "5.5kg; conditions unstated"
+      },
+      "energy": {
+        "zh-CN": "8小时；续航工况未列",
+        "en": "8 hours; endurance conditions unstated"
+      }
+    },
+    "research_relation": {
+      "kind": "related_route",
+      "note": {
+        "zh-CN": "相关研究路线；未据此认定论文使用本型号。",
+        "en": "Related research route; this does not establish that a paper used this model."
+      }
+    }
+  },
+  {
+    "id": "detail-d8047981e07c",
+    "source_id": "E010",
+    "model_as_reported": "X-Trainer",
+    "related_subcategories": [
+      "10-01",
+      "07-05"
+    ],
+    "facts": {
+      "function": {
+        "zh-CN": "遥操作数据与模仿学习；展示线束端子插拔",
+        "en": "Teleoperation data and imitation learning; cable-terminal insertion demonstration"
+      }
+    },
+    "research_relation": {
+      "kind": "related_route",
+      "note": {
+        "zh-CN": "相关研究路线；未据此认定论文使用本型号。",
+        "en": "Related research route; this does not establish that a paper used this model."
+      }
+    }
+  },
+  {
+    "id": "detail-379733c2ea60",
+    "source_id": "E011",
+    "model_as_reported": "PM01",
+    "related_subcategories": [
+      "01-01"
+    ],
+    "facts": {
+      "dof": {
+        "zh-CN": "24",
+        "en": "24"
+      },
+      "mass": {
+        "zh-CN": "约40kg",
+        "en": "About 40kg"
+      }
+    },
+    "research_relation": {
+      "kind": "related_route",
+      "note": {
+        "zh-CN": "相关研究路线；未据此认定论文使用本型号。",
+        "en": "Related research route; this does not establish that a paper used this model."
+      }
+    }
+  },
+  {
+    "id": "detail-3b8bf35c1b62",
+    "source_id": "E011",
+    "model_as_reported": "SA01",
+    "related_subcategories": [
+      "01-05"
+    ],
+    "facts": {
+      "dof": {
+        "zh-CN": "12",
+        "en": "12"
+      },
+      "sensing": {
+        "zh-CN": "惯性测量单元",
+        "en": "IMU"
+      },
+      "energy": {
+        "zh-CN": "15Ah电池",
+        "en": "15Ah battery"
+      }
+    },
+    "research_relation": {
+      "kind": "related_route",
+      "note": {
+        "zh-CN": "相关研究路线；未据此认定论文使用本型号。",
+        "en": "Related research route; this does not establish that a paper used this model."
+      }
+    }
+  },
+  {
+    "id": "detail-8b58a7c5e296",
+    "source_id": "E016",
+    "model_as_reported": "小楚",
+    "related_subcategories": [
+      "01-05"
+    ],
+    "facts": {
+      "structure": {
+        "zh-CN": "约85cm；可选夹爪",
+        "en": "About 85cm; optional gripper"
+      },
+      "dof": {
+        "zh-CN": "12",
+        "en": "12"
+      },
+      "mass": {
+        "zh-CN": "28kg",
+        "en": "28kg"
+      },
+      "sensing": {
+        "zh-CN": "双目深度相机",
+        "en": "Stereo depth camera"
+      }
+    },
+    "research_relation": {
+      "kind": "related_route",
+      "note": {
+        "zh-CN": "相关研究路线；未据此认定论文使用本型号。",
+        "en": "Related research route; this does not establish that a paper used this model."
+      }
+    }
+  },
+  {
+    "id": "detail-f2ec778c9b5f",
+    "source_id": "E016",
+    "model_as_reported": "黑豹",
+    "related_subcategories": [
+      "01-03"
+    ],
+    "facts": {
+      "load": {
+        "zh-CN": "静态峰值200kg；作业承载80kg；不能合并为额定负载",
+        "en": "200kg static peak; 80kg working load; not one rated payload"
+      }
+    },
+    "research_relation": {
+      "kind": "related_route",
+      "note": {
+        "zh-CN": "相关研究路线；未据此认定论文使用本型号。",
+        "en": "Related research route; this does not establish that a paper used this model."
+      }
+    }
+  },
+  {
+    "id": "detail-00980406ea1c",
+    "source_id": "E021",
+    "model_as_reported": "途途",
+    "related_subcategories": [
+      "01-02"
+    ],
+    "facts": {
+      "sensing": {
+        "zh-CN": "96线雷达",
+        "en": "96-line LiDAR"
+      },
+      "compute": {
+        "zh-CN": "Orin 250+TOPS；非任务实测速度",
+        "en": "Orin 250+TOPS; not measured task speed"
+      },
+      "load": {
+        "zh-CN": "静态60kg；非行走负载",
+        "en": "60kg static; not walking payload"
+      },
+      "energy": {
+        "zh-CN": "连续作业4小时",
+        "en": "4 hours of continuous work"
+      }
+    },
+    "research_relation": {
+      "kind": "related_route",
+      "note": {
+        "zh-CN": "相关研究路线；未据此认定论文使用本型号。",
+        "en": "Related research route; this does not establish that a paper used this model."
+      }
+    }
+  },
+  {
+    "id": "detail-c6ce5d674709",
+    "source_id": "E025",
+    "model_as_reported": "Panther",
+    "related_subcategories": [
+      "01-02"
+    ],
+    "facts": {
+      "structure": {
+        "zh-CN": "上身升降80cm，可触地；横移及原地旋转",
+        "en": "80cm upper-body lift, ground reach, lateral movement and in-place rotation"
+      },
+      "power": {
+        "zh-CN": "48V平台",
+        "en": "48V platform"
+      }
+    },
+    "research_relation": {
+      "kind": "related_route",
+      "note": {
+        "zh-CN": "相关研究路线；未据此认定论文使用本型号。",
+        "en": "Related research route; this does not establish that a paper used this model."
+      }
+    }
+  },
+  {
+    "id": "detail-31230d204637",
+    "source_id": "E026",
+    "model_as_reported": "R1 Pro",
+    "related_subcategories": [
+      "01-02"
+    ],
+    "facts": {
+      "structure": {
+        "zh-CN": "身高170cm",
+        "en": "170cm height"
+      },
+      "dof": {
+        "zh-CN": "26",
+        "en": "26"
+      }
+    },
+    "research_relation": {
+      "kind": "related_route",
+      "note": {
+        "zh-CN": "相关研究路线；未据此认定论文使用本型号。",
+        "en": "Related research route; this does not establish that a paper used this model."
+      }
+    }
+  },
+  {
+    "id": "detail-4725d3b5b24d",
+    "source_id": "E027",
+    "model_as_reported": "优采",
+    "related_subcategories": [
+      "10-04",
+      "04-05"
+    ],
+    "facts": {
+      "function": {
+        "zh-CN": "触觉与多模态同步采集",
+        "en": "Tactile and multimodal synchronized capture"
+      }
+    },
+    "research_relation": {
+      "kind": "related_route",
+      "note": {
+        "zh-CN": "相关研究路线；未据此认定论文使用本型号。",
+        "en": "Related research route; this does not establish that a paper used this model."
+      }
+    }
+  },
+  {
+    "id": "detail-84eab6d2ded7",
+    "source_id": "E027",
+    "model_as_reported": "束巧",
+    "related_subcategories": [
+      "03-03"
+    ],
+    "facts": {
+      "structure": {
+        "zh-CN": "可调手指构型，切换左右手",
+        "en": "Adjustable finger configuration for left/right switching"
+      }
+    },
+    "research_relation": {
+      "kind": "related_route",
+      "note": {
+        "zh-CN": "相关研究路线；未据此认定论文使用本型号。",
+        "en": "Related research route; this does not establish that a paper used this model."
+      }
+    }
+  },
+  {
+    "id": "detail-2a5358fe8cb0",
+    "source_id": "E027",
+    "model_as_reported": "撼岳",
+    "related_subcategories": [
+      "01-02"
+    ],
+    "facts": {
+      "load": {
+        "zh-CN": "双臂承重30kg；姿态与精度测试条件待补",
+        "en": "30kg dual-arm load; posture and precision-test conditions missing"
+      }
+    },
+    "research_relation": {
+      "kind": "related_route",
+      "note": {
+        "zh-CN": "相关研究路线；未据此认定论文使用本型号。",
+        "en": "Related research route; this does not establish that a paper used this model."
+      }
+    }
+  },
+  {
+    "id": "detail-88da4a401a2b",
+    "source_id": "E030",
+    "model_as_reported": "天巡 V1.1",
+    "related_subcategories": [
+      "14-05"
+    ],
+    "facts": {
+      "protection": {
+        "zh-CN": "IP66",
+        "en": "IP66"
+      },
+      "performance": {
+        "zh-CN": "45°爬坡；40cm越障",
+        "en": "45° climbing; 40cm obstacle crossing"
+      },
+      "sensing": {
+        "zh-CN": "可扩展热成像与气体传感器",
+        "en": "Optional thermal imaging and gas sensors"
+      }
+    },
+    "research_relation": {
+      "kind": "related_route",
+      "note": {
+        "zh-CN": "相关研究路线；未据此认定论文使用本型号。",
+        "en": "Related research route; this does not establish that a paper used this model."
+      }
+    }
+  },
+  {
+    "id": "detail-4e9ab52a0d9a",
+    "source_id": "E033",
+    "model_as_reported": "S10",
+    "related_subcategories": [
+      "01-03"
+    ],
+    "facts": {
+      "mass": {
+        "zh-CN": "不超过20kg",
+        "en": "No more than 20kg"
+      },
+      "dof": {
+        "zh-CN": "16个关节",
+        "en": "16 joints"
+      },
+      "protection": {
+        "zh-CN": "IP66",
+        "en": "IP66"
+      }
+    },
+    "research_relation": {
+      "kind": "related_route",
+      "note": {
+        "zh-CN": "相关研究路线；未据此认定论文使用本型号。",
+        "en": "Related research route; this does not establish that a paper used this model."
+      }
+    }
+  },
+  {
+    "id": "detail-33af03248331",
+    "source_id": "E033",
+    "model_as_reported": "M20S",
+    "related_subcategories": [
+      "01-03"
+    ],
+    "facts": {
+      "energy": {
+        "zh-CN": "双电池热插拔",
+        "en": "Hot-swappable dual batteries"
+      }
+    },
+    "research_relation": {
+      "kind": "related_route",
+      "note": {
+        "zh-CN": "相关研究路线；未据此认定论文使用本型号。",
+        "en": "Related research route; this does not establish that a paper used this model."
+      }
+    }
+  },
+  {
+    "id": "detail-9693d29b2617",
+    "source_id": "E033",
+    "model_as_reported": "DR02",
+    "related_subcategories": [
+      "01-01"
+    ],
+    "facts": {
+      "protection": {
+        "zh-CN": "IP66；-20℃至55℃",
+        "en": "IP66; -20℃ to 55℃"
+      }
+    },
+    "research_relation": {
+      "kind": "related_route",
+      "note": {
+        "zh-CN": "相关研究路线；未据此认定论文使用本型号。",
+        "en": "Related research route; this does not establish that a paper used this model."
+      }
+    }
+  },
+  {
+    "id": "detail-32ac4de63130",
+    "source_id": "E035",
+    "model_as_reported": "Maker H01",
+    "related_subcategories": [
+      "01-01"
+    ],
+    "facts": {
+      "function": {
+        "zh-CN": "作为实体载体；不与同源模型混作一个产品",
+        "en": "Physical carrier; distinct from the same source's models"
+      }
+    },
+    "research_relation": {
+      "kind": "related_route",
+      "note": {
+        "zh-CN": "相关研究路线；未据此认定论文使用本型号。",
+        "en": "Related research route; this does not establish that a paper used this model."
+      }
+    }
+  },
+  {
+    "id": "detail-1b51517488ba",
+    "source_id": "E035",
+    "model_as_reported": "GigaBrain-0",
+    "related_subcategories": [
+      "08-01"
+    ],
+    "facts": {
+      "function": {
+        "zh-CN": "具身基础模型",
+        "en": "Embodied foundation model"
+      }
+    },
+    "research_relation": {
+      "kind": "related_route",
+      "note": {
+        "zh-CN": "相关研究路线；未据此认定论文使用本型号。",
+        "en": "Related research route; this does not establish that a paper used this model."
+      }
+    }
+  },
+  {
+    "id": "detail-58ab6c7c1fae",
+    "source_id": "E035",
+    "model_as_reported": "GigaWorld-1",
+    "related_subcategories": [
+      "08-02",
+      "11-03"
+    ],
+    "facts": {
+      "function": {
+        "zh-CN": "实时多视角仿真交互",
+        "en": "Real-time multi-view simulated interaction"
+      }
+    },
+    "research_relation": {
+      "kind": "related_route",
+      "note": {
+        "zh-CN": "相关研究路线；未据此认定论文使用本型号。",
+        "en": "Related research route; this does not establish that a paper used this model."
+      }
+    }
+  },
+  {
+    "id": "detail-adfda82315a4",
+    "source_id": "E039",
+    "model_as_reported": "Walker S2",
+    "related_subcategories": [
+      "01-01",
+      "05-06"
+    ],
+    "facts": {
+      "energy": {
+        "zh-CN": "自主热插拔换电约3分钟",
+        "en": "Autonomous hot-swappable battery replacement in about 3 minutes"
+      },
+      "limits": {
+        "zh-CN": "连续生产仍需具体工况证据",
+        "en": "Continuous production still requires operating-condition evidence"
+      }
+    },
+    "research_relation": {
+      "kind": "related_route",
+      "note": {
+        "zh-CN": "相关研究路线；未据此认定论文使用本型号。",
+        "en": "Related research route; this does not establish that a paper used this model."
+      }
+    }
+  },
+  {
+    "id": "detail-4e9688704478",
+    "source_id": "E040",
+    "model_as_reported": "G1",
+    "related_subcategories": [
+      "01-01"
+    ],
+    "facts": {
+      "dof": {
+        "zh-CN": "23–43个关节电机，取决于配置",
+        "en": "23–43 joint motors, configuration-dependent"
+      }
+    },
+    "research_relation": {
+      "kind": "related_route",
+      "note": {
+        "zh-CN": "相关研究路线；未据此认定论文使用本型号。",
+        "en": "Related research route; this does not establish that a paper used this model."
+      }
+    }
+  },
+  {
+    "id": "detail-42cdc3aef86d",
+    "source_id": "E040",
+    "model_as_reported": "B2",
+    "related_subcategories": [
+      "01-03"
+    ],
+    "facts": {
+      "load": {
+        "zh-CN": "持续行走负载超过40kg",
+        "en": "Sustained walking load over 40kg"
+      },
+      "energy": {
+        "zh-CN": "20kg负载下续航超过4小时",
+        "en": "Over 4-hour endurance with 20kg load"
+      }
+    },
+    "research_relation": {
+      "kind": "related_route",
+      "note": {
+        "zh-CN": "相关研究路线；未据此认定论文使用本型号。",
+        "en": "Related research route; this does not establish that a paper used this model."
+      }
+    }
+  },
+  {
+    "id": "detail-18776fd3ec25",
+    "source_id": "E043",
+    "model_as_reported": "Luna",
+    "related_subcategories": [
+      "01-01"
+    ],
+    "facts": {
+      "structure": {
+        "zh-CN": "160cm",
+        "en": "160cm"
+      },
+      "dof": {
+        "zh-CN": "27",
+        "en": "27"
+      },
+      "energy": {
+        "zh-CN": "约4小时电池续航",
+        "en": "About 4-hour battery endurance"
+      }
+    },
+    "research_relation": {
+      "kind": "related_route",
+      "note": {
+        "zh-CN": "相关研究路线；未据此认定论文使用本型号。",
+        "en": "Related research route; this does not establish that a paper used this model."
+      }
+    }
+  },
+  {
+    "id": "detail-2311770ab2a5",
+    "source_id": "E043",
+    "model_as_reported": "Oli",
+    "related_subcategories": [
+      "01-02"
+    ],
+    "facts": {
+      "dof": {
+        "zh-CN": "机身31，不含末端",
+        "en": "31 body degrees of freedom, excluding end effectors"
+      },
+      "structure": {
+        "zh-CN": "Lite、EDU、Super配置",
+        "en": "Lite, EDU and Super configurations"
+      }
+    },
+    "research_relation": {
+      "kind": "related_route",
+      "note": {
+        "zh-CN": "相关研究路线；未据此认定论文使用本型号。",
+        "en": "Related research route; this does not establish that a paper used this model."
+      }
+    }
+  },
+  {
+    "id": "detail-14aed9ee9f2d",
+    "source_id": "E044",
+    "model_as_reported": "G1（银河通用）",
+    "related_subcategories": [
+      "01-02"
+    ],
+    "facts": {
+      "structure": {
+        "zh-CN": "可折叠腿与全向轮底盘；0–2.4m作业空间",
+        "en": "Folding legs and omnidirectional base; 0–2.4m workspace"
+      },
+      "limits": {
+        "zh-CN": "抓取成功率无公开测试集和工况",
+        "en": "Grasp-success claim lacks public test set and conditions"
+      }
+    },
+    "research_relation": {
+      "kind": "related_route",
+      "note": {
+        "zh-CN": "相关研究路线；未据此认定论文使用本型号。",
+        "en": "Related research route; this does not establish that a paper used this model."
+      }
+    }
+  },
+  {
+    "id": "detail-58daef2154d7",
+    "source_id": "E045",
+    "model_as_reported": "W1 Pro",
+    "related_subcategories": [
+      "01-02",
+      "08-01"
+    ],
+    "facts": {
+      "sensing": {
+        "zh-CN": "双目纯视觉",
+        "en": "Stereo-only vision"
+      },
+      "function": {
+        "zh-CN": "仿真到现实VLA；咖啡、划火柴、拧螺丝展示",
+        "en": "Sim-to-real VLA; coffee, match-striking and screw-driving demonstrations"
+      }
+    },
+    "research_relation": {
+      "kind": "related_route",
+      "note": {
+        "zh-CN": "相关研究路线；未据此认定论文使用本型号。",
+        "en": "Related research route; this does not establish that a paper used this model."
+      }
+    }
+  },
+  {
+    "id": "detail-c3bf0bfa5453",
+    "source_id": "E049",
+    "model_as_reported": "MOS2",
+    "related_subcategories": [
+      "01-02"
+    ],
+    "facts": {
+      "load": {
+        "zh-CN": "双臂标称30kg、最大50kg；工况未列",
+        "en": "30kg nominal and 50kg maximum dual-arm load; conditions unstated"
+      },
+      "compute": {
+        "zh-CN": "275TOPS；精度口径未列",
+        "en": "275TOPS; numerical precision unstated"
+      },
+      "energy": {
+        "zh-CN": "热插拔电池",
+        "en": "Hot-swappable battery"
+      },
+      "interface": {
+        "zh-CN": "软件开发工具包",
+        "en": "SDK"
+      }
+    },
+    "research_relation": {
+      "kind": "related_route",
+      "note": {
+        "zh-CN": "相关研究路线；未据此认定论文使用本型号。",
+        "en": "Related research route; this does not establish that a paper used this model."
+      }
+    }
+  },
+  {
+    "id": "detail-13982ed99928",
+    "source_id": "E052",
+    "model_as_reported": "8523-R17",
+    "related_subcategories": [
+      "02-04"
+    ],
+    "facts": {
+      "mass": {
+        "zh-CN": "1.5kg",
+        "en": "1.5kg"
+      },
+      "output": {
+        "zh-CN": "额定43.5Nm；峰值148Nm",
+        "en": "43.5Nm rated; 148Nm peak"
+      }
+    },
+    "research_relation": {
+      "kind": "related_route",
+      "note": {
+        "zh-CN": "相关研究路线；未据此认定论文使用本型号。",
+        "en": "Related research route; this does not establish that a paper used this model."
+      }
+    }
+  },
+  {
+    "id": "detail-dbd27a8bfe1b",
+    "source_id": "E053",
+    "model_as_reported": "钢镚 L2",
+    "related_subcategories": [
+      "01-03"
+    ],
+    "facts": {
+      "load": {
+        "zh-CN": "持续16kg；静态最大150kg",
+        "en": "16kg sustained; 150kg maximum static"
+      }
+    },
+    "research_relation": {
+      "kind": "related_route",
+      "note": {
+        "zh-CN": "相关研究路线；未据此认定论文使用本型号。",
+        "en": "Related research route; this does not establish that a paper used this model."
+      }
+    }
+  },
+  {
+    "id": "detail-59b657c2001d",
+    "source_id": "E058",
+    "model_as_reported": "Hu-MLS",
+    "related_subcategories": [
+      "02-03"
+    ],
+    "facts": {
+      "structure": {
+        "zh-CN": "反向行星滚柱丝杠",
+        "en": "Inverted planetary roller screw"
+      }
+    },
+    "research_relation": {
+      "kind": "related_route",
+      "note": {
+        "zh-CN": "相关研究路线；未据此认定论文使用本型号。",
+        "en": "Related research route; this does not establish that a paper used this model."
+      }
+    }
+  },
+  {
+    "id": "detail-b31529a8ad44",
+    "source_id": "E058",
+    "model_as_reported": "Hu-MRS",
+    "related_subcategories": [
+      "02-04"
+    ],
+    "facts": {
+      "limits": {
+        "zh-CN": "标题称谐波、正文写中空行星；结构冲突，不能判定",
+        "en": "Title says strain-wave, body says hollow planetary; mechanism unresolved"
+      }
+    },
+    "research_relation": {
+      "kind": "related_route",
+      "note": {
+        "zh-CN": "相关研究路线；未据此认定论文使用本型号。",
+        "en": "Related research route; this does not establish that a paper used this model."
+      }
+    }
+  },
+  {
+    "id": "detail-967b951cc675",
+    "source_id": "E066",
+    "model_as_reported": "L2",
+    "related_subcategories": [
+      "01-02"
+    ],
+    "facts": {
+      "structure": {
+        "zh-CN": "升降行程0.3m，工作高度至2.1m",
+        "en": "0.3m lift stroke; working height up to 2.1m"
+      },
+      "load": {
+        "zh-CN": "升降中单臂5kg",
+        "en": "5kg per arm during lifting"
+      }
+    },
+    "research_relation": {
+      "kind": "related_route",
+      "note": {
+        "zh-CN": "相关研究路线；未据此认定论文使用本型号。",
+        "en": "Related research route; this does not establish that a paper used this model."
+      }
+    }
+  },
+  {
+    "id": "detail-b427feab23fd",
+    "source_id": "E068",
+    "model_as_reported": "K3W",
+    "related_subcategories": [
+      "01-02"
+    ],
+    "facts": {
+      "dof": {
+        "zh-CN": "43",
+        "en": "43"
+      },
+      "mass": {
+        "zh-CN": "120kg",
+        "en": "120kg"
+      },
+      "load": {
+        "zh-CN": "双臂30kg",
+        "en": "30kg dual-arm load"
+      }
+    },
+    "research_relation": {
+      "kind": "related_route",
+      "note": {
+        "zh-CN": "相关研究路线；未据此认定论文使用本型号。",
+        "en": "Related research route; this does not establish that a paper used this model."
+      }
+    }
+  },
+  {
+    "id": "detail-ca476126502f",
+    "source_id": "E070",
+    "model_as_reported": "PhyArc",
+    "related_subcategories": [
+      "02-04"
+    ],
+    "facts": {
+      "structure": {
+        "zh-CN": "摆线减速器、力矩电机、驱动、双编码器集成",
+        "en": "Integrated cycloidal reducer, torque motor, drive and dual encoders"
+      }
+    },
+    "research_relation": {
+      "kind": "related_route",
+      "note": {
+        "zh-CN": "相关研究路线；未据此认定论文使用本型号。",
+        "en": "Related research route; this does not establish that a paper used this model."
+      }
+    }
+  },
+  {
+    "id": "detail-b4bc22a368c0",
+    "source_id": "E072",
+    "model_as_reported": "ViHero",
+    "related_subcategories": [
+      "03-03"
+    ],
+    "facts": {
+      "dof": {
+        "zh-CN": "16个独立活动关节",
+        "en": "16 independently moving joints"
+      },
+      "interface": {
+        "zh-CN": "电流反馈力控",
+        "en": "Current-feedback force control"
+      }
+    },
+    "research_relation": {
+      "kind": "related_route",
+      "note": {
+        "zh-CN": "相关研究路线；未据此认定论文使用本型号。",
+        "en": "Related research route; this does not establish that a paper used this model."
+      }
+    }
+  },
+  {
+    "id": "detail-cf6f7dd0c931",
+    "source_id": "E077",
+    "model_as_reported": "X7",
+    "related_subcategories": [
+      "01-02"
+    ],
+    "facts": {
+      "interface": {
+        "zh-CN": "HTTP、WebSocket",
+        "en": "HTTP, WebSocket"
+      },
+      "energy": {
+        "zh-CN": "40kg负载下续航超过5小时",
+        "en": "Over 5-hour endurance with 40kg load"
+      }
+    },
+    "research_relation": {
+      "kind": "related_route",
+      "note": {
+        "zh-CN": "相关研究路线；未据此认定论文使用本型号。",
+        "en": "Related research route; this does not establish that a paper used this model."
+      }
+    }
+  },
+  {
+    "id": "detail-2996cdb70999",
+    "source_id": "E080",
+    "model_as_reported": "HA7R-5S",
+    "related_subcategories": [
+      "01-04"
+    ],
+    "facts": {
+      "dof": {
+        "zh-CN": "7",
+        "en": "7"
+      },
+      "structure": {
+        "zh-CN": "臂展860mm",
+        "en": "860mm reach"
+      },
+      "load": {
+        "zh-CN": "5kg",
+        "en": "5kg"
+      },
+      "precision": {
+        "zh-CN": "重复定位±0.1mm",
+        "en": "±0.1mm repeatability"
+      }
+    },
+    "research_relation": {
+      "kind": "related_route",
+      "note": {
+        "zh-CN": "相关研究路线；未据此认定论文使用本型号。",
+        "en": "Related research route; this does not establish that a paper used this model."
+      }
+    }
+  },
+  {
+    "id": "detail-7929c9f49e4f",
+    "source_id": "E082",
+    "model_as_reported": "myCobot Pro 450",
+    "related_subcategories": [
+      "01-04"
+    ],
+    "facts": {
+      "structure": {
+        "zh-CN": "工作半径450mm",
+        "en": "450mm working radius"
+      },
+      "load": {
+        "zh-CN": "有效负载超过1kg",
+        "en": "Effective payload over 1kg"
+      },
+      "interface": {
+        "zh-CN": "拖拽编程",
+        "en": "Drag teaching"
+      }
+    },
+    "research_relation": {
+      "kind": "related_route",
+      "note": {
+        "zh-CN": "相关研究路线；未据此认定论文使用本型号。",
+        "en": "Related research route; this does not establish that a paper used this model."
+      }
+    }
+  },
+  {
+    "id": "detail-9fb406edca53",
+    "source_id": "E089",
+    "model_as_reported": "DT10-MT",
+    "related_subcategories": [
+      "14-05"
+    ],
+    "facts": {
+      "function": {
+        "zh-CN": "磁粉无损检测与缺陷标记",
+        "en": "Magnetic-particle nondestructive inspection and defect marking"
+      }
+    },
+    "research_relation": {
+      "kind": "related_route",
+      "note": {
+        "zh-CN": "相关研究路线；未据此认定论文使用本型号。",
+        "en": "Related research route; this does not establish that a paper used this model."
+      }
+    }
+  },
+  {
+    "id": "detail-534eaa75e1c3",
+    "source_id": "E096",
+    "model_as_reported": "RIG-Hover",
+    "related_subcategories": [
+      "05-03"
+    ],
+    "facts": {
+      "compute": {
+        "zh-CN": "ESP32-S3",
+        "en": "ESP32-S3"
+      },
+      "structure": {
+        "zh-CN": "FOC轮毂电机",
+        "en": "FOC wheel motors"
+      },
+      "interface": {
+        "zh-CN": "RIG-Omni固件",
+        "en": "RIG-Omni firmware"
+      }
+    },
+    "research_relation": {
+      "kind": "related_route",
+      "note": {
+        "zh-CN": "相关研究路线；未据此认定论文使用本型号。",
+        "en": "Related research route; this does not establish that a paper used this model."
+      }
+    }
+  },
+  {
+    "id": "detail-b6319bc14d5a",
+    "source_id": "E097",
+    "model_as_reported": "NAO Mini",
+    "related_subcategories": [
+      "01-05"
+    ],
+    "facts": {
+      "structure": {
+        "zh-CN": "约40cm",
+        "en": "About 40cm"
+      },
+      "mass": {
+        "zh-CN": "1.6kg",
+        "en": "1.6kg"
+      },
+      "dof": {
+        "zh-CN": "18",
+        "en": "18"
+      },
+      "sensing": {
+        "zh-CN": "摄像头、麦克风阵列、红外测距",
+        "en": "Camera, microphone array and infrared ranging"
+      }
+    },
+    "research_relation": {
+      "kind": "related_route",
+      "note": {
+        "zh-CN": "相关研究路线；未据此认定论文使用本型号。",
+        "en": "Related research route; this does not establish that a paper used this model."
+      }
+    }
+  },
+  {
+    "id": "detail-3cb455d91999",
+    "source_id": "E103",
+    "model_as_reported": "Zima Pro",
+    "related_subcategories": [
+      "14-04"
+    ],
+    "facts": {
+      "function": {
+        "zh-CN": "超声导航；OTA",
+        "en": "Ultrasonic navigation; OTA"
+      },
+      "energy": {
+        "zh-CN": "最长3.5小时；泳池条件待确认",
+        "en": "Up to 3.5 hours; pool conditions need confirmation"
+      }
+    },
+    "research_relation": {
+      "kind": "related_route",
+      "note": {
+        "zh-CN": "相关研究路线；未据此认定论文使用本型号。",
+        "en": "Related research route; this does not establish that a paper used this model."
+      }
+    }
+  },
+  {
+    "id": "detail-f5d6e99406f4",
+    "source_id": "E103",
+    "model_as_reported": "Lite（Zima来源）",
+    "related_subcategories": [
+      "14-04"
+    ],
+    "facts": {
+      "energy": {
+        "zh-CN": "9300mAh；最长3小时，工况待确认",
+        "en": "9300mAh; up to 3 hours, conditions need confirmation"
+      },
+      "structure": {
+        "zh-CN": "6.5L过滤仓",
+        "en": "6.5L filter compartment"
+      }
+    },
+    "research_relation": {
+      "kind": "related_route",
+      "note": {
+        "zh-CN": "相关研究路线；未据此认定论文使用本型号。",
+        "en": "Related research route; this does not establish that a paper used this model."
+      }
+    }
+  },
+  {
+    "id": "detail-231e499c2a65",
+    "source_id": "E105",
+    "model_as_reported": "AI135",
+    "related_subcategories": [
+      "14-03"
+    ],
+    "facts": {
+      "energy": {
+        "zh-CN": "超过7小时",
+        "en": "Over 7 hours"
+      },
+      "function": {
+        "zh-CN": "室外巡扫；VLA与世界模型",
+        "en": "Outdoor cleaning; VLA and world model"
+      },
+      "limits": {
+        "zh-CN": "水箱/垃圾箱容量缺失；99%识别率无测试条件",
+        "en": "Tank/bin capacities missing; 99% recognition lacks test conditions"
+      }
+    },
+    "research_relation": {
+      "kind": "related_route",
+      "note": {
+        "zh-CN": "相关研究路线；未据此认定论文使用本型号。",
+        "en": "Related research route; this does not establish that a paper used this model."
+      }
+    }
+  },
+  {
+    "id": "detail-cba595fbc1f4",
+    "source_id": "E114",
+    "model_as_reported": "W3 妈妈款",
+    "related_subcategories": [
+      "01-06",
+      "14-06"
+    ],
+    "facts": {
+      "structure": {
+        "zh-CN": "适配身高145–165cm、腰围65–135cm",
+        "en": "User height 145–165cm; waist 65–135cm"
+      },
+      "output": {
+        "zh-CN": "双腿最高助力32N·m",
+        "en": "Up to 32N·m assistance across both legs"
+      }
+    },
+    "research_relation": {
+      "kind": "related_route",
+      "note": {
+        "zh-CN": "相关研究路线；未据此认定论文使用本型号。",
+        "en": "Related research route; this does not establish that a paper used this model."
+      }
+    }
+  },
+  {
+    "id": "detail-01ebc6fc417c",
+    "source_id": "E119",
+    "model_as_reported": "Revo 2",
+    "related_subcategories": [
+      "03-03",
+      "14-06"
+    ],
+    "facts": {
+      "mass": {
+        "zh-CN": "383g",
+        "en": "383g"
+      },
+      "structure": {
+        "zh-CN": "约16×7.6cm",
+        "en": "About 16×7.6cm"
+      },
+      "force": {
+        "zh-CN": "来源分列握力5KG、承载20KG；单位及姿态待核实",
+        "en": "Source lists 5KG grip and 20KG load separately; units and posture unresolved"
+      }
+    },
+    "research_relation": {
+      "kind": "related_route",
+      "note": {
+        "zh-CN": "相关研究路线；未据此认定论文使用本型号。",
+        "en": "Related research route; this does not establish that a paper used this model."
+      }
+    }
+  },
+  {
+    "id": "detail-e2ff589bba95",
+    "source_id": "E122",
+    "model_as_reported": "TC1",
+    "related_subcategories": [
+      "14-06"
+    ],
+    "facts": {
+      "performance": {
+        "zh-CN": "30°爬坡、210mm跨阶、座椅自平衡",
+        "en": "30° climbing, 210mm step crossing and self-leveling seat"
+      }
+    },
+    "research_relation": {
+      "kind": "related_route",
+      "note": {
+        "zh-CN": "相关研究路线；未据此认定论文使用本型号。",
+        "en": "Related research route; this does not establish that a paper used this model."
+      }
+    }
+  },
+  {
+    "id": "detail-2865d6f49cae",
+    "source_id": "E122",
+    "model_as_reported": "MA1 / MOR1（冲突）",
+    "related_subcategories": [
+      "14-06"
+    ],
+    "facts": {
+      "limits": {
+        "zh-CN": "标题为MA1、正文为MOR1；不合并为一个已确认型号",
+        "en": "Title MA1 conflicts with body MOR1; not one confirmed model"
+      }
+    },
+    "research_relation": {
+      "kind": "related_route",
+      "note": {
+        "zh-CN": "相关研究路线；未据此认定论文使用本型号。",
+        "en": "Related research route; this does not establish that a paper used this model."
+      }
+    }
+  },
+  {
+    "id": "detail-58d063fffaed",
+    "source_id": "E126",
+    "model_as_reported": "巡25-D",
+    "related_subcategories": [
+      "14-05"
+    ],
+    "facts": {
+      "performance": {
+        "zh-CN": "越障≥60cm；坡度60°",
+        "en": "Obstacle crossing ≥60cm; 60° slope"
+      },
+      "protection": {
+        "zh-CN": "IP67；-40℃至55℃；环境标准无测试报告",
+        "en": "IP67; -40℃ to 55℃; environmental claims lack test reports"
+      }
+    },
+    "research_relation": {
+      "kind": "related_route",
+      "note": {
+        "zh-CN": "相关研究路线；未据此认定论文使用本型号。",
+        "en": "Related research route; this does not establish that a paper used this model."
+      }
+    }
+  },
+  {
+    "id": "detail-b8268c844733",
+    "source_id": "E127",
+    "model_as_reported": "D50WS",
+    "related_subcategories": [
+      "01-03"
+    ],
+    "facts": {
+      "load": {
+        "zh-CN": "持续100kg；瞬时200kg",
+        "en": "100kg sustained; 200kg instantaneous"
+      },
+      "limits": {
+        "zh-CN": "续航是否对应所述载荷不明确",
+        "en": "Whether endurance applies at the reported load is unclear"
+      }
+    },
+    "research_relation": {
+      "kind": "related_route",
+      "note": {
+        "zh-CN": "相关研究路线；未据此认定论文使用本型号。",
+        "en": "Related research route; this does not establish that a paper used this model."
+      }
+    }
+  },
+  {
+    "id": "detail-35d65a55698c",
+    "source_id": "E134",
+    "model_as_reported": "X1-PRO",
+    "related_subcategories": [
+      "01-02"
+    ],
+    "facts": {
+      "structure": {
+        "zh-CN": "全向底盘；可45°弯腰",
+        "en": "Omnidirectional base; 45° waist bending"
+      }
+    },
+    "research_relation": {
+      "kind": "related_route",
+      "note": {
+        "zh-CN": "相关研究路线；未据此认定论文使用本型号。",
+        "en": "Related research route; this does not establish that a paper used this model."
+      }
+    }
+  },
+  {
+    "id": "detail-ab7f835a7d4a",
+    "source_id": "E137",
+    "model_as_reported": "刑天",
+    "related_subcategories": [
+      "01-07"
+    ],
+    "facts": {
+      "dof": {
+        "zh-CN": "六个M1502D直驱关节",
+        "en": "Six M1502D direct-drive joints"
+      },
+      "interface": {
+        "zh-CN": "软件开发工具包",
+        "en": "SDK"
+      }
+    },
+    "research_relation": {
+      "kind": "related_route",
+      "note": {
+        "zh-CN": "相关研究路线；未据此认定论文使用本型号。",
+        "en": "Related research route; this does not establish that a paper used this model."
+      }
+    }
+  },
+  {
+    "id": "detail-013c67680780",
+    "source_id": "E142",
+    "model_as_reported": "ESCON2",
+    "related_subcategories": [
+      "02-05"
+    ],
+    "facts": {
+      "structure": {
+        "zh-CN": "四象限PWM伺服；有刷/无刷电机",
+        "en": "Four-quadrant PWM servo for brushed/brushless motors"
+      },
+      "power": {
+        "zh-CN": "系列连续功率最高1800W",
+        "en": "Series continuous power up to 1800W"
+      },
+      "interface": {
+        "zh-CN": "Motion Studio调试",
+        "en": "Motion Studio commissioning"
+      }
+    },
+    "research_relation": {
+      "kind": "related_route",
+      "note": {
+        "zh-CN": "相关研究路线；未据此认定论文使用本型号。",
+        "en": "Related research route; this does not establish that a paper used this model."
+      }
+    }
+  },
+  {
+    "id": "detail-b59e407078d3",
+    "source_id": "E144",
+    "model_as_reported": "1218 SXR",
+    "related_subcategories": [
+      "02-01"
+    ],
+    "facts": {
+      "structure": {
+        "zh-CN": "六角绕组",
+        "en": "Hexagonal winding"
+      },
+      "power": {
+        "zh-CN": "3–18V",
+        "en": "3–18V"
+      }
+    },
+    "research_relation": {
+      "kind": "related_route",
+      "note": {
+        "zh-CN": "相关研究路线；未据此认定论文使用本型号。",
+        "en": "Related research route; this does not establish that a paper used this model."
+      }
+    }
+  },
+  {
+    "id": "detail-8e4e93a5923e",
+    "source_id": "E144",
+    "model_as_reported": "1228 SXR",
+    "related_subcategories": [
+      "02-01"
+    ],
+    "facts": {
+      "structure": {
+        "zh-CN": "六角绕组",
+        "en": "Hexagonal winding"
+      },
+      "power": {
+        "zh-CN": "3–18V",
+        "en": "3–18V"
+      }
+    },
+    "research_relation": {
+      "kind": "related_route",
+      "note": {
+        "zh-CN": "相关研究路线；未据此认定论文使用本型号。",
+        "en": "Related research route; this does not establish that a paper used this model."
+      }
+    }
+  },
+  {
+    "id": "detail-ad78163a0027",
+    "source_id": "E144",
+    "model_as_reported": "1627 + 16GPT",
+    "related_subcategories": [
+      "02-01",
+      "02-02"
+    ],
+    "facts": {
+      "structure": {
+        "zh-CN": "电机与减速箱组合",
+        "en": "Motor and gearbox combination"
+      },
+      "output": {
+        "zh-CN": "组合可达10Nm；不是裸电机转矩",
+        "en": "Combination reaches 10Nm; not bare-motor torque"
+      }
+    },
+    "research_relation": {
+      "kind": "related_route",
+      "note": {
+        "zh-CN": "相关研究路线；未据此认定论文使用本型号。",
+        "en": "Related research route; this does not establish that a paper used this model."
+      }
+    }
+  },
+  {
+    "id": "detail-1a8fe61baa7c",
+    "source_id": "E157",
+    "model_as_reported": "CRG",
+    "related_subcategories": [
+      "03-05"
+    ],
+    "facts": {
+      "structure": {
+        "zh-CN": "定位和锁紧式自动工具快换",
+        "en": "Automatic tool changing with positioning and locking"
+      },
+      "interface": {
+        "zh-CN": "可集成气、电与信号",
+        "en": "Optional air, power and signal paths"
+      },
+      "limits": {
+        "zh-CN": "重复性与安全锁紧等级未列",
+        "en": "Repeatability and locking safety grade absent"
+      }
+    },
+    "research_relation": {
+      "kind": "related_route",
+      "note": {
+        "zh-CN": "相关研究路线；未据此认定论文使用本型号。",
+        "en": "Related research route; this does not establish that a paper used this model."
+      }
+    }
+  },
+  {
+    "id": "detail-1d00328aa7ca",
+    "source_id": "E169",
+    "model_as_reported": "triflex R",
+    "related_subcategories": [
+      "02-06"
+    ],
+    "facts": {
+      "structure": {
+        "zh-CN": "TRE、TRC、TRL三维拖链",
+        "en": "TRE, TRC and TRL 3D cable carriers"
+      },
+      "performance": {
+        "zh-CN": "每链节约±10°旋转",
+        "en": "About ±10° rotation per link"
+      },
+      "interface": {
+        "zh-CN": "选型与布线配置工具",
+        "en": "Selection and routing tools"
+      }
+    },
+    "research_relation": {
+      "kind": "related_route",
+      "note": {
+        "zh-CN": "相关研究路线；未据此认定论文使用本型号。",
+        "en": "Related research route; this does not establish that a paper used this model."
+      }
+    }
+  },
+  {
+    "id": "detail-8f9d81bfaa54",
+    "source_id": "E171",
+    "model_as_reported": "HQ系列",
+    "related_subcategories": [
+      "04-04"
+    ],
+    "facts": {
+      "protection": {
+        "zh-CN": "IP67；5倍过载",
+        "en": "IP67; 5× overload"
+      },
+      "precision": {
+        "zh-CN": "准度0.3%F.S；仅适用于HQ页面",
+        "en": "0.3%F.S accuracy; HQ-page scope only"
+      },
+      "structure": {
+        "zh-CN": "内置低噪声放大器",
+        "en": "Built-in low-noise amplifier"
+      }
+    },
+    "research_relation": {
+      "kind": "related_route",
+      "note": {
+        "zh-CN": "相关研究路线；未据此认定论文使用本型号。",
+        "en": "Related research route; this does not establish that a paper used this model."
+      }
+    }
+  },
+  {
+    "id": "detail-5d3dfae6395a",
+    "source_id": "E172",
+    "model_as_reported": "SD100",
+    "related_subcategories": [
+      "02-05"
+    ],
+    "facts": {
+      "power": {
+        "zh-CN": "24–72V",
+        "en": "24–72V"
+      },
+      "interface": {
+        "zh-CN": "Modbus、CANopen；单/双/多轴",
+        "en": "Modbus, CANopen; single/dual/multiple axes"
+      },
+      "limits": {
+        "zh-CN": "仅官方搜索正文摘录，直连反爬；未核验完整手册",
+        "en": "Official search excerpt only; direct access blocked; full manual unverified"
+      }
+    },
+    "research_relation": {
+      "kind": "related_route",
+      "note": {
+        "zh-CN": "相关研究路线；未据此认定论文使用本型号。",
+        "en": "Related research route; this does not establish that a paper used this model."
+      }
+    }
+  },
+  {
+    "id": "detail-0585211d5f48",
+    "source_id": "E176",
+    "model_as_reported": "MEMS六维力传感器（型号未列）",
+    "related_subcategories": [
+      "04-04"
+    ],
+    "facts": {
+      "structure": {
+        "zh-CN": "直径9.6mm、高9mm",
+        "en": "9.6mm diameter, 9mm height"
+      },
+      "mass": {
+        "zh-CN": "3g",
+        "en": "3g"
+      },
+      "interface": {
+        "zh-CN": "SPI",
+        "en": "SPI"
+      },
+      "limits": {
+        "zh-CN": "不与MX084-30NM应变式产品混用参数",
+        "en": "Do not mix parameters with strain-gauge MX084-30NM"
+      }
+    },
+    "research_relation": {
+      "kind": "related_route",
+      "note": {
+        "zh-CN": "相关研究路线；未据此认定论文使用本型号。",
+        "en": "Related research route; this does not establish that a paper used this model."
+      }
+    }
+  },
+  {
+    "id": "detail-e61d31e948f1",
+    "source_id": "E177",
+    "model_as_reported": "UDH-3-7-50",
+    "related_subcategories": [
+      "03-03"
+    ],
+    "facts": {
+      "dof": {
+        "zh-CN": "三指、7个主动自由度",
+        "en": "Three fingers, 7 active degrees of freedom"
+      },
+      "load": {
+        "zh-CN": "提拉负载最高15kg",
+        "en": "Lifting load up to 15kg"
+      },
+      "precision": {
+        "zh-CN": "指尖重复定位±0.02mm",
+        "en": "Fingertip repeatability ±0.02mm"
+      }
+    },
+    "research_relation": {
+      "kind": "related_route",
+      "note": {
+        "zh-CN": "相关研究路线；未据此认定论文使用本型号。",
+        "en": "Related research route; this does not establish that a paper used this model."
+      }
+    }
+  },
+  {
+    "id": "detail-c2a4e23c793c",
+    "source_id": "E179",
+    "model_as_reported": "ZGS 200×120",
+    "related_subcategories": [
+      "03-02"
+    ],
+    "facts": {
+      "force": {
+        "zh-CN": "-63kPa下吸吊力440N",
+        "en": "440N suction lifting force at -63kPa"
+      },
+      "interface": {
+        "zh-CN": "IO-Link",
+        "en": "IO-Link"
+      },
+      "limits": {
+        "zh-CN": "仅200×120规格，不能跨规格套用",
+        "en": "Only the 200×120 configuration; not transferable to other sizes"
+      }
+    },
+    "research_relation": {
+      "kind": "related_route",
+      "note": {
+        "zh-CN": "相关研究路线；未据此认定论文使用本型号。",
+        "en": "Related research route; this does not establish that a paper used this model."
+      }
+    }
+  },
+  {
+    "id": "detail-78c8a4fa24d7",
+    "source_id": "E180",
+    "model_as_reported": "DexHand021",
+    "related_subcategories": [
+      "03-03"
+    ],
+    "facts": {
+      "dof": {
+        "zh-CN": "19",
+        "en": "19"
+      },
+      "sensing": {
+        "zh-CN": "23个传感器",
+        "en": "23 sensors"
+      }
+    },
+    "research_relation": {
+      "kind": "related_route",
+      "note": {
+        "zh-CN": "相关研究路线；未据此认定论文使用本型号。",
+        "en": "Related research route; this does not establish that a paper used this model."
+      }
+    }
+  },
+  {
+    "id": "detail-0f22da2ee977",
+    "source_id": "E180",
+    "model_as_reported": "S（三指型号）",
+    "related_subcategories": [
+      "03-03"
+    ],
+    "facts": {
+      "dof": {
+        "zh-CN": "三指、8自由度",
+        "en": "Three fingers, 8 degrees of freedom"
+      },
+      "force": {
+        "zh-CN": "抓握力22N",
+        "en": "22N gripping force"
+      },
+      "mass": {
+        "zh-CN": "0.6kg",
+        "en": "0.6kg"
+      }
+    },
+    "research_relation": {
+      "kind": "related_route",
+      "note": {
+        "zh-CN": "相关研究路线；未据此认定论文使用本型号。",
+        "en": "Related research route; this does not establish that a paper used this model."
+      }
+    }
+  },
+  {
+    "id": "detail-5ef93e7a9cf3",
+    "source_id": "E180",
+    "model_as_reported": "Pro（双绳驱型号）",
+    "related_subcategories": [
+      "03-03",
+      "03-04"
+    ],
+    "facts": {
+      "dof": {
+        "zh-CN": "22",
+        "en": "22"
+      },
+      "structure": {
+        "zh-CN": "双绳驱",
+        "en": "Dual-tendon drive"
+      }
+    },
+    "research_relation": {
+      "kind": "related_route",
+      "note": {
+        "zh-CN": "相关研究路线；未据此认定论文使用本型号。",
+        "en": "Related research route; this does not establish that a paper used this model."
+      }
+    }
+  },
+  {
+    "id": "detail-fca916b8737b",
+    "source_id": "E181",
+    "model_as_reported": "O30",
+    "related_subcategories": [
+      "03-03"
+    ],
+    "facts": {
+      "structure": {
+        "zh-CN": "直驱、独立关节控制",
+        "en": "Direct drive with independent joint control"
+      },
+      "function": {
+        "zh-CN": "灵巧模型训练",
+        "en": "Dexterous-model training"
+      }
+    },
+    "research_relation": {
+      "kind": "related_route",
+      "note": {
+        "zh-CN": "相关研究路线；未据此认定论文使用本型号。",
+        "en": "Related research route; this does not establish that a paper used this model."
+      }
+    }
+  },
+  {
+    "id": "detail-d46c09226e8d",
+    "source_id": "E182",
+    "model_as_reported": "RH56F1",
+    "related_subcategories": [
+      "03-03"
+    ],
+    "facts": {
+      "frequency": {
+        "zh-CN": "通信1kHz",
+        "en": "1kHz communication"
+      },
+      "load": {
+        "zh-CN": "静态被动载荷30kg",
+        "en": "30kg passive static load"
+      },
+      "force": {
+        "zh-CN": "指尖15N",
+        "en": "15N fingertip force"
+      },
+      "structure": {
+        "zh-CN": "仿人五指灵巧手（原展项名称）",
+        "en": "Anthropomorphic five-finger hand (source exhibit name)"
+      }
+    },
+    "research_relation": {
+      "kind": "related_route",
+      "note": {
+        "zh-CN": "相关研究路线；未据此认定论文使用本型号。",
+        "en": "Related research route; this does not establish that a paper used this model."
+      }
+    },
+    "source_item_ids": [
+      "item-b61ab832d849"
+    ]
+  },
+  {
+    "id": "detail-7cfa3c4bb6d0",
+    "source_id": "E182",
+    "model_as_reported": "RH56E2",
+    "related_subcategories": [
+      "03-03"
+    ],
+    "facts": {
+      "force": {
+        "zh-CN": "指尖30N",
+        "en": "30N fingertip force"
+      },
+      "structure": {
+        "zh-CN": "仿人五指灵巧手（原展项名称）",
+        "en": "Anthropomorphic five-finger hand (source exhibit name)"
+      }
+    },
+    "research_relation": {
+      "kind": "related_route",
+      "note": {
+        "zh-CN": "相关研究路线；未据此认定论文使用本型号。",
+        "en": "Related research route; this does not establish that a paper used this model."
+      }
+    },
+    "source_item_ids": [
+      "item-90c9f77abba9"
+    ]
+  },
+  {
+    "id": "detail-1584a7292fc0",
+    "source_id": "E182",
+    "model_as_reported": "RH56DFX",
+    "related_subcategories": [
+      "03-03"
+    ],
+    "facts": {
+      "sensing": {
+        "zh-CN": "绝对位置与力传感",
+        "en": "Absolute-position and force sensing"
+      },
+      "function": {
+        "zh-CN": "掉电自锁",
+        "en": "Power-off self-locking"
+      },
+      "structure": {
+        "zh-CN": "仿人五指灵巧手（原展项名称）",
+        "en": "Anthropomorphic five-finger hand (source exhibit name)"
+      }
+    },
+    "research_relation": {
+      "kind": "documented_use",
+      "paper_title": "HumanPlus: Humanoid Shadowing and Imitation from Humans",
+      "paper_url": "https://proceedings.mlr.press/v270/fu25a.html",
+      "catalog_path": "embodiment/humanoid.md",
+      "quote": "Modified Unitree H1 (33 DoF); dual Inspire RH56DFX 6-DoF hands + 1-DoF wrists",
+      "note": {
+        "zh-CN": "已核对论文PDF第4页：RH56DFX连接定制手腕。只证明论文实验配置，不代表产品系列的全部配置。",
+        "en": "Checked in paper PDF page 4: RH56DFX is connected through customized wrists. This supports the experimental configuration, not every product variant."
+      },
+      "primary_pdf": "https://raw.githubusercontent.com/mlresearch/v270/main/assets/fu25a/fu25a.pdf",
+      "primary_page": 4,
+      "primary_quote": "Each arm is integrated with an Inspire-Robots RH56DFX hand, connected via a customized wrist.",
+      "primary_sha256": "0151eb7f015a20f5fe6ce2fe0f5a76896446a7284ebd7dfc4b7e6820b6ba6d01",
+      "verified_on": "2026-09-08"
+    },
+    "source_item_ids": [
+      "item-72bb57598737"
+    ]
+  },
+  {
+    "id": "detail-51f8e151752d",
+    "source_id": "E183",
+    "model_as_reported": "Flex 2",
+    "related_subcategories": [
+      "03-03",
+      "04-05"
+    ],
+    "facts": {
+      "dof": {
+        "zh-CN": "19主动、4被动",
+        "en": "19 active, 4 passive"
+      },
+      "function": {
+        "zh-CN": "接触、防滑与柔顺抓握反射",
+        "en": "Contact, anti-slip and compliant-grasp reflexes"
+      },
+      "interface": {
+        "zh-CN": "OTA",
+        "en": "OTA"
+      },
+      "simulation_data": {
+        "zh-CN": "开放仿真数据平台；格式和版本未列",
+        "en": "Open simulation-data platform; format and version not specified"
+      }
+    },
+    "research_relation": {
+      "kind": "related_route",
+      "note": {
+        "zh-CN": "相关研究路线；未据此认定论文使用本型号。",
+        "en": "Related research route; this does not establish that a paper used this model."
+      }
+    }
+  },
+  {
+    "id": "detail-5348c91120b0",
+    "source_id": "E183",
+    "model_as_reported": "Prima",
+    "related_subcategories": [
+      "03-03"
+    ],
+    "facts": {
+      "structure": {
+        "zh-CN": "直驱路线",
+        "en": "Direct-drive design"
+      }
+    },
+    "research_relation": {
+      "kind": "related_route",
+      "note": {
+        "zh-CN": "相关研究路线；未据此认定论文使用本型号。",
+        "en": "Related research route; this does not establish that a paper used this model."
+      }
+    }
+  },
+  {
+    "id": "detail-01d89d4f6a02",
+    "source_id": "E184",
+    "model_as_reported": "B06",
+    "related_subcategories": [
+      "03-03"
+    ],
+    "facts": {
+      "structure": {
+        "zh-CN": "六电机连杆",
+        "en": "Six-motor linkage"
+      }
+    },
+    "research_relation": {
+      "kind": "related_route",
+      "note": {
+        "zh-CN": "相关研究路线；未据此认定论文使用本型号。",
+        "en": "Related research route; this does not establish that a paper used this model."
+      }
+    }
+  },
+  {
+    "id": "detail-3b0f8d57efbe",
+    "source_id": "E184",
+    "model_as_reported": "B21",
+    "related_subcategories": [
+      "03-03"
+    ],
+    "facts": {
+      "dof": {
+        "zh-CN": "21",
+        "en": "21"
+      },
+      "mass": {
+        "zh-CN": "700g",
+        "en": "700g"
+      },
+      "force": {
+        "zh-CN": "指尖15N",
+        "en": "15N fingertip force"
+      },
+      "sensing": {
+        "zh-CN": "集成触觉",
+        "en": "Integrated tactile sensing"
+      },
+      "limits": {
+        "zh-CN": "百万次寿命声明无循环条件",
+        "en": "Million-cycle life claim lacks cycling conditions"
+      }
+    },
+    "research_relation": {
+      "kind": "related_route",
+      "note": {
+        "zh-CN": "相关研究路线；未据此认定论文使用本型号。",
+        "en": "Related research route; this does not establish that a paper used this model."
+      }
+    }
+  },
+  {
+    "id": "detail-ae8146896ee1",
+    "source_id": "E186",
+    "model_as_reported": "DM-H55",
+    "related_subcategories": [
+      "02-04"
+    ],
+    "facts": {
+      "output": {
+        "zh-CN": "额定3.5Nm；峰值9Nm",
+        "en": "3.5Nm rated; 9Nm peak"
+      },
+      "power": {
+        "zh-CN": "24–48V",
+        "en": "24–48V"
+      },
+      "interface": {
+        "zh-CN": "MIT/位速混控；CAN、UART",
+        "en": "MIT/hybrid position-velocity control; CAN, UART"
+      }
+    },
+    "research_relation": {
+      "kind": "related_route",
+      "note": {
+        "zh-CN": "相关研究路线；未据此认定论文使用本型号。",
+        "en": "Related research route; this does not establish that a paper used this model."
+      }
+    }
+  },
+  {
+    "id": "detail-b216d9f7d215",
+    "source_id": "E189",
+    "model_as_reported": "KGU",
+    "related_subcategories": [
+      "02-04"
+    ],
+    "facts": {
+      "structure": {
+        "zh-CN": "谐波、电机、驱动、双编码器、制动器集成",
+        "en": "Strain-wave gearing, motor, drive, dual encoders and brake"
+      },
+      "interface": {
+        "zh-CN": "EtherCAT、CANopen；位置/速度/力矩控制",
+        "en": "EtherCAT, CANopen; position/velocity/torque control"
+      }
+    },
+    "research_relation": {
+      "kind": "related_route",
+      "note": {
+        "zh-CN": "相关研究路线；未据此认定论文使用本型号。",
+        "en": "Related research route; this does not establish that a paper used this model."
+      }
+    }
+  },
+  {
+    "id": "detail-72d708e7b6d7",
+    "source_id": "E194",
+    "model_as_reported": "ECH组合",
+    "related_subcategories": [
+      "02-01",
+      "02-02"
+    ],
+    "facts": {
+      "structure": {
+        "zh-CN": "电机齿轮箱组合；减速比274",
+        "en": "Motor/gearbox combination; ratio 274"
+      },
+      "output": {
+        "zh-CN": "额定200mNm",
+        "en": "200mNm rated torque"
+      }
+    },
+    "research_relation": {
+      "kind": "related_route",
+      "note": {
+        "zh-CN": "相关研究路线；未据此认定论文使用本型号。",
+        "en": "Related research route; this does not establish that a paper used this model."
+      }
+    }
+  },
+  {
+    "id": "detail-b86b68ded82f",
+    "source_id": "E194",
+    "model_as_reported": "FST12003",
+    "related_subcategories": [
+      "02-01"
+    ],
+    "facts": {
+      "output": {
+        "zh-CN": "连续1.52mNm",
+        "en": "1.52mNm continuous torque"
+      }
+    },
+    "research_relation": {
+      "kind": "related_route",
+      "note": {
+        "zh-CN": "相关研究路线；未据此认定论文使用本型号。",
+        "en": "Related research route; this does not establish that a paper used this model."
+      }
+    }
+  },
+  {
+    "id": "detail-670180660076",
+    "source_id": "E197",
+    "model_as_reported": "HRTGM",
+    "related_subcategories": [
+      "04-03",
+      "02-06"
+    ],
+    "facts": {
+      "structure": {
+        "zh-CN": "角度测量与轴承集成",
+        "en": "Integrated angular measurement and bearing"
+      },
+      "precision": {
+        "zh-CN": "角度测量精度最高±1角秒",
+        "en": "Best reported angular measurement accuracy ±1 arcsecond"
+      }
+    },
+    "research_relation": {
+      "kind": "related_route",
+      "note": {
+        "zh-CN": "相关研究路线；未据此认定论文使用本型号。",
+        "en": "Related research route; this does not establish that a paper used this model."
+      }
+    }
+  },
+  {
+    "id": "detail-a25c600d61b2",
+    "source_id": "E200",
+    "model_as_reported": "iSMD",
+    "related_subcategories": [
+      "02-05"
+    ],
+    "facts": {
+      "interface": {
+        "zh-CN": "脉冲、Modbus RTU、CANopen、EtherCAT",
+        "en": "Pulse, Modbus RTU, CANopen, EtherCAT"
+      },
+      "sensing": {
+        "zh-CN": "多圈绝对编码器",
+        "en": "Multi-turn absolute encoder"
+      }
+    },
+    "research_relation": {
+      "kind": "related_route",
+      "note": {
+        "zh-CN": "相关研究路线；未据此认定论文使用本型号。",
+        "en": "Related research route; this does not establish that a paper used this model."
+      }
+    }
+  },
+  {
+    "id": "detail-71a5470aaccf",
+    "source_id": "E204",
+    "model_as_reported": "微型电缸（型号未列）",
+    "related_subcategories": [
+      "02-03"
+    ],
+    "facts": {
+      "output": {
+        "zh-CN": "最大推拉力400N",
+        "en": "400N maximum push/pull"
+      },
+      "precision": {
+        "zh-CN": "重复定位±2μm",
+        "en": "±2μm repeatability"
+      },
+      "interface": {
+        "zh-CN": "CAN FD、RS485、EtherCAT",
+        "en": "CAN FD, RS485, EtherCAT"
+      }
+    },
+    "research_relation": {
+      "kind": "related_route",
+      "note": {
+        "zh-CN": "相关研究路线；未据此认定论文使用本型号。",
+        "en": "Related research route; this does not establish that a paper used this model."
+      }
+    }
+  },
+  {
+    "id": "detail-dcb1b5b5bcf5",
+    "source_id": "E205",
+    "model_as_reported": "EM10",
+    "related_subcategories": [
+      "02-05"
+    ],
+    "facts": {
+      "output": {
+        "zh-CN": "10kg·cm是转矩，不是10kg负载",
+        "en": "10kg·cm is torque, not a 10kg payload"
+      },
+      "interface": {
+        "zh-CN": "TTL串口总线、独立ID",
+        "en": "TTL serial bus, separate ID"
+      },
+      "protection": {
+        "zh-CN": "过载离合",
+        "en": "Overload clutch"
+      }
+    },
+    "research_relation": {
+      "kind": "related_route",
+      "note": {
+        "zh-CN": "相关研究路线；未据此认定论文使用本型号。",
+        "en": "Related research route; this does not establish that a paper used this model."
+      }
+    }
+  },
+  {
+    "id": "detail-9f1329cbebda",
+    "source_id": "E209",
+    "model_as_reported": "RobStride 02",
+    "related_subcategories": [
+      "02-04"
+    ],
+    "facts": {
+      "output": {
+        "zh-CN": "额定7N·m；峰值17N·m",
+        "en": "7N·m rated; 17N·m peak"
+      },
+      "power": {
+        "zh-CN": "24–60V",
+        "en": "24–60V"
+      },
+      "structure": {
+        "zh-CN": "FOC、双磁编码器；01不是同配置",
+        "en": "FOC, dual magnetic encoders; 01 is not the same configuration"
+      }
+    },
+    "research_relation": {
+      "kind": "related_route",
+      "note": {
+        "zh-CN": "相关研究路线；未据此认定论文使用本型号。",
+        "en": "Related research route; this does not establish that a paper used this model."
+      }
+    }
+  },
+  {
+    "id": "detail-06373c13dca9",
+    "source_id": "E211",
+    "model_as_reported": "ZM101-A",
+    "related_subcategories": [
+      "04-07"
+    ],
+    "facts": {
+      "structure": {
+        "zh-CN": "电子鼻，6个MEMS单元",
+        "en": "Electronic nose with 6 MEMS elements"
+      },
+      "function": {
+        "zh-CN": "1–6通道与温湿补偿",
+        "en": "1–6 channels with temperature/humidity compensation"
+      }
+    },
+    "research_relation": {
+      "kind": "related_route",
+      "note": {
+        "zh-CN": "相关研究路线；未据此认定论文使用本型号。",
+        "en": "Related research route; this does not establish that a paper used this model."
+      }
+    }
+  },
+  {
+    "id": "detail-b5b5b3d72cfd",
+    "source_id": "E211",
+    "model_as_reported": "HAU92",
+    "related_subcategories": [
+      "04-03"
+    ],
+    "facts": {
+      "structure": {
+        "zh-CN": "九轴模组",
+        "en": "Nine-axis module"
+      },
+      "function": {
+        "zh-CN": "姿态角与四元数输出",
+        "en": "Attitude-angle and quaternion output"
+      },
+      "interface": {
+        "zh-CN": "SPI、I2C、UART",
+        "en": "SPI, I2C, UART"
+      }
+    },
+    "research_relation": {
+      "kind": "related_route",
+      "note": {
+        "zh-CN": "相关研究路线；未据此认定论文使用本型号。",
+        "en": "Related research route; this does not establish that a paper used this model."
+      }
+    }
+  },
+  {
+    "id": "detail-6c4ed9026603",
+    "source_id": "E212",
+    "model_as_reported": "YIS300",
+    "related_subcategories": [
+      "04-03"
+    ],
+    "facts": {
+      "structure": {
+        "zh-CN": "IMU/VRU/AHRS及外接GNSS组合版本",
+        "en": "IMU/VRU/AHRS and external-GNSS combinations"
+      },
+      "precision": {
+        "zh-CN": "典型动态姿态0.3°；按适用条件解释",
+        "en": "Typical dynamic attitude accuracy 0.3°; conditional"
+      },
+      "frequency": {
+        "zh-CN": "200Hz输出",
+        "en": "200Hz output"
+      },
+      "interface": {
+        "zh-CN": "SPI、UART",
+        "en": "SPI, UART"
+      }
+    },
+    "research_relation": {
+      "kind": "related_route",
+      "note": {
+        "zh-CN": "相关研究路线；未据此认定论文使用本型号。",
+        "en": "Related research route; this does not establish that a paper used this model."
+      }
+    }
+  },
+  {
+    "id": "detail-5694c580311d",
+    "source_id": "E217",
+    "model_as_reported": "WLR723",
+    "related_subcategories": [
+      "04-02"
+    ],
+    "facts": {
+      "range": {
+        "zh-CN": "垂直视场100°",
+        "en": "100° vertical field of view"
+      },
+      "structure": {
+        "zh-CN": "外露球面半径23.5mm",
+        "en": "23.5mm exposed spherical radius"
+      }
+    },
+    "research_relation": {
+      "kind": "related_route",
+      "note": {
+        "zh-CN": "相关研究路线；未据此认定论文使用本型号。",
+        "en": "Related research route; this does not establish that a paper used this model."
+      }
+    }
+  },
+  {
+    "id": "detail-fb5d2953ae02",
+    "source_id": "E217",
+    "model_as_reported": "WLR750L",
+    "related_subcategories": [
+      "04-02"
+    ],
+    "facts": {
+      "function": {
+        "zh-CN": "点云与图像，原生标定及时空同步",
+        "en": "Point cloud and image, native calibration and synchronization"
+      },
+      "range": {
+        "zh-CN": "最小测距0.1m",
+        "en": "0.1m minimum range"
+      }
+    },
+    "research_relation": {
+      "kind": "related_route",
+      "note": {
+        "zh-CN": "相关研究路线；未据此认定论文使用本型号。",
+        "en": "Related research route; this does not establish that a paper used this model."
+      }
+    }
+  },
+  {
+    "id": "detail-3a330b65eead",
+    "source_id": "E219",
+    "model_as_reported": "Tensopt SIC-MR30",
+    "related_subcategories": [
+      "04-01"
+    ],
+    "facts": {
+      "data": {
+        "zh-CN": "XYZ、RGB、时间戳组合为7D数据；不是七维空间",
+        "en": "XYZ, RGB and timestamp form 7D data, not seven spatial dimensions"
+      }
+    },
+    "research_relation": {
+      "kind": "related_route",
+      "note": {
+        "zh-CN": "相关研究路线；未据此认定论文使用本型号。",
+        "en": "Related research route; this does not establish that a paper used this model."
+      }
+    }
+  },
+  {
+    "id": "detail-8066416abd91",
+    "source_id": "E222",
+    "model_as_reported": "XTac UMI G1",
+    "related_subcategories": [
+      "10-01",
+      "10-04",
+      "04-05"
+    ],
+    "facts": {
+      "function": {
+        "zh-CN": "视触觉与位姿采集",
+        "en": "Visual-tactile and pose capture"
+      },
+      "structure": {
+        "zh-CN": "手持/背包计算配置",
+        "en": "Handheld/backpack compute configurations"
+      },
+      "data": {
+        "zh-CN": "LeRobot、MCAP；字段和同步待查开发文档",
+        "en": "LeRobot, MCAP; fields and synchronization need developer documentation"
+      }
+    },
+    "research_relation": {
+      "kind": "related_route",
+      "note": {
+        "zh-CN": "相关研究路线；未据此认定论文使用本型号。",
+        "en": "Related research route; this does not establish that a paper used this model."
+      }
+    }
+  },
+  {
+    "id": "detail-0bded9f17131",
+    "source_id": "E224",
+    "model_as_reported": "E2311",
+    "related_subcategories": [
+      "04-01"
+    ],
+    "facts": {
+      "interface": {
+        "zh-CN": "USB2",
+        "en": "USB2"
+      }
+    },
+    "research_relation": {
+      "kind": "related_route",
+      "note": {
+        "zh-CN": "相关研究路线；未据此认定论文使用本型号。",
+        "en": "Related research route; this does not establish that a paper used this model."
+      }
+    }
+  },
+  {
+    "id": "detail-c6e40204cf38",
+    "source_id": "E224",
+    "model_as_reported": "E2411",
+    "related_subcategories": [
+      "04-01"
+    ],
+    "facts": {
+      "interface": {
+        "zh-CN": "MIPI",
+        "en": "MIPI"
+      }
+    },
+    "research_relation": {
+      "kind": "related_route",
+      "note": {
+        "zh-CN": "相关研究路线；未据此认定论文使用本型号。",
+        "en": "Related research route; this does not establish that a paper used this model."
+      }
+    }
+  },
+  {
+    "id": "detail-cc3750162aa1",
+    "source_id": "E224",
+    "model_as_reported": "E9015",
+    "related_subcategories": [
+      "04-01"
+    ],
+    "facts": {
+      "interface": {
+        "zh-CN": "USB3/2 UVC",
+        "en": "USB3/2 UVC"
+      },
+      "power": {
+        "zh-CN": "5V",
+        "en": "5V"
+      }
+    },
+    "research_relation": {
+      "kind": "related_route",
+      "note": {
+        "zh-CN": "相关研究路线；未据此认定论文使用本型号。",
+        "en": "Related research route; this does not establish that a paper used this model."
+      }
+    }
+  },
+  {
+    "id": "detail-7b9bb08847cd",
+    "source_id": "E227",
+    "model_as_reported": "NZ",
+    "related_subcategories": [
+      "04-02"
+    ],
+    "facts": {
+      "structure": {
+        "zh-CN": "SPAD半固态路线",
+        "en": "SPAD semi-solid-state design"
+      },
+      "range": {
+        "zh-CN": "240°×80°视场；最高115m，反射率未给",
+        "en": "240°×80° field of view; up to 115m without reflectivity conditions"
+      }
+    },
+    "research_relation": {
+      "kind": "related_route",
+      "note": {
+        "zh-CN": "相关研究路线；未据此认定论文使用本型号。",
+        "en": "Related research route; this does not establish that a paper used this model."
+      }
+    }
+  },
+  {
+    "id": "detail-7cbc45e2aa26",
+    "source_id": "E230",
+    "model_as_reported": "D585",
+    "related_subcategories": [
+      "04-01"
+    ],
+    "facts": {
+      "range": {
+        "zh-CN": "12cm–10m+；120°视场",
+        "en": "12cm–10m+; 120° field of view"
+      },
+      "frequency": {
+        "zh-CN": "60fps",
+        "en": "60fps"
+      },
+      "protection": {
+        "zh-CN": "IP65",
+        "en": "IP65"
+      },
+      "interface": {
+        "zh-CN": "GMSL/FAKRA同轴最长15m；SDK 2；以规格书为准",
+        "en": "GMSL/FAKRA coaxial up to 15m; SDK 2; datasheet conditions apply"
+      }
+    },
+    "research_relation": {
+      "kind": "related_route",
+      "note": {
+        "zh-CN": "相关研究路线；未据此认定论文使用本型号。",
+        "en": "Related research route; this does not establish that a paper used this model."
+      }
+    }
+  },
+  {
+    "id": "detail-3e0524584420",
+    "source_id": "E236",
+    "model_as_reported": "万象压阻式产品",
+    "related_subcategories": [
+      "04-05"
+    ],
+    "facts": {
+      "precision": {
+        "zh-CN": "精度1%FS；重复性0.5%FS；漂移0.5%FS/h",
+        "en": "Accuracy 1%FS; repeatability 0.5%FS; drift 0.5%FS/h"
+      },
+      "force": {
+        "zh-CN": "触发力0.05N",
+        "en": "0.05N trigger force"
+      },
+      "protection": {
+        "zh-CN": "7倍过载",
+        "en": "7× overload"
+      },
+      "interface": {
+        "zh-CN": "UART、IIC、SPI",
+        "en": "UART, IIC, SPI"
+      }
+    },
+    "research_relation": {
+      "kind": "related_route",
+      "note": {
+        "zh-CN": "相关研究路线；未据此认定论文使用本型号。",
+        "en": "Related research route; this does not establish that a paper used this model."
+      }
+    }
+  },
+  {
+    "id": "detail-060e1b34148a",
+    "source_id": "E238",
+    "model_as_reported": "FOS",
+    "related_subcategories": [
+      "04-05"
+    ],
+    "facts": {
+      "structure": {
+        "zh-CN": "电阻阵列",
+        "en": "Resistive array"
+      },
+      "frequency": {
+        "zh-CN": "100–300Hz",
+        "en": "100–300Hz"
+      },
+      "interface": {
+        "zh-CN": "四针UART",
+        "en": "Four-pin UART"
+      },
+      "function": {
+        "zh-CN": "法向力、切向力与滑移采集",
+        "en": "Normal force, tangential force and slip capture"
+      }
+    },
+    "research_relation": {
+      "kind": "related_route",
+      "note": {
+        "zh-CN": "相关研究路线；未据此认定论文使用本型号。",
+        "en": "Related research route; this does not establish that a paper used this model."
+      }
+    }
+  },
+  {
+    "id": "detail-1fbd0fd42b09",
+    "source_id": "E241",
+    "model_as_reported": "D65B",
+    "related_subcategories": [
+      "04-04"
+    ],
+    "facts": {
+      "range": {
+        "zh-CN": "力100–5000N；力矩4–200Nm",
+        "en": "Force 100–5000N; torque 4–200Nm"
+      }
+    },
+    "research_relation": {
+      "kind": "related_route",
+      "note": {
+        "zh-CN": "相关研究路线；未据此认定论文使用本型号。",
+        "en": "Related research route; this does not establish that a paper used this model."
+      }
+    }
+  },
+  {
+    "id": "detail-72e2033faa07",
+    "source_id": "E241",
+    "model_as_reported": "C80B",
+    "related_subcategories": [
+      "04-04"
+    ],
+    "facts": {
+      "range": {
+        "zh-CN": "力100–1000N；力矩4–20Nm",
+        "en": "Force 100–1000N; torque 4–20Nm"
+      }
+    },
+    "research_relation": {
+      "kind": "related_route",
+      "note": {
+        "zh-CN": "相关研究路线；未据此认定论文使用本型号。",
+        "en": "Related research route; this does not establish that a paper used this model."
+      }
+    }
+  },
+  {
+    "id": "detail-6b32ccb26806",
+    "source_id": "E241",
+    "model_as_reported": "M30-B / M30-A（冲突）",
+    "related_subcategories": [
+      "04-04"
+    ],
+    "facts": {
+      "limits": {
+        "zh-CN": "标题正文型号不一致，不提取为已确认参数",
+        "en": "Model names differ between title and body; no confirmed parameters extracted"
+      }
+    },
+    "research_relation": {
+      "kind": "related_route",
+      "note": {
+        "zh-CN": "相关研究路线；未据此认定论文使用本型号。",
+        "en": "Related research route; this does not establish that a paper used this model."
+      }
+    }
+  },
+  {
+    "id": "detail-0e6a21e75bcd",
+    "source_id": "E242",
+    "model_as_reported": "C075XX",
+    "related_subcategories": [
+      "04-04"
+    ],
+    "facts": {
+      "precision": {
+        "zh-CN": "精度0.5%FS；零点温漂0.1%/10℃",
+        "en": "Accuracy 0.5%FS; zero drift 0.1%/10℃"
+      },
+      "protection": {
+        "zh-CN": "三倍过载",
+        "en": "Threefold overload"
+      }
+    },
+    "research_relation": {
+      "kind": "related_route",
+      "note": {
+        "zh-CN": "相关研究路线；未据此认定论文使用本型号。",
+        "en": "Related research route; this does not establish that a paper used this model."
+      }
+    }
+  },
+  {
+    "id": "detail-9b8e51faf318",
+    "source_id": "E242",
+    "model_as_reported": "M35XX",
+    "related_subcategories": [
+      "04-04"
+    ],
+    "facts": {
+      "structure": {
+        "zh-CN": "厚度9.2mm",
+        "en": "9.2mm thickness"
+      },
+      "protection": {
+        "zh-CN": "IP60",
+        "en": "IP60"
+      }
+    },
+    "research_relation": {
+      "kind": "related_route",
+      "note": {
+        "zh-CN": "相关研究路线；未据此认定论文使用本型号。",
+        "en": "Related research route; this does not establish that a paper used this model."
+      }
+    }
+  },
+  {
+    "id": "detail-5f6845a285ff",
+    "source_id": "E243",
+    "model_as_reported": "TSVT",
+    "related_subcategories": [
+      "10-04",
+      "04-05"
+    ],
+    "facts": {
+      "data": {
+        "zh-CN": "三维力、接近、接触信号记录、标注及导出",
+        "en": "Recording, annotation and export of 3D force, proximity and contact"
+      }
+    },
+    "research_relation": {
+      "kind": "related_route",
+      "note": {
+        "zh-CN": "相关研究路线；未据此认定论文使用本型号。",
+        "en": "Related research route; this does not establish that a paper used this model."
+      }
+    }
+  },
+  {
+    "id": "detail-d6f0b2caeb0b",
+    "source_id": "E245",
+    "model_as_reported": "Poseidon",
+    "related_subcategories": [
+      "01-07",
+      "06-03"
+    ],
+    "facts": {
+      "structure": {
+        "zh-CN": "四轮四转",
+        "en": "Four-wheel steering"
+      },
+      "sensing": {
+        "zh-CN": "双雷达、双深度",
+        "en": "Dual LiDAR and dual depth cameras"
+      },
+      "interface": {
+        "zh-CN": "ROS/ROS2 SDK",
+        "en": "ROS/ROS2 SDK"
+      }
+    },
+    "research_relation": {
+      "kind": "related_route",
+      "note": {
+        "zh-CN": "相关研究路线；未据此认定论文使用本型号。",
+        "en": "Related research route; this does not establish that a paper used this model."
+      }
+    }
+  },
+  {
+    "id": "detail-e0f59ddb449a",
+    "source_id": "E246",
+    "model_as_reported": "JT",
+    "related_subcategories": [
+      "04-02"
+    ],
+    "facts": {
+      "range": {
+        "zh-CN": "360°×189°视场；最高256线",
+        "en": "360°×189° field of view; up to 256 lines"
+      }
+    },
+    "research_relation": {
+      "kind": "related_route",
+      "note": {
+        "zh-CN": "相关研究路线；未据此认定论文使用本型号。",
+        "en": "Related research route; this does not establish that a paper used this model."
+      }
+    }
+  },
+  {
+    "id": "detail-c4ee6365d3d0",
+    "source_id": "E246",
+    "model_as_reported": "Kosmo",
+    "related_subcategories": [
+      "08-02",
+      "11-02"
+    ],
+    "facts": {
+      "function": {
+        "zh-CN": "三维资产与世界模型方向；独立于雷达硬件",
+        "en": "3D assets and world models; separate from LiDAR hardware"
+      }
+    },
+    "research_relation": {
+      "kind": "related_route",
+      "note": {
+        "zh-CN": "相关研究路线；未据此认定论文使用本型号。",
+        "en": "Related research route; this does not establish that a paper used this model."
+      }
+    }
+  },
+  {
+    "id": "detail-54a354932d23",
+    "source_id": "E250",
+    "model_as_reported": "LingBot",
+    "related_subcategories": [
+      "08-01"
+    ],
+    "facts": {
+      "function": {
+        "zh-CN": "跨本体模型；软包分拣、药房履约、上下料展示",
+        "en": "Cross-body model; soft-package sorting, pharmacy and loading demonstrations"
+      },
+      "limits": {
+        "zh-CN": "本体含合作方产品；吞吐无统一工况",
+        "en": "Bodies include partner products; throughput has no common conditions"
+      }
+    },
+    "research_relation": {
+      "kind": "related_route",
+      "note": {
+        "zh-CN": "相关研究路线；未据此认定论文使用本型号。",
+        "en": "Related research route; this does not establish that a paper used this model."
+      }
+    }
+  },
+  {
+    "id": "detail-d66a8f10428e",
+    "source_id": "E251",
+    "model_as_reported": "Kairos 3.1",
+    "related_subcategories": [
+      "08-02"
+    ],
+    "facts": {
+      "function": {
+        "zh-CN": "多模态理解、生成与预测",
+        "en": "Multimodal understanding, generation and prediction"
+      },
+      "limits": {
+        "zh-CN": "输入输出细节与开源许可未独立核验",
+        "en": "Detailed I/O and open-source license not independently verified"
+      }
+    },
+    "research_relation": {
+      "kind": "related_route",
+      "note": {
+        "zh-CN": "相关研究路线；未据此认定论文使用本型号。",
+        "en": "Related research route; this does not establish that a paper used this model."
+      }
+    }
+  },
+  {
+    "id": "detail-f3dcf4f5ff28",
+    "source_id": "E251",
+    "model_as_reported": "ACE 2.0",
+    "related_subcategories": [
+      "10-01",
+      "10-04"
+    ],
+    "facts": {
+      "structure": {
+        "zh-CN": "头、手、胸采集套件",
+        "en": "Head, hand and chest capture kit"
+      },
+      "precision": {
+        "zh-CN": "手套灵敏度0.01N；角误差小于2°",
+        "en": "Glove sensitivity 0.01N; angular error below 2°"
+      },
+      "frequency": {
+        "zh-CN": "同步误差1ms内",
+        "en": "Synchronization error within 1ms"
+      }
+    },
+    "research_relation": {
+      "kind": "related_route",
+      "note": {
+        "zh-CN": "相关研究路线；未据此认定论文使用本型号。",
+        "en": "Related research route; this does not establish that a paper used this model."
+      }
+    }
+  },
+  {
+    "id": "detail-8075598d6657",
+    "source_id": "E254",
+    "model_as_reported": "SesameX Kalos",
+    "related_subcategories": [
+      "05-02"
+    ],
+    "facts": {
+      "function": {
+        "zh-CN": "视觉驱动模组",
+        "en": "Vision-driven module"
+      },
+      "limits": {
+        "zh-CN": "不能据角色名称推算算力和功耗",
+        "en": "Role names do not establish compute or power specifications"
+      }
+    },
+    "research_relation": {
+      "kind": "related_route",
+      "note": {
+        "zh-CN": "相关研究路线；未据此认定论文使用本型号。",
+        "en": "Related research route; this does not establish that a paper used this model."
+      }
+    }
+  },
+  {
+    "id": "detail-2814fa3de7e8",
+    "source_id": "E254",
+    "model_as_reported": "SesameX Aura",
+    "related_subcategories": [
+      "05-02"
+    ],
+    "facts": {
+      "function": {
+        "zh-CN": "感控协同模组",
+        "en": "Perception/control coordination module"
+      },
+      "limits": {
+        "zh-CN": "不能据角色名称推算算力和功耗",
+        "en": "Role names do not establish compute or power specifications"
+      }
+    },
+    "research_relation": {
+      "kind": "related_route",
+      "note": {
+        "zh-CN": "相关研究路线；未据此认定论文使用本型号。",
+        "en": "Related research route; this does not establish that a paper used this model."
+      }
+    }
+  },
+  {
+    "id": "detail-00247c71855b",
+    "source_id": "E254",
+    "model_as_reported": "SesameX Liora",
+    "related_subcategories": [
+      "05-02"
+    ],
+    "facts": {
+      "function": {
+        "zh-CN": "认知功能模组",
+        "en": "Cognition module"
+      },
+      "limits": {
+        "zh-CN": "不能据角色名称推算算力和功耗",
+        "en": "Role names do not establish compute or power specifications"
+      }
+    },
+    "research_relation": {
+      "kind": "related_route",
+      "note": {
+        "zh-CN": "相关研究路线；未据此认定论文使用本型号。",
+        "en": "Related research route; this does not establish that a paper used this model."
+      }
+    }
+  },
+  {
+    "id": "detail-1bb255edd235",
+    "source_id": "E255",
+    "model_as_reported": "MotionMotive",
+    "related_subcategories": [
+      "08-01",
+      "10-02"
+    ],
+    "facts": {
+      "data": {
+        "zh-CN": "文本、视频、音乐或动捕输入",
+        "en": "Text, video, music or motion-capture inputs"
+      },
+      "function": {
+        "zh-CN": "生成动作并部署本体",
+        "en": "Motion generation and robot deployment"
+      }
+    },
+    "research_relation": {
+      "kind": "related_route",
+      "note": {
+        "zh-CN": "相关研究路线；未据此认定论文使用本型号。",
+        "en": "Related research route; this does not establish that a paper used this model."
+      }
+    }
+  },
+  {
+    "id": "detail-29cda3421a04",
+    "source_id": "E255",
+    "model_as_reported": "LS-Tac",
+    "related_subcategories": [
+      "04-05",
+      "10-04"
+    ],
+    "facts": {
+      "function": {
+        "zh-CN": "近距离视觉与触觉；连接数采、训练和端侧部署",
+        "en": "Near-field vision and touch connected with collection, training and edge deployment"
+      }
+    },
+    "research_relation": {
+      "kind": "related_route",
+      "note": {
+        "zh-CN": "相关研究路线；未据此认定论文使用本型号。",
+        "en": "Related research route; this does not establish that a paper used this model."
+      }
+    }
+  },
+  {
+    "id": "detail-b3dfaa390359",
+    "source_id": "E256",
+    "model_as_reported": "RK182X",
+    "related_subcategories": [
+      "05-01"
+    ],
+    "facts": {
+      "processor": {
+        "zh-CN": "多核RISC-V的AI协处理器",
+        "en": "AI coprocessor with multicore RISC-V"
+      },
+      "compute": {
+        "zh-CN": "2.5GB/5GB DRAM",
+        "en": "2.5GB/5GB DRAM"
+      },
+      "interface": {
+        "zh-CN": "USB3、PCIe",
+        "en": "USB3, PCIe"
+      }
+    },
+    "research_relation": {
+      "kind": "related_route",
+      "note": {
+        "zh-CN": "相关研究路线；未据此认定论文使用本型号。",
+        "en": "Related research route; this does not establish that a paper used this model."
+      }
+    }
+  },
+  {
+    "id": "detail-bdc56cbf17a5",
+    "source_id": "E256",
+    "model_as_reported": "RK3588",
+    "related_subcategories": [
+      "05-01"
+    ],
+    "facts": {
+      "processor": {
+        "zh-CN": "A76+A55 SoC",
+        "en": "A76+A55 SoC"
+      },
+      "compute": {
+        "zh-CN": "6TOPS NPU；非端到端时延",
+        "en": "6TOPS NPU; not end-to-end latency"
+      }
+    },
+    "research_relation": {
+      "kind": "related_route",
+      "note": {
+        "zh-CN": "相关研究路线；未据此认定论文使用本型号。",
+        "en": "Related research route; this does not establish that a paper used this model."
+      }
+    }
+  },
+  {
+    "id": "detail-a44ded3205b0",
+    "source_id": "E257",
+    "model_as_reported": "T38",
+    "related_subcategories": [
+      "05-02"
+    ],
+    "facts": {
+      "processor": {
+        "zh-CN": "RK3588",
+        "en": "RK3588"
+      },
+      "compute": {
+        "zh-CN": "LPDDR4、eMMC",
+        "en": "LPDDR4, eMMC"
+      },
+      "interface": {
+        "zh-CN": "双千兆、260Pin",
+        "en": "Dual gigabit networking, 260Pin"
+      }
+    },
+    "research_relation": {
+      "kind": "related_route",
+      "note": {
+        "zh-CN": "相关研究路线；未据此认定论文使用本型号。",
+        "en": "Related research route; this does not establish that a paper used this model."
+      }
+    }
+  },
+  {
+    "id": "detail-89b540f7de1c",
+    "source_id": "E260",
+    "model_as_reported": "GD32F50MxxG",
+    "related_subcategories": [
+      "05-03"
+    ],
+    "facts": {
+      "function": {
+        "zh-CN": "电机控制MCU产品入口",
+        "en": "Motor-control MCU product entry"
+      }
+    },
+    "research_relation": {
+      "kind": "related_route",
+      "note": {
+        "zh-CN": "相关研究路线；未据此认定论文使用本型号。",
+        "en": "Related research route; this does not establish that a paper used this model."
+      }
+    }
+  },
+  {
+    "id": "detail-075abef402a5",
+    "source_id": "E261",
+    "model_as_reported": "Kria AI",
+    "related_subcategories": [
+      "05-01",
+      "05-03"
+    ],
+    "facts": {
+      "function": {
+        "zh-CN": "机器人计算/控制产品系列，具体环节按官方方案核对。",
+        "en": "Robot compute/control family; check its exact role in the official solution."
+      },
+      "limits": {
+        "zh-CN": "不将不同架构混作单一型号横比",
+        "en": "Different architectures are not one comparable model"
+      }
+    },
+    "research_relation": {
+      "kind": "related_route",
+      "note": {
+        "zh-CN": "相关研究路线；未据此认定论文使用本型号。",
+        "en": "Related research route; this does not establish that a paper used this model."
+      }
+    }
+  },
+  {
+    "id": "detail-6a264f949a03",
+    "source_id": "E261",
+    "model_as_reported": "Ryzen AI Embedded",
+    "related_subcategories": [
+      "05-01",
+      "05-03"
+    ],
+    "facts": {
+      "function": {
+        "zh-CN": "机器人计算/控制产品系列，具体环节按官方方案核对。",
+        "en": "Robot compute/control family; check its exact role in the official solution."
+      },
+      "limits": {
+        "zh-CN": "不将不同架构混作单一型号横比",
+        "en": "Different architectures are not one comparable model"
+      }
+    },
+    "research_relation": {
+      "kind": "related_route",
+      "note": {
+        "zh-CN": "相关研究路线；未据此认定论文使用本型号。",
+        "en": "Related research route; this does not establish that a paper used this model."
+      }
+    }
+  },
+  {
+    "id": "detail-02e83f175eb0",
+    "source_id": "E261",
+    "model_as_reported": "Zynq UltraScale+",
+    "related_subcategories": [
+      "05-01",
+      "05-03"
+    ],
+    "facts": {
+      "function": {
+        "zh-CN": "机器人计算/控制产品系列，具体环节按官方方案核对。",
+        "en": "Robot compute/control family; check its exact role in the official solution."
+      },
+      "limits": {
+        "zh-CN": "不将不同架构混作单一型号横比",
+        "en": "Different architectures are not one comparable model"
+      }
+    },
+    "research_relation": {
+      "kind": "related_route",
+      "note": {
+        "zh-CN": "相关研究路线；未据此认定论文使用本型号。",
+        "en": "Related research route; this does not establish that a paper used this model."
+      }
+    }
+  },
+  {
+    "id": "detail-bf9d2b8da4ac",
+    "source_id": "E261",
+    "model_as_reported": "Versal AI Edge Gen 2",
+    "related_subcategories": [
+      "05-01",
+      "05-03"
+    ],
+    "facts": {
+      "function": {
+        "zh-CN": "机器人计算/控制产品系列，具体环节按官方方案核对。",
+        "en": "Robot compute/control family; check its exact role in the official solution."
+      },
+      "limits": {
+        "zh-CN": "不将不同架构混作单一型号横比",
+        "en": "Different architectures are not one comparable model"
+      }
+    },
+    "research_relation": {
+      "kind": "related_route",
+      "note": {
+        "zh-CN": "相关研究路线；未据此认定论文使用本型号。",
+        "en": "Related research route; this does not establish that a paper used this model."
+      }
+    }
+  },
+  {
+    "id": "detail-e4893df6fb8d",
+    "source_id": "E261",
+    "model_as_reported": "Spartan UltraScale+",
+    "related_subcategories": [
+      "05-01",
+      "05-03"
+    ],
+    "facts": {
+      "function": {
+        "zh-CN": "机器人计算/控制产品系列，具体环节按官方方案核对。",
+        "en": "Robot compute/control family; check its exact role in the official solution."
+      },
+      "limits": {
+        "zh-CN": "不将不同架构混作单一型号横比",
+        "en": "Different architectures are not one comparable model"
+      }
+    },
+    "research_relation": {
+      "kind": "related_route",
+      "note": {
+        "zh-CN": "相关研究路线；未据此认定论文使用本型号。",
+        "en": "Related research route; this does not establish that a paper used this model."
+      }
+    }
+  },
+  {
+    "id": "detail-7fee3d34227e",
+    "source_id": "E264",
+    "model_as_reported": "World Compiler",
+    "related_subcategories": [
+      "10-02"
+    ],
+    "facts": {
+      "function": {
+        "zh-CN": "人体动作到机器人数据的表达",
+        "en": "Representation of human motion as robot data"
+      }
+    },
+    "research_relation": {
+      "kind": "related_route",
+      "note": {
+        "zh-CN": "相关研究路线；未据此认定论文使用本型号。",
+        "en": "Related research route; this does not establish that a paper used this model."
+      }
+    }
+  },
+  {
+    "id": "detail-20ae7e763f8d",
+    "source_id": "E264",
+    "model_as_reported": "ModalityNet",
+    "related_subcategories": [
+      "10-06"
+    ],
+    "facts": {
+      "data": {
+        "zh-CN": "多源数据组织",
+        "en": "Multi-source data organization"
+      },
+      "limits": {
+        "zh-CN": "模态定义与通用适配基准未列",
+        "en": "Modality definitions and general adaptation benchmarks absent"
+      }
+    },
+    "research_relation": {
+      "kind": "related_route",
+      "note": {
+        "zh-CN": "相关研究路线；未据此认定论文使用本型号。",
+        "en": "Related research route; this does not establish that a paper used this model."
+      }
+    }
+  },
+  {
+    "id": "detail-8e8ce8cada97",
+    "source_id": "E265",
+    "model_as_reported": "HDR",
+    "related_subcategories": [
+      "08-02",
+      "08-03"
+    ],
+    "facts": {
+      "function": {
+        "zh-CN": "层次化去噪视觉推理与规划；迷宫、找球演示",
+        "en": "Hierarchical-denoising visual reasoning/planning; maze and ball-search demonstrations"
+      },
+      "limits": {
+        "zh-CN": "不能解释为工业操作综合成功率",
+        "en": "Not an overall industrial-manipulation success measure"
+      }
+    },
+    "research_relation": {
+      "kind": "related_route",
+      "note": {
+        "zh-CN": "相关研究路线；未据此认定论文使用本型号。",
+        "en": "Related research route; this does not establish that a paper used this model."
+      }
+    }
+  },
+  {
+    "id": "detail-787b6ddcfbfc",
+    "source_id": "E266",
+    "model_as_reported": "EgoSuite",
+    "related_subcategories": [
+      "10-01",
+      "10-05"
+    ],
+    "facts": {
+      "function": {
+        "zh-CN": "采集、自动标注与质检",
+        "en": "Collection, automatic annotation and quality checking"
+      }
+    },
+    "research_relation": {
+      "kind": "related_route",
+      "note": {
+        "zh-CN": "相关研究路线；未据此认定论文使用本型号。",
+        "en": "Related research route; this does not establish that a paper used this model."
+      }
+    }
+  },
+  {
+    "id": "detail-d81d5dd036ea",
+    "source_id": "E266",
+    "model_as_reported": "RoboFinals",
+    "related_subcategories": [
+      "11-03",
+      "12-01"
+    ],
+    "facts": {
+      "function": {
+        "zh-CN": "仿真评测",
+        "en": "Simulation evaluation"
+      }
+    },
+    "research_relation": {
+      "kind": "related_route",
+      "note": {
+        "zh-CN": "相关研究路线；未据此认定论文使用本型号。",
+        "en": "Related research route; this does not establish that a paper used this model."
+      }
+    }
+  },
+  {
+    "id": "detail-ca380a9adb66",
+    "source_id": "E266",
+    "model_as_reported": "RoboStack",
+    "related_subcategories": [
+      "12-04",
+      "12-05"
+    ],
+    "facts": {
+      "function": {
+        "zh-CN": "部署及失败反馈链路",
+        "en": "Deployment and failure-feedback chain"
+      }
+    },
+    "research_relation": {
+      "kind": "related_route",
+      "note": {
+        "zh-CN": "相关研究路线；未据此认定论文使用本型号。",
+        "en": "Related research route; this does not establish that a paper used this model."
+      }
+    }
+  },
+  {
+    "id": "detail-054416da170c",
+    "source_id": "E267",
+    "model_as_reported": "T Titan",
+    "related_subcategories": [
+      "05-02"
+    ],
+    "facts": {
+      "function": {
+        "zh-CN": "异构域控制器",
+        "en": "Heterogeneous domain controller"
+      },
+      "limits": {
+        "zh-CN": "处理器、接口和功耗未列",
+        "en": "Processor, interfaces and power absent"
+      }
+    },
+    "research_relation": {
+      "kind": "related_route",
+      "note": {
+        "zh-CN": "相关研究路线；未据此认定论文使用本型号。",
+        "en": "Related research route; this does not establish that a paper used this model."
+      }
+    }
+  },
+  {
+    "id": "detail-fc623e2107f9",
+    "source_id": "E267",
+    "model_as_reported": "N Nimble",
+    "related_subcategories": [
+      "05-02"
+    ],
+    "facts": {
+      "function": {
+        "zh-CN": "紧凑计算方案",
+        "en": "Compact compute solution"
+      },
+      "limits": {
+        "zh-CN": "处理器、接口和功耗未列",
+        "en": "Processor, interfaces and power absent"
+      }
+    },
+    "research_relation": {
+      "kind": "related_route",
+      "note": {
+        "zh-CN": "相关研究路线；未据此认定论文使用本型号。",
+        "en": "Related research route; this does not establish that a paper used this model."
+      }
+    }
+  },
+  {
+    "id": "detail-fda5a13ecd96",
+    "source_id": "E267",
+    "model_as_reported": "B BotPack",
+    "related_subcategories": [
+      "05-02"
+    ],
+    "facts": {
+      "function": {
+        "zh-CN": "便携算力",
+        "en": "Portable compute"
+      },
+      "limits": {
+        "zh-CN": "处理器、接口和功耗未列",
+        "en": "Processor, interfaces and power absent"
+      }
+    },
+    "research_relation": {
+      "kind": "related_route",
+      "note": {
+        "zh-CN": "相关研究路线；未据此认定论文使用本型号。",
+        "en": "Related research route; this does not establish that a paper used this model."
+      }
+    }
+  },
+  {
+    "id": "detail-6109b99082c6",
+    "source_id": "E270",
+    "model_as_reported": "绳驱灵巧手（来源未给型号）",
+    "related_subcategories": [
+      "03-03",
+      "03-04"
+    ],
+    "facts": {
+      "dof": {
+        "zh-CN": "21+独立自由度",
+        "en": "21+ independent degrees of freedom"
+      },
+      "sensing": {
+        "zh-CN": "1900个感知单元",
+        "en": "1900 sensing elements"
+      }
+    },
+    "research_relation": {
+      "kind": "related_route",
+      "note": {
+        "zh-CN": "相关研究路线；未据此认定论文使用本型号。",
+        "en": "Related research route; this does not establish that a paper used this model."
+      }
+    }
+  },
+  {
+    "id": "detail-229d70a12fd5",
+    "source_id": "E270",
+    "model_as_reported": "DexUMI",
+    "related_subcategories": [
+      "10-01",
+      "10-04"
+    ],
+    "facts": {
+      "function": {
+        "zh-CN": "数采方案；具体输入模态按各套件文档核对。",
+        "en": "Data-collection solution; input modalities need kit-specific documentation."
+      },
+      "limits": {
+        "zh-CN": "原提要合并描述多种采集设备，不能全部归给单套件。",
+        "en": "The source summary groups several capture devices; not all belong to each kit."
+      }
+    },
+    "research_relation": {
+      "kind": "related_route",
+      "note": {
+        "zh-CN": "相关研究路线；未据此认定论文使用本型号。",
+        "en": "Related research route; this does not establish that a paper used this model."
+      }
+    }
+  },
+  {
+    "id": "detail-3ec09eb45a03",
+    "source_id": "E270",
+    "model_as_reported": "EgoBio",
+    "related_subcategories": [
+      "10-01",
+      "10-04"
+    ],
+    "facts": {
+      "function": {
+        "zh-CN": "数采方案；具体输入模态按各套件文档核对。",
+        "en": "Data-collection solution; input modalities need kit-specific documentation."
+      },
+      "limits": {
+        "zh-CN": "原提要合并描述多种采集设备，不能全部归给单套件。",
+        "en": "The source summary groups several capture devices; not all belong to each kit."
+      }
+    },
+    "research_relation": {
+      "kind": "related_route",
+      "note": {
+        "zh-CN": "相关研究路线；未据此认定论文使用本型号。",
+        "en": "Related research route; this does not establish that a paper used this model."
+      }
+    }
+  },
+  {
+    "id": "detail-613d2c6afe77",
+    "source_id": "E270",
+    "model_as_reported": "SYN World MoT",
+    "related_subcategories": [
+      "08-02"
+    ],
+    "facts": {
+      "function": {
+        "zh-CN": "世界模型与逆动力学",
+        "en": "World models and inverse dynamics"
+      }
+    },
+    "research_relation": {
+      "kind": "related_route",
+      "note": {
+        "zh-CN": "相关研究路线；未据此认定论文使用本型号。",
+        "en": "Related research route; this does not establish that a paper used this model."
+      }
+    }
+  },
+  {
+    "id": "detail-7cff5ec24fff",
+    "source_id": "E271",
+    "model_as_reported": "RoboRR1",
+    "related_subcategories": [
+      "05-02"
+    ],
+    "facts": {
+      "compute": {
+        "zh-CN": "峰值500TOPS；CPU 420KDMIPS；GPU 1TFLOPS；204.8GB/s",
+        "en": "500TOPS peak; CPU 420KDMIPS; GPU 1TFLOPS; 204.8GB/s"
+      },
+      "interface": {
+        "zh-CN": "EtherCAT、CAN FD",
+        "en": "EtherCAT, CAN FD"
+      },
+      "limits": {
+        "zh-CN": "算力精度条件未明确，不用于排名",
+        "en": "Compute precision unspecified; not used for ranking"
+      }
+    },
+    "research_relation": {
+      "kind": "related_route",
+      "note": {
+        "zh-CN": "相关研究路线；未据此认定论文使用本型号。",
+        "en": "Related research route; this does not establish that a paper used this model."
+      }
+    }
+  },
+  {
+    "id": "detail-a8c289c90bb0",
+    "source_id": "E273",
+    "model_as_reported": "Openmind OS",
+    "related_subcategories": [
+      "09-01",
+      "09-04"
+    ],
+    "facts": {
+      "function": {
+        "zh-CN": "操作系统入口",
+        "en": "Operating-system entry"
+      },
+      "limits": {
+        "zh-CN": "原表魔豆/大雁等命名待校正；保留同源上下文",
+        "en": "Original 魔豆/大雁 names need correction; retain source context"
+      }
+    },
+    "research_relation": {
+      "kind": "related_route",
+      "note": {
+        "zh-CN": "相关研究路线；未据此认定论文使用本型号。",
+        "en": "Related research route; this does not establish that a paper used this model."
+      }
+    }
+  },
+  {
+    "id": "detail-2d62b663ca3f",
+    "source_id": "E273",
+    "model_as_reported": "墨斗 IDE",
+    "related_subcategories": [
+      "09-01",
+      "09-04"
+    ],
+    "facts": {
+      "function": {
+        "zh-CN": "开发环境入口",
+        "en": "Development-environment entry"
+      },
+      "limits": {
+        "zh-CN": "原表魔豆/大雁等命名待校正；保留同源上下文",
+        "en": "Original 魔豆/大雁 names need correction; retain source context"
+      }
+    },
+    "research_relation": {
+      "kind": "related_route",
+      "note": {
+        "zh-CN": "相关研究路线；未据此认定论文使用本型号。",
+        "en": "Related research route; this does not establish that a paper used this model."
+      }
+    }
+  },
+  {
+    "id": "detail-58db7545d9f5",
+    "source_id": "E273",
+    "model_as_reported": "HALO",
+    "related_subcategories": [
+      "09-01",
+      "09-04"
+    ],
+    "facts": {
+      "function": {
+        "zh-CN": "技能服务入口",
+        "en": "Skill-service entry"
+      },
+      "limits": {
+        "zh-CN": "原表魔豆/大雁等命名待校正；保留同源上下文",
+        "en": "Original 魔豆/大雁 names need correction; retain source context"
+      }
+    },
+    "research_relation": {
+      "kind": "related_route",
+      "note": {
+        "zh-CN": "相关研究路线；未据此认定论文使用本型号。",
+        "en": "Related research route; this does not establish that a paper used this model."
+      }
+    }
+  },
+  {
+    "id": "detail-8b09b1f60a99",
+    "source_id": "E275",
+    "model_as_reported": "FunSim",
+    "related_subcategories": [
+      "11-01"
+    ],
+    "facts": {
+      "function": {
+        "zh-CN": "仿真、标注数据与集成服务",
+        "en": "Simulation, annotated data and integration services"
+      },
+      "limits": {
+        "zh-CN": "训练周期缩至三分之一无基线和方法",
+        "en": "One-third training-time claim lacks baseline and method"
+      }
+    },
+    "research_relation": {
+      "kind": "related_route",
+      "note": {
+        "zh-CN": "相关研究路线；未据此认定论文使用本型号。",
+        "en": "Related research route; this does not establish that a paper used this model."
+      }
+    }
+  },
+  {
+    "id": "detail-f5ecfd4542b7",
+    "source_id": "E280",
+    "model_as_reported": "挂轨机器人（型号未列）",
+    "related_subcategories": [
+      "14-05"
+    ],
+    "facts": {
+      "structure": {
+        "zh-CN": "伸缩1.6m；滑触线供电",
+        "en": "1.6m extension; conductor-rail power"
+      },
+      "precision": {
+        "zh-CN": "垂直定位±5mm",
+        "en": "Vertical positioning ±5mm"
+      },
+      "performance": {
+        "zh-CN": "水平速度1m/s",
+        "en": "Horizontal speed 1m/s"
+      }
+    },
+    "research_relation": {
+      "kind": "related_route",
+      "note": {
+        "zh-CN": "相关研究路线；未据此认定论文使用本型号。",
+        "en": "Related research route; this does not establish that a paper used this model."
+      }
+    }
+  },
+  {
+    "id": "detail-f6f7ebcd45cd",
+    "source_id": "E281",
+    "model_as_reported": "R100",
+    "related_subcategories": [
+      "14-05"
+    ],
+    "facts": {
+      "structure": {
+        "zh-CN": "四驱四转",
+        "en": "Four-wheel drive and steering"
+      },
+      "sensing": {
+        "zh-CN": "激光视觉融合",
+        "en": "Laser/vision fusion"
+      },
+      "protection": {
+        "zh-CN": "IP65",
+        "en": "IP65"
+      },
+      "energy": {
+        "zh-CN": "8小时续航，无线回充",
+        "en": "8-hour endurance, wireless charging"
+      }
+    },
+    "research_relation": {
+      "kind": "related_route",
+      "note": {
+        "zh-CN": "相关研究路线；未据此认定论文使用本型号。",
+        "en": "Related research route; this does not establish that a paper used this model."
+      }
+    }
+  },
+  {
+    "id": "detail-b0be3235dc66",
+    "source_id": "E282",
+    "model_as_reported": "滚筒清灰方案",
+    "related_subcategories": [
+      "14-05"
+    ],
+    "facts": {
+      "structure": {
+        "zh-CN": "清灰宽度1.5m",
+        "en": "1.5m cleaning width"
+      },
+      "performance": {
+        "zh-CN": "8㎡/min",
+        "en": "8㎡/min"
+      }
+    },
+    "research_relation": {
+      "kind": "related_route",
+      "note": {
+        "zh-CN": "相关研究路线；未据此认定论文使用本型号。",
+        "en": "Related research route; this does not establish that a paper used this model."
+      }
+    }
+  },
+  {
+    "id": "detail-aef3f484d46d",
+    "source_id": "E282",
+    "model_as_reported": "高压水清灰方案",
+    "related_subcategories": [
+      "14-05"
+    ],
+    "facts": {
+      "output": {
+        "zh-CN": "35MPa",
+        "en": "35MPa"
+      },
+      "performance": {
+        "zh-CN": "2㎡/min",
+        "en": "2㎡/min"
+      }
+    },
+    "research_relation": {
+      "kind": "related_route",
+      "note": {
+        "zh-CN": "相关研究路线；未据此认定论文使用本型号。",
+        "en": "Related research route; this does not establish that a paper used this model."
+      }
+    }
+  },
+  {
+    "id": "detail-8dc064156c0d",
+    "source_id": "E283",
+    "model_as_reported": "PBF-LB/M机器人结构件",
+    "related_subcategories": [
+      "13-02"
+    ],
+    "facts": {
+      "structure": {
+        "zh-CN": "金属粉末床熔融；肩、胸、小臂、腿、手指关节",
+        "en": "Metal powder-bed fusion for shoulder, chest, forearm, leg and finger-joint parts"
+      },
+      "limits": {
+        "zh-CN": "同材同载荷减重对比未列",
+        "en": "No same-material/same-load weight comparison"
+      }
+    },
+    "research_relation": {
+      "kind": "related_route",
+      "note": {
+        "zh-CN": "相关研究路线；未据此认定论文使用本型号。",
+        "en": "Related research route; this does not establish that a paper used this model."
+      }
+    }
+  },
+  {
+    "id": "detail-4cb683dcd0bb",
+    "source_id": "E284",
+    "model_as_reported": "七自由度力反馈手柄",
+    "related_subcategories": [
+      "04-06",
+      "10-01"
+    ],
+    "facts": {
+      "dof": {
+        "zh-CN": "7",
+        "en": "7"
+      },
+      "function": {
+        "zh-CN": "力反馈交互；另有双臂双边遥操作",
+        "en": "Force-feedback interaction; separate bilateral bimanual teleoperation"
+      }
+    },
+    "research_relation": {
+      "kind": "related_route",
+      "note": {
+        "zh-CN": "相关研究路线；未据此认定论文使用本型号。",
+        "en": "Related research route; this does not establish that a paper used this model."
+      }
+    }
+  },
+  {
+    "id": "detail-403d3c771bf4",
+    "source_id": "E285",
+    "model_as_reported": "VL4",
+    "related_subcategories": [
+      "13-01"
+    ],
+    "facts": {
+      "structure": {
+        "zh-CN": "带自动化和存储区的立式车床",
+        "en": "Vertical lathe with automation and storage area"
+      }
+    },
+    "research_relation": {
+      "kind": "related_route",
+      "note": {
+        "zh-CN": "相关研究路线；未据此认定论文使用本型号。",
+        "en": "Related research route; this does not establish that a paper used this model."
+      }
+    }
+  },
+  {
+    "id": "detail-e91d2497944c",
+    "source_id": "E285",
+    "model_as_reported": "K160",
+    "related_subcategories": [
+      "13-01"
+    ],
+    "facts": {
+      "function": {
+        "zh-CN": "模数2.5以下齿轮加工；干湿加工",
+        "en": "Gear machining below module 2.5; dry/wet processing"
+      }
+    },
+    "research_relation": {
+      "kind": "related_route",
+      "note": {
+        "zh-CN": "相关研究路线；未据此认定论文使用本型号。",
+        "en": "Related research route; this does not establish that a paper used this model."
+      }
+    }
+  },
+  {
+    "id": "detail-534d16756085",
+    "source_id": "E287",
+    "model_as_reported": "VHB",
+    "related_subcategories": [
+      "13-01"
+    ],
+    "facts": {
+      "function": {
+        "zh-CN": "结构粘接胶带",
+        "en": "Structural bonding tape"
+      }
+    },
+    "research_relation": {
+      "kind": "related_route",
+      "note": {
+        "zh-CN": "相关研究路线；未据此认定论文使用本型号。",
+        "en": "Related research route; this does not establish that a paper used this model."
+      }
+    }
+  },
+  {
+    "id": "detail-61de0c945611",
+    "source_id": "E287",
+    "model_as_reported": "Dual Lock",
+    "related_subcategories": [
+      "13-01"
+    ],
+    "facts": {
+      "function": {
+        "zh-CN": "可拆互锁固定件",
+        "en": "Removable interlocking fastener"
+      }
+    },
+    "research_relation": {
+      "kind": "related_route",
+      "note": {
+        "zh-CN": "相关研究路线；未据此认定论文使用本型号。",
+        "en": "Related research route; this does not establish that a paper used this model."
+      }
+    }
+  },
+  {
+    "id": "detail-aabbed5e0f4b",
+    "source_id": "E287",
+    "model_as_reported": "GM641",
+    "related_subcategories": [
+      "13-01"
+    ],
+    "facts": {
+      "function": {
+        "zh-CN": "微结构抓握材料，改变表面摩擦",
+        "en": "Microstructured gripping material affecting surface friction"
+      }
+    },
+    "research_relation": {
+      "kind": "related_route",
+      "note": {
+        "zh-CN": "相关研究路线；未据此认定论文使用本型号。",
+        "en": "Related research route; this does not establish that a paper used this model."
+      }
+    }
+  },
+  {
+    "id": "detail-2b28f8fdd266",
+    "source_id": "E289",
+    "model_as_reported": "XL-DCMTA",
+    "related_subcategories": [
+      "02-05"
+    ],
+    "facts": {
+      "interface": {
+        "zh-CN": "EtherCAT、CANopen",
+        "en": "EtherCAT, CANopen"
+      },
+      "sensing": {
+        "zh-CN": "双编码器",
+        "en": "Dual encoders"
+      }
+    },
+    "research_relation": {
+      "kind": "related_route",
+      "note": {
+        "zh-CN": "相关研究路线；未据此认定论文使用本型号。",
+        "en": "Related research route; this does not establish that a paper used this model."
+      }
+    }
+  },
+  {
+    "id": "detail-61087e1cfefa",
+    "source_id": "E289",
+    "model_as_reported": "XLD48G12N1000",
+    "related_subcategories": [
+      "05-06"
+    ],
+    "facts": {
+      "power": {
+        "zh-CN": "1000W；输入38–60V；输出9.6–15V",
+        "en": "1000W; 38–60V input; 9.6–15V output"
+      },
+      "limits": {
+        "zh-CN": "峰值效率与持续效率分开",
+        "en": "Peak and sustained efficiency kept separate"
+      }
+    },
+    "research_relation": {
+      "kind": "related_route",
+      "note": {
+        "zh-CN": "相关研究路线；未据此认定论文使用本型号。",
+        "en": "Related research route; this does not establish that a paper used this model."
+      }
+    }
+  },
+  {
+    "id": "detail-e331036f8074",
+    "source_id": "E291",
+    "model_as_reported": "MLX90381",
+    "related_subcategories": [
+      "04-03"
+    ],
+    "facts": {
+      "structure": {
+        "zh-CN": "三维磁位置芯片；可选感应轴",
+        "en": "3D magnetic-position chip; selectable axes"
+      },
+      "interface": {
+        "zh-CN": "Sin/Cos输出",
+        "en": "Sin/Cos output"
+      },
+      "performance": {
+        "zh-CN": "最高50000 e-rpm，为电角速度",
+        "en": "Up to 50000 e-rpm, electrical rotational speed"
+      }
+    },
+    "research_relation": {
+      "kind": "related_route",
+      "note": {
+        "zh-CN": "相关研究路线；未据此认定论文使用本型号。",
+        "en": "Related research route; this does not establish that a paper used this model."
+      }
+    }
+  },
+  {
+    "id": "detail-57e27ed113a8",
+    "source_id": "E292",
+    "model_as_reported": "TGP7000ULM BLU",
+    "related_subcategories": [
+      "05-06",
+      "13-01"
+    ],
+    "facts": {
+      "structure": {
+        "zh-CN": "低模量导热间隙填充材料",
+        "en": "Low-modulus thermal gap filler"
+      },
+      "performance": {
+        "zh-CN": "7.5W/(m·K)；按压缩及界面条件解释",
+        "en": "7.5W/(m·K); interpret with compression/interface conditions"
+      }
+    },
+    "research_relation": {
+      "kind": "related_route",
+      "note": {
+        "zh-CN": "相关研究路线；未据此认定论文使用本型号。",
+        "en": "Related research route; this does not establish that a paper used this model."
+      }
+    }
+  },
+  {
+    "id": "detail-c071279ac369",
+    "source_id": "E293",
+    "model_as_reported": "EBR48",
+    "related_subcategories": [
+      "05-06"
+    ],
+    "facts": {
+      "function": {
+        "zh-CN": "分别对应电压平台的BMS",
+        "en": "BMS variants for corresponding voltage platforms"
+      },
+      "limits": {
+        "zh-CN": "电压标签不是容量或续航",
+        "en": "Voltage labels are not capacity or endurance"
+      }
+    },
+    "research_relation": {
+      "kind": "related_route",
+      "note": {
+        "zh-CN": "相关研究路线；未据此认定论文使用本型号。",
+        "en": "Related research route; this does not establish that a paper used this model."
+      }
+    }
+  },
+  {
+    "id": "detail-4e9bf03a2395",
+    "source_id": "E293",
+    "model_as_reported": "EBR60",
+    "related_subcategories": [
+      "05-06"
+    ],
+    "facts": {
+      "function": {
+        "zh-CN": "分别对应电压平台的BMS",
+        "en": "BMS variants for corresponding voltage platforms"
+      },
+      "limits": {
+        "zh-CN": "电压标签不是容量或续航",
+        "en": "Voltage labels are not capacity or endurance"
+      }
+    },
+    "research_relation": {
+      "kind": "related_route",
+      "note": {
+        "zh-CN": "相关研究路线；未据此认定论文使用本型号。",
+        "en": "Related research route; this does not establish that a paper used this model."
+      }
+    }
+  },
+  {
+    "id": "detail-118e4880e2ff",
+    "source_id": "E293",
+    "model_as_reported": "EBR72",
+    "related_subcategories": [
+      "05-06"
+    ],
+    "facts": {
+      "function": {
+        "zh-CN": "分别对应电压平台的BMS",
+        "en": "BMS variants for corresponding voltage platforms"
+      },
+      "limits": {
+        "zh-CN": "电压标签不是容量或续航",
+        "en": "Voltage labels are not capacity or endurance"
+      }
+    },
+    "research_relation": {
+      "kind": "related_route",
+      "note": {
+        "zh-CN": "相关研究路线；未据此认定论文使用本型号。",
+        "en": "Related research route; this does not establish that a paper used this model."
+      }
+    }
+  },
+  {
+    "id": "detail-e4e6e24ce5f8",
+    "source_id": "E300",
+    "model_as_reported": "Prim Ego Pro",
+    "related_subcategories": [
+      "10-01",
+      "10-04"
+    ],
+    "facts": {
+      "sensing": {
+        "zh-CN": "六相机；横向270°视场",
+        "en": "Six cameras; 270° horizontal field of view"
+      },
+      "energy": {
+        "zh-CN": "分体电池",
+        "en": "Separate battery"
+      }
+    },
+    "research_relation": {
+      "kind": "related_route",
+      "note": {
+        "zh-CN": "相关研究路线；未据此认定论文使用本型号。",
+        "en": "Related research route; this does not establish that a paper used this model."
+      }
+    }
+  },
+  {
+    "id": "detail-a495bf0f7fef",
+    "source_id": "E300",
+    "model_as_reported": "Prim Studio",
+    "related_subcategories": [
+      "10-05",
+      "10-06"
+    ],
+    "facts": {
+      "function": {
+        "zh-CN": "存储、清洗、标注、训推与部署",
+        "en": "Storage, cleaning, annotation, training/inference and deployment"
+      },
+      "limits": {
+        "zh-CN": "公开版本与本地商业版本须分开",
+        "en": "Public and local commercial versions must remain separate"
+      }
+    },
+    "research_relation": {
+      "kind": "related_route",
+      "note": {
+        "zh-CN": "相关研究路线；未据此认定论文使用本型号。",
+        "en": "Related research route; this does not establish that a paper used this model."
+      }
+    }
+  },
+  {
+    "id": "detail-18c55f3ce9f9",
+    "source_id": "E307",
+    "model_as_reported": "灵龙 H1",
+    "related_subcategories": [
+      "01-08",
+      "10-01"
+    ],
+    "facts": {
+      "dof": {
+        "zh-CN": "七自由度机械臂",
+        "en": "Seven-degree-of-freedom arms"
+      },
+      "structure": {
+        "zh-CN": "半身数采与分拣；行星减速",
+        "en": "Upper-body collection/sorting platform; planetary gearing"
+      },
+      "interface": {
+        "zh-CN": "本体、遥操与文档入口",
+        "en": "Robot, teleoperation and documentation entries"
+      }
+    },
+    "research_relation": {
+      "kind": "related_route",
+      "note": {
+        "zh-CN": "相关研究路线；未据此认定论文使用本型号。",
+        "en": "Related research route; this does not establish that a paper used this model."
+      }
+    }
+  },
+  {
+    "id": "detail-4510727de96c",
+    "source_id": "E309",
+    "model_as_reported": "启江",
+    "related_subcategories": [
+      "01-01"
+    ],
+    "facts": {
+      "structure": {
+        "zh-CN": "约1.8m",
+        "en": "About 1.8m"
+      },
+      "mass": {
+        "zh-CN": "60kg",
+        "en": "60kg"
+      },
+      "dof": {
+        "zh-CN": "38主动自由度",
+        "en": "38 active degrees of freedom"
+      }
+    },
+    "research_relation": {
+      "kind": "related_route",
+      "note": {
+        "zh-CN": "相关研究路线；未据此认定论文使用本型号。",
+        "en": "Related research route; this does not establish that a paper used this model."
+      }
+    }
+  },
+  {
+    "id": "detail-ff5d6e78d161",
+    "source_id": "E309",
+    "model_as_reported": "触控手（来源未给型号）",
+    "related_subcategories": [
+      "03-03",
+      "04-05"
+    ],
+    "facts": {
+      "dof": {
+        "zh-CN": "20",
+        "en": "20"
+      },
+      "mass": {
+        "zh-CN": "约850g",
+        "en": "About 850g"
+      },
+      "limits": {
+        "zh-CN": "指端视触觉分辨率不是整手定位精度",
+        "en": "Fingertip visual-tactile resolution is not whole-hand positioning accuracy"
+      }
+    },
+    "research_relation": {
+      "kind": "related_route",
+      "note": {
+        "zh-CN": "相关研究路线；未据此认定论文使用本型号。",
+        "en": "Related research route; this does not establish that a paper used this model."
+      }
+    }
+  },
+  {
+    "id": "detail-c10beebdf670",
+    "source_id": "E312",
+    "model_as_reported": "R1生态拆装训练平台",
+    "related_subcategories": [
+      "13-06"
+    ],
+    "facts": {
+      "function": {
+        "zh-CN": "机械电气装调、人形拆装、课程与遥操",
+        "en": "Mechanical/electrical training, humanoid assembly, courses and teleoperation"
+      },
+      "interface": {
+        "zh-CN": "软件开发工具包",
+        "en": "SDK"
+      },
+      "limits": {
+        "zh-CN": "院校合作仅初步意向，非已部署教学",
+        "en": "Institutional cooperation is preliminary intent, not completed deployment"
+      }
+    },
+    "research_relation": {
+      "kind": "related_route",
+      "note": {
+        "zh-CN": "相关研究路线；未据此认定论文使用本型号。",
+        "en": "Related research route; this does not establish that a paper used this model."
+      }
+    }
+  }
+]

@@ -1,0 +1,27 @@
+{
+  "id": "E056",
+  "supplier_as_published": "北京加速进化科技有限公司",
+  "source_category": "01-01",
+  "source_url": "https://www.worldrobotconference.com/expo/company/398.html",
+  "original_source_urls": [
+    "https://www.worldrobotconference.com/expo/company/398.html",
+    "https://www.worldrobotconference.com/expo/product/874.html"
+  ],
+  "source_checked_on": "2026-09-05",
+  "evidence": "official_page",
+  "technical": {
+    "zh-CN": "Booster T2 展品页强调运动、感知与持续作业，但未公布承载值、续航工况或控制接口明细；目前不据宣传词补数值。",
+    "en": "Booster T2 emphasizes movement, perception and sustained work, but publishes no payload, endurance conditions or detailed control interfaces. No numerical performance is inferred from promotional wording."
+  },
+  "original_product_line": "Booster T2 人形机器人；人形机器人操作系统与开发工具",
+  "original_application_wording": "人形机器人开发、精细操作与持续作业",
+  "original_issue_notes": [],
+  "item_ids": [
+    "item-923ff207629f"
+  ],
+  "source_technical_sha256": "57ffcc0020f1b55aee1cea70b63157185e56856fcf098be759fae4da8f660ec3",
+  "cross_source_categories": [],
+  "original_tags": "通用人形机器人与开发生态",
+  "original_verification_wording": "大会官方页已核验。",
+  "original_review_wording": "检索/读取日期：2026-09-05。核验口径：已读取官方网页；参数属发布方声明。"
+}

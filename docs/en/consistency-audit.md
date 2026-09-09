@@ -38,6 +38,16 @@ Representative indexes, VLA tables and embodiment tables were rendered locally i
 
 Added 17 bilingual page pairs: a landscape index, progress analysis, evidence register and 14 topic pages covering 84 subcategories. Each subcategory distinguishes its problem, academic focus, industrial delivery focus and comparison criteria. The selected examples cite 37 primary sources, with research, public-resource, product-documentation and field-case evidence distinguished.
 
-The homepage now leads with the landscape diagram and domain index, then returns to the existing paper map. The six research indexes link back to related landscape domains. All 767 paper rows remain unchanged. The repository now contains 104 bilingual table pairs (208 tables), with explicit column widths.
+The homepage now leads with the landscape diagram and domain index, then returns to the existing paper map. The six research indexes link back to related landscape domains. All 767 paper rows remain unchanged. At the landscape-only stage, the repository contained 104 bilingual table pairs (208 tables), with explicit column widths.
 
 The 36 new or reorganized pages passed 72 local Chrome checks at desktop and narrow viewport widths using GitHub Markdown styling. No broken image or page-level horizontal overflow was found; subcategory navigation and bilingual switching passed. Both SVG diagrams were rendered and visually inspected. Sources were reviewed as scoped evidence, not independently reproduced experiments, commercial inventory or audited operational performance.
+
+## Product and technical detail restoration
+
+Restored 312 complete technical excerpts, original product/application wording, original tags and historical verification notes from the 2026-09-05 archive. All 917 source-published exhibit associations and 236 cross-category entry points are retained. The 57 contexts without structured exhibit lists remain searchable without inventing model records. Booth directories and company biographies were not imported as a new roster.
+
+Added 170 manually attributed model/family comparison records with domain-specific fields, sources and conditions. Distinct models are kept separate; unresolved or mixed claims remain in their original context. The RH56DFX/HumanPlus association was checked in the primary PDF on page 4; other relationships remain related research routes unless use is documented.
+
+Three missing distinctions—mobile bases, fixed upper-body platforms, and environmental/chemical sensing—extend the landscape from 84 to 87 subcategories. Added 86 bilingual detail-page pairs: 14 comparison pages, 70 evidence-category pages, a detail index and a full source-item index. There are now 144 documentation pages per language and 849 bilingual table pairs.
+
+Validation preserved all 77 input-file hashes and every original technical excerpt and source-item name/URL. The Magic MA1 name contained a vertical-tab character: its full raw name is preserved and display whitespace normalized. Bilingual generation, local links, cross-references, paper-use evidence and table layouts pass the checker. Desktop/narrow rendering was checked across all 174 new/reorganized pages, with additional model-attribution and comparison-table checks. The 767 existing paper rows remain unchanged.

@@ -1,0 +1,39 @@
+{
+  "id": "E279",
+  "supplier_as_published": "天津智易时代科技发展有限公司",
+  "source_category": "04-05",
+  "source_url": "https://www.worldrobotconference.com/expo/company/595.html",
+  "original_source_urls": [
+    "https://www.worldrobotconference.com/expo/company/595.html",
+    "https://www.worldrobotconference.com/expo/product/736.html",
+    "https://www.worldrobotconference.com/expo/product/740.html",
+    "https://www.worldrobotconference.com/expo/product/742.html",
+    "https://www.worldrobotconference.com/expo/product/756.html",
+    "https://www.worldrobotconference.com/expo/product/770.html"
+  ],
+  "source_checked_on": "2026-09-05",
+  "evidence": "official_page",
+  "technical": {
+    "zh-CN": "产品分升降双臂移动操作、挂轨巡检、防爆巡检；后两者主要面向热像、气体、异常状态监测，防爆证书本轮未独立核对。",
+    "en": "Products separate lifting bimanual mobile manipulators, rail-mounted inspection and explosion-resistant inspection. The latter two target thermal/gas/anomaly monitoring; explosion-protection certificates were not independently checked."
+  },
+  "original_product_line": "具身智能复合机器人，挂轨、防爆、轨道、轮式与轮足巡检机器人及管理平台",
+  "original_application_wording": "物料搬运、码垛、装配与教学；焦化、煤气管道、配电室、石化、煤矿及交通设施巡检",
+  "original_issue_notes": [],
+  "item_ids": [
+    "item-52d80818f87e",
+    "item-4a2dfa52efca",
+    "item-99dd6f822284",
+    "item-4b4b2bf8cd40",
+    "item-79804850a3c2",
+    "item-dd5320aeb932"
+  ],
+  "source_technical_sha256": "bc7fae7f5046860a560a61a839bbd8b9ea4ee5415a92dc77e2d0aba73c9329ca",
+  "cross_source_categories": [
+    "01-02",
+    "04-01"
+  ],
+  "original_tags": "工业巡检机器人与运维平台",
+  "original_verification_wording": "大会官方页已核验。",
+  "original_review_wording": "检索/读取日期：2026-09-05。核验口径：已读取官方网页；参数属发布方声明。"
+}

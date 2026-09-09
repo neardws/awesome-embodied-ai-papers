@@ -1,0 +1,39 @@
+{
+  "id": "E036",
+  "supplier_as_published": "安徽墨甲智创机器人科技有限公司",
+  "source_category": "01-05",
+  "source_url": "https://www.worldrobotconference.com/expo/company/764.html",
+  "original_source_urls": [
+    "https://www.worldrobotconference.com/expo/company/764.html",
+    "https://www.worldrobotconference.com/expo/product/1379.html",
+    "https://www.worldrobotconference.com/expo/product/1381.html",
+    "https://www.worldrobotconference.com/expo/product/1384.html",
+    "https://www.worldrobotconference.com/expo/product/1386.html"
+  ],
+  "source_checked_on": "2026-09-05",
+  "evidence": "official_page",
+  "technical": {
+    "zh-CN": "墨茵提供销售、接待和培训三类助手，涉及知识库与 CRM；墨甲智警面向交通疏导和事件上报；Argos 是家庭随行四足产品，不能共用一组应用标签。",
+    "en": "墨茵 offers sales, reception and training assistants involving knowledge bases and CRM. 墨甲智警 targets traffic guidance and incident reporting. Argos is a household companion quadruped; these applications are distinct."
+  },
+  "original_product_line": "墨茵人形机器人、Argos 四足机器狗、墨甲智警、墨甲智护",
+  "original_application_wording": "汽车门店和展厅接待、交通执法、医院分诊/导航、家庭陪伴",
+  "original_issue_notes": [],
+  "item_ids": [
+    "item-c3af69d5acd9",
+    "item-32e4f19c8ab5",
+    "item-d574bf758659",
+    "item-fbffc9b6c7af"
+  ],
+  "source_technical_sha256": "c597db55d17122037ed48b8a1d8471fb75265ebafe725606707385e7080f20ed",
+  "cross_source_categories": [
+    "01-01",
+    "01-03",
+    "03-04",
+    "03-05",
+    "09-06"
+  ],
+  "original_tags": "人形、轮式与四足服务机器人",
+  "original_verification_wording": "大会官方页已核验。",
+  "original_review_wording": "检索/读取日期：2026-09-05。核验口径：已读取官方网页；参数属发布方声明。"
+}

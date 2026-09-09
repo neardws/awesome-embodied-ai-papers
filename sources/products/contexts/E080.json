@@ -1,0 +1,32 @@
+{
+  "id": "E080",
+  "supplier_as_published": "成都卡诺普机器人技术股份有限公司",
+  "source_category": "02-01",
+  "source_url": "https://www.worldrobotconference.com/expo/company/843.html",
+  "original_source_urls": [
+    "https://www.worldrobotconference.com/expo/company/843.html",
+    "https://www.worldrobotconference.com/expo/product/1218.html",
+    "https://www.worldrobotconference.com/expo/product/1235.html",
+    "https://www.worldrobotconference.com/expo/product/1265.html",
+    "https://crprobot.com/"
+  ],
+  "source_checked_on": "2026-09-05",
+  "evidence": "official_page",
+  "technical": {
+    "zh-CN": "灵烁二代轮式产品标注 33 个驱动关节；HA7R-5S 力控臂为七自由度、臂展 860mm、负载 5kg、重复定位 ±0.1mm。",
+    "en": "The second-generation 灵烁 wheeled robot reports 33 driven joints. HA7R-5S is a seven-degree-of-freedom force-controlled arm with 860mm reach, 5kg payload and ±0.1mm repeatability."
+  },
+  "original_product_line": "六轴、四轴、协作机器人；灵烁二代轮式/双足人形机器人",
+  "original_application_wording": "金属加工、汽车、电子、新能源；产线搬运、上下料、装配、检测",
+  "original_issue_notes": [],
+  "item_ids": [
+    "item-bf6332217ebb",
+    "item-d970b5692a23",
+    "item-87751a6773d8"
+  ],
+  "source_technical_sha256": "6d26fa0ef1283e8e3f9ffb93d2c444f325272da369967fadba7090f3e6d00441",
+  "cross_source_categories": [],
+  "original_tags": "工业/协作机器人与工业具身机器人",
+  "original_verification_wording": "大会官方页 + 企业官网已核验。",
+  "original_review_wording": "检索/读取日期：2026-09-05。核验口径：已读取官方网页；参数属发布方声明。"
+}

@@ -1,0 +1,40 @@
+{
+  "id": "E281",
+  "supplier_as_published": "北京可安可智能科技有限公司",
+  "source_category": "04-05",
+  "source_url": "https://www.worldrobotconference.com/expo/company/567.html",
+  "original_source_urls": [
+    "https://www.worldrobotconference.com/expo/company/567.html",
+    "https://www.worldrobotconference.com/expo/product/212.html",
+    "https://www.worldrobotconference.com/expo/product/1067.html",
+    "https://www.worldrobotconference.com/expo/product/1069.html",
+    "https://www.worldrobotconference.com/expo/product/1081.html",
+    "https://www.worldrobotconference.com/expo/product/211.html"
+  ],
+  "source_checked_on": "2026-09-05",
+  "evidence": "official_page",
+  "technical": {
+    "zh-CN": "R100 采用激光视觉融合、四驱四转，标注 IP65、8 小时续航与无线回充；巡操灭火版本增加夹爪臂和灭火模组，功能与普通巡检不同。",
+    "en": "R100 combines laser/vision, four-wheel drive/steering, IP65, 8-hour endurance and wireless charging. The intervention/firefighting version adds a gripper arm and extinguishing module beyond standard inspection."
+  },
+  "original_product_line": "室内/室外巡检机器人、巡检作业型消防机器人与四足平台",
+  "original_application_wording": "园区、工厂、校园、物业、化工、电力、实验室、机场轨交与粮库运维",
+  "original_issue_notes": [],
+  "item_ids": [
+    "item-ef3b4e6ee5c4",
+    "item-c675f109b714",
+    "item-68711163fb66",
+    "item-403d5769a7b2",
+    "item-33ccc90c0735",
+    "item-7ce4c0efde1e",
+    "item-fbb4ce1e81d0"
+  ],
+  "source_technical_sha256": "f86e83a8a6538214bd452e0c1833ddc177cc4ec6438befa7e7c714a39b56d614",
+  "cross_source_categories": [
+    "01-03",
+    "04-04"
+  ],
+  "original_tags": "智能巡检与安防运维系统",
+  "original_verification_wording": "大会官方页已核验。",
+  "original_review_wording": "检索/读取日期：2026-09-05。核验口径：已读取官方网页；参数属发布方声明。"
+}

@@ -1,0 +1,29 @@
+{
+  "id": "E131",
+  "supplier_as_published": "纽必利蒂",
+  "source_category": "04-02",
+  "source_url": "https://www.worldrobotconference.com/expo/company/672.html",
+  "original_source_urls": [
+    "https://www.worldrobotconference.com/expo/company/672.html",
+    "https://www.worldrobotconference.com/expo/product/852.html"
+  ],
+  "source_checked_on": "2026-09-05",
+  "evidence": "official_page",
+  "technical": {
+    "zh-CN": "Billi 结合视觉导航与物品操作，配 NCC 管控平台实现调度、路径和远程控制；官方页记载展项为立牌及影像资料，不等同现场真机验证。",
+    "en": "Billi combines visual navigation and object manipulation with NCC scheduling, routing and remote control. The official exhibit is a placard/video presentation, not on-site physical validation."
+  },
+  "original_product_line": "户外配送/巡逻机器人、轮式人形机器人",
+  "original_application_wording": "园区、商场、末端配送",
+  "original_issue_notes": [
+    "具体问题：图像或立牌展项不等同本次展示可运行实机。"
+  ],
+  "item_ids": [
+    "item-5b0eaca82c4c"
+  ],
+  "source_technical_sha256": "3258c168bb99ae51533bb8f4246267b90d312ec2cc3670255fcd99df0a7ba9f8",
+  "cross_source_categories": [],
+  "original_tags": "视觉自主导航配送/轮式人形",
+  "original_verification_wording": "展会官方页已核对。",
+  "original_review_wording": "检索/读取日期：2026-09-05。核验口径：已读取官方网页；参数属发布方声明。"
+}

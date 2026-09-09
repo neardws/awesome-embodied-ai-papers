@@ -1,0 +1,26 @@
+{
+  "id": "E212",
+  "supplier_as_published": "武汉元生创新科技有限公司",
+  "source_category": "07-05",
+  "source_url": "https://yesense.com/yis300_6039",
+  "original_source_urls": [
+    "https://yesense.com/yis300_6039",
+    "https://www.yesense.com/brand",
+    "https://www.yesense.com/agv"
+  ],
+  "source_checked_on": "2026-09-05",
+  "evidence": "official_search_or_alternate",
+  "technical": {
+    "zh-CN": "YIS300 分 IMU、VRU、AHRS 及外接 GNSS 的组合版本；页面列典型动态姿态精度 0.3°、输出 200Hz、SPI/UART，明确部分误差适用条件。",
+    "en": "YIS300 has IMU, VRU, AHRS and external-GNSS combinations. The page lists typical dynamic attitude accuracy of 0.3°, 200Hz output and SPI/UART, with conditions for some errors."
+  },
+  "original_product_line": "姿态传感器、倾角传感器、惯性-卫星组合导航系统、IMU",
+  "original_application_wording": "移动/康复/水下机器人与 AGV 的定位、导航和自主运动控制",
+  "original_issue_notes": [],
+  "item_ids": [],
+  "source_technical_sha256": "91a398e4db0e0a6d2135879cb7cda9720f05e86517078de89340119902aa1011",
+  "cross_source_categories": [],
+  "original_tags": "惯性导航与姿态感知",
+  "original_verification_wording": "官网已核对。",
+  "original_review_wording": "检索/读取日期：2026-09-05。核验口径：官方搜索正文补充（直连受限或改用替代页）。"
+}

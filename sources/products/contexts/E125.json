@@ -1,0 +1,28 @@
+{
+  "id": "E125",
+  "supplier_as_published": "杭州海康机器人股份有限公司",
+  "source_category": "04-01",
+  "source_url": "https://www.worldrobotconference.com/expo/company/775.html",
+  "original_source_urls": [
+    "https://www.worldrobotconference.com/expo/company/775.html",
+    "https://www.worldrobotconference.com/expo/product/1489.html",
+    "https://www.hikrobotics.com/cn"
+  ],
+  "source_checked_on": "2026-09-05",
+  "evidence": "official_page",
+  "technical": {
+    "zh-CN": "移动机器人业务明确聚焦工厂内物流，应用列举汽车、3C、新能源、电商、医药等行业；该页没有具体 AMR 型号和负载参数。",
+    "en": "The mobile-robot business focuses on factory logistics across automotive, electronics, new energy, e-commerce and pharmaceuticals. Exact AMR models and payloads are not given."
+  },
+  "original_product_line": "机器视觉、移动机器人、关节机器人及系统",
+  "original_application_wording": "3C 电子、汽车、新能源、电商快递、物流、零售、食品饮料、医药、烟草、服装等工厂内物流",
+  "original_issue_notes": [],
+  "item_ids": [
+    "item-dc5cfe351b08"
+  ],
+  "source_technical_sha256": "62a868ad41257859efccc93c2cfdbcbf9eeb8eb2cb5ae8608d91eb93ee6ff451",
+  "cross_source_categories": [],
+  "original_tags": "AMR 智慧内物流与机器视觉",
+  "original_verification_wording": "大会官方页与企业官网已核验。",
+  "original_review_wording": "检索/读取日期：2026-09-05。核验口径：已读取官方网页；参数属发布方声明。"
+}

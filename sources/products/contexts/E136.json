@@ -1,0 +1,24 @@
+{
+  "id": "E136",
+  "supplier_as_published": "深圳煜禾森科技有限公司",
+  "source_category": "04-03",
+  "source_url": "https://www.worldrobotconference.com/expo/company/485.html",
+  "original_source_urls": [
+    "https://www.worldrobotconference.com/expo/company/485.html"
+  ],
+  "source_checked_on": "2026-09-05",
+  "evidence": "official_page",
+  "technical": {
+    "zh-CN": "官方介绍明确自研范围包括线控底盘结构、运动控制、自主定位与激光 SLAM；当前展商页未提供具体型号的负载、接口或防护参数。",
+    "en": "The official description claims in-house drive-by-wire chassis structure, motion control, localization and laser SLAM. Exact payloads, interfaces and protection ratings are absent."
+  },
+  "original_product_line": "室内外移动机器人底盘、自主导航方案、激光 SLAM 导航",
+  "original_application_wording": "人工智能与自动驾驶研发；物流、安防、农业的移动机器人集成",
+  "original_issue_notes": [],
+  "item_ids": [],
+  "source_technical_sha256": "31d309ada4fb8fc6d5974462a9c3a3d8a893deafab79c6800d085d9c056615c1",
+  "cross_source_categories": [],
+  "original_tags": "通用移动底盘与自主导航",
+  "original_verification_wording": "大会官方展商介绍已核验；具体型号待官网核实。",
+  "original_review_wording": "检索/读取日期：2026-09-05。核验口径：已读取官方网页；参数属发布方声明。"
+}

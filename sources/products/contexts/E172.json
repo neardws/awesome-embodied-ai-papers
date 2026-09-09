@@ -1,0 +1,26 @@
+{
+  "id": "E172",
+  "supplier_as_published": "苏州伟创电气科技股份有限公司",
+  "source_category": "06-05",
+  "source_url": "https://www.veichi.cn/product/gddcq/Copy_1224/322.html",
+  "original_source_urls": [
+    "https://www.veichi.cn/product/gddcq/Copy_1224/322.html"
+  ],
+  "source_checked_on": "2026-09-05",
+  "evidence": "official_search_or_alternate",
+  "technical": {
+    "zh-CN": "SD100 官方搜索结果给出 24–72V 低压伺服、单轴/双轴/多轴控制，通信含 Modbus 与 CANopen。直连返回反爬页面，本条依据搜索工具返回的官方正文摘录，未核验完整说明书。",
+    "en": "Official search text describes SD100 as 24–72V low-voltage servo control for single, dual and multiple axes, with Modbus/CANopen. Direct access returned anti-bot content; no complete manual was verified."
+  },
+  "original_product_line": "SD100 低压伺服驱动系统",
+  "original_application_wording": "AMR/AGV、服务/特种机器人、物流仓储分拣、医疗设备",
+  "original_issue_notes": [
+    "具体问题：直连得到反爬内容；采用官方搜索正文摘录，未完整读取说明书。"
+  ],
+  "item_ids": [],
+  "source_technical_sha256": "cec1eb8a2530d28f461133cc8f815b217ab2c6f34f5b553230702050b3444fa0",
+  "cross_source_categories": [],
+  "original_tags": "伺服驱动与运动控制",
+  "original_verification_wording": "已核验（官网）。",
+  "original_review_wording": "检索/读取日期：2026-09-05。核验口径：官方搜索正文补充（直连受限或改用替代页）。"
+}

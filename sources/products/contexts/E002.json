@@ -1,0 +1,32 @@
+{
+  "id": "E002",
+  "supplier_as_published": "北京星动纪元科技股份有限公司",
+  "source_category": "01-02",
+  "source_url": "https://wrc.cie.org.cn/expo/company/438.html",
+  "original_source_urls": [
+    "https://wrc.cie.org.cn/expo/company/438.html",
+    "https://wrc.cie.org.cn/expo/product/396.html",
+    "https://wrc.cie.org.cn/expo/product/1548.html",
+    "https://www.robotera.com/policy.html"
+  ],
+  "source_checked_on": "2026-09-05",
+  "evidence": "official_page",
+  "technical": {
+    "zh-CN": "星动 M7 为立柱式半身平台，页面标注全身 43 自由度、五指手 12 个主动自由度，面向固定工位；L7 展示全身遥操作及训练数据采集。",
+    "en": "星动 M7 is a column-mounted upper-body platform for fixed workstations; the page reports 43 total degrees of freedom and 12 active hand degrees of freedom. L7 demonstrates whole-body teleoperation and training-data collection."
+  },
+  "original_product_line": "星动 L7 全尺寸双足机器人、星动 M7 半身人形机器人、灵巧手及 ERA-42 模型",
+  "original_application_wording": "物流中心作业；工业固定工位桌面灵巧操作",
+  "original_issue_notes": [],
+  "item_ids": [
+    "item-428944a755fd",
+    "item-21276f4ba86f"
+  ],
+  "source_technical_sha256": "89648381b71c5037bb16ab5d4e5f3788b8e02050cad3cfd5af7e8fd6fb495476",
+  "cross_source_categories": [
+    "09-03"
+  ],
+  "original_tags": "通用人形机器人与灵巧手",
+  "original_verification_wording": "官网已核对。",
+  "original_review_wording": "检索/读取日期：2026-09-05。核验口径：已读取官方网页；参数属发布方声明。"
+}

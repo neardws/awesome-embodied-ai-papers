@@ -1,0 +1,41 @@
+{
+  "id": "E241",
+  "supplier_as_published": "宁波柯力传感科技股份有限公司",
+  "source_category": "07-01",
+  "source_url": "https://www.worldrobotconference.com/expo/company/528.html",
+  "original_source_urls": [
+    "https://www.worldrobotconference.com/expo/company/528.html",
+    "https://www.worldrobotconference.com/expo/product/1534.html",
+    "https://www.worldrobotconference.com/expo/product/1537.html",
+    "https://www.worldrobotconference.com/expo/product/1538.html",
+    "https://www.worldrobotconference.com/expo/product/1539.html",
+    "https://www.worldrobotconference.com/expo/product/1540.html"
+  ],
+  "source_checked_on": "2026-09-05",
+  "evidence": "official_page",
+  "technical": {
+    "zh-CN": "D65B 页面列力 100–5000N、力矩 4–200Nm，C80B 为 100–1000N、4–20Nm；M30-B 标题与 M30-A 正文不一致，暂不整理该型号参数。",
+    "en": "D65B lists 100–5000N force and 4–200Nm torque ranges; C80B lists 100–1000N and 4–20Nm. M30-B's title conflicts with M30-A in the text, so its parameters are not organized as model-specific facts."
+  },
+  "original_product_line": "KL6D 系列六维力传感器、JTS 系列关节扭矩传感器、MS02 微型传感器",
+  "original_application_wording": "人形、协作、工业与医疗机器人，3C 检测、自动化测试及关节力矩检测",
+  "original_issue_notes": [
+    "具体问题：M30-B 标题与 M30-A 正文不一致。"
+  ],
+  "item_ids": [
+    "item-c62109883ed8",
+    "item-8f65decf7504",
+    "item-9725fbdfba93",
+    "item-b834aa81dabb",
+    "item-d7d3d08b5905",
+    "item-762c4b963aab",
+    "item-18f352a01f06",
+    "item-d4bba1d50464",
+    "item-12d90ffba7c7"
+  ],
+  "source_technical_sha256": "de62fdb7abec00bb9201eba4fc0d4b1d20bc2de7c2bc943e3ac5aeba1ac61219",
+  "cross_source_categories": [],
+  "original_tags": "六维力与关节扭矩传感",
+  "original_verification_wording": "大会官方页已核验。",
+  "original_review_wording": "检索/读取日期：2026-09-05。核验口径：已读取官方网页；参数属发布方声明。"
+}

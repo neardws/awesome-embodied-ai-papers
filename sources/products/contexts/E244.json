@@ -1,0 +1,29 @@
+{
+  "id": "E244",
+  "supplier_as_published": "深圳市鑫精诚传感技术股份有限公司",
+  "source_category": "07-01",
+  "source_url": "https://www.worldrobotconference.com/expo/company/545.html",
+  "original_source_urls": [
+    "https://www.worldrobotconference.com/expo/company/545.html",
+    "https://www.worldrobotconference.com/expo/product/911.html",
+    "https://www.worldrobotconference.com/expo/product/924.html"
+  ],
+  "source_checked_on": "2026-09-05",
+  "evidence": "official_page",
+  "technical": {
+    "zh-CN": "产品包括 MEMS 微熔及应变式关节传感器，微型六维力方向给出直径小于 10mm 的指端方案；量程、带宽及封装需进一步确认。",
+    "en": "Products include MEMS micro-fused and strain-gauge joint sensors, with a fingertip six-axis concept below 10mm diameter. Range, bandwidth and packaging need confirmation."
+  },
+  "original_product_line": "六维力、MEMS、关节扭矩和微型测力传感器及力控软件",
+  "original_application_wording": "人形、协作、工业与医疗机器人，3C、新能源、半导体和航空航天装配",
+  "original_issue_notes": [],
+  "item_ids": [
+    "item-386f4954dafa",
+    "item-971e9dbf2db6"
+  ],
+  "source_technical_sha256": "4ae991ad33d271a7730dce3e203bc4bf1aae213737ffecf5fc541bfa5416fb9f",
+  "cross_source_categories": [],
+  "original_tags": "机器人力觉与力控方案",
+  "original_verification_wording": "大会官方页已核验。",
+  "original_review_wording": "检索/读取日期：2026-09-05。核验口径：已读取官方网页；参数属发布方声明。"
+}

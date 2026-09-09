@@ -1,0 +1,27 @@
+{
+  "id": "E239",
+  "supplier_as_published": "坤维（北京）科技有限公司",
+  "source_category": "07-01",
+  "source_url": "https://www.worldrobotconference.com/expo/company/689.html",
+  "original_source_urls": [
+    "https://www.worldrobotconference.com/expo/company/689.html",
+    "https://www.worldrobotconference.com/expo/product/1148.html"
+  ],
+  "source_checked_on": "2026-09-05",
+  "evidence": "official_page",
+  "technical": {
+    "zh-CN": "六维力产品涉及关节负载测量与标定；页面将精度 0.1%FS 和准度 0.3%FS 分列，二者不能合并成同一指标。",
+    "en": "Six-axis force products cover joint loads and calibration. The source separately lists precision at 0.1%FS and accuracy at 0.3%FS; these are not one metric."
+  },
+  "original_product_line": "高精度六维力传感器与力控解决方案",
+  "original_application_wording": "具身机器人、智能装备、工业过程监测、质量检测与科研测试",
+  "original_issue_notes": [],
+  "item_ids": [
+    "item-376c8b20d5f8"
+  ],
+  "source_technical_sha256": "6e18ca555485ad6393ed79b0003d44c1318e8f45edaf1322420680098651ee3b",
+  "cross_source_categories": [],
+  "original_tags": "六维力传感器与力控",
+  "original_verification_wording": "大会官方页已核验。",
+  "original_review_wording": "检索/读取日期：2026-09-05。核验口径：已读取官方网页；参数属发布方声明。"
+}

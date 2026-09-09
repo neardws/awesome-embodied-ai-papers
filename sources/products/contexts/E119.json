@@ -1,0 +1,27 @@
+{
+  "id": "E119",
+  "supplier_as_published": "浙江强脑科技有限公司",
+  "source_category": "05-04",
+  "source_url": "https://www.worldrobotconference.com/expo/company/532.html",
+  "original_source_urls": [
+    "https://www.worldrobotconference.com/expo/company/532.html",
+    "https://www.worldrobotconference.com/expo/product/600.html"
+  ],
+  "source_checked_on": "2026-09-05",
+  "evidence": "official_page",
+  "technical": {
+    "zh-CN": "Revo 2 标注重量 383g、外形约 16×7.6cm；页面分别写握力 5KG、承载 20KG，单位和测试姿态需进一步确认，不能直接换算为标准指尖力。",
+    "en": "Revo 2 reports 383g and approximately 16×7.6cm. The page separately states 5KG grip and 20KG load; units and test posture need clarification and cannot be converted directly to standard fingertip force."
+  },
+  "original_product_line": "BrainCo Revo 2 仿生灵巧手、非侵入式脑机接口技术",
+  "original_application_wording": "具身智能精细操作与脑机接口相关研发",
+  "original_issue_notes": [],
+  "item_ids": [
+    "item-77c0ff2416de"
+  ],
+  "source_technical_sha256": "ab2290405a9408f22031f7d3b37a63472200ac48f66407116fcce4947607e68b",
+  "cross_source_categories": [],
+  "original_tags": "脑机接口与仿生灵巧手",
+  "original_verification_wording": "大会官方页已核验；官方页未列更多具体应用。",
+  "original_review_wording": "检索/读取日期：2026-09-05。核验口径：已读取官方网页；参数属发布方声明。"
+}

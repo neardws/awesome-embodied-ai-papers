@@ -1,0 +1,31 @@
+{
+  "id": "E156",
+  "supplier_as_published": "江苏日晟轴承股份有限公司",
+  "source_category": "06-09",
+  "source_url": "https://www.worldrobotconference.com/expo/company/814.html",
+  "original_source_urls": [
+    "https://www.worldrobotconference.com/expo/company/814.html",
+    "https://www.worldrobotconference.com/expo/product/977.html",
+    "https://www.worldrobotconference.com/expo/product/978.html",
+    "https://www.worldrobotconference.com/expo/product/979.html"
+  ],
+  "source_checked_on": "2026-09-05",
+  "evidence": "official_page",
+  "technical": {
+    "zh-CN": "本次展品明确区分柔性轴承、交叉滚子轴承与 RV 主轴用圆锥滚子轴承；没有披露承载等级、尺寸和寿命。",
+    "en": "The exhibits distinguish flexible bearings, crossed-roller bearings and tapered-roller bearings for RV spindles. Load ratings, sizes and life are not disclosed."
+  },
+  "original_product_line": "谐波减速器用柔性轴承、交叉滚子轴承、RV 减速器主轴承",
+  "original_application_wording": "谐波减速器和 RV 减速器等机器人传动系统",
+  "original_issue_notes": [],
+  "item_ids": [
+    "item-85a4fe26d0ad",
+    "item-fcdd4ed49502",
+    "item-4941bc4ba534"
+  ],
+  "source_technical_sha256": "252ca7e8ac723fa69cccd396d02c3cf93f232b9f4373c6beb0e0efd7fe03e3d2",
+  "cross_source_categories": [],
+  "original_tags": "机器人轴承与精密传动",
+  "original_verification_wording": "官方页已核对。",
+  "original_review_wording": "检索/读取日期：2026-09-05。核验口径：已读取官方网页；参数属发布方声明。"
+}

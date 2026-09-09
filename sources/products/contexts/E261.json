@@ -1,0 +1,24 @@
+{
+  "id": "E261",
+  "supplier_as_published": "AMD",
+  "source_category": "08-01",
+  "source_url": "https://www.amd.com/zh-cn/solutions/robotics.html",
+  "original_source_urls": [
+    "https://www.amd.com/zh-cn/solutions/robotics.html"
+  ],
+  "source_checked_on": "2026-09-05",
+  "evidence": "official_page",
+  "technical": {
+    "zh-CN": "官方机器人方案把 Kria AI、Ryzen AI Embedded 与 Zynq UltraScale+、Versal AI Edge Gen 2、Spartan UltraScale+ 分配到不同计算和控制环节；不可仅凭品牌合并横比。",
+    "en": "AMD assigns Kria AI, Ryzen AI Embedded, Zynq UltraScale+, Versal AI Edge Gen 2 and Spartan UltraScale+ to different computing/control roles. Brand identity alone is not a comparison basis."
+  },
+  "original_product_line": "嵌入式 x86、Adaptive SoC/FPGA、SOM",
+  "original_application_wording": "机器人感知、推理、规划、实时控制",
+  "original_issue_notes": [],
+  "item_ids": [],
+  "source_technical_sha256": "af71f8d56dbf8f8326d81ef7cff4e77c11c67dcce64e6027667cf2c1cffb85be",
+  "cross_source_categories": [],
+  "original_tags": "机器人边缘 AI/FPGA",
+  "original_verification_wording": "官网已核对。",
+  "original_review_wording": "检索/读取日期：2026-09-05。核验口径：已读取官方网页；参数属发布方声明。"
+}

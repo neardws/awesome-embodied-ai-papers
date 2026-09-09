@@ -1,0 +1,39 @@
+{
+  "id": "E263",
+  "supplier_as_published": "瑞昱半导体股份有限公司",
+  "source_category": "08-04",
+  "source_url": "https://www.worldrobotconference.com/expo/company/666.html",
+  "original_source_urls": [
+    "https://www.worldrobotconference.com/expo/company/666.html",
+    "https://www.worldrobotconference.com/expo/product/1474.html",
+    "https://www.worldrobotconference.com/expo/product/1480.html",
+    "https://www.worldrobotconference.com/expo/product/1482.html",
+    "https://www.worldrobotconference.com/expo/product/1484.html",
+    "https://www.worldrobotconference.com/expo/product/1485.html"
+  ],
+  "source_checked_on": "2026-09-05",
+  "evidence": "official_page",
+  "technical": {
+    "zh-CN": "产品页列 600MHz RISC-V FOC/EtherCAT MCU、100/1000BASE-T1 PHY 及 8GE+2×10GE 交换方案；分别对应实时控制与机内通信。",
+    "en": "Products include 600MHz RISC-V FOC/EtherCAT MCU, 100/1000BASE-T1 PHY and 8GE+2×10GE switching, addressing real-time control and on-robot networking respectively."
+  },
+  "original_product_line": "EtherCAT MCU 驱动器、SPE PHY/TSN 交换机、以太网/无线模块",
+  "original_application_wording": "具身/工业机器人内部通信与伺服控制",
+  "original_issue_notes": [],
+  "item_ids": [
+    "item-eaeb0d21788d",
+    "item-dbe5dc0c1abd",
+    "item-50b9ad2b9027",
+    "item-f33dd87ac263",
+    "item-1f0a1f46a2c6",
+    "item-fff1705473a6",
+    "item-240da7be29e5"
+  ],
+  "source_technical_sha256": "4c5b22ff3928cf50702140e92a7b1a0777e059b5cb00375fc996405c50292bab",
+  "cross_source_categories": [
+    "08-03"
+  ],
+  "original_tags": "机器人通信与实时控制芯片",
+  "original_verification_wording": "展会官方页已核对。",
+  "original_review_wording": "检索/读取日期：2026-09-05。核验口径：已读取官方网页；参数属发布方声明。"
+}

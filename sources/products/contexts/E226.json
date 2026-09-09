@@ -1,0 +1,24 @@
+{
+  "id": "E226",
+  "supplier_as_published": "杭州当虹科技股份有限公司",
+  "source_category": "07-07",
+  "source_url": "https://www.arcvideo.cn/Home/Index/",
+  "original_source_urls": [
+    "https://www.arcvideo.cn/Home/Index/"
+  ],
+  "source_checked_on": "2026-09-05",
+  "evidence": "official_page",
+  "technical": {
+    "zh-CN": "技术方向包括感知压缩、边缘编码与窄带视频回传，场景涉及卫星和电网；属于视觉数据链路能力，不能直接解释为机器人运动控制。",
+    "en": "Perceptual compression, edge encoding and narrowband video return serve satellites and power grids. These are visual-data-chain capabilities, not robot motion control."
+  },
+  "original_product_line": "智能视频、视频云、视觉 AI",
+  "original_application_wording": "媒体、工业、座舱、机器人",
+  "original_issue_notes": [],
+  "item_ids": [],
+  "source_technical_sha256": "c2bc7406080a8dad6cbbad349a3b1254150ab79e21c8e85a1a9dd75ae7e3537d",
+  "cross_source_categories": [],
+  "original_tags": "智能视频/视觉 AI/边缘视频处理",
+  "original_verification_wording": "官网已核对。",
+  "original_review_wording": "检索/读取日期：2026-09-05。核验口径：已读取官方网页；参数属发布方声明。"
+}

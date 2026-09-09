@@ -20,49 +20,64 @@ This page distinguishes subcategory questions, research priorities and industria
 </thead>
 <tbody>
 <tr>
-<td width="240" nowrap><a id="04-01"></a>Imaging, depth and 3D vision</td>
+<td width="240" nowrap><a id="04-01"></a>Imaging, depth and 3D vision<br><a href="../products/topics/04-01.md">Product details</a></td>
 <td width="300">Capture appearance, geometry and distance.</td>
 <td width="320">Occlusion, transparent or reflective objects and active vision.</td>
 <td width="320">Calibration, lighting tolerance, interfaces and bandwidth.</td>
 <td width="340">Depth error, field of view, frame rate and synchronization.</td>
 </tr>
 <tr>
-<td width="240" nowrap><a id="04-02"></a>LiDAR, radar and ranging</td>
+<td width="240" nowrap><a id="04-02"></a>LiDAR, radar and ranging<br><a href="../products/topics/04-02.md">Product details</a></td>
 <td width="300">Support ranging over distance and difficult environments.</td>
 <td width="320">Sensor fusion, moving targets and sparse perception.</td>
 <td width="320">Mounting occlusion, environmental protection and cost.</td>
 <td width="340">Range, angular resolution, return conditions and latency.</td>
 </tr>
 <tr>
-<td width="240" nowrap><a id="04-03"></a>Inertial, encoder and proprioceptive sensing</td>
+<td width="240" nowrap><a id="04-03"></a>Inertial, encoder and proprioceptive sensing<br><a href="../products/topics/04-03.md">Product details</a></td>
 <td width="300">Estimate body attitude, joint positions and motion.</td>
 <td width="320">Drift correction, state estimation and sensor fault tolerance.</td>
 <td width="320">Thermal drift, wiring, mounting and time synchronization.</td>
 <td width="340">Noise, drift, resolution and update rate.</td>
 </tr>
 <tr>
-<td width="240" nowrap><a id="04-04"></a>Force/torque and joint-torque sensing</td>
+<td width="240" nowrap><a id="04-04"></a>Force/torque and joint-torque sensing<br><a href="../products/topics/04-04.md">Product details</a></td>
 <td width="300">Measure contact loads and external forces.</td>
 <td width="320">Force estimation, compliance control and collision detection.</td>
 <td width="320">Overload protection, calibration and industrial communication.</td>
 <td width="340">Range, cross-talk, hysteresis and sample rate.</td>
 </tr>
 <tr>
-<td width="240" nowrap><a id="04-05"></a>Tactile arrays and electronic skin</td>
+<td width="240" nowrap><a id="04-05"></a>Tactile arrays and electronic skin<br><a href="../products/topics/04-05.md">Product details</a></td>
 <td width="300">Sense contact distribution, slip and local geometry.</td>
 <td width="320">Cross-sensor representations and visuotactile fusion.</td>
 <td width="320">Wear, replaceable skin, wiring and batch calibration.</td>
 <td width="340">Taxel coverage, synchronization, slip detection and durability.</td>
 </tr>
 <tr>
-<td width="240" nowrap><a id="04-06"></a>Motion capture, speech and human interfaces</td>
+<td width="240" nowrap><a id="04-06"></a>Motion capture, speech and human interfaces<br><a href="../products/topics/04-06.md">Product details</a></td>
 <td width="300">Connect human motion and intent to robots.</td>
 <td width="320">Intent understanding, retargeting and multimodal interaction.</td>
 <td width="320">Comfort, occlusion, latency and operator burden.</td>
 <td width="340">Tracking error, end-to-end latency and interaction success.</td>
 </tr>
+<tr>
+<td width="240" nowrap><a id="04-07"></a>Environmental and chemical sensing<br><a href="../products/topics/04-07.md">Product details</a></td>
+<td width="300">Detect gases, chemical signatures and environmental changes.</td>
+<td width="320">Sensor fusion, drift compensation and anomaly recognition.</td>
+<td width="320">Sensor arrays, temperature/humidity compensation, sampling and field service.</td>
+<td width="340">Targets, range, selectivity, drift and response time.</td>
+</tr>
 </tbody>
 </table>
+
+## Technical and product details
+
+<a href="../products/comparisons/04-sensing.md">Open 31 related comparison records</a>
+
+Compare model-specific values, conditions, interfaces, research relationships and source issues. Full source excerpts and original exhibit links remain available underneath.
+
+<a href="../products/references/01-05.md">Biomimetic and interactive humanoids</a> · <a href="../products/references/05-04.md">Brain-computer interfaces and EMG prosthetic hands</a> · <a href="../products/references/07-01.md">Six-axis force and joint-torque sensing</a> · <a href="../products/references/07-02.md">Tactile sensing and electronic skin</a> · <a href="../products/references/07-03.md">Depth cameras and 3D vision</a> · <a href="../products/references/07-04.md">LiDAR and ranging</a> · <a href="../products/references/07-05.md">Inertial navigation and attitude sensing</a> · <a href="../products/references/07-06.md">Encoders and magnetic-position sensing</a> · <a href="../products/references/07-09.md">Optical motion capture and 3D motion sensing</a> · <a href="../products/references/08-05.md">Electronic components and sensing chips</a> · <a href="../products/references/10-05.md">Displays and wearable interfaces</a>
 
 ## Research, platforms and industrial examples
 

@@ -1,0 +1,38 @@
+{
+  "id": "E053",
+  "supplier_as_published": "智身新创（苏州）智能科技有限公司",
+  "source_category": "01-03",
+  "source_url": "https://www.worldrobotconference.com/expo/company/491.html",
+  "original_source_urls": [
+    "https://www.worldrobotconference.com/expo/company/491.html",
+    "https://www.worldrobotconference.com/expo/product/890.html",
+    "https://www.worldrobotconference.com/expo/product/891.html",
+    "https://www.worldrobotconference.com/expo/product/892.html",
+    "https://www.worldrobotconference.com/expo/product/887.html",
+    "https://www.worldrobotconference.com/expo/product/888.html"
+  ],
+  "source_checked_on": "2026-09-05",
+  "evidence": "official_page",
+  "technical": {
+    "zh-CN": "钢镚 L2 分别标注持续载荷 16kg、静态最大载荷 150kg；SP1 按 Ex IIC T6 Gb 设计。防爆设计声明不等于本轮已核验证书。",
+    "en": "钢镚 L2 distinguishes 16kg sustained payload from 150kg maximum static load. SP1 is described as designed to Ex IIC T6 Gb; design intent is not a checked explosion-protection certificate."
+  },
+  "original_product_line": "钢镚 L1/L2 四足、铅球 SP1 防爆四足、银毅 NE01 人形、铜锤 M1 重载四足",
+  "original_application_wording": "油气田、石化和危化场所防爆作业；巡检安防、导盲、复杂地形运输",
+  "original_issue_notes": [],
+  "item_ids": [
+    "item-344da5a5c27d",
+    "item-70cefe181881",
+    "item-9c57a4488c6f",
+    "item-65de54d6725d",
+    "item-0a3837b9229c",
+    "item-301ffad19494"
+  ],
+  "source_technical_sha256": "07fb8dbecdecce73d34b175fbbd04486021cac5d6fe2ff810852da7f816e7ad4",
+  "cross_source_categories": [
+    "04-05"
+  ],
+  "original_tags": "行业级四足与人形机器人",
+  "original_verification_wording": "大会官方页已核验。",
+  "original_review_wording": "检索/读取日期：2026-09-05。核验口径：已读取官方网页；参数属发布方声明。"
+}

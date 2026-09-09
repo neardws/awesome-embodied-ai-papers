@@ -1,0 +1,358 @@
+{
+  "source_library": "展商分类资料库",
+  "source_snapshot_date": "2026-09-05",
+  "import_date": "2026-09-08",
+  "contexts": 312,
+  "item_associations": 917,
+  "source_categories": 70,
+  "files": [
+    {
+      "name": "00_展商总索引.md",
+      "sha256": "edc0e8d8f4c18b3f328511316f2443d3ff4edc30a9296ce3f5045fb6da055b6e"
+    },
+    {
+      "name": "01_分类规则与字段说明.md",
+      "sha256": "3cfd60d9d8ea36fede28448fc202ed1c989436017469029a824dcc009b4b4b6a"
+    },
+    {
+      "name": "02_联网核验与待补充.md",
+      "sha256": "a7c81cdd93afd1f8c40dd346db1d14f741b34c196a4c1f4d2e3c6c6cbdf73db4"
+    },
+    {
+      "name": "03_信息挖掘与后续比较框架.md",
+      "sha256": "f28a0ad0c45a087cfb27d6393054a9473b468357d7df57a53805cee844ca4e6b"
+    },
+    {
+      "name": "04_来源读取清单.md",
+      "sha256": "df145b2572f054c3b6d257220e11c1a0427d150e739794470152beb66ee82e9b"
+    },
+    {
+      "name": "05_产品与展项名称索引.md",
+      "sha256": "1617cc8895d7b44bf62d7e145c696befd5522c97cc810b268381e969dfe81b53"
+    },
+    {
+      "name": "README.md",
+      "sha256": "5c417d1f0e304e9638f263795d25476c52ed64f0ff119db5997a18e57dc776f3"
+    },
+    {
+      "name": "分类/01-01_双足与通用人形机器人.md",
+      "sha256": "0391fd2e413b92edc11a0736961b1651c578dbc2b23e941df1745ba1c1981a09"
+    },
+    {
+      "name": "分类/01-02_轮式双臂与移动操作机器人.md",
+      "sha256": "079da3c30bfdd0a2949bf5c19670e44a9eb17c822527e7a9fc92364fe5a1650a"
+    },
+    {
+      "name": "分类/01-03_四足与轮足机器人.md",
+      "sha256": "a796afec9271c85a337504ace0362257d3d4b87050c74f444e83255045b36c6d"
+    },
+    {
+      "name": "分类/01-04_小型教学与开放机器人平台.md",
+      "sha256": "57b6d0353c2f78d5dd2e54318f4a73b88df5804846c30bfc042fbdb1cb145b76"
+    },
+    {
+      "name": "分类/01-05_仿生与交互人形机器人.md",
+      "sha256": "9613a4cbd2346336e09a380ee4e1d9af153ddcd75a70727e4fc37552f1ca9ccf"
+    },
+    {
+      "name": "分类/01-06_具身方案与未明确形态平台.md",
+      "sha256": "ad888144fa4dbe6b6bd021567a4fd6a20949fa906c75f7eb46c3f80fdf5cbb7e"
+    },
+    {
+      "name": "分类/02-01_工业机械臂与工业机器人.md",
+      "sha256": "bb980615a1c7f2dac1b53dcb3a45f88e9c39a7b3a348dbf5e842cef36a4d76a3"
+    },
+    {
+      "name": "分类/02-02_协作机械臂与自适应力控.md",
+      "sha256": "90b2f04a9049dba7b23f418ea8da85f304e3fa160fd2f425e0256ef88e1ae657"
+    },
+    {
+      "name": "分类/02-03_桌面机械臂与教学机械臂.md",
+      "sha256": "411ca698827ee36001929977aa7b44c3628b000f632837ff79d1c8f016c0a13e"
+    },
+    {
+      "name": "分类/02-04_焊接与柔性制造集成.md",
+      "sha256": "d47db0c6be5f556f4de21a8835eed0c09f6c2d72b100c563ab6b47282bd1c10e"
+    },
+    {
+      "name": "分类/03-01_家用商用及户外清洁.md",
+      "sha256": "8d3c153bb2a5be6ac0ac77aae10561275affa690f18a130fb564d3ed9d4d9d2e"
+    },
+    {
+      "name": "分类/03-02_酒店餐饮与楼宇配送.md",
+      "sha256": "504ecad4698c412eb6f4f9ecbc8781854b6a1252f0a3873004f434b90079b5d7"
+    },
+    {
+      "name": "分类/03-03_饮品制作与无人零售.md",
+      "sha256": "ae66f5a57a974dd6459b1fe33dcb2833686c4f2a2f8e384f0a253b6afd835998"
+    },
+    {
+      "name": "分类/03-04_家庭陪伴与桌面交互.md",
+      "sha256": "36cb9362b6b4551ae0a27dc7a7afa68c39b38c9b938444515f44a19c7b18cc1d"
+    },
+    {
+      "name": "分类/03-05_导览接待与文旅服务.md",
+      "sha256": "2202d91f0d8d1705aeda3c337aad1693f21afb2eeeaf4069f76e585be1925956"
+    },
+    {
+      "name": "分类/03-06_移动充电服务.md",
+      "sha256": "377559a5932949a799f642db718f65910f1fefd9ee36ae09bd4b6509549de154"
+    },
+    {
+      "name": "分类/04-01_仓储搬运与装卸机器人.md",
+      "sha256": "675c20aa9ff7ceb7eef76a0113c7654320ee94087a5f6ef17c1f597f2c9b2d4f"
+    },
+    {
+      "name": "分类/04-02_末端配送机器人.md",
+      "sha256": "b18d765cd6e0d25561f36310917fc59c934c1715d0f201dcb1fc410f46a3cf70"
+    },
+    {
+      "name": "分类/04-03_移动底盘与自主导航载体.md",
+      "sha256": "df141f382e97d1dd498ecbcf5a636628d83aef954cbccd27c3a2d7dcde11f467"
+    },
+    {
+      "name": "分类/04-04_消防排爆与应急救援.md",
+      "sha256": "b3ef89a692a6d7355ca949343b78ad9e542f78604613b276378053264453290f"
+    },
+    {
+      "name": "分类/04-05_能源工业与安防巡检.md",
+      "sha256": "5c8f0ebd533fec2e3291807e1346f9e911731369b61fa78b3766767c46127762"
+    },
+    {
+      "name": "分类/04-06_爬壁与高危设施维护.md",
+      "sha256": "01016c5c08a2e73a786d5c556e1ee136c42a72587bcdb34057b517ce430b1553"
+    },
+    {
+      "name": "分类/04-07_农业巡检与采摘作业.md",
+      "sha256": "336d7323585cdbc0ba098b62509097013857180f75ea747b8e8d90bfe6e7c309"
+    },
+    {
+      "name": "分类/05-01_手术机器人.md",
+      "sha256": "54e90d580a54645a19bf473a28be2b828ca32b922610a8af47ce8253dfe90f53"
+    },
+    {
+      "name": "分类/05-02_康复助残与轮椅机器人.md",
+      "sha256": "ba79bc59d8e03881cc746db01db259104cbb23817fcfc7f3bb167e1eb10af3ac"
+    },
+    {
+      "name": "分类/05-03_外骨骼与运动助力.md",
+      "sha256": "0d4753be6f44ab34b644e2ea5bedce811ea945cbe1af2df8c568ba0e73597e16"
+    },
+    {
+      "name": "分类/05-04_脑机接口与肌电仿生手.md",
+      "sha256": "280cc7bf79665aa11bf937f0c56ed8c3a67efdc62c6eee73477030c855e8605b"
+    },
+    {
+      "name": "分类/06-01_灵巧手与仿生末端.md",
+      "sha256": "08aa8c6d4c6bc170440ebb4d5264cbd7f6f5be97a6d076392c86658f898744df"
+    },
+    {
+      "name": "分类/06-02_夹爪气动与工具快换.md",
+      "sha256": "1c7422b92e72c150098d27b202ad38a24e2749fc5fed434f4cd347545cc1395f"
+    },
+    {
+      "name": "分类/06-03_一体化关节与执行模组.md",
+      "sha256": "b9b1f71ce31097a90aef9ebfb66986e2161214a9e552b0d71a926214e886d009"
+    },
+    {
+      "name": "分类/06-04_无框微型与直驱电机.md",
+      "sha256": "b7ee78d1a0f5f85612b94dc239acc23a8aec2f233746f0726f7e26261e3cc6f5"
+    },
+    {
+      "name": "分类/06-05_伺服驱动与运动控制.md",
+      "sha256": "4a1c060e8ed80c5c4a3af8c85af94d6d02cfa5a312037ea43736059149641950"
+    },
+    {
+      "name": "分类/06-06_谐波减速器.md",
+      "sha256": "ac59e5240917ed04391dad3a2a5d2bb18709ba4db09924bca3bbe8ec27485690"
+    },
+    {
+      "name": "分类/06-07_行星摆线与精密减速器.md",
+      "sha256": "57cf50ab54a26ebb5c7b37c44addafd0f292f18c446e83bf5e00d3a55b90f7c8"
+    },
+    {
+      "name": "分类/06-08_丝杠与线性执行器.md",
+      "sha256": "b858f5e1dccf4ea4436e7aa8a6e2815265a0ab6313be578553df34e3e69f1dba"
+    },
+    {
+      "name": "分类/06-09_轴承与精密支承.md",
+      "sha256": "f77a7117ef5d9e9a5a7de0d539b9670bd3ebdb7827c13c0fa5a3091a4a905b51"
+    },
+    {
+      "name": "分类/06-10_制动器与离合器.md",
+      "sha256": "ff74578a0f62e0ccd662736ae4b96317b7dce2d636021c68bd48623d92325383"
+    },
+    {
+      "name": "分类/06-11_拖链电缆与线束.md",
+      "sha256": "d75e328e04e627d916055b0241e559a8b66437001bf6ed4910d8c781f1aba2bb"
+    },
+    {
+      "name": "分类/06-12_密封与关节防护.md",
+      "sha256": "9f76fe47edbbc392756daec327f188fb93eced466117e2865971edf578fd48a0"
+    },
+    {
+      "name": "分类/07-01_六维力与关节扭矩传感.md",
+      "sha256": "c023c50ee0395f4c8c496cc96d20f281f0f1cf2010247c12258434c0e58030c9"
+    },
+    {
+      "name": "分类/07-02_触觉与柔性电子皮肤.md",
+      "sha256": "e63cc4011739af0e131e7dd0b34bed88ce6cf5abfe9af98b8d42831b1b1ed090"
+    },
+    {
+      "name": "分类/07-03_深度相机与三维视觉.md",
+      "sha256": "8427e5e79304b2aa1a45da491c662b503b4d59cf67946e62f1b8732adfda7a12"
+    },
+    {
+      "name": "分类/07-04_激光雷达与测距.md",
+      "sha256": "46a6e03f96d967811e2e15a3977e150e2967da0445c0867ee8539d41e4fb4300"
+    },
+    {
+      "name": "分类/07-05_惯性导航与姿态传感.md",
+      "sha256": "b6d2d93def847a28b68538641ece9b0a7b6162642d222b688aef1ea3276e2ece"
+    },
+    {
+      "name": "分类/07-06_编码器与磁位置传感.md",
+      "sha256": "68f13c30f838a4f53c36f09a6a50f44e86c0ba3787a27339c6bd96154e27f3ca"
+    },
+    {
+      "name": "分类/07-07_图像传感与视觉识别.md",
+      "sha256": "f46d85d5eda0f24b9252f90dcc4973b9d7416201ff00791abdab01559393f400"
+    },
+    {
+      "name": "分类/07-08_SLAM与空间感知模组.md",
+      "sha256": "222165b87891558b7db7d437d1a0e27dc2b0037ed7c3cfa89e1ca56132bc0c43"
+    },
+    {
+      "name": "分类/07-09_光学动捕与三维动作感知.md",
+      "sha256": "ad4760924043156ddb083cd099c362dbb955d0f6787ce2ca55572019d5327aa5"
+    },
+    {
+      "name": "分类/08-01_AI芯片与异构计算.md",
+      "sha256": "1aa7f1541d08aca3adbf28b1e485cc325fe26076da085492d7898088bd5c0471"
+    },
+    {
+      "name": "分类/08-02_边缘计算与机器人控制器.md",
+      "sha256": "55143a73eb6dc1f5dea9ef97e98b9fb08d9d7d969b4efd18bedec87830d44ba8"
+    },
+    {
+      "name": "分类/08-03_MCU与功率半导体.md",
+      "sha256": "3d6c0d34dd676d0d41170f00f0be2ee9e39bf364c989e06b7ab640e2b24feee6"
+    },
+    {
+      "name": "分类/08-04_工业通信与无线连接.md",
+      "sha256": "f1e543fe608a280f6b011033e13c34518ffc2827046af6ccf988d3cee35c290d"
+    },
+    {
+      "name": "分类/08-05_电子元器件与传感芯片.md",
+      "sha256": "3ae5fe3ab829ea1d3fc529278303c5112ff38d3e904fb879088f9ff111fd031d"
+    },
+    {
+      "name": "分类/08-06_电池BMS与智能充电.md",
+      "sha256": "41418b789aed9a8778026729cddc08de24bbed189c2a4a7a939cf618498eae9c"
+    },
+    {
+      "name": "分类/08-07_电源与功率驱动模块.md",
+      "sha256": "d298ec27d8b4903f48475c0a8b4683fdbe6ec23e3b74f217579098de73b134c9"
+    },
+    {
+      "name": "分类/09-01_具身基础模型与行为策略.md",
+      "sha256": "9e39fb9f2c57007b21454347b583ce1510385866a5b165567586efd70d77753c"
+    },
+    {
+      "name": "分类/09-02_世界模型与因果推理.md",
+      "sha256": "0611becb675e65bedc2e49dba0c48ed5d62b0cc196f690d1580e58fb90f200bb"
+    },
+    {
+      "name": "分类/09-03_遥操作与数据采集工具链.md",
+      "sha256": "aa39fdb4fae672a00bdedd235d43af9311c05dec0878b9230f0f0a2da8ee9061"
+    },
+    {
+      "name": "分类/09-04_仿真合成数据与评测.md",
+      "sha256": "24a6dc13bb208485be0f99588d677414b9e17fd5a03989edec5443885cd6a8c9"
+    },
+    {
+      "name": "分类/09-05_机器人操作系统与技能平台.md",
+      "sha256": "1c9828bedf866cc9f1c7d70aca653559f17f463720d566b0fc208e659bf827ba"
+    },
+    {
+      "name": "分类/09-06_企业智能体与AI服务.md",
+      "sha256": "a8cb8740e4cd6055fbf44ba3c84e8bacf5ae30041db6b2276aee565969519b7d"
+    },
+    {
+      "name": "分类/10-01_金属增材制造.md",
+      "sha256": "07d7904f69b53bd049577ce86fe07b44e09d19d9f14c3a808b616bbfeef79827"
+    },
+    {
+      "name": "分类/10-02_机床与精密加工装备.md",
+      "sha256": "e57fd185de566e96d6b1224f926fdc27a6b384d9b025a5a09350310c5695c4a6"
+    },
+    {
+      "name": "分类/10-03_本体ODM与精密制造.md",
+      "sha256": "8c1fba1ca1b37336003484545b2cb23cac0d892c716782866ae59d7fd48ea0a5"
+    },
+    {
+      "name": "分类/10-04_粘接导热与功能材料.md",
+      "sha256": "422aef6245c61d1131ae63be1f4d43c426346f2bdc53a29562f2bc8bc9f5b44d"
+    },
+    {
+      "name": "分类/10-05_显示与可穿戴交互设备.md",
+      "sha256": "c79509035d5f9a078ac8b949265099deef482966be4d6c4b0d0c48b7fc9a09f4"
+    },
+    {
+      "name": "分类/11-01_高校研究院与科研团队.md",
+      "sha256": "b9faa98890ab1b1f62ccadcf9bfeedb363bff23dcd7977908c8cc151cb8769c9"
+    },
+    {
+      "name": "分类/11-02_创新中心中试与产业运营.md",
+      "sha256": "8357c05ce8544d1c9e931df666a612456eb0595ff33922326386d09319f679cf"
+    },
+    {
+      "name": "分类/11-03_协会与联合展区.md",
+      "sha256": "b177f9b21b450cb53eabeeed060522310bf344b8cb0abc80892bb01873ec0725"
+    },
+    {
+      "name": "分类/11-04_人才培养与实训.md",
+      "sha256": "6cb468922c48d3d2bddc9471fd90406c9d21217c9c9791a66472f2701a48227d"
+    }
+  ],
+  "repairs": [
+    {
+      "file": "05_产品与展项名称索引.md",
+      "line": 71,
+      "issue": "Display whitespace normalized; raw source spelling retained.",
+      "raw_name": "人形机器人 外骨骼  关节模组",
+      "display_name": "人形机器人 外骨骼 关节模组"
+    },
+    {
+      "file": "05_产品与展项名称索引.md",
+      "line": 347,
+      "issue": "Display whitespace normalized; raw source spelling retained.",
+      "raw_name": "移动单臂机器人\u000bMagic MA1",
+      "display_name": "移动单臂机器人 Magic MA1",
+      "control_character": "U+000B VERTICAL TAB; Python splitlines() would split this product name."
+    },
+    {
+      "file": "05_产品与展项名称索引.md",
+      "line": 438,
+      "issue": "Display whitespace normalized; raw source spelling retained.",
+      "raw_name": "RV减速器主轴承  （圆锥滚子轴承）",
+      "display_name": "RV减速器主轴承 （圆锥滚子轴承）"
+    },
+    {
+      "file": "05_产品与展项名称索引.md",
+      "line": 860,
+      "issue": "Display whitespace normalized; raw source spelling retained.",
+      "raw_name": "TATTU  neo系列简易智能电池",
+      "display_name": "TATTU neo系列简易智能电池"
+    },
+    {
+      "file": "05_产品与展项名称索引.md",
+      "line": 861,
+      "issue": "Display whitespace normalized; raw source spelling retained.",
+      "raw_name": "TATTU  neo系列智能电池",
+      "display_name": "TATTU neo系列智能电池"
+    }
+  ],
+  "scope": "Technical excerpts, source-published product names, application wording, source links and issues; no booth directory or company biographies.",
+  "cross_references": 236
+}

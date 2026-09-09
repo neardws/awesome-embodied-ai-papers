@@ -1,0 +1,27 @@
+{
+  "id": "E095",
+  "supplier_as_published": "AidALL股份有限公司",
+  "source_category": "03-05",
+  "source_url": "https://www.worldrobotconference.com/expo/company/681.html",
+  "original_source_urls": [
+    "https://www.worldrobotconference.com/expo/company/681.html",
+    "https://www.worldrobotconference.com/expo/product/1444.html"
+  ],
+  "source_checked_on": "2026-09-05",
+  "evidence": "official_page",
+  "technical": {
+    "zh-CN": "Bedivere 使用神经符号 AI 与仿生计算，强调端侧感知推理和离线运行；面向视障辅助等服务用途，未公开导航误差和安全测试结果。",
+    "en": "Bedivere uses neuro-symbolic AI and biomimetic computation for on-device perception/reasoning and offline operation. It targets services including visual-impairment assistance, without public navigation-error or safety-test results."
+  },
+  "original_product_line": "Bedivere 神经符号AI自主驾驶机器人",
+  "original_application_wording": "视觉障碍辅助、智能服务、多场景机器人系统扩展",
+  "original_issue_notes": [],
+  "item_ids": [
+    "item-39c3b6250afa"
+  ],
+  "source_technical_sha256": "ed93be6cbe51f193f2e9f9cac722c0c0a862a3b9c2221937b7655209b1f96275",
+  "cross_source_categories": [],
+  "original_tags": "神经符号AI自主驾驶服务机器人",
+  "original_verification_wording": "大会官方页已核验。",
+  "original_review_wording": "检索/读取日期：2026-09-05。核验口径：已读取官方网页；参数属发布方声明。"
+}

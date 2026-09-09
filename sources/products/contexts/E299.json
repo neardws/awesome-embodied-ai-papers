@@ -1,0 +1,25 @@
+{
+  "id": "E299",
+  "supplier_as_published": "广东省具身智能机器人创新中心",
+  "source_category": "11-02",
+  "source_url": "https://www.worldrobotconference.com/expo/company/770.html",
+  "original_source_urls": [
+    "https://www.worldrobotconference.com/expo/company/770.html",
+    "https://www.worldrobotconference.com/news/latestnews/2993.html"
+  ],
+  "source_checked_on": "2026-09-05",
+  "evidence": "official_page",
+  "technical": {
+    "zh-CN": "中心介绍给出 2023 年 12 月联合设立、2024 年 2 月授牌，以及电力、医疗、轨交场景研发；联合体成员关系不等于全部产品供应关系。",
+    "en": "The center description states joint establishment in December 2023 and recognition in February 2024, with power, medical and rail research. Consortium membership is not evidence of every product's supply relationship."
+  },
+  "original_product_line": "具身智能机器人关键技术研发与产业服务平台（未列具体展品）",
+  "original_application_wording": "电力、医疗、轨道交通；应急管理、场馆运维、群众服务",
+  "original_issue_notes": [],
+  "item_ids": [],
+  "source_technical_sha256": "ee9e60779ff08776b0fa0d6fdee07e85ad81d32bdf299286fdc3d3953056076c",
+  "cross_source_categories": [],
+  "original_tags": "具身智能产业服务与应用示范",
+  "original_verification_wording": "大会官方页已核验。",
+  "original_review_wording": "检索/读取日期：2026-09-05。核验口径：已读取官方网页；参数属发布方声明。"
+}

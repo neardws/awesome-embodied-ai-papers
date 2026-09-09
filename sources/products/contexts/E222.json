@@ -1,0 +1,33 @@
+{
+  "id": "E222",
+  "supplier_as_published": "千觉机器人科技（上海）有限公司",
+  "source_category": "07-02",
+  "source_url": "https://www.worldrobotconference.com/expo/company/829.html",
+  "original_source_urls": [
+    "https://www.worldrobotconference.com/expo/company/829.html",
+    "https://www.worldrobotconference.com/expo/product/1493.html",
+    "https://www.worldrobotconference.com/expo/product/1494.html",
+    "https://www.worldrobotconference.com/expo/product/1495.html"
+  ],
+  "source_checked_on": "2026-09-05",
+  "evidence": "official_page",
+  "technical": {
+    "zh-CN": "XTac UMI G1 结合视触觉和位姿采集，提供手持、背包式计算配置，支持 LeRobot/MCAP 数据格式；实际字段及时间同步需查开发文档。",
+    "en": "XTac UMI G1 combines visual-tactile and pose capture, with handheld/backpack compute configurations and LeRobot/MCAP formats. Exact fields and time synchronization require developer documentation."
+  },
+  "original_product_line": "多模态触觉传感器、精灵指尖触觉传感器、XTac UMI G1 穿戴式数采夹爪、VTLA 多模态具身模型",
+  "original_application_wording": "具身灵巧操作、工业精密装配、柔顺操作、触觉检测、柔性物流",
+  "original_issue_notes": [],
+  "item_ids": [
+    "item-2ea45526494a",
+    "item-eaa7b0fbffb6",
+    "item-552f7751d38a"
+  ],
+  "source_technical_sha256": "7edf8c1f82d4f009773c331c674cf7c560178b9dae55ad0353718d4f47fda768",
+  "cross_source_categories": [
+    "09-03"
+  ],
+  "original_tags": "多模态触觉感知与数据采集",
+  "original_verification_wording": "官方页已核对。",
+  "original_review_wording": "检索/读取日期：2026-09-05。核验口径：已读取官方网页；参数属发布方声明。"
+}

@@ -1,0 +1,24 @@
+{
+  "id": "E009",
+  "supplier_as_published": "图灵九歌（北京）科技有限公司",
+  "source_category": "01-06",
+  "source_url": "https://www.worldrobotconference.com/expo/company/832.html",
+  "original_source_urls": [
+    "https://www.worldrobotconference.com/expo/company/832.html"
+  ],
+  "source_checked_on": "2026-09-05",
+  "evidence": "official_page",
+  "technical": {
+    "zh-CN": "官方介绍给出成立于 2025 年 3 月及工业、服务方向，但没有具体展品或技术参数，暂归具身方案与未明确形态平台。",
+    "en": "The official description states establishment in March 2025 and industrial/service interests, but no exact exhibit or technical specification; body form remains unspecified."
+  },
+  "original_product_line": "待官网核实（官方页仅披露智能机器人前沿技术与具身智能/人机协同方案）",
+  "original_application_wording": "工业制造、服务领域",
+  "original_issue_notes": [],
+  "item_ids": [],
+  "source_technical_sha256": "55c811efdb1486c1fdd02b660840f70ef8652b65479b6c760d332647ea8564e6",
+  "cross_source_categories": [],
+  "original_tags": "具身智能与人机协同方案",
+  "original_verification_wording": "大会官方页已核验；具体产品待官网核实。",
+  "original_review_wording": "检索/读取日期：2026-09-05。核验口径：已读取官方网页；参数属发布方声明。"
+}

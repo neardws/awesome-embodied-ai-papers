@@ -1,0 +1,33 @@
+{
+  "id": "E072",
+  "supplier_as_published": "北京伟景智能科技有限公司",
+  "source_category": "01-02",
+  "source_url": "https://www.worldrobotconference.com/expo/company/459.html",
+  "original_source_urls": [
+    "https://www.worldrobotconference.com/expo/company/459.html",
+    "https://www.worldrobotconference.com/expo/product/53.html",
+    "https://www.worldrobotconference.com/expo/product/319.html",
+    "https://www.worldrobotconference.com/expo/product/1337.html"
+  ],
+  "source_checked_on": "2026-09-05",
+  "evidence": "official_page",
+  "technical": {
+    "zh-CN": "采摘系统用线激光双目识别果实，并通过手部 Mark 点实现手眼追踪；ViHero 手标注 16 个独立活动关节和电流反馈力控。",
+    "en": "The picking system uses line-laser stereo fruit recognition and hand markers for hand-eye tracking. ViHero reports 16 independently moving joints and current-feedback force control."
+  },
+  "original_product_line": "“晓唯”AGV 人形机器人、采摘人形机器人、智能灵巧手",
+  "original_application_wording": "工业、家庭、商用、教育科研与农业采摘",
+  "original_issue_notes": [],
+  "item_ids": [
+    "item-43dae6493a84",
+    "item-09792f4ba779",
+    "item-f64393271e80"
+  ],
+  "source_technical_sha256": "f3cf3ce33cc90090cf8b0e77d9c5c31181628c8bc9d90ac08df17bd8d81250d0",
+  "cross_source_categories": [
+    "01-01"
+  ],
+  "original_tags": "视觉人形与农业采摘机器人",
+  "original_verification_wording": "大会官方页已核验。",
+  "original_review_wording": "检索/读取日期：2026-09-05。核验口径：已读取官方网页；参数属发布方声明。"
+}

@@ -1,0 +1,29 @@
+{
+  "id": "E108",
+  "supplier_as_published": "北京盈迪曼德科技有限公司",
+  "source_category": "03-04",
+  "source_url": "https://www.worldrobotconference.com/expo/company/713.html",
+  "original_source_urls": [
+    "https://www.worldrobotconference.com/expo/company/713.html",
+    "https://www.worldrobotconference.com/expo/product/944.html",
+    "https://www.worldrobotconference.com/expo/product/1009.html"
+  ],
+  "source_checked_on": "2026-09-05",
+  "evidence": "official_page",
+  "technical": {
+    "zh-CN": "Donut 面向家庭终端；另有面向整机厂商的平台方案，支持轮式单元、仿生肢体和屏幕定制，两者分别属于产品与配套软件硬件方案。",
+    "en": "Donut is a household terminal. A separate platform for robot manufacturers supports custom wheeled units, biomimetic limbs and displays. Distinguish the end product from supporting hardware/software solutions."
+  },
+  "original_product_line": "ROBOMIND 具身大脑、Donut 家庭智能体、家用具身陪伴机器人 AI 平台",
+  "original_application_wording": "育儿陪护、老年看护、宠物陪伴与全屋安防",
+  "original_issue_notes": [],
+  "item_ids": [
+    "item-a472a0bd1d00",
+    "item-86d46d3a57a2"
+  ],
+  "source_technical_sha256": "ec12505958c6bcf3f17e3ecc94de988c4486cbaa692662d7848cc33787495420",
+  "cross_source_categories": [],
+  "original_tags": "家用具身陪伴机器人平台",
+  "original_verification_wording": "大会官方页已核验。",
+  "original_review_wording": "检索/读取日期：2026-09-05。核验口径：已读取官方网页；参数属发布方声明。"
+}

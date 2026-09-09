@@ -1,0 +1,27 @@
+{
+  "id": "E102",
+  "supplier_as_published": "江苏细胞壁智能科技有限公司",
+  "source_category": "03-04",
+  "source_url": "https://www.worldrobotconference.com/expo/company/651.html",
+  "original_source_urls": [
+    "https://www.worldrobotconference.com/expo/company/651.html",
+    "https://www.worldrobotconference.com/expo/product/1289.html"
+  ],
+  "source_checked_on": "2026-09-05",
+  "evidence": "official_page",
+  "technical": {
+    "zh-CN": "CyboPal ONE 用六轴机械臂带动 27 英寸 4K 屏幕，支持头部跟踪、手势、语音与敲击控制；属于桌面显示交互设备。",
+    "en": "CyboPal ONE moves a 27-inch 4K display with a six-axis arm and supports head tracking, gestures, speech and tap control. It is a desktop display-interaction device."
+  },
+  "original_product_line": "CyboPal ONE 桌面 AI 显示机器人",
+  "original_application_wording": "桌面交互、办公室助手",
+  "original_issue_notes": [],
+  "item_ids": [
+    "item-8cc3186dbfc9"
+  ],
+  "source_technical_sha256": "26bdb0a2758e9b25f07744e6377aa0b39acf1ab6fc681b71e5811c613776c1cb",
+  "cross_source_categories": [],
+  "original_tags": "桌面 AI 交互终端",
+  "original_verification_wording": "展会官方页已核对。",
+  "original_review_wording": "检索/读取日期：2026-09-05。核验口径：已读取官方网页；参数属发布方声明。"
+}

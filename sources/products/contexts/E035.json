@@ -1,0 +1,35 @@
+{
+  "id": "E035",
+  "supplier_as_published": "北京极佳视界科技有限公司",
+  "source_category": "01-01",
+  "source_url": "https://www.worldrobotconference.com/expo/company/782.html",
+  "original_source_urls": [
+    "https://www.worldrobotconference.com/expo/company/782.html",
+    "https://www.worldrobotconference.com/expo/product/1418.html",
+    "https://www.worldrobotconference.com/expo/product/1419.html",
+    "https://www.worldrobotconference.com/expo/product/1420.html"
+  ],
+  "source_checked_on": "2026-09-05",
+  "evidence": "official_page",
+  "technical": {
+    "zh-CN": "Maker H01 作为实体载体，GigaBrain-0 作为具身基础模型，GigaWorld-1 用于实时多视角仿真交互；可按本体、策略与世界模型三条线关联检索。",
+    "en": "Maker H01 is the physical carrier, GigaBrain-0 the embodied foundation model, and GigaWorld-1 the real-time multi-view simulation component. Link them across body, policy and world-model categories."
+  },
+  "original_product_line": "Maker H01 通用人形机器人本体、GigaBrain-0 具身基础模型、GigaWorld-1 世界模型",
+  "original_application_wording": "工业及家庭通用作业",
+  "original_issue_notes": [],
+  "item_ids": [
+    "item-43232954a98e",
+    "item-1e29f5f70b7f",
+    "item-93931c5472c3"
+  ],
+  "source_technical_sha256": "a0710ec4aacf185dd730d12c59a629e4e441bbc49cde5d2ab747d34a6ee6e3e5",
+  "cross_source_categories": [
+    "09-01",
+    "09-02",
+    "09-04"
+  ],
+  "original_tags": "通用人形机器人与具身世界模型",
+  "original_verification_wording": "大会官方页已核验。",
+  "original_review_wording": "检索/读取日期：2026-09-05。核验口径：已读取官方网页；参数属发布方声明。"
+}

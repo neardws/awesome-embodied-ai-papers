@@ -1,0 +1,24 @@
+{
+  "id": "E253",
+  "supplier_as_published": "金云集团",
+  "source_category": "09-06",
+  "source_url": "https://www.worldrobotconference.com/expo/company/879.html",
+  "original_source_urls": [
+    "https://www.worldrobotconference.com/expo/company/879.html"
+  ],
+  "source_checked_on": "2026-09-05",
+  "evidence": "official_page",
+  "technical": {
+    "zh-CN": "GOLDLY AI 聚焦 AI-Infra、AI-Gateway、AI-Agent，提供多云算力、大模型接入及企业知识库、客服、运营应用；属于企业 AI 服务而非机器人本体。",
+    "en": "GOLDLY AI covers AI infrastructure, gateways and agents, offering multi-cloud compute, model access, knowledge bases, customer service and operations. It is enterprise AI service rather than a robot body."
+  },
+  "original_product_line": "AI-Infra、AI-Gateway、AI-Agent",
+  "original_application_wording": "智能客服、企业知识库、数据分析、自动化运营",
+  "original_issue_notes": [],
+  "item_ids": [],
+  "source_technical_sha256": "78c17aebd0d0d05cb9866a1af59bf4673c691cd85befd53b1307ff575ead5013",
+  "cross_source_categories": [],
+  "original_tags": "云算力、大模型接入与企业AI Agent",
+  "original_verification_wording": "大会官方页已核验。",
+  "original_review_wording": "检索/读取日期：2026-09-05。核验口径：已读取官方网页；参数属发布方声明。"
+}

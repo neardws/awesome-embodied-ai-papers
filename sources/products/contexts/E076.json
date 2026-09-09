@@ -1,0 +1,39 @@
+{
+  "id": "E076",
+  "supplier_as_published": "中信重工机械股份有限公司",
+  "source_category": "04-04",
+  "source_url": "https://www.worldrobotconference.com/expo/company/493.html",
+  "original_source_urls": [
+    "https://www.worldrobotconference.com/expo/company/493.html",
+    "https://www.worldrobotconference.com/expo/product/974.html",
+    "https://www.worldrobotconference.com/expo/product/976.html",
+    "https://www.worldrobotconference.com/expo/product/980.html",
+    "https://www.worldrobotconference.com/expo/product/981.html",
+    "https://www.worldrobotconference.com/expo/product/354.html",
+    "https://www.worldrobotconference.com/expo/product/993.html"
+  ],
+  "source_checked_on": "2026-09-05",
+  "evidence": "official_page",
+  "technical": {
+    "zh-CN": "速攻灭火机器人标注约 65kg、2m/s、30°爬坡、30L/s 流量及 60m 射程；防爆四足与皮带纵撕检测是另外两类产品。",
+    "en": "The rapid-response firefighting robot reports about 65kg, 2m/s, 30° climbing, 30L/s flow and 60m range. An explosion-resistant quadruped and belt-tear detector are separate products."
+  },
+  "original_product_line": "消防灭火侦察、应急救援破拆、轨道巡检、四足巡检等特种机器人",
+  "original_application_wording": "石化/燃气消防救援、矿山/电力/园区巡检、危险环境作业",
+  "original_issue_notes": [],
+  "item_ids": [
+    "item-6fcda61d1dfc",
+    "item-4f806ba08662",
+    "item-a644fb500b45",
+    "item-4fbda72765c3",
+    "item-61a64333dc46",
+    "item-c91c0e702c08",
+    "item-12b7a35f39c7",
+    "item-421277507f75"
+  ],
+  "source_technical_sha256": "ec42bb6b74c6d40fd8ea7d398323a1d6dc1402faac2dc32af9724d1d5ff2accb",
+  "cross_source_categories": [],
+  "original_tags": "特种巡检与应急救援机器人",
+  "original_verification_wording": "展会官方页已核对。",
+  "original_review_wording": "检索/读取日期：2026-09-05。核验口径：已读取官方网页；参数属发布方声明。"
+}

@@ -1,0 +1,30 @@
+{
+  "id": "E304",
+  "supplier_as_published": "中国兵器装备集团自动化研究所有限公司",
+  "source_category": "11-01",
+  "source_url": "https://www.worldrobotconference.com/expo/company/769.html",
+  "original_source_urls": [
+    "https://www.worldrobotconference.com/expo/company/769.html",
+    "https://www.worldrobotconference.com/expo/product/908.html"
+  ],
+  "source_checked_on": "2026-09-05",
+  "evidence": "official_page",
+  "technical": {
+    "zh-CN": "四足平台融合复杂地形移动、自主导航和模块化巡检处置，面向高风险工业环境；没有公开具体负载、续航与防爆等级。",
+    "en": "The quadruped platform combines difficult-terrain movement, autonomous navigation and modular inspection/intervention for high-risk industry. Payload, endurance and explosion-protection grades are absent."
+  },
+  "original_product_line": "工业巡检/处置四足机器犬",
+  "original_application_wording": "复杂工业环境的设备巡检、状态感知与远程操作",
+  "original_issue_notes": [],
+  "item_ids": [
+    "item-68c2f8423d5e"
+  ],
+  "source_technical_sha256": "1c4a854bbe9bf5f2428f5b63a301744994ea2fb7cf6ecd5ec73472ce4524730e",
+  "cross_source_categories": [
+    "01-03",
+    "04-05"
+  ],
+  "original_tags": "特种装备智能化与工业巡检机器人",
+  "original_verification_wording": "大会官方页已核验。",
+  "original_review_wording": "检索/读取日期：2026-09-05。核验口径：已读取官方网页；参数属发布方声明。"
+}

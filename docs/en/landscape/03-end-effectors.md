@@ -20,42 +20,42 @@ This page distinguishes subcategory questions, research priorities and industria
 </thead>
 <tbody>
 <tr>
-<td width="240" nowrap><a id="03-01"></a>Parallel and adaptive grippers</td>
+<td width="240" nowrap><a id="03-01"></a>Parallel and adaptive grippers<br><a href="../products/topics/03-01.md">Product details</a></td>
 <td width="300">Hold objects with varying sizes or shapes.</td>
 <td width="320">Grasp synthesis, compliance design and contact modeling.</td>
 <td width="320">Fingertip tooling, life, grasp detection and interfaces.</td>
 <td width="340">Opening, gripping force, mass and replaceable fingertips.</td>
 </tr>
 <tr>
-<td width="240" nowrap><a id="03-02"></a>Suction, pneumatic and soft tools</td>
+<td width="240" nowrap><a id="03-02"></a>Suction, pneumatic and soft tools<br><a href="../products/topics/03-02.md">Product details</a></td>
 <td width="300">Handle sheets, fragile items and irregular shapes.</td>
 <td width="320">Sealing contact, deformation and grasp feasibility.</td>
 <td width="320">Air supply, leakage, contamination and consumable replacement.</td>
 <td width="340">Surface compatibility, pressure differential and failure detection.</td>
 </tr>
 <tr>
-<td width="240" nowrap><a id="03-03"></a>Multi-finger dexterous hands</td>
+<td width="240" nowrap><a id="03-03"></a>Multi-finger dexterous hands<br><a href="../products/topics/03-03.md">Product details</a></td>
 <td width="300">Reorient objects after grasping.</td>
 <td width="320">High-dimensional learning, in-hand manipulation and hand transfer.</td>
 <td width="320">Drive integration, durability, tactile placement and supply.</td>
 <td width="340">Active versus total degrees of freedom, fingertip force and control interface.</td>
 </tr>
 <tr>
-<td width="240" nowrap><a id="03-04"></a>Tendon-driven, underactuated and biomimetic mechanisms</td>
+<td width="240" nowrap><a id="03-04"></a>Tendon-driven, underactuated and biomimetic mechanisms<br><a href="../products/topics/03-04.md">Product details</a></td>
 <td width="300">Reduce hand mass and actuator count.</td>
 <td width="320">Coupling identification, hysteresis compensation and morphology computation.</td>
 <td width="320">Tension adjustment, transmission service and consistency.</td>
 <td width="340">Independent control dimensions, hysteresis, tension and life.</td>
 </tr>
 <tr>
-<td width="240" nowrap><a id="03-05"></a>Tool changing and process tooling</td>
+<td width="240" nowrap><a id="03-05"></a>Tool changing and process tooling<br><a href="../products/topics/03-05.md">Product details</a></td>
 <td width="300">Switch between grasping, fastening and processing.</td>
 <td width="320">Tool-use reasoning and contact-skill composition.</td>
 <td width="320">Changer repeatability, utility connections and process qualification.</td>
 <td width="340">Changeover time, connection reliability and tool calibration.</td>
 </tr>
 <tr>
-<td width="240" nowrap><a id="03-06"></a>Bimanual and hand-arm coordination</td>
+<td width="240" nowrap><a id="03-06"></a>Bimanual and hand-arm coordination<br><a href="../products/topics/03-06.md">Product details</a></td>
 <td width="300">Support, hand over or assemble objects cooperatively.</td>
 <td width="320">Coupled constraints, role assignment and coordination policies.</td>
 <td width="320">Collision avoidance, synchronization and cell layout.</td>
@@ -63,6 +63,14 @@ This page distinguishes subcategory questions, research priorities and industria
 </tr>
 </tbody>
 </table>
+
+## Technical and product details
+
+<a href="../products/comparisons/03-end-effectors.md">Open 19 related comparison records</a>
+
+Compare model-specific values, conditions, interfaces, research relationships and source issues. Full source excerpts and original exhibit links remain available underneath.
+
+<a href="../products/references/06-01.md">Dexterous hands and biomimetic end effectors</a> · <a href="../products/references/06-02.md">Grippers, pneumatics and tool changing</a>
 
 ## Research, platforms and industrial examples
 

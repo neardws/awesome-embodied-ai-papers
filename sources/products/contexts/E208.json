@@ -1,0 +1,33 @@
+{
+  "id": "E208",
+  "supplier_as_published": "常州祥明智能动力股份有限公司",
+  "source_category": "06-03",
+  "source_url": "https://www.worldrobotconference.com/expo/company/573.html",
+  "original_source_urls": [
+    "https://www.worldrobotconference.com/expo/company/573.html",
+    "https://www.worldrobotconference.com/expo/product/249.html",
+    "https://www.worldrobotconference.com/expo/product/250.html",
+    "https://www.worldrobotconference.com/expo/product/910.html"
+  ],
+  "source_checked_on": "2026-09-05",
+  "evidence": "official_page",
+  "technical": {
+    "zh-CN": "无框电机系列电压 48–300VDC，可配温度/Hall 元件；SJ 使用谐波及 G4 方案，DZ 面向紧凑持续负载，G4 结构未详细解释。",
+    "en": "Frameless motor families span 48–300VDC with optional temperature/Hall sensors. SJ uses strain-wave gearing and G4; DZ targets compact sustained loads. G4 is not explained in detail."
+  },
+  "original_product_line": "DZ/SJ 系列关节模组、无框力矩电机",
+  "original_application_wording": "机器狗、人形、外骨骼与协作机械臂",
+  "original_issue_notes": [],
+  "item_ids": [
+    "item-257a89f2233a",
+    "item-7422d2870d9a",
+    "item-bddcae199854"
+  ],
+  "source_technical_sha256": "143549ee05111414322f388011ffbb33cdad7e189657c1b31bbf35ccf79d6b6b",
+  "cross_source_categories": [
+    "06-04"
+  ],
+  "original_tags": "关节模组与无框力矩电机",
+  "original_verification_wording": "大会官方页已核验。",
+  "original_review_wording": "检索/读取日期：2026-09-05。核验口径：已读取官方网页；参数属发布方声明。"
+}

@@ -1,0 +1,34 @@
+{
+  "id": "E142",
+  "supplier_as_published": "苏州钧和伺服科技有限公司",
+  "source_category": "06-04",
+  "source_url": "https://www.worldrobotconference.com/expo/company/537.html",
+  "original_source_urls": [
+    "https://www.worldrobotconference.com/expo/company/537.html",
+    "https://www.worldrobotconference.com/expo/product/238.html",
+    "https://www.worldrobotconference.com/expo/product/1438.html",
+    "https://www.worldrobotconference.com/expo/product/1439.html",
+    "https://www.maxongroup.com/zh-cn"
+  ],
+  "source_checked_on": "2026-09-05",
+  "evidence": "official_page",
+  "technical": {
+    "zh-CN": "ESCON2 为四象限 PWM 伺服控制器，可接有刷/无刷电机，系列连续功率最高 1800W，配 Motion Studio 调试；此为 maxon 品牌产品信息。",
+    "en": "ESCON2 is a four-quadrant PWM servo controller for brushed/brushless motors, with series continuous power up to 1800W and Motion Studio commissioning. This is maxon-branded product information."
+  },
+  "original_product_line": "有刷/无刷 DC 电机、齿轮箱、编码器、控制器、GSW55A 谐波齿轮箱",
+  "original_application_wording": "医疗技术、机器人、工业自动化、电动车与航空航天",
+  "original_issue_notes": [],
+  "item_ids": [
+    "item-7e3aa4d291f2",
+    "item-cd2f11e9a2a1",
+    "item-2dc4e8aa0efa"
+  ],
+  "source_technical_sha256": "964be3c512da75a1df73ffbef4ca98a4f01b0b9df2fc208db35083713fc9555a",
+  "cross_source_categories": [
+    "06-05"
+  ],
+  "original_tags": "精密电驱与谐波齿轮箱",
+  "original_verification_wording": "官网已核对。",
+  "original_review_wording": "检索/读取日期：2026-09-05。核验口径：已读取官方网页；参数属发布方声明。"
+}

@@ -1,0 +1,35 @@
+{
+  "id": "E129",
+  "supplier_as_published": "成都越凡创新科技有限公司",
+  "source_category": "04-02",
+  "source_url": "https://www.worldrobotconference.com/expo/company/848.html",
+  "original_source_urls": [
+    "https://www.worldrobotconference.com/expo/company/848.html",
+    "https://www.worldrobotconference.com/expo/product/1204.html",
+    "https://www.worldrobotconference.com/expo/product/1085.html",
+    "https://www.worldrobotconference.com/expo/product/1091.html",
+    "https://www.worldrobotconference.com/expo/product/1196.html",
+    "https://www.worldrobotconference.com/expo/product/1200.html"
+  ],
+  "source_checked_on": "2026-09-05",
+  "evidence": "official_page",
+  "technical": {
+    "zh-CN": "路宝快递版加入扫码取货与自动卸货；享递 Ultra 可联动电梯和门禁，页面自述单项目超过 3 万单验证，未附运行日志。",
+    "en": "路宝快递版 adds QR pickup and automatic unloading. 享递 Ultra integrates elevators and access control; over 30,000 orders at one project are self-reported without operational logs."
+  },
+  "original_product_line": "路宝快递版、享递 Ultra、路宝、享递及 SENDBOT SPACE 分拣配送系统",
+  "original_application_wording": "社区、园区、工厂、展馆末端配送；写字楼、公寓、医院楼宇配送；零售分拣与配送",
+  "original_issue_notes": [],
+  "item_ids": [
+    "item-ed87cb03e2e3",
+    "item-9e8469a4607b",
+    "item-4db456768e19",
+    "item-964047f38a92",
+    "item-9231af96dfbd"
+  ],
+  "source_technical_sha256": "ec52c2127c3a4e132b26599540c91ef28c5ceb7976d55ad66ab2c220fb96668e",
+  "cross_source_categories": [],
+  "original_tags": "室内外配送与末端物流",
+  "original_verification_wording": "官方页已核对。",
+  "original_review_wording": "检索/读取日期：2026-09-05。核验口径：已读取官方网页；参数属发布方声明。"
+}

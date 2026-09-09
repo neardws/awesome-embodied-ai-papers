@@ -1,0 +1,33 @@
+{
+  "id": "E179",
+  "supplier_as_published": "SMC自动化有限公司",
+  "source_category": "06-02",
+  "source_url": "https://www.worldrobotconference.com/expo/company/406.html",
+  "original_source_urls": [
+    "https://www.worldrobotconference.com/expo/company/406.html",
+    "https://www.worldrobotconference.com/expo/product/87.html",
+    "https://www.worldrobotconference.com/expo/product/83.html",
+    "https://www.worldrobotconference.com/expo/product/84.html",
+    "https://www.worldrobotconference.com/expo/product/86.html"
+  ],
+  "source_checked_on": "2026-09-05",
+  "evidence": "official_page",
+  "technical": {
+    "zh-CN": "ZGS 支持 IO-Link；200×120 规格在 -63kPa 下吸吊力 440N；CRP 空压机和 EXW 无线通信另成产品线，吸力参数不可跨规格套用。",
+    "en": "ZGS supports IO-Link; the 200×120 version reports 440N suction lifting force at -63kPa. CRP compressors and EXW wireless communication are separate lines; suction figures are configuration-specific."
+  },
+  "original_product_line": "ZGS 真空夹持系统、CRP 小型空压机、EXW1/EX600-W 无线通信系统、AMS 压缩空气管理系统",
+  "original_application_wording": "协作机器人末端夹持及汽车、半导体、电子、食品、医疗等工厂自动化",
+  "original_issue_notes": [],
+  "item_ids": [
+    "item-819d8964c3b3",
+    "item-7f29cb680e9d",
+    "item-2f5a9741c5d6",
+    "item-fe0cebb4eaeb"
+  ],
+  "source_technical_sha256": "a63056fe27e59cdd99c98cea9b80e742d08b20e06087cd62f6c1bf494dedab8e",
+  "cross_source_categories": [],
+  "original_tags": "气动、真空夹持与工业通信元件",
+  "original_verification_wording": "大会官方页已核验。",
+  "original_review_wording": "检索/读取日期：2026-09-05。核验口径：已读取官方网页；参数属发布方声明。"
+}

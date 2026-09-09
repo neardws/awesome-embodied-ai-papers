@@ -1,0 +1,27 @@
+{
+  "id": "E283",
+  "supplier_as_published": "西安铂力特增材技术股份有限公司",
+  "source_category": "10-01",
+  "source_url": "https://www.worldrobotconference.com/expo/company/712.html",
+  "original_source_urls": [
+    "https://www.worldrobotconference.com/expo/company/712.html",
+    "https://www.worldrobotconference.com/expo/product/1151.html"
+  ],
+  "source_checked_on": "2026-09-05",
+  "evidence": "official_page",
+  "technical": {
+    "zh-CN": "采用 PBF-LB/M 金属粉末床熔融制造肩支架、胸骨、小臂、腿和手指关节，重点在一体成形、减件与减重；没有给出同材同载荷对比数据。",
+    "en": "PBF-LB/M metal powder-bed fusion produces shoulder supports, chest structures, forearms, legs and finger joints, emphasizing consolidation and weight reduction. Same-material/same-load comparisons are absent."
+  },
+  "original_product_line": "金属增材制造设备、打印服务、原材料与技术服务；机器人关节等一体成形零件",
+  "original_application_wording": "航空航天、能源动力、医疗齿科、工业模具、汽车制造及机器人部件",
+  "original_issue_notes": [],
+  "item_ids": [
+    "item-7bb5a7afe992"
+  ],
+  "source_technical_sha256": "e9077172402cef4a44487e742c599503fe8dc5edeaafe4017d3e5ef6e0e6a27c",
+  "cross_source_categories": [],
+  "original_tags": "金属增材制造与再制造",
+  "original_verification_wording": "大会官方页已核验。",
+  "original_review_wording": "检索/读取日期：2026-09-05。核验口径：已读取官方网页；参数属发布方声明。"
+}

@@ -1,0 +1,27 @@
+{
+  "id": "E153",
+  "supplier_as_published": "福建龙溪轴承（集团）股份有限公司",
+  "source_category": "06-09",
+  "source_url": "https://www.worldrobotconference.com/expo/company/837.html",
+  "original_source_urls": [
+    "https://www.worldrobotconference.com/expo/company/837.html",
+    "https://www.worldrobotconference.com/expo/product/1021.html"
+  ],
+  "source_checked_on": "2026-09-05",
+  "evidence": "official_page",
+  "technical": {
+    "zh-CN": "细分到自润滑向心、杆端、滚动轴承及轴套、十字轴、连杆组件，可按腕、踝、腰、手指等安装部位进一步检索。",
+    "en": "Products include self-lubricating radial, rod-end and rolling bearings, bushings, cross shafts and linkages, searchable by wrist, ankle, waist and finger installation."
+  },
+  "original_product_line": "关节轴承、轴承、连杆组件",
+  "original_application_wording": "人形机器人踝、膝、腕、腰、颈、手等多自由度运动机构；本体支撑和灵巧手指关节",
+  "original_issue_notes": [],
+  "item_ids": [
+    "item-e8de3955863c"
+  ],
+  "source_technical_sha256": "d28d2c02d53d19d3a594b5df323dcd7be50ef779333000a92316df4b02152cd1",
+  "cross_source_categories": [],
+  "original_tags": "关节轴承与连杆组件",
+  "original_verification_wording": "大会官方页已核验。",
+  "original_review_wording": "检索/读取日期：2026-09-05。核验口径：已读取官方网页；参数属发布方声明。"
+}

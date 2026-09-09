@@ -1,0 +1,38 @@
+{
+  "id": "E293",
+  "supplier_as_published": "惠州亿纬锂能股份有限公司",
+  "source_category": "08-06",
+  "source_url": "https://www.worldrobotconference.com/expo/company/562.html",
+  "original_source_urls": [
+    "https://www.worldrobotconference.com/expo/company/562.html",
+    "https://www.worldrobotconference.com/expo/product/159.html",
+    "https://www.worldrobotconference.com/expo/product/160.html",
+    "https://www.worldrobotconference.com/expo/product/161.html",
+    "https://www.worldrobotconference.com/expo/product/162.html",
+    "https://www.worldrobotconference.com/expo/product/163.html"
+  ],
+  "source_checked_on": "2026-09-05",
+  "evidence": "official_page",
+  "technical": {
+    "zh-CN": "EBR48、EBR60、EBR72 分别是对应电压平台的机器人 BMS；电压标签不能直接当作电池容量或续航。",
+    "en": "EBR48, EBR60 and EBR72 are robot battery-management systems for corresponding voltage platforms. Voltage labels are not battery capacity or endurance."
+  },
+  "original_product_line": "EBR48/60/72 机器人 BMS，18650、21700、LMX 与 LFP 系列电芯",
+  "original_application_wording": "48V/60V/72V 机器人电池系统及全场景锂电能源",
+  "original_issue_notes": [],
+  "item_ids": [
+    "item-12ce4fd5d278",
+    "item-0fa6f126a30b",
+    "item-b665874bdd1f",
+    "item-3bfdaca7aa7e",
+    "item-685de3e07e6e",
+    "item-4960314340d1",
+    "item-a861b3a2dc84",
+    "item-eed467b44ec5"
+  ],
+  "source_technical_sha256": "af763da6681227c9ced6f953f4b3a776c37fda997f74fd49a9fe2eae2dee0fdf",
+  "cross_source_categories": [],
+  "original_tags": "机器人电池与 BMS",
+  "original_verification_wording": "大会官方页已核验。",
+  "original_review_wording": "检索/读取日期：2026-09-05。核验口径：已读取官方网页；参数属发布方声明。"
+}

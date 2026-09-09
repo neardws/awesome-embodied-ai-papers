@@ -1,0 +1,40 @@
+{
+  "id": "E041",
+  "supplier_as_published": "广东慧仑科技有限公司",
+  "source_category": "01-01",
+  "source_url": "https://www.worldrobotconference.com/expo/company/408.html",
+  "original_source_urls": [
+    "https://www.worldrobotconference.com/expo/company/408.html",
+    "https://www.worldrobotconference.com/expo/product/1329.html",
+    "https://www.worldrobotconference.com/expo/product/191.html",
+    "https://www.worldrobotconference.com/expo/product/192.html",
+    "https://www.worldrobotconference.com/expo/product/193.html",
+    "https://www.worldrobotconference.com/expo/product/1331.html"
+  ],
+  "source_checked_on": "2026-09-05",
+  "evidence": "official_page",
+  "technical": {
+    "zh-CN": "GoMate Mini 面向巡检任务闭环；关节产品分行星和谐波路线。行星关节页面给出最高 1100N·m、200Nm/kg 等系列值，需向厂商确认对应型号。",
+    "en": "GoMate Mini targets closed-loop inspection. Joints follow planetary and strain-wave routes. Planetary-joint figures of up to 1100N·m and 200Nm/kg are series-level values requiring exact-model confirmation."
+  },
+  "original_product_line": "GoMate Mini 人形机器人、旋转关节、低压伺服驱动器、灵巧手",
+  "original_application_wording": "广州地铁安防巡检；园区安防与常态化巡检；机器人关节和末端执行",
+  "original_issue_notes": [],
+  "item_ids": [
+    "item-4cf20ba28c23",
+    "item-8cac0c4954d2",
+    "item-4607606ec4d6",
+    "item-405f26cc8680",
+    "item-362bc69c6690"
+  ],
+  "source_technical_sha256": "ecd9a1cc6700712cd8871f0f4f79856212ac840215c36f2bed1b4e00b3f8c83d",
+  "cross_source_categories": [
+    "04-05",
+    "06-03",
+    "06-06",
+    "06-07"
+  ],
+  "original_tags": "行业人形机器人与核心执行部件",
+  "original_verification_wording": "大会官方页已核验。",
+  "original_review_wording": "检索/读取日期：2026-09-05。核验口径：已读取官方网页；参数属发布方声明。"
+}

@@ -1,0 +1,35 @@
+{
+  "id": "E307",
+  "supplier_as_published": "国家地方共建人形机器人创新中心",
+  "source_category": "11-02",
+  "source_url": "https://www.worldrobotconference.com/expo/company/395.html",
+  "original_source_urls": [
+    "https://www.worldrobotconference.com/expo/company/395.html",
+    "https://www.worldrobotconference.com/expo/product/983.html",
+    "https://www.worldrobotconference.com/expo/product/984.html"
+  ],
+  "source_checked_on": "2026-09-05",
+  "evidence": "official_page",
+  "technical": {
+    "zh-CN": "灵龙 L1 为轻载双足研究平台，灵龙 H1 为半身数采与分拣平台；H1 配七自由度行星减速机械臂，提供本体、遥操和文档。",
+    "en": "灵龙 L1 is a lightweight biped research platform. 灵龙 H1 targets upper-body data collection and sorting, with seven-degree-of-freedom planetary-geared arms, teleoperation and documentation."
+  },
+  "original_product_line": "灵龙 L1、灵龙 H1 人形机器人平台",
+  "original_application_wording": "高校/科研机构的动态平衡、步态规划和全身协同研究；轻载数采、物流分拣与服务",
+  "original_issue_notes": [],
+  "item_ids": [
+    "item-32b54c6c70e3",
+    "item-5e9b50087d0c"
+  ],
+  "source_technical_sha256": "2c118621a06b712ae412e190abab61874ded107a05d8559cdb10c70d49dd0a38",
+  "cross_source_categories": [
+    "01-01",
+    "01-02",
+    "01-04",
+    "04-01",
+    "09-03"
+  ],
+  "original_tags": "人形机器人公共研发与验证平台",
+  "original_verification_wording": "大会官方页已核验。",
+  "original_review_wording": "检索/读取日期：2026-09-05。核验口径：已读取官方网页；参数属发布方声明。"
+}

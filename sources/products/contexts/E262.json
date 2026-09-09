@@ -1,0 +1,28 @@
+{
+  "id": "E262",
+  "supplier_as_published": "英飞凌科技(中国)有限公司",
+  "source_category": "08-03",
+  "source_url": "https://www.infineon.cn/applications/industrial/robotics",
+  "original_source_urls": [
+    "https://www.infineon.cn/applications/industrial/robotics"
+  ],
+  "source_checked_on": "2026-09-05",
+  "evidence": "official_page",
+  "technical": {
+    "zh-CN": "官网列 XMC EtherCAT MCU、AURIX/PSoC 控制器、XENSIV 传感器及电池管理方案；REAL3 用于三维感知，OptiMOS/CoolGaN 等用于功率转换，按子系统选择。",
+    "en": "The official site lists XMC EtherCAT MCUs, AURIX/PSoC controllers, XENSIV sensors and battery management. REAL3 serves 3D sensing; OptiMOS/CoolGaN serve power conversion. Select by subsystem."
+  },
+  "original_product_line": "MCU、功率半导体、传感器、连接及安全芯片",
+  "original_application_wording": "人形、工业、移动机器人及无人机",
+  "original_issue_notes": [],
+  "item_ids": [],
+  "source_technical_sha256": "9fceb9831da038e798fef8f320f5de3ffe12b84b7a76f1130895822897a048dc",
+  "cross_source_categories": [
+    "07-03",
+    "07-06",
+    "08-04"
+  ],
+  "original_tags": "机器人 MCU/功率与感知芯片",
+  "original_verification_wording": "官网已核对。",
+  "original_review_wording": "检索/读取日期：2026-09-05。核验口径：已读取官方网页；参数属发布方声明。"
+}

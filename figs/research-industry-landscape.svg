@@ -3,7 +3,7 @@
 <rect width="1600" height="1050" fill="#f8fafc"/>
 <style>text{font-family:"Arial","PingFang SC","Microsoft YaHei",sans-serif}</style>
 <text x="48" y="62" font-size="34" font-weight="700" fill="#1e293b">Embodied AI: research and industry</text>
-<text x="48" y="99" font-size="20" font-weight="400" fill="#475569">14 domains · 84 subcategories · hardware, software and delivery</text>
+<text x="48" y="99" font-size="20" font-weight="400" fill="#475569">14 domains · 87 subcategories · hardware, software and delivery</text>
 <text x="48" y="130" font-size="17" font-weight="400" fill="#64748b">A taxonomy of capabilities and problems; not a market-share or maturity ranking.</text>
 <rect x="48" y="168" width="360" height="570" rx="12" fill="#ffffff" stroke="#dbe3ed"/>
 <rect x="48" y="168" width="360" height="7" rx="3" fill="#2563eb" stroke="none"/>

@@ -1,0 +1,27 @@
+{
+  "id": "E163",
+  "supplier_as_published": "世耐斯科技股份有限公司",
+  "source_category": "06-07",
+  "source_url": "https://www.worldrobotconference.com/expo/company/680.html",
+  "original_source_urls": [
+    "https://www.worldrobotconference.com/expo/company/680.html",
+    "https://www.worldrobotconference.com/expo/product/1098.html"
+  ],
+  "source_checked_on": "2026-09-05",
+  "evidence": "official_page",
+  "technical": {
+    "zh-CN": "Zero Back Drive 与 Servo Mate 方案强调齿形及轴承结构优化，面向重载精密传动；未给可核对的额定扭矩与回差数据。",
+    "en": "Zero Back Drive and Servo Mate emphasize tooth-profile and bearing optimization for heavy precision transmission. Comparable rated-torque and backlash data are absent."
+  },
+  "original_product_line": "零背隙精密减速器、工业六轴机器人",
+  "original_application_wording": "多关节机器人、物流自动化、重工装备",
+  "original_issue_notes": [],
+  "item_ids": [
+    "item-56363e305542"
+  ],
+  "source_technical_sha256": "524a4f10d3459fb42824326a1ad19bd9bedde3aea7592f9acab68cb4e22ad8a2",
+  "cross_source_categories": [],
+  "original_tags": "精密减速器",
+  "original_verification_wording": "展会官方页已核对。",
+  "original_review_wording": "检索/读取日期：2026-09-05。核验口径：已读取官方网页；参数属发布方声明。"
+}

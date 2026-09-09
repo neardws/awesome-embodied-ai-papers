@@ -1,0 +1,33 @@
+{
+  "id": "E198",
+  "supplier_as_published": "清能德创电气技术（北京）有限公司",
+  "source_category": "06-05",
+  "source_url": "https://www.worldrobotconference.com/expo/company/634.html",
+  "original_source_urls": [
+    "https://www.worldrobotconference.com/expo/company/634.html",
+    "https://www.worldrobotconference.com/expo/product/1388.html",
+    "https://www.worldrobotconference.com/expo/product/1390.html",
+    "https://www.worldrobotconference.com/expo/product/1394.html"
+  ],
+  "source_checked_on": "2026-09-05",
+  "evidence": "official_page",
+  "technical": {
+    "zh-CN": "Mini ANT 使用氮化镓驱动；JMD 提供超薄结构、三环调节和双编码器反馈；RJM 为完整关节产品，不能将驱动器与关节混作同一部件。",
+    "en": "Mini ANT uses gallium-nitride drive technology. JMD offers an ultrathin drive, three-loop control and dual-encoder feedback. RJM is a complete joint; drives and joints must remain distinct."
+  },
+  "original_product_line": "CoolDrive Mini ANT 伺服驱动器、JMD 关节伺服、RJM 一体化关节",
+  "original_application_wording": "人形、四足、协作与工业机器人",
+  "original_issue_notes": [],
+  "item_ids": [
+    "item-d4d2646e6aa0",
+    "item-bbe0231b3434",
+    "item-deef088eff43"
+  ],
+  "source_technical_sha256": "f2e6cb6c781440898deff1bbf47758f9fc58945c9edf70fa28ac7b77c0c80b2a",
+  "cross_source_categories": [
+    "06-03"
+  ],
+  "original_tags": "伺服驱动器与一体化关节",
+  "original_verification_wording": "大会官方页已核验。",
+  "original_review_wording": "检索/读取日期：2026-09-05。核验口径：已读取官方网页；参数属发布方声明。"
+}

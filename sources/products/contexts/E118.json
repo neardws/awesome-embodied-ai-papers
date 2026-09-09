@@ -1,0 +1,33 @@
+{
+  "id": "E118",
+  "supplier_as_published": "上海傲意信息科技有限公司",
+  "source_category": "05-04",
+  "source_url": "https://www.worldrobotconference.com/expo/company/516.html",
+  "original_source_urls": [
+    "https://www.worldrobotconference.com/expo/company/516.html",
+    "https://www.worldrobotconference.com/expo/product/802.html",
+    "https://www.worldrobotconference.com/expo/product/805.html",
+    "https://www.worldrobotconference.com/expo/product/815.html",
+    "https://www.worldrobotconference.com/expo/product/1293.html"
+  ],
+  "source_checked_on": "2026-09-05",
+  "evidence": "official_page",
+  "technical": {
+    "zh-CN": "具身双臂采用双七自由度及主从双向力反馈，面向动作和力控数据采集；该产品与不依赖生物电信号的下肢外骨骼是不同技术路线。",
+    "en": "The embodied dual-arm system uses two seven-degree-of-freedom arms and bilateral master-slave force feedback for motion/force data collection. It is distinct from the lower-limb exoskeleton that does not use bioelectric signals."
+  },
+  "original_product_line": "下肢外骨骼、具身双臂机器人、ROHand 灵巧手、三爪机械手",
+  "original_application_wording": "步态康复与下肢助力、动作数据采集、精密装配、柔性分拣和服务机器人",
+  "original_issue_notes": [],
+  "item_ids": [
+    "item-599c90c59bf3",
+    "item-0b05d9a9fe1c",
+    "item-74c8c36dbf11",
+    "item-8cf24df6ce47"
+  ],
+  "source_technical_sha256": "368180c8c89ee9fb8d0cadba0aa25a26d917a7e27e59cb1e6b76843dd387f747",
+  "cross_source_categories": [],
+  "original_tags": "脑机接口、康复外骨骼与仿生手",
+  "original_verification_wording": "大会官方页已核验。",
+  "original_review_wording": "检索/读取日期：2026-09-05。核验口径：已读取官方网页；参数属发布方声明。"
+}

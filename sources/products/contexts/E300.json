@@ -1,0 +1,29 @@
+{
+  "id": "E300",
+  "supplier_as_published": "北京基元智教科技有限公司",
+  "source_category": "09-03",
+  "source_url": "https://www.worldrobotconference.com/expo/company/835.html",
+  "original_source_urls": [
+    "https://www.worldrobotconference.com/expo/company/835.html",
+    "https://www.worldrobotconference.com/expo/product/839.html",
+    "https://www.worldrobotconference.com/expo/product/878.html"
+  ],
+  "source_checked_on": "2026-09-05",
+  "evidence": "official_page",
+  "technical": {
+    "zh-CN": "Prim Ego Pro 列六相机和横向 270°视场、分体电池；Prim Studio 覆盖存储、清洗、标注、训推与部署，公开版本和本地商业版本需区分。",
+    "en": "Prim Ego Pro lists six cameras, 270° horizontal view and a separate battery. Prim Studio covers storage, cleaning, annotation, training/inference and deployment. Public and local commercial versions must be distinguished."
+  },
+  "original_product_line": "Prim Ego Pro 具身数据采集设备、Prim Studio 数据与模型工具链",
+  "original_application_wording": "具身数据采集、存储、清洗、标注、模型训练/推理及本体部署",
+  "original_issue_notes": [],
+  "item_ids": [
+    "item-560dc66a76f3",
+    "item-9c20b1eacd5a"
+  ],
+  "source_technical_sha256": "5dc5e0905fb375244ddf7ea6e1ae98ea50918ad6b59bd53e08b864dba1b37ff9",
+  "cross_source_categories": [],
+  "original_tags": "具身智能数据与模型平台",
+  "original_verification_wording": "官方页已核对。",
+  "original_review_wording": "检索/读取日期：2026-09-05。核验口径：已读取官方网页；参数属发布方声明。"
+}

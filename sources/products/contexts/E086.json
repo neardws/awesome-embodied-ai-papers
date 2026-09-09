@@ -1,0 +1,24 @@
+{
+  "id": "E086",
+  "supplier_as_published": "珞石（山东）机器人集团股份有限公司",
+  "source_category": "02-02",
+  "source_url": "https://www.worldrobotconference.com/expo/company/618.html",
+  "original_source_urls": [
+    "https://www.worldrobotconference.com/expo/company/618.html"
+  ],
+  "source_checked_on": "2026-09-05",
+  "evidence": "official_page",
+  "technical": {
+    "zh-CN": "官方介绍明确多关节工业与柔性协作两条产品线，并描述制造与技术支持网络；该页未单列展品，产品级比较仍需另查型号。",
+    "en": "The official description separates articulated industrial and flexible collaborative robots and describes manufacturing/technical support. No individual exhibit is listed; model-level comparisons require additional specifications."
+  },
+  "original_product_line": "多关节工业机器人、柔性协作机器人",
+  "original_application_wording": "工业、商业与医疗领域自动化解决方案",
+  "original_issue_notes": [],
+  "item_ids": [],
+  "source_technical_sha256": "277d25de19570323fa909a73ce367376260b1fa91f204c78f9ee5b2f72eed275",
+  "cross_source_categories": [],
+  "original_tags": "工业与柔性协作机器人",
+  "original_verification_wording": "大会官方介绍已核验；具体展品待核实。",
+  "original_review_wording": "检索/读取日期：2026-09-05。核验口径：已读取官方网页；参数属发布方声明。"
+}

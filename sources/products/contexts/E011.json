@@ -1,0 +1,37 @@
+{
+  "id": "E011",
+  "supplier_as_published": "深圳众擎机器人科技股份有限公司",
+  "source_category": "01-01",
+  "source_url": "https://www.worldrobotconference.com/expo/company/430.html",
+  "original_source_urls": [
+    "https://www.worldrobotconference.com/expo/company/430.html",
+    "https://www.worldrobotconference.com/expo/product/174.html",
+    "https://www.worldrobotconference.com/expo/product/608.html",
+    "https://www.worldrobotconference.com/expo/product/609.html",
+    "https://www.worldrobotconference.com/expo/product/610.html",
+    "https://www.worldrobotconference.com/expo/product/1533.html"
+  ],
+  "source_checked_on": "2026-09-05",
+  "evidence": "official_page",
+  "technical": {
+    "zh-CN": "PM01 标注 24 自由度、约 40kg；SA01 为 12 自由度双足开发平台，带 IMU 和 15Ah 电池；S2 的具身模型接入被表述为后续计划。",
+    "en": "PM01 is listed with 24 degrees of freedom and about 40kg. SA01 is a 12-degree-of-freedom biped development platform with IMU and 15Ah battery. Embodied-model integration for S2 is described as a future plan."
+  },
+  "original_product_line": "T800、PM01、SE01、SA01、JS01、S2 人形机器人",
+  "original_application_wording": "商业服务、智慧交管、工业智造、科研教育；文旅互动",
+  "original_issue_notes": [],
+  "item_ids": [
+    "item-92cac7892c2b",
+    "item-07dede322fc4",
+    "item-34b40b4920f2",
+    "item-721afebb65a4",
+    "item-507d24889900"
+  ],
+  "source_technical_sha256": "582d655b01442be5cfe6315d0cf7eadc4b766db0321aec12421d6b6c88503318",
+  "cross_source_categories": [
+    "01-04"
+  ],
+  "original_tags": "通用双足人形与文旅服务人形",
+  "original_verification_wording": "大会官方页已核验。",
+  "original_review_wording": "检索/读取日期：2026-09-05。核验口径：已读取官方网页；参数属发布方声明。"
+}

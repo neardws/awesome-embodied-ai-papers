@@ -20,42 +20,42 @@
 </thead>
 <tbody>
 <tr>
-<td width="240" nowrap><a id="14-01"></a>制造、装配与工艺操作</td>
+<td width="240" nowrap><a id="14-01"></a>制造、装配与工艺操作<br><a href="../products/topics/14-01.md">产品细节</a></td>
 <td width="300">完成取放、装配、检测与加工工序。</td>
 <td width="320">接触丰富操作、柔性工件与技能组合。</td>
 <td width="320">工装、质量、节拍与换型。</td>
 <td width="340">良率、节拍、换型成本与人工介入。</td>
 </tr>
 <tr>
-<td width="240" nowrap><a id="14-02"></a>仓储物流与搬运配送</td>
+<td width="240" nowrap><a id="14-02"></a>仓储物流与搬运配送<br><a href="../products/topics/14-02.md">产品细节</a></td>
 <td width="300">连接存储、分拣、搬运与交付。</td>
 <td width="320">移动操作、多机协同与动态规划。</td>
 <td width="320">设施对接、拥堵、峰值负载与运营维护。</td>
 <td width="340">吞吐、订单完成率、接管与停机。</td>
 </tr>
 <tr>
-<td width="240" nowrap><a id="14-03"></a>商业服务与楼宇作业</td>
+<td width="240" nowrap><a id="14-03"></a>商业服务与楼宇作业<br><a href="../products/topics/14-03.md">产品细节</a></td>
 <td width="300">完成清洁、配送、接待等日常服务。</td>
 <td width="320">社会导航、人机交互与任务切换。</td>
 <td width="320">楼宇权限、人员混行与服务流程。</td>
 <td width="340">服务完成率、覆盖率与用户介入。</td>
 </tr>
 <tr>
-<td width="240" nowrap><a id="14-04"></a>家庭消费与陪伴</td>
+<td width="240" nowrap><a id="14-04"></a>家庭消费与陪伴<br><a href="../products/topics/14-04.md">产品细节</a></td>
 <td width="300">适应非结构化家庭及不同用户。</td>
 <td width="320">常识、个性化、开放物体与长期记忆。</td>
 <td width="320">易用性、成本、隐私与持续支持。</td>
 <td width="340">真实家庭任务、故障率与维护负担。</td>
 </tr>
 <tr>
-<td width="240" nowrap><a id="14-05"></a>能源、农业与特种作业</td>
+<td width="240" nowrap><a id="14-05"></a>能源、农业与特种作业<br><a href="../products/topics/14-05.md">产品细节</a></td>
 <td width="300">在复杂或危险环境中感知和作业。</td>
 <td width="320">越障、目标识别与环境适应。</td>
 <td width="320">防护、通信、任务载荷与远程操作。</td>
 <td width="340">任务覆盖、环境边界与救援恢复。</td>
 </tr>
 <tr>
-<td width="240" nowrap><a id="14-06"></a>医疗、康复与辅助行动</td>
+<td width="240" nowrap><a id="14-06"></a>医疗、康复与辅助行动<br><a href="../products/topics/14-06.md">产品细节</a></td>
 <td width="300">在人的身体与临床工作流中提供辅助。</td>
 <td width="320">人机耦合、精密控制与个体适配。</td>
 <td width="320">使用条件、临床验证、维护与专业培训。</td>
@@ -63,6 +63,14 @@
 </tr>
 </tbody>
 </table>
+
+## 技术与产品细节
+
+<a href="../products/comparisons/14-applications.md">查看 14 条相关对照记录</a>
+
+继续比较逐型号参数、工况、接口、研究关联和来源问题，并下钻查看完整技术摘录与原始展项链接。
+
+<a href="../products/references/02-04.md">焊接与柔性制造集成</a> · <a href="../products/references/03-01.md">家用商用及户外清洁</a> · <a href="../products/references/03-02.md">酒店餐饮与楼宇配送</a> · <a href="../products/references/03-03.md">饮品制作与无人零售</a> · <a href="../products/references/03-04.md">家庭陪伴与桌面交互</a> · <a href="../products/references/03-05.md">导览接待与文旅服务</a> · <a href="../products/references/04-01.md">仓储搬运与装卸机器人</a> · <a href="../products/references/04-02.md">末端配送机器人</a> · <a href="../products/references/04-04.md">消防排爆与应急救援</a> · <a href="../products/references/04-05.md">能源工业与安防巡检</a> · <a href="../products/references/04-06.md">爬壁与高危设施维护</a> · <a href="../products/references/04-07.md">农业巡检与采摘作业</a> · <a href="../products/references/05-01.md">手术机器人</a> · <a href="../products/references/05-02.md">康复助残与轮椅机器人</a> · <a href="../products/references/05-03.md">外骨骼与运动助力</a> · <a href="../products/references/05-04.md">脑机接口与肌电仿生手</a>
 
 ## 研究、平台与产业代表
 

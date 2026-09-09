@@ -1,0 +1,24 @@
+{
+  "id": "E028",
+  "supplier_as_published": "清卓动力机器人科技（北京）有限公司",
+  "source_category": "01-01",
+  "source_url": "https://www.neodradynamics.com/",
+  "original_source_urls": [
+    "https://www.neodradynamics.com/"
+  ],
+  "source_checked_on": "2026-09-05",
+  "evidence": "official_search_or_alternate",
+  "technical": {
+    "zh-CN": "官网明确采用液电混驱路线，同时提供解决方案和关键零部件；工业、救援、深海与太空等被列为发展愿景，不能视为已完成部署。",
+    "en": "The official site specifies hybrid hydraulic-electric actuation, solutions and components. Industrial, rescue, deep-sea and space uses are stated ambitions, not demonstrated deployments."
+  },
+  "original_product_line": "液电混驱超人形机器人、大功率灵巧手、微型数字液压缸",
+  "original_application_wording": "工业产线、物流散货搬运、应急救援、危化品处理；核工业、建筑工程、海洋开发",
+  "original_issue_notes": [],
+  "item_ids": [],
+  "source_technical_sha256": "524f36252d566eea815d57f80d93e202a3149864b905e1c096d0eff21b00058a",
+  "cross_source_categories": [],
+  "original_tags": "液电混驱超人形机器人与高功率灵巧手",
+  "original_verification_wording": "已核验（官网）。",
+  "original_review_wording": "检索/读取日期：2026-09-05。核验口径：官方搜索正文补充（直连受限或改用替代页）。"
+}

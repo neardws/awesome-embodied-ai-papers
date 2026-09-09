@@ -1,0 +1,37 @@
+{
+  "id": "E204",
+  "supplier_as_published": "深圳市雷赛智能控制股份有限公司",
+  "source_category": "06-01",
+  "source_url": "https://www.worldrobotconference.com/expo/company/639.html",
+  "original_source_urls": [
+    "https://www.worldrobotconference.com/expo/company/639.html",
+    "https://www.worldrobotconference.com/expo/product/1057.html",
+    "https://www.worldrobotconference.com/expo/product/1307.html",
+    "https://www.worldrobotconference.com/expo/product/1308.html",
+    "https://www.worldrobotconference.com/expo/product/1058.html",
+    "https://www.worldrobotconference.com/expo/product/1060.html"
+  ],
+  "source_checked_on": "2026-09-05",
+  "evidence": "official_page",
+  "technical": {
+    "zh-CN": "DH 系列提供开源 SDK/DEMO与可视化调试；微型电缸标注最大推拉力 400N、重复定位 ±2μm，支持 CAN FD/RS485/EtherCAT。",
+    "en": "DH provides open SDK/demo and visual commissioning. The miniature electric cylinder reports 400N maximum push/pull, ±2μm repeatability and CAN FD/RS485/EtherCAT."
+  },
+  "original_product_line": "灵巧手、力触觉组件、微型电缸、无框电机与关节解决方案",
+  "original_application_wording": "人形与协作机器人",
+  "original_issue_notes": [],
+  "item_ids": [
+    "item-4e36cd0154b7",
+    "item-8fe3d4962169",
+    "item-f1042149e7aa",
+    "item-5b696f8ddfb9",
+    "item-6f3b7bcfb621"
+  ],
+  "source_technical_sha256": "9bb405b772d6ff628ff8f3703ccf007d308909cf4a484e83cc00faa977d2e7f7",
+  "cross_source_categories": [
+    "06-08"
+  ],
+  "original_tags": "灵巧手、电机与关节驱动",
+  "original_verification_wording": "大会官方页已核验。",
+  "original_review_wording": "检索/读取日期：2026-09-05。核验口径：已读取官方网页；参数属发布方声明。"
+}

@@ -1,0 +1,29 @@
+{
+  "id": "E192",
+  "supplier_as_published": "杭州新剑机电传动股份有限公司",
+  "source_category": "06-08",
+  "source_url": "https://www.worldrobotconference.com/expo/company/631.html",
+  "original_source_urls": [
+    "https://www.worldrobotconference.com/expo/company/631.html",
+    "https://www.worldrobotconference.com/expo/product/1101.html",
+    "https://www.worldrobotconference.com/expo/product/1114.html"
+  ],
+  "source_checked_on": "2026-09-05",
+  "evidence": "official_page",
+  "technical": {
+    "zh-CN": "直线电驱关节采用反向行星滚柱丝杠，推力系列覆盖 150–8000N；疲劳寿命倍数比较明确为额定载荷工况，但无完整试验报告。",
+    "en": "Linear electric joints use inverted planetary roller screws with a 150–8000N series thrust range. Fatigue-life multipliers are stated at rated load, but no complete test report is supplied."
+  },
+  "original_product_line": "反向式行星滚柱丝杠、线性电关节",
+  "original_application_wording": "人形机器人手部、腰部、腿部与手臂，汽车部件",
+  "original_issue_notes": [],
+  "item_ids": [
+    "item-63b926c666cd",
+    "item-05e27153cf65"
+  ],
+  "source_technical_sha256": "807b44b40c47295626bbe03f8dc45a0304701a1d7337e6d3dcb79bd0dac003d8",
+  "cross_source_categories": [],
+  "original_tags": "行星滚柱丝杠与直线关节",
+  "original_verification_wording": "大会官方页已核验。",
+  "original_review_wording": "检索/读取日期：2026-09-05。核验口径：已读取官方网页；参数属发布方声明。"
+}

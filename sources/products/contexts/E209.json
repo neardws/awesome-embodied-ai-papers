@@ -1,0 +1,46 @@
+{
+  "id": "E209",
+  "supplier_as_published": "北京灵足时代科技有限公司",
+  "source_category": "06-03",
+  "source_url": "https://www.worldrobotconference.com/expo/company/644.html",
+  "original_source_urls": [
+    "https://www.worldrobotconference.com/expo/company/644.html",
+    "https://www.worldrobotconference.com/expo/product/781.html",
+    "https://www.worldrobotconference.com/expo/product/782.html",
+    "https://www.worldrobotconference.com/expo/product/783.html",
+    "https://www.worldrobotconference.com/expo/product/784.html",
+    "https://www.worldrobotconference.com/expo/product/785.html"
+  ],
+  "source_checked_on": "2026-09-05",
+  "evidence": "official_page",
+  "technical": {
+    "zh-CN": "RobStride 02 标注额定 7N·m、峰值 17N·m、24–60V，集成 FOC 和双磁编码器；01 则为单磁编码器，不能套用 02 配置。",
+    "en": "RobStride 02 reports 7N·m rated, 17N·m peak and 24–60V, integrating FOC and dual magnetic encoders. Model 01 has a single magnetic encoder and must not inherit the 02 configuration."
+  },
+  "original_product_line": "RobStride 一体化准直驱关节、EDULITE 机械臂、reBot/Wushi 移动机器人、音悦外骨骼、OSH 移动底盘",
+  "original_application_wording": "科研教育、移动操作、外骨骼与开源二次开发",
+  "original_issue_notes": [],
+  "item_ids": [
+    "item-5d4291c768b1",
+    "item-775c30a4e38c",
+    "item-7dee1dd1b1f4",
+    "item-6c5dc523609c",
+    "item-8322b3bc6d5f",
+    "item-23cb127f4d5f",
+    "item-de74252451dd",
+    "item-a90acd545a09",
+    "item-19cdddd1d3d9",
+    "item-a5ace77d27f1",
+    "item-a2e183b982f5",
+    "item-23e7230241f1",
+    "item-3545020bd194",
+    "item-b2c7735b575b"
+  ],
+  "source_technical_sha256": "9bb3bd8b87d08670aed7ee0b49f6db4e19e525d8609013c1c74e3cceb07da71a",
+  "cross_source_categories": [
+    "02-03"
+  ],
+  "original_tags": "一体化准直驱关节与开源平台",
+  "original_verification_wording": "大会官方页已核验。",
+  "original_review_wording": "检索/读取日期：2026-09-05。核验口径：已读取官方网页；参数属发布方声明。"
+}

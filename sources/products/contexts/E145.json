@@ -1,0 +1,26 @@
+{
+  "id": "E145",
+  "supplier_as_published": "无锡泉智博科技有限公司",
+  "source_category": "06-03",
+  "source_url": "https://www.worldrobotconference.com/expo/company/887.html",
+  "original_source_urls": [
+    "https://www.worldrobotconference.com/expo/company/887.html"
+  ],
+  "source_checked_on": "2026-09-05",
+  "evidence": "official_page",
+  "technical": {
+    "zh-CN": "PA、HA、CA 分别对应行星、谐波、摆线关节，系列扭矩覆盖 2–400Nm。产能及客户名单来自企业介绍，未作为独立验证的交付实绩。",
+    "en": "PA, HA and CA correspond to planetary, strain-wave and cycloidal joints, with a 2–400Nm series range. Capacity and customer lists are supplier descriptions, not independently verified deliveries."
+  },
+  "original_product_line": "PA、HA、CA 系列一体化关节模组，覆盖行星、谐波、摆线方案",
+  "original_application_wording": "人形机器人、四足机器人、外骨骼、协作臂及智能消费设备",
+  "original_issue_notes": [],
+  "item_ids": [],
+  "source_technical_sha256": "6438bd94ab9d30f84d43f591a89f9e78eb0737eb240ae155a43c7482e709bb10",
+  "cross_source_categories": [
+    "06-05"
+  ],
+  "original_tags": "一体化关节模组",
+  "original_verification_wording": "大会官方页已核验。",
+  "original_review_wording": "检索/读取日期：2026-09-05。核验口径：已读取官方网页；参数属发布方声明。"
+}

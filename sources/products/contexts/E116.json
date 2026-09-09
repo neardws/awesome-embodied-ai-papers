@@ -1,0 +1,29 @@
+{
+  "id": "E116",
+  "supplier_as_published": "Dynamic Solution股份有限公司",
+  "source_category": "05-04",
+  "source_url": "https://www.worldrobotconference.com/expo/company/673.html",
+  "original_source_urls": [
+    "https://www.worldrobotconference.com/expo/company/673.html",
+    "https://www.worldrobotconference.com/expo/product/946.html"
+  ],
+  "source_checked_on": "2026-09-05",
+  "evidence": "official_page",
+  "technical": {
+    "zh-CN": "系统从脑电采集、意图解析到外骨骼控制形成 BCI 路径；展品标题实际是展示方式而非型号，疗效声明未附临床研究资料。",
+    "en": "The BCI chain runs from EEG capture through intent decoding to exoskeleton control. Exhibit titles describe display methods rather than models, and efficacy claims have no accompanying clinical study."
+  },
+  "original_product_line": "脑机接口可穿戴外骨骼、康复机器人手",
+  "original_application_wording": "康复、工业、国防与公共安全",
+  "original_issue_notes": [
+    "具体问题：部分展项名称是展示方式，不是产品型号。"
+  ],
+  "item_ids": [
+    "item-e081f1261a5e"
+  ],
+  "source_technical_sha256": "9ca747b5a16ecf915630f034e32251c5d0ca52d624a54a57ca5ad2d470ea1407",
+  "cross_source_categories": [],
+  "original_tags": "脑机接口/康复外骨骼与机器人手",
+  "original_verification_wording": "展会官方页已核对。",
+  "original_review_wording": "检索/读取日期：2026-09-05。核验口径：已读取官方网页；参数属发布方声明。"
+}

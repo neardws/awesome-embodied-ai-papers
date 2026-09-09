@@ -1,0 +1,29 @@
+{
+  "id": "E247",
+  "supplier_as_published": "途见科技（北京）有限公司",
+  "source_category": "07-02",
+  "source_url": "https://www.worldrobotconference.com/expo/company/526.html",
+  "original_source_urls": [
+    "https://www.worldrobotconference.com/expo/company/526.html",
+    "https://www.worldrobotconference.com/expo/product/1509.html"
+  ],
+  "source_checked_on": "2026-09-05",
+  "evidence": "official_page",
+  "technical": {
+    "zh-CN": "柔性触觉数采手套采集手指和掌心法向、切向接触力，覆盖抓取、按压、滑移过程；缺少采样率、阵列密度与数据接口。",
+    "en": "The flexible tactile glove captures normal and tangential finger/palm forces during grasping, pressing and slipping. Sampling rate, array density and data interfaces are absent."
+  },
+  "original_product_line": "可拉伸多模态柔性电子皮肤、柔性触觉数采手套、触觉感知数据模型",
+  "original_application_wording": "具身智能操作数据采集、智能座舱与医疗健康",
+  "original_issue_notes": [],
+  "item_ids": [
+    "item-dedadc206ce8"
+  ],
+  "source_technical_sha256": "d358c8c020f867387464ac3551bc3c0b6450007c49d80c5364a34b277a99243c",
+  "cross_source_categories": [
+    "09-03"
+  ],
+  "original_tags": "柔性电子皮肤与触觉数据",
+  "original_verification_wording": "大会官方页已核验。",
+  "original_review_wording": "检索/读取日期：2026-09-05。核验口径：已读取官方网页；参数属发布方声明。"
+}

@@ -1,0 +1,39 @@
+{
+  "id": "E211",
+  "supplier_as_published": "汉威科技集团股份有限公司",
+  "source_category": "07-02",
+  "source_url": "https://www.worldrobotconference.com/expo/company/555.html",
+  "original_source_urls": [
+    "https://www.worldrobotconference.com/expo/company/555.html",
+    "https://www.worldrobotconference.com/expo/product/1013.html",
+    "https://www.worldrobotconference.com/expo/product/1014.html",
+    "https://www.worldrobotconference.com/expo/product/1006.html",
+    "https://www.worldrobotconference.com/expo/product/1011.html",
+    "https://www.worldrobotconference.com/expo/product/1015.html",
+    "https://www.hanwei.cn/"
+  ],
+  "source_checked_on": "2026-09-05",
+  "evidence": "official_page",
+  "technical": {
+    "zh-CN": "ZM101-A 电子鼻集成 6 个 MEMS 单元，提供 1–6 通道与温湿补偿；HAU92 九轴模组输出姿态角及四元数，接口包括 SPI、I2C、UART。",
+    "en": "ZM101-A electronic nose integrates 6 MEMS elements, 1–6 channels and temperature/humidity compensation. HAU92 is a nine-axis module outputting attitude/quaternions through SPI, I2C or UART."
+  },
+  "original_product_line": "气体传感器、HAU92 九轴 MEMS 惯性传感器、柔性传感器及数据手套",
+  "original_application_wording": "人形机器人、四足机器狗、灵巧手、AGV 等姿态与触觉感知",
+  "original_issue_notes": [],
+  "item_ids": [
+    "item-524b558ed16b",
+    "item-259490a9f2dc",
+    "item-f863bf676e40",
+    "item-1f7589c361f5",
+    "item-4f1d797fd852",
+    "item-19e3dfe44e8c"
+  ],
+  "source_technical_sha256": "b1bfe6db56a78abed0f23e88a665220f62985583191cdbc8960e4e67ced26d67",
+  "cross_source_categories": [
+    "07-05"
+  ],
+  "original_tags": "MEMS惯性与柔性触觉传感",
+  "original_verification_wording": "官网已核对。",
+  "original_review_wording": "检索/读取日期：2026-09-05。核验口径：已读取官方网页；参数属发布方声明。"
+}

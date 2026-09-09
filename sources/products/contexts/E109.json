@@ -1,0 +1,27 @@
+{
+  "id": "E109",
+  "supplier_as_published": "深圳大象安泰科技有限公司",
+  "source_category": "03-05",
+  "source_url": "https://www.worldrobotconference.com/expo/company/469.html",
+  "original_source_urls": [
+    "https://www.worldrobotconference.com/expo/company/469.html",
+    "https://www.worldrobotconference.com/expo/product/737.html"
+  ],
+  "source_checked_on": "2026-09-05",
+  "evidence": "official_page",
+  "technical": {
+    "zh-CN": "支持场馆专属知识库、自主巡馆、低电回充和多机展演，外形服饰及内容可定制；公开页未列出部署维护和交互准确率。",
+    "en": "The platform supports venue knowledge bases, autonomous tours, low-battery charging, multi-robot performances and configurable appearance/content. Deployment maintenance and interaction accuracy are not disclosed."
+  },
+  "original_product_line": "大象安泰导览讲解机器人",
+  "original_application_wording": "博物馆、科技馆、政务中心和展会的导览讲解；集群舞蹈与互动展演",
+  "original_issue_notes": [],
+  "item_ids": [
+    "item-47dbf09c5199"
+  ],
+  "source_technical_sha256": "886cb12b0e06e8a5019a0b29be290ecc6ab4a1cfdfe50d2f8935ea41c7105eb3",
+  "cross_source_categories": [],
+  "original_tags": "导览讲解与文旅服务机器人",
+  "original_verification_wording": "大会官方页已核验。",
+  "original_review_wording": "检索/读取日期：2026-09-05。核验口径：已读取官方网页；参数属发布方声明。"
+}

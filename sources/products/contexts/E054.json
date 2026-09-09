@@ -1,0 +1,33 @@
+{
+  "id": "E054",
+  "supplier_as_published": "数字华夏（深圳）科技有限公司",
+  "source_category": "01-01",
+  "source_url": "https://www.worldrobotconference.com/expo/company/500.html",
+  "original_source_urls": [
+    "https://www.worldrobotconference.com/expo/company/500.html",
+    "https://www.worldrobotconference.com/expo/product/1224.html",
+    "https://www.worldrobotconference.com/expo/product/124.html",
+    "https://www.worldrobotconference.com/expo/product/1127.html"
+  ],
+  "source_checked_on": "2026-09-05",
+  "evidence": "official_page",
+  "technical": {
+    "zh-CN": "P02 采用 EtherCAT 并支持轮式、双足形态切换；X02 侧重人脸追踪、声源定位及多语种交互；P2 提供多机协同与动作示教。",
+    "en": "P02 uses EtherCAT and switches between wheeled and bipedal forms. X02 emphasizes face tracking, sound-source localization and multilingual interaction. P2 provides multi-robot coordination and motion teaching."
+  },
+  "original_product_line": "星行侠 P02/P2、夏起 X02 通用人形机器人",
+  "original_application_wording": "商场接待、展厅与商超导览、营销客服、前台接待、政务和教育服务",
+  "original_issue_notes": [],
+  "item_ids": [
+    "item-208b7de13116",
+    "item-f83112a3eb3e",
+    "item-9b315ef920cf"
+  ],
+  "source_technical_sha256": "e761da11b57dd98387e56f423fff9d55dcfaf457b24d13d049da2eb46a6e019b",
+  "cross_source_categories": [
+    "01-02"
+  ],
+  "original_tags": "商业服务通用人形机器人",
+  "original_verification_wording": "大会官方页已核验。",
+  "original_review_wording": "检索/读取日期：2026-09-05。核验口径：已读取官方网页；参数属发布方声明。"
+}

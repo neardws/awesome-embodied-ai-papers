@@ -1,0 +1,27 @@
+{
+  "id": "E174",
+  "supplier_as_published": "国华（青岛）智能装备有限公司",
+  "source_category": "06-06",
+  "source_url": "https://www.guohuaintel.com/application-field/6942697a1840e44469",
+  "original_source_urls": [
+    "https://www.guohuaintel.com/application-field/6942697a1840e44469",
+    "https://www.guohuaintel.com/product"
+  ],
+  "source_checked_on": "2026-09-05",
+  "evidence": "official_page",
+  "technical": {
+    "zh-CN": "官网应用页将谐波减速器、旋转/直线关节与七自由度臂串成产品链；标注重复定位 ±5 弧秒，但属于系列介绍，需对应具体型号。",
+    "en": "The application page links strain-wave reducers, rotary/linear joints and seven-degree-of-freedom arms. Reported ±5 arcsecond repeatability is series-level and needs a specific model."
+  },
+  "original_product_line": "谐波减速器、行星滚柱丝杠、旋转/直线关节模组、人形机器人本体",
+  "original_application_wording": "人形机器人、汽车制造、3C 电子、半导体、航空航天等工业机器人与智能制造场景",
+  "original_issue_notes": [],
+  "item_ids": [],
+  "source_technical_sha256": "313bcecc03adaeef8e1f1866b6dad7461b1bbd2a7e0a74c37300fcde9cb2533b",
+  "cross_source_categories": [
+    "06-03"
+  ],
+  "original_tags": "谐波减速器、丝杠与关节模组",
+  "original_verification_wording": "已核验（官网）。",
+  "original_review_wording": "检索/读取日期：2026-09-05。核验口径：已读取官方网页；参数属发布方声明。"
+}

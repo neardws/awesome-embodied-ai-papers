@@ -1,0 +1,25 @@
+{
+  "id": "E132",
+  "supplier_as_published": "松灵机器人",
+  "source_category": "04-03",
+  "source_url": "https://www.agilex.ai/",
+  "original_source_urls": [
+    "https://www.agilex.ai/",
+    "https://global.agilex.ai/pages/limo"
+  ],
+  "source_checked_on": "2026-09-05",
+  "evidence": "official_page",
+  "technical": {
+    "zh-CN": "官网进一步区分差速、履带、阿克曼、四轮四转底盘，列 PiPER 六轴、NERO 七轴以及 Pika/ALOHA 数采套件，并提供文档和开源社区入口。",
+    "en": "The official site separates differential, tracked, Ackermann and four-wheel-steering bases, PiPER six-axis and NERO seven-axis arms, and Pika/ALOHA data kits, with documentation and open-community links."
+  },
+  "original_product_line": "SCOUT/TRACER/BUNKER/RANGER/HUNTER 移动机器人底盘、PiPER/NERO 机械臂、LIMO 教育套件",
+  "original_application_wording": "矿山巡检、物流运输、自动导航、数据采集；农业、测绘、科研",
+  "original_issue_notes": [],
+  "item_ids": [],
+  "source_technical_sha256": "8a479676b4d8d6836ef8acb34200d0d1e8293b346bed713c7b45b71396119f2f",
+  "cross_source_categories": [],
+  "original_tags": "移动机器人底盘与具身数据采集开发平台",
+  "original_verification_wording": "已核验（官网）。",
+  "original_review_wording": "检索/读取日期：2026-09-05。核验口径：已读取官方网页；参数属发布方声明。"
+}

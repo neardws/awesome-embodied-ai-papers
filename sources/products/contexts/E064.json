@@ -1,0 +1,38 @@
+{
+  "id": "E064",
+  "supplier_as_published": "江苏云幕智造科技有限公司",
+  "source_category": "01-05",
+  "source_url": "https://www.worldrobotconference.com/expo/company/502.html",
+  "original_source_urls": [
+    "https://www.worldrobotconference.com/expo/company/502.html",
+    "https://www.worldrobotconference.com/expo/product/63.html",
+    "https://www.worldrobotconference.com/expo/product/66.html",
+    "https://www.worldrobotconference.com/expo/product/71.html",
+    "https://www.worldrobotconference.com/expo/product/72.html"
+  ],
+  "source_checked_on": "2026-09-05",
+  "evidence": "official_page",
+  "technical": {
+    "zh-CN": "C2 为双足皮肤人形；H 型为底盘导览平台、双六自由度臂；D 型配双七自由度臂，支持 VR 与惯性动捕遥操作。",
+    "en": "C2 is a skin-covered bipedal humanoid. H is a base-mounted guide platform with dual six-degree-of-freedom arms. D has dual seven-degree-of-freedom arms and supports VR/inertial teleoperation."
+  },
+  "original_product_line": "YMBot C2 双足皮肤人形、H 型底盘皮肤人形、D 型工业底盘人形、E3 教育人形机器人",
+  "original_application_wording": "文旅与科技展览、博物馆和商场接待、工业数据采集与安防巡检、教育科研",
+  "original_issue_notes": [],
+  "item_ids": [
+    "item-8ca04282e2e9",
+    "item-3414577747d1",
+    "item-ca1da828e173",
+    "item-9d4d86b733a1"
+  ],
+  "source_technical_sha256": "52c750685c09c0fde1ade72b7bdc0beb4d1b6d1d69e9ad65470ffc3ad64296a7",
+  "cross_source_categories": [
+    "01-01",
+    "01-02",
+    "03-05",
+    "09-03"
+  ],
+  "original_tags": "多场景仿生人形机器人",
+  "original_verification_wording": "大会官方页已核验。",
+  "original_review_wording": "检索/读取日期：2026-09-05。核验口径：已读取官方网页；参数属发布方声明。"
+}

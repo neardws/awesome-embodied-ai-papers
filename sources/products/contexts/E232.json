@@ -1,0 +1,25 @@
+{
+  "id": "E232",
+  "supplier_as_published": "北京晶智感新材料有限公司",
+  "source_category": "07-02",
+  "source_url": "https://www.fisensor.cn/newsinfo/11123763.html",
+  "original_source_urls": [
+    "https://www.fisensor.cn/newsinfo/11123763.html",
+    "https://www.fisensor.cn/"
+  ],
+  "source_checked_on": "2026-09-05",
+  "evidence": "official_search_or_alternate",
+  "technical": {
+    "zh-CN": "官方活动稿明确采用柔性触觉传感方向，针对精密装配、易损物抓取和康养场景；文中列出 fisensor.com 官网入口，但没有可核对的单型号精度表。",
+    "en": "The official event article describes flexible touch sensing for precision assembly, fragile-object grasping and care, linking fisensor.com. No model-level accuracy table is available."
+  },
+  "original_product_line": "柔性多模态传感器、电子皮肤",
+  "original_application_wording": "机器人灵巧手触觉、精密装配、脆弱物抓取、医疗护理/智慧养老",
+  "original_issue_notes": [],
+  "item_ids": [],
+  "source_technical_sha256": "9fb0caab4d3f6f6448539b33d41b5afd27ed4669dba54a1c030ddc6efb113bef",
+  "cross_source_categories": [],
+  "original_tags": "柔性触觉传感器与电子皮肤",
+  "original_verification_wording": "已核验（官网）。",
+  "original_review_wording": "检索/读取日期：2026-09-05。核验口径：官方搜索正文补充（直连受限或改用替代页）。"
+}

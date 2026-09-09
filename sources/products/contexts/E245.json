@@ -1,0 +1,39 @@
+{
+  "id": "E245",
+  "supplier_as_published": "上海思岚科技有限公司",
+  "source_category": "07-08",
+  "source_url": "https://www.worldrobotconference.com/expo/company/547.html",
+  "original_source_urls": [
+    "https://www.worldrobotconference.com/expo/company/547.html",
+    "https://www.worldrobotconference.com/expo/product/934.html",
+    "https://www.worldrobotconference.com/expo/product/68.html",
+    "https://www.worldrobotconference.com/expo/product/95.html",
+    "https://www.worldrobotconference.com/expo/product/939.html",
+    "https://www.worldrobotconference.com/expo/product/942.html"
+  ],
+  "source_checked_on": "2026-09-05",
+  "evidence": "official_page",
+  "technical": {
+    "zh-CN": "Poseidon 提供四轮四转、双雷达双深度及 ROS/ROS2 SDK；Hermes 标注 48V30Ah；U1 是水下二维雷达，页面列 IPX8、5m 条件。",
+    "en": "Poseidon has four-wheel steering, dual LiDAR/depth cameras and ROS/ROS2 SDK. Hermes reports 48V30Ah. U1 is an underwater 2D radar, as named in the source, with IPX8 at 5m on the page."
+  },
+  "original_product_line": "RPLIDAR 系列激光雷达、Aurora S AI 空间感知系统、Hermes/Poseidon 机器人底盘",
+  "original_application_wording": "移动机器人定位建图与避障、水下机器人感知、具身机器人空间理解",
+  "original_issue_notes": [],
+  "item_ids": [
+    "item-41f2219f9d62",
+    "item-dc2029b2ad82",
+    "item-7fe2401a21a4",
+    "item-beb8bb98b0cc",
+    "item-d97421d95003",
+    "item-e170e191092f"
+  ],
+  "source_technical_sha256": "d6ffefa52d2ccc82ed834469ac82586118e4005a646a26eaa07a78f5ec819ca0",
+  "cross_source_categories": [
+    "04-03",
+    "07-04"
+  ],
+  "original_tags": "激光雷达、SLAM 与空间感知",
+  "original_verification_wording": "大会官方页已核验。",
+  "original_review_wording": "检索/读取日期：2026-09-05。核验口径：已读取官方网页；参数属发布方声明。"
+}

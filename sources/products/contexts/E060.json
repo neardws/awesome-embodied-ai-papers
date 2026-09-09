@@ -1,0 +1,33 @@
+{
+  "id": "E060",
+  "supplier_as_published": "北京松延动力科技集团股份有限公司",
+  "source_category": "01-01",
+  "source_url": "https://www.worldrobotconference.com/expo/company/449.html",
+  "original_source_urls": [
+    "https://www.worldrobotconference.com/expo/company/449.html",
+    "https://www.worldrobotconference.com/expo/product/25.html",
+    "https://www.worldrobotconference.com/expo/product/676.html",
+    "https://www.worldrobotconference.com/expo/product/689.html"
+  ],
+  "source_checked_on": "2026-09-05",
+  "evidence": "official_page",
+  "technical": {
+    "zh-CN": "Bumi 标注 98cm、约 17kg，提供开放运动接口和图形化编程；N2 为 18 关节、约 30kg，E1 为另一尺寸与动力配置。",
+    "en": "Bumi reports 98cm and about 17kg, with open motion interfaces and graphical programming. N2 has 18 joints and about 30kg. E1 has a different size and power configuration."
+  },
+  "original_product_line": "N2、E1 双足人形机器人，Bumi 小布米，仿生人头“小诺”、轮式机器人 W1",
+  "original_application_wording": "科研、文旅、陪伴、服务、编程教育与创客实践",
+  "original_issue_notes": [],
+  "item_ids": [
+    "item-97e5b9897761",
+    "item-e8f8002551c7",
+    "item-d92892cacbdb"
+  ],
+  "source_technical_sha256": "ea5075ba1bcbcc7d6e9a8403a262621e84d85670e4efcdd756579778b1a5600e",
+  "cross_source_categories": [
+    "01-04"
+  ],
+  "original_tags": "双足人形与消费级人形机器人",
+  "original_verification_wording": "大会官方页已核验。",
+  "original_review_wording": "检索/读取日期：2026-09-05。核验口径：已读取官方网页；参数属发布方声明。"
+}

@@ -1,0 +1,34 @@
+{
+  "id": "E201",
+  "supplier_as_published": "江苏意优机器人科技有限公司",
+  "source_category": "06-03",
+  "source_url": "https://www.worldrobotconference.com/expo/company/572.html",
+  "original_source_urls": [
+    "https://www.worldrobotconference.com/expo/company/572.html",
+    "https://www.worldrobotconference.com/expo/product/927.html",
+    "https://www.worldrobotconference.com/expo/product/930.html",
+    "https://www.worldrobotconference.com/expo/product/932.html"
+  ],
+  "source_checked_on": "2026-09-05",
+  "evidence": "official_page",
+  "technical": {
+    "zh-CN": "RHU 与 PHU 支持 CAN FD/EtherCAT 及 STO，可选力矩模块；PHU 另可配电磁制动器，RP 为行星路线。安全功能未作独立认证核验。",
+    "en": "RHU and PHU support CAN FD/EtherCAT and STO, with optional torque modules. PHU can add electromagnetic brakes; RP follows a planetary route. Safety functions were not independently certified in the review."
+  },
+  "original_product_line": "RP 行星关节、RHU/PHU 谐波一体化关节",
+  "original_application_wording": "人形、协作机器人与工业自动化",
+  "original_issue_notes": [],
+  "item_ids": [
+    "item-09c0cd94c1ab",
+    "item-2e1dccbb7e46",
+    "item-72d880d31599"
+  ],
+  "source_technical_sha256": "46c06e59f9ca44241a420717fb581359473efd4fafd072cfd7354b8ceacea732",
+  "cross_source_categories": [
+    "06-06",
+    "06-07"
+  ],
+  "original_tags": "一体化伺服关节",
+  "original_verification_wording": "大会官方页已核验。",
+  "original_review_wording": "检索/读取日期：2026-09-05。核验口径：已读取官方网页；参数属发布方声明。"
+}

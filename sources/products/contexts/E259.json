@@ -1,0 +1,24 @@
+{
+  "id": "E259",
+  "supplier_as_published": "宜鼎国际股份有限公司",
+  "source_category": "08-02",
+  "source_url": "https://www.innodisk.com/en",
+  "original_source_urls": [
+    "https://www.innodisk.com/en"
+  ],
+  "source_checked_on": "2026-09-05",
+  "evidence": "official_page",
+  "technical": {
+    "zh-CN": "本轮读取官网主要为品牌及产品导航信息，未取得与机器人应用对应的单型号规格；保留原表业务方向，具体内存、存储和边缘模组参数待补充。",
+    "en": "The reviewed official site mainly provides brand/product navigation, not robot-specific model specifications. Memory, storage and edge-module parameters remain to be supplied."
+  },
+  "original_product_line": "工业级 SSD/DRAM、Edge AI 系统、I/O 模组",
+  "original_application_wording": "制造、交通、智慧城市、医疗、AGV/AMR",
+  "original_issue_notes": [],
+  "item_ids": [],
+  "source_technical_sha256": "2a9bae4fff5421df0dac21ec6e61232006b4d42c1ba6f45a1e19796f9525df40",
+  "cross_source_categories": [],
+  "original_tags": "边缘 AI 计算/工业存储",
+  "original_verification_wording": "官网已核对。",
+  "original_review_wording": "检索/读取日期：2026-09-05。核验口径：已读取官方网页；参数属发布方声明。"
+}

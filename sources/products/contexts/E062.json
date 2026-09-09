@@ -1,0 +1,33 @@
+{
+  "id": "E062",
+  "supplier_as_published": "上海灵初智能科技有限公司",
+  "source_category": "01-02",
+  "source_url": "https://www.worldrobotconference.com/expo/company/524.html",
+  "original_source_urls": [
+    "https://www.worldrobotconference.com/expo/company/524.html",
+    "https://www.worldrobotconference.com/expo/product/445.html",
+    "https://www.worldrobotconference.com/expo/product/644.html"
+  ],
+  "source_checked_on": "2026-09-05",
+  "evidence": "official_page",
+  "technical": {
+    "zh-CN": "SynRobot 页面描述超过 30 分钟连续任务及中断恢复；世界模型用于人类动作和图像空间到机器人数据的转换。99.9%准确率未附测试定义。",
+    "en": "SynRobot describes tasks lasting over 30 minutes and interruption recovery. Its world model converts human motion and image-space information to robot data. The 99.9% accuracy claim has no test definition."
+  },
+  "original_product_line": "Psi-SynRobot 轮式双臂具身机器人、PSI 基座模型、Psi-SynEngine 数采引擎与世界模型",
+  "original_application_wording": "物流仓储、零售与工业场景的抓取、搬运、贴标、分拣、供包和数据采集",
+  "original_issue_notes": [],
+  "item_ids": [
+    "item-1aa809668ba1",
+    "item-593a7d86433d"
+  ],
+  "source_technical_sha256": "194057c4fb0bab2f236001894fd40c6bed3293e57b7c53831d135a04a72d1ee9",
+  "cross_source_categories": [
+    "01-01",
+    "09-01",
+    "09-02"
+  ],
+  "original_tags": "轮式双臂具身机器人与世界模型",
+  "original_verification_wording": "大会官方页已核验。",
+  "original_review_wording": "检索/读取日期：2026-09-05。核验口径：已读取官方网页；参数属发布方声明。"
+}

@@ -1,0 +1,36 @@
+{
+  "id": "E048",
+  "supplier_as_published": "维他动力（北京）科技有限公司",
+  "source_category": "01-03",
+  "source_url": "https://www.worldrobotconference.com/expo/company/444.html",
+  "original_source_urls": [
+    "https://www.worldrobotconference.com/expo/company/444.html",
+    "https://www.worldrobotconference.com/expo/product/1030.html",
+    "https://www.worldrobotconference.com/expo/product/1055.html",
+    "https://www.worldrobotconference.com/expo/product/1056.html",
+    "https://www.worldrobotconference.com/expo/product/540.html"
+  ],
+  "source_checked_on": "2026-09-05",
+  "evidence": "official_page",
+  "technical": {
+    "zh-CN": "大头 EDU 版公开列出系统服务、运动控制、感知导航、交互和外设五类接口；轮足版与人形版分别覆盖随行和家庭操作任务。",
+    "en": "大头 EDU lists system services, motion control, perception/navigation, interaction and peripheral interfaces. Wheeled-legged and humanoid versions target following and household manipulation respectively."
+  },
+  "original_product_line": "Vbot 人形机器人、Vbot 超能机器狗及轮足版/EDU 版",
+  "original_application_wording": "家庭取放整理、家电操作、适老陪伴和远程照护；商业服务、科研开发",
+  "original_issue_notes": [],
+  "item_ids": [
+    "item-cf0df06eb6d9",
+    "item-a0f784664678",
+    "item-f4f4cc7a598f",
+    "item-90592762b191"
+  ],
+  "source_technical_sha256": "94abcf349f937dd3eb3248784e0d161ea36cf2a675cfd6a5724043fbbc57acc1",
+  "cross_source_categories": [
+    "01-01",
+    "03-04"
+  ],
+  "original_tags": "消费级人形与轮足/四足机器人",
+  "original_verification_wording": "大会官方页已核验。",
+  "original_review_wording": "检索/读取日期：2026-09-05。核验口径：已读取官方网页；参数属发布方声明。"
+}

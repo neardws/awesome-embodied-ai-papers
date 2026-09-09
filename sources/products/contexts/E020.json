@@ -1,0 +1,36 @@
+{
+  "id": "E020",
+  "supplier_as_published": "ROBOTIS（乐博益思）",
+  "source_category": "01-04",
+  "source_url": "https://www.worldrobotconference.com/expo/company/670.html",
+  "original_source_urls": [
+    "https://www.worldrobotconference.com/expo/company/670.html",
+    "https://www.worldrobotconference.com/expo/product/1083.html",
+    "https://www.worldrobotconference.com/expo/product/1084.html",
+    "https://www.worldrobotconference.com/expo/product/1290.html",
+    "https://cn.robotis.com/model/page.php?co_id=actuator"
+  ],
+  "source_checked_on": "2026-09-05",
+  "evidence": "official_page",
+  "technical": {
+    "zh-CN": "AI Sapiens K1 页面声明开放机械、电控、软件、仿真与训练资源，配套 Isaac Sim；AI Worker 提供双臂和全向移动底盘。具体开源许可仍需查看仓库。",
+    "en": "AI Sapiens K1 claims open mechanical, electrical, software, simulation and training resources with Isaac Sim. AI Worker includes dual arms and an omnidirectional base. Exact open-source licenses still require repository review."
+  },
+  "original_product_line": "DYNAMIXEL 智能执行器、AI Sapiens/AI Worker",
+  "original_application_wording": "制造、物流、研究、服务",
+  "original_issue_notes": [],
+  "item_ids": [
+    "item-79d66cce71a5",
+    "item-025f1229b5cb",
+    "item-f9395cb7801c"
+  ],
+  "source_technical_sha256": "c245e9dff970543b7fc484c94a6a88b7381ab36e50ce97a8a8830210f21e169a",
+  "cross_source_categories": [
+    "01-01",
+    "01-02",
+    "09-04"
+  ],
+  "original_tags": "人形研发平台/智能执行器",
+  "original_verification_wording": "官网已核对。",
+  "original_review_wording": "检索/读取日期：2026-09-05。核验口径：已读取官方网页；参数属发布方声明。"
+}

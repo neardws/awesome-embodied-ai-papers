@@ -1,0 +1,47 @@
+{
+  "id": "E083",
+  "supplier_as_published": "北京凌天智能装备集团股份有限公司",
+  "source_category": "04-04",
+  "source_url": "https://www.worldrobotconference.com/expo/company/489.html",
+  "original_source_urls": [
+    "https://www.worldrobotconference.com/expo/company/489.html",
+    "https://www.worldrobotconference.com/expo/product/750.html",
+    "https://www.worldrobotconference.com/expo/product/751.html",
+    "https://www.worldrobotconference.com/expo/product/752.html",
+    "https://www.worldrobotconference.com/expo/product/776.html",
+    "https://www.worldrobotconference.com/expo/product/777.html"
+  ],
+  "source_checked_on": "2026-09-05",
+  "evidence": "official_page",
+  "technical": {
+    "zh-CN": "产品细分为防爆侦察灭火、重型防爆和耐高温灭火；可回传现场视频及环境参数。仅凭介绍不能确认各型号具体防爆认证和耐温时长。",
+    "en": "Products separate explosion-resistant reconnaissance/firefighting, heavy-duty explosion-resistant and high-temperature firefighting versions, with video and environmental telemetry. Exact certifications and heat-endurance durations are not established."
+  },
+  "original_product_line": "消防、排爆、水下、矿用等特种机器人，四足机器狗、无人机与智能侦检装备",
+  "original_application_wording": "石化与隧道灭火、排爆搜救、防汛排涝、矿山救援、危险环境巡逻巡检",
+  "original_issue_notes": [],
+  "item_ids": [
+    "item-8e534984171e",
+    "item-d8df46d8f315",
+    "item-4654e00809f8",
+    "item-4c5ab175391d",
+    "item-1b3754afdd71",
+    "item-b464fbd14384",
+    "item-f33745dedc25",
+    "item-4ee370c35bcb",
+    "item-bbca388020e8",
+    "item-c0a986527098",
+    "item-a4a5041ca506",
+    "item-f902fe5a825c",
+    "item-a15db41a76e4",
+    "item-7949279353e8",
+    "item-c49940f89429",
+    "item-e95bde094d71",
+    "item-01da3ba9f994"
+  ],
+  "source_technical_sha256": "42514425070e9a81a63d7faf8d558a641ed33a496eb9325b14f8326ae4609b01",
+  "cross_source_categories": [],
+  "original_tags": "特种应急与巡检机器人",
+  "original_verification_wording": "大会官方页已核验。",
+  "original_review_wording": "检索/读取日期：2026-09-05。核验口径：已读取官方网页；参数属发布方声明。"
+}

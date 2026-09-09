@@ -1,0 +1,34 @@
+{
+  "id": "E043",
+  "supplier_as_published": "深圳逐际动力科技股份有限公司",
+  "source_category": "01-01",
+  "source_url": "https://www.worldrobotconference.com/expo/company/433.html",
+  "original_source_urls": [
+    "https://www.worldrobotconference.com/expo/company/433.html",
+    "https://www.worldrobotconference.com/expo/product/1360.html",
+    "https://www.worldrobotconference.com/expo/product/380.html",
+    "https://www.worldrobotconference.com/expo/product/381.html"
+  ],
+  "source_checked_on": "2026-09-05",
+  "evidence": "official_page",
+  "technical": {
+    "zh-CN": "Luna 标注 160cm、27 自由度及约 4 小时电池续航；Oli 为 31 个机身自由度、不含末端，提供 Lite/EDU/Super；TRON 2 支持多形态开发。",
+    "en": "Luna reports 160cm, 27 degrees of freedom and about 4-hour battery endurance. Oli has 31 body degrees of freedom excluding end effectors, with Lite/EDU/Super variants. TRON 2 supports multi-form development."
+  },
+  "original_product_line": "LimX Luna 全尺寸交互人形、TRON 2 多形态双足平台、LimX Oli 通用人形",
+  "original_application_wording": "文娱演艺与多机协同；具身智能研发、运动控制和二次开发",
+  "original_issue_notes": [],
+  "item_ids": [
+    "item-de64f016328a",
+    "item-f8364fd5d5bc",
+    "item-0a50e60767cb"
+  ],
+  "source_technical_sha256": "0a543e50376137bba29df62a1fc33c867c6dbc33052b07199cad2f5970d13d1d",
+  "cross_source_categories": [
+    "01-02",
+    "01-03"
+  ],
+  "original_tags": "双足人形机器人与多形态开发平台",
+  "original_verification_wording": "大会官方页已核验。",
+  "original_review_wording": "检索/读取日期：2026-09-05。核验口径：已读取官方网页；参数属发布方声明。"
+}

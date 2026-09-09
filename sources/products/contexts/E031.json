@@ -1,0 +1,32 @@
+{
+  "id": "E031",
+  "supplier_as_published": "北京源奇点科技有限公司",
+  "source_category": "01-01",
+  "source_url": "https://www.worldrobotconference.com/expo/company/790.html",
+  "original_source_urls": [
+    "https://www.worldrobotconference.com/expo/company/790.html",
+    "https://www.worldrobotconference.com/expo/product/1427.html"
+  ],
+  "source_checked_on": "2026-09-05",
+  "evidence": "official_page",
+  "technical": {
+    "zh-CN": "页面将人形、外骨骼与关节合并介绍，出现 80+DOF、AGX Thor、外骨骼单腿峰值 32Nm 和 5M FDCAN 等信息；具体参数与型号对应关系仍需确认。",
+    "en": "The page mixes humanoids, exoskeletons and joints, mentioning 80+DOF, AGX Thor, 32Nm peak torque per exoskeleton leg and 5M FDCAN. The parameter-to-model associations remain unresolved."
+  },
+  "original_product_line": "仿生人形机器人、外骨骼、关节模组",
+  "original_application_wording": "待官网核实",
+  "original_issue_notes": [
+    "具体问题：多类产品合并描述，部分参数与型号对应关系未明确。"
+  ],
+  "item_ids": [
+    "item-e34b1503588b"
+  ],
+  "source_technical_sha256": "b307c36e14a94bc62b3ff6105f6a9c00f743a63735913ade5fbf1e84f6d2a6e1",
+  "cross_source_categories": [
+    "05-03",
+    "06-03"
+  ],
+  "original_tags": "仿生人形机器人、外骨骼与关节模组",
+  "original_verification_wording": "部分核验（产品已核验；典型应用待官网核实）。",
+  "original_review_wording": "检索/读取日期：2026-09-05。核验口径：已读取官方网页；参数属发布方声明。"
+}

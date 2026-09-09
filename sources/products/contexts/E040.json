@@ -1,0 +1,38 @@
+{
+  "id": "E040",
+  "supplier_as_published": "宇树科技股份有限公司",
+  "source_category": "01-01",
+  "source_url": "https://www.worldrobotconference.com/expo/company/399.html",
+  "original_source_urls": [
+    "https://www.worldrobotconference.com/expo/company/399.html",
+    "https://www.worldrobotconference.com/expo/product/243.html",
+    "https://www.worldrobotconference.com/expo/product/244.html",
+    "https://www.worldrobotconference.com/expo/product/245.html",
+    "https://www.worldrobotconference.com/expo/product/1573.html",
+    "https://www.worldrobotconference.com/expo/product/1574.html"
+  ],
+  "source_checked_on": "2026-09-05",
+  "evidence": "official_page",
+  "technical": {
+    "zh-CN": "G1 标注 23–43 个关节电机，取决于配置；B2 标注持续行走负载超过 40kg，20kg 负载续航超过 4 小时；Go2 配超广角雷达与伴随系统。",
+    "en": "G1 lists 23–43 joint motors depending on configuration. B2 reports over 40kg sustained walking load and over 4-hour endurance at 20kg load. Go2 includes wide-angle LiDAR and following functions."
+  },
+  "original_product_line": "Unitree G1、H2、R1 人形机器人；B2、Go2、AS2 四足机器人",
+  "original_application_wording": "工业与科研；应急巡检、户外运载、复杂地形作业、交互展演",
+  "original_issue_notes": [],
+  "item_ids": [
+    "item-d7521a558498",
+    "item-0699c3accefb",
+    "item-9713f0483287",
+    "item-9d0752aee6e5",
+    "item-acf2a210d0f3",
+    "item-f9fcb8bc8411"
+  ],
+  "source_technical_sha256": "8cf3006e462ffd465c0a2c09121f9aabf12f77230735e5651ce25a90da2f5ca3",
+  "cross_source_categories": [
+    "01-03"
+  ],
+  "original_tags": "通用人形与高性能四足机器人",
+  "original_verification_wording": "大会官方页已核验。",
+  "original_review_wording": "检索/读取日期：2026-09-05。核验口径：已读取官方网页；参数属发布方声明。"
+}

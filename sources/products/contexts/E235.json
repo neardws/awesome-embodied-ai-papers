@@ -1,0 +1,27 @@
+{
+  "id": "E235",
+  "supplier_as_published": "宇泛智能科技股份有限公司",
+  "source_category": "07-07",
+  "source_url": "https://m.uni-ubi.com/",
+  "original_source_urls": [
+    "https://m.uni-ubi.com/",
+    "https://www.worldrobotconference.com/93_2/"
+  ],
+  "source_checked_on": "2026-09-05",
+  "evidence": "official_search_or_alternate",
+  "technical": {
+    "zh-CN": "官方搜索结果列 Uface 5K 考勤机、身份核验一体机、客行分析摄像机及 WO 设备接入平台；原表大会链接是活动列表，未确认对应宇泛，不能作为其产品证明。",
+    "en": "Official search results list Uface 5K attendance terminals, identity-verification devices, customer-analysis cameras and WO device integration. The original conference activity list is not confirmed to concern this supplier and is not product evidence."
+  },
+  "original_product_line": "Uface 人脸识别终端、客流相机等空间数智化产品",
+  "original_application_wording": "工地、社区、商超、办公、校园、酒店",
+  "original_issue_notes": [
+    "具体问题：原表大会来源是无对应主体的活动列表，剔除出本轮产品证据。"
+  ],
+  "item_ids": [],
+  "source_technical_sha256": "be75f1d7001750922a3d5d15ba81e50f6ca79d3521a9777e08e09a53fecb8a80",
+  "cross_source_categories": [],
+  "original_tags": "人脸识别终端与 AIoT 空间数智化",
+  "original_verification_wording": "已核验（官网与大会官方页）。",
+  "original_review_wording": "检索/读取日期：2026-09-05。核验口径：官方搜索正文补充（直连受限或改用替代页）。"
+}

@@ -1,0 +1,29 @@
+{
+  "id": "E097",
+  "supplier_as_published": "湖北光谷盛创科技有限公司",
+  "source_category": "01-04",
+  "source_url": "https://www.worldrobotconference.com/expo/company/861.html",
+  "original_source_urls": [
+    "https://www.worldrobotconference.com/expo/company/861.html",
+    "https://www.worldrobotconference.com/expo/product/1406.html",
+    "https://www.worldrobotconference.com/expo/product/1407.html"
+  ],
+  "source_checked_on": "2026-09-05",
+  "evidence": "official_page",
+  "technical": {
+    "zh-CN": "NAO Mini 标注约 40cm、1.6kg、18 自由度，带摄像头、麦克风阵列与红外测距，支持图形化编程；NAO 6 是另一个平台。",
+    "en": "NAO Mini reports about 40cm, 1.6kg and 18 degrees of freedom, with camera, microphone array, infrared ranging and graphical programming. NAO 6 is a separate platform."
+  },
+  "original_product_line": "NAO Mini 教育机器人、NAO 6 人形机器人；查验、消防、清洁机器人",
+  "original_application_wording": "K12 人工智能教育与校园科普；教学、科研、康养",
+  "original_issue_notes": [],
+  "item_ids": [
+    "item-1ecd361f46cc",
+    "item-d0f9d7a72f82"
+  ],
+  "source_technical_sha256": "00fe637de3614091e87970fbeef6749c58364bab7c037869fba3ec57c5a3a7a4",
+  "cross_source_categories": [],
+  "original_tags": "教育、康养与行业服务机器人",
+  "original_verification_wording": "大会官方页已核验。",
+  "original_review_wording": "检索/读取日期：2026-09-05。核验口径：已读取官方网页；参数属发布方声明。"
+}

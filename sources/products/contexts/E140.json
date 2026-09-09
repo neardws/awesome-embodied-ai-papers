@@ -1,0 +1,24 @@
+{
+  "id": "E140",
+  "supplier_as_published": "江苏南方精工股份有限公司",
+  "source_category": "06-09",
+  "source_url": "https://www.nf-precision.com/",
+  "original_source_urls": [
+    "https://www.nf-precision.com/"
+  ],
+  "source_checked_on": "2026-09-05",
+  "evidence": "official_page",
+  "technical": {
+    "zh-CN": "官网区分滚针轴承、单向离合器、单向滑轮总成与精密机加工件；只有滚针轴承介绍明确列机器人 RV 减速机用途，不将全部产品视为机器人专用。",
+    "en": "The official site separates needle bearings, one-way clutches, pulley assemblies and precision-machined parts. Only the needle-bearing description explicitly names robot RV reducers; not all products are robot-specific."
+  },
+  "original_product_line": "滚针轴承、单向离合器、单向滑轮总成",
+  "original_application_wording": "机器人 RV 减速机；自动化设备",
+  "original_issue_notes": [],
+  "item_ids": [],
+  "source_technical_sha256": "245bf4b7295978d34c18bd7bf018a135ddf4aed5df04a86f028803ee25defa34",
+  "cross_source_categories": [],
+  "original_tags": "RV减速机用滚针轴承",
+  "original_verification_wording": "官网已核对。",
+  "original_review_wording": "检索/读取日期：2026-09-05。核验口径：已读取官方网页；参数属发布方声明。"
+}

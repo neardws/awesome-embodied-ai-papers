@@ -20,42 +20,42 @@
 </thead>
 <tbody>
 <tr>
-<td width="240" nowrap><a id="09-01"></a>操作系统与通信中间件</td>
+<td width="240" nowrap><a id="09-01"></a>操作系统与通信中间件<br><a href="../products/topics/09-01.md">产品细节</a></td>
 <td width="300">组织进程、消息与分布式组件。</td>
 <td width="320">实时通信、模块化与系统架构。</td>
 <td width="320">版本支持、部署配置与兼容性。</td>
 <td width="340">消息时延、服务生命周期与可诊断性。</td>
 </tr>
 <tr>
-<td width="240" nowrap><a id="09-02"></a>驱动、硬件抽象与控制接口</td>
+<td width="240" nowrap><a id="09-02"></a>驱动、硬件抽象与控制接口<br><a href="../products/topics/09-02.md">产品细节</a></td>
 <td width="300">统一传感读取与执行器命令。</td>
 <td width="320">接口抽象、控制切换与仿真实机一致性。</td>
 <td width="320">驱动维护、校准、故障码与设备支持。</td>
 <td width="340">接口覆盖、状态语义与时序一致性。</td>
 </tr>
 <tr>
-<td width="240" nowrap><a id="09-03"></a>导航与操作软件栈</td>
+<td width="240" nowrap><a id="09-03"></a>导航与操作软件栈<br><a href="../products/topics/09-03.md">产品细节</a></td>
 <td width="300">组合感知、规划与控制模块。</td>
 <td width="320">可插拔算法与端到端系统比较。</td>
 <td width="320">场景整定、机器人适配与稳定版本。</td>
 <td width="340">集成成本、任务完成率与异常处理。</td>
 </tr>
 <tr>
-<td width="240" nowrap><a id="09-04"></a>技能库、行为树与工作流</td>
+<td width="240" nowrap><a id="09-04"></a>技能库、行为树与工作流<br><a href="../products/topics/09-04.md">产品细节</a></td>
 <td width="300">表达任务顺序、并发与恢复。</td>
 <td width="320">技能组合、形式约束与层级决策。</td>
 <td width="320">可视化编排、接口版本与操作权限。</td>
 <td width="340">技能复用率、失败定位与恢复路径。</td>
 </tr>
 <tr>
-<td width="240" nowrap><a id="09-05"></a>开发、调试与可观测性</td>
+<td width="240" nowrap><a id="09-05"></a>开发、调试与可观测性<br><a href="../products/topics/09-05.md">产品细节</a></td>
 <td width="300">解释系统运行中的数据与故障。</td>
 <td width="320">因果调试、日志压缩与可解释执行。</td>
 <td width="320">回放、可视化、报警与远程诊断。</td>
 <td width="340">复现故障时间、日志完整性与排障成本。</td>
 </tr>
 <tr>
-<td width="240" nowrap><a id="09-06"></a>设施对接与多机协调</td>
+<td width="240" nowrap><a id="09-06"></a>设施对接与多机协调<br><a href="../products/topics/09-06.md">产品细节</a></td>
 <td width="300">让机器人与电梯、门禁、机队协同。</td>
 <td width="320">多智能体调度、冲突消解与协作。</td>
 <td width="320">设施协议、任务系统、交通与权限。</td>
@@ -63,6 +63,14 @@
 </tr>
 </tbody>
 </table>
+
+## 技术与产品细节
+
+<a href="../products/comparisons/09-systems.md">查看 3 条相关对照记录</a>
+
+继续比较逐型号参数、工况、接口、研究关联和来源问题，并下钻查看完整技术摘录与原始展项链接。
+
+<a href="../products/references/09-05.md">机器人操作系统与技能平台</a> · <a href="../products/references/09-06.md">企业智能体与AI服务</a>
 
 ## 研究、平台与产业代表
 

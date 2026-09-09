@@ -1,0 +1,26 @@
+{
+  "id": "E301",
+  "supplier_as_published": "中央企业展区",
+  "source_category": "11-03",
+  "source_url": "https://www.worldrobotconference.com/expo/company/823.html",
+  "original_source_urls": [
+    "https://www.worldrobotconference.com/expo/company/823.html"
+  ],
+  "source_checked_on": "2026-09-05",
+  "evidence": "official_page",
+  "technical": {
+    "zh-CN": "该条为联合展区，官方称包含 48 家央企、260 余件展品和 25 个应用场景；本资料库只计一条原始记录，未擅自拆为 48 条企业档案。",
+    "en": "This is a joint exhibit claiming 48 central enterprises, over 260 exhibits and 25 application settings. The source library counts one original record and does not split it into 48 company profiles."
+  },
+  "original_product_line": "48 家央企联合展示工业、人形、轮臂、四足、外骨骼及智能飞行器等机器人展品",
+  "original_application_wording": "太空深海、电力核电、矿山冶金等国家工程，以及 25 个典型机器人应用场景",
+  "original_issue_notes": [
+    "具体问题：联合展区计一条原始记录，内部 48 家央企未逐一拆档。"
+  ],
+  "item_ids": [],
+  "source_technical_sha256": "e944b0e2c99710ab0999a52b8c38dfeaff961d89b2c9d71e3dd9eb3abaa96366",
+  "cross_source_categories": [],
+  "original_tags": "央企机器人产业展区",
+  "original_verification_wording": "官方页已核对。",
+  "original_review_wording": "检索/读取日期：2026-09-05。核验口径：已读取官方网页；参数属发布方声明。"
+}

@@ -1,0 +1,35 @@
+{
+  "id": "E266",
+  "supplier_as_published": "光轮智能（北京）科技股份有限公司",
+  "source_category": "09-04",
+  "source_url": "https://www.worldrobotconference.com/expo/company/766.html",
+  "original_source_urls": [
+    "https://www.worldrobotconference.com/expo/company/766.html",
+    "https://www.worldrobotconference.com/expo/product/1451.html",
+    "https://www.worldrobotconference.com/expo/product/1454.html",
+    "https://www.worldrobotconference.com/expo/product/1455.html",
+    "https://www.worldrobotconference.com/expo/product/1483.html"
+  ],
+  "source_checked_on": "2026-09-05",
+  "evidence": "official_page",
+  "technical": {
+    "zh-CN": "EgoSuite 覆盖采集、自动标注和质检，RoboFinals 为仿真评测，RoboStack 连接部署及失败反馈；适合按数据—评测—部署流程检索。",
+    "en": "EgoSuite covers collection, automatic annotation and quality checks. RoboFinals provides simulation evaluation; RoboStack connects deployment and failure feedback. Index the data–evaluation–deployment chain."
+  },
+  "original_product_line": "EgoSuite、RoboFinals、RoboStack、SimFoundry",
+  "original_application_wording": "具身智能训练数据采集、仿真评测、机器人部署反馈与持续学习",
+  "original_issue_notes": [],
+  "item_ids": [
+    "item-4e78f4e65d39",
+    "item-007596f8fde0",
+    "item-3d7dea718649",
+    "item-96f9cd6230a4"
+  ],
+  "source_technical_sha256": "c9810bb51cfd0673d6b0972d42a52cefdaa7dad4f6df4a798c75d3525e16c5ed",
+  "cross_source_categories": [
+    "09-03"
+  ],
+  "original_tags": "物理 AI 数据、仿真与评测基础设施",
+  "original_verification_wording": "大会官方页已核验。",
+  "original_review_wording": "检索/读取日期：2026-09-05。核验口径：已读取官方网页；参数属发布方声明。"
+}

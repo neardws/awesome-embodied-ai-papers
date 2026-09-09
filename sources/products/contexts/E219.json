@@ -1,0 +1,29 @@
+{
+  "id": "E219",
+  "supplier_as_published": "杭州时空张量机器人科技有限公司",
+  "source_category": "07-08",
+  "source_url": "https://www.worldrobotconference.com/expo/company/839.html",
+  "original_source_urls": [
+    "https://www.worldrobotconference.com/expo/company/839.html",
+    "https://www.worldrobotconference.com/expo/product/1587.html"
+  ],
+  "source_checked_on": "2026-09-05",
+  "evidence": "official_page",
+  "technical": {
+    "zh-CN": "Tensopt SIC-MR30 将 XYZ、RGB 和时间戳组织为七维数据；这里的 7D 是数据字段组合，不代表七个物理空间维度。",
+    "en": "Tensopt SIC-MR30 groups XYZ, RGB and timestamp into seven-dimensional data. The 7D label denotes fields, not seven physical spatial dimensions."
+  },
+  "original_product_line": "“天眼”7D 空间智能传感器 Tensopt SIC-MR-30",
+  "original_application_wording": "物理世界数据采集、世界模型/VLA 训练、具身智能与智能汽车",
+  "original_issue_notes": [],
+  "item_ids": [
+    "item-dcf23dee6d78"
+  ],
+  "source_technical_sha256": "d41c3b194a2433755cac77a970cd5751abe83624199be8f0a4fed15f5c289bc0",
+  "cross_source_categories": [
+    "07-03"
+  ],
+  "original_tags": "7D 空间智能传感器",
+  "original_verification_wording": "大会官方页已核验。",
+  "original_review_wording": "检索/读取日期：2026-09-05。核验口径：已读取官方网页；参数属发布方声明。"
+}

@@ -1,0 +1,31 @@
+{
+  "id": "E045",
+  "supplier_as_published": "跨维（深圳）智能数字科技有限公司",
+  "source_category": "01-02",
+  "source_url": "https://www.worldrobotconference.com/expo/company/435.html",
+  "original_source_urls": [
+    "https://www.worldrobotconference.com/expo/company/435.html",
+    "https://www.worldrobotconference.com/expo/product/387.html"
+  ],
+  "source_checked_on": "2026-09-05",
+  "evidence": "official_page",
+  "technical": {
+    "zh-CN": "W1 Pro 采用双目纯视觉和 Sim2Real VLA 路线，展示咖啡制作、划火柴与打螺丝；页面同时提到生成式世界模型。",
+    "en": "W1 Pro uses stereo-only vision and a Sim2Real VLA approach, demonstrating coffee preparation, match striking and screw driving. The page also mentions a generative world model."
+  },
+  "original_product_line": "DexForce W1 Pro、Sim2Real VLA 与生成式世界模型",
+  "original_application_wording": "咖啡制作、划火柴、拧螺丝；商业服务、智能制造、迎宾导览与文旅",
+  "original_issue_notes": [],
+  "item_ids": [
+    "item-9550e48b57da"
+  ],
+  "source_technical_sha256": "774c820d391aa41b010215c57c165daefc938aed5afb3c519c7e45a9f02f5732",
+  "cross_source_categories": [
+    "03-03",
+    "09-01",
+    "09-02"
+  ],
+  "original_tags": "轮式双臂具身机器人与世界模型",
+  "original_verification_wording": "大会官方页已核验。",
+  "original_review_wording": "检索/读取日期：2026-09-05。核验口径：已读取官方网页；参数属发布方声明。"
+}

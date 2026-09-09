@@ -1,0 +1,1454 @@
+[
+  {
+    "id": "01-01",
+    "title": {
+      "en": "Bipeds and general-purpose humanoids",
+      "zh-CN": "双足与通用人形机器人"
+    },
+    "related_subcategories": [
+      "01-01"
+    ],
+    "contexts": [
+      "E007",
+      "E010",
+      "E011",
+      "E012",
+      "E013",
+      "E014",
+      "E015",
+      "E016",
+      "E017",
+      "E018",
+      "E019",
+      "E022",
+      "E026",
+      "E028",
+      "E029",
+      "E031",
+      "E032",
+      "E035",
+      "E038",
+      "E039",
+      "E040",
+      "E041",
+      "E042",
+      "E043",
+      "E050",
+      "E051",
+      "E052",
+      "E054",
+      "E055",
+      "E056",
+      "E058",
+      "E059",
+      "E060",
+      "E065",
+      "E070",
+      "E087"
+    ],
+    "comparison_focus": {
+      "zh-CN": "逐型号补充形态、主动/总自由度、整机重量、动态负载、续航工况、IP 等级、末端配置、SDK/ROS 版本、供货状态。",
+      "en": "For each model, specify form, active/total degrees of freedom, robot mass, dynamic payload, endurance conditions, IP rating, end effectors, SDK/ROS versions and supply status."
+    }
+  },
+  {
+    "id": "01-02",
+    "title": {
+      "en": "Wheeled bimanual and mobile manipulators",
+      "zh-CN": "轮式双臂与移动操作机器人"
+    },
+    "related_subcategories": [
+      "01-02"
+    ],
+    "contexts": [
+      "E001",
+      "E002",
+      "E006",
+      "E024",
+      "E025",
+      "E034",
+      "E037",
+      "E044",
+      "E045",
+      "E047",
+      "E049",
+      "E057",
+      "E061",
+      "E062",
+      "E066",
+      "E067",
+      "E068",
+      "E072",
+      "E073",
+      "E074",
+      "E094",
+      "E104",
+      "E106",
+      "E112",
+      "E113"
+    ],
+    "comparison_focus": {
+      "zh-CN": "补充底盘类型、升降行程、最低/最高作业高度、转弯半径、单臂/双臂动态负载、臂自由度、回充换电与遥操接口。",
+      "en": "Specify base type, lift stroke, minimum/maximum working height, turning radius, single/dual-arm dynamic payload, arm degrees of freedom, charging/swapping and teleoperation interfaces."
+    }
+  },
+  {
+    "id": "01-03",
+    "title": {
+      "en": "Quadrupeds and wheeled-legged robots",
+      "zh-CN": "四足与轮足机器人"
+    },
+    "related_subcategories": [
+      "01-03"
+    ],
+    "contexts": [
+      "E004",
+      "E021",
+      "E023",
+      "E033",
+      "E048",
+      "E053",
+      "E088",
+      "E126",
+      "E127",
+      "E130",
+      "E133",
+      "E137"
+    ],
+    "comparison_focus": {
+      "zh-CN": "补充足式/轮足构型、行走负载、载荷下续航、坡度台阶、稳定性、IP等级与负载接口；静态承载另记。",
+      "en": "Specify legged/wheeled-legged structure, walking payload, loaded endurance, slopes/steps, stability, IP rating and payload interfaces; record static load separately."
+    }
+  },
+  {
+    "id": "01-04",
+    "title": {
+      "en": "Small educational and open robot platforms",
+      "zh-CN": "小型教学与开放机器人平台"
+    },
+    "related_subcategories": [
+      "01-05"
+    ],
+    "contexts": [
+      "E003",
+      "E020",
+      "E063",
+      "E096",
+      "E097"
+    ],
+    "comparison_focus": {
+      "zh-CN": "逐型号补充形态、主动/总自由度、整机重量、动态负载、续航工况、IP 等级、末端配置、SDK/ROS 版本、供货状态。",
+      "en": "For each model, specify form, active/total degrees of freedom, robot mass, dynamic payload, endurance conditions, IP rating, end effectors, SDK/ROS versions and supply status."
+    }
+  },
+  {
+    "id": "01-05",
+    "title": {
+      "en": "Biomimetic and interactive humanoids",
+      "zh-CN": "仿生与交互人形机器人"
+    },
+    "related_subcategories": [
+      "01-01",
+      "04-06"
+    ],
+    "contexts": [
+      "E008",
+      "E030",
+      "E036",
+      "E046",
+      "E064",
+      "E092"
+    ],
+    "comparison_focus": {
+      "zh-CN": "逐型号补充形态、主动/总自由度、整机重量、动态负载、续航工况、IP 等级、末端配置、SDK/ROS 版本、供货状态。",
+      "en": "For each model, specify form, active/total degrees of freedom, robot mass, dynamic payload, endurance conditions, IP rating, end effectors, SDK/ROS versions and supply status."
+    }
+  },
+  {
+    "id": "01-06",
+    "title": {
+      "en": "Embodied solutions with unspecified form",
+      "zh-CN": "具身方案与未明确形态平台"
+    },
+    "related_subcategories": [
+      "08-06"
+    ],
+    "contexts": [
+      "E009",
+      "E069",
+      "E071"
+    ],
+    "comparison_focus": {
+      "zh-CN": "逐型号补充形态、主动/总自由度、整机重量、动态负载、续航工况、IP 等级、末端配置、SDK/ROS 版本、供货状态。",
+      "en": "For each model, specify form, active/total degrees of freedom, robot mass, dynamic payload, endurance conditions, IP rating, end effectors, SDK/ROS versions and supply status."
+    }
+  },
+  {
+    "id": "02-01",
+    "title": {
+      "en": "Industrial arms and robots",
+      "zh-CN": "工业机械臂与工业机器人"
+    },
+    "related_subcategories": [
+      "01-04"
+    ],
+    "contexts": [
+      "E079",
+      "E080",
+      "E081"
+    ],
+    "comparison_focus": {
+      "zh-CN": "逐型号补充轴数、额定负载、臂展、重复定位精度、控制周期、力控方式、安全功能、总线、末端接口及工艺节拍。",
+      "en": "For each model, specify axes, rated payload, reach, repeatability, control period, force-control mode, safety functions, bus, end-effector interfaces and process cycle time."
+    }
+  },
+  {
+    "id": "02-02",
+    "title": {
+      "en": "Collaborative arms and adaptive force control",
+      "zh-CN": "协作机械臂与自适应力控"
+    },
+    "related_subcategories": [
+      "01-04",
+      "07-03"
+    ],
+    "contexts": [
+      "E078",
+      "E084",
+      "E085",
+      "E086"
+    ],
+    "comparison_focus": {
+      "zh-CN": "逐型号补充轴数、额定负载、臂展、重复定位精度、控制周期、力控方式、安全功能、总线、末端接口及工艺节拍。",
+      "en": "For each model, specify axes, rated payload, reach, repeatability, control period, force-control mode, safety functions, bus, end-effector interfaces and process cycle time."
+    }
+  },
+  {
+    "id": "02-03",
+    "title": {
+      "en": "Desktop and educational arms",
+      "zh-CN": "桌面机械臂与教学机械臂"
+    },
+    "related_subcategories": [
+      "01-04",
+      "01-05"
+    ],
+    "contexts": [
+      "E082"
+    ],
+    "comparison_focus": {
+      "zh-CN": "逐型号补充轴数、额定负载、臂展、重复定位精度、控制周期、力控方式、安全功能、总线、末端接口及工艺节拍。",
+      "en": "For each model, specify axes, rated payload, reach, repeatability, control period, force-control mode, safety functions, bus, end-effector interfaces and process cycle time."
+    }
+  },
+  {
+    "id": "02-04",
+    "title": {
+      "en": "Welding and flexible-manufacturing integration",
+      "zh-CN": "焊接与柔性制造集成"
+    },
+    "related_subcategories": [
+      "13-05",
+      "14-01"
+    ],
+    "contexts": [
+      "E075",
+      "E276",
+      "E277"
+    ],
+    "comparison_focus": {
+      "zh-CN": "逐型号补充轴数、额定负载、臂展、重复定位精度、控制周期、力控方式、安全功能、总线、末端接口及工艺节拍。",
+      "en": "For each model, specify axes, rated payload, reach, repeatability, control period, force-control mode, safety functions, bus, end-effector interfaces and process cycle time."
+    }
+  },
+  {
+    "id": "03-01",
+    "title": {
+      "en": "Household, commercial and outdoor cleaning",
+      "zh-CN": "家用商用及户外清洁"
+    },
+    "related_subcategories": [
+      "14-03",
+      "14-04"
+    ],
+    "contexts": [
+      "E091",
+      "E103",
+      "E105"
+    ],
+    "comparison_focus": {
+      "zh-CN": "补充作业对象、服务流程、单位时间产能、补给维护周期、环境限制、梯控/门禁接口、交付案例和运营成本口径。",
+      "en": "Specify work objects, service workflows, throughput, replenishment/maintenance intervals, environmental limits, elevator/access interfaces, delivery cases and operating-cost definitions."
+    }
+  },
+  {
+    "id": "03-02",
+    "title": {
+      "en": "Hospitality and building delivery",
+      "zh-CN": "酒店餐饮与楼宇配送"
+    },
+    "related_subcategories": [
+      "14-03"
+    ],
+    "contexts": [
+      "E110",
+      "E111"
+    ],
+    "comparison_focus": {
+      "zh-CN": "补充作业对象、服务流程、单位时间产能、补给维护周期、环境限制、梯控/门禁接口、交付案例和运营成本口径。",
+      "en": "Specify work objects, service workflows, throughput, replenishment/maintenance intervals, environmental limits, elevator/access interfaces, delivery cases and operating-cost definitions."
+    }
+  },
+  {
+    "id": "03-03",
+    "title": {
+      "en": "Beverage preparation and unattended retail",
+      "zh-CN": "饮品制作与无人零售"
+    },
+    "related_subcategories": [
+      "14-03"
+    ],
+    "contexts": [
+      "E093"
+    ],
+    "comparison_focus": {
+      "zh-CN": "补充作业对象、服务流程、单位时间产能、补给维护周期、环境限制、梯控/门禁接口、交付案例和运营成本口径。",
+      "en": "Specify work objects, service workflows, throughput, replenishment/maintenance intervals, environmental limits, elevator/access interfaces, delivery cases and operating-cost definitions."
+    }
+  },
+  {
+    "id": "03-04",
+    "title": {
+      "en": "Home companionship and desktop interaction",
+      "zh-CN": "家庭陪伴与桌面交互"
+    },
+    "related_subcategories": [
+      "14-04"
+    ],
+    "contexts": [
+      "E101",
+      "E102",
+      "E107",
+      "E108"
+    ],
+    "comparison_focus": {
+      "zh-CN": "补充作业对象、服务流程、单位时间产能、补给维护周期、环境限制、梯控/门禁接口、交付案例和运营成本口径。",
+      "en": "Specify work objects, service workflows, throughput, replenishment/maintenance intervals, environmental limits, elevator/access interfaces, delivery cases and operating-cost definitions."
+    }
+  },
+  {
+    "id": "03-05",
+    "title": {
+      "en": "Guiding, reception and tourism services",
+      "zh-CN": "导览接待与文旅服务"
+    },
+    "related_subcategories": [
+      "14-03"
+    ],
+    "contexts": [
+      "E095",
+      "E098",
+      "E100",
+      "E109"
+    ],
+    "comparison_focus": {
+      "zh-CN": "补充作业对象、服务流程、单位时间产能、补给维护周期、环境限制、梯控/门禁接口、交付案例和运营成本口径。",
+      "en": "Specify work objects, service workflows, throughput, replenishment/maintenance intervals, environmental limits, elevator/access interfaces, delivery cases and operating-cost definitions."
+    }
+  },
+  {
+    "id": "03-06",
+    "title": {
+      "en": "Mobile charging services",
+      "zh-CN": "移动充电服务"
+    },
+    "related_subcategories": [
+      "05-06"
+    ],
+    "contexts": [
+      "E099"
+    ],
+    "comparison_focus": {
+      "zh-CN": "补充作业对象、服务流程、单位时间产能、补给维护周期、环境限制、梯控/门禁接口、交付案例和运营成本口径。",
+      "en": "Specify work objects, service workflows, throughput, replenishment/maintenance intervals, environmental limits, elevator/access interfaces, delivery cases and operating-cost definitions."
+    }
+  },
+  {
+    "id": "04-01",
+    "title": {
+      "en": "Warehouse handling and loading",
+      "zh-CN": "仓储搬运与装卸机器人"
+    },
+    "related_subcategories": [
+      "14-02"
+    ],
+    "contexts": [
+      "E125",
+      "E134",
+      "E138",
+      "E234",
+      "E249"
+    ],
+    "comparison_focus": {
+      "zh-CN": "补充底盘结构、有效载荷、通行宽度、坡度越障、定位精度、防护/防爆证据、充电与调度接口、连续作业测试条件。",
+      "en": "Specify chassis structure, useful payload, passage width, slopes/obstacles, positioning, protection/explosion-protection evidence, charging/dispatch interfaces and continuous-work test conditions."
+    }
+  },
+  {
+    "id": "04-02",
+    "title": {
+      "en": "Last-mile delivery",
+      "zh-CN": "末端配送机器人"
+    },
+    "related_subcategories": [
+      "14-02"
+    ],
+    "contexts": [
+      "E129",
+      "E131"
+    ],
+    "comparison_focus": {
+      "zh-CN": "补充底盘结构、有效载荷、通行宽度、坡度越障、定位精度、防护/防爆证据、充电与调度接口、连续作业测试条件。",
+      "en": "Specify chassis structure, useful payload, passage width, slopes/obstacles, positioning, protection/explosion-protection evidence, charging/dispatch interfaces and continuous-work test conditions."
+    }
+  },
+  {
+    "id": "04-03",
+    "title": {
+      "en": "Mobile bases and autonomous-navigation carriers",
+      "zh-CN": "移动底盘与自主导航载体"
+    },
+    "related_subcategories": [
+      "01-07",
+      "06-03"
+    ],
+    "contexts": [
+      "E132",
+      "E135",
+      "E136",
+      "E139"
+    ],
+    "comparison_focus": {
+      "zh-CN": "补充底盘结构、有效载荷、通行宽度、坡度越障、定位精度、防护/防爆证据、充电与调度接口、连续作业测试条件。",
+      "en": "Specify chassis structure, useful payload, passage width, slopes/obstacles, positioning, protection/explosion-protection evidence, charging/dispatch interfaces and continuous-work test conditions."
+    }
+  },
+  {
+    "id": "04-04",
+    "title": {
+      "en": "Firefighting, disposal and emergency rescue",
+      "zh-CN": "消防排爆与应急救援"
+    },
+    "related_subcategories": [
+      "14-05"
+    ],
+    "contexts": [
+      "E076",
+      "E083",
+      "E090"
+    ],
+    "comparison_focus": {
+      "zh-CN": "补充底盘结构、有效载荷、通行宽度、坡度越障、定位精度、防护/防爆证据、充电与调度接口、连续作业测试条件。",
+      "en": "Specify chassis structure, useful payload, passage width, slopes/obstacles, positioning, protection/explosion-protection evidence, charging/dispatch interfaces and continuous-work test conditions."
+    }
+  },
+  {
+    "id": "04-05",
+    "title": {
+      "en": "Energy, industrial and security inspection",
+      "zh-CN": "能源工业与安防巡检"
+    },
+    "related_subcategories": [
+      "14-05"
+    ],
+    "contexts": [
+      "E077",
+      "E274",
+      "E278",
+      "E279",
+      "E280",
+      "E281"
+    ],
+    "comparison_focus": {
+      "zh-CN": "补充底盘结构、有效载荷、通行宽度、坡度越障、定位精度、防护/防爆证据、充电与调度接口、连续作业测试条件。",
+      "en": "Specify chassis structure, useful payload, passage width, slopes/obstacles, positioning, protection/explosion-protection evidence, charging/dispatch interfaces and continuous-work test conditions."
+    }
+  },
+  {
+    "id": "04-06",
+    "title": {
+      "en": "Wall climbing and hazardous-facility maintenance",
+      "zh-CN": "爬壁与高危设施维护"
+    },
+    "related_subcategories": [
+      "14-05"
+    ],
+    "contexts": [
+      "E089",
+      "E282"
+    ],
+    "comparison_focus": {
+      "zh-CN": "补充底盘结构、有效载荷、通行宽度、坡度越障、定位精度、防护/防爆证据、充电与调度接口、连续作业测试条件。",
+      "en": "Specify chassis structure, useful payload, passage width, slopes/obstacles, positioning, protection/explosion-protection evidence, charging/dispatch interfaces and continuous-work test conditions."
+    }
+  },
+  {
+    "id": "04-07",
+    "title": {
+      "en": "Agricultural inspection and picking",
+      "zh-CN": "农业巡检与采摘作业"
+    },
+    "related_subcategories": [
+      "14-05"
+    ],
+    "contexts": [
+      "E128"
+    ],
+    "comparison_focus": {
+      "zh-CN": "补充底盘结构、有效载荷、通行宽度、坡度越障、定位精度、防护/防爆证据、充电与调度接口、连续作业测试条件。",
+      "en": "Specify chassis structure, useful payload, passage width, slopes/obstacles, positioning, protection/explosion-protection evidence, charging/dispatch interfaces and continuous-work test conditions."
+    }
+  },
+  {
+    "id": "05-01",
+    "title": {
+      "en": "Surgical robots",
+      "zh-CN": "手术机器人"
+    },
+    "related_subcategories": [
+      "14-06"
+    ],
+    "contexts": [
+      "E115",
+      "E121"
+    ],
+    "comparison_focus": {
+      "zh-CN": "补充产品型号、适用人群、用途、注册或备案信息、试验与使用边界；科研样机、康复产品、消费助力设备分别记录。",
+      "en": "Specify model, intended users, purpose, registration/filing information and test/use boundaries. Separate research prototypes, rehabilitation products and consumer assistance devices."
+    }
+  },
+  {
+    "id": "05-02",
+    "title": {
+      "en": "Rehabilitation, assistance and robotic wheelchairs",
+      "zh-CN": "康复助残与轮椅机器人"
+    },
+    "related_subcategories": [
+      "14-06"
+    ],
+    "contexts": [
+      "E122"
+    ],
+    "comparison_focus": {
+      "zh-CN": "补充产品型号、适用人群、用途、注册或备案信息、试验与使用边界；科研样机、康复产品、消费助力设备分别记录。",
+      "en": "Specify model, intended users, purpose, registration/filing information and test/use boundaries. Separate research prototypes, rehabilitation products and consumer assistance devices."
+    }
+  },
+  {
+    "id": "05-03",
+    "title": {
+      "en": "Exoskeletons and motion assistance",
+      "zh-CN": "外骨骼与运动助力"
+    },
+    "related_subcategories": [
+      "01-06",
+      "14-06"
+    ],
+    "contexts": [
+      "E114",
+      "E120",
+      "E123",
+      "E124"
+    ],
+    "comparison_focus": {
+      "zh-CN": "补充产品型号、适用人群、用途、注册或备案信息、试验与使用边界；科研样机、康复产品、消费助力设备分别记录。",
+      "en": "Specify model, intended users, purpose, registration/filing information and test/use boundaries. Separate research prototypes, rehabilitation products and consumer assistance devices."
+    }
+  },
+  {
+    "id": "05-04",
+    "title": {
+      "en": "Brain-computer interfaces and EMG prosthetic hands",
+      "zh-CN": "脑机接口与肌电仿生手"
+    },
+    "related_subcategories": [
+      "14-06",
+      "04-06"
+    ],
+    "contexts": [
+      "E116",
+      "E117",
+      "E118",
+      "E119"
+    ],
+    "comparison_focus": {
+      "zh-CN": "补充产品型号、适用人群、用途、注册或备案信息、试验与使用边界；科研样机、康复产品、消费助力设备分别记录。",
+      "en": "Specify model, intended users, purpose, registration/filing information and test/use boundaries. Separate research prototypes, rehabilitation products and consumer assistance devices."
+    }
+  },
+  {
+    "id": "06-01",
+    "title": {
+      "en": "Dexterous hands and biomimetic end effectors",
+      "zh-CN": "灵巧手与仿生末端"
+    },
+    "related_subcategories": [
+      "03-03",
+      "03-04"
+    ],
+    "contexts": [
+      "E027",
+      "E170",
+      "E177",
+      "E180",
+      "E181",
+      "E182",
+      "E183",
+      "E184",
+      "E204"
+    ],
+    "comparison_focus": {
+      "zh-CN": "补充手指数量、主动/总自由度、驱动和传动方式、整手重量、指尖力、抓取力、触觉覆盖、通讯及手腕安装。",
+      "en": "Specify finger count, active/total degrees of freedom, actuation/transmission, hand mass, fingertip/gripping forces, tactile coverage, communication and wrist mounting."
+    }
+  },
+  {
+    "id": "06-02",
+    "title": {
+      "en": "Grippers, pneumatics and tool changing",
+      "zh-CN": "夹爪气动与工具快换"
+    },
+    "related_subcategories": [
+      "03-01",
+      "03-02",
+      "03-05"
+    ],
+    "contexts": [
+      "E143",
+      "E157",
+      "E179"
+    ],
+    "comparison_focus": {
+      "zh-CN": "补充夹持形式、开口行程、夹持力、重复定位、抓取对象、快换负载、气源/真空要求及控制接口。",
+      "en": "Specify gripping mechanism, stroke, gripping force, repeatability, target objects, tool-change payload, air/vacuum requirements and control interfaces."
+    }
+  },
+  {
+    "id": "06-03",
+    "title": {
+      "en": "Integrated joints and actuator modules",
+      "zh-CN": "一体化关节与执行模组"
+    },
+    "related_subcategories": [
+      "02-04"
+    ],
+    "contexts": [
+      "E145",
+      "E151",
+      "E158",
+      "E167",
+      "E185",
+      "E186",
+      "E188",
+      "E196",
+      "E201",
+      "E202",
+      "E206",
+      "E208",
+      "E209",
+      "E210"
+    ],
+    "comparison_focus": {
+      "zh-CN": "补充型号、额定/峰值转矩或推力、尺寸重量、减速比/导程、编码器、回程误差、通讯、寿命工况及安装尺寸。",
+      "en": "Specify model, rated/peak torque or thrust, dimensions/mass, reduction ratio or screw lead, encoders, backlash, communication, life conditions and mounting dimensions."
+    }
+  },
+  {
+    "id": "06-04",
+    "title": {
+      "en": "Frameless, miniature and direct-drive motors",
+      "zh-CN": "无框微型与直驱电机"
+    },
+    "related_subcategories": [
+      "02-01"
+    ],
+    "contexts": [
+      "E142",
+      "E144",
+      "E150",
+      "E154",
+      "E175",
+      "E194",
+      "E200",
+      "E203",
+      "E205",
+      "E207"
+    ],
+    "comparison_focus": {
+      "zh-CN": "补充型号、额定/峰值转矩或推力、尺寸重量、减速比/导程、编码器、回程误差、通讯、寿命工况及安装尺寸。",
+      "en": "Specify model, rated/peak torque or thrust, dimensions/mass, reduction ratio or screw lead, encoders, backlash, communication, life conditions and mounting dimensions."
+    }
+  },
+  {
+    "id": "06-05",
+    "title": {
+      "en": "Servo drives and motion control",
+      "zh-CN": "伺服驱动与运动控制"
+    },
+    "related_subcategories": [
+      "02-05"
+    ],
+    "contexts": [
+      "E155",
+      "E161",
+      "E172",
+      "E198"
+    ],
+    "comparison_focus": {
+      "zh-CN": "补充型号、额定/峰值转矩或推力、尺寸重量、减速比/导程、编码器、回程误差、通讯、寿命工况及安装尺寸。",
+      "en": "Specify model, rated/peak torque or thrust, dimensions/mass, reduction ratio or screw lead, encoders, backlash, communication, life conditions and mounting dimensions."
+    }
+  },
+  {
+    "id": "06-06",
+    "title": {
+      "en": "Strain-wave reducers",
+      "zh-CN": "谐波减速器"
+    },
+    "related_subcategories": [
+      "02-02"
+    ],
+    "contexts": [
+      "E141",
+      "E147",
+      "E168",
+      "E174",
+      "E189",
+      "E191",
+      "E195"
+    ],
+    "comparison_focus": {
+      "zh-CN": "补充杯型结构、速比、额定/峰值转矩、回程误差、扭转刚度、输入转速、润滑与寿命工况。",
+      "en": "Specify cup structure, ratio, rated/peak torque, backlash, torsional stiffness, input speed, lubrication and life-test conditions."
+    }
+  },
+  {
+    "id": "06-07",
+    "title": {
+      "en": "Planetary, cycloidal and precision reducers",
+      "zh-CN": "行星摆线与精密减速器"
+    },
+    "related_subcategories": [
+      "02-02"
+    ],
+    "contexts": [
+      "E148",
+      "E163",
+      "E173",
+      "E187"
+    ],
+    "comparison_focus": {
+      "zh-CN": "补充型号、额定/峰值转矩或推力、尺寸重量、减速比/导程、编码器、回程误差、通讯、寿命工况及安装尺寸。",
+      "en": "Specify model, rated/peak torque or thrust, dimensions/mass, reduction ratio or screw lead, encoders, backlash, communication, life conditions and mounting dimensions."
+    }
+  },
+  {
+    "id": "06-08",
+    "title": {
+      "en": "Screws and linear actuators",
+      "zh-CN": "丝杠与线性执行器"
+    },
+    "related_subcategories": [
+      "02-03"
+    ],
+    "contexts": [
+      "E146",
+      "E152",
+      "E166",
+      "E192",
+      "E199"
+    ],
+    "comparison_focus": {
+      "zh-CN": "补充丝杠路线、直径、导程、行程、额定/峰值推力、回驱效率、精度等级、润滑、寿命与接口。",
+      "en": "Specify screw mechanism, diameter, lead, stroke, rated/peak thrust, backdrive efficiency, accuracy grade, lubrication, life and interfaces."
+    }
+  },
+  {
+    "id": "06-09",
+    "title": {
+      "en": "Bearings and precision supports",
+      "zh-CN": "轴承与精密支承"
+    },
+    "related_subcategories": [
+      "02-06"
+    ],
+    "contexts": [
+      "E140",
+      "E153",
+      "E156",
+      "E165",
+      "E190",
+      "E193",
+      "E197"
+    ],
+    "comparison_focus": {
+      "zh-CN": "补充轴承结构、内外径、轴向径向承载、倾覆力矩、旋转精度、刚度、预紧及润滑。",
+      "en": "Specify bearing structure, inner/outer diameters, axial/radial loads, overturning moment, rotational precision, stiffness, preload and lubrication."
+    }
+  },
+  {
+    "id": "06-10",
+    "title": {
+      "en": "Brakes and clutches",
+      "zh-CN": "制动器与离合器"
+    },
+    "related_subcategories": [
+      "02-06"
+    ],
+    "contexts": [
+      "E159"
+    ],
+    "comparison_focus": {
+      "zh-CN": "补充通电/断电制动方式、保持转矩、响应时间、功耗、电压、寿命和手动释放结构。",
+      "en": "Specify power-on/off braking, holding torque, response time, power, voltage, life and manual-release mechanism."
+    }
+  },
+  {
+    "id": "06-11",
+    "title": {
+      "en": "Cable carriers, cables and harnesses",
+      "zh-CN": "拖链电缆与线束"
+    },
+    "related_subcategories": [
+      "02-06"
+    ],
+    "contexts": [
+      "E160",
+      "E169"
+    ],
+    "comparison_focus": {
+      "zh-CN": "补充拖链弯曲半径、扭转角、线缆规格、屏蔽、寿命试验行程速度及端接方式。",
+      "en": "Specify cable-carrier bend radius, torsion angle, cable specification, shielding, life-test stroke/speed and termination."
+    }
+  },
+  {
+    "id": "06-12",
+    "title": {
+      "en": "Seals and joint protection",
+      "zh-CN": "密封与关节防护"
+    },
+    "related_subcategories": [
+      "02-06"
+    ],
+    "contexts": [
+      "E178"
+    ],
+    "comparison_focus": {
+      "zh-CN": "补充密封材料、结构尺寸、介质、温度速度范围、摩擦与防护测试条件。",
+      "en": "Specify seal material, dimensions, medium, temperature/speed range, friction and protection-test conditions."
+    }
+  },
+  {
+    "id": "07-01",
+    "title": {
+      "en": "Six-axis force and joint-torque sensing",
+      "zh-CN": "六维力与关节扭矩传感"
+    },
+    "related_subcategories": [
+      "04-04"
+    ],
+    "contexts": [
+      "E149",
+      "E171",
+      "E176",
+      "E214",
+      "E233",
+      "E239",
+      "E241",
+      "E242",
+      "E244"
+    ],
+    "comparison_focus": {
+      "zh-CN": "补充各轴力/力矩量程、过载、耦合误差、准确度/重复性、温漂、采样率、标定矩阵与机械接口。",
+      "en": "Specify force/torque range per axis, overload, coupling error, accuracy/repeatability, thermal drift, sampling rate, calibration matrix and mechanical interface."
+    }
+  },
+  {
+    "id": "07-02",
+    "title": {
+      "en": "Tactile sensing and electronic skin",
+      "zh-CN": "触觉与柔性电子皮肤"
+    },
+    "related_subcategories": [
+      "04-05"
+    ],
+    "contexts": [
+      "E211",
+      "E216",
+      "E221",
+      "E222",
+      "E229",
+      "E232",
+      "E236",
+      "E237",
+      "E238",
+      "E240",
+      "E243",
+      "E247"
+    ],
+    "comparison_focus": {
+      "zh-CN": "补充电阻/电容/磁/视触觉等原理、法向切向能力、传感点密度、量程、迟滞、采样、同步、耐磨与可换表皮。",
+      "en": "Specify resistive/capacitive/magnetic/visual-tactile principle, normal/tangential capability, taxel density, range, hysteresis, sampling, synchronization, wear and replaceable skin."
+    }
+  },
+  {
+    "id": "07-03",
+    "title": {
+      "en": "Depth cameras and 3D vision",
+      "zh-CN": "深度相机与三维视觉"
+    },
+    "related_subcategories": [
+      "04-01"
+    ],
+    "contexts": [
+      "E223",
+      "E225",
+      "E230"
+    ],
+    "comparison_focus": {
+      "zh-CN": "补充双目/结构光/ToF等原理、工作距离、视场、深度分辨率与误差、帧率、照明条件、同步与SDK。",
+      "en": "Specify stereo/structured-light/ToF principle, working distance, field of view, depth resolution/error, frame rate, lighting, synchronization and SDK."
+    }
+  },
+  {
+    "id": "07-04",
+    "title": {
+      "en": "LiDAR and ranging",
+      "zh-CN": "激光雷达与测距"
+    },
+    "related_subcategories": [
+      "04-02"
+    ],
+    "contexts": [
+      "E217",
+      "E218",
+      "E227",
+      "E231",
+      "E246"
+    ],
+    "comparison_focus": {
+      "zh-CN": "补充扫描原理、水平垂直视场、点频、距离与反射率条件、盲区、接口、时间同步及防护。",
+      "en": "Specify scanning principle, horizontal/vertical fields of view, point rate, range/reflectivity conditions, blind zone, interfaces, synchronization and protection."
+    }
+  },
+  {
+    "id": "07-05",
+    "title": {
+      "en": "Inertial navigation and attitude sensing",
+      "zh-CN": "惯性导航与姿态传感"
+    },
+    "related_subcategories": [
+      "04-03"
+    ],
+    "contexts": [
+      "E212"
+    ],
+    "comparison_focus": {
+      "zh-CN": "补充轴数、零偏稳定性、噪声密度、量程、更新率、姿态误差条件、GNSS融合与接口。",
+      "en": "Specify axes, bias stability, noise density, range, update rate, attitude-error conditions, GNSS fusion and interfaces."
+    }
+  },
+  {
+    "id": "07-06",
+    "title": {
+      "en": "Encoders and magnetic-position sensing",
+      "zh-CN": "编码器与磁位置传感"
+    },
+    "related_subcategories": [
+      "04-03"
+    ],
+    "contexts": [
+      "E162",
+      "E164",
+      "E248",
+      "E291"
+    ],
+    "comparison_focus": {
+      "zh-CN": "补充磁/光电原理、绝对/增量、多圈单圈、分辨率、绝对精度、最高转速、气隙及输出协议。",
+      "en": "Specify magnetic/optical principle, absolute/incremental operation, multi/single-turn capability, resolution, absolute accuracy, maximum speed, air gap and output protocol."
+    }
+  },
+  {
+    "id": "07-07",
+    "title": {
+      "en": "Image sensing and visual recognition",
+      "zh-CN": "图像传感与视觉识别"
+    },
+    "related_subcategories": [
+      "06-01"
+    ],
+    "contexts": [
+      "E224",
+      "E226",
+      "E235"
+    ],
+    "comparison_focus": {
+      "zh-CN": "补充型号、测量原理、量程、分辨率、准确度、重复性、采样率、时延、温漂、标定方法、接口和防护。",
+      "en": "Specify model, measurement principle, range, resolution, accuracy, repeatability, sampling, latency, thermal drift, calibration, interfaces and protection."
+    }
+  },
+  {
+    "id": "07-08",
+    "title": {
+      "en": "SLAM and spatial-perception modules",
+      "zh-CN": "SLAM与空间感知模组"
+    },
+    "related_subcategories": [
+      "06-03"
+    ],
+    "contexts": [
+      "E213",
+      "E215",
+      "E219",
+      "E245"
+    ],
+    "comparison_focus": {
+      "zh-CN": "补充型号、测量原理、量程、分辨率、准确度、重复性、采样率、时延、温漂、标定方法、接口和防护。",
+      "en": "Specify model, measurement principle, range, resolution, accuracy, repeatability, sampling, latency, thermal drift, calibration, interfaces and protection."
+    }
+  },
+  {
+    "id": "07-09",
+    "title": {
+      "en": "Optical motion capture and 3D motion sensing",
+      "zh-CN": "光学动捕与三维动作感知"
+    },
+    "related_subcategories": [
+      "04-06"
+    ],
+    "contexts": [
+      "E220"
+    ],
+    "comparison_focus": {
+      "zh-CN": "补充相机/标记方案、工作体积、遮挡恢复、动态精度、帧率、时间同步及骨骼数据接口。",
+      "en": "Specify camera/marker setup, working volume, occlusion recovery, dynamic accuracy, frame rate, synchronization and skeleton-data interface."
+    }
+  },
+  {
+    "id": "08-01",
+    "title": {
+      "en": "AI chips and heterogeneous computing",
+      "zh-CN": "AI芯片与异构计算"
+    },
+    "related_subcategories": [
+      "05-01"
+    ],
+    "contexts": [
+      "E254",
+      "E256",
+      "E261",
+      "E271"
+    ],
+    "comparison_focus": {
+      "zh-CN": "补充芯片/板卡型号、算力精度与稀疏口径、内存带宽、功耗模式、实时接口、驱动系统、供货周期；电池另补容量和倍率。",
+      "en": "Specify chip/board model, compute precision and sparsity basis, memory bandwidth, power mode, real-time interfaces, drivers/OS and lead time; separately specify battery capacity and discharge rate."
+    }
+  },
+  {
+    "id": "08-02",
+    "title": {
+      "en": "Edge computers and robot controllers",
+      "zh-CN": "边缘计算与机器人控制器"
+    },
+    "related_subcategories": [
+      "05-02"
+    ],
+    "contexts": [
+      "E257",
+      "E258",
+      "E259",
+      "E267",
+      "E268",
+      "E272"
+    ],
+    "comparison_focus": {
+      "zh-CN": "补充芯片/板卡型号、算力精度与稀疏口径、内存带宽、功耗模式、实时接口、驱动系统、供货周期；电池另补容量和倍率。",
+      "en": "Specify chip/board model, compute precision and sparsity basis, memory bandwidth, power mode, real-time interfaces, drivers/OS and lead time; separately specify battery capacity and discharge rate."
+    }
+  },
+  {
+    "id": "08-03",
+    "title": {
+      "en": "MCUs and power semiconductors",
+      "zh-CN": "MCU与功率半导体"
+    },
+    "related_subcategories": [
+      "05-03"
+    ],
+    "contexts": [
+      "E260",
+      "E262"
+    ],
+    "comparison_focus": {
+      "zh-CN": "补充芯片/板卡型号、算力精度与稀疏口径、内存带宽、功耗模式、实时接口、驱动系统、供货周期；电池另补容量和倍率。",
+      "en": "Specify chip/board model, compute precision and sparsity basis, memory bandwidth, power mode, real-time interfaces, drivers/OS and lead time; separately specify battery capacity and discharge rate."
+    }
+  },
+  {
+    "id": "08-04",
+    "title": {
+      "en": "Industrial and wireless communication",
+      "zh-CN": "工业通信与无线连接"
+    },
+    "related_subcategories": [
+      "05-04",
+      "05-05"
+    ],
+    "contexts": [
+      "E263",
+      "E269"
+    ],
+    "comparison_focus": {
+      "zh-CN": "补充芯片/板卡型号、算力精度与稀疏口径、内存带宽、功耗模式、实时接口、驱动系统、供货周期；电池另补容量和倍率。",
+      "en": "Specify chip/board model, compute precision and sparsity basis, memory bandwidth, power mode, real-time interfaces, drivers/OS and lead time; separately specify battery capacity and discharge rate."
+    }
+  },
+  {
+    "id": "08-05",
+    "title": {
+      "en": "Electronic components and sensing chips",
+      "zh-CN": "电子元器件与传感芯片"
+    },
+    "related_subcategories": [
+      "05-03",
+      "04-03"
+    ],
+    "contexts": [
+      "E228",
+      "E290"
+    ],
+    "comparison_focus": {
+      "zh-CN": "补充芯片/板卡型号、算力精度与稀疏口径、内存带宽、功耗模式、实时接口、驱动系统、供货周期；电池另补容量和倍率。",
+      "en": "Specify chip/board model, compute precision and sparsity basis, memory bandwidth, power mode, real-time interfaces, drivers/OS and lead time; separately specify battery capacity and discharge rate."
+    }
+  },
+  {
+    "id": "08-06",
+    "title": {
+      "en": "Batteries, BMS and smart charging",
+      "zh-CN": "电池BMS与智能充电"
+    },
+    "related_subcategories": [
+      "05-06"
+    ],
+    "contexts": [
+      "E293",
+      "E294"
+    ],
+    "comparison_focus": {
+      "zh-CN": "补充电芯化学体系、标称电压、容量Wh/Ah、持续峰值倍率、重量、加热与BMS通信、充电策略和安全检测。",
+      "en": "Specify cell chemistry, nominal voltage, Wh/Ah capacity, continuous/peak discharge rate, mass, heating/BMS communication, charging strategy and safety tests."
+    }
+  },
+  {
+    "id": "08-07",
+    "title": {
+      "en": "Power supplies and drive modules",
+      "zh-CN": "电源与功率驱动模块"
+    },
+    "related_subcategories": [
+      "05-06"
+    ],
+    "contexts": [
+      "E289"
+    ],
+    "comparison_focus": {
+      "zh-CN": "补充芯片/板卡型号、算力精度与稀疏口径、内存带宽、功耗模式、实时接口、驱动系统、供货周期；电池另补容量和倍率。",
+      "en": "Specify chip/board model, compute precision and sparsity basis, memory bandwidth, power mode, real-time interfaces, drivers/OS and lead time; separately specify battery capacity and discharge rate."
+    }
+  },
+  {
+    "id": "09-01",
+    "title": {
+      "en": "Embodied foundation models and policies",
+      "zh-CN": "具身基础模型与行为策略"
+    },
+    "related_subcategories": [
+      "08-01"
+    ],
+    "contexts": [
+      "E250",
+      "E252"
+    ],
+    "comparison_focus": {
+      "zh-CN": "补充版本、输入输出、支持本体、数据格式、许可、仓库/文档、部署资源、基准任务与指标、人工介入条件。",
+      "en": "Specify version, inputs/outputs, supported bodies, data formats, licenses, repositories/documentation, deployment resources, benchmark tasks/metrics and human-intervention conditions."
+    }
+  },
+  {
+    "id": "09-02",
+    "title": {
+      "en": "World models and causal reasoning",
+      "zh-CN": "世界模型与因果推理"
+    },
+    "related_subcategories": [
+      "08-02"
+    ],
+    "contexts": [
+      "E251",
+      "E265",
+      "E270"
+    ],
+    "comparison_focus": {
+      "zh-CN": "补充版本、输入输出、支持本体、数据格式、许可、仓库/文档、部署资源、基准任务与指标、人工介入条件。",
+      "en": "Specify version, inputs/outputs, supported bodies, data formats, licenses, repositories/documentation, deployment resources, benchmark tasks/metrics and human-intervention conditions."
+    }
+  },
+  {
+    "id": "09-03",
+    "title": {
+      "en": "Teleoperation and data-collection tools",
+      "zh-CN": "遥操作与数据采集工具链"
+    },
+    "related_subcategories": [
+      "10-01",
+      "10-04"
+    ],
+    "contexts": [
+      "E005",
+      "E264",
+      "E300"
+    ],
+    "comparison_focus": {
+      "zh-CN": "补充模态、采样频率、同步误差、标定、数据格式、遥操时延、支持本体、佩戴重量及许可。",
+      "en": "Specify modalities, sampling rates, synchronization error, calibration, data format, teleoperation latency, supported robots, wearable mass and licenses."
+    }
+  },
+  {
+    "id": "09-04",
+    "title": {
+      "en": "Simulation, synthetic data and evaluation",
+      "zh-CN": "仿真合成数据与评测"
+    },
+    "related_subcategories": [
+      "11-01",
+      "11-03",
+      "12-01"
+    ],
+    "contexts": [
+      "E266",
+      "E275"
+    ],
+    "comparison_focus": {
+      "zh-CN": "补充物理引擎、传感仿真、资产格式、合成数据标注、任务覆盖、真实对照和评测复现资源。",
+      "en": "Specify physics engine, sensor simulation, asset format, synthetic annotations, task coverage, real-world comparisons and reproducible evaluation resources."
+    }
+  },
+  {
+    "id": "09-05",
+    "title": {
+      "en": "Robot operating systems and skill platforms",
+      "zh-CN": "机器人操作系统与技能平台"
+    },
+    "related_subcategories": [
+      "09-01",
+      "09-04"
+    ],
+    "contexts": [
+      "E255",
+      "E273"
+    ],
+    "comparison_focus": {
+      "zh-CN": "补充版本、输入输出、支持本体、数据格式、许可、仓库/文档、部署资源、基准任务与指标、人工介入条件。",
+      "en": "Specify version, inputs/outputs, supported bodies, data formats, licenses, repositories/documentation, deployment resources, benchmark tasks/metrics and human-intervention conditions."
+    }
+  },
+  {
+    "id": "09-06",
+    "title": {
+      "en": "Enterprise agents and AI services",
+      "zh-CN": "企业智能体与AI服务"
+    },
+    "related_subcategories": [
+      "08-06",
+      "09-01"
+    ],
+    "contexts": [
+      "E253"
+    ],
+    "comparison_focus": {
+      "zh-CN": "补充版本、输入输出、支持本体、数据格式、许可、仓库/文档、部署资源、基准任务与指标、人工介入条件。",
+      "en": "Specify version, inputs/outputs, supported bodies, data formats, licenses, repositories/documentation, deployment resources, benchmark tasks/metrics and human-intervention conditions."
+    }
+  },
+  {
+    "id": "10-01",
+    "title": {
+      "en": "Metal additive manufacturing",
+      "zh-CN": "金属增材制造"
+    },
+    "related_subcategories": [
+      "13-02"
+    ],
+    "contexts": [
+      "E283"
+    ],
+    "comparison_focus": {
+      "zh-CN": "补充打印工艺、材料牌号、成形尺寸、精度、表面质量、后处理、力学试样与批量能力。",
+      "en": "Specify printing process, material grade, build volume, precision, surface quality, post-processing, mechanical specimens and batch capability."
+    }
+  },
+  {
+    "id": "10-02",
+    "title": {
+      "en": "Machine tools and precision manufacturing equipment",
+      "zh-CN": "机床与精密加工装备"
+    },
+    "related_subcategories": [
+      "13-01"
+    ],
+    "contexts": [
+      "E285"
+    ],
+    "comparison_focus": {
+      "zh-CN": "补充料号、材料体系、尺寸公差、加工能力、热/力/电性能、测试标准、交付形式和制造归属。",
+      "en": "Specify part number, material system, tolerances, manufacturing capability, thermal/mechanical/electrical performance, test standard, delivery form and manufacturing attribution."
+    }
+  },
+  {
+    "id": "10-03",
+    "title": {
+      "en": "Robot ODM and precision manufacturing",
+      "zh-CN": "本体ODM与精密制造"
+    },
+    "related_subcategories": [
+      "13-05"
+    ],
+    "contexts": [
+      "E284",
+      "E286"
+    ],
+    "comparison_focus": {
+      "zh-CN": "补充料号、材料体系、尺寸公差、加工能力、热/力/电性能、测试标准、交付形式和制造归属。",
+      "en": "Specify part number, material system, tolerances, manufacturing capability, thermal/mechanical/electrical performance, test standard, delivery form and manufacturing attribution."
+    }
+  },
+  {
+    "id": "10-04",
+    "title": {
+      "en": "Bonding, thermal and functional materials",
+      "zh-CN": "粘接导热与功能材料"
+    },
+    "related_subcategories": [
+      "13-01"
+    ],
+    "contexts": [
+      "E287",
+      "E292"
+    ],
+    "comparison_focus": {
+      "zh-CN": "补充材料牌号、厚度、温度范围、粘接/导热/摩擦指标、压力湿度测试条件、老化和可拆卸性。",
+      "en": "Specify material grade, thickness, temperature range, bonding/thermal/friction metrics, pressure/humidity test conditions, aging and removability."
+    }
+  },
+  {
+    "id": "10-05",
+    "title": {
+      "en": "Displays and wearable interfaces",
+      "zh-CN": "显示与可穿戴交互设备"
+    },
+    "related_subcategories": [
+      "04-06"
+    ],
+    "contexts": [
+      "E288"
+    ],
+    "comparison_focus": {
+      "zh-CN": "补充料号、材料体系、尺寸公差、加工能力、热/力/电性能、测试标准、交付形式和制造归属。",
+      "en": "Specify part number, material system, tolerances, manufacturing capability, thermal/mechanical/electrical performance, test standard, delivery form and manufacturing attribution."
+    }
+  },
+  {
+    "id": "11-01",
+    "title": {
+      "en": "Universities, institutes and research teams",
+      "zh-CN": "高校研究院与科研团队"
+    },
+    "related_subcategories": [
+      "11-04",
+      "13-06"
+    ],
+    "contexts": [
+      "E295",
+      "E302",
+      "E303",
+      "E304",
+      "E306",
+      "E309"
+    ],
+    "comparison_focus": {
+      "zh-CN": "补充机构性质、平台能力、设备清单、开放服务条件、已发布成果、项目状态；意向、在研、已交付分别保存。",
+      "en": "Specify institution type, platform capability, equipment, access conditions, published results and project status; keep intent, ongoing work and delivered outcomes separate."
+    }
+  },
+  {
+    "id": "11-02",
+    "title": {
+      "en": "Innovation, pilot-production and industrial services",
+      "zh-CN": "创新中心中试与产业运营"
+    },
+    "related_subcategories": [
+      "13-03",
+      "13-05"
+    ],
+    "contexts": [
+      "E296",
+      "E297",
+      "E299",
+      "E307",
+      "E308",
+      "E310"
+    ],
+    "comparison_focus": {
+      "zh-CN": "补充机构性质、平台能力、设备清单、开放服务条件、已发布成果、项目状态；意向、在研、已交付分别保存。",
+      "en": "Specify institution type, platform capability, equipment, access conditions, published results and project status; keep intent, ongoing work and delivered outcomes separate."
+    }
+  },
+  {
+    "id": "11-03",
+    "title": {
+      "en": "Associations and joint exhibits",
+      "zh-CN": "协会与联合展区"
+    },
+    "related_subcategories": [
+      "13-05"
+    ],
+    "contexts": [
+      "E298",
+      "E301",
+      "E305",
+      "E311"
+    ],
+    "comparison_focus": {
+      "zh-CN": "补充机构性质、平台能力、设备清单、开放服务条件、已发布成果、项目状态；意向、在研、已交付分别保存。",
+      "en": "Specify institution type, platform capability, equipment, access conditions, published results and project status; keep intent, ongoing work and delivered outcomes separate."
+    }
+  },
+  {
+    "id": "11-04",
+    "title": {
+      "en": "Training and practical education",
+      "zh-CN": "人才培养与实训"
+    },
+    "related_subcategories": [
+      "13-06"
+    ],
+    "contexts": [
+      "E312"
+    ],
+    "comparison_focus": {
+      "zh-CN": "补充机构性质、平台能力、设备清单、开放服务条件、已发布成果、项目状态；意向、在研、已交付分别保存。",
+      "en": "Specify institution type, platform capability, equipment, access conditions, published results and project status; keep intent, ongoing work and delivered outcomes separate."
+    }
+  }
+]

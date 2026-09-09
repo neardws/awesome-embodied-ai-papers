@@ -20,42 +20,42 @@ This page distinguishes subcategory questions, research priorities and industria
 </thead>
 <tbody>
 <tr>
-<td width="240" nowrap><a id="14-01"></a>Manufacturing, assembly and process work</td>
+<td width="240" nowrap><a id="14-01"></a>Manufacturing, assembly and process work<br><a href="../products/topics/14-01.md">Product details</a></td>
 <td width="300">Perform handling, assembly, inspection and processing.</td>
 <td width="320">Contact-rich manipulation, deformable parts and skill composition.</td>
 <td width="320">Tooling, quality, cycle time and changeovers.</td>
 <td width="340">Yield, cycle time, changeover cost and interventions.</td>
 </tr>
 <tr>
-<td width="240" nowrap><a id="14-02"></a>Warehousing, logistics and delivery</td>
+<td width="240" nowrap><a id="14-02"></a>Warehousing, logistics and delivery<br><a href="../products/topics/14-02.md">Product details</a></td>
 <td width="300">Connect storage, sorting, transport and handoff.</td>
 <td width="320">Mobile manipulation, multi-robot coordination and dynamic planning.</td>
 <td width="320">Facility integration, congestion, peak loads and service.</td>
 <td width="340">Throughput, order completion, takeover and downtime.</td>
 </tr>
 <tr>
-<td width="240" nowrap><a id="14-03"></a>Commercial services and building operations</td>
+<td width="240" nowrap><a id="14-03"></a>Commercial services and building operations<br><a href="../products/topics/14-03.md">Product details</a></td>
 <td width="300">Perform cleaning, delivery, reception and routine services.</td>
 <td width="320">Social navigation, human interaction and task switching.</td>
 <td width="320">Building access, shared spaces and service workflows.</td>
 <td width="340">Service completion, coverage and user intervention.</td>
 </tr>
 <tr>
-<td width="240" nowrap><a id="14-04"></a>Home, consumer and companion robots</td>
+<td width="240" nowrap><a id="14-04"></a>Home, consumer and companion robots<br><a href="../products/topics/14-04.md">Product details</a></td>
 <td width="300">Adapt to unstructured homes and varied users.</td>
 <td width="320">Commonsense, personalization, open objects and long-term memory.</td>
 <td width="320">Usability, cost, privacy and continued support.</td>
 <td width="340">Real household tasks, failures and maintenance burden.</td>
 </tr>
 <tr>
-<td width="240" nowrap><a id="14-05"></a>Energy, agriculture and specialized field work</td>
+<td width="240" nowrap><a id="14-05"></a>Energy, agriculture and specialized field work<br><a href="../products/topics/14-05.md">Product details</a></td>
 <td width="300">Sense and act in complex or hazardous environments.</td>
 <td width="320">Obstacle traversal, target recognition and environmental adaptation.</td>
 <td width="320">Protection, communication, mission payloads and remote operation.</td>
 <td width="340">Mission coverage, environmental envelope and retrieval or recovery.</td>
 </tr>
 <tr>
-<td width="240" nowrap><a id="14-06"></a>Medical, rehabilitation and assistive robotics</td>
+<td width="240" nowrap><a id="14-06"></a>Medical, rehabilitation and assistive robotics<br><a href="../products/topics/14-06.md">Product details</a></td>
 <td width="300">Provide assistance around human bodies and clinical workflows.</td>
 <td width="320">Human-robot coupling, precision control and personalization.</td>
 <td width="320">Conditions of use, clinical validation, service and specialist training.</td>
@@ -63,6 +63,14 @@ This page distinguishes subcategory questions, research priorities and industria
 </tr>
 </tbody>
 </table>
+
+## Technical and product details
+
+<a href="../products/comparisons/14-applications.md">Open 14 related comparison records</a>
+
+Compare model-specific values, conditions, interfaces, research relationships and source issues. Full source excerpts and original exhibit links remain available underneath.
+
+<a href="../products/references/02-04.md">Welding and flexible-manufacturing integration</a> · <a href="../products/references/03-01.md">Household, commercial and outdoor cleaning</a> · <a href="../products/references/03-02.md">Hospitality and building delivery</a> · <a href="../products/references/03-03.md">Beverage preparation and unattended retail</a> · <a href="../products/references/03-04.md">Home companionship and desktop interaction</a> · <a href="../products/references/03-05.md">Guiding, reception and tourism services</a> · <a href="../products/references/04-01.md">Warehouse handling and loading</a> · <a href="../products/references/04-02.md">Last-mile delivery</a> · <a href="../products/references/04-04.md">Firefighting, disposal and emergency rescue</a> · <a href="../products/references/04-05.md">Energy, industrial and security inspection</a> · <a href="../products/references/04-06.md">Wall climbing and hazardous-facility maintenance</a> · <a href="../products/references/04-07.md">Agricultural inspection and picking</a> · <a href="../products/references/05-01.md">Surgical robots</a> · <a href="../products/references/05-02.md">Rehabilitation, assistance and robotic wheelchairs</a> · <a href="../products/references/05-03.md">Exoskeletons and motion assistance</a> · <a href="../products/references/05-04.md">Brain-computer interfaces and EMG prosthetic hands</a>
 
 ## Research, platforms and industrial examples
 

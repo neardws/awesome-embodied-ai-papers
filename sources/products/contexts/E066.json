@@ -1,0 +1,37 @@
+{
+  "id": "E066",
+  "supplier_as_published": "睿尔曼智能科技（北京）股份有限公司",
+  "source_category": "01-02",
+  "source_url": "https://www.worldrobotconference.com/expo/company/452.html",
+  "original_source_urls": [
+    "https://www.worldrobotconference.com/expo/company/452.html",
+    "https://www.worldrobotconference.com/expo/product/774.html",
+    "https://www.worldrobotconference.com/expo/product/775.html",
+    "https://www.worldrobotconference.com/expo/product/591.html",
+    "https://www.worldrobotconference.com/expo/product/594.html"
+  ],
+  "source_checked_on": "2026-09-05",
+  "evidence": "official_page",
+  "technical": {
+    "zh-CN": "S2 标注三台 RGBD、两台雷达及 413mm 转弯半径；L2 升降行程 0.3m、工作高度到 2.1m，升降中单臂负载 5kg。",
+    "en": "S2 reports three RGBD cameras, two LiDARs and a 413mm turning radius. L2 has a 0.3m lift stroke, working height up to 2.1m and 5kg per-arm load during lifting."
+  },
+  "original_product_line": "RealBOT S2、RealBOT L2、RealBOT 01 轮式具身机器人，RM75-B 机械臂",
+  "original_application_wording": "数据采集训练、家庭服务、零售、物流分拣与精密装配",
+  "original_issue_notes": [],
+  "item_ids": [
+    "item-310e01cb2cab",
+    "item-8cc80f926cfc",
+    "item-4e2472adca7d",
+    "item-224075e493ae"
+  ],
+  "source_technical_sha256": "916cdfcf96b455aa8d8ffc108f9df5be33bc2800dd552a1ad82f96d9de2e4ad4",
+  "cross_source_categories": [
+    "01-01",
+    "02-02",
+    "04-01"
+  ],
+  "original_tags": "轮式双臂具身机器人与机械臂",
+  "original_verification_wording": "大会官方页已核验。",
+  "original_review_wording": "检索/读取日期：2026-09-05。核验口径：已读取官方网页；参数属发布方声明。"
+}

@@ -1,0 +1,35 @@
+{
+  "id": "E275",
+  "supplier_as_published": "广州凡拓数字创意科技股份有限公司",
+  "source_category": "09-04",
+  "source_url": "https://www.worldrobotconference.com/expo/company/812.html",
+  "original_source_urls": [
+    "https://www.worldrobotconference.com/expo/company/812.html",
+    "https://www.worldrobotconference.com/expo/product/1048.html",
+    "https://www.worldrobotconference.com/expo/product/1104.html",
+    "https://www.worldrobotconference.com/expo/product/1112.html",
+    "https://www.worldrobotconference.com/expo/product/1118.html",
+    "https://www.worldrobotconference.com/expo/product/1122.html"
+  ],
+  "source_checked_on": "2026-09-05",
+  "evidence": "official_page",
+  "technical": {
+    "zh-CN": "FunSim、标注数据和软硬集成服务构成仿真—数据—部署链路；训练周期缩至三分之一等声明未给基线、任务及验证方法。",
+    "en": "FunSim, annotated data and integration services form a simulation–data–deployment chain. Claims such as reducing training time to one third lack baselines, tasks and validation methods."
+  },
+  "original_product_line": "FTE 数字孪生仿真渲染引擎、FunSim 物理 AI 仿真训练平台、高质量数据集、具身机器人集成服务",
+  "original_application_wording": "智能制造、水利水务、能源电力、文化文博；机器人巡检、搬运、协作场景的仿真训练和集成部署",
+  "original_issue_notes": [],
+  "item_ids": [
+    "item-27084db52567",
+    "item-dc52050eba7b",
+    "item-db1fceaab475",
+    "item-d73ae26589d9",
+    "item-68db72d4e03c"
+  ],
+  "source_technical_sha256": "517d89bae707005b7e402e8c7fc0d92892e96a9d2a60f7a73a647694c301f54e",
+  "cross_source_categories": [],
+  "original_tags": "物理 AI 仿真与数字孪生训练",
+  "original_verification_wording": "官方页已核对。",
+  "original_review_wording": "检索/读取日期：2026-09-05。核验口径：已读取官方网页；参数属发布方声明。"
+}

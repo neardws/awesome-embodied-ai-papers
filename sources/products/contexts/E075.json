@@ -1,0 +1,27 @@
+{
+  "id": "E075",
+  "supplier_as_published": "纽禄美卡股份有限公司",
+  "source_category": "02-04",
+  "source_url": "https://www.worldrobotconference.com/expo/company/671.html",
+  "original_source_urls": [
+    "https://www.worldrobotconference.com/expo/company/671.html",
+    "https://www.worldrobotconference.com/expo/product/798.html"
+  ],
+  "source_checked_on": "2026-09-05",
+  "evidence": "official_page",
+  "technical": {
+    "zh-CN": "移动焊接方案将协作臂、自主移动和焊接工艺控制结合，使用专家操作数据优化过程，适用于跨工位焊接；未给焊材和工艺规格。",
+    "en": "The mobile welding solution combines collaborative arms, autonomous mobility and welding-process control, using expert-operation data for optimization across workstations. Consumable and process specifications are absent."
+  },
+  "original_product_line": "协作机器人与 AI 机器人解决方案；移动式焊接机器人",
+  "original_application_wording": "汽车零部件、金属结构件焊接",
+  "original_issue_notes": [],
+  "item_ids": [
+    "item-eb66e669f390"
+  ],
+  "source_technical_sha256": "7ad25c7a126b51c045766aeada00164641aa671a82ffbae1452b185542cdbe97",
+  "cross_source_categories": [],
+  "original_tags": "协作焊接机器人",
+  "original_verification_wording": "展会官方页已核对。",
+  "original_review_wording": "检索/读取日期：2026-09-05。核验口径：已读取官方网页；参数属发布方声明。"
+}

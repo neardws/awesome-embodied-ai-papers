@@ -2,7 +2,7 @@
 
 [首页](../../../README.zh-CN.md) | [英文](../../en/landscape/README.md) | [全景目录](README.md)
 
-先理解具身系统如何组成和使用，再进入研究方法、软件与产业实现。本版编辑框架包含 **14 个板块、84 个细类**。与具身系统相关的机器人基础设施和既有自动化也纳入视野；纳入某类不代表其使用基础模型。
+先理解具身系统如何组成和使用，再进入研究方法、软件与产业实现。本版编辑框架包含 **14 个板块、87 个细类**。与具身系统相关的机器人基础设施和既有自动化也纳入视野；纳入某类不代表其使用基础模型。
 
 ![学术与产业全景图](../../../figs/research-industry-landscape.zh-CN.svg)
 
@@ -29,7 +29,7 @@
 <tr>
 <td width="260"><a href="01-bodies.md">整机与本体形态</a></td>
 <td width="340">什么身体适合什么任务，如何平衡可达空间、运动能力、成本与可靠性？</td>
-<td width="580"><a href="01-bodies.md#01-01">双足与通用人形</a><br><a href="01-bodies.md#01-02">轮式双臂与移动操作</a><br><a href="01-bodies.md#01-03">四足与轮足</a><br><a href="01-bodies.md#01-04">固定工业与协作机械臂</a><br><a href="01-bodies.md#01-05">小型开放与教学平台</a><br><a href="01-bodies.md#01-06">专用、柔性与可穿戴本体</a></td>
+<td width="580"><a href="01-bodies.md#01-01">双足与通用人形</a><br><a href="01-bodies.md#01-02">轮式双臂与移动操作</a><br><a href="01-bodies.md#01-03">四足与轮足</a><br><a href="01-bodies.md#01-04">固定工业与协作机械臂</a><br><a href="01-bodies.md#01-05">小型开放与教学平台</a><br><a href="01-bodies.md#01-06">专用、柔性与可穿戴本体</a><br><a href="01-bodies.md#01-07">移动底盘与模块化载体</a><br><a href="01-bodies.md#01-08">固定半身与双臂平台</a></td>
 <td width="330"><a href="sources.md#source-toddler">ToddlerBot（斯坦福大学）</a><br><a href="sources.md#source-unitree">宇树 G1</a><br><a href="sources.md#source-franka">Franka Research 3</a></td>
 </tr>
 <tr>
@@ -47,7 +47,7 @@
 <tr>
 <td width="260"><a href="04-sensing.md">传感与交互硬件</a></td>
 <td width="340">如何测量外部环境、身体状态与接触过程，并把多种信号对齐？</td>
-<td width="580"><a href="04-sensing.md#04-01">图像、深度与三维视觉</a><br><a href="04-sensing.md#04-02">激光、雷达与测距</a><br><a href="04-sensing.md#04-03">惯性、编码器与本体反馈</a><br><a href="04-sensing.md#04-04">六维力与关节力矩</a><br><a href="04-sensing.md#04-05">触觉阵列与电子皮肤</a><br><a href="04-sensing.md#04-06">动作捕捉、语音与人机交互</a></td>
+<td width="580"><a href="04-sensing.md#04-01">图像、深度与三维视觉</a><br><a href="04-sensing.md#04-02">激光、雷达与测距</a><br><a href="04-sensing.md#04-03">惯性、编码器与本体反馈</a><br><a href="04-sensing.md#04-04">六维力与关节力矩</a><br><a href="04-sensing.md#04-05">触觉阵列与电子皮肤</a><br><a href="04-sensing.md#04-06">动作捕捉、语音与人机交互</a><br><a href="04-sensing.md#04-07">环境与化学感知</a></td>
 <td width="330"><a href="sources.md#source-digit">GelSight DIGIT</a><br><a href="sources.md#source-ati">ATI 六维力传感器</a><br><a href="sources.md#source-unitree">宇树 G1</a></td>
 </tr>
 <tr>
@@ -112,6 +112,8 @@
 </tr>
 </tbody>
 </table>
+
+逐型号参数及完整归档技术证据见[技术与产品细节库](../products/README.md)。
 
 ## 跨环节联系
 

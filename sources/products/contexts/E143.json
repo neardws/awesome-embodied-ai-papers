@@ -1,0 +1,31 @@
+{
+  "id": "E143",
+  "supplier_as_published": "米思米（中国）精密机械贸易有限公司",
+  "source_category": "06-02",
+  "source_url": "https://www.worldrobotconference.com/expo/company/523.html",
+  "original_source_urls": [
+    "https://www.worldrobotconference.com/expo/company/523.html",
+    "https://www.worldrobotconference.com/expo/product/228.html",
+    "https://www.worldrobotconference.com/expo/product/229.html",
+    "https://www.worldrobotconference.com/expo/product/230.html"
+  ],
+  "source_checked_on": "2026-09-05",
+  "evidence": "official_page",
+  "technical": {
+    "zh-CN": "电动夹爪可与直线模组、电缸组合完成抓取和旋转；SCARA 上料模块整合视觉识别与机械臂操作，主要提供模块级自动化方案。",
+    "en": "Electric grippers combine with linear modules and electric cylinders for grasping and rotation. The SCARA feeding module integrates vision and arm operation as module-level automation."
+  },
+  "original_product_line": "直线电机模组、电动夹爪、SCARA视觉上料模块",
+  "original_application_wording": "产线升级、医疗试管盖拧紧、工件搬运与自动分拣",
+  "original_issue_notes": [],
+  "item_ids": [
+    "item-37c4a736854f",
+    "item-650a6d114eb2",
+    "item-89ff1d617f44"
+  ],
+  "source_technical_sha256": "64822c5da0bfa93b98c5919ca2606de131455e3c986dcb5a7f67708609a58f7e",
+  "cross_source_categories": [],
+  "original_tags": "直线模组、夹爪、视觉上料",
+  "original_verification_wording": "大会官方页已核验。",
+  "original_review_wording": "检索/读取日期：2026-09-05。核验口径：已读取官方网页；参数属发布方声明。"
+}

@@ -1,0 +1,27 @@
+{
+  "id": "E024",
+  "supplier_as_published": "北京机科未来科技有限公司",
+  "source_category": "01-02",
+  "source_url": "https://www.worldrobotconference.com/news/3579.html",
+  "original_source_urls": [
+    "https://www.worldrobotconference.com/news/3579.html",
+    "https://www.roboscience.co/about.html"
+  ],
+  "source_checked_on": "2026-09-05",
+  "evidence": "official_page",
+  "technical": {
+    "zh-CN": "大会亮点页单列 Rex 全尺寸轮式半人形操作机器人；其资料位于多企业合辑中，应只使用 Rex 对应段落，不能把同页其他厂商的参数归入本企业。",
+    "en": "Rex is a full-size wheeled semi-humanoid manipulator in a multi-company conference feature. Only the Rex passage applies; other vendors' parameters on that page must not be attributed to this supplier."
+  },
+  "original_product_line": "Visics 具身基础模型、Rex 轮式半人形机器人",
+  "original_application_wording": "商业零售、物流、工业、家庭",
+  "original_issue_notes": [
+    "具体问题：来源为多展商合辑，仅采用 Rex 对应段落。"
+  ],
+  "item_ids": [],
+  "source_technical_sha256": "c2f56f00789c848b45002fa2f329e0fad1b5acb9fd0c8e7e4621c22f2633e44f",
+  "cross_source_categories": [],
+  "original_tags": "轮式半人形/具身基础模型",
+  "original_verification_wording": "官网已核对。",
+  "original_review_wording": "检索/读取日期：2026-09-05。核验口径：已读取官方网页；参数属发布方声明。"
+}

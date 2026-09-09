@@ -1,0 +1,28 @@
+{
+  "id": "E249",
+  "supplier_as_published": "北京明略机器人有限公司",
+  "source_category": "04-01",
+  "source_url": "https://www.worldrobotconference.com/expo/company/775.html",
+  "original_source_urls": [
+    "https://www.worldrobotconference.com/expo/company/775.html",
+    "https://www.worldrobotconference.com/expo/product/1489.html",
+    "https://www.mininglamp.com/"
+  ],
+  "source_checked_on": "2026-09-05",
+  "evidence": "official_page",
+  "technical": {
+    "zh-CN": "移动机器人业务聚焦工厂内物流，覆盖 3C、汽车、新能源及医药等行业；现有页面没有具体车型、载荷和调度接口。",
+    "en": "The mobile-robot business focuses on factory logistics across electronics, automotive, new energy and pharmaceuticals. Vehicle models, payloads and dispatch interfaces are absent."
+  },
+  "original_product_line": "企业级 Agentic Service、自研大模型、多模态数据智能与企业知识智能技术",
+  "original_application_wording": "企业数据分析、知识管理及营销、销售、服务等 AI Agent 协作场景",
+  "original_issue_notes": [],
+  "item_ids": [
+    "item-0370ed1d7cc6"
+  ],
+  "source_technical_sha256": "45861ef7a710a1543d3c23a069da7f02821ab2246c098124a1a1437406db1641",
+  "cross_source_categories": [],
+  "original_tags": "企业级 Agentic AI 与数据智能",
+  "original_verification_wording": "大会官方页与企业官网已核验；与海康机器人共用 C217 联合展商页。",
+  "original_review_wording": "检索/读取日期：2026-09-05。核验口径：已读取官方网页；参数属发布方声明。"
+}

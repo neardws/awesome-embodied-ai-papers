@@ -1,0 +1,42 @@
+{
+  "id": "E297",
+  "supplier_as_published": "吉林省仿生机器人创新中心有限公司",
+  "source_category": "11-02",
+  "source_url": "https://www.worldrobotconference.com/expo/company/768.html",
+  "original_source_urls": [
+    "https://www.worldrobotconference.com/expo/company/768.html",
+    "https://www.worldrobotconference.com/expo/product/726.html",
+    "https://www.worldrobotconference.com/expo/product/727.html",
+    "https://www.worldrobotconference.com/expo/product/728.html",
+    "https://www.worldrobotconference.com/expo/product/729.html",
+    "https://www.worldrobotconference.com/expo/product/730.html"
+  ],
+  "source_checked_on": "2026-09-05",
+  "evidence": "official_page",
+  "technical": {
+    "zh-CN": "派加、瓦特鼠、淘淘分别结合拼装、语音交互、焊接和仿生步态等教学内容；瓦特鼠标注 8 岁以上，其他年龄条件待课程说明。",
+    "en": "派加, 瓦特鼠 and 淘淘 combine assembly, speech, soldering and biomimetic gait in different teaching products. 瓦特鼠 is listed for ages 8 and older; other age conditions need course descriptions."
+  },
+  "original_product_line": "STEAM 教育机器人、逐日 Z2 仿生四足机器人、灵巧手与轮式人形机器人",
+  "original_application_wording": "科技课堂与研学；工业巡检；复杂环境作业",
+  "original_issue_notes": [],
+  "item_ids": [
+    "item-4d21d20cad23",
+    "item-efb0e7533065",
+    "item-9ecfa4cdc624",
+    "item-ab6bb12e065f",
+    "item-21054dd241e1",
+    "item-eb130e200698",
+    "item-1b3939a664ca",
+    "item-6c8959f5c6ab",
+    "item-a349522c24a4",
+    "item-9587d6648c60"
+  ],
+  "source_technical_sha256": "b43d0824c9dbec46074a3472459ea2db720fb7622cb2365835fd5a7381360d37",
+  "cross_source_categories": [
+    "11-04"
+  ],
+  "original_tags": "仿生具身智能产业创新平台",
+  "original_verification_wording": "展会官方页已核对。",
+  "original_review_wording": "检索/读取日期：2026-09-05。核验口径：已读取官方网页；参数属发布方声明。"
+}

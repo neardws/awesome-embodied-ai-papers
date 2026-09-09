@@ -1,0 +1,39 @@
+{
+  "id": "E114",
+  "supplier_as_published": "海尔机器人科技（青岛）有限公司",
+  "source_category": "05-03",
+  "source_url": "https://www.worldrobotconference.com/expo/company/613.html",
+  "original_source_urls": [
+    "https://www.worldrobotconference.com/expo/company/613.html",
+    "https://www.worldrobotconference.com/expo/product/882.html",
+    "https://www.worldrobotconference.com/expo/product/883.html",
+    "https://www.worldrobotconference.com/expo/product/884.html",
+    "https://www.worldrobotconference.com/expo/product/885.html",
+    "https://www.worldrobotconference.com/expo/product/1102.html"
+  ],
+  "source_checked_on": "2026-09-05",
+  "evidence": "official_page",
+  "technical": {
+    "zh-CN": "W3 妈妈款标注适配身高 145–165cm、腰围 65–135cm，双腿最高助力 32N·m；W1/W2 参数属于不同型号，不能相互套用。",
+    "en": "W3 妈妈款 specifies 145–165cm user height, 65–135cm waist and up to 32N·m assistance across both legs. W1/W2 specifications belong to different models and cannot be substituted."
+  },
+  "original_product_line": "海尔AI运动外骨骼机器人 W3 妈妈款",
+  "original_application_wording": "家庭生活助力；长辈小碎步行走辅助",
+  "original_issue_notes": [],
+  "item_ids": [
+    "item-67b7822c018e",
+    "item-1502371abe25",
+    "item-b744ab78086f",
+    "item-a6a047c59475",
+    "item-e682061cbe67",
+    "item-1af4db10be7d",
+    "item-ad4810bc4ffc",
+    "item-818add956cab",
+    "item-9464142cf90b"
+  ],
+  "source_technical_sha256": "7b18ba1819af1bead4bb0de1f46ab280685b33fa3a9798651c896a71b6c53453",
+  "cross_source_categories": [],
+  "original_tags": "可穿戴助力外骨骼",
+  "original_verification_wording": "展会官方页已核对。",
+  "original_review_wording": "检索/读取日期：2026-09-05。核验口径：已读取官方网页；参数属发布方声明。"
+}

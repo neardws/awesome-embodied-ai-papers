@@ -20,42 +20,42 @@ This page distinguishes subcategory questions, research priorities and industria
 </thead>
 <tbody>
 <tr>
-<td width="240" nowrap><a id="09-01"></a>Operating systems and communication middleware</td>
+<td width="240" nowrap><a id="09-01"></a>Operating systems and communication middleware<br><a href="../products/topics/09-01.md">Product details</a></td>
 <td width="300">Organize processes, messages and distributed components.</td>
 <td width="320">Real-time communication, modularity and system architecture.</td>
 <td width="320">Version support, deployment configuration and compatibility.</td>
 <td width="340">Message latency, service lifecycle and diagnosability.</td>
 </tr>
 <tr>
-<td width="240" nowrap><a id="09-02"></a>Drivers, hardware abstraction and control interfaces</td>
+<td width="240" nowrap><a id="09-02"></a>Drivers, hardware abstraction and control interfaces<br><a href="../products/topics/09-02.md">Product details</a></td>
 <td width="300">Unify sensor reads and actuator commands.</td>
 <td width="320">Interface abstraction, controller switching and sim-real consistency.</td>
 <td width="320">Driver maintenance, calibration, fault codes and device support.</td>
 <td width="340">Interface coverage, state semantics and timing consistency.</td>
 </tr>
 <tr>
-<td width="240" nowrap><a id="09-03"></a>Navigation and manipulation stacks</td>
+<td width="240" nowrap><a id="09-03"></a>Navigation and manipulation stacks<br><a href="../products/topics/09-03.md">Product details</a></td>
 <td width="300">Combine perception, planning and control modules.</td>
 <td width="320">Pluggable algorithms and end-to-end system comparison.</td>
 <td width="320">Site tuning, robot adaptation and stable releases.</td>
 <td width="340">Integration cost, completion and exception handling.</td>
 </tr>
 <tr>
-<td width="240" nowrap><a id="09-04"></a>Skill libraries, behavior trees and workflows</td>
+<td width="240" nowrap><a id="09-04"></a>Skill libraries, behavior trees and workflows<br><a href="../products/topics/09-04.md">Product details</a></td>
 <td width="300">Express task order, concurrency and recovery.</td>
 <td width="320">Skill composition, formal constraints and hierarchical decisions.</td>
 <td width="320">Visual orchestration, interface versions and operator permissions.</td>
 <td width="340">Skill reuse, failure localization and recovery paths.</td>
 </tr>
 <tr>
-<td width="240" nowrap><a id="09-05"></a>Development, debugging and observability</td>
+<td width="240" nowrap><a id="09-05"></a>Development, debugging and observability<br><a href="../products/topics/09-05.md">Product details</a></td>
 <td width="300">Explain runtime data and failures.</td>
 <td width="320">Causal debugging, log compression and interpretable execution.</td>
 <td width="320">Replay, visualization, alerts and remote diagnostics.</td>
 <td width="340">Time to reproduce failures, log completeness and diagnosis cost.</td>
 </tr>
 <tr>
-<td width="240" nowrap><a id="09-06"></a>Facility integration and multi-robot coordination</td>
+<td width="240" nowrap><a id="09-06"></a>Facility integration and multi-robot coordination<br><a href="../products/topics/09-06.md">Product details</a></td>
 <td width="300">Coordinate robots with lifts, doors and fleets.</td>
 <td width="320">Multi-agent scheduling, conflict resolution and cooperation.</td>
 <td width="320">Facility protocols, task systems, traffic and permissions.</td>
@@ -63,6 +63,14 @@ This page distinguishes subcategory questions, research priorities and industria
 </tr>
 </tbody>
 </table>
+
+## Technical and product details
+
+<a href="../products/comparisons/09-systems.md">Open 3 related comparison records</a>
+
+Compare model-specific values, conditions, interfaces, research relationships and source issues. Full source excerpts and original exhibit links remain available underneath.
+
+<a href="../products/references/09-05.md">Robot operating systems and skill platforms</a> · <a href="../products/references/09-06.md">Enterprise agents and AI services</a>
 
 ## Research, platforms and industrial examples
 

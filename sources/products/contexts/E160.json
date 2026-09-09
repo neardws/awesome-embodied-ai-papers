@@ -1,0 +1,27 @@
+{
+  "id": "E160",
+  "supplier_as_published": "昆山周氏电业有限公司",
+  "source_category": "06-11",
+  "source_url": "https://www.worldrobotconference.com/expo/company/821.html",
+  "original_source_urls": [
+    "https://www.worldrobotconference.com/expo/company/821.html",
+    "https://www.worldrobotconference.com/expo/product/940.html"
+  ],
+  "source_checked_on": "2026-09-05",
+  "evidence": "official_page",
+  "technical": {
+    "zh-CN": "相机专用高柔线束页面标注单根 30m、可定制生产；通信稳定性未附相机接口、速率或弯折测试条件。",
+    "en": "The high-flex camera harness is listed at 30m per cable with customization. Communication stability lacks camera-interface, data-rate and bending-test conditions."
+  },
+  "original_product_line": "机器人电缆与线束、具身机器人成套线束、无尘拖链线、高柔电缆、电机线缆、机器人相机专用线束",
+  "original_application_wording": "机器人动力、控制和通信线束；相机等设备的高柔性稳定连接",
+  "original_issue_notes": [],
+  "item_ids": [
+    "item-9d016d69824a"
+  ],
+  "source_technical_sha256": "5a56a35c79385d7d90769319e2dd43d98789053b628e4c61d356c44988bd493f",
+  "cross_source_categories": [],
+  "original_tags": "机器人线缆与线束",
+  "original_verification_wording": "官方页已核对。",
+  "original_review_wording": "检索/读取日期：2026-09-05。核验口径：已读取官方网页；参数属发布方声明。"
+}

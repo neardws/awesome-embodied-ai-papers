@@ -1,0 +1,25 @@
+{
+  "id": "E175",
+  "supplier_as_published": "深圳市强和电机有限公司",
+  "source_category": "06-04",
+  "source_url": "https://www.mosrac.cn/products/",
+  "original_source_urls": [
+    "https://www.mosrac.cn/products/",
+    "https://www.mosrac.cn/"
+  ],
+  "source_checked_on": "2026-09-05",
+  "evidence": "official_page",
+  "technical": {
+    "zh-CN": "官网按 U12 至 U200 等直径系列列额定转矩，另列外转子 UE 系列；可按外径、额定转矩和结构选型，不能用系列最大值代表任一型号。",
+    "en": "The official site lists rated torque by diameter families from U12 to U200 and separately lists outer-rotor UE products. Do not apply a series maximum to every model."
+  },
+  "original_product_line": "无框力矩电机、DD 直驱电机、驱动器、编码器",
+  "original_application_wording": "协作机器人、医疗机器人、光电云台、外骨骼机器人",
+  "original_issue_notes": [],
+  "item_ids": [],
+  "source_technical_sha256": "b227199528f253b812261616b142687623c824fa88b7c89bea7bfa9819767ebe",
+  "cross_source_categories": [],
+  "original_tags": "无框力矩电机与直驱电机",
+  "original_verification_wording": "已核验（官网）。",
+  "original_review_wording": "检索/读取日期：2026-09-05。核验口径：已读取官方网页；参数属发布方声明。"
+}

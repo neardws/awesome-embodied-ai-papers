@@ -1,0 +1,37 @@
+{
+  "id": "E182",
+  "supplier_as_published": "北京因时机器人科技有限公司",
+  "source_category": "06-01",
+  "source_url": "https://www.worldrobotconference.com/expo/company/515.html",
+  "original_source_urls": [
+    "https://www.worldrobotconference.com/expo/company/515.html",
+    "https://www.worldrobotconference.com/expo/product/405.html",
+    "https://www.worldrobotconference.com/expo/product/410.html",
+    "https://www.worldrobotconference.com/expo/product/411.html",
+    "https://www.worldrobotconference.com/expo/product/412.html",
+    "https://www.worldrobotconference.com/expo/product/796.html"
+  ],
+  "source_checked_on": "2026-09-05",
+  "evidence": "official_page",
+  "technical": {
+    "zh-CN": "RH56F1 标注 1kHz 通信、静态被动载荷 30kg、指尖 15N；RH56E2 指尖 30N；DFX 配绝对位置和力传感，可掉电自锁。",
+    "en": "RH56F1 reports 1kHz communication, 30kg passive static load and 15N fingertip force. RH56E2 reports 30N fingertip force. DFX includes absolute-position/force sensing and power-off self-locking."
+  },
+  "original_product_line": "RH56 系列仿人五指灵巧手、微型伺服电缸",
+  "original_application_wording": "机器人末端、假肢、新能源、半导体、3C 电子、生物医疗和精密机电设备",
+  "original_issue_notes": [],
+  "item_ids": [
+    "item-b61ab832d849",
+    "item-90c9f77abba9",
+    "item-72bb57598737",
+    "item-661f1288002b",
+    "item-4607ca370773",
+    "item-ec1f72f3745a",
+    "item-7ba2d4539822"
+  ],
+  "source_technical_sha256": "9a18d404c8d2b81b6f03975ef321147b3ebf693d33f559144964f9c7e013ada1",
+  "cross_source_categories": [],
+  "original_tags": "灵巧手与微型线性执行器",
+  "original_verification_wording": "大会官方页已核验。",
+  "original_review_wording": "检索/读取日期：2026-09-05。核验口径：已读取官方网页；参数属发布方声明。"
+}

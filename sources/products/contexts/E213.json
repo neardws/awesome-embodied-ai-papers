@@ -1,0 +1,29 @@
+{
+  "id": "E213",
+  "supplier_as_published": "深圳留形科技有限公司",
+  "source_category": "07-08",
+  "source_url": "https://www.worldrobotconference.com/expo/company/581.html",
+  "original_source_urls": [
+    "https://www.worldrobotconference.com/expo/company/581.html",
+    "https://www.worldrobotconference.com/expo/product/577.html",
+    "https://www.worldrobotconference.com/expo/product/578.html"
+  ],
+  "source_checked_on": "2026-09-05",
+  "evidence": "official_page",
+  "technical": {
+    "zh-CN": "Odin1 结合激光与视觉的 MindSLAM，提供重定位和空间记忆；Q9000 为扫描建图设备，需区分导航系统与独立测绘产品。",
+    "en": "Odin1 combines laser and vision in MindSLAM, providing relocalization and spatial memory. Q9000 is a scanning/mapping device; navigation systems and standalone surveying products differ."
+  },
+  "original_product_line": "Odin1空间记忆模组、MindPalace Q9000实时空间扫描仪",
+  "original_application_wording": "机器人、建筑测绘、工业巡检、数字孪生",
+  "original_issue_notes": [],
+  "item_ids": [
+    "item-7727f0fa5eba",
+    "item-0afb048fd53c"
+  ],
+  "source_technical_sha256": "89668a8268a0ddd72abed61ec731b976391baa715a3cf4b9e3924fbbad9a64db",
+  "cross_source_categories": [],
+  "original_tags": "多传感器SLAM、三维重建、空间记忆",
+  "original_verification_wording": "大会官方页已核验。",
+  "original_review_wording": "检索/读取日期：2026-09-05。核验口径：已读取官方网页；参数属发布方声明。"
+}

@@ -1,0 +1,29 @@
+{
+  "id": "E101",
+  "supplier_as_published": "北京瑞宏具身智能机器人科技有限公司",
+  "source_category": "03-04",
+  "source_url": "https://www.worldrobotconference.com/expo/company/833.html",
+  "original_source_urls": [
+    "https://www.worldrobotconference.com/expo/company/833.html",
+    "https://www.worldrobotconference.com/expo/product/838.html",
+    "https://www.worldrobotconference.com/expo/product/842.html"
+  ],
+  "source_checked_on": "2026-09-05",
+  "evidence": "official_page",
+  "technical": {
+    "zh-CN": "AIYA 面向 14 岁以上人群，标注五自由度和记忆图谱；飞燕面向养老机构，提供到场陪伴、认知互动、提醒和服务留痕，两者用途不同。",
+    "en": "AIYA targets users aged 14 and older, with five degrees of freedom and a memory graph. 飞燕 provides in-person companionship, cognitive interaction, reminders and service records in elder-care institutions. The uses differ."
+  },
+  "original_product_line": "AIYA 数字生命伙伴、“飞燕”智能养老机器人",
+  "original_application_wording": "家庭情绪陪伴；社区、养老机构陪伴与认知训练；教育机器人用于教学辅导、编程学习和校园管理",
+  "original_issue_notes": [],
+  "item_ids": [
+    "item-564575f27678",
+    "item-44186a3f37fa"
+  ],
+  "source_technical_sha256": "c1e97e0a5c1363a772bf7fed0616cb22ca07c124b96300d07bf847b9a746bfdc",
+  "cross_source_categories": [],
+  "original_tags": "陪伴、养老与教育机器人",
+  "original_verification_wording": "官方页已核对。",
+  "original_review_wording": "检索/读取日期：2026-09-05。核验口径：已读取官方网页；参数属发布方声明。"
+}

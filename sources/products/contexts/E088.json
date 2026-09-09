@@ -1,0 +1,36 @@
+{
+  "id": "E088",
+  "supplier_as_published": "伽利略（天津）技术有限公司",
+  "source_category": "01-03",
+  "source_url": "https://www.worldrobotconference.com/expo/company/474.html",
+  "original_source_urls": [
+    "https://www.worldrobotconference.com/expo/company/474.html",
+    "https://www.worldrobotconference.com/expo/product/251.html",
+    "https://www.worldrobotconference.com/expo/product/252.html",
+    "https://www.worldrobotconference.com/expo/product/253.html",
+    "https://www.worldrobotconference.com/expo/product/1409.html"
+  ],
+  "source_checked_on": "2026-09-05",
+  "evidence": "official_page",
+  "technical": {
+    "zh-CN": "C1 为轻型科研及小型巡检平台，声明开放接口；E1 面向恶劣环境；S1 面向大型载荷，可定制货箱、传感器及救援装备接口。",
+    "en": "C1 is a light research/small-inspection platform with stated open interfaces; E1 targets harsh environments; S1 targets large loads with customizable cargo, sensor and rescue-equipment interfaces."
+  },
+  "original_product_line": "C1/E1/S1 四足机器人、GH1 人形机器人",
+  "original_application_wording": "科研、小型工业巡检、高危巡检救援、高原运输与水务/警务/应急",
+  "original_issue_notes": [],
+  "item_ids": [
+    "item-605b5dffe77a",
+    "item-b9e356b2f6a7",
+    "item-ee867b49fa57",
+    "item-66d4ee4837b5"
+  ],
+  "source_technical_sha256": "89887a4af7d19ad5cec2e9672ade01eea48cc72e96d993bb2a2c6323a9295bdd",
+  "cross_source_categories": [
+    "03-05",
+    "04-05"
+  ],
+  "original_tags": "四足巡检、应急与人形机器人",
+  "original_verification_wording": "大会官方页已核验。",
+  "original_review_wording": "检索/读取日期：2026-09-05。核验口径：已读取官方网页；参数属发布方声明。"
+}

@@ -91,10 +91,16 @@ def layout(table):
         widths.append(width)
         nowrap.append(bool(re.search(r'\bnowrap\b', attrs)) if old else
                       name in SHORT or (name in {'Paper', 'Project', 'Code'} and width <= 120))
-    return widths, nowrap
+    header_nowrap = nowrap.copy()
+    body = re.search(r'<tbody>\s*<tr\b[^>]*>(.*?)</tr>', table, re.S)
+    if body:
+        attrs = [a for a, _ in CELLS.findall(body[1])]
+        if len(attrs) == len(widths) and all(re.search(r'\bwidth="\d+"', a) for a in attrs):
+            nowrap = [bool(re.search(r'\bnowrap\b', a)) for a in attrs]
+    return widths, nowrap, header_nowrap
 
 
-def format_table(table, widths, nowrap):
+def format_table(table, widths, nowrap, header_nowrap=None):
     rows = []
     for row in re.findall(r'<tr\b[^>]*>(.*?)</tr>', table, re.S):
         cells = CELLS.findall(row)
@@ -108,7 +114,8 @@ def format_table(table, widths, nowrap):
         output.append('<tr>')
         for i, content in enumerate(row):
             tag = 'th' if index == 0 else 'td'
-            attrs = f' width="{widths[i]}"' + (' nowrap' if nowrap[i] else '')
+            wrapping = header_nowrap if index == 0 and header_nowrap is not None else nowrap
+            attrs = f' width="{widths[i]}"' + (' nowrap' if wrapping[i] else '')
             output.append(f'<{tag}{attrs}>{content}</{tag}>')
         output.append('</tr>')
     if len(rows) == 1:

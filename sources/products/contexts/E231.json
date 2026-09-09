@@ -1,0 +1,24 @@
+{
+  "id": "E231",
+  "supplier_as_published": "深圳市览沃科技有限公司",
+  "source_category": "07-04",
+  "source_url": "https://www.livoxtech.com/cn/index",
+  "original_source_urls": [
+    "https://www.livoxtech.com/cn/index"
+  ],
+  "source_checked_on": "2026-09-05",
+  "evidence": "official_page",
+  "technical": {
+    "zh-CN": "官网同时展示 Mid-360、HAP、Mid-70、Tele-15、Avia，并提供 LIO-Livox 等开发资源入口；产品代际、视场和测距应分别核对，网页价格不作为采购报价。",
+    "en": "The site lists Mid-360, HAP, Mid-70, Tele-15 and Avia plus LIO-Livox development resources. Generations, fields of view and ranges need separate checks; webpage prices are not procurement quotations."
+  },
+  "original_product_line": "工业/车规激光雷达",
+  "original_application_wording": "自动驾驶、仓储/配送机器人、建图",
+  "original_issue_notes": [],
+  "item_ids": [],
+  "source_technical_sha256": "0a0ac657808a037b3579c7df55e6bba61596e90a8c6470fb7af1ed2c7d714ce7",
+  "cross_source_categories": [],
+  "original_tags": "激光雷达",
+  "original_verification_wording": "官网已核对。",
+  "original_review_wording": "检索/读取日期：2026-09-05。核验口径：已读取官方网页；参数属发布方声明。"
+}

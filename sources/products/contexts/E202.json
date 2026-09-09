@@ -1,0 +1,35 @@
+{
+  "id": "E202",
+  "supplier_as_published": "钛虎机器人科技（上海）有限公司",
+  "source_category": "06-03",
+  "source_url": "https://www.worldrobotconference.com/expo/company/420.html",
+  "original_source_urls": [
+    "https://www.worldrobotconference.com/expo/company/420.html",
+    "https://www.worldrobotconference.com/expo/product/369.html",
+    "https://www.worldrobotconference.com/expo/product/370.html",
+    "https://www.worldrobotconference.com/expo/product/181.html"
+  ],
+  "source_checked_on": "2026-09-05",
+  "evidence": "official_page",
+  "technical": {
+    "zh-CN": "A6 名称下实际为七自由度力控臂；T170C 2.0 标注 22 自由度、不含末端，带头部和腕部深度相机，属于参考方案。",
+    "en": "Despite the A6 name, the arm has seven force-controlled degrees of freedom. T170C 2.0 reports 22 body degrees of freedom excluding end effectors, with head/wrist depth cameras, as a reference design."
+  },
+  "original_product_line": "A6 力控机械臂、T170C 2.0 轮式机器人参考机、轻量化关节模组",
+  "original_application_wording": "商业零售、搬运与工业生产",
+  "original_issue_notes": [],
+  "item_ids": [
+    "item-811e903f1b75",
+    "item-9e0a8f1c0cd2",
+    "item-641693a9af4b"
+  ],
+  "source_technical_sha256": "b8c966e5db7700aec7247da75203316d5147b7e08793dadab20396e90cfcf98b",
+  "cross_source_categories": [
+    "01-01",
+    "01-02",
+    "02-02"
+  ],
+  "original_tags": "轻量化关节模组与力控臂",
+  "original_verification_wording": "大会官方页已核验。",
+  "original_review_wording": "检索/读取日期：2026-09-05。核验口径：已读取官方网页；参数属发布方声明。"
+}

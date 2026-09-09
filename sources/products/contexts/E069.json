@@ -1,0 +1,27 @@
+{
+  "id": "E069",
+  "supplier_as_published": "北京源络科技有限公司",
+  "source_category": "01-06",
+  "source_url": "https://www.worldrobotconference.com/expo/company/465.html",
+  "original_source_urls": [
+    "https://www.worldrobotconference.com/expo/company/465.html",
+    "https://www.worldrobotconference.com/expo/product/173.html"
+  ],
+  "source_checked_on": "2026-09-05",
+  "evidence": "official_page",
+  "technical": {
+    "zh-CN": "Monte02 聚焦跨设备、多步骤产业流程，将感知、决策与精细操作用于生命科学、医药、化工等场景；具体流程节拍未公开。",
+    "en": "Monte02 targets multi-device, multi-step industrial processes using perception, decision-making and fine manipulation in life sciences, pharmaceuticals and chemicals. Process cycle times are not public."
+  },
+  "original_product_line": "Monte02 具身机器人",
+  "original_application_wording": "生命科学、医药、化工与先进制造的多设备、多步骤实验操作",
+  "original_issue_notes": [],
+  "item_ids": [
+    "item-08726eccb291"
+  ],
+  "source_technical_sha256": "478423ef04b1e4b0aa4efcebe4abd594ba21eb3caf69b903fe2f59885f6f5c05",
+  "cross_source_categories": [],
+  "original_tags": "科研与工业具身操作机器人",
+  "original_verification_wording": "大会官方页已核验。",
+  "original_review_wording": "检索/读取日期：2026-09-05。核验口径：已读取官方网页；参数属发布方声明。"
+}

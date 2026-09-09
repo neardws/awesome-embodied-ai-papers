@@ -1,0 +1,27 @@
+{
+  "id": "E264",
+  "supplier_as_published": "诺亦腾机器人科技（深圳）有限公司",
+  "source_category": "09-03",
+  "source_url": "https://www.worldrobotconference.com/expo/company/669.html",
+  "original_source_urls": [
+    "https://www.worldrobotconference.com/expo/company/669.html",
+    "https://noitomrobotics.cn/%E5%85%B3%E4%BA%8E%E6%88%91%E4%BB%AC/"
+  ],
+  "source_checked_on": "2026-09-05",
+  "evidence": "official_page",
+  "technical": {
+    "zh-CN": "World Compiler 聚焦人体动作到机器人数据的表达；ModalityNet 组织多源数据，当前介绍未给完整模态定义及通用适配基准。",
+    "en": "World Compiler focuses on representing human motion as robot data. ModalityNet organizes multiple data sources, but complete modality definitions and general adaptation benchmarks are absent."
+  },
+  "original_product_line": "World Compiler、ModalityNet、动作捕捉/遥操作系统",
+  "original_application_wording": "遥操作、示教训练、机器人数据采集",
+  "original_issue_notes": [],
+  "item_ids": [],
+  "source_technical_sha256": "31deb1c4cc9b6b087f63dddd58ad5257805882a990b00e606778f40e390ddeb3",
+  "cross_source_categories": [
+    "07-09"
+  ],
+  "original_tags": "动作捕捉/具身数据与遥操作",
+  "original_verification_wording": "官网已核对。",
+  "original_review_wording": "检索/读取日期：2026-09-05。核验口径：已读取官方网页；参数属发布方声明。"
+}

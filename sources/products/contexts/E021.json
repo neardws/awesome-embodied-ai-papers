@@ -1,0 +1,33 @@
+{
+  "id": "E021",
+  "supplier_as_published": "北京高德动量科技有限公司",
+  "source_category": "01-03",
+  "source_url": "https://www.worldrobotconference.com/expo/company/648.html",
+  "original_source_urls": [
+    "https://www.worldrobotconference.com/expo/company/648.html",
+    "https://www.worldrobotconference.com/expo/product/818.html",
+    "https://www.worldrobotconference.com/expo/product/869.html",
+    "https://www.worldrobotconference.com/expo/product/870.html"
+  ],
+  "source_checked_on": "2026-09-05",
+  "evidence": "official_page",
+  "technical": {
+    "zh-CN": "途途页面标注 96 线雷达、Orin 250+TOPS、静态负载 60kg 和连续作业 4 小时；静态负载不能当作行走负载，端侧算力也不等于任务实测速度。",
+    "en": "途途 is listed with 96-line LiDAR, Orin 250+TOPS, 60kg static load and 4-hour continuous work. Static load is not walking payload, and compute throughput is not measured task speed."
+  },
+  "original_product_line": "途途四足机器人、ABot 高动态人形机器人",
+  "original_application_wording": "导览、导购、导航、家庭、园区",
+  "original_issue_notes": [],
+  "item_ids": [
+    "item-a5ef96a6ffae",
+    "item-373ed4eddb84",
+    "item-0c1ccecc6d94"
+  ],
+  "source_technical_sha256": "8babcdb1cf8d664b46606ded698a3e05593f1c07b868652a97338963628433fb",
+  "cross_source_categories": [
+    "04-05"
+  ],
+  "original_tags": "四足机器人/空间智能",
+  "original_verification_wording": "展会官方页已核对。",
+  "original_review_wording": "检索/读取日期：2026-09-05。核验口径：已读取官方网页；参数属发布方声明。"
+}

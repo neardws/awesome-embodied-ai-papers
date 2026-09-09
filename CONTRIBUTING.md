@@ -23,3 +23,11 @@ Run `python3 scripts/format_tables.py` after editing table structure, then `pyth
 The landscape is maintained by topic in `sources/landscape/topics/`. Update both language fields in the relevant JSON file, then run `python3 scripts/build_landscape.py` and `python3 scripts/check_docs.py`. The builder refreshes the paired topic pages, overview, diagram, homepage section and research cross-links. Avoid editing generated sections directly.
 
 Maintain primary examples and their scoped claims in `sources/landscape/sources.json`, synthesis in `sources/landscape/progress.json`, and taxonomy order in `sources/landscape/index.json`. Each source needs a role, an exact URL, a check date and evidence states. Taxonomy changes must preserve stable subcategory anchors or provide a migration. Examples are not an exhibitor census, compatibility guarantee or market ranking.
+
+## Product-detail updates
+
+Use `sources/products/reviews.json` for manually attributed model/family fields and related subcategories. Keep one canonical record per reviewed configuration; do not populate missing fields from another model. The domain-specific schemas are in `scripts/build_products.py`.
+
+Original technical evidence is stored by context under `sources/products/contexts/`, with Chinese source-text hashes and English translations. `items.json` retains raw source names, normalized display names and exact exhibit URLs; these associations are not unique commercial SKUs. `categories.json` retains source categories and their comparison checklists. The provenance file records the 77 input-file hashes and whitespace recovery.
+
+Run `python3 scripts/build_landscape.py` to regenerate both landscape and product pages, followed by `python3 scripts/check_docs.py`. Keep the archived review date separate from a new verification date. A documented paper-use relation requires a paper URL, page, short quotation, PDF hash and a matching catalog record; otherwise use the related-route label.

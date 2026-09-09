@@ -1,0 +1,31 @@
+{
+  "id": "E068",
+  "supplier_as_published": "上海开普勒机器人有限公司",
+  "source_category": "01-02",
+  "source_url": "https://www.worldrobotconference.com/expo/company/468.html",
+  "original_source_urls": [
+    "https://www.worldrobotconference.com/expo/company/468.html",
+    "https://www.worldrobotconference.com/expo/product/599.html",
+    "https://www.worldrobotconference.com/expo/product/1399.html"
+  ],
+  "source_checked_on": "2026-09-05",
+  "evidence": "official_page",
+  "technical": {
+    "zh-CN": "K3W 标注 43 自由度、整机 120kg、双臂负载 30kg；麒麟采用滚柱丝杠，整机 IPX5 与核心部件 IP67 分属不同防护对象。",
+    "en": "K3W reports 43 degrees of freedom, 120kg robot mass and 30kg dual-arm payload. 麒麟 uses roller screws; whole-robot IPX5 and core-component IP67 apply to different protection subjects."
+  },
+  "original_product_line": "麒麟四足机器人、K3W 轮式双臂人形机器人",
+  "original_application_wording": "工业生产、仓储、巡检、科研、山地勘测与应急救援",
+  "original_issue_notes": [],
+  "item_ids": [
+    "item-3c36a7521450",
+    "item-a665cf28b8d8"
+  ],
+  "source_technical_sha256": "36fb87d4fc14b5e7553d6fd4736df6964ae17171997a1b2bd1e12f888d65bf34",
+  "cross_source_categories": [
+    "01-01"
+  ],
+  "original_tags": "工业人形与重载四足机器人",
+  "original_verification_wording": "大会官方页已核验。",
+  "original_review_wording": "检索/读取日期：2026-09-05。核验口径：已读取官方网页；参数属发布方声明。"
+}

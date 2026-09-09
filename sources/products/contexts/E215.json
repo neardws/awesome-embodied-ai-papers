@@ -1,0 +1,32 @@
+{
+  "id": "E215",
+  "supplier_as_published": "武汉朗毅机器人有限公司",
+  "source_category": "07-08",
+  "source_url": "https://www.worldrobotconference.com/expo/company/883.html",
+  "original_source_urls": [
+    "https://www.worldrobotconference.com/expo/company/883.html",
+    "https://www.worldrobotconference.com/expo/product/1353.html",
+    "https://www.worldrobotconference.com/expo/product/1358.html",
+    "https://www.worldrobotconference.com/expo/product/1359.html",
+    "https://langyi.tech/"
+  ],
+  "source_checked_on": "2026-09-05",
+  "evidence": "official_page",
+  "technical": {
+    "zh-CN": "S2 Lite 是面向四足和轮式机器人的外载方案；SR 侧重头部、胸部前装；PKG 为背包式方案，页面称约 5 分钟安装，但未列适配本体清单。",
+    "en": "S2 Lite is an external sensor package for quadrupeds/wheeled robots; SR targets integrated head/chest mounting; PKG is backpack-mounted. The claimed roughly 5-minute installation has no supported-body list."
+  },
+  "original_product_line": "灵睛SR、灵睛PKG、灵睛S2 Lite/S1感知导航模组",
+  "original_application_wording": "安防巡检、自主导览、工厂操作、物品递送",
+  "original_issue_notes": [],
+  "item_ids": [
+    "item-d3705a62fc80",
+    "item-8e650c69c1e2",
+    "item-14eccb82a10f"
+  ],
+  "source_technical_sha256": "a9d87ab9db613ec4b07c861b19e22ab4805b55674f8e1c617e126fed542e3886",
+  "cross_source_categories": [],
+  "original_tags": "空间智能、SLAM与自主导航",
+  "original_verification_wording": "企业官网 + 大会官方页已核验。",
+  "original_review_wording": "检索/读取日期：2026-09-05。核验口径：已读取官方网页；参数属发布方声明。"
+}

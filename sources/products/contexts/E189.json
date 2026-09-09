@@ -1,0 +1,33 @@
+{
+  "id": "E189",
+  "supplier_as_published": "苏州绿的谐波传动科技股份有限公司",
+  "source_category": "06-06",
+  "source_url": "https://www.worldrobotconference.com/expo/company/535.html",
+  "original_source_urls": [
+    "https://www.worldrobotconference.com/expo/company/535.html",
+    "https://www.worldrobotconference.com/expo/product/225.html",
+    "https://www.worldrobotconference.com/expo/product/1219.html",
+    "https://www.worldrobotconference.com/expo/product/1221.html",
+    "https://www.worldrobotconference.com/expo/product/1222.html"
+  ],
+  "source_checked_on": "2026-09-05",
+  "evidence": "official_page",
+  "technical": {
+    "zh-CN": "KGU 集成谐波、电机、驱动、双编码器和制动器，内置 EtherCAT/CANopen，支持位置、速度和力矩控制；线性执行器采用滚柱丝杠。",
+    "en": "KGU integrates strain-wave gearing, motor, drive, dual encoders and brake, with EtherCAT/CANopen and position/velocity/torque control. Linear actuators use roller screws."
+  },
+  "original_product_line": "谐波减速器、KGU 人形关节模组、线性执行器与末端执行器",
+  "original_application_wording": "人形、四足、协作机器人与工业自动化",
+  "original_issue_notes": [],
+  "item_ids": [
+    "item-2c1fd104e7b2",
+    "item-57e930e50dd6",
+    "item-06519e02e784",
+    "item-65730c4cdafc"
+  ],
+  "source_technical_sha256": "c24d1bf9635defc0be39e60f03672502ee533c958e6b94f6fdd9eebf3b748510",
+  "cross_source_categories": [],
+  "original_tags": "谐波减速器、关节与线性执行器",
+  "original_verification_wording": "大会官方页已核验。",
+  "original_review_wording": "检索/读取日期：2026-09-05。核验口径：已读取官方网页；参数属发布方声明。"
+}

@@ -1,0 +1,27 @@
+{
+  "id": "E188",
+  "supplier_as_published": "杭州良质关节科技有限公司",
+  "source_category": "06-03",
+  "source_url": "https://www.worldrobotconference.com/expo/company/838.html",
+  "original_source_urls": [
+    "https://www.worldrobotconference.com/expo/company/838.html",
+    "https://www.worldrobotconference.com/expo/product/1531.html"
+  ],
+  "source_checked_on": "2026-09-05",
+  "evidence": "official_page",
+  "technical": {
+    "zh-CN": "产品覆盖行星、谐波关节及其减速机、齿轮、电机配件，面向不同本体；展项未给额定转矩、回差或通信协议。",
+    "en": "Products cover planetary/strain-wave joints, reducers, gears and motors for different bodies. Rated torque, backlash and communication protocols are absent."
+  },
+  "original_product_line": "行星/谐波关节模组及减速机、齿轮、无框力矩电机",
+  "original_application_wording": "人形机器人、协作机器人、机器狗、灵巧手、机械臂、外骨骼及高端数控设备",
+  "original_issue_notes": [],
+  "item_ids": [
+    "item-62a83c3c51fc"
+  ],
+  "source_technical_sha256": "7b12f9a9b69eae3affd855c34eddcea61cea213a67ccaeb585c143117117127b",
+  "cross_source_categories": [],
+  "original_tags": "关节模组、减速机与无框力矩电机",
+  "original_verification_wording": "大会官方页已核验。",
+  "original_review_wording": "检索/读取日期：2026-09-05。核验口径：已读取官方网页；参数属发布方声明。"
+}

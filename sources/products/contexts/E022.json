@@ -1,0 +1,40 @@
+{
+  "id": "E022",
+  "supplier_as_published": "杭州软通天擎机器人科技有限公司",
+  "source_category": "01-01",
+  "source_url": "https://www.worldrobotconference.com/expo/company/652.html",
+  "original_source_urls": [
+    "https://www.worldrobotconference.com/expo/company/652.html",
+    "https://www.worldrobotconference.com/expo/product/1547.html",
+    "https://www.worldrobotconference.com/expo/product/1549.html",
+    "https://www.worldrobotconference.com/expo/product/1553.html",
+    "https://www.worldrobotconference.com/expo/product/1555.html",
+    "https://www.worldrobotconference.com/expo/product/1556.html",
+    "https://www.tqartisan.com/"
+  ],
+  "source_checked_on": "2026-09-05",
+  "evidence": "official_page",
+  "technical": {
+    "zh-CN": "大会页新增 J1 工地放线、G1 管廊巡检处置、K1 勘察测绘三类平台；K1 使用双螺旋波浪推进并支持声呐等扩展，产品范围超出原表的人形系列。",
+    "en": "The conference page adds J1 construction layout, G1 utility-tunnel inspection/intervention and K1 survey platforms. K1 uses double-helical wave propulsion and supports sonar expansion, extending beyond the original humanoid product line."
+  },
+  "original_product_line": "S/A/T 系列人形、轮式半人形机器人",
+  "original_application_wording": "数据采集/训练、导览、教育科研、养老陪伴、柔性制造",
+  "original_issue_notes": [],
+  "item_ids": [
+    "item-aa837394508c",
+    "item-c13f0d9a8b19",
+    "item-19528c6254de",
+    "item-b0c1432d1cde",
+    "item-97e2d9bfea76",
+    "item-bd9ab2a52a5d"
+  ],
+  "source_technical_sha256": "73281f103b93ddafc580f4d80b673bef2ccfad3f69731d34d0eae6516fc6e72f",
+  "cross_source_categories": [
+    "01-03",
+    "04-05"
+  ],
+  "original_tags": "人形机器人本体/场景方案",
+  "original_verification_wording": "官网已核对。",
+  "original_review_wording": "检索/读取日期：2026-09-05。核验口径：已读取官方网页；参数属发布方声明。"
+}

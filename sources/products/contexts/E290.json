@@ -1,0 +1,24 @@
+{
+  "id": "E290",
+  "supplier_as_published": "村田（中国）投资有限公司",
+  "source_category": "08-05",
+  "source_url": "https://www.murata.com.cn/",
+  "original_source_urls": [
+    "https://www.murata.com.cn/"
+  ],
+  "source_checked_on": "2026-09-05",
+  "evidence": "official_page",
+  "technical": {
+    "zh-CN": "官网提供面向人形机器人的元器件应用指南入口，产品新闻涉及 MLCC 与共模电感；未读取到与本展直接对应的完整料号表。",
+    "en": "The site links humanoid-component application guidance, with MLCC/common-mode-inductor news. A complete part-number list corresponding to this exhibit was not read."
+  },
+  "original_product_line": "电子元器件、MEMS/磁传感器",
+  "original_application_wording": "移动出行、IoT、工业自动化",
+  "original_issue_notes": [],
+  "item_ids": [],
+  "source_technical_sha256": "6ccf87f7ff0bd6c9f5c2e0af36610716151155074ccc6a45980fa99518a09639",
+  "cross_source_categories": [],
+  "original_tags": "电子元器件/MEMS 与磁传感",
+  "original_verification_wording": "官网已核对。",
+  "original_review_wording": "检索/读取日期：2026-09-05。核验口径：已读取官方网页；参数属发布方声明。"
+}

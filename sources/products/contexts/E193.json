@@ -1,0 +1,27 @@
+{
+  "id": "E193",
+  "supplier_as_published": "希西维（江苏）精工股份有限公司",
+  "source_category": "06-09",
+  "source_url": "https://www.worldrobotconference.com/expo/company/530.html",
+  "original_source_urls": [
+    "https://www.worldrobotconference.com/expo/company/530.html",
+    "https://www.worldrobotconference.com/expo/product/397.html"
+  ],
+  "source_checked_on": "2026-09-05",
+  "evidence": "official_page",
+  "technical": {
+    "zh-CN": "专用轴承页面强调轻量、免维护和静音，并称盐雾超过 240 小时；未列盐雾标准、样品等级或轴承型号。",
+    "en": "Special bearings emphasize light weight, low maintenance and quiet operation, claiming over 240-hour salt-spray endurance. Standard, sample grade and model are absent."
+  },
+  "original_product_line": "人形机器人专用轴承",
+  "original_application_wording": "人形机器人线性执行器",
+  "original_issue_notes": [],
+  "item_ids": [
+    "item-8388159173e0"
+  ],
+  "source_technical_sha256": "77a88010d06c4a1902a1f0e3cca265773d19d3d7497c9d96d2adbae23604bc47",
+  "cross_source_categories": [],
+  "original_tags": "人形机器人轴承",
+  "original_verification_wording": "大会官方页已核验。",
+  "original_review_wording": "检索/读取日期：2026-09-05。核验口径：已读取官方网页；参数属发布方声明。"
+}

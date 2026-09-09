@@ -1,0 +1,38 @@
+{
+  "id": "E177",
+  "supplier_as_published": "大寰机器人科技股份有限公司",
+  "source_category": "06-01",
+  "source_url": "https://www.worldrobotconference.com/expo/company/706.html",
+  "original_source_urls": [
+    "https://www.worldrobotconference.com/expo/company/706.html",
+    "https://www.worldrobotconference.com/expo/product/1250.html",
+    "https://www.worldrobotconference.com/expo/product/1282.html",
+    "https://www.worldrobotconference.com/expo/product/1283.html",
+    "https://www.worldrobotconference.com/expo/product/1291.html",
+    "https://www.worldrobotconference.com/expo/product/1292.html"
+  ],
+  "source_checked_on": "2026-09-05",
+  "evidence": "official_page",
+  "technical": {
+    "zh-CN": "UDH-3-7-50 为七个主动自由度三指手，标注提拉负载最高 15kg、指尖重复定位 ±0.02mm；ADH 五指手用于递交等交互演示。",
+    "en": "UDH-3-7-50 is a three-finger hand with seven active degrees of freedom, up to 15kg lifting load and ±0.02mm fingertip repeatability. ADH is a five-finger hand used in handover demonstrations."
+  },
+  "original_product_line": "ADH 五指、UDH 三指、PGT 视触觉灵巧手夹爪及 AG 两指夹爪",
+  "original_application_wording": "具身机器人抓取、精密装配、柔性分拣、商品分类、汽车零部件上下料与科研开发",
+  "original_issue_notes": [],
+  "item_ids": [
+    "item-11619b172e47",
+    "item-4e4ac733650c",
+    "item-0c29485507f7",
+    "item-f8b2e211451a",
+    "item-327eef0608ed",
+    "item-f56bb397a34d"
+  ],
+  "source_technical_sha256": "6386af39f6e4a99d91be5146326c841a57b6e83f24117f15097b53a2d2fba496",
+  "cross_source_categories": [
+    "07-02"
+  ],
+  "original_tags": "灵巧手、视触觉夹爪与精密力控执行器",
+  "original_verification_wording": "大会官方页已核验。",
+  "original_review_wording": "检索/读取日期：2026-09-05。核验口径：已读取官方网页；参数属发布方声明。"
+}

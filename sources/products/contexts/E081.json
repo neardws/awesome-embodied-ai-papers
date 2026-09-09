@@ -1,0 +1,33 @@
+{
+  "id": "E081",
+  "supplier_as_published": "安川首钢机器人有限公司",
+  "source_category": "02-01",
+  "source_url": "https://www.worldrobotconference.com/expo/company/401.html",
+  "original_source_urls": [
+    "https://www.worldrobotconference.com/expo/company/401.html",
+    "https://www.worldrobotconference.com/expo/product/491.html",
+    "https://www.worldrobotconference.com/expo/product/1550.html",
+    "https://www.worldrobotconference.com/expo/product/1551.html",
+    "https://www.worldrobotconference.com/expo/product/1552.html"
+  ],
+  "source_checked_on": "2026-09-05",
+  "evidence": "official_page",
+  "technical": {
+    "zh-CN": "NEXT 用于柔性线缆组装与码垛；物流分拣方案标注 1700 件/小时；视觉检测为另一方案，宣称的准确率未提供公开样本构成。",
+    "en": "NEXT targets flexible-cable assembly and palletizing. The logistics-sorting solution reports 1700 items/hour. Visual inspection is separate; its accuracy claim lacks a public sample composition."
+  },
+  "original_product_line": "MOTOMAN NEXT 自适应 AI 机器人平台、AI 视觉高速分拣与检测系统、免编程喷涂系统",
+  "original_application_wording": "线缆柔性组装、智能码垛、物流分拣、汽车零部件检测与喷涂",
+  "original_issue_notes": [],
+  "item_ids": [
+    "item-ae44d6a6f747",
+    "item-ec851a658c06",
+    "item-9e4e649aab91",
+    "item-0002fb362cc7"
+  ],
+  "source_technical_sha256": "f885a28114e49e901bfd29557663779d6f14cb8de539b8ba056d3a8612e0be46",
+  "cross_source_categories": [],
+  "original_tags": "工业机器人与 AI 视觉系统",
+  "original_verification_wording": "大会官方页已核验。",
+  "original_review_wording": "检索/读取日期：2026-09-05。核验口径：已读取官方网页；参数属发布方声明。"
+}

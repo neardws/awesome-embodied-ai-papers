@@ -1,0 +1,31 @@
+{
+  "id": "E144",
+  "supplier_as_published": "福尔哈贝传动技术（太仓）有限公司",
+  "source_category": "06-04",
+  "source_url": "https://www.worldrobotconference.com/expo/company/539.html",
+  "original_source_urls": [
+    "https://www.worldrobotconference.com/expo/company/539.html",
+    "https://www.worldrobotconference.com/expo/product/439.html",
+    "https://www.worldrobotconference.com/expo/product/440.html",
+    "https://www.worldrobotconference.com/expo/product/441.html"
+  ],
+  "source_checked_on": "2026-09-05",
+  "evidence": "official_page",
+  "technical": {
+    "zh-CN": "1218/1228 SXR 使用六角绕组、工作电压 3–18V；1627 电机与 16GPT 减速箱组合可达 10Nm，该值不是裸电机转矩。",
+    "en": "1218/1228 SXR use hexagonal windings at 3–18V. A 1627 motor with 16GPT gearbox reaches 10Nm; that figure is not bare-motor torque."
+  },
+  "original_product_line": "SXR直流有刷电机、16mm电机、IERF3 L光电式编码器",
+  "original_application_wording": "假肢关节、AGV导航、手术机械臂、半导体晶圆检测",
+  "original_issue_notes": [],
+  "item_ids": [
+    "item-fe8c12680e6f",
+    "item-bc9ed62bf4f7",
+    "item-e43a357fbc62"
+  ],
+  "source_technical_sha256": "3afbed8a14edf206414ab0a252b92ac10d46fb356892dbb21244fcbae7979f82",
+  "cross_source_categories": [],
+  "original_tags": "微型精密电机、减速与编码器",
+  "original_verification_wording": "大会官方页已核验。",
+  "original_review_wording": "检索/读取日期：2026-09-05。核验口径：已读取官方网页；参数属发布方声明。"
+}

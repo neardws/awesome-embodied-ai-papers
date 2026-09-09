@@ -1,0 +1,27 @@
+{
+  "id": "E218",
+  "supplier_as_published": "武汉灵途传感科技有限公司",
+  "source_category": "07-04",
+  "source_url": "https://www.worldrobotconference.com/expo/company/870.html",
+  "original_source_urls": [
+    "https://www.worldrobotconference.com/expo/company/870.html",
+    "https://www.worldrobotconference.com/expo/product/1334.html"
+  ],
+  "source_checked_on": "2026-09-05",
+  "evidence": "official_page",
+  "technical": {
+    "zh-CN": "晶眸系列侧重固态三维近场感知，布置位置包括腕部、手指及下视方向；不能按远距主雷达的口径比较。",
+    "en": "晶眸 emphasizes solid-state near-field 3D sensing at wrists, fingers and downward-facing positions. It should not be evaluated as a long-range primary LiDAR."
+  },
+  "original_product_line": "激光雷达、光电感知模组、晶眸纯固态高精度 3D 空间解析模组",
+  "original_application_wording": "机器人近距感知与数据采集；灵巧手、腕部及机器狗下视感知",
+  "original_issue_notes": [],
+  "item_ids": [
+    "item-39f3516d0ae3"
+  ],
+  "source_technical_sha256": "1ceda3043bd01222e4d4a28237cdfa4078819dc4c6cd30836022621a67164cd9",
+  "cross_source_categories": [],
+  "original_tags": "激光雷达、3D 空间解析模组",
+  "original_verification_wording": "大会官方页已核验。",
+  "original_review_wording": "检索/读取日期：2026-09-05。核验口径：已读取官方网页；参数属发布方声明。"
+}

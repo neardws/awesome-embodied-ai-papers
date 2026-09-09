@@ -1,0 +1,29 @@
+{
+  "id": "E285",
+  "supplier_as_published": "埃马克（中国）机械有限公司太仓分公司",
+  "source_category": "10-02",
+  "source_url": "https://www.worldrobotconference.com/expo/company/708.html",
+  "original_source_urls": [
+    "https://www.worldrobotconference.com/expo/company/708.html",
+    "https://www.worldrobotconference.com/expo/product/757.html",
+    "https://www.worldrobotconference.com/expo/product/758.html"
+  ],
+  "source_checked_on": "2026-09-05",
+  "evidence": "official_page",
+  "technical": {
+    "zh-CN": "VL4 为带自动化和存储区的立式车床；K160 为模数 2.5 以下齿轮加工方向，支持干湿加工；工件尺寸仍需具体配置表。",
+    "en": "VL4 is a vertical lathe with automation/storage. K160 targets gears below module 2.5 with dry/wet machining. Workpiece dimensions require configuration tables."
+  },
+  "original_product_line": "VL 4 立式车床、K 160 滚齿机及自动化生产系统",
+  "original_application_wording": "盘类、轴类和箱体类零件加工；批量生产自动化与齿轮加工",
+  "original_issue_notes": [],
+  "item_ids": [
+    "item-33771b0786ff",
+    "item-ed5238b3f03d"
+  ],
+  "source_technical_sha256": "441239207ec63d286495ff3599480df9dd28e2a4bd47b741db917fec2290e88c",
+  "cross_source_categories": [],
+  "original_tags": "数控机床与自动化生产系统",
+  "original_verification_wording": "大会官方页已核验。",
+  "original_review_wording": "检索/读取日期：2026-09-05。核验口径：已读取官方网页；参数属发布方声明。"
+}

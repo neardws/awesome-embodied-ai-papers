@@ -1,0 +1,25 @@
+{
+  "id": "E171",
+  "supplier_as_published": "蓝点触控(北京)科技有限公司",
+  "source_category": "07-01",
+  "source_url": "https://www.link-touch.com/productinfo/3240131.html",
+  "original_source_urls": [
+    "https://www.link-touch.com/productinfo/3240131.html",
+    "https://www.link-touch.com/"
+  ],
+  "source_checked_on": "2026-09-05",
+  "evidence": "official_search_or_alternate",
+  "technical": {
+    "zh-CN": "HQ 系列产品页标注 IP67、5 倍过载能力、内置低噪声放大器及 0.3%F.S 准度。该组参数仅对应 HQ 页面，不推广到全部六维力产品。",
+    "en": "The HQ page reports IP67, 5× overload tolerance, a low-noise amplifier and 0.3%F.S accuracy. These claims apply only to HQ and must not be generalized to all six-axis force products."
+  },
+  "original_product_line": "人形/通用六维力传感器、关节扭矩/拉压力传感器",
+  "original_application_wording": "工业、医疗手术、人形机器人、精密装配/打磨",
+  "original_issue_notes": [],
+  "item_ids": [],
+  "source_technical_sha256": "412a561f8096119afcc3d1608e9959c0b75bc82ce36c38fdc7ac8615d51ef5b5",
+  "cross_source_categories": [],
+  "original_tags": "六维力/关节扭矩传感器",
+  "original_verification_wording": "官网已核对。",
+  "original_review_wording": "检索/读取日期：2026-09-05。核验口径：官方搜索正文补充（直连受限或改用替代页）。"
+}

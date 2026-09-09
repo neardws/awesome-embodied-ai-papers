@@ -1,0 +1,33 @@
+{
+  "id": "E155",
+  "supplier_as_published": "成都航天凯特机电科技有限公司",
+  "source_category": "06-05",
+  "source_url": "https://www.worldrobotconference.com/expo/company/845.html",
+  "original_source_urls": [
+    "https://www.worldrobotconference.com/expo/company/845.html",
+    "https://www.worldrobotconference.com/expo/product/871.html",
+    "https://www.worldrobotconference.com/expo/product/1054.html",
+    "https://www.worldrobotconference.com/expo/product/872.html",
+    "https://www.worldrobotconference.com/expo/product/873.html"
+  ],
+  "source_checked_on": "2026-09-05",
+  "evidence": "official_page",
+  "technical": {
+    "zh-CN": "关节集成驱动、电机、减速器和编码器，分行星、谐波与摆线系列；另外展示轮腿巡检和仿生陪伴整机，不局限于伺服驱动。",
+    "en": "Joints integrate drive, motor, reducer and encoder in planetary, strain-wave and cycloidal families. Wheeled-legged inspection and biomimetic companion robots are also shown, extending beyond servo drives."
+  },
+  "original_product_line": "高性能伺服驱动器、关节模组；激光拒止巡检机器狗、四足仿生熊猫机器人",
+  "original_application_wording": "人形、轮式、四足机器人及协作机械臂；高危区域巡检；文旅、展馆、养老、家庭",
+  "original_issue_notes": [],
+  "item_ids": [
+    "item-442388efdc92",
+    "item-cb09419da6d6",
+    "item-37ce2bd195f7",
+    "item-20f56beb5c09"
+  ],
+  "source_technical_sha256": "fd873bb56189bb4cad35364abc8011716cfa3c8c2f3bc1fc913237f6df85bcdd",
+  "cross_source_categories": [],
+  "original_tags": "伺服驱动、关节模组",
+  "original_verification_wording": "官方页已核对。",
+  "original_review_wording": "检索/读取日期：2026-09-05。核验口径：已读取官方网页；参数属发布方声明。"
+}

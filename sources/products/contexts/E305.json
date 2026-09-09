@@ -1,0 +1,24 @@
+{
+  "id": "E305",
+  "supplier_as_published": "新加坡机器人学会",
+  "source_category": "11-03",
+  "source_url": "https://www.worldrobotconference.com/expo/company/704.html",
+  "original_source_urls": [
+    "https://www.worldrobotconference.com/expo/company/704.html"
+  ],
+  "source_checked_on": "2026-09-05",
+  "evidence": "official_page",
+  "technical": {
+    "zh-CN": "RSS 为新加坡非营利学术与产业组织，工作涉及会议、研究交流、人才与跨国协作；不作为整机厂商计数。",
+    "en": "RSS is a Singapore nonprofit academic/industrial organization for conferences, research exchange, talent and international cooperation. It is not counted as a robot manufacturer."
+  },
+  "original_product_line": "机器人学术与产业交流、跨国供需对接活动",
+  "original_application_wording": "机器人技术研究、技术转化、产业落地、国际交流与人才培养",
+  "original_issue_notes": [],
+  "item_ids": [],
+  "source_technical_sha256": "5769c670cf844e9fcef91d52cbd20c210d75d8ea19669815a6e1b08ee7be9f03",
+  "cross_source_categories": [],
+  "original_tags": "机器人行业协会与国际合作平台",
+  "original_verification_wording": "大会官方页已核验。",
+  "original_review_wording": "检索/读取日期：2026-09-05。核验口径：已读取官方网页；参数属发布方声明。"
+}

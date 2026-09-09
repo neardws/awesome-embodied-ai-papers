@@ -1,0 +1,31 @@
+{
+  "id": "E127",
+  "supplier_as_published": "广东灵锶智能科技有限公司",
+  "source_category": "01-03",
+  "source_url": "https://www.worldrobotconference.com/expo/company/841.html",
+  "original_source_urls": [
+    "https://www.worldrobotconference.com/expo/company/841.html",
+    "https://www.worldrobotconference.com/expo/product/819.html",
+    "https://www.worldrobotconference.com/expo/product/832.html"
+  ],
+  "source_checked_on": "2026-09-05",
+  "evidence": "official_page",
+  "technical": {
+    "zh-CN": "D30 配 Orin NX、双雷达，标注 IP56；D50WS 区分持续负载 100kg 和瞬时 200kg，其续航没有完整说明是否为该负载工况。",
+    "en": "D30 includes Orin NX, dual LiDAR and IP56. D50WS distinguishes 100kg sustained from 200kg instantaneous load; endurance is not clearly tied to that load condition."
+  },
+  "original_product_line": "灵锶 D30 中型四足机器人、灵锶 D50 重载轮足四足机器人",
+  "original_application_wording": "电力巡检、石化探测、应急搜救、科研教学；重型设备运输与大范围勘探",
+  "original_issue_notes": [],
+  "item_ids": [
+    "item-f6544fcdcf3c",
+    "item-ca2e2f91096c"
+  ],
+  "source_technical_sha256": "bc0a904927d5d81e7db86415bfb8e273b110ac5f7cfe2f6a21c1de6647a5d316",
+  "cross_source_categories": [
+    "04-05"
+  ],
+  "original_tags": "行业级四足/轮足巡检与重载移动机器人",
+  "original_verification_wording": "大会官方页已核验。",
+  "original_review_wording": "检索/读取日期：2026-09-05。核验口径：已读取官方网页；参数属发布方声明。"
+}

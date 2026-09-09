@@ -1,0 +1,25 @@
+{
+  "id": "E268",
+  "supplier_as_published": "深圳市智微智能科技股份有限公司",
+  "source_category": "08-02",
+  "source_url": "https://www.worldrobotconference.com/expo/company/702.html",
+  "original_source_urls": [
+    "https://www.worldrobotconference.com/expo/company/702.html",
+    "https://www.jwipc.com/robotic/brain_motion_control/eii-6300e.html"
+  ],
+  "source_checked_on": "2026-09-05",
+  "evidence": "official_page",
+  "technical": {
+    "zh-CN": "企业介绍覆盖工业物联网、ICT 和智能终端，强调研发与制造能力；未获得本轮具体机器人控制器型号参数。",
+    "en": "The company description spans industrial IoT, ICT and smart terminals, emphasizing development/manufacturing. No exact robot-controller specifications were obtained."
+  },
+  "original_product_line": "工业物联网、ICT 基础设施、智能终端；机器人具身大脑和运动控制器",
+  "original_application_wording": "机器人运动控制、工业物联网与智能终端部署",
+  "original_issue_notes": [],
+  "item_ids": [],
+  "source_technical_sha256": "b3d6a7f65e37d5aced3621b611c706522a86a021afe59ff4e9aaa7270aa3dc62",
+  "cross_source_categories": [],
+  "original_tags": "边缘计算与具身智能控制器",
+  "original_verification_wording": "大会官方页及官网已核验。",
+  "original_review_wording": "检索/读取日期：2026-09-05。核验口径：已读取官方网页；参数属发布方声明。"
+}

@@ -23,3 +23,11 @@
 全景按板块维护在 `sources/landscape/topics/`。修改对应文件中的中英文字段，然后运行 `python3 scripts/build_landscape.py` 和 `python3 scripts/check_docs.py`。生成器同步更新双语主题页、总览、图示、首页板块和论文交叉入口，避免直接修改生成区域。
 
 原始示例及其能力范围维护在 `sources/landscape/sources.json`，进展归纳在 `sources/landscape/progress.json`，分类顺序在 `sources/landscape/index.json`。每条来源须写明角色、具体网址、核对日期和证据状态；调整分类时保留稳定细类锚点或处理迁移。示例不是展商普查、兼容性保证或市场排名。
+
+## 产品细节更新
+
+逐型号/产品族字段及相关细类维护在 `sources/products/reviews.json`。每个已整理配置只保留一份源记录，不用其他型号的参数填补缺失字段。各领域专用字段在 `scripts/build_products.py` 中定义。
+
+原始技术证据按记录存于 `sources/products/contexts/`，包含中文原文哈希和英文译文。`items.json` 保留原始名称、规范显示名称及准确展项网址；关联记录不等于唯一商品型号。`categories.json` 保留来源分类及比较字段。来源记录文件保存 77 个输入文件哈希和空白字符恢复说明。
+
+运行 `python3 scripts/build_landscape.py` 同步生成全景与产品页面，再运行 `python3 scripts/check_docs.py`。归档核查日期与新增核验日期分开。认定论文实际使用需记录论文网址、页码、短引文、PDF 哈希和对应论文目录记录；否则使用相关路线标签。

@@ -1,0 +1,38 @@
+{
+  "id": "E251",
+  "supplier_as_published": "上海大晓无限机器人有限公司",
+  "source_category": "09-02",
+  "source_url": "https://www.worldrobotconference.com/expo/company/876.html",
+  "original_source_urls": [
+    "https://www.worldrobotconference.com/expo/company/876.html",
+    "https://www.worldrobotconference.com/expo/product/1400.html",
+    "https://www.worldrobotconference.com/expo/product/1401.html",
+    "https://www.worldrobotconference.com/expo/product/1402.html",
+    "https://www.worldrobotconference.com/expo/product/1403.html"
+  ],
+  "source_checked_on": "2026-09-05",
+  "evidence": "official_page",
+  "technical": {
+    "zh-CN": "Kairos 3.1 结合多模态理解、生成与预测；ACE 2.0 提供头手胸采集套件，手套标注 0.01N 灵敏度、角误差小于 2°及同步误差 1ms 内。开源许可未独立检查。",
+    "en": "Kairos 3.1 combines multimodal understanding, generation and prediction. ACE 2.0 provides head/hand/chest collection; its glove reports 0.01N sensitivity, angular error below 2° and synchronization error within 1ms. Licenses were not independently checked."
+  },
+  "original_product_line": "开悟世界模型Kairos 3.1、ACE Ego Kit、晓满即时零售方案、晓途自主作业方案",
+  "original_application_wording": "闪购仓、小店、仓店一体；园区与公安巡检",
+  "original_issue_notes": [],
+  "item_ids": [
+    "item-7c9e1c43e6b1",
+    "item-b428ea8e2645",
+    "item-f9d1a7914c30",
+    "item-a45aafce82b7"
+  ],
+  "source_technical_sha256": "a3f19b0267246386f51c0c2852ed400dc4f3f6ad689524b18e2bb03a24f7b3ce",
+  "cross_source_categories": [
+    "04-01",
+    "07-02",
+    "09-01",
+    "09-03"
+  ],
+  "original_tags": "世界模型、具身数据采集与空间智能",
+  "original_verification_wording": "大会官方页已核验。",
+  "original_review_wording": "检索/读取日期：2026-09-05。核验口径：已读取官方网页；参数属发布方声明。"
+}

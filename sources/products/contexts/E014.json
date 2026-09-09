@@ -1,0 +1,29 @@
+{
+  "id": "E014",
+  "supplier_as_published": "武汉格蓝若智能机器人有限公司",
+  "source_category": "01-01",
+  "source_url": "https://www.worldrobotconference.com/expo/company/864.html",
+  "original_source_urls": [
+    "https://www.worldrobotconference.com/expo/company/864.html",
+    "https://www.worldrobotconference.com/expo/product/1362.html"
+  ],
+  "source_checked_on": "2026-09-05",
+  "evidence": "official_page",
+  "technical": {
+    "zh-CN": "C1 展品介绍侧重舞台演艺、异常后自主复位及可配置交互，未给出自由度、负载或工业工位验证数据。",
+    "en": "C1 emphasizes stage performance, autonomous reset after anomalies and configurable interaction. Degrees of freedom, payload and industrial-workstation validation are not disclosed."
+  },
+  "original_product_line": "C1 人形机器人、“劳动者”机器人家族，含双足、轮式与四足形态",
+  "original_application_wording": "电力能源、危化应急、市政工程、科教文旅",
+  "original_issue_notes": [],
+  "item_ids": [
+    "item-4a461e52ad41"
+  ],
+  "source_technical_sha256": "c16d517552ca21ac8d87bc7e6ddff4bc8d009060bf79e28e1142317ab3c326a9",
+  "cross_source_categories": [
+    "03-05"
+  ],
+  "original_tags": "“劳动者”多形态具身机器人",
+  "original_verification_wording": "大会官方页已核验。",
+  "original_review_wording": "检索/读取日期：2026-09-05。核验口径：已读取官方网页；参数属发布方声明。"
+}

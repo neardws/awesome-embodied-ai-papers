@@ -1,0 +1,33 @@
+{
+  "id": "E149",
+  "supplier_as_published": "湖北开特汽车电子电器系统股份有限公司",
+  "source_category": "07-01",
+  "source_url": "https://www.worldrobotconference.com/expo/company/872.html",
+  "original_source_urls": [
+    "https://www.worldrobotconference.com/expo/company/872.html",
+    "https://www.worldrobotconference.com/expo/product/1405.html",
+    "https://www.worldrobotconference.com/expo/product/1408.html",
+    "https://www.worldrobotconference.com/expo/product/1410.html",
+    "https://www.worldrobotconference.com/expo/product/1412.html"
+  ],
+  "source_checked_on": "2026-09-05",
+  "evidence": "official_page",
+  "technical": {
+    "zh-CN": "一体化关节明确以谐波减速器为基础；六维力产品介绍材料与应用，但没有量程、串扰、精度和采样频率。",
+    "en": "Integrated joints explicitly use strain-wave reducers. Six-axis force products describe materials/applications but omit range, cross-talk, accuracy and sampling rate."
+  },
+  "original_product_line": "六维力传感器、感应式编码器、无框力矩电机、一体化关节",
+  "original_application_wording": "协作机器人、医疗机器人、精密打磨及航空航天装备",
+  "original_issue_notes": [],
+  "item_ids": [
+    "item-597d9bc32b4a",
+    "item-c37738039a0f",
+    "item-f5e851223903",
+    "item-032d944ddf7a"
+  ],
+  "source_technical_sha256": "8b7e444b898931bf3a22896803008b13c582168d0dd9bb26cb8897fdcb8c6bd9",
+  "cross_source_categories": [],
+  "original_tags": "力传感器、编码器、关节电机与一体化关节",
+  "original_verification_wording": "大会官方页已核验。",
+  "original_review_wording": "检索/读取日期：2026-09-05。核验口径：已读取官方网页；参数属发布方声明。"
+}

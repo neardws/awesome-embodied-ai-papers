@@ -1,0 +1,30 @@
+{
+  "id": "E254",
+  "supplier_as_published": "黑芝麻智能科技有限公司",
+  "source_category": "08-01",
+  "source_url": "https://www.worldrobotconference.com/expo/company/688.html",
+  "original_source_urls": [
+    "https://www.worldrobotconference.com/expo/company/688.html",
+    "https://www.worldrobotconference.com/expo/product/1366.html",
+    "https://www.blacksesame.com/zh/company-profile/"
+  ],
+  "source_checked_on": "2026-09-05",
+  "evidence": "official_page",
+  "technical": {
+    "zh-CN": "SesameX 包含 Kalos、Aura、Liora 三种模组，分别面向视觉驱动、感控协同和认知功能；目前不能从层级名称推算算力或功耗。",
+    "en": "SesameX includes Kalos, Aura and Liora for vision-driven, perception/control and cognition roles. Compute throughput and power cannot be inferred from those role names."
+  },
+  "original_product_line": "SesameX多维具身智能计算平台（Kalos、Aura、Liora模组）；华山/武当SoC",
+  "original_application_wording": "机器人智能计算；智能汽车、智能道路、智能机器人",
+  "original_issue_notes": [],
+  "item_ids": [
+    "item-f2aa1e587fff"
+  ],
+  "source_technical_sha256": "62e264974b4a2fa01824b65a1cd806486680d5990f51c41320c9684a125ba87d",
+  "cross_source_categories": [
+    "08-02"
+  ],
+  "original_tags": "端侧AI推理SoC与具身智能计算平台",
+  "original_verification_wording": "企业官网 + 大会官方页已核验。",
+  "original_review_wording": "检索/读取日期：2026-09-05。核验口径：已读取官方网页；参数属发布方声明。"
+}

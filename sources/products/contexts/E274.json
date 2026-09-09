@@ -1,0 +1,42 @@
+{
+  "id": "E274",
+  "supplier_as_published": "杰创智能科技股份有限公司",
+  "source_category": "04-05",
+  "source_url": "https://www.worldrobotconference.com/expo/company/637.html",
+  "original_source_urls": [
+    "https://www.worldrobotconference.com/expo/company/637.html",
+    "https://www.worldrobotconference.com/expo/product/1032.html",
+    "https://www.worldrobotconference.com/expo/product/1043.html",
+    "https://www.worldrobotconference.com/expo/product/1044.html",
+    "https://www.worldrobotconference.com/expo/product/1031.html",
+    "https://www.worldrobotconference.com/expo/product/1041.html",
+    "https://www.nexwise.com.cn/col3/"
+  ],
+  "source_checked_on": "2026-09-05",
+  "evidence": "official_page",
+  "technical": {
+    "zh-CN": "PM2 是带双光云台的轮足巡逻平台，页面标注 6T 边缘算力；PW2 为轻量巡防方案，另有独立安防装备，不能将其视为机器人标准配置。",
+    "en": "PM2 is a wheeled-legged patrol platform with dual-spectrum gimbal and claimed 6T edge compute. PW2 is a lightweight patrol option. Separate security equipment is not automatically a robot's standard configuration."
+  },
+  "original_product_line": "AI巡逻轮足机器狗、AI安全机器人、电磁网捕器、AI机器人综合指挥平台",
+  "original_application_wording": "警用巡逻、园区安保、应急救援、公安与工业等高危巡检",
+  "original_issue_notes": [],
+  "item_ids": [
+    "item-aab77a0ff471",
+    "item-3c4e92607888",
+    "item-ae35b60fce32",
+    "item-42332a7d09b3",
+    "item-f4c55b1614af",
+    "item-ddf1f2660649",
+    "item-2a6bb880acd2",
+    "item-29eb0d3bc04b",
+    "item-b2b99593cbb9"
+  ],
+  "source_technical_sha256": "ea455b6fe33bb0d099c2513727730d95250f5c2e2a29b44cf11a549a587dbb28",
+  "cross_source_categories": [
+    "01-03"
+  ],
+  "original_tags": "AI安防巡检与无人装备调度",
+  "original_verification_wording": "官网已核对。",
+  "original_review_wording": "检索/读取日期：2026-09-05。核验口径：已读取官方网页；参数属发布方声明。"
+}

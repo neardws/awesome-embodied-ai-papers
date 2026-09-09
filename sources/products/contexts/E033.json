@@ -1,0 +1,35 @@
+{
+  "id": "E033",
+  "supplier_as_published": "云深处科技股份有限公司",
+  "source_category": "01-03",
+  "source_url": "https://www.worldrobotconference.com/expo/company/776.html",
+  "original_source_urls": [
+    "https://www.worldrobotconference.com/expo/company/776.html",
+    "https://www.worldrobotconference.com/expo/product/1498.html",
+    "https://www.worldrobotconference.com/expo/product/1499.html",
+    "https://www.worldrobotconference.com/expo/product/1500.html",
+    "https://deeprobotics.cn/"
+  ],
+  "source_checked_on": "2026-09-05",
+  "evidence": "official_page",
+  "technical": {
+    "zh-CN": "S10 标注重量不超过 20kg、16 个关节、IP66；M20S 支持双电池热插拔；DR02 标注 IP66 和 -20℃至55℃。各型号环境与运动指标应分开比较。",
+    "en": "S10 reports mass no greater than 20kg, 16 joints and IP66. M20S supports hot-swappable dual batteries. DR02 reports IP66 and -20℃ to 55℃ operation. Compare environmental and motion specifications by model."
+  },
+  "original_product_line": "山猫 S10、M20S 四足/轮足机器人、DR02 行业级全天候人形机器人",
+  "original_application_wording": "电力巡检、应急救援、管廊、电力、金属冶炼、施工测绘、科研",
+  "original_issue_notes": [],
+  "item_ids": [
+    "item-ea36cec13bd3",
+    "item-4220994d25b8",
+    "item-37f1d2d94eb3"
+  ],
+  "source_technical_sha256": "4b784a701376a530ee667d45e12da832c14200860fb75d1f33f08ffadf576a8c",
+  "cross_source_categories": [
+    "01-01",
+    "04-05"
+  ],
+  "original_tags": "行业级四足/轮足与全天候人形机器人",
+  "original_verification_wording": "已核验（官网与大会官方页）。",
+  "original_review_wording": "检索/读取日期：2026-09-05。核验口径：已读取官方网页；参数属发布方声明。"
+}

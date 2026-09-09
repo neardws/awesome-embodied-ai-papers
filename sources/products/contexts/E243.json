@@ -1,0 +1,38 @@
+{
+  "id": "E243",
+  "supplier_as_published": "北京他山科技有限公司",
+  "source_category": "07-02",
+  "source_url": "https://www.worldrobotconference.com/expo/company/544.html",
+  "original_source_urls": [
+    "https://www.worldrobotconference.com/expo/company/544.html",
+    "https://www.worldrobotconference.com/expo/product/630.html",
+    "https://www.worldrobotconference.com/expo/product/631.html",
+    "https://www.worldrobotconference.com/expo/product/632.html",
+    "https://www.worldrobotconference.com/expo/product/1226.html",
+    "https://www.worldrobotconference.com/expo/product/1228.html"
+  ],
+  "source_checked_on": "2026-09-05",
+  "evidence": "official_page",
+  "technical": {
+    "zh-CN": "TSV 面向触觉抓取，TSVT 支持三维力、接近、接触信号的记录、标注与导出，另有触觉仿真；可按传感、数采、仿真三段检索。",
+    "en": "TSV targets tactile grasping. TSVT records, annotates and exports 3D force, proximity and contact, with separate tactile simulation. Index sensing, collection and simulation independently."
+  },
+  "original_product_line": "E10A 动态触觉芯片、TS-ECHO 触觉指套、TS-V/TS-VT 视触融合训练平台与触觉仿真",
+  "original_application_wording": "机器人指尖、电子皮肤、多模态数据采集、世界模型与灵巧抓取训练",
+  "original_issue_notes": [],
+  "item_ids": [
+    "item-333a6bc60738",
+    "item-67e6d0fa6c93",
+    "item-485da65aa150",
+    "item-5c1caee33a85",
+    "item-8d899fd21448"
+  ],
+  "source_technical_sha256": "360db132f28bcb2ff38a35d8a1bc21f4529d29dcbf3266e630ae65b26929216f",
+  "cross_source_categories": [
+    "09-03",
+    "09-04"
+  ],
+  "original_tags": "AI 触觉芯片与视触融合",
+  "original_verification_wording": "大会官方页已核验。",
+  "original_review_wording": "检索/读取日期：2026-09-05。核验口径：已读取官方网页；参数属发布方声明。"
+}

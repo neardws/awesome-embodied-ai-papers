@@ -1,0 +1,50 @@
+{
+  "id": "E309",
+  "supplier_as_published": "江淮前沿技术协同创新中心（江淮实验室）",
+  "source_category": "11-01",
+  "source_url": "https://www.worldrobotconference.com/expo/company/458.html",
+  "original_source_urls": [
+    "https://www.worldrobotconference.com/expo/company/458.html",
+    "https://www.worldrobotconference.com/expo/product/304.html",
+    "https://www.worldrobotconference.com/expo/product/300.html",
+    "https://www.worldrobotconference.com/expo/product/301.html",
+    "https://www.worldrobotconference.com/expo/product/302.html",
+    "https://www.worldrobotconference.com/expo/product/303.html"
+  ],
+  "source_checked_on": "2026-09-05",
+  "evidence": "official_page",
+  "technical": {
+    "zh-CN": "启江标注约 1.8m、60kg、38 主动自由度；触控手为 20 自由度、约 850g，指端视触觉分辨率与整手定位精度不能混用；另有弦枢绳驱产品。",
+    "en": "启江 reports about 1.8m, 60kg and 38 active degrees of freedom. The tactile hand reports 20 degrees of freedom and about 850g. Fingertip visual-tactile resolution is not whole-hand positioning accuracy. 弦枢 is a separate tendon-driven product."
+  },
+  "original_product_line": "弦枢绳驱机器人、启江人形机器人、灵巧触控手、具身控制器、智能性测评软件、关节模组",
+  "original_application_wording": "人机协作、医疗康复、精细作业；家庭服务、养老助残、智能装配与高危作业",
+  "original_issue_notes": [],
+  "item_ids": [
+    "item-60d2bdf42cbf",
+    "item-ae865d57bb56",
+    "item-5d30760b4446",
+    "item-fee22e9b8617",
+    "item-2ea2bce97415",
+    "item-78c09afd77be",
+    "item-332189a3874e",
+    "item-c401dd87b3f1",
+    "item-e7481352e9be",
+    "item-34ba55817830",
+    "item-485714aae992",
+    "item-3c9be6422a74",
+    "item-3355542be51e",
+    "item-156685d6dde0",
+    "item-941db030e951",
+    "item-f7fdba213c1b"
+  ],
+  "source_technical_sha256": "4062912a8999099ca10ac1a1b63e55da200b4f8d7bc66af74e8ea463beff6d29",
+  "cross_source_categories": [
+    "01-01",
+    "06-01",
+    "07-02"
+  ],
+  "original_tags": "人形机器人科研与技术验证平台",
+  "original_verification_wording": "大会官方页已核验。",
+  "original_review_wording": "检索/读取日期：2026-09-05。核验口径：已读取官方网页；参数属发布方声明。"
+}

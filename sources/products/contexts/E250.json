@@ -1,0 +1,37 @@
+{
+  "id": "E250",
+  "supplier_as_published": "上海蚂蚁灵波科技有限公司",
+  "source_category": "09-01",
+  "source_url": "https://www.worldrobotconference.com/expo/company/765.html",
+  "original_source_urls": [
+    "https://www.worldrobotconference.com/expo/company/765.html",
+    "https://www.worldrobotconference.com/expo/product/1532.html",
+    "https://www.worldrobotconference.com/expo/product/1535.html",
+    "https://www.worldrobotconference.com/expo/product/1536.html"
+  ],
+  "source_checked_on": "2026-09-05",
+  "evidence": "official_page",
+  "technical": {
+    "zh-CN": "LingBot 跨本体模型展示物流软包分拣、R2 药房履约和工业上下料；展示所用本体包含合作方产品，不能均归为蚂蚁自研。吞吐声明缺少统一工况。",
+    "en": "LingBot demonstrates cross-body models for soft-package logistics sorting, R2 pharmacy fulfillment and industrial loading. Demonstrated bodies include partner products, not all Ant-developed. Throughput claims lack common conditions."
+  },
+  "original_product_line": "LingBot 跨本体具身基座模型；物流、药房、工业上下料展示方案",
+  "original_application_wording": "物流柔性包裹分拣、零售药房取药打包、工业工件上下料",
+  "original_issue_notes": [
+    "具体问题：合作方本体与自研模型不能混记为同一主体自研产品。"
+  ],
+  "item_ids": [
+    "item-c93831fedbed",
+    "item-f81dc9d80ab4",
+    "item-9ea1b911c737"
+  ],
+  "source_technical_sha256": "6bc9858d4aa0d2e51a256b003ac3d13fca1f80720ba34bc9451c49cd72971fc4",
+  "cross_source_categories": [
+    "01-02",
+    "02-04",
+    "04-01"
+  ],
+  "original_tags": "跨本体具身智能基础模型",
+  "original_verification_wording": "展会官方页已核对。",
+  "original_review_wording": "检索/读取日期：2026-09-05。核验口径：已读取官方网页；参数属发布方声明。"
+}

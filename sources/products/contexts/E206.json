@@ -1,0 +1,37 @@
+{
+  "id": "E206",
+  "supplier_as_published": "无锡巨蟹智能驱动科技有限公司",
+  "source_category": "06-03",
+  "source_url": "https://www.worldrobotconference.com/expo/company/580.html",
+  "original_source_urls": [
+    "https://www.worldrobotconference.com/expo/company/580.html",
+    "https://www.worldrobotconference.com/expo/product/283.html",
+    "https://www.worldrobotconference.com/expo/product/284.html",
+    "https://www.worldrobotconference.com/expo/product/1316.html",
+    "https://www.worldrobotconference.com/expo/product/285.html"
+  ],
+  "source_checked_on": "2026-09-05",
+  "evidence": "official_page",
+  "technical": {
+    "zh-CN": "谐波关节 R48 至 R120MAX 标配 23bit 双编码器；另有七自由度臂与 28 自由度可折叠轮式机器人，支持二次开发。",
+    "en": "R48 through R120MAX strain-wave joints have 23bit dual encoders. Separate offerings include a seven-degree-of-freedom arm and a foldable 28-degree-of-freedom wheeled robot with development support."
+  },
+  "original_product_line": "七自由度机械臂、谐波关节、可折叠轮式机器人",
+  "original_application_wording": "防爆巡检与人形机器人",
+  "original_issue_notes": [],
+  "item_ids": [
+    "item-fea85b1fb416",
+    "item-e9559b356762",
+    "item-60d5af62bed7",
+    "item-18a3f5036301"
+  ],
+  "source_technical_sha256": "e1f78b98e0923baf30d8ea5fd32e8a3bb107cf9d45cbf2d8359f0acb5badfe18",
+  "cross_source_categories": [
+    "01-01",
+    "01-02",
+    "02-02"
+  ],
+  "original_tags": "谐波关节模组与仿生机械臂",
+  "original_verification_wording": "大会官方页已核验。",
+  "original_review_wording": "检索/读取日期：2026-09-05。核验口径：已读取官方网页；参数属发布方声明。"
+}

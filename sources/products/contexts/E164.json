@@ -1,0 +1,24 @@
+{
+  "id": "E164",
+  "supplier_as_published": "福瑞博工业自动化（上海）有限公司",
+  "source_category": "07-06",
+  "source_url": "https://www.posital.com/ch",
+  "original_source_urls": [
+    "https://www.posital.com/ch"
+  ],
+  "source_checked_on": "2026-09-05",
+  "evidence": "official_page",
+  "technical": {
+    "zh-CN": "POSITAL 提供绝对值、增量、KIT 编码器及倾角/拉线位移产品，增量产品最高 32768PPR，并有数据文档和图纸选型入口。",
+    "en": "POSITAL offers absolute, incremental and KIT encoders plus inclination/draw-wire products. Incremental versions reach 32768PPR, with documentation and drawing-selection tools."
+  },
+  "original_product_line": "旋转编码器、倾角传感器、直线位移传感器",
+  "original_application_wording": "运动控制、自动化系统",
+  "original_issue_notes": [],
+  "item_ids": [],
+  "source_technical_sha256": "a16213b6f34d6249623821b66ae3573dea31536bce44823892b289217fc2d5ac",
+  "cross_source_categories": [],
+  "original_tags": "编码器/运动控制传感器",
+  "original_verification_wording": "官网已核对。",
+  "original_review_wording": "检索/读取日期：2026-09-05。核验口径：已读取官方网页；参数属发布方声明。"
+}

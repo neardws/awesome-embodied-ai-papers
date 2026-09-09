@@ -1,0 +1,31 @@
+{
+  "id": "E061",
+  "supplier_as_published": "中科硅纪（南京）机器人有限公司",
+  "source_category": "01-02",
+  "source_url": "https://www.worldrobotconference.com/expo/company/512.html",
+  "original_source_urls": [
+    "https://www.worldrobotconference.com/expo/company/512.html",
+    "https://www.worldrobotconference.com/expo/product/312.html"
+  ],
+  "source_checked_on": "2026-09-05",
+  "evidence": "official_page",
+  "technical": {
+    "zh-CN": "Casia Hand 按部件、算法、整机、训练场组织产品，分别有工业服务“无际”和特种“无畏”，另提供数据手套与动捕产品。",
+    "en": "Casia Hand organizes components, algorithms, robots and training sites, with 无际 for industrial/service use and 无畏 for specialized work. Data gloves and motion-capture products are separate offerings."
+  },
+  "original_product_line": "Casia Hand 类人灵巧操作系统，“无际”“无畏”机器人，行业级灵巧手与数据手套",
+  "original_application_wording": "工业、服务和特种场景的类人灵巧操作；动作捕捉与训练数据采集",
+  "original_issue_notes": [],
+  "item_ids": [
+    "item-285704e39914"
+  ],
+  "source_technical_sha256": "08673af553ce850b176f469e0859803678322c6487508a5d6d7b5f2da1ec0cbe",
+  "cross_source_categories": [
+    "06-01",
+    "07-02",
+    "09-03"
+  ],
+  "original_tags": "类人灵巧操作具身机器人",
+  "original_verification_wording": "大会官方页已核验。",
+  "original_review_wording": "检索/读取日期：2026-09-05。核验口径：已读取官方网页；参数属发布方声明。"
+}

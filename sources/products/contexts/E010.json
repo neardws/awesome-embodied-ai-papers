@@ -1,0 +1,35 @@
+{
+  "id": "E010",
+  "supplier_as_published": "深圳市越疆科技股份有限公司",
+  "source_category": "01-01",
+  "source_url": "https://www.worldrobotconference.com/expo/company/427.html",
+  "original_source_urls": [
+    "https://www.worldrobotconference.com/expo/company/427.html",
+    "https://www.worldrobotconference.com/expo/product/288.html",
+    "https://www.worldrobotconference.com/expo/product/346.html",
+    "https://www.worldrobotconference.com/expo/product/1414.html"
+  ],
+  "source_checked_on": "2026-09-05",
+  "evidence": "official_page",
+  "technical": {
+    "zh-CN": "ATOM 与 ATOM-W 分别为双足和轮式形态；X-Trainer 采用遥操作数据与模仿学习，展示线束端子插拔等任务；Rover X1 使用轮腿切换和双视觉/UWB 感知。",
+    "en": "ATOM and ATOM-W are bipedal and wheeled respectively. X-Trainer uses teleoperation data and imitation learning for tasks such as cable-terminal insertion. Rover X1 combines wheel-leg switching with dual-vision/UWB sensing."
+  },
+  "original_product_line": "ATOM/ATOM-W、X-Trainer、Rover X1",
+  "original_application_wording": "工厂组装、餐饮、零售药房；化妆品装盒、新能源电池收纳、线束端子插拔",
+  "original_issue_notes": [],
+  "item_ids": [
+    "item-830ead487021",
+    "item-5135a558fa5d",
+    "item-7e7b43d57dcc"
+  ],
+  "source_technical_sha256": "3c7bf6f8b19f8754dce5a0dde43d9c7a72ad64676bace3ccd67f03f8ad662916",
+  "cross_source_categories": [
+    "01-02",
+    "01-03",
+    "09-03"
+  ],
+  "original_tags": "人形/轮式人形、具身训练与家用四足",
+  "original_verification_wording": "大会官方页已核验。",
+  "original_review_wording": "检索/读取日期：2026-09-05。核验口径：已读取官方网页；参数属发布方声明。"
+}

@@ -1,0 +1,24 @@
+{
+  "id": "E260",
+  "supplier_as_published": "兆易创新科技集团股份有限公司",
+  "source_category": "08-03",
+  "source_url": "https://www.gigadevice.com.cn/",
+  "original_source_urls": [
+    "https://www.gigadevice.com.cn/"
+  ],
+  "source_checked_on": "2026-09-05",
+  "evidence": "official_page",
+  "technical": {
+    "zh-CN": "官网出现 GD32F50MxxG 电机 MCU 与 GD32H77R，并有与旭日 S600 结合的六轴控制方案消息；芯片、控制板与整机应用应分层记录。",
+    "en": "The site mentions GD32F50MxxG motor MCU, GD32H77R and a six-axis control solution with 旭日 S600. Chips, control boards and full-robot applications must remain distinct layers."
+  },
+  "original_product_line": "GD32 MCU、SPI NOR/NAND、DRAM、传感器",
+  "original_application_wording": "小型伺服、机器人关节实时控制",
+  "original_issue_notes": [],
+  "item_ids": [],
+  "source_technical_sha256": "aaf12ffe19d1da463880302db7fdae05d4142273b1775559a4ce584e5e4fa239",
+  "cross_source_categories": [],
+  "original_tags": "实时控制 MCU/存储芯片",
+  "original_verification_wording": "官网已核对。",
+  "original_review_wording": "检索/读取日期：2026-09-05。核验口径：已读取官方网页；参数属发布方声明。"
+}

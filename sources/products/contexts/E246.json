@@ -1,0 +1,31 @@
+{
+  "id": "E246",
+  "supplier_as_published": "上海禾赛科技有限公司",
+  "source_category": "07-04",
+  "source_url": "https://www.worldrobotconference.com/expo/company/553.html",
+  "original_source_urls": [
+    "https://www.worldrobotconference.com/expo/company/553.html",
+    "https://www.worldrobotconference.com/expo/product/697.html",
+    "https://www.worldrobotconference.com/expo/product/698.html"
+  ],
+  "source_checked_on": "2026-09-05",
+  "evidence": "official_page",
+  "technical": {
+    "zh-CN": "JT 标注 360°×189°视场、最高 256 线；Kosmo 为三维资产和世界模型方向，需与硬件雷达分开建档。",
+    "en": "JT reports 360°×189° field of view and up to 256 lines. Kosmo addresses 3D assets and world models and needs a separate record from LiDAR hardware."
+  },
+  "original_product_line": "JT 系列超半球 3D 激光雷达、Kosmo AI 空间相机",
+  "original_application_wording": "具身智能、工业/农业/服务机器人、自动驾驶与三维场景重建",
+  "original_issue_notes": [],
+  "item_ids": [
+    "item-0ed0f6f7361e",
+    "item-8bde625daf1d"
+  ],
+  "source_technical_sha256": "f0c3fdb6640a46554e0cbc84f62afd6184df530e051c9c9c3f6d3616f9cf9a9a",
+  "cross_source_categories": [
+    "09-02"
+  ],
+  "original_tags": "3D 激光雷达与空间相机",
+  "original_verification_wording": "大会官方页已核验。",
+  "original_review_wording": "检索/读取日期：2026-09-05。核验口径：已读取官方网页；参数属发布方声明。"
+}

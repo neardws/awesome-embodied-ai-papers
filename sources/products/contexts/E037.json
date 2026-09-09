@@ -1,0 +1,35 @@
+{
+  "id": "E037",
+  "supplier_as_published": "浙江人形机器人创新中心有限公司",
+  "source_category": "01-02",
+  "source_url": "https://www.worldrobotconference.com/expo/company/393.html",
+  "original_source_urls": [
+    "https://www.worldrobotconference.com/expo/company/393.html",
+    "https://www.worldrobotconference.com/expo/product/235.html",
+    "https://www.worldrobotconference.com/expo/product/236.html",
+    "https://www.worldrobotconference.com/expo/product/237.html"
+  ],
+  "source_checked_on": "2026-09-05",
+  "evidence": "official_page",
+  "technical": {
+    "zh-CN": "WA2 面向通用柔性作业，WA1 面向装配、分液等精细任务，i3 为户外双足巡检平台；WA1 的“微米级”说法未附具体测量定义。",
+    "en": "WA2 targets general flexible work, WA1 precision assembly and liquid handling, and i3 outdoor biped inspection. WA1's micron-level claim has no defined measurement protocol."
+  },
+  "original_product_line": "NAVIAI WA2 通用柔性作业机器人、WA1 工业级超精密作业机器人、i3 全地形双足人形机器人",
+  "original_application_wording": "物流搬运、化工实验、商业服务；汽车装配、布料分片、试剂分液；户外安防巡检",
+  "original_issue_notes": [],
+  "item_ids": [
+    "item-f213e752f850",
+    "item-08215ece14f5",
+    "item-6227705c8886"
+  ],
+  "source_technical_sha256": "d987caaf7f02623f0254d9b0db42662fae21105e065b6d6e35a6bd9f8eb2abe9",
+  "cross_source_categories": [
+    "01-01",
+    "02-02",
+    "04-05"
+  ],
+  "original_tags": "轮臂式作业机器人与双足人形机器人",
+  "original_verification_wording": "大会官方页已核验。",
+  "original_review_wording": "检索/读取日期：2026-09-05。核验口径：已读取官方网页；参数属发布方声明。"
+}

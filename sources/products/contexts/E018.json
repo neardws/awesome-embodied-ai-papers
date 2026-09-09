@@ -1,0 +1,31 @@
+{
+  "id": "E018",
+  "supplier_as_published": "中联重科股份有限公司",
+  "source_category": "01-01",
+  "source_url": "https://www.worldrobotconference.com/expo/company/799.html",
+  "original_source_urls": [
+    "https://www.worldrobotconference.com/expo/company/799.html",
+    "https://www.worldrobotconference.com/expo/product/1449.html",
+    "https://www.worldrobotconference.com/expo/product/1452.html"
+  ],
+  "source_checked_on": "2026-09-05",
+  "evidence": "official_page",
+  "technical": {
+    "zh-CN": "Z01 以 Agent 组织识别、规划、执行与过程纠偏；Z03 面向机加、物流、装配、拣选和巡检。未披露各任务成功率与连续运行指标。",
+    "en": "Z01 organizes recognition, planning, execution and correction through an agent. Z03 targets machining, logistics, assembly, picking and inspection. Per-task success and continuous-operation metrics are not disclosed."
+  },
+  "original_product_line": "Z01 人形机器人、Z03 轮式机器人、工业场景具身智能云平台",
+  "original_application_wording": "机加、物流、装配、拣选、巡检等工业作业",
+  "original_issue_notes": [],
+  "item_ids": [
+    "item-faf466388589",
+    "item-e69903caaf82"
+  ],
+  "source_technical_sha256": "d6f2ccb497e991d3cf674edcad2f8c782b46705aa3215508ed87cb23c91f4455",
+  "cross_source_categories": [
+    "09-01"
+  ],
+  "original_tags": "工业场景人形与轮式具身机器人",
+  "original_verification_wording": "官方页已核对。",
+  "original_review_wording": "检索/读取日期：2026-09-05。核验口径：已读取官方网页；参数属发布方声明。"
+}

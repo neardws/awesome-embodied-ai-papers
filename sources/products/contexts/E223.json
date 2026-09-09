@@ -1,0 +1,33 @@
+{
+  "id": "E223",
+  "supplier_as_published": "麦克奥迪实业集团有限公司",
+  "source_category": "07-03",
+  "source_url": "https://www.worldrobotconference.com/expo/company/830.html",
+  "original_source_urls": [
+    "https://www.worldrobotconference.com/expo/company/830.html",
+    "https://www.worldrobotconference.com/expo/product/1269.html",
+    "https://www.worldrobotconference.com/expo/product/1270.html",
+    "https://www.worldrobotconference.com/expo/product/1271.html",
+    "https://www.worldrobotconference.com/expo/product/1272.html"
+  ],
+  "source_checked_on": "2026-09-05",
+  "evidence": "official_page",
+  "technical": {
+    "zh-CN": "LD800 面向焊接扫描、焊缝识别与路径；LD500 面向工业测量；LC25G2MH 为线光谱共焦产品，覆盖玻璃、BGA、晶圆等检测并提供 SDK。",
+    "en": "LD800 targets welding scans, seam recognition and paths; LD500 industrial measurement. LC25G2MH is a line-spectral confocal product for glass, BGA and wafers, with an SDK."
+  },
+  "original_product_line": "3DVision-LD800/LD500 线激光 3D 相机、共焦测头、工业共聚焦显微镜",
+  "original_application_wording": "机器人焊接、工件扫描、焊缝识别与跟踪；工业测量、自动化检测、微纳表面检测",
+  "original_issue_notes": [],
+  "item_ids": [
+    "item-c7364404d0ea",
+    "item-1614ef48b427",
+    "item-43c1aff41b71",
+    "item-95c77bbfbd10"
+  ],
+  "source_technical_sha256": "567a53ca1319aaff6f938b9856fca11e4cf02ebb73231f6744e531595b0f5997",
+  "cross_source_categories": [],
+  "original_tags": "工业 3D 视觉与精密检测",
+  "original_verification_wording": "官方页已核对。",
+  "original_review_wording": "检索/读取日期：2026-09-05。核验口径：已读取官方网页；参数属发布方声明。"
+}

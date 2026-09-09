@@ -1,0 +1,33 @@
+{
+  "id": "E221",
+  "supplier_as_published": "墨现科技（东莞）有限公司",
+  "source_category": "07-02",
+  "source_url": "https://www.worldrobotconference.com/expo/company/828.html",
+  "original_source_urls": [
+    "https://www.worldrobotconference.com/expo/company/828.html",
+    "https://www.worldrobotconference.com/expo/product/901.html",
+    "https://www.worldrobotconference.com/expo/product/903.html",
+    "https://www.worldrobotconference.com/expo/product/905.html"
+  ],
+  "source_checked_on": "2026-09-05",
+  "evidence": "official_page",
+  "technical": {
+    "zh-CN": "Eyes 采集 RGBD 与 IMU，Brain 提供便携同步、存储、压缩和加密，Hands 结合柔性动作与触觉采集；适合按采集链路组件检索。",
+    "en": "Eyes captures RGBD and IMU. Brain provides portable synchronization, storage, compression and encryption. Hands combines flexible-motion and tactile capture; index them as collection-chain components."
+  },
+  "original_product_line": "柔性压力触觉传感器、机器人电子皮肤、触觉数采手套、数采系统",
+  "original_application_wording": "人形机器人灵巧手的稳定抓取与柔性力控；智能家居、医疗健康、物联网",
+  "original_issue_notes": [],
+  "item_ids": [
+    "item-53c89b70c8f8",
+    "item-5b21943c6e8a",
+    "item-70ec429bf9b3"
+  ],
+  "source_technical_sha256": "8ad069b6f6e3f4879708052e55599798eab44379c7aab95f419a94c18d8baa37",
+  "cross_source_categories": [
+    "09-03"
+  ],
+  "original_tags": "柔性触觉传感与电子皮肤",
+  "original_verification_wording": "官方页已核对。",
+  "original_review_wording": "检索/读取日期：2026-09-05。核验口径：已读取官方网页；参数属发布方声明。"
+}

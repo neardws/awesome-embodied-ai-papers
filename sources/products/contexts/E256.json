@@ -1,0 +1,29 @@
+{
+  "id": "E256",
+  "supplier_as_published": "瑞芯微电子股份有限公司",
+  "source_category": "08-01",
+  "source_url": "https://www.worldrobotconference.com/expo/company/853.html",
+  "original_source_urls": [
+    "https://www.worldrobotconference.com/expo/company/853.html",
+    "https://www.worldrobotconference.com/expo/product/941.html",
+    "https://www.worldrobotconference.com/expo/product/1281.html"
+  ],
+  "source_checked_on": "2026-09-05",
+  "evidence": "official_page",
+  "technical": {
+    "zh-CN": "RK182X 为 AI 协处理器，列多核 RISC-V、2.5GB/5GB DRAM 及 USB3/PCIe；RK3588 为 A76+A55 SoC、6TOPS NPU，二者架构与用途不同。",
+    "en": "RK182X is an AI coprocessor with multicore RISC-V, 2.5GB/5GB DRAM and USB3/PCIe. RK3588 is an A76+A55 SoC with 6TOPS NPU. Their architectures and uses differ."
+  },
+  "original_product_line": "RK182X AI 协处理芯片、RK3588 旗舰芯及 AIoT 处理器芯片",
+  "original_application_wording": "具身智能、汽车电子、机器视觉、工业应用、教育办公、智能家居及消费电子",
+  "original_issue_notes": [],
+  "item_ids": [
+    "item-1f10d324422d",
+    "item-fb33db040b05"
+  ],
+  "source_technical_sha256": "38d7bf088ef0ab95541287589f1986f8c65950c7e396a2366ecc65ca740d706f",
+  "cross_source_categories": [],
+  "original_tags": "AIoT 处理器、AI 协处理器与 SoC",
+  "original_verification_wording": "大会官方页已核验。",
+  "original_review_wording": "检索/读取日期：2026-09-05。核验口径：已读取官方网页；参数属发布方声明。"
+}

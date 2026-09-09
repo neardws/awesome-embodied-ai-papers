@@ -1,0 +1,29 @@
+{
+  "id": "E005",
+  "supplier_as_published": "武汉光谷华汇科技有限公司",
+  "source_category": "09-03",
+  "source_url": "https://www.worldrobotconference.com/expo/company/858.html",
+  "original_source_urls": [
+    "https://www.worldrobotconference.com/expo/company/858.html",
+    "https://www.worldrobotconference.com/expo/product/1368.html"
+  ],
+  "source_checked_on": "2026-09-05",
+  "evidence": "official_page",
+  "technical": {
+    "zh-CN": "本次展品页仅补充到桌面级单双臂语音遥操方向，未给出抓取误差、语音识别率、控制协议或具体型号，不能据此形成性能比较。",
+    "en": "The exhibit text only establishes desktop single/dual-arm voice teleoperation. No grasping error, speech-recognition rate, control protocol or exact model is disclosed, preventing performance comparison."
+  },
+  "original_product_line": "桌面级单双臂（语音）遥操系统；人形机器人核心部件与整机研发",
+  "original_application_wording": "特种环境、公共安全及人形机器人多场景应用",
+  "original_issue_notes": [],
+  "item_ids": [
+    "item-03c0882a341a"
+  ],
+  "source_technical_sha256": "ca27bd3dedaef16a4af38ccfd7bca859ec05a621a7357805a683f146c60fa562",
+  "cross_source_categories": [
+    "02-03"
+  ],
+  "original_tags": "人形机器人遥操作与核心关节部件",
+  "original_verification_wording": "展会官方页已核对。",
+  "original_review_wording": "检索/读取日期：2026-09-05。核验口径：已读取官方网页；参数属发布方声明。"
+}

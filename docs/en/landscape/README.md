@@ -2,7 +2,7 @@
 
 [Home](../../../README.md) | [中文](../../zh-CN/landscape/README.md) | [Landscape index](README.md)
 
-Start with how embodied systems are built and used, then explore research methods, software and industrial implementations. This editorial framework contains **14 domains and 84 subcategories**. Robotics infrastructure and established automation are included where they support embodied systems; inclusion does not imply use of a foundation model.
+Start with how embodied systems are built and used, then explore research methods, software and industrial implementations. This editorial framework contains **14 domains and 87 subcategories**. Robotics infrastructure and established automation are included where they support embodied systems; inclusion does not imply use of a foundation model.
 
 ![Research and industry map](../../../figs/research-industry-landscape.svg)
 
@@ -29,7 +29,7 @@ Start with how embodied systems are built and used, then explore research method
 <tr>
 <td width="260"><a href="01-bodies.md">Robot bodies and form factors</a></td>
 <td width="340">Which body fits a task, balancing reach, mobility, cost and reliability?</td>
-<td width="580"><a href="01-bodies.md#01-01">Bipeds and general-purpose humanoids</a><br><a href="01-bodies.md#01-02">Wheeled bimanual mobile manipulators</a><br><a href="01-bodies.md#01-03">Quadrupeds and wheeled-legged robots</a><br><a href="01-bodies.md#01-04">Fixed industrial and collaborative arms</a><br><a href="01-bodies.md#01-05">Small open and educational platforms</a><br><a href="01-bodies.md#01-06">Specialized, soft and wearable bodies</a></td>
+<td width="580"><a href="01-bodies.md#01-01">Bipeds and general-purpose humanoids</a><br><a href="01-bodies.md#01-02">Wheeled bimanual mobile manipulators</a><br><a href="01-bodies.md#01-03">Quadrupeds and wheeled-legged robots</a><br><a href="01-bodies.md#01-04">Fixed industrial and collaborative arms</a><br><a href="01-bodies.md#01-05">Small open and educational platforms</a><br><a href="01-bodies.md#01-06">Specialized, soft and wearable bodies</a><br><a href="01-bodies.md#01-07">Mobile bases and modular carriers</a><br><a href="01-bodies.md#01-08">Fixed upper-body and dual-arm platforms</a></td>
 <td width="330"><a href="sources.md#source-toddler">ToddlerBot (Stanford University)</a><br><a href="sources.md#source-unitree">Unitree G1</a><br><a href="sources.md#source-franka">Franka Research 3</a></td>
 </tr>
 <tr>
@@ -47,7 +47,7 @@ Start with how embodied systems are built and used, then explore research method
 <tr>
 <td width="260"><a href="04-sensing.md">Sensing and interaction hardware</a></td>
 <td width="340">How are environment, body and contact signals measured and aligned?</td>
-<td width="580"><a href="04-sensing.md#04-01">Imaging, depth and 3D vision</a><br><a href="04-sensing.md#04-02">LiDAR, radar and ranging</a><br><a href="04-sensing.md#04-03">Inertial, encoder and proprioceptive sensing</a><br><a href="04-sensing.md#04-04">Force/torque and joint-torque sensing</a><br><a href="04-sensing.md#04-05">Tactile arrays and electronic skin</a><br><a href="04-sensing.md#04-06">Motion capture, speech and human interfaces</a></td>
+<td width="580"><a href="04-sensing.md#04-01">Imaging, depth and 3D vision</a><br><a href="04-sensing.md#04-02">LiDAR, radar and ranging</a><br><a href="04-sensing.md#04-03">Inertial, encoder and proprioceptive sensing</a><br><a href="04-sensing.md#04-04">Force/torque and joint-torque sensing</a><br><a href="04-sensing.md#04-05">Tactile arrays and electronic skin</a><br><a href="04-sensing.md#04-06">Motion capture, speech and human interfaces</a><br><a href="04-sensing.md#04-07">Environmental and chemical sensing</a></td>
 <td width="330"><a href="sources.md#source-digit">GelSight DIGIT</a><br><a href="sources.md#source-ati">ATI force/torque sensors</a><br><a href="sources.md#source-unitree">Unitree G1</a></td>
 </tr>
 <tr>
@@ -112,6 +112,8 @@ Start with how embodied systems are built and used, then explore research method
 </tr>
 </tbody>
 </table>
+
+For model-level values and complete archived technical evidence, open the [technical and product detail library](../products/README.md).
 
 ## Connections across the system
 

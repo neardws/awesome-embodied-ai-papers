@@ -1,0 +1,29 @@
+{
+  "id": "E126",
+  "supplier_as_published": "成都锦发边缘智能科技有限公司",
+  "source_category": "01-03",
+  "source_url": "https://www.worldrobotconference.com/expo/company/850.html",
+  "original_source_urls": [
+    "https://www.worldrobotconference.com/expo/company/850.html",
+    "https://www.worldrobotconference.com/expo/product/1487.html"
+  ],
+  "source_checked_on": "2026-09-05",
+  "evidence": "official_page",
+  "technical": {
+    "zh-CN": "巡25-D 使用前肘后膝构型和强化学习路线，页面标注越障≥60cm、坡度60°、IP67及 -40℃至55℃；环境标准声明未附测试报告。",
+    "en": "巡25-D uses a front-elbow/rear-knee configuration and reinforcement learning, reporting obstacle crossing ≥60cm, 60° slopes, IP67 and -40℃ to 55℃. Environmental-standard claims lack test reports."
+  },
+  "original_product_line": "户外全地形越野四足机器人（巡25-D）",
+  "original_application_wording": "国防、能源、交通、公共安全、工业制造等特种作业",
+  "original_issue_notes": [],
+  "item_ids": [
+    "item-c84114d885fc"
+  ],
+  "source_technical_sha256": "fd29768234ed8b047f9682606413e57d8b7de49e040f88cdba400e4fcf5a0c58",
+  "cross_source_categories": [
+    "04-05"
+  ],
+  "original_tags": "特种移动型具身智能、四足巡检",
+  "original_verification_wording": "大会官方页已核验。",
+  "original_review_wording": "检索/读取日期：2026-09-05。核验口径：已读取官方网页；参数属发布方声明。"
+}

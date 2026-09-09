@@ -1,0 +1,24 @@
+{
+  "id": "E166",
+  "supplier_as_published": "浙江捷昌线性驱动科技股份有限公司",
+  "source_category": "06-08",
+  "source_url": "https://www.jiecang.cn/",
+  "original_source_urls": [
+    "https://www.jiecang.cn/"
+  ],
+  "source_checked_on": "2026-09-05",
+  "evidence": "official_page",
+  "technical": {
+    "zh-CN": "官网单列机器人驱动部件、控制器及系统定制，线性驱动另覆盖护理床、轮椅、移位机及 AGV/AMR 等用途。",
+    "en": "The site separately lists robot drives, controllers and system customization. Linear drives also serve care beds, wheelchairs, transfer lifts and AGV/AMR applications."
+  },
+  "original_product_line": "电动推杆、升降柱、线性驱动系统",
+  "original_application_wording": "智能办公、医疗康复、智能家居、工业自动化",
+  "original_issue_notes": [],
+  "item_ids": [],
+  "source_technical_sha256": "cc039c02add9ef42f9d7b7c7562484088e276d780f5e65393c1a705292a6cf90",
+  "cross_source_categories": [],
+  "original_tags": "线性执行器/驱动系统",
+  "original_verification_wording": "官网已核对。",
+  "original_review_wording": "检索/读取日期：2026-09-05。核验口径：已读取官方网页；参数属发布方声明。"
+}

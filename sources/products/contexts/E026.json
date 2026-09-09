@@ -1,0 +1,36 @@
+{
+  "id": "E026",
+  "supplier_as_published": "星海图（北京）人工智能科技股份有限公司",
+  "source_category": "01-01",
+  "source_url": "https://www.worldrobotconference.com/expo/company/446.html",
+  "original_source_urls": [
+    "https://www.worldrobotconference.com/expo/company/446.html",
+    "https://www.worldrobotconference.com/expo/product/601.html",
+    "https://www.worldrobotconference.com/expo/product/603.html",
+    "https://www.worldrobotconference.com/expo/product/602.html",
+    "https://www.worldrobotconference.com/expo/product/945.html",
+    "https://galaxea-ai.com/cn/about"
+  ],
+  "source_checked_on": "2026-09-05",
+  "evidence": "official_page",
+  "technical": {
+    "zh-CN": "R1 Pro 标注身高 170cm、26 自由度；Kengo 的具身大脑接入在页面中仍属后续计划。A1Z 机械臂单独面向装配、科研和教学。",
+    "en": "R1 Pro is listed at 170cm and 26 degrees of freedom. Kengo's embodied-brain integration is still a future plan. A1Z is a separate arm for assembly, research and teaching."
+  },
+  "original_product_line": "Kengo 双足机器人、R1 轮式具身机器人、A1Z 机械臂、具身基础模型",
+  "original_application_wording": "工业制造、物流仓储、商业服务、科研/二次开发",
+  "original_issue_notes": [],
+  "item_ids": [
+    "item-5b328279a6e8",
+    "item-21f38fb1ba84",
+    "item-6514227394a7",
+    "item-974046bd78ba"
+  ],
+  "source_technical_sha256": "ee9a44b206edf84e52cc629f7eb20a2663d8eb6fed93412414592652d70be484",
+  "cross_source_categories": [
+    "02-02"
+  ],
+  "original_tags": "双足/轮式具身机器人与具身基础模型",
+  "original_verification_wording": "官网已核对。",
+  "original_review_wording": "检索/读取日期：2026-09-05。核验口径：已读取官方网页；参数属发布方声明。"
+}

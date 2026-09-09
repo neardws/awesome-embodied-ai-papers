@@ -1,0 +1,26 @@
+{
+  "id": "E225",
+  "supplier_as_published": "奥比中光科技集团股份有限公司",
+  "source_category": "07-03",
+  "source_url": "https://www.orbbec.com.cn/index.php/index/CompanyProfile/index.html?cate=49",
+  "original_source_urls": [
+    "https://www.orbbec.com.cn/index.php/index/CompanyProfile/index.html?cate=49"
+  ],
+  "source_checked_on": "2026-09-05",
+  "evidence": "official_page",
+  "technical": {
+    "zh-CN": "官方资料将机器人视觉与 AI 3D、数据采集及 CM/JDM 制造服务并列；本轮所读公司介绍没有具体相机参数，型号选型仍待产品规格页。",
+    "en": "Official materials list robot vision, AI 3D, data collection and CM/JDM manufacturing. The reviewed company profile contains no exact camera specifications; model selection needs product datasheets."
+  },
+  "original_product_line": "3D 视觉传感器、机器人/AI 视觉方案",
+  "original_application_wording": "机器人、3D 扫描、生物识别",
+  "original_issue_notes": [],
+  "item_ids": [],
+  "source_technical_sha256": "c292c5d0e6e8f6e69c402e62ef50eb93ac462bdc36417ee5aed40b7ba959ce00",
+  "cross_source_categories": [
+    "10-03"
+  ],
+  "original_tags": "3D 视觉/深度相机",
+  "original_verification_wording": "官网已核对。",
+  "original_review_wording": "检索/读取日期：2026-09-05。核验口径：已读取官方网页；参数属发布方声明。"
+}

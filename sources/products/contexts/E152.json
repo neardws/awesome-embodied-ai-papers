@@ -1,0 +1,29 @@
+{
+  "id": "E152",
+  "supplier_as_published": "江苏润泰机器人有限公司",
+  "source_category": "06-08",
+  "source_url": "https://www.worldrobotconference.com/expo/company/855.html",
+  "original_source_urls": [
+    "https://www.worldrobotconference.com/expo/company/855.html",
+    "https://www.worldrobotconference.com/expo/product/992.html"
+  ],
+  "source_checked_on": "2026-09-05",
+  "evidence": "official_page",
+  "technical": {
+    "zh-CN": "滚柱丝杠页面给出 G3/G5 精度等级、最高 90%传动效率；承载倍数为对同规格滚珠丝杠的厂商比较，未披露样本与载荷条件。",
+    "en": "Roller screws report G3/G5 accuracy grades and up to 90% efficiency. Load-multiplier comparisons against equally sized ball screws lack samples and load conditions."
+  },
+  "original_product_line": "行星滚柱丝杠、行星滚子轴承、电控伺服传动装置",
+  "original_application_wording": "精密机床、工业机器人、国防装备、重型机械",
+  "original_issue_notes": [],
+  "item_ids": [
+    "item-d3d4a8969d5e"
+  ],
+  "source_technical_sha256": "f75fa37e741a8e184446c0c8dea3d8f2f3e98b154a94df7b6124d090510c1647",
+  "cross_source_categories": [
+    "06-03"
+  ],
+  "original_tags": "行星滚柱丝杠、滚子轴承与伺服传动",
+  "original_verification_wording": "大会官方页已核验。",
+  "original_review_wording": "检索/读取日期：2026-09-05。核验口径：已读取官方网页；参数属发布方声明。"
+}

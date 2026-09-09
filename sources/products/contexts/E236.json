@@ -1,0 +1,31 @@
+{
+  "id": "E236",
+  "supplier_as_published": "武汉华威科智能技术有限公司",
+  "source_category": "07-02",
+  "source_url": "https://www.worldrobotconference.com/expo/company/711.html",
+  "original_source_urls": [
+    "https://www.worldrobotconference.com/expo/company/711.html",
+    "https://www.worldrobotconference.com/expo/product/1411.html",
+    "https://www.worldrobotconference.com/expo/product/1415.html"
+  ],
+  "source_checked_on": "2026-09-05",
+  "evidence": "official_page",
+  "technical": {
+    "zh-CN": "万象压阻式产品标注精度 1%FS、重复性 0.5%FS、触发力 0.05N、漂移 0.5%FS/h 和 7 倍过载，接口含 UART/IIC/SPI；各误差项须分开保存。",
+    "en": "万象 piezoresistive products report 1%FS accuracy, 0.5%FS repeatability, 0.05N trigger force, 0.5%FS/h drift and 7× overload, with UART/IIC/SPI. Keep these error measures separate."
+  },
+  "original_product_line": "万象系列高精度触觉传感器、触觉数据采集手套",
+  "original_application_wording": "具身灵巧手、精密装配、柔性抓取与具身训练",
+  "original_issue_notes": [],
+  "item_ids": [
+    "item-d4e5c69752cd",
+    "item-067e841e17ae"
+  ],
+  "source_technical_sha256": "b79ef6b4c262d9c4a4a6e6ea0b2112f73330c49c8e8a05ddde02d8cd8f665375",
+  "cross_source_categories": [
+    "07-01"
+  ],
+  "original_tags": "柔性触觉传感与数据采集",
+  "original_verification_wording": "大会官方页已核验。",
+  "original_review_wording": "检索/读取日期：2026-09-05。核验口径：已读取官方网页；参数属发布方声明。"
+}

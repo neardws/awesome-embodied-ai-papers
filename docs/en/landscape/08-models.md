@@ -20,42 +20,42 @@ This page distinguishes subcategory questions, research priorities and industria
 </thead>
 <tbody>
 <tr>
-<td width="240" nowrap><a id="08-01"></a>Vision-language-action foundation models</td>
+<td width="240" nowrap><a id="08-01"></a>Vision-language-action foundation models<br><a href="../products/topics/08-01.md">Product details</a></td>
 <td width="300">Generate robot actions from multimodal task inputs.</td>
 <td width="320">Cross-task and cross-body generalization, action encoding.</td>
 <td width="320">Robot-specific adaptation, latency and failure handling.</td>
 <td width="340">Unseen tasks, unseen scenes and physical-robot performance.</td>
 </tr>
 <tr>
-<td width="240" nowrap><a id="08-02"></a>World models and action consequence prediction</td>
+<td width="240" nowrap><a id="08-02"></a>World models and action consequence prediction<br><a href="../products/topics/08-02.md">Product details</a></td>
 <td width="300">Predict environmental states after actions.</td>
 <td width="320">Joint video, latent-state and action modeling.</td>
 <td width="320">Controller interfaces, error detection and compute cost.</td>
 <td width="340">Action-conditioned prediction error and decision benefit.</td>
 </tr>
 <tr>
-<td width="240" nowrap><a id="08-03"></a>Task decomposition and skill planning</td>
+<td width="240" nowrap><a id="08-03"></a>Task decomposition and skill planning<br><a href="../products/topics/08-03.md">Product details</a></td>
 <td width="300">Decompose requests into constrained executable steps.</td>
 <td width="320">Program generation, affordances and task-motion planning.</td>
 <td width="320">Skill interfaces, preconditions and orchestration.</td>
 <td width="340">Executability, long-task completion and human intervention.</td>
 </tr>
 <tr>
-<td width="240" nowrap><a id="08-04"></a>Long-term memory and personalization</td>
+<td width="240" nowrap><a id="08-04"></a>Long-term memory and personalization<br><a href="../products/topics/08-04.md">Product details</a></td>
 <td width="300">Adapt to users and environments using past experience.</td>
 <td width="320">Retrieval, memory updates and forgetting control.</td>
 <td width="320">User isolation, data governance and versioning.</td>
 <td width="340">Memory utility, update cost and error propagation.</td>
 </tr>
 <tr>
-<td width="240" nowrap><a id="08-05"></a>Failure monitoring and recovery</td>
+<td width="240" nowrap><a id="08-05"></a>Failure monitoring and recovery<br><a href="../products/topics/08-05.md">Product details</a></td>
 <td width="300">Detect deviations and reorganize actions.</td>
 <td width="320">Anomaly explanations, progress estimation and recovery policies.</td>
 <td width="320">Monitoring interfaces, takeover rules and safe exits.</td>
 <td width="340">Detection, false alarms and completion after recovery.</td>
 </tr>
 <tr>
-<td width="240" nowrap><a id="08-06"></a>Hierarchical agents and hybrid systems</td>
+<td width="240" nowrap><a id="08-06"></a>Hierarchical agents and hybrid systems<br><a href="../products/topics/08-06.md">Product details</a></td>
 <td width="300">Connect slow reasoning, fast actions and classical control.</td>
 <td width="320">Hierarchical interfaces, uncertainty propagation and joint learning.</td>
 <td width="320">Timing budgets, interface contracts and fault isolation.</td>
@@ -63,6 +63,14 @@ This page distinguishes subcategory questions, research priorities and industria
 </tr>
 </tbody>
 </table>
+
+## Technical and product details
+
+<a href="../products/comparisons/08-models.md">Open 9 related comparison records</a>
+
+Compare model-specific values, conditions, interfaces, research relationships and source issues. Full source excerpts and original exhibit links remain available underneath.
+
+<a href="../products/references/01-06.md">Embodied solutions with unspecified form</a> · <a href="../products/references/09-01.md">Embodied foundation models and policies</a> · <a href="../products/references/09-02.md">World models and causal reasoning</a> · <a href="../products/references/09-06.md">Enterprise agents and AI services</a>
 
 ## Research, platforms and industrial examples
 

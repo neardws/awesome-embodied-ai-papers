@@ -1,0 +1,28 @@
+{
+  "id": "E216",
+  "supplier_as_published": "赛感科技（深圳）有限公司",
+  "source_category": "07-02",
+  "source_url": "https://www.worldrobotconference.com/expo/company/886.html",
+  "original_source_urls": [
+    "https://www.worldrobotconference.com/expo/company/886.html",
+    "https://www.worldrobotconference.com/expo/product/1506.html",
+    "https://www.sycsense.com/"
+  ],
+  "source_checked_on": "2026-09-05",
+  "evidence": "official_page",
+  "technical": {
+    "zh-CN": "柔性三维力表面阵列可贴合曲面，面向不同材质物体的自适应抓取；未披露单点量程、空间密度和系统延迟。",
+    "en": "Flexible 3D-force surface arrays conform to curved surfaces for adaptive grasping across materials. Per-point range, spatial density and system latency are absent."
+  },
+  "original_product_line": "柔性触觉传感器、离电型电子皮肤、三维力灵巧手自适应触觉抓取",
+  "original_application_wording": "人形机器人、工业柔性抓取、消费电子、汽车电子、医疗健康、AI玩具",
+  "original_issue_notes": [],
+  "item_ids": [
+    "item-7af38bc93e8e"
+  ],
+  "source_technical_sha256": "07807655653ea5b7292e01e0a490acf1b6103fe79d68e45c8df5ca929cc13f5b",
+  "cross_source_categories": [],
+  "original_tags": "柔性触觉、电子皮肤与三维力感知",
+  "original_verification_wording": "企业官网 + 大会官方页已核验。",
+  "original_review_wording": "检索/读取日期：2026-09-05。核验口径：已读取官方网页；参数属发布方声明。"
+}

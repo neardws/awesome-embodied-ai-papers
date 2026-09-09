@@ -1,0 +1,31 @@
+{
+  "id": "E090",
+  "supplier_as_published": "山东国兴智能科技股份有限公司",
+  "source_category": "04-04",
+  "source_url": "https://www.worldrobotconference.com/expo/company/482.html",
+  "original_source_urls": [
+    "https://www.worldrobotconference.com/expo/company/482.html",
+    "https://www.worldrobotconference.com/expo/product/316.html",
+    "https://www.worldrobotconference.com/expo/product/317.html",
+    "https://www.worldrobotconference.com/expo/product/318.html"
+  ],
+  "source_checked_on": "2026-09-05",
+  "evidence": "official_page",
+  "technical": {
+    "zh-CN": "除电动灭火产品外，还列柴油驱动快速反应型号；履带底盘使用防护悬挂及插齿式驱动轮，定位高危现场遥控作业。",
+    "en": "The product line includes electric firefighting and diesel rapid-response versions. The tracked base uses protected suspension and toothed drive wheels for remotely operated hazardous-site work."
+  },
+  "original_product_line": "消防机器人、柴油快速响应灭火机器人、履带式移动底盘",
+  "original_application_wording": "隧道、厂区与石化环境的灭火、救援及有毒烟雾侦察",
+  "original_issue_notes": [],
+  "item_ids": [
+    "item-ea8347a5b937",
+    "item-6e3e507542a4",
+    "item-a547a13f8719"
+  ],
+  "source_technical_sha256": "6813d97a6b6e74429d85285f7e2fac2a88883ca527a3ad0bedfcd36dd3583084",
+  "cross_source_categories": [],
+  "original_tags": "消防应急与特种机器人",
+  "original_verification_wording": "大会官方页已核验。",
+  "original_review_wording": "检索/读取日期：2026-09-05。核验口径：已读取官方网页；参数属发布方声明。"
+}

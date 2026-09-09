@@ -1,0 +1,27 @@
+{
+  "id": "E161",
+  "supplier_as_published": "昆山精越科技有限公司",
+  "source_category": "06-05",
+  "source_url": "https://www.worldrobotconference.com/expo/company/822.html",
+  "original_source_urls": [
+    "https://www.worldrobotconference.com/expo/company/822.html",
+    "https://www.worldrobotconference.com/expo/product/841.html"
+  ],
+  "source_checked_on": "2026-09-05",
+  "evidence": "official_page",
+  "technical": {
+    "zh-CN": "环形直流伺服驱动列出外径 49mm、68mm、81mm 三种中空规格；电压、电流、通信和散热条件未在展项中披露。",
+    "en": "Annular DC servo drives list hollow outer diameters of 49mm, 68mm and 81mm. Voltage, current, communication and cooling conditions are not disclosed."
+  },
+  "original_product_line": "微型化大功率直流伺服驱动器、环形直流伺服驱动器、一体化伺服电机及关节模组",
+  "original_application_wording": "人形机器人、机器狗；卫星姿态控制与高精度装备运动控制",
+  "original_issue_notes": [],
+  "item_ids": [
+    "item-7d1ee824d575"
+  ],
+  "source_technical_sha256": "5eb23dfb1908df0f62df3da789974bb75894486b4c3f3670fd46bdbb6f01a9ab",
+  "cross_source_categories": [],
+  "original_tags": "直流伺服驱动与一体化关节",
+  "original_verification_wording": "官方页已核对。",
+  "original_review_wording": "检索/读取日期：2026-09-05。核验口径：已读取官方网页；参数属发布方声明。"
+}

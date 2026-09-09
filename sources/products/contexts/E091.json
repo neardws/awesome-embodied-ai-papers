@@ -1,0 +1,25 @@
+{
+  "id": "E091",
+  "supplier_as_published": "科沃斯机器人股份有限公司",
+  "source_category": "03-01",
+  "source_url": "https://www.ecovacsgroup.com/about-us",
+  "original_source_urls": [
+    "https://www.ecovacsgroup.com/about-us",
+    "https://www.ecovacs.cn/introduce/category"
+  ],
+  "source_checked_on": "2026-09-05",
+  "evidence": "official_page",
+  "technical": {
+    "zh-CN": "集团官网区分 ECOVACS 服务机器人与 TINECO 智能电器两条业务线；家庭、商用机器人与洗地电器不宜混为同一产品类别。",
+    "en": "The group site distinguishes ECOVACS service robotics from TINECO smart appliances. Household/commercial robots and floor-washing appliances should not be merged into one product category."
+  },
+  "original_product_line": "DEEBOT 地宝、WINBOT 窗宝、管家机器人、商用清洁机器人",
+  "original_application_wording": "家居地面清洁、擦窗、家庭管家及公共领域清洁",
+  "original_issue_notes": [],
+  "item_ids": [],
+  "source_technical_sha256": "5180e54db7b415e16c3decfe172768267570c14b10d0afc9f6842cecb2988a09",
+  "cross_source_categories": [],
+  "original_tags": "家庭清洁与商用清洁机器人",
+  "original_verification_wording": "官网已核对。",
+  "original_review_wording": "检索/读取日期：2026-09-05。核验口径：已读取官方网页；参数属发布方声明。"
+}

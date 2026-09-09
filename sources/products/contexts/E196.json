@@ -1,0 +1,34 @@
+{
+  "id": "E196",
+  "supplier_as_published": "湖北科峰智能传动股份有限公司",
+  "source_category": "06-03",
+  "source_url": "https://www.worldrobotconference.com/expo/company/633.html",
+  "original_source_urls": [
+    "https://www.worldrobotconference.com/expo/company/633.html",
+    "https://www.worldrobotconference.com/expo/product/692.html",
+    "https://www.worldrobotconference.com/expo/product/1349.html",
+    "https://www.worldrobotconference.com/expo/product/1350.html"
+  ],
+  "source_checked_on": "2026-09-05",
+  "evidence": "official_page",
+  "technical": {
+    "zh-CN": "滚柱丝杠副系列直径 8–100mm、导程 1–40mm、精度 P1–P5；KR45–128 旋转关节标配中空轴与双编码器，系列极值不组合为单一规格。",
+    "en": "Roller screws span 8–100mm diameter, 1–40mm lead and P1–P5 grades. KR45–128 rotary joints include hollow shafts and dual encoders. Series extrema do not form one specification."
+  },
+  "original_product_line": "行星滚柱丝杠、线性与旋转关节模组",
+  "original_application_wording": "机器人、新能源、机床与物流自动化",
+  "original_issue_notes": [],
+  "item_ids": [
+    "item-4e148fe35a3a",
+    "item-7094e6412dfb",
+    "item-ffdab8aa0407"
+  ],
+  "source_technical_sha256": "52b7359341d7de3ab2d8b35b8f30ead5604f99ebb2ccba69902174313b52c091",
+  "cross_source_categories": [
+    "06-07",
+    "06-08"
+  ],
+  "original_tags": "滚柱丝杠与关节模组",
+  "original_verification_wording": "大会官方页已核验。",
+  "original_review_wording": "检索/读取日期：2026-09-05。核验口径：已读取官方网页；参数属发布方声明。"
+}

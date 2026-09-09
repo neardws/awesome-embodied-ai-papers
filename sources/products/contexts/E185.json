@@ -1,0 +1,36 @@
+{
+  "id": "E185",
+  "supplier_as_published": "苏州卓誉电气技术有限公司",
+  "source_category": "06-03",
+  "source_url": "https://www.worldrobotconference.com/expo/company/598.html",
+  "original_source_urls": [
+    "https://www.worldrobotconference.com/expo/company/598.html",
+    "https://www.worldrobotconference.com/expo/product/576.html",
+    "https://www.worldrobotconference.com/expo/product/579.html",
+    "https://www.worldrobotconference.com/expo/product/580.html",
+    "https://www.worldrobotconference.com/expo/product/581.html",
+    "https://www.worldrobotconference.com/expo/product/582.html"
+  ],
+  "source_checked_on": "2026-09-05",
+  "evidence": "official_page",
+  "technical": {
+    "zh-CN": "电机可按外径和绕组定制；行星模组由自研电机、驱动和减速器构成。页面分别列电机最快三周、模组最快四至六周定制，属于条件性周期。",
+    "en": "Motors can be customized by diameter and winding; planetary modules combine in-house motor, drive and reducer. Minimum customization times of three weeks for motors and four–six for modules are conditional."
+  },
+  "original_product_line": "无框力矩电机、伺服驱动器、谐波/行星关节模组、直线执行器与指关节",
+  "original_application_wording": "人形、四足和医疗机器人关节及具身数据采集系统",
+  "original_issue_notes": [],
+  "item_ids": [
+    "item-823b98950924",
+    "item-d38f2a36a304",
+    "item-95d897a7e2ab",
+    "item-eb6d5c35a80c",
+    "item-5c1da430cb72",
+    "item-9ae5b67b50fb"
+  ],
+  "source_technical_sha256": "125849fd10891bf0f80fe0b6e952f2d92121968258784f220bff2eab9b5af4fe",
+  "cross_source_categories": [],
+  "original_tags": "电机、驱动与关节执行器",
+  "original_verification_wording": "大会官方页已核验。",
+  "original_review_wording": "检索/读取日期：2026-09-05。核验口径：已读取官方网页；参数属发布方声明。"
+}

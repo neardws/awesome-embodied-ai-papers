@@ -1,0 +1,27 @@
+{
+  "id": "E240",
+  "supplier_as_published": "帕西尼科技（北京）有限公司",
+  "source_category": "07-02",
+  "source_url": "https://www.worldrobotconference.com/expo/company/448.html",
+  "original_source_urls": [
+    "https://www.worldrobotconference.com/expo/company/448.html",
+    "https://www.worldrobotconference.com/expo/product/1245.html"
+  ],
+  "source_checked_on": "2026-09-05",
+  "evidence": "official_page",
+  "technical": {
+    "zh-CN": "本轮展品页主要为新旗舰预告，缺少可核对的型号和参数；保留原表触觉方向，不据预告填入性能数值。",
+    "en": "The reviewed exhibit page is mainly a flagship teaser without a verifiable model or specifications. Retain the tactile direction without inventing performance numbers."
+  },
+  "original_product_line": "霍尔式高精度触觉传感器、具身感知综合方案、全模态数据与具身智能模型",
+  "original_application_wording": "物流仓储、汽车产线及通用具身感知",
+  "original_issue_notes": [],
+  "item_ids": [
+    "item-a1eecf48b2b2"
+  ],
+  "source_technical_sha256": "95348f55460007dff42cd80ef5e8cf081d796516e81ee1c7ec9439a316956a0d",
+  "cross_source_categories": [],
+  "original_tags": "触觉传感与具身感知基础设施",
+  "original_verification_wording": "大会官方展商介绍已核验；旗舰新品型号待发布。",
+  "original_review_wording": "检索/读取日期：2026-09-05。核验口径：已读取官方网页；参数属发布方声明。"
+}

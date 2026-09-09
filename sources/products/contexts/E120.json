@@ -1,0 +1,31 @@
+{
+  "id": "E120",
+  "supplier_as_published": "杭州程天科技发展有限公司",
+  "source_category": "05-03",
+  "source_url": "https://www.worldrobotconference.com/expo/company/621.html",
+  "original_source_urls": [
+    "https://www.worldrobotconference.com/expo/company/621.html",
+    "https://www.worldrobotconference.com/expo/product/769.html",
+    "https://www.worldrobotconference.com/expo/product/868.html",
+    "https://www.worldrobotconference.com/expo/product/876.html"
+  ],
+  "source_checked_on": "2026-09-05",
+  "evidence": "official_page",
+  "technical": {
+    "zh-CN": "GoGo-H PRO 标注整机 2.2kg；UGO 为居家下肢版本、四组关节电机；KidGo 面向儿童康复。健康效果须另查临床证据。",
+    "en": "GoGo-H PRO reports 2.2kg total mass. UGO is a home lower-limb version with four joint-motor groups. KidGo targets pediatric rehabilitation; health outcomes require separate clinical evidence."
+  },
+  "original_product_line": "GoGo-H PRO 主动髋助力外骨骼、UGO 居家下肢外骨骼、KidGo 儿童下肢外骨骼",
+  "original_application_wording": "户外行走助力，截瘫、偏瘫、脑瘫康复及儿童康复",
+  "original_issue_notes": [],
+  "item_ids": [
+    "item-6bc3ee06c097",
+    "item-e3b0b8c79033",
+    "item-4a5eb4ae30ce"
+  ],
+  "source_technical_sha256": "68b451ec02e0162f62dc88e2822e4c9049a47dd071f5c2cd68f2cbef6e221de7",
+  "cross_source_categories": [],
+  "original_tags": "下肢助力与康复外骨骼",
+  "original_verification_wording": "大会官方页已核验。",
+  "original_review_wording": "检索/读取日期：2026-09-05。核验口径：已读取官方网页；参数属发布方声明。"
+}

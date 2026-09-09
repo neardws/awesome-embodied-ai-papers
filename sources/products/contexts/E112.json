@@ -1,0 +1,29 @@
+{
+  "id": "E112",
+  "supplier_as_published": "上海擎朗智能科技有限公司",
+  "source_category": "01-02",
+  "source_url": "https://www.worldrobotconference.com/expo/company/455.html",
+  "original_source_urls": [
+    "https://www.worldrobotconference.com/expo/company/455.html",
+    "https://www.worldrobotconference.com/expo/product/455.html",
+    "https://www.worldrobotconference.com/expo/product/456.html"
+  ],
+  "source_checked_on": "2026-09-05",
+  "evidence": "official_page",
+  "technical": {
+    "zh-CN": "XMAN-R1 侧重服务任务及与专用机器人协作；F1 为双足形态，面向楼梯、坡面等轮式难覆盖空间，具体长程任务成功率未公开。",
+    "en": "XMAN-R1 targets service tasks and cooperation with specialized robots. F1 is bipedal for stairs and slopes inaccessible to wheels. Long-horizon task success is not disclosed."
+  },
+  "original_product_line": "XMAN-R1 轮式人形服务机器人、XMAN-F1 双足人形机器人",
+  "original_application_wording": "收餐、行李运送、客房清洁与餐厅协作",
+  "original_issue_notes": [],
+  "item_ids": [
+    "item-d940b90af67f",
+    "item-b1b658705caf"
+  ],
+  "source_technical_sha256": "f12d7f28f1b18dffea3d127603d96ac4b69135227c990def0e7d839c5e7b0c0a",
+  "cross_source_categories": [],
+  "original_tags": "人形具身服务机器人",
+  "original_verification_wording": "大会官方页已核验。",
+  "original_review_wording": "检索/读取日期：2026-09-05。核验口径：已读取官方网页；参数属发布方声明。"
+}

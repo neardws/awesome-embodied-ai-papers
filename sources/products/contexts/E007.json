@@ -1,0 +1,28 @@
+{
+  "id": "E007",
+  "supplier_as_published": "四川天链机器人股份有限公司",
+  "source_category": "01-01",
+  "source_url": "https://www.tlibot.com/",
+  "original_source_urls": [
+    "https://www.tlibot.com/",
+    "https://www.tlibot.com/about_us.html",
+    "https://www.tlibot.com/cpzx/1203654072188612608.html"
+  ],
+  "source_checked_on": "2026-09-05",
+  "evidence": "official_search_or_alternate",
+  "technical": {
+    "zh-CN": "官网将本体、超轻量协作臂、复合机器人和核心部件并列，提供一站式自动化方案；产品入口还强调关节制动配置。具体型号参数需继续查产品资料。",
+    "en": "The official site separately lists bodies, ultralight collaborative arms, composite robots and core components, with automation solutions and joint-brake configurations. Model-specific specifications still require product documentation."
+  },
+  "original_product_line": "人形机器人、超轻量协作机器人、复合机器人、谐波减速机、一体化关节",
+  "original_application_wording": "一站式自动化解决方案；具体行业待官网进一步核实",
+  "original_issue_notes": [],
+  "item_ids": [],
+  "source_technical_sha256": "a5d6f2df2d8dd7da3228254444803a6b4ac022fc151a0292ae1c910e27e3b590",
+  "cross_source_categories": [
+    "02-02"
+  ],
+  "original_tags": "人形、协作、复合机器人及核心传动",
+  "original_verification_wording": "企业官网已核验。",
+  "original_review_wording": "检索/读取日期：2026-09-05。核验口径：官方搜索正文补充（直连受限或改用替代页）。"
+}

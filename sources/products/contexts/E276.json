@@ -1,0 +1,27 @@
+{
+  "id": "E276",
+  "supplier_as_published": "北京京城机电控股有限责任公司",
+  "source_category": "02-04",
+  "source_url": "https://www.jcmeh.com/DefaultInfoWordD.aspx?c2NvZGU9NzUxMiZkaGlkPSZkaD03Nw%3D%3D",
+  "original_source_urls": [
+    "https://www.jcmeh.com/DefaultInfoWordD.aspx?c2NvZGU9NzUxMiZkaGlkPSZkaD03Nw%3D%3D"
+  ],
+  "source_checked_on": "2026-09-05",
+  "evidence": "official_page",
+  "technical": {
+    "zh-CN": "2026-01-16 官方总结将机器人本体、系统集成和零部件列入产业布局，同时涉及机床与增材制造；集团业务不代表每一项均有本次独立展品。",
+    "en": "The official 2026-01-16 summary includes robot bodies, integration and components alongside machine tools and additive manufacturing. Group businesses do not imply separate exhibits for every capability."
+  },
+  "original_product_line": "大负载工业机器人、免示教焊接系统、智能制造方案",
+  "original_application_wording": "机器人本体制造、系统集成、白电/酿酒生产线",
+  "original_issue_notes": [],
+  "item_ids": [],
+  "source_technical_sha256": "182bb8b599d59d9c8dec1ce8edeb805369e9c6cf1960674fd80aade2acc0ecb3",
+  "cross_source_categories": [
+    "10-01",
+    "10-02"
+  ],
+  "original_tags": "工业机器人/免示教焊接/智能制造",
+  "original_verification_wording": "官网已核对。",
+  "original_review_wording": "检索/读取日期：2026-09-05。核验口径：已读取官方网页；参数属发布方声明。"
+}

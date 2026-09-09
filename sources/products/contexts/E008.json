@@ -1,0 +1,38 @@
+{
+  "id": "E008",
+  "supplier_as_published": "成都人形机器人创新中心有限公司",
+  "source_category": "01-05",
+  "source_url": "https://www.worldrobotconference.com/expo/company/772.html",
+  "original_source_urls": [
+    "https://www.worldrobotconference.com/expo/company/772.html",
+    "https://www.worldrobotconference.com/expo/product/1267.html",
+    "https://www.worldrobotconference.com/expo/product/1268.html",
+    "https://www.worldrobotconference.com/expo/product/1273.html",
+    "https://www.worldrobotconference.com/expo/product/1295.html",
+    "https://www.worldrobotconference.com/expo/product/1296.html",
+    "https://www.ruidiculous.com/"
+  ],
+  "source_checked_on": "2026-09-05",
+  "evidence": "official_page",
+  "technical": {
+    "zh-CN": "锦宝标注身高 1.52m，支持语音、动作及眼部表情交互；贡嘎一号标注整机 25kg、负载 5.5kg、续航 8 小时，但未交代续航测试条件。",
+    "en": "锦宝 is listed at 1.52m with speech, motion and eye-expression interaction. 贡嘎一号 is listed at 25kg, 5.5kg payload and 8-hour endurance, without endurance test conditions."
+  },
+  "original_product_line": "贡嘎一号、镋钯、锦宝；仿生恐龙机器人；AI神经网络电子皮肤",
+  "original_application_wording": "文旅、教育科普、博物馆、游乐园、电影制作；导游、导览、表演、巡检",
+  "original_issue_notes": [],
+  "item_ids": [
+    "item-1d0083b73153",
+    "item-58a7971a6a92",
+    "item-39c92afde3c7",
+    "item-18d5be1e8485",
+    "item-9ccb71be6293"
+  ],
+  "source_technical_sha256": "fa1876f8940f0cf91bbeb0bd1c9b0a3b43f5b936396c58a592f07d6c7248366b",
+  "cross_source_categories": [
+    "01-01"
+  ],
+  "original_tags": "通用/文旅人形、仿生机器人、电子皮肤",
+  "original_verification_wording": "企业官网 + 大会官方页已核验。",
+  "original_review_wording": "检索/读取日期：2026-09-05。核验口径：已读取官方网页；参数属发布方声明。"
+}

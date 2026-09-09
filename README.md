@@ -20,7 +20,7 @@ Landscape source review: 2026-09-08 · Legacy paper and hardware evidence dates 
 
 ## Research and industry at a glance
 
-Explore **14 domains and 84 subcategories** through their problems, research priorities, industrial roles and comparison criteria. The landscape connects to the six research tracks below.
+Explore **14 domains and 87 subcategories** through their problems, research priorities, industrial roles and comparison criteria. The landscape connects to the six research tracks below.
 
 ![Research and industry landscape](figs/research-industry-landscape.svg)
 
@@ -29,6 +29,7 @@ Explore **14 domains and 84 subcategories** through their problems, research pri
 - [Full landscape and system connections](docs/en/landscape/README.md)
 - [Progress and shared bottlenecks](docs/en/landscape/progress.md)
 - [Participants, sources and evidence states](docs/en/landscape/sources.md)
+- [Technical and product detail library](docs/en/products/README.md)
 
 ## Domain and subcategory overview
 
@@ -45,7 +46,7 @@ Explore **14 domains and 84 subcategories** through their problems, research pri
 <tr>
 <td width="260"><a href="docs/en/landscape/01-bodies.md">Robot bodies and form factors</a></td>
 <td width="340">Which body fits a task, balancing reach, mobility, cost and reliability?</td>
-<td width="580"><a href="docs/en/landscape/01-bodies.md#01-01">Bipeds and general-purpose humanoids</a><br><a href="docs/en/landscape/01-bodies.md#01-02">Wheeled bimanual mobile manipulators</a><br><a href="docs/en/landscape/01-bodies.md#01-03">Quadrupeds and wheeled-legged robots</a><br><a href="docs/en/landscape/01-bodies.md#01-04">Fixed industrial and collaborative arms</a><br><a href="docs/en/landscape/01-bodies.md#01-05">Small open and educational platforms</a><br><a href="docs/en/landscape/01-bodies.md#01-06">Specialized, soft and wearable bodies</a></td>
+<td width="580"><a href="docs/en/landscape/01-bodies.md#01-01">Bipeds and general-purpose humanoids</a><br><a href="docs/en/landscape/01-bodies.md#01-02">Wheeled bimanual mobile manipulators</a><br><a href="docs/en/landscape/01-bodies.md#01-03">Quadrupeds and wheeled-legged robots</a><br><a href="docs/en/landscape/01-bodies.md#01-04">Fixed industrial and collaborative arms</a><br><a href="docs/en/landscape/01-bodies.md#01-05">Small open and educational platforms</a><br><a href="docs/en/landscape/01-bodies.md#01-06">Specialized, soft and wearable bodies</a><br><a href="docs/en/landscape/01-bodies.md#01-07">Mobile bases and modular carriers</a><br><a href="docs/en/landscape/01-bodies.md#01-08">Fixed upper-body and dual-arm platforms</a></td>
 <td width="330"><a href="docs/en/landscape/sources.md#source-toddler">ToddlerBot (Stanford University)</a><br><a href="docs/en/landscape/sources.md#source-unitree">Unitree G1</a><br><a href="docs/en/landscape/sources.md#source-franka">Franka Research 3</a></td>
 </tr>
 <tr>
@@ -63,7 +64,7 @@ Explore **14 domains and 84 subcategories** through their problems, research pri
 <tr>
 <td width="260"><a href="docs/en/landscape/04-sensing.md">Sensing and interaction hardware</a></td>
 <td width="340">How are environment, body and contact signals measured and aligned?</td>
-<td width="580"><a href="docs/en/landscape/04-sensing.md#04-01">Imaging, depth and 3D vision</a><br><a href="docs/en/landscape/04-sensing.md#04-02">LiDAR, radar and ranging</a><br><a href="docs/en/landscape/04-sensing.md#04-03">Inertial, encoder and proprioceptive sensing</a><br><a href="docs/en/landscape/04-sensing.md#04-04">Force/torque and joint-torque sensing</a><br><a href="docs/en/landscape/04-sensing.md#04-05">Tactile arrays and electronic skin</a><br><a href="docs/en/landscape/04-sensing.md#04-06">Motion capture, speech and human interfaces</a></td>
+<td width="580"><a href="docs/en/landscape/04-sensing.md#04-01">Imaging, depth and 3D vision</a><br><a href="docs/en/landscape/04-sensing.md#04-02">LiDAR, radar and ranging</a><br><a href="docs/en/landscape/04-sensing.md#04-03">Inertial, encoder and proprioceptive sensing</a><br><a href="docs/en/landscape/04-sensing.md#04-04">Force/torque and joint-torque sensing</a><br><a href="docs/en/landscape/04-sensing.md#04-05">Tactile arrays and electronic skin</a><br><a href="docs/en/landscape/04-sensing.md#04-06">Motion capture, speech and human interfaces</a><br><a href="docs/en/landscape/04-sensing.md#04-07">Environmental and chemical sensing</a></td>
 <td width="330"><a href="docs/en/landscape/sources.md#source-digit">GelSight DIGIT</a><br><a href="docs/en/landscape/sources.md#source-ati">ATI force/torque sensors</a><br><a href="docs/en/landscape/sources.md#source-unitree">Unitree G1</a></td>
 </tr>
 <tr>

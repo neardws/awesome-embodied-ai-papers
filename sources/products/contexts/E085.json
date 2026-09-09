@@ -1,0 +1,27 @@
+{
+  "id": "E085",
+  "supplier_as_published": "法奥（苏州）机器人技术股份有限公司",
+  "source_category": "02-02",
+  "source_url": "https://www.worldrobotconference.com/expo/company/615.html",
+  "original_source_urls": [
+    "https://www.worldrobotconference.com/expo/company/615.html",
+    "https://www.worldrobotconference.com/expo/product/1425.html"
+  ],
+  "source_checked_on": "2026-09-05",
+  "evidence": "official_page",
+  "technical": {
+    "zh-CN": "ART 采用七自由度架构与十字交叉手腕，提供全关节力控和柔顺交互；页面未列额定负载、带宽或精度数值。",
+    "en": "ART uses seven degrees of freedom and a cross-shaped wrist, with all-joint force control and compliant interaction. Rated payload, bandwidth and precision are not specified."
+  },
+  "original_product_line": "ART 系列工业级人形力控臂",
+  "original_application_wording": "工业具身智能的精密运动与全关节力控作业；具体行业待核实",
+  "original_issue_notes": [],
+  "item_ids": [
+    "item-5e03ac5abeae"
+  ],
+  "source_technical_sha256": "edc163637814b0c48370d7f20c90ddfda1ea8e20ba35863a5569d9e63f0cc6ec",
+  "cross_source_categories": [],
+  "original_tags": "工业级人形力控臂",
+  "original_verification_wording": "大会官方页已核验；具体行业待核实。",
+  "original_review_wording": "检索/读取日期：2026-09-05。核验口径：已读取官方网页；参数属发布方声明。"
+}

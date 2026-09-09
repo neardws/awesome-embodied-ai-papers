@@ -1,0 +1,31 @@
+{
+  "id": "E015",
+  "supplier_as_published": "湖北光谷东智具身智能技术有限公司",
+  "source_category": "01-01",
+  "source_url": "https://www.worldrobotconference.com/expo/company/859.html",
+  "original_source_urls": [
+    "https://www.worldrobotconference.com/expo/company/859.html",
+    "https://www.worldrobotconference.com/expo/product/1422.html",
+    "https://www.worldrobotconference.com/expo/product/1423.html"
+  ],
+  "source_checked_on": "2026-09-05",
+  "evidence": "official_page",
+  "technical": {
+    "zh-CN": "Lumen U1 是轮式康养平台，加入个性化记忆、健康问答和自主巡检；Lumen S1 侧重情感计算与运动交互。公开页面主要是功能描述。",
+    "en": "Lumen U1 is a wheeled care platform with personalized memory, health questions and autonomous inspection. Lumen S1 emphasizes affective computing and motion interaction. Public descriptions are mainly functional."
+  },
+  "original_product_line": "光子系列全尺寸/小尺寸/轮臂式人形、四足及功能型机器人；Lumen U1/S1",
+  "original_application_wording": "老年健康管理、安全与生活辅助；科教、娱乐陪伴、养老、营销展示",
+  "original_issue_notes": [],
+  "item_ids": [
+    "item-b30290b55da1",
+    "item-b119b9b6b9d4"
+  ],
+  "source_technical_sha256": "71a0720ec15ab66dba5efbdd37fbdba3d91bf4fa9ff6b5f9442e8267548c3cc0",
+  "cross_source_categories": [
+    "03-04"
+  ],
+  "original_tags": "光子系列人形与四足机器人",
+  "original_verification_wording": "大会官方页已核验。",
+  "original_review_wording": "检索/读取日期：2026-09-05。核验口径：已读取官方网页；参数属发布方声明。"
+}

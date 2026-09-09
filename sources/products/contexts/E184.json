@@ -1,0 +1,29 @@
+{
+  "id": "E184",
+  "supplier_as_published": "深圳市兆威灵巧手技术有限公司",
+  "source_category": "06-01",
+  "source_url": "https://www.worldrobotconference.com/expo/company/533.html",
+  "original_source_urls": [
+    "https://www.worldrobotconference.com/expo/company/533.html",
+    "https://www.worldrobotconference.com/expo/product/298.html",
+    "https://www.worldrobotconference.com/expo/product/718.html"
+  ],
+  "source_checked_on": "2026-09-05",
+  "evidence": "official_page",
+  "technical": {
+    "zh-CN": "B06 采用六电机连杆；B21 标注 21 自由度、700g、指尖 15N，并集成触觉。页面“百万次寿命”未附循环条件。",
+    "en": "B06 uses a six-motor linkage. B21 reports 21 degrees of freedom, 700g, 15N fingertip force and integrated touch. A million-cycle life claim lacks cycling conditions."
+  },
+  "original_product_line": "ZWHAND B06、B20、B21 灵巧手",
+  "original_application_wording": "人形机器人、工业装配、智能交互与康复假肢",
+  "original_issue_notes": [],
+  "item_ids": [
+    "item-c55208e6052d",
+    "item-30bccc9a57c9"
+  ],
+  "source_technical_sha256": "4320bd80c0d22fd3e058bbe4a01937065d5c9f818e44d6d4a5f626685e84f3aa",
+  "cross_source_categories": [],
+  "original_tags": "微型传动灵巧手",
+  "original_verification_wording": "大会官方页已核验。",
+  "original_review_wording": "检索/读取日期：2026-09-05。核验口径：已读取官方网页；参数属发布方声明。"
+}

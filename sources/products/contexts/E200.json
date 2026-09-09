@@ -1,0 +1,35 @@
+{
+  "id": "E200",
+  "supplier_as_published": "上海步科自动化股份有限公司",
+  "source_category": "06-04",
+  "source_url": "https://www.worldrobotconference.com/expo/company/558.html",
+  "original_source_urls": [
+    "https://www.worldrobotconference.com/expo/company/558.html",
+    "https://www.worldrobotconference.com/expo/product/184.html",
+    "https://www.worldrobotconference.com/expo/product/185.html",
+    "https://www.worldrobotconference.com/expo/product/186.html",
+    "https://www.worldrobotconference.com/expo/product/187.html"
+  ],
+  "source_checked_on": "2026-09-05",
+  "evidence": "official_page",
+  "technical": {
+    "zh-CN": "iSMD 支持脉冲、Modbus RTU、CANopen、EtherCAT及多圈绝对编码器；iSWV 为舵轮模组；FMK 为大中空无框电机。",
+    "en": "iSMD supports pulse, Modbus RTU, CANopen, EtherCAT and multi-turn absolute encoders. iSWV is a steer-wheel module; FMK a large-bore frameless motor."
+  },
+  "original_product_line": "一体化舵轮、无框力矩电机、低压驱动电机与伺服轮",
+  "original_application_wording": "轮式与足式人形机器人",
+  "original_issue_notes": [],
+  "item_ids": [
+    "item-87166cad77c9",
+    "item-5196fb327443",
+    "item-bc31373215fb",
+    "item-5d0ff9d42ecf"
+  ],
+  "source_technical_sha256": "61db3f67fa35b812c564b5768f68ea92dc9e40bcbba275d5bd648087a523a6a9",
+  "cross_source_categories": [
+    "06-05"
+  ],
+  "original_tags": "人形与移动机器人运动控制部件",
+  "original_verification_wording": "大会官方页已核验。",
+  "original_review_wording": "检索/读取日期：2026-09-05。核验口径：已读取官方网页；参数属发布方声明。"
+}

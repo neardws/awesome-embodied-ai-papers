@@ -1,0 +1,29 @@
+{
+  "id": "E123",
+  "supplier_as_published": "长沙市优龙机器人有限公司",
+  "source_category": "05-03",
+  "source_url": "https://www.worldrobotconference.com/expo/company/626.html",
+  "original_source_urls": [
+    "https://www.worldrobotconference.com/expo/company/626.html",
+    "https://www.worldrobotconference.com/expo/product/1470.html",
+    "https://www.worldrobotconference.com/expo/product/1471.html"
+  ],
+  "source_checked_on": "2026-09-05",
+  "evidence": "official_page",
+  "technical": {
+    "zh-CN": "游龙 1.0 Pro 按步态动态调整助力；如意 2.0 面向踝关节背屈及内外翻训练，采用鲍登线拉力传动，两者作用关节不同。",
+    "en": "游龙 1.0 Pro dynamically adjusts assistance to gait. 如意 2.0 trains ankle dorsiflexion and inversion/eversion using Bowden-cable tension transmission. They act on different joints."
+  },
+  "original_product_line": "游龙 1.0 Pro AI 行走外骨骼、如意 2.0 踝关节外骨骼",
+  "original_application_wording": "行走助力，踝背屈与内外翻纠正康复",
+  "original_issue_notes": [],
+  "item_ids": [
+    "item-9cfcb28945ef",
+    "item-2f775367fe46"
+  ],
+  "source_technical_sha256": "930ab2ba65f6a8760ed8b42335b094210bbeb099110c3c6aae346b571a03143f",
+  "cross_source_categories": [],
+  "original_tags": "助行与踝关节康复外骨骼",
+  "original_verification_wording": "大会官方页已核验。",
+  "original_review_wording": "检索/读取日期：2026-09-05。核验口径：已读取官方网页；参数属发布方声明。"
+}

@@ -1,0 +1,24 @@
+{
+  "id": "E229",
+  "supplier_as_published": "XELA Robotics Co., Ltd",
+  "source_category": "07-02",
+  "source_url": "https://xelarobotics.com/about/",
+  "original_source_urls": [
+    "https://xelarobotics.com/about/"
+  ],
+  "source_checked_on": "2026-09-05",
+  "evidence": "official_page",
+  "technical": {
+    "zh-CN": "公司介绍给出 2018 年成立及早稻田大学技术背景，业务聚焦触觉系统；本轮未获得可直接比较的具体型号参数。",
+    "en": "The company profile states establishment in 2018 and a Waseda University technology background, focusing on tactile systems. Comparable model-level parameters were not obtained."
+  },
+  "original_product_line": "uSkin 触觉传感器、uAi 软件",
+  "original_application_wording": "自动化、物流、服务机器人、研究",
+  "original_issue_notes": [],
+  "item_ids": [],
+  "source_technical_sha256": "f12f5b3e3578f56a80aa067f2257f887a34684eb80fbd793a8703a548a8a8229",
+  "cross_source_categories": [],
+  "original_tags": "触觉传感器",
+  "original_verification_wording": "官网已核对。",
+  "original_review_wording": "检索/读取日期：2026-09-05。核验口径：已读取官方网页；参数属发布方声明。"
+}

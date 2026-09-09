@@ -1,0 +1,29 @@
+{
+  "id": "E107",
+  "supplier_as_published": "北京心言机器人科技有限公司",
+  "source_category": "03-04",
+  "source_url": "https://www.worldrobotconference.com/expo/company/783.html",
+  "original_source_urls": [
+    "https://www.worldrobotconference.com/expo/company/783.html",
+    "https://www.worldrobotconference.com/expo/product/1017.html",
+    "https://www.worldrobotconference.com/expo/product/1063.html"
+  ],
+  "source_checked_on": "2026-09-05",
+  "evidence": "official_page",
+  "technical": {
+    "zh-CN": "Bubbo OS 将长期记忆、情绪理解和多智能体协同用于陪伴；心元模型备案为页面声明，本轮未核对备案编号。",
+    "en": "Bubbo OS combines long-term memory, emotion understanding and multi-agent coordination for companionship. Filing of the 心元 model is a page claim; no registration number was checked."
+  },
+  "original_product_line": "Bubbo 1 情感陪伴 AI 机器人、Bubbo OS、心元大模型",
+  "original_application_wording": "家庭情感陪伴、亲子互动与长者陪伴",
+  "original_issue_notes": [],
+  "item_ids": [
+    "item-a91867b95108",
+    "item-3f638f95ebff"
+  ],
+  "source_technical_sha256": "b610bca07ea7cc2fdeef4d96adedba071333b21896001e01a290dc5660e19a93",
+  "cross_source_categories": [],
+  "original_tags": "家庭情感陪伴机器人",
+  "original_verification_wording": "大会官方页已核验。",
+  "original_review_wording": "检索/读取日期：2026-09-05。核验口径：已读取官方网页；参数属发布方声明。"
+}

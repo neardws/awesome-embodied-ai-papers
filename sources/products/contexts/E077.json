@@ -1,0 +1,31 @@
+{
+  "id": "E077",
+  "supplier_as_published": "广州视源电子科技股份有限公司",
+  "source_category": "04-05",
+  "source_url": "https://www.worldrobotconference.com/expo/company/622.html",
+  "original_source_urls": [
+    "https://www.worldrobotconference.com/expo/company/622.html",
+    "https://www.worldrobotconference.com/expo/product/840.html",
+    "https://www.worldrobotconference.com/expo/product/845.html",
+    "https://www.worldrobotconference.com/expo/product/846.html"
+  ],
+  "source_checked_on": "2026-09-05",
+  "evidence": "official_page",
+  "technical": {
+    "zh-CN": "X7 提供 HTTP/WebSocket 接口，标注 40kg 负载续航超过 5 小时；D3 为七轴机械臂，支持同构/VR 遥操及多模态数据同步。",
+    "en": "X7 provides HTTP/WebSocket interfaces and reports over 5-hour endurance with 40kg load. D3 is a seven-axis arm supporting homologous/VR teleoperation and synchronized multimodal capture."
+  },
+  "original_product_line": "MAXHUB X7 工业四足机器人、MAXHUB A3/D3 智能柔性机械臂",
+  "original_application_wording": "巡检、巡逻、救援；柔性生产、科研教育及商业自动化",
+  "original_issue_notes": [],
+  "item_ids": [
+    "item-6c82acd8c1c4",
+    "item-a487d4650254",
+    "item-0f7c5aa446d3"
+  ],
+  "source_technical_sha256": "bcd352c83874acf054aeef7693e253138c9f303e53cd90ca72370c0c96f1ab2f",
+  "cross_source_categories": [],
+  "original_tags": "工业四足机器人与智能柔性机械臂",
+  "original_verification_wording": "展会官方页已核对。",
+  "original_review_wording": "检索/读取日期：2026-09-05。核验口径：已读取官方网页；参数属发布方声明。"
+}

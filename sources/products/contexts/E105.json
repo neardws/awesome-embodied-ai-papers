@@ -1,0 +1,28 @@
+{
+  "id": "E105",
+  "supplier_as_published": "北京云栖处智能机器人有限公司",
+  "source_category": "03-01",
+  "source_url": "https://www.worldrobotconference.com/news/3579.html",
+  "original_source_urls": [
+    "https://www.worldrobotconference.com/news/3579.html"
+  ],
+  "source_checked_on": "2026-09-05",
+  "evidence": "official_page",
+  "technical": {
+    "zh-CN": "AI135 面向大面积室外巡扫，页面标注续航超过 7 小时、VLA 与世界模型；未给水箱和垃圾箱容量，99%识别率缺少测试条件。",
+    "en": "AI135 targets large outdoor cleaning areas and reports over 7-hour endurance, VLA and a world model. Water/bin capacities are absent and the 99% recognition claim lacks test conditions."
+  },
+  "original_product_line": "云栖处智能巡扫机器人 AI135",
+  "original_application_wording": "大面积连续作业需求的复杂室外场景；巡扫作业与无人化运维",
+  "original_issue_notes": [
+    "具体问题：合辑中的 99%识别率无测试定义，水箱及垃圾箱无容量。"
+  ],
+  "item_ids": [],
+  "source_technical_sha256": "44960b7eb0cfe5ed0c9015dcfb35d6b5e8d19fadc149508c303eafe2de7f7743",
+  "cross_source_categories": [
+    "09-02"
+  ],
+  "original_tags": "户外智能巡扫机器人",
+  "original_verification_wording": "已核验（大会官方页）。",
+  "original_review_wording": "检索/读取日期：2026-09-05。核验口径：已读取官方网页；参数属发布方声明。"
+}

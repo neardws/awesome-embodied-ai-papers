@@ -1,0 +1,25 @@
+{
+  "id": "E169",
+  "supplier_as_published": "易格斯（上海）拖链系统有限公司",
+  "source_category": "06-11",
+  "source_url": "https://www.igus.cn/zh-CN/info/triflex-3d-movement",
+  "original_source_urls": [
+    "https://www.igus.cn/zh-CN/info/triflex-3d-movement",
+    "https://www.igus.cn/robots"
+  ],
+  "source_checked_on": "2026-09-05",
+  "evidence": "official_search_or_alternate",
+  "technical": {
+    "zh-CN": "triflex R 包含 TRE、TRC、TRL 等三维拖链，面向多轴机器人电缆导向；页面标注每链节约 ±10°旋转，并提供选型及布线配置工具。",
+    "en": "triflex R includes TRE, TRC and TRL 3D cable carriers for multi-axis robots. The page reports about ±10° rotation per link and provides selection/routing tools."
+  },
+  "original_product_line": "拖链、高柔电缆、工程塑料轴承、直线模组",
+  "original_application_wording": "机器人、自动化",
+  "original_issue_notes": [],
+  "item_ids": [],
+  "source_technical_sha256": "4d206a20ae31356382a2237406e5b27627cae475a251197524e4c2a164c26a6c",
+  "cross_source_categories": [],
+  "original_tags": "拖链/高柔电缆/工程塑料轴承",
+  "original_verification_wording": "官网已核对。",
+  "original_review_wording": "检索/读取日期：2026-09-05。核验口径：官方搜索正文补充（直连受限或改用替代页）。"
+}

@@ -1,0 +1,29 @@
+{
+  "id": "E094",
+  "supplier_as_published": "北京深朴智能科技有限公司",
+  "source_category": "01-02",
+  "source_url": "https://www.worldrobotconference.com/48/",
+  "original_source_urls": [
+    "https://www.worldrobotconference.com/48/",
+    "https://www.worldrobotconference.com/expo/event/251.html"
+  ],
+  "source_checked_on": "2026-09-05",
+  "evidence": "official_page",
+  "technical": {
+    "zh-CN": "大会亮点区标注小朴 Simbot 为 23DOF 本体、单臂 7DOF，支持视觉、力觉、触觉与语言交互，面向搬拿放和家庭操作。",
+    "en": "The conference feature describes 小朴 Simbot as 23DOF, with 7DOF per arm, visual/force/tactile/language interaction, targeting handling and household tasks."
+  },
+  "original_product_line": "小朴 Simbot",
+  "original_application_wording": "泛家庭任务：搬、拿、放、操作、移动",
+  "original_issue_notes": [
+    "具体问题：大会产品列表含多企业，只采用对应厂商条目。"
+  ],
+  "item_ids": [],
+  "source_technical_sha256": "5e26e812a9a5aee9cf1ce961407cde775c88a96f8e54712be436e365a8c076c1",
+  "cross_source_categories": [
+    "04-05"
+  ],
+  "original_tags": "家庭轮臂具身智能",
+  "original_verification_wording": "大会官方页已核验。",
+  "original_review_wording": "检索/读取日期：2026-09-05。核验口径：已读取官方网页；参数属发布方声明。"
+}

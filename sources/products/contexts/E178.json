@@ -1,0 +1,40 @@
+{
+  "id": "E178",
+  "supplier_as_published": "恩福贸易（上海）有限公司",
+  "source_category": "06-12",
+  "source_url": "https://www.worldrobotconference.com/expo/company/690.html",
+  "original_source_urls": [
+    "https://www.worldrobotconference.com/expo/company/690.html",
+    "https://www.worldrobotconference.com/expo/product/1370.html",
+    "https://www.worldrobotconference.com/expo/product/1371.html",
+    "https://www.worldrobotconference.com/expo/product/1372.html",
+    "https://www.worldrobotconference.com/expo/product/1373.html",
+    "https://www.worldrobotconference.com/expo/product/1374.html"
+  ],
+  "source_checked_on": "2026-09-05",
+  "evidence": "official_page",
+  "technical": {
+    "zh-CN": "IPSR 采用 Z 形结构和固体润滑膜，页面标注 IP67；HTCY 为面向 RV/谐波减速器的低扭矩油封，支持定制密封方案。",
+    "en": "IPSR uses a Z-shaped structure and solid-lubricant film, with claimed IP67. HTCY is a low-torque oil seal for RV/strain-wave reducers, with customizable sealing solutions."
+  },
+  "original_product_line": "IPSR 人形机器人防水密封、HTCY/HRE 油封、PTFE 薄片密封与防护套",
+  "original_application_wording": "人形机器人关节、减速器、电机、传感器的防尘、防水、低摩擦和减振",
+  "original_issue_notes": [],
+  "item_ids": [
+    "item-466a6f2915b6",
+    "item-cd975efa4993",
+    "item-7aa245904216",
+    "item-9b5688669405",
+    "item-3c1df21e4d4a",
+    "item-4fb2cf2ad4ed",
+    "item-00309cb3ad10",
+    "item-a9e8725fc5ba",
+    "item-72dc35c57aa6",
+    "item-e71d714c1b90"
+  ],
+  "source_technical_sha256": "153a508d7faa0e2e081c3d41dbdb663a303e89661214dff3a506240607e578f0",
+  "cross_source_categories": [],
+  "original_tags": "机器人密封件与关节防护",
+  "original_verification_wording": "大会官方页已核验。",
+  "original_review_wording": "检索/读取日期：2026-09-05。核验口径：已读取官方网页；参数属发布方声明。"
+}

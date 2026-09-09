@@ -1,0 +1,30 @@
+{
+  "id": "E228",
+  "supplier_as_published": "索利德威",
+  "source_category": "08-05",
+  "source_url": "https://www.worldrobotconference.com/expo/company/679.html",
+  "original_source_urls": [
+    "https://www.worldrobotconference.com/expo/company/679.html",
+    "https://www.worldrobotconference.com/expo/product/1079.html",
+    "https://solid-vue.com/"
+  ],
+  "source_checked_on": "2026-09-05",
+  "evidence": "official_page",
+  "technical": {
+    "zh-CN": "提供 CMOS SPAD 像素、dToF 直方图与相关传感芯片技术；应作为感知芯片供应商检索，不能等同完整雷达整机。",
+    "en": "The offering covers CMOS SPAD pixels, dToF histograms and sensor-chip technology. It is a sensing-chip supplier, not necessarily a complete LiDAR manufacturer."
+  },
+  "original_product_line": "SPAD dToF 固态激光雷达传感器 IC",
+  "original_application_wording": "ADAS、机器人、安防",
+  "original_issue_notes": [],
+  "item_ids": [
+    "item-01a7f4f8ee1b"
+  ],
+  "source_technical_sha256": "90930c6fdcab53deaf4f0e3188bd7b9085fbeb6245b855c6eb5cd7626d94b483",
+  "cross_source_categories": [
+    "07-04"
+  ],
+  "original_tags": "SPAD dToF 激光雷达芯片",
+  "original_verification_wording": "官网已核对。",
+  "original_review_wording": "检索/读取日期：2026-09-05。核验口径：已读取官方网页；参数属发布方声明。"
+}

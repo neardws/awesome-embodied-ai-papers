@@ -1,0 +1,31 @@
+{
+  "id": "E217",
+  "supplier_as_published": "武汉万集光电技术有限公司",
+  "source_category": "07-04",
+  "source_url": "https://www.worldrobotconference.com/expo/company/866.html",
+  "original_source_urls": [
+    "https://www.worldrobotconference.com/expo/company/866.html",
+    "https://www.worldrobotconference.com/expo/product/1382.html",
+    "https://www.worldrobotconference.com/expo/product/1385.html"
+  ],
+  "source_checked_on": "2026-09-05",
+  "evidence": "official_page",
+  "technical": {
+    "zh-CN": "WLR723 标注垂直视场 100°、外露球面半径 23.5mm；WLR750L 结合点云与图像，强调原生标定及时空同步，标注最小测距 0.1m。",
+    "en": "WLR723 reports 100° vertical field of view and 23.5mm exposed spherical radius. WLR750L combines point clouds and images with native calibration/synchronization and 0.1m minimum ranging."
+  },
+  "original_product_line": "2D/3D 激光雷达、3D 安全激光雷达、RGBD 深度相机",
+  "original_application_wording": "人形机器人、工业移动机器人、车路协同、智能高速、末端配送",
+  "original_issue_notes": [],
+  "item_ids": [
+    "item-94e76968171d",
+    "item-6962574e4e8a"
+  ],
+  "source_technical_sha256": "fe4ffcf33bb29b7ed71b96f87fa97a197983eefd3cfc3aec544921f05b20ffdb",
+  "cross_source_categories": [
+    "07-08"
+  ],
+  "original_tags": "激光雷达与 RGBD 深度相机",
+  "original_verification_wording": "大会官方页已核验。",
+  "original_review_wording": "检索/读取日期：2026-09-05。核验口径：已读取官方网页；参数属发布方声明。"
+}

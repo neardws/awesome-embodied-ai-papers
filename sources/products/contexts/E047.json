@@ -1,0 +1,29 @@
+{
+  "id": "E047",
+  "supplier_as_published": "星尘智能（深圳）人工智能科技股份有限公司",
+  "source_category": "01-02",
+  "source_url": "https://www.worldrobotconference.com/expo/company/441.html",
+  "original_source_urls": [
+    "https://www.worldrobotconference.com/expo/company/441.html",
+    "https://www.worldrobotconference.com/expo/product/994.html",
+    "https://www.worldrobotconference.com/expo/product/70.html"
+  ],
+  "source_checked_on": "2026-09-05",
+  "evidence": "official_page",
+  "technical": {
+    "zh-CN": "T1 延续绳驱路线，提供多种末端配置、自主回充及软硬件扩展接口；S1 强调感知决策与绳驱操作，具体接口清单需查开发文档。",
+    "en": "T1 uses tendon drive, multiple end effectors, autonomous charging and expansion interfaces. S1 emphasizes perception, decision-making and tendon-driven manipulation. Exact interfaces require developer documentation."
+  },
+  "original_product_line": "Astribot T1、Astribot S1、Lumo 基座模型、DuoCore 部署框架",
+  "original_application_wording": "科研教学、展厅导览、零售服务、文娱演出、工业操作与遥操作数采",
+  "original_issue_notes": [],
+  "item_ids": [
+    "item-f5c00064e42f",
+    "item-787db97d6972"
+  ],
+  "source_technical_sha256": "f180fac6f112b1d9f18b54d70f0ab4839ade31b70d02fabcb57a9b75c6181c20",
+  "cross_source_categories": [],
+  "original_tags": "绳驱人形机器人与具身模型",
+  "original_verification_wording": "大会官方页已核验。",
+  "original_review_wording": "检索/读取日期：2026-09-05。核验口径：已读取官方网页；参数属发布方声明。"
+}

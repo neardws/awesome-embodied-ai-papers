@@ -1,0 +1,25 @@
+{
+  "id": "E104",
+  "supplier_as_published": "苏州睿柏智悦机器人有限公司",
+  "source_category": "01-02",
+  "source_url": "https://www.worldrobotconference.com/expo/product/178.html",
+  "original_source_urls": [
+    "https://www.worldrobotconference.com/expo/product/178.html",
+    "https://raybot-ai.com/main/home_en.html"
+  ],
+  "source_checked_on": "2026-09-05",
+  "evidence": "official_page",
+  "technical": {
+    "zh-CN": "RAYBOT-G4 产品页标注单臂六自由度，可选屈膝关节，搭配差速轮 AGV、自主回充和人脸记忆，面向接待及饮品服务。",
+    "en": "RAYBOT-G4 has six degrees of freedom per arm and optional knee joints, with differential AGV base, autonomous charging and face memory for reception and beverage service."
+  },
+  "original_product_line": "RAYBOT-G4 具身机器人",
+  "original_application_wording": "自动接待、饮品服务、无人餐饮、展馆导览",
+  "original_issue_notes": [],
+  "item_ids": [],
+  "source_technical_sha256": "b5ee83f9a4a9193d0a7b83e9d84261e0ec1517281cd8aafd5879bcfb55da3194",
+  "cross_source_categories": [],
+  "original_tags": "轮式具身服务机器人",
+  "original_verification_wording": "已核验（官网与大会官方页）。",
+  "original_review_wording": "检索/读取日期：2026-09-05。核验口径：已读取官方网页；参数属发布方声明。"
+}

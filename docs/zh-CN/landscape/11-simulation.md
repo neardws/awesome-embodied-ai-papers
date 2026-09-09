@@ -20,42 +20,42 @@
 </thead>
 <tbody>
 <tr>
-<td width="240" nowrap><a id="11-01"></a>物理引擎与接触求解</td>
+<td width="240" nowrap><a id="11-01"></a>物理引擎与接触求解<br><a href="../products/topics/11-01.md">产品细节</a></td>
 <td width="300">计算运动、碰撞与接触响应。</td>
 <td width="320">可微物理、摩擦模型与数值稳定。</td>
 <td width="320">求解速度、模型标定与资产兼容。</td>
 <td width="340">接触误差、稳定性与仿真吞吐。</td>
 </tr>
 <tr>
-<td width="240" nowrap><a id="11-02"></a>数字孪生与资产构建</td>
+<td width="240" nowrap><a id="11-02"></a>数字孪生与资产构建<br><a href="../products/topics/11-02.md">产品细节</a></td>
 <td width="300">建立场景、机器人与物体的数字表示。</td>
 <td width="320">重建、参数辨识与自动资产生成。</td>
 <td width="320">资产质量、版本维护与现场一致性。</td>
 <td width="340">几何动力学误差、制作成本与更新时间。</td>
 </tr>
 <tr>
-<td width="240" nowrap><a id="11-03"></a>传感仿真与合成数据</td>
+<td width="240" nowrap><a id="11-03"></a>传感仿真与合成数据<br><a href="../products/topics/11-03.md">产品细节</a></td>
 <td width="300">生成多模态观测及其标签。</td>
 <td width="320">渲染真实性、触觉仿真与数据混合。</td>
 <td width="320">生成流程、标注规范与域差评估。</td>
 <td width="340">传感差异、标签质量与真实任务增益。</td>
 </tr>
 <tr>
-<td width="240" nowrap><a id="11-04"></a>并行训练与实验管理</td>
+<td width="240" nowrap><a id="11-04"></a>并行训练与实验管理<br><a href="../products/topics/11-04.md">产品细节</a></td>
 <td width="300">提高策略训练和比较效率。</td>
 <td width="320">分布式采样、优化稳定与可复现性。</td>
 <td width="320">资源调度、检查点、成本与版本固定。</td>
 <td width="340">训练预算、随机种子方差与复现实验。</td>
 </tr>
 <tr>
-<td width="240" nowrap><a id="11-05"></a>领域随机化与迁移</td>
+<td width="240" nowrap><a id="11-05"></a>领域随机化与迁移<br><a href="../products/topics/11-05.md">产品细节</a></td>
 <td width="300">降低仿真与实机行为差异。</td>
 <td width="320">自适应随机化、系统辨识与残差学习。</td>
 <td width="320">真实校准、迁移测试与故障回退。</td>
 <td width="340">真实任务成功率与迁移所需数据。</td>
 </tr>
 <tr>
-<td width="240" nowrap><a id="11-06"></a>软件、硬件在环验证</td>
+<td width="240" nowrap><a id="11-06"></a>软件、硬件在环验证<br><a href="../products/topics/11-06.md">产品细节</a></td>
 <td width="300">在上线前测试控制与通信链路。</td>
 <td width="320">联合仿真、时序一致与边界覆盖。</td>
 <td width="320">真实控制器接入、故障注入与回归测试。</td>
@@ -63,6 +63,14 @@
 </tr>
 </tbody>
 </table>
+
+## 技术与产品细节
+
+<a href="../products/comparisons/11-simulation.md">查看 4 条相关对照记录</a>
+
+继续比较逐型号参数、工况、接口、研究关联和来源问题，并下钻查看完整技术摘录与原始展项链接。
+
+<a href="../products/references/09-04.md">仿真合成数据与评测</a> · <a href="../products/references/11-01.md">高校研究院与科研团队</a>
 
 ## 研究、平台与产业代表
 

@@ -1,0 +1,31 @@
+{
+  "id": "E312",
+  "supplier_as_published": "北京亦庄国际人才发展集团有限公司",
+  "source_category": "11-04",
+  "source_url": "https://www.worldrobotconference.com/expo/company/616.html",
+  "original_source_urls": [
+    "https://www.worldrobotconference.com/expo/company/616.html",
+    "https://www.worldrobotconference.com/expo/product/879.html",
+    "https://www.worldrobotconference.com/expo/product/920.html"
+  ],
+  "source_checked_on": "2026-09-05",
+  "evidence": "official_page",
+  "technical": {
+    "zh-CN": "平台覆盖足式机器人机械电气装调及基于 R1 生态的人形拆装，配 SDK、课程和遥操；页面称院校合作仍为初步意向，不等于已完成教学部署。",
+    "en": "The platform covers legged-robot mechanical/electrical training and R1-based humanoid assembly, with SDK, courses and teleoperation. Institutional cooperation remains preliminary intent, not completed teaching deployment."
+  },
+  "original_product_line": "具身四足机器人装配调试实训平台、人形机器人拆装实训平台",
+  "original_application_wording": "职业教育及京津冀机器人技能人才培养",
+  "original_issue_notes": [
+    "具体问题：教学合作为意向，不能标成已部署项目。"
+  ],
+  "item_ids": [
+    "item-f048b424181a",
+    "item-16d58fa6a68f"
+  ],
+  "source_technical_sha256": "af1d4eda1f5d49c58b904fafc3d85d702dc17de61dc3f412ba008a703fe58c97",
+  "cross_source_categories": [],
+  "original_tags": "机器人产教融合与实训平台",
+  "original_verification_wording": "大会官方页已核验。",
+  "original_review_wording": "检索/读取日期：2026-09-05。核验口径：已读取官方网页；参数属发布方声明。"
+}

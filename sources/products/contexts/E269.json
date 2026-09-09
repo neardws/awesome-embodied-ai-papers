@@ -1,0 +1,25 @@
+{
+  "id": "E269",
+  "supplier_as_published": "深圳市有方科技股份有限公司",
+  "source_category": "08-04",
+  "source_url": "https://cn.neoway.com/about.html",
+  "original_source_urls": [
+    "https://cn.neoway.com/about.html",
+    "https://cn.neoway.com/"
+  ],
+  "source_checked_on": "2026-09-05",
+  "evidence": "official_page",
+  "technical": {
+    "zh-CN": "官网列 2G/3G/4G/5G、NB-IoT、eMTC 等通信产品及云管接入能力；不同制式生命周期与项目可用性仍需按在售型号核对。",
+    "en": "The site lists 2G/3G/4G/5G, NB-IoT, eMTC and cloud-management access. Protocol lifecycles and project availability need currently sold model checks."
+  },
+  "original_product_line": "无线通信模组与终端、AI 解决方案、接入云和管道云",
+  "original_application_wording": "智能能源、车联网、金融支付、商业终端、安防与医疗",
+  "original_issue_notes": [],
+  "item_ids": [],
+  "source_technical_sha256": "4e2867ae6517f479120fd96690efd610f524430e18b53cef70e7307e8df25e90",
+  "cross_source_categories": [],
+  "original_tags": "AIoT 通信模组、边缘连接与云平台",
+  "original_verification_wording": "官网已核验。",
+  "original_review_wording": "检索/读取日期：2026-09-05。核验口径：已读取官方网页；参数属发布方声明。"
+}

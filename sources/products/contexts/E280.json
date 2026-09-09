@@ -1,0 +1,36 @@
+{
+  "id": "E280",
+  "supplier_as_published": "杭州申昊科技股份有限公司",
+  "source_category": "04-05",
+  "source_url": "https://www.worldrobotconference.com/expo/company/483.html",
+  "original_source_urls": [
+    "https://www.worldrobotconference.com/expo/company/483.html",
+    "https://www.worldrobotconference.com/expo/product/256.html",
+    "https://www.worldrobotconference.com/expo/product/257.html",
+    "https://www.worldrobotconference.com/expo/product/258.html",
+    "https://www.worldrobotconference.com/expo/product/717.html",
+    "https://www.worldrobotconference.com/expo/product/259.html"
+  ],
+  "source_checked_on": "2026-09-05",
+  "evidence": "official_page",
+  "technical": {
+    "zh-CN": "挂轨产品标注 1.6m 伸缩、垂直定位 ±5mm、水平速度 1m/s，滑触线供电；轮式升降版本加入资产盘点与工单闭环，需按型号分别比较。",
+    "en": "The rail-mounted product reports 1.6m extension, ±5mm vertical positioning and 1m/s horizontal speed with conductor-rail power. A wheeled lift version adds asset inventory and work-order feedback. Compare models separately."
+  },
+  "original_product_line": "机场驱鸟、室内轨道巡检、轮式巡检、防爆巡检、四足巡检机器人及玄武水下 ROV",
+  "original_application_wording": "机场、数据中心与电力机房、油气化工、大坝、桥梁与船舶检测",
+  "original_issue_notes": [],
+  "item_ids": [
+    "item-041b85213e6b",
+    "item-060d336f04a5",
+    "item-0539fc0e0f07",
+    "item-ce22e8cb3096",
+    "item-090b4b12a560",
+    "item-d42bc5ac1c04"
+  ],
+  "source_technical_sha256": "2c4bb1955de2dd5721c50c4e5d5a4a40a7f55c4351ff030c20cf58e338fad3bf",
+  "cross_source_categories": [],
+  "original_tags": "工业检测与特种巡检机器人",
+  "original_verification_wording": "大会官方页已核验。",
+  "original_review_wording": "检索/读取日期：2026-09-05。核验口径：已读取官方网页；参数属发布方声明。"
+}

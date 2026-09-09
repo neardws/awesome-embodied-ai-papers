@@ -1,0 +1,35 @@
+{
+  "id": "E237",
+  "supplier_as_published": "南京探源感知科技有限公司",
+  "source_category": "07-02",
+  "source_url": "https://www.worldrobotconference.com/expo/company/700.html",
+  "original_source_urls": [
+    "https://www.worldrobotconference.com/expo/company/700.html",
+    "https://www.worldrobotconference.com/expo/product/1502.html",
+    "https://www.worldrobotconference.com/expo/product/1503.html",
+    "https://www.worldrobotconference.com/expo/product/1504.html",
+    "https://www.worldrobotconference.com/expo/product/1505.html"
+  ],
+  "source_checked_on": "2026-09-05",
+  "evidence": "official_page",
+  "technical": {
+    "zh-CN": "提供物理解耦三维力芯片与柔性传感方案，系列量程覆盖 0–100N，最高分辨率 0.01N；未确认两者是否对应同一规格。",
+    "en": "Physically decoupled 3D-force chips and flexible sensing span 0–100N with best reported resolution of 0.01N. It is unconfirmed whether those endpoints apply to the same specification."
+  },
+  "original_product_line": "柔性三维微应变传感芯片、多维触觉传感器、具身触觉模块与阵列采集设备",
+  "original_application_wording": "人形机器人灵巧手、触觉数据采集及具身智能训练",
+  "original_issue_notes": [],
+  "item_ids": [
+    "item-3a529e0c4eee",
+    "item-de8df3a832ee",
+    "item-ea12dd65bf6a",
+    "item-a6c50a092411"
+  ],
+  "source_technical_sha256": "0c5563d8018fab7bbfcdfd33ecf936f23bb1272114d3ea17c2e1496ed40032a9",
+  "cross_source_categories": [
+    "07-01"
+  ],
+  "original_tags": "柔性三维力/触觉传感",
+  "original_verification_wording": "大会官方页已核验。",
+  "original_review_wording": "检索/读取日期：2026-09-05。核验口径：已读取官方网页；参数属发布方声明。"
+}

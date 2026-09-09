@@ -1,0 +1,36 @@
+{
+  "id": "E096",
+  "supplier_as_published": "无锡陆吾智能科技有限公司",
+  "source_category": "01-04",
+  "source_url": "https://www.worldrobotconference.com/expo/company/586.html",
+  "original_source_urls": [
+    "https://www.worldrobotconference.com/expo/company/586.html",
+    "https://www.worldrobotconference.com/expo/product/705.html",
+    "https://www.worldrobotconference.com/expo/product/706.html",
+    "https://www.worldrobotconference.com/expo/product/375.html",
+    "https://www.worldrobotconference.com/expo/product/376.html",
+    "https://www.worldrobotconference.com/expo/product/377.html"
+  ],
+  "source_checked_on": "2026-09-05",
+  "evidence": "official_page",
+  "technical": {
+    "zh-CN": "RIG-Hover 使用 ESP32-S3、FOC 轮毂电机和 RIG-Omni 固件；RIG-Arm 为五自由度桌面臂；XGO-mini2 使用 CM4，支持 Python 和 ROS。",
+    "en": "RIG-Hover uses ESP32-S3, FOC wheel motors and RIG-Omni firmware. RIG-Arm is a five-degree-of-freedom desktop arm. XGO-mini2 uses CM4 and supports Python and ROS."
+  },
+  "original_product_line": "XGO-mini2、XGO-mini3W、XGO-Rider、XGO-tiny；RIG-Arm",
+  "original_application_wording": "编程教育、开源开发、桌面陪伴与人机交互",
+  "original_issue_notes": [],
+  "item_ids": [
+    "item-fea0f0d56cf0",
+    "item-fcd1ce64aa84",
+    "item-1e68a41eb23b",
+    "item-70ea2c2b5592",
+    "item-e2d37254de1b",
+    "item-1409b22249e6"
+  ],
+  "source_technical_sha256": "6c9a477eb64587ca6cfa00c81579d34be9ff1ee6b3e44c1b9d85dab037eaf3f3",
+  "cross_source_categories": [],
+  "original_tags": "桌面仿生、教育与陪伴机器人",
+  "original_verification_wording": "大会官方页已核验。",
+  "original_review_wording": "检索/读取日期：2026-09-05。核验口径：已读取官方网页；参数属发布方声明。"
+}

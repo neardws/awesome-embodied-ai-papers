@@ -1,0 +1,33 @@
+{
+  "id": "E100",
+  "supplier_as_published": "北京星元动力科技有限公司",
+  "source_category": "03-05",
+  "source_url": "https://www.worldrobotconference.com/expo/company/831.html",
+  "original_source_urls": [
+    "https://www.worldrobotconference.com/expo/company/831.html",
+    "https://www.worldrobotconference.com/expo/product/1050.html",
+    "https://www.worldrobotconference.com/expo/product/1051.html",
+    "https://www.worldrobotconference.com/expo/product/1052.html",
+    "https://www.worldrobotconference.com/expo/product/1053.html"
+  ],
+  "source_checked_on": "2026-09-05",
+  "evidence": "official_page",
+  "technical": {
+    "zh-CN": "提供人体动捕驱动、VR 第一视角和直播输出；导览采用预设点位讲解；Go2 巡检方案可对接闸机与监控平台，属于集成方案而非自研 Go2 本体。",
+    "en": "The solution provides human-motion capture, first-person VR and livestream output, with preset-point guided tours. Go2 inspection integrates gates and monitoring systems; it is integration work, not a self-developed Go2 body."
+  },
+  "original_product_line": "人形机器人动捕+VR 方案、人形机器人导览方案、Go2/A2 机器狗巡检方案",
+  "original_application_wording": "科普展示、文旅互动、远程作业演示；展厅导览；园区、机房、场馆安防与电力热力监测",
+  "original_issue_notes": [],
+  "item_ids": [
+    "item-8f5ae690322e",
+    "item-b35a08e996f4",
+    "item-4fed825e68a2",
+    "item-28f98ca06dc4"
+  ],
+  "source_technical_sha256": "b00eaaf8b1f7d2f6041b79f4fa43d52d9a7f3600f6f47ee84dc5b6f8b620b171",
+  "cross_source_categories": [],
+  "original_tags": "人形导览与四足巡检解决方案",
+  "original_verification_wording": "大会官方页已核验。",
+  "original_review_wording": "检索/读取日期：2026-09-05。核验口径：已读取官方网页；参数属发布方声明。"
+}

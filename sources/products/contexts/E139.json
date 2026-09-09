@@ -1,0 +1,47 @@
+{
+  "id": "E139",
+  "supplier_as_published": "山东曼大智能科技有限公司",
+  "source_category": "04-03",
+  "source_url": "https://www.worldrobotconference.com/expo/company/487.html",
+  "original_source_urls": [
+    "https://www.worldrobotconference.com/expo/company/487.html",
+    "https://www.worldrobotconference.com/expo/product/105.html",
+    "https://www.worldrobotconference.com/expo/product/108.html",
+    "https://www.worldrobotconference.com/expo/product/98.html",
+    "https://www.worldrobotconference.com/expo/product/100.html",
+    "https://www.worldrobotconference.com/expo/product/101.html"
+  ],
+  "source_checked_on": "2026-09-05",
+  "evidence": "official_page",
+  "technical": {
+    "zh-CN": "RMP-WL300 提供可调行距底盘；液压泵站标注 24–96VDC、1.5–5kW 系列范围；舵轮作为独立部件面向 AMR 和特种车辆。",
+    "en": "RMP-WL300 has adjustable track width. The hydraulic station lists series ranges of 24–96VDC and 1.5–5kW. Steer-wheel modules are separate components for AMRs and specialized vehicles."
+  },
+  "original_product_line": "农业、巡检与消防机器人，特种移动底盘，AMR 舵轮及关节",
+  "original_application_wording": "农业作业、安防巡检、消防应急与移动平台开发",
+  "original_issue_notes": [],
+  "item_ids": [
+    "item-dea35a0abfb2",
+    "item-a5e9225ad7c8",
+    "item-1db3dc6bf3cf",
+    "item-761a60247975",
+    "item-bf464af8f00f",
+    "item-95b82bd8292d",
+    "item-17799b2eae53",
+    "item-030c3e7da7c8",
+    "item-a1af12e1d7f1",
+    "item-8940ce9af50e",
+    "item-5d74631e4d56",
+    "item-bc9b1cbfd116",
+    "item-4e718498f70e",
+    "item-e7441ac2f574",
+    "item-00acbed5d34d",
+    "item-81ae34025b12",
+    "item-ade962523bbf"
+  ],
+  "source_technical_sha256": "a7d6d31fa68e007c8904503f1620800e5080ea0bfb4dd7cf430e661b6d8ad3f2",
+  "cross_source_categories": [],
+  "original_tags": "特种移动底盘与农业巡检机器人",
+  "original_verification_wording": "大会官方页已核验。",
+  "original_review_wording": "检索/读取日期：2026-09-05。核验口径：已读取官方网页；参数属发布方声明。"
+}

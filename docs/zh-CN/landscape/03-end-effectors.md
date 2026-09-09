@@ -20,42 +20,42 @@
 </thead>
 <tbody>
 <tr>
-<td width="240" nowrap><a id="03-01"></a>平行与自适应夹爪</td>
+<td width="240" nowrap><a id="03-01"></a>平行与自适应夹爪<br><a href="../products/topics/03-01.md">产品细节</a></td>
 <td width="300">稳定夹持尺寸或形状不同的物体。</td>
 <td width="320">抓取生成、柔顺设计与接触建模。</td>
 <td width="320">指尖工装、寿命、夹持检测与接口。</td>
 <td width="340">开口、夹持力、质量与可替换指尖。</td>
 </tr>
 <tr>
-<td width="240" nowrap><a id="03-02"></a>吸附、气动与柔性末端</td>
+<td width="240" nowrap><a id="03-02"></a>吸附、气动与柔性末端<br><a href="../products/topics/03-02.md">产品细节</a></td>
 <td width="300">处理薄片、易损或不规则物体。</td>
 <td width="320">密封接触、材料形变与抓取可行性。</td>
 <td width="320">气源、泄漏、污染与耗材更换。</td>
 <td width="340">表面适应性、压差、抓取失败检测。</td>
 </tr>
 <tr>
-<td width="240" nowrap><a id="03-03"></a>多指灵巧手</td>
+<td width="240" nowrap><a id="03-03"></a>多指灵巧手<br><a href="../products/topics/03-03.md">产品细节</a></td>
 <td width="300">在抓取后继续调整物体姿态。</td>
 <td width="320">高维动作学习、手内操作与跨手迁移。</td>
 <td width="320">驱动集成、耐久性、触觉布置与供货。</td>
 <td width="340">主动与总自由度、指尖力、控制接口。</td>
 </tr>
 <tr>
-<td width="240" nowrap><a id="03-04"></a>绳驱、欠驱动与仿生结构</td>
+<td width="240" nowrap><a id="03-04"></a>绳驱、欠驱动与仿生结构<br><a href="../products/topics/03-04.md">产品细节</a></td>
 <td width="300">降低手部重量与驱动数量。</td>
 <td width="320">耦合辨识、迟滞补偿与形态计算。</td>
 <td width="320">张力调节、传动维护与一致性。</td>
 <td width="340">独立可控维度、迟滞、张力与寿命。</td>
 </tr>
 <tr>
-<td width="240" nowrap><a id="03-05"></a>工具快换与工艺末端</td>
+<td width="240" nowrap><a id="03-05"></a>工具快换与工艺末端<br><a href="../products/topics/03-05.md">产品细节</a></td>
 <td width="300">在抓取、拧紧、加工等工序间切换。</td>
 <td width="320">工具使用推理与接触技能组合。</td>
 <td width="320">快换定位、介质连接、工艺认证。</td>
 <td width="340">换装时间、连接可靠性与工具标定。</td>
 </tr>
 <tr>
-<td width="240" nowrap><a id="03-06"></a>双手与手臂协同</td>
+<td width="240" nowrap><a id="03-06"></a>双手与手臂协同<br><a href="../products/topics/03-06.md">产品细节</a></td>
 <td width="300">共同支撑、交接或装配物体。</td>
 <td width="320">耦合约束、角色分工与协调策略。</td>
 <td width="320">碰撞规避、同步控制与工位布局。</td>
@@ -63,6 +63,14 @@
 </tr>
 </tbody>
 </table>
+
+## 技术与产品细节
+
+<a href="../products/comparisons/03-end-effectors.md">查看 19 条相关对照记录</a>
+
+继续比较逐型号参数、工况、接口、研究关联和来源问题，并下钻查看完整技术摘录与原始展项链接。
+
+<a href="../products/references/06-01.md">灵巧手与仿生末端</a> · <a href="../products/references/06-02.md">夹爪气动与工具快换</a>
 
 ## 研究、平台与产业代表
 

@@ -1,0 +1,31 @@
+{
+  "id": "E055",
+  "supplier_as_published": "智澄英达（杭州）科技有限公司",
+  "source_category": "01-01",
+  "source_url": "https://www.worldrobotconference.com/expo/company/582.html",
+  "original_source_urls": [
+    "https://www.worldrobotconference.com/expo/company/582.html",
+    "https://www.worldrobotconference.com/expo/product/880.html",
+    "https://www.worldrobotconference.com/expo/product/886.html"
+  ],
+  "source_checked_on": "2026-09-05",
+  "evidence": "official_page",
+  "technical": {
+    "zh-CN": "XR1 采用四舵轮底盘，标注双臂 50kg、2m 作业范围及双电池热插拔；TR6 结合多目视觉和力觉，两者对应不同形态与任务范围。",
+    "en": "XR1 uses a four-steer-wheel base, reporting 50kg dual-arm load, 2m workspace and dual-battery hot swap. TR6 combines multi-view vision and force sensing; form and task scope differ."
+  },
+  "original_product_line": "TR6 通用人形机器人、XR1 轮式复合人形机器人、澄灵物理世界模型",
+  "original_application_wording": "汽配、智慧物流、3C 电子的分拣、搬运与重复作业；商业和家居服务",
+  "original_issue_notes": [],
+  "item_ids": [
+    "item-872f8ecc1844",
+    "item-ef6089a32145"
+  ],
+  "source_technical_sha256": "284896ee463d956dc8a88f9395e234a8308f8f9271457369c69ffdfde8ce0b55",
+  "cross_source_categories": [
+    "01-02"
+  ],
+  "original_tags": "通用人形与重载轮式人形机器人",
+  "original_verification_wording": "大会官方页已核验。",
+  "original_review_wording": "检索/读取日期：2026-09-05。核验口径：已读取官方网页；参数属发布方声明。"
+}

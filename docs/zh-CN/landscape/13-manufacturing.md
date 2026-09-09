@@ -20,42 +20,42 @@
 </thead>
 <tbody>
 <tr>
-<td width="240" nowrap><a id="13-01"></a>结构材料与精密制造</td>
+<td width="240" nowrap><a id="13-01"></a>结构材料与精密制造<br><a href="../products/topics/13-01.md">产品细节</a></td>
 <td width="300">实现强度、重量与尺寸要求。</td>
 <td width="320">轻量结构、材料设计与拓扑优化。</td>
 <td width="320">加工能力、表面处理与公差控制。</td>
 <td width="340">质量、公差、疲劳与材料批次。</td>
 </tr>
 <tr>
-<td width="240" nowrap><a id="13-02"></a>增材制造与快速迭代</td>
+<td width="240" nowrap><a id="13-02"></a>增材制造与快速迭代<br><a href="../products/topics/13-02.md">产品细节</a></td>
 <td width="300">缩短设计验证与样件制造周期。</td>
 <td width="320">复杂结构、柔性器件与多材料设计。</td>
 <td width="320">工艺选择、后处理与一致性。</td>
 <td width="340">样件周期、强度方向性与返工率。</td>
 </tr>
 <tr>
-<td width="240" nowrap><a id="13-03"></a>装配、标定与出厂测试</td>
+<td width="240" nowrap><a id="13-03"></a>装配、标定与出厂测试<br><a href="../products/topics/13-03.md">产品细节</a></td>
 <td width="300">降低个体间性能差异。</td>
 <td width="320">自动标定、参数辨识与误差传播。</td>
 <td width="320">装配工艺、检测工装与可追溯记录。</td>
 <td width="340">标定残差、合格率与一致性。</td>
 </tr>
 <tr>
-<td width="240" nowrap><a id="13-04"></a>供应链与配置管理</td>
+<td width="240" nowrap><a id="13-04"></a>供应链与配置管理<br><a href="../products/topics/13-04.md">产品细节</a></td>
 <td width="300">控制部件变化及其系统影响。</td>
 <td width="320">可替代设计与模块化架构。</td>
 <td width="320">物料清单、替代件、版本与交期。</td>
 <td width="340">配置可追溯性、替代验证与维护兼容。</td>
 </tr>
 <tr>
-<td width="240" nowrap><a id="13-05"></a>系统集成与工位改造</td>
+<td width="240" nowrap><a id="13-05"></a>系统集成与工位改造<br><a href="../products/topics/13-05.md">产品细节</a></td>
 <td width="300">把机器人接入真实业务流程。</td>
 <td width="320">任务建模、人机协作与混合自动化。</td>
 <td width="320">工装、现场接口、调试与验收。</td>
 <td width="340">改造时间、稳定节拍与异常处理。</td>
 </tr>
 <tr>
-<td width="240" nowrap><a id="13-06"></a>维护、培训与生命周期</td>
+<td width="240" nowrap><a id="13-06"></a>维护、培训与生命周期<br><a href="../products/topics/13-06.md">产品细节</a></td>
 <td width="300">保持设备与人员长期可用。</td>
 <td width="320">预测维护、维修性设计与技能迁移。</td>
 <td width="320">备件、培训、维修流程与版本支持。</td>
@@ -63,6 +63,14 @@
 </tr>
 </tbody>
 </table>
+
+## 技术与产品细节
+
+<a href="../products/comparisons/13-manufacturing.md">查看 8 条相关对照记录</a>
+
+继续比较逐型号参数、工况、接口、研究关联和来源问题，并下钻查看完整技术摘录与原始展项链接。
+
+<a href="../products/references/02-04.md">焊接与柔性制造集成</a> · <a href="../products/references/10-01.md">金属增材制造</a> · <a href="../products/references/10-02.md">机床与精密加工装备</a> · <a href="../products/references/10-03.md">本体ODM与精密制造</a> · <a href="../products/references/10-04.md">粘接导热与功能材料</a> · <a href="../products/references/11-01.md">高校研究院与科研团队</a> · <a href="../products/references/11-02.md">创新中心中试与产业运营</a> · <a href="../products/references/11-03.md">协会与联合展区</a> · <a href="../products/references/11-04.md">人才培养与实训</a>
 
 ## 研究、平台与产业代表
 

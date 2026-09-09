@@ -1,0 +1,41 @@
+{
+  "id": "E205",
+  "supplier_as_published": "东莞市伟创动力科技有限公司",
+  "source_category": "06-04",
+  "source_url": "https://www.worldrobotconference.com/expo/company/640.html",
+  "original_source_urls": [
+    "https://www.worldrobotconference.com/expo/company/640.html",
+    "https://www.worldrobotconference.com/expo/product/1208.html",
+    "https://www.worldrobotconference.com/expo/product/1210.html",
+    "https://www.worldrobotconference.com/expo/product/1211.html",
+    "https://www.worldrobotconference.com/expo/product/1214.html",
+    "https://www.worldrobotconference.com/expo/product/1252.html"
+  ],
+  "source_checked_on": "2026-09-05",
+  "evidence": "official_page",
+  "technical": {
+    "zh-CN": "EM3/EM10 用 TTL 串口总线和独立 ID，带过载离合保护；EM10 的 10kg·cm 是转矩单位，不能读作可搬运 10kg。",
+    "en": "EM3/EM10 use TTL serial buses and separate IDs with overload clutches. EM10's 10kg·cm is torque, not a 10kg payload rating."
+  },
+  "original_product_line": "微型舵机、无框电机、关节电机与轮毂电机",
+  "original_application_wording": "桌面陪伴机器人、灵巧手、外骨骼、四足、服务与教育机器人",
+  "original_issue_notes": [],
+  "item_ids": [
+    "item-524d59804a43",
+    "item-9c60e1a8c380",
+    "item-40ee159823c2",
+    "item-f442338ef6ef",
+    "item-565cb4013170",
+    "item-90c0509e5525",
+    "item-e1a8ed877cb9",
+    "item-62b19a952e13",
+    "item-1a171cea421f",
+    "item-d6464f0e3e01",
+    "item-4c03b34de260"
+  ],
+  "source_technical_sha256": "4fd85cd9d05b5134169f2aa829dccd716875049d58090e8260ce32686551e406",
+  "cross_source_categories": [],
+  "original_tags": "微型舵机与机器人驱动模组",
+  "original_verification_wording": "大会官方页已核验。",
+  "original_review_wording": "检索/读取日期：2026-09-05。核验口径：已读取官方网页；参数属发布方声明。"
+}

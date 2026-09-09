@@ -1,0 +1,29 @@
+{
+  "id": "E147",
+  "supplier_as_published": "武汉泛洲谐波传动有限公司",
+  "source_category": "06-06",
+  "source_url": "https://www.worldrobotconference.com/expo/company/869.html",
+  "original_source_urls": [
+    "https://www.worldrobotconference.com/expo/company/869.html",
+    "https://www.worldrobotconference.com/expo/product/1424.html"
+  ],
+  "source_checked_on": "2026-09-05",
+  "evidence": "official_page",
+  "technical": {
+    "zh-CN": "采用 F 型非共轭齿形、波发生器及精密成型柔轮，页面声明疲劳寿命 1.5 万小时；未列载荷谱及测试条件。",
+    "en": "The design uses an F-type non-conjugate tooth profile, wave generator and precision-formed flexspline. Claimed fatigue life is 15,000 hours, without load spectrum or test conditions."
+  },
+  "original_product_line": "人形机器人谐波减速器",
+  "original_application_wording": "机器人关节传动",
+  "original_issue_notes": [],
+  "item_ids": [
+    "item-8a7e47a95c45"
+  ],
+  "source_technical_sha256": "5ac0826398cd33cae77f89d5acbdf6ab3b18d66a71ee5bad8ed6c80c583dea5b",
+  "cross_source_categories": [
+    "06-03"
+  ],
+  "original_tags": "谐波减速器",
+  "original_verification_wording": "大会官方页已核验。",
+  "original_review_wording": "检索/读取日期：2026-09-05。核验口径：已读取官方网页；参数属发布方声明。"
+}

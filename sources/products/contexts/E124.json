@@ -1,0 +1,27 @@
+{
+  "id": "E124",
+  "supplier_as_published": "探路者控股集团股份有限公司",
+  "source_category": "05-03",
+  "source_url": "https://www.worldrobotconference.com/expo/company/627.html",
+  "original_source_urls": [
+    "https://www.worldrobotconference.com/expo/company/627.html",
+    "https://www.worldrobotconference.com/expo/product/989.html"
+  ],
+  "source_checked_on": "2026-09-05",
+  "evidence": "official_page",
+  "technical": {
+    "zh-CN": "Crest C3 定位户外普通人群的运动增强，是第二代外骨骼；页面未披露助力扭矩、重量或电池规格，不将其视为医疗康复设备。",
+    "en": "Crest C3 is a second-generation outdoor exercise-assistance exoskeleton for the general public. Assistance torque, mass and battery specifications are absent; it is not classified as medical rehabilitation equipment."
+  },
+  "original_product_line": "Crest C3 智能运动外骨骼",
+  "original_application_wording": "户外行走增强与疲劳减轻",
+  "original_issue_notes": [],
+  "item_ids": [
+    "item-df3daf81c416"
+  ],
+  "source_technical_sha256": "427e7a156523654ea5ed1098e5e0ea6e33304d3a675946d87e2648702cb50033",
+  "cross_source_categories": [],
+  "original_tags": "户外运动助力外骨骼",
+  "original_verification_wording": "大会官方页已核验。",
+  "original_review_wording": "检索/读取日期：2026-09-05。核验口径：已读取官方网页；参数属发布方声明。"
+}

@@ -1,0 +1,39 @@
+{
+  "id": "E203",
+  "supplier_as_published": "卧龙电气驱动集团股份有限公司",
+  "source_category": "06-04",
+  "source_url": "https://www.worldrobotconference.com/expo/company/418.html",
+  "original_source_urls": [
+    "https://www.worldrobotconference.com/expo/company/418.html",
+    "https://www.worldrobotconference.com/expo/product/443.html",
+    "https://www.worldrobotconference.com/expo/product/458.html",
+    "https://www.worldrobotconference.com/expo/product/459.html",
+    "https://www.worldrobotconference.com/expo/product/460.html",
+    "https://www.worldrobotconference.com/expo/product/461.html"
+  ],
+  "source_checked_on": "2026-09-05",
+  "evidence": "official_page",
+  "technical": {
+    "zh-CN": "通用关节使用行星减速器，高精度关节使用谐波和双编码器；无框电机定子尺寸系列为 38–132mm，按集成度与结构分开查询。",
+    "en": "General joints use planetary reducers; precision joints use strain-wave gearing and dual encoders. Frameless motor stator families span 38–132mm; compare structure and integration separately."
+  },
+  "original_product_line": "无框电机、通用/高精度关节、伺服驱动器及机器狗",
+  "original_application_wording": "人形、四足、协作机器人，航空航天、3D 打印与柔性生产",
+  "original_issue_notes": [],
+  "item_ids": [
+    "item-6eb9668650aa",
+    "item-9dbd8ac604cd",
+    "item-d333d7cb638f",
+    "item-df5f153b80e2",
+    "item-09a80f306355"
+  ],
+  "source_technical_sha256": "dc20bb5fe27968fb92b7ba7e769fe948a35cf02038ef719532bdb2e2b9abe8ef",
+  "cross_source_categories": [
+    "06-03",
+    "06-06",
+    "06-07"
+  ],
+  "original_tags": "电机、伺服驱动与关节模组",
+  "original_verification_wording": "大会官方页已核验。",
+  "original_review_wording": "检索/读取日期：2026-09-05。核验口径：已读取官方网页；参数属发布方声明。"
+}

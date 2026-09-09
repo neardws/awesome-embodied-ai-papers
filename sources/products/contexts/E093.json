@@ -1,0 +1,36 @@
+{
+  "id": "E093",
+  "supplier_as_published": "安诺机器人（深圳）有限公司",
+  "source_category": "03-03",
+  "source_url": "https://www.worldrobotconference.com/expo/company/588.html",
+  "original_source_urls": [
+    "https://www.worldrobotconference.com/expo/company/588.html",
+    "https://www.worldrobotconference.com/expo/product/365.html",
+    "https://www.worldrobotconference.com/expo/product/366.html",
+    "https://www.worldrobotconference.com/expo/product/367.html",
+    "https://www.worldrobotconference.com/expo/product/368.html",
+    "https://www.worldrobotconference.com/expo/product/1174.html",
+    "https://www.robotanno.com/"
+  ],
+  "source_checked_on": "2026-09-05",
+  "evidence": "official_page",
+  "technical": {
+    "zh-CN": "单臂咖啡亭页面标注约 90 秒制作；MINI 调酒亭占地不足 2㎡、约 45 秒出饮；奶茶亭采用模块化原料与扫码取餐，实际节拍取决于配方。",
+    "en": "The single-arm coffee kiosk reports about 90 seconds per drink. The MINI cocktail kiosk occupies under 2㎡ and reports about 45 seconds. The milk-tea kiosk uses modular ingredients and QR pickup; cycle time depends on recipe."
+  },
+  "original_product_line": "桌面级机械臂；AI机器人咖啡、奶茶、调酒、冰淇淋售卖亭",
+  "original_application_wording": "咖啡、奶茶、调酒、冰淇淋等无人零售及商业服务",
+  "original_issue_notes": [],
+  "item_ids": [
+    "item-401f14139cae",
+    "item-a957649d36ac",
+    "item-45538e482973",
+    "item-1cdea3f8a1da",
+    "item-285e668a0d96"
+  ],
+  "source_technical_sha256": "0e6acac1c9ea71c6c9699a541e3aed2bbb77c986aaa61a407ec2237eec2eb739",
+  "cross_source_categories": [],
+  "original_tags": "无人零售机械臂与现制饮品机器人",
+  "original_verification_wording": "官网已核对。",
+  "original_review_wording": "检索/读取日期：2026-09-05。核验口径：已读取官方网页；参数属发布方声明。"
+}

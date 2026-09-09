@@ -1,0 +1,39 @@
+{
+  "id": "E004",
+  "supplier_as_published": "镜识科技（上海）有限公司",
+  "source_category": "01-03",
+  "source_url": "https://www.worldrobotconference.com/expo/company/593.html",
+  "original_source_urls": [
+    "https://www.worldrobotconference.com/expo/company/593.html",
+    "https://www.worldrobotconference.com/expo/product/677.html",
+    "https://www.worldrobotconference.com/expo/product/678.html",
+    "https://www.worldrobotconference.com/expo/product/679.html",
+    "https://www.worldrobotconference.com/expo/product/682.html",
+    "https://www.mirrormetech.com/cn/"
+  ],
+  "source_checked_on": "2026-09-05",
+  "evidence": "official_page",
+  "technical": {
+    "zh-CN": "Black Panther X 提供模块化拼装与配套教学课程；Bolt 侧重全身动力学设计；BAOBAO 页面介绍幼教合作。三者应分别看作开发平台、人形本体和教育交互产品。",
+    "en": "Black Panther X provides modular assembly and teaching materials; Bolt emphasizes whole-body dynamics; BAOBAO describes early-education cooperation. They are distinct development, humanoid and educational-interaction offerings."
+  },
+  "original_product_line": "Black Panther X 四足机器人、Bolt 人形机器人、BAOBAO 陪伴机器人、Apollo 工业四足机器人",
+  "original_application_wording": "巡检、特种救援、科技教育、家庭陪伴",
+  "original_issue_notes": [],
+  "item_ids": [
+    "item-6ca044d1e775",
+    "item-44eab6461870",
+    "item-df5b41a5ae3b",
+    "item-f963950a10d8"
+  ],
+  "source_technical_sha256": "3c4008797452043fef4a4b870ea6efcd93dfcd13899b997015233a2de6b4a064",
+  "cross_source_categories": [
+    "01-01",
+    "01-04",
+    "03-04",
+    "11-04"
+  ],
+  "original_tags": "人形与四足通用机器人",
+  "original_verification_wording": "官网已核对。",
+  "original_review_wording": "检索/读取日期：2026-09-05。核验口径：已读取官方网页；参数属发布方声明。"
+}

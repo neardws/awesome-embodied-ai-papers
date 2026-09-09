@@ -20,42 +20,42 @@ This page distinguishes subcategory questions, research priorities and industria
 </thead>
 <tbody>
 <tr>
-<td width="240" nowrap><a id="12-01"></a>Capability benchmarks and task evaluation</td>
+<td width="240" nowrap><a id="12-01"></a>Capability benchmarks and task evaluation<br><a href="../products/topics/12-01.md">Product details</a></td>
 <td width="300">Measure capability under comparable conditions.</td>
 <td width="320">Task design, generalization splits and statistical significance.</td>
 <td width="320">Mapping to site tasks, acceptance conditions and regression suites.</td>
 <td width="340">Success, coverage, variance and failure distribution.</td>
 </tr>
 <tr>
-<td width="240" nowrap><a id="12-02"></a>Reliability and long-horizon testing</td>
+<td width="240" nowrap><a id="12-02"></a>Reliability and long-horizon testing<br><a href="../products/topics/12-02.md">Product details</a></td>
 <td width="300">Expose failures accumulating during sustained operation.</td>
 <td width="320">Error propagation, robustness and lifetime modeling.</td>
 <td width="320">Aging tests, interruptions and spare-part service.</td>
 <td width="340">Operating duration, failure frequency and recovery time.</td>
 </tr>
 <tr>
-<td width="240" nowrap><a id="12-03"></a>Safety constraints and system protection</td>
+<td width="240" nowrap><a id="12-03"></a>Safety constraints and system protection<br><a href="../products/topics/12-03.md">Product details</a></td>
 <td width="300">Limit hazardous actions and failure propagation.</td>
 <td width="320">Safe control, constraint verification and risk awareness.</td>
 <td width="320">Protection chains, emergency stops, isolation and responsibility boundaries.</td>
 <td width="340">Constraint violations, response time and validation coverage.</td>
 </tr>
 <tr>
-<td width="240" nowrap><a id="12-04"></a>Edge deployment and model updates</td>
+<td width="240" nowrap><a id="12-04"></a>Edge deployment and model updates<br><a href="../products/topics/12-04.md">Product details</a></td>
 <td width="300">Run models reliably on target devices.</td>
 <td width="320">Compression, caching, inference scheduling and online adaptation.</td>
 <td width="320">Release management, staged updates, rollback and compatibility.</td>
 <td width="340">End-to-end latency, resource use and regression results.</td>
 </tr>
 <tr>
-<td width="240" nowrap><a id="12-05"></a>Takeover, diagnostics and recovery</td>
+<td width="240" nowrap><a id="12-05"></a>Takeover, diagnostics and recovery<br><a href="../products/topics/12-05.md">Product details</a></td>
 <td width="300">Maintain controllable operation during failures.</td>
 <td width="320">Anomaly detection, recovery policies and human-robot cooperation.</td>
 <td width="320">Alerts, remote takeover, fault localization and resets.</td>
 <td width="340">Intervention count, takeover delay and completion after recovery.</td>
 </tr>
 <tr>
-<td width="240" nowrap><a id="12-06"></a>Fleet, service and operational metrics</td>
+<td width="240" nowrap><a id="12-06"></a>Fleet, service and operational metrics<br><a href="../products/topics/12-06.md">Product details</a></td>
 <td width="300">Manage multi-robot tasks and ongoing service.</td>
 <td width="320">Cooperative scheduling, queues and resource optimization.</td>
 <td width="320">Work orders, availability, service cost and facility integration.</td>
@@ -63,6 +63,14 @@ This page distinguishes subcategory questions, research priorities and industria
 </tr>
 </tbody>
 </table>
+
+## Technical and product details
+
+<a href="../products/comparisons/12-operations.md">Open 2 related comparison records</a>
+
+Compare model-specific values, conditions, interfaces, research relationships and source issues. Full source excerpts and original exhibit links remain available underneath.
+
+<a href="../products/references/09-04.md">Simulation, synthetic data and evaluation</a>
 
 ## Research, platforms and industrial examples
 

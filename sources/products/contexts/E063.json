@@ -1,0 +1,35 @@
+{
+  "id": "E063",
+  "supplier_as_published": "广州高擎动力科技有限公司",
+  "source_category": "01-04",
+  "source_url": "https://www.worldrobotconference.com/expo/company/417.html",
+  "original_source_urls": [
+    "https://www.worldrobotconference.com/expo/company/417.html",
+    "https://www.worldrobotconference.com/expo/product/226.html",
+    "https://www.worldrobotconference.com/expo/product/227.html",
+    "https://www.worldrobotconference.com/expo/product/1309.html",
+    "https://www.worldrobotconference.com/expo/product/1310.html"
+  ],
+  "source_checked_on": "2026-09-05",
+  "evidence": "official_page",
+  "technical": {
+    "zh-CN": "Mini Pi/Hi 页面声明开放 SDK 及 ZMP、MPC、强化学习算法；Mini Pi Plus 标注 22 自由度、含电池 14.6kg、启动高度约 680mm。",
+    "en": "Mini Pi/Hi claim open SDK and ZMP, MPC and reinforcement-learning algorithms. Mini Pi Plus reports 22 degrees of freedom, 14.6kg including battery and about 680mm starting height."
+  },
+  "original_product_line": "Mini Pi、Mini Hi、Mini Pi Plus 小型人形机器人及行星关节模组",
+  "original_application_wording": "科研开发、教学实践、创客创新、具身智能、情感交互与家庭陪伴",
+  "original_issue_notes": [],
+  "item_ids": [
+    "item-368459b9fd21",
+    "item-f7c2dcaaa347",
+    "item-918d37ee853b",
+    "item-3e2096b7561a"
+  ],
+  "source_technical_sha256": "478f0afbe40f358ddc98c66a2c6d87be09535088f066eef8c9ba3ae17e5373ae",
+  "cross_source_categories": [
+    "01-01"
+  ],
+  "original_tags": "小型人形机器人开放平台",
+  "original_verification_wording": "大会官方页已核验。",
+  "original_review_wording": "检索/读取日期：2026-09-05。核验口径：已读取官方网页；参数属发布方声明。"
+}

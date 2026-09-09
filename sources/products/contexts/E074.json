@@ -1,0 +1,29 @@
+{
+  "id": "E074",
+  "supplier_as_published": "深圳墨奇智能技术有限公司",
+  "source_category": "01-02",
+  "source_url": "https://www.worldrobotconference.com/expo/company/646.html",
+  "original_source_urls": [
+    "https://www.worldrobotconference.com/expo/company/646.html",
+    "https://www.worldrobotconference.com/expo/product/1526.html"
+  ],
+  "source_checked_on": "2026-09-05",
+  "evidence": "official_page",
+  "technical": {
+    "zh-CN": "KINO 以酒店连续任务为切入点，组合导航、抓取、递送与整理，并描述运行数据回流；未公开任务成功率和日均人工接管次数。",
+    "en": "KINO targets continuous hotel tasks, combining navigation, grasping, delivery and tidying with operational-data feedback. Task success and daily human-takeover counts are not public."
+  },
+  "original_product_line": "MORPHI KINO 轮式双臂具身机器人、MoRA 具身大模型",
+  "original_application_wording": "酒店服务中的移动、抓取、配送与整理",
+  "original_issue_notes": [],
+  "item_ids": [
+    "item-3cc52835bc7a"
+  ],
+  "source_technical_sha256": "b0122ee842e803f643122849cc0335bed8aea165711d5e4c70db70bcab5d1093",
+  "cross_source_categories": [
+    "01-01"
+  ],
+  "original_tags": "轮式双臂具身服务机器人",
+  "original_verification_wording": "大会官方页已核验。",
+  "original_review_wording": "检索/读取日期：2026-09-05。核验口径：已读取官方网页；参数属发布方声明。"
+}

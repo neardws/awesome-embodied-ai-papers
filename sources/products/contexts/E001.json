@@ -1,0 +1,27 @@
+{
+  "id": "E001",
+  "supplier_as_published": "自变量机器人",
+  "source_category": "01-02",
+  "source_url": "https://x2robot.com/",
+  "original_source_urls": [
+    "https://x2robot.com/",
+    "https://www.x2robot.cn/about"
+  ],
+  "source_checked_on": "2026-09-05",
+  "evidence": "official_page",
+  "technical": {
+    "zh-CN": "WALL-A 页面列出少样本学习、跨任务迁移和强化学习方向；展示线束整理、拉拉链、纸巾更换等柔性物体操作任务，适合按任务而非仅按本体形态检索。",
+    "en": "The WALL-A page lists few-shot learning, cross-task transfer and reinforcement learning, showing cable organization, zipper operation and tissue replacement. Index these deformable-object tasks separately from body shape."
+  },
+  "original_product_line": "WALL-A 具身操作大模型、量子1号 Pro、量子2号、五指灵巧手",
+  "original_application_wording": "家庭服务、科研教育、商业清洁、物流分拣",
+  "original_issue_notes": [],
+  "item_ids": [],
+  "source_technical_sha256": "5fe63b061048e739fd70031cce648bd5d4bf36ee8d7b361ee0fd926a8d6435e5",
+  "cross_source_categories": [
+    "09-01"
+  ],
+  "original_tags": "具身大模型与轮式仿人机器人",
+  "original_verification_wording": "官网已核对。",
+  "original_review_wording": "检索/读取日期：2026-09-05。核验口径：已读取官方网页；参数属发布方声明。"
+}

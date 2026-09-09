@@ -1,0 +1,27 @@
+{
+  "id": "E121",
+  "supplier_as_published": "强联智创（北京）科技股份有限公司",
+  "source_category": "05-01",
+  "source_url": "https://www.worldrobotconference.com/expo/company/443.html",
+  "original_source_urls": [
+    "https://www.worldrobotconference.com/expo/company/443.html",
+    "https://www.worldrobotconference.com/expo/product/239.html"
+  ],
+  "source_checked_on": "2026-09-05",
+  "evidence": "official_page",
+  "technical": {
+    "zh-CN": "方案由影像重建、自动测量、导管塑形规划及机器人执行组成；页面列华山与宣武医院研发合作，但不据此推定疗效和临床准入。",
+    "en": "The solution combines image reconstruction, automatic measurement, catheter-shaping planning and robot execution. Named research cooperation with Huashan and Xuanwu hospitals does not establish efficacy or clinical authorization."
+  },
+  "original_product_line": "神经血管智能手术解决方案、UMate AI 导管塑形机器人",
+  "original_application_wording": "神经血管三维重建、导管塑形与模拟释放",
+  "original_issue_notes": [],
+  "item_ids": [
+    "item-23140e9e8bc9"
+  ],
+  "source_technical_sha256": "3a5d29c27e0d736b0a3318b9571e510e1cd754b0cdfe526764248797e97627bc",
+  "cross_source_categories": [],
+  "original_tags": "神经介入 AI 手术机器人",
+  "original_verification_wording": "大会官方页已核验。",
+  "original_review_wording": "检索/读取日期：2026-09-05。核验口径：已读取官方网页；参数属发布方声明。"
+}

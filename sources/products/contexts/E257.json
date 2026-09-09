@@ -1,0 +1,37 @@
+{
+  "id": "E257",
+  "supplier_as_published": "中亿（深圳）具身智能科技有限公司",
+  "source_category": "08-02",
+  "source_url": "https://www.worldrobotconference.com/expo/company/826.html",
+  "original_source_urls": [
+    "https://www.worldrobotconference.com/expo/company/826.html",
+    "https://www.worldrobotconference.com/expo/product/1099.html",
+    "https://www.worldrobotconference.com/expo/product/1128.html",
+    "https://www.worldrobotconference.com/expo/product/1082.html",
+    "https://www.worldrobotconference.com/expo/product/1095.html"
+  ],
+  "source_checked_on": "2026-09-05",
+  "evidence": "official_page",
+  "technical": {
+    "zh-CN": "T38 核心板基于 RK3588，配 LPDDR4、eMMC、双千兆和 260Pin 接口；T38C 文案存在多处错字。所列灵犀 X2 明示为智元产品，不能据参展归属判断自研。",
+    "en": "T38 is an RK3588 core board with LPDDR4, eMMC, dual gigabit networking and 260Pin interface. T38C text contains typos. 灵犀 X2 is explicitly an AgiBot product, not necessarily developed by this exhibitor."
+  },
+  "original_product_line": "T38 核心板、T38C 边缘网关；异构机器人协同能力",
+  "original_application_wording": "边缘 AI、机器视觉、工业控制、车载与商用机器人",
+  "original_issue_notes": [
+    "具体问题：T38C 正文有明显错字；灵犀 X2 是合作方产品。"
+  ],
+  "item_ids": [
+    "item-7bfda70c6ed4",
+    "item-7b060cd7e5bf",
+    "item-807249af5641",
+    "item-b60858e6dc18"
+  ],
+  "source_technical_sha256": "a426d3767999dc4c0761024a77cbe0f71163ed56cb0c9abbeaa53692f85bea9f",
+  "cross_source_categories": [
+    "03-05"
+  ],
+  "original_tags": "边缘 AI 核心板与网关",
+  "original_verification_wording": "官方页已核对。",
+  "original_review_wording": "检索/读取日期：2026-09-05。核验口径：已读取官方网页；参数属发布方声明。"
+}

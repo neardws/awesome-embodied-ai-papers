@@ -157,6 +157,52 @@
         "zh-CN": "适用人群或场景、力学边界、验证条件。",
         "en": "Intended users or settings, mechanical limits and validation conditions."
       }
+    },
+    {
+      "id": "01-07",
+      "name": {
+        "zh-CN": "移动底盘与模块化载体",
+        "en": "Mobile bases and modular carriers"
+      },
+      "problem": {
+        "zh-CN": "为感知、运输和操作提供移动载体。",
+        "en": "Provide mobile carriers for sensing, transport and manipulation."
+      },
+      "research": {
+        "zh-CN": "运动学、地形适配与任务模块协同。",
+        "en": "Kinematics, terrain adaptation and task-module coordination."
+      },
+      "industry": {
+        "zh-CN": "载荷接口、导航接入、供电与车体维护。",
+        "en": "Payload interfaces, navigation integration, power and base service."
+      },
+      "compare": {
+        "zh-CN": "载荷工况、转弯半径、供电和安装接口。",
+        "en": "Payload conditions, turning radius, power and mounting interfaces."
+      }
+    },
+    {
+      "id": "01-08",
+      "name": {
+        "zh-CN": "固定半身与双臂平台",
+        "en": "Fixed upper-body and dual-arm platforms"
+      },
+      "problem": {
+        "zh-CN": "在固定工位研究或执行双臂与上身操作。",
+        "en": "Study or execute bimanual and upper-body work at fixed stations."
+      },
+      "research": {
+        "zh-CN": "臂间协调、操作空间与示教学习。",
+        "en": "Arm coordination, manipulation workspace and learning from demonstrations."
+      },
+      "industry": {
+        "zh-CN": "立柱、固定结构、工位适配和末端配置。",
+        "en": "Columns, fixtures, workstation integration and end effectors."
+      },
+      "compare": {
+        "zh-CN": "有效自由度、操作范围、负载与固定条件。",
+        "en": "Effective degrees of freedom, workspace, load and mounting conditions."
+      }
     }
   ]
 }

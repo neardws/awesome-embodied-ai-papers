@@ -1,0 +1,32 @@
+{
+  "id": "E034",
+  "supplier_as_published": "无界动力（北京）技术研发有限公司",
+  "source_category": "01-02",
+  "source_url": "https://www.worldrobotconference.com/expo/company/777.html",
+  "original_source_urls": [
+    "https://www.worldrobotconference.com/expo/company/777.html",
+    "https://www.worldrobotconference.com/expo/product/1262.html",
+    "https://www.worldrobotconference.com/expo/product/1263.html"
+  ],
+  "source_checked_on": "2026-09-05",
+  "evidence": "official_page",
+  "technical": {
+    "zh-CN": "MWA 将隐空间世界模型与强化学习结合；K15 页面声明取得工业 CE 相关认证，但本轮未核验具体证书、适用指令或测试报告。",
+    "en": "MWA combines latent world modeling with reinforcement learning. K15 claims industrial CE-related certification, but the certificate, applicable directives and test reports were not checked in the archived review."
+  },
+  "original_product_line": "K15 第二代具身智能轮式半人形机器人、MWA 具身通用大脑",
+  "original_application_wording": "工业制造、商业服务；新能源、汽车精密零部件产线及开放商业服务",
+  "original_issue_notes": [],
+  "item_ids": [
+    "item-9cf1ecbfd1eb",
+    "item-d1df28985cfe"
+  ],
+  "source_technical_sha256": "f76d6f15df3d36afd79a51e327e74f656efdcf4b422e0c4e6efa345bcbd85fd1",
+  "cross_source_categories": [
+    "01-01",
+    "09-01"
+  ],
+  "original_tags": "轮式半人形机器人与具身通用大脑",
+  "original_verification_wording": "已核验（大会官方页）。",
+  "original_review_wording": "检索/读取日期：2026-09-05。核验口径：已读取官方网页；参数属发布方声明。"
+}

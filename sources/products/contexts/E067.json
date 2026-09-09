@@ -1,0 +1,33 @@
+{
+  "id": "E067",
+  "supplier_as_published": "宁波未来时代机器人有限公司",
+  "source_category": "01-02",
+  "source_url": "https://www.worldrobotconference.com/expo/company/620.html",
+  "original_source_urls": [
+    "https://www.worldrobotconference.com/expo/company/620.html",
+    "https://www.worldrobotconference.com/expo/product/1029.html",
+    "https://www.worldrobotconference.com/expo/product/1033.html",
+    "https://www.worldrobotconference.com/expo/product/1040.html"
+  ],
+  "source_checked_on": "2026-09-05",
+  "evidence": "official_page",
+  "technical": {
+    "zh-CN": "产品分工业、重载和折叠腰三类；重载版本面向 30–50kg 级工件，折叠腰版本覆盖高低位取放。此工件等级不是统一额定负载表。",
+    "en": "The products separate industrial, heavy-load and folding-waist versions. Heavy-load variants target 30–50kg workpieces; folding-waist versions cover high/low picking. This workpiece class is not a common rated-payload specification."
+  },
+  "original_product_line": "工业、重载及折腰型轮式双臂人形机器人",
+  "original_application_wording": "上下料、转运、分拣、码垛与装配",
+  "original_issue_notes": [],
+  "item_ids": [
+    "item-2c5f7673a65f",
+    "item-5ce9a3c1ef1e",
+    "item-938e7a193555"
+  ],
+  "source_technical_sha256": "b4c11a218d392ea4a4a2b330f08f0837e3f036563b3786adc1842104217a0702",
+  "cross_source_categories": [
+    "01-01"
+  ],
+  "original_tags": "工业轮式双臂人形机器人",
+  "original_verification_wording": "大会官方页已核验。",
+  "original_review_wording": "检索/读取日期：2026-09-05。核验口径：已读取官方网页；参数属发布方声明。"
+}

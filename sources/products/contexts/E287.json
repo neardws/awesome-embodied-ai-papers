@@ -1,0 +1,33 @@
+{
+  "id": "E287",
+  "supplier_as_published": "3M中国有限公司",
+  "source_category": "10-04",
+  "source_url": "https://www.worldrobotconference.com/expo/company/661.html",
+  "original_source_urls": [
+    "https://www.worldrobotconference.com/expo/company/661.html",
+    "https://www.worldrobotconference.com/expo/product/1191.html",
+    "https://www.worldrobotconference.com/expo/product/1206.html",
+    "https://www.worldrobotconference.com/expo/product/1207.html",
+    "https://www.worldrobotconference.com/expo/product/1225.html"
+  ],
+  "source_checked_on": "2026-09-05",
+  "evidence": "official_page",
+  "technical": {
+    "zh-CN": "VHB 为结构粘接胶带，Dual Lock 为可拆互锁固定件，GM641 为微结构抓握材料；对应固定、拆装和表面摩擦三个环节。",
+    "en": "VHB is structural bonding tape, Dual Lock removable interlocking fastening, and GM641 microstructured gripping material. They address fixation, disassembly and surface friction respectively."
+  },
+  "original_product_line": "VHB胶带、Dual Lock蘑菇搭扣、GM641抓握材料、Scotch-Weld DP460",
+  "original_application_wording": "机器人、智能设备、汽车、家电、轨交、电子及新能源的粘接、密封与保护",
+  "original_issue_notes": [],
+  "item_ids": [
+    "item-f96c9a899ab4",
+    "item-1a39ba4c1eea",
+    "item-f2f98dc2d267",
+    "item-aab58030276f"
+  ],
+  "source_technical_sha256": "d3843556703057f37edc2e1aa5b721a2f41de00be54770ca835d690ef813793f",
+  "cross_source_categories": [],
+  "original_tags": "机器人粘接、固定与抓握材料",
+  "original_verification_wording": "大会官方页已核验。",
+  "original_review_wording": "检索/读取日期：2026-09-05。核验口径：已读取官方网页；参数属发布方声明。"
+}

@@ -1,0 +1,37 @@
+{
+  "id": "E087",
+  "supplier_as_published": "中国电子科技集团公司第二十一研究所（中电科机器人有限公司）",
+  "source_category": "01-01",
+  "source_url": "https://www.worldrobotconference.com/expo/company/464.html",
+  "original_source_urls": [
+    "https://www.worldrobotconference.com/expo/company/464.html",
+    "https://www.worldrobotconference.com/expo/product/195.html",
+    "https://www.worldrobotconference.com/expo/product/194.html",
+    "https://www.worldrobotconference.com/expo/product/733.html",
+    "https://www.worldrobotconference.com/expo/product/741.html",
+    "https://www.worldrobotconference.com/expo/product/744.html"
+  ],
+  "source_checked_on": "2026-09-05",
+  "evidence": "official_page",
+  "technical": {
+    "zh-CN": "云擎用于过头作业肩部助力，采用鲍登线传动并将动力置于腰部；电科智巡提供任务、告警与报告管理，支持第三方平台对接。",
+    "en": "云擎 assists overhead shoulder work using Bowden-cable transmission and waist-mounted actuation. 电科智巡 manages tasks, alerts and reports with third-party platform integration."
+  },
+  "original_product_line": "探索 D1 人形机器人、电科智巡四足机器人、白虹髋关节及云擎上肢外骨骼",
+  "original_application_wording": "工业生产与物流、电厂/园区巡检、户外助力与头顶工业作业",
+  "original_issue_notes": [],
+  "item_ids": [
+    "item-b03e614c5a3b",
+    "item-8f992ee472be",
+    "item-798f9971f569",
+    "item-86c26a709e9f",
+    "item-2366590e8276"
+  ],
+  "source_technical_sha256": "6d7f958656c172a0aa2d6d0d7221b4720e1116b3f76f0c2ef8a7fe10497aed4f",
+  "cross_source_categories": [
+    "01-02"
+  ],
+  "original_tags": "特种人形、四足巡检与外骨骼",
+  "original_verification_wording": "大会官方页已核验。",
+  "original_review_wording": "检索/读取日期：2026-09-05。核验口径：已读取官方网页；参数属发布方声明。"
+}

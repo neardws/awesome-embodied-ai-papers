@@ -1,0 +1,31 @@
+{
+  "id": "E267",
+  "supplier_as_published": "北京星源智机器人科技有限公司",
+  "source_category": "08-02",
+  "source_url": "https://www.worldrobotconference.com/expo/company/767.html",
+  "original_source_urls": [
+    "https://www.worldrobotconference.com/expo/company/767.html",
+    "https://www.worldrobotconference.com/expo/product/803.html",
+    "https://www.worldrobotconference.com/expo/product/966.html",
+    "https://www.worldrobotconference.com/expo/product/1064.html"
+  ],
+  "source_checked_on": "2026-09-05",
+  "evidence": "official_page",
+  "technical": {
+    "zh-CN": "T Titan 为异构域控制器，N Nimble 为紧凑计算方案，B BotPack 为便携算力；公开文字缺少对应处理器、接口和功耗。",
+    "en": "T Titan is a heterogeneous domain controller, N Nimble a compact computing option, and B BotPack portable compute. Processors, interfaces and power are not disclosed."
+  },
+  "original_product_line": "RoboBrain、具身交互世界模型 ω-EVA、具身大脑域控制器 T/N/B 系列",
+  "original_application_wording": "机器人端侧大模型运行、实时控制、外设集成与具身任务规划",
+  "original_issue_notes": [],
+  "item_ids": [
+    "item-f5295db7cf7e",
+    "item-b9cf9bca0dad",
+    "item-29e33da1bfb0"
+  ],
+  "source_technical_sha256": "39e344dd5eba356dc9f4093e6b42d588d4749c4e64a79473ab2826b6094279bc",
+  "cross_source_categories": [],
+  "original_tags": "多模态空间智能与具身大脑域控制器",
+  "original_verification_wording": "大会官方页已核验。",
+  "original_review_wording": "检索/读取日期：2026-09-05。核验口径：已读取官方网页；参数属发布方声明。"
+}

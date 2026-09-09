@@ -1,0 +1,27 @@
+{
+  "id": "E099",
+  "supplier_as_published": "米奥（北京）机器人有限公司",
+  "source_category": "03-06",
+  "source_url": "https://www.worldrobotconference.com/expo/company/825.html",
+  "original_source_urls": [
+    "https://www.worldrobotconference.com/expo/company/825.html",
+    "https://www.worldrobotconference.com/expo/product/867.html"
+  ],
+  "source_checked_on": "2026-09-05",
+  "evidence": "official_page",
+  "technical": {
+    "zh-CN": "充电方案采用低空吊挂与枪线控制结构，结合表情和语音交互；页面没有充电功率或车端兼容列表，不能直接作充电设备选型。",
+    "en": "The charging solution uses low-level overhead suspension and charging-gun/cable control, plus facial and voice interaction. Charging power and vehicle-compatibility lists are absent, preventing equipment selection."
+  },
+  "original_product_line": "米奥充电陪伴机器人",
+  "original_application_wording": "新能源汽车充电场景的人机交互与充电服务",
+  "original_issue_notes": [],
+  "item_ids": [
+    "item-268f0a60be96"
+  ],
+  "source_technical_sha256": "8bc5880ad24ff1c11cdbbb098374609c2f25c81cbd055745f647848796e083b0",
+  "cross_source_categories": [],
+  "original_tags": "充电服务机器人",
+  "original_verification_wording": "官方页已核对。",
+  "original_review_wording": "检索/读取日期：2026-09-05。核验口径：已读取官方网页；参数属发布方声明。"
+}

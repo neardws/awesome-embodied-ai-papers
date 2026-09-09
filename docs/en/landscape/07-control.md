@@ -20,42 +20,42 @@ This page distinguishes subcategory questions, research priorities and industria
 </thead>
 <tbody>
 <tr>
-<td width="240" nowrap><a id="07-01"></a>Kinematics and trajectory planning</td>
+<td width="240" nowrap><a id="07-01"></a>Kinematics and trajectory planning<br><a href="../products/topics/07-01.md">Product details</a></td>
 <td width="300">Find reachable and collision-free motion paths.</td>
 <td width="320">Constraint solving, sampling and optimization planning.</td>
 <td width="320">Robot models, collision geometry and execution timing.</td>
 <td width="340">Planning success, computation time and collision margins.</td>
 </tr>
 <tr>
-<td width="240" nowrap><a id="07-02"></a>Model predictive and optimal control</td>
+<td width="240" nowrap><a id="07-02"></a>Model predictive and optimal control<br><a href="../products/topics/07-02.md">Product details</a></td>
 <td width="300">Adapt actions under dynamics constraints in a receding horizon.</td>
 <td width="320">Model error, constrained optimization and stability.</td>
 <td width="320">Real-time solving, state estimation and degraded operation.</td>
 <td width="340">Worst-case solve time, tracking error and constraint violations.</td>
 </tr>
 <tr>
-<td width="240" nowrap><a id="07-03"></a>Force, impedance and contact control</td>
+<td width="240" nowrap><a id="07-03"></a>Force, impedance and contact control<br><a href="../products/topics/07-03.md">Product details</a></td>
 <td width="300">Regulate force and compliance during contact.</td>
 <td width="320">Contact transitions, unknown stiffness and safe exploration.</td>
 <td width="320">Process tuning, sensor calibration and overload protection.</td>
 <td width="340">Force error, overshoot and damage rate.</td>
 </tr>
 <tr>
-<td width="240" nowrap><a id="07-04"></a>Legged and whole-body coordination</td>
+<td width="240" nowrap><a id="07-04"></a>Legged and whole-body coordination<br><a href="../products/topics/07-04.md">Product details</a></td>
 <td width="300">Coordinate balance, locomotion, arms and contacts.</td>
 <td width="320">Motion imitation, foothold planning and multi-contact optimization.</td>
 <td width="320">Body limits, thermal load and fall recovery.</td>
 <td width="340">Terrain completion, energy use and recovery capability.</td>
 </tr>
 <tr>
-<td width="240" nowrap><a id="07-05"></a>Imitation, diffusion and flow policies</td>
+<td width="240" nowrap><a id="07-05"></a>Imitation, diffusion and flow policies<br><a href="../products/topics/07-05.md">Product details</a></td>
 <td width="300">Learn multimodal action distributions from demonstrations.</td>
 <td width="320">Action representations, temporal modeling and compounding error.</td>
 <td width="320">Collection cost, inference latency and control-rate matching.</td>
 <td width="340">Success, action smoothness and end-to-end latency.</td>
 </tr>
 <tr>
-<td width="240" nowrap><a id="07-06"></a>Reinforcement learning and online adaptation</td>
+<td width="240" nowrap><a id="07-06"></a>Reinforcement learning and online adaptation<br><a href="../products/topics/07-06.md">Product details</a></td>
 <td width="300">Improve policies through feedback and adapt to changes.</td>
 <td width="320">Reward design, sample efficiency and safe learning.</td>
 <td width="320">Real-world trial cost, takeover and rollback.</td>
@@ -63,6 +63,14 @@ This page distinguishes subcategory questions, research priorities and industria
 </tr>
 </tbody>
 </table>
+
+## Technical and product details
+
+<a href="../products/comparisons/07-control.md">Open 1 related comparison records</a>
+
+Compare model-specific values, conditions, interfaces, research relationships and source issues. Full source excerpts and original exhibit links remain available underneath.
+
+<a href="../products/references/02-02.md">Collaborative arms and adaptive force control</a>
 
 ## Research, platforms and industrial examples
 

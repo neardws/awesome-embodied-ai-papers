@@ -1,0 +1,31 @@
+{
+  "id": "E078",
+  "supplier_as_published": "智动力机器人有限公司",
+  "source_category": "02-02",
+  "source_url": "https://www.worldrobotconference.com/expo/company/868.html",
+  "original_source_urls": [
+    "https://www.worldrobotconference.com/expo/company/868.html",
+    "https://www.worldrobotconference.com/expo/product/1333.html",
+    "https://www.worldrobotconference.com/expo/product/1347.html",
+    "https://www.worldrobotconference.com/expo/product/1354.html"
+  ],
+  "source_checked_on": "2026-09-05",
+  "evidence": "official_page",
+  "technical": {
+    "zh-CN": "七自由度力控臂标注重复定位 ±0.1mm、力控误差小于 2N，提供 ROS SDK 与 Python/C++ API；150Nm 行星关节的额定转矩为 55Nm。",
+    "en": "The seven-degree-of-freedom force-controlled arm reports ±0.1mm repeatability and force error below 2N, with ROS SDK and Python/C++ APIs. The 150Nm planetary joint has 55Nm rated torque."
+  },
+  "original_product_line": "高功率密度低压伺服驱动器、力控关节模组、力控双臂、线控与轮式底盘",
+  "original_application_wording": "精密装配、柔性制造、特种作业、教学科研",
+  "original_issue_notes": [],
+  "item_ids": [
+    "item-cc0bbe4c19a9",
+    "item-b3bc5b9ff99a",
+    "item-e06d4f23779a"
+  ],
+  "source_technical_sha256": "415ade6f343ce4416b9b6e0bd65fa061a691795c5f5c721f3c0472a1aee82fc0",
+  "cross_source_categories": [],
+  "original_tags": "力控双臂、关节模组与移动底盘",
+  "original_verification_wording": "大会官方页已核验。",
+  "original_review_wording": "检索/读取日期：2026-09-05。核验口径：已读取官方网页；参数属发布方声明。"
+}

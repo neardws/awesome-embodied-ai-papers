@@ -1,0 +1,33 @@
+{
+  "id": "E197",
+  "supplier_as_published": "洛阳鸿元轴承科技有限公司",
+  "source_category": "06-09",
+  "source_url": "https://www.worldrobotconference.com/expo/company/575.html",
+  "original_source_urls": [
+    "https://www.worldrobotconference.com/expo/company/575.html",
+    "https://www.worldrobotconference.com/expo/product/231.html",
+    "https://www.worldrobotconference.com/expo/product/232.html",
+    "https://www.worldrobotconference.com/expo/product/233.html"
+  ],
+  "source_checked_on": "2026-09-05",
+  "evidence": "official_page",
+  "technical": {
+    "zh-CN": "HRTGM 将角度测量系统与轴承集成，标注角度测量精度最高 ±1角秒；交叉滚子和谐波机器人轴承另有独立系列。",
+    "en": "HRTGM integrates angular measurement with bearings and reports up to ±1 arcsecond measurement accuracy. Crossed-roller and strain-wave robot bearings are separate families."
+  },
+  "original_product_line": "转台轴承、交叉滚子轴承、机器人专用轴承",
+  "original_application_wording": "工业机器人关节、机械手、转台与医疗设备",
+  "original_issue_notes": [],
+  "item_ids": [
+    "item-df7412392144",
+    "item-5a3ab308aaf2",
+    "item-c6383043e110"
+  ],
+  "source_technical_sha256": "9dfa204c8a999029058d2f35479fcb523fe0d8151457f18b8e66b3b2a22ef451",
+  "cross_source_categories": [
+    "07-06"
+  ],
+  "original_tags": "精密机器人轴承",
+  "original_verification_wording": "大会官方页已核验。",
+  "original_review_wording": "检索/读取日期：2026-09-05。核验口径：已读取官方网页；参数属发布方声明。"
+}

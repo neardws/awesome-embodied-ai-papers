@@ -1,0 +1,33 @@
+{
+  "id": "E273",
+  "supplier_as_published": "启智（芜湖）智能机器人有限公司",
+  "source_category": "09-05",
+  "source_url": "https://www.worldrobotconference.com/expo/company/617.html",
+  "original_source_urls": [
+    "https://www.worldrobotconference.com/expo/company/617.html",
+    "https://www.worldrobotconference.com/expo/product/1561.html",
+    "https://www.worldrobotconference.com/expo/product/1564.html"
+  ],
+  "source_checked_on": "2026-09-05",
+  "evidence": "official_page",
+  "technical": {
+    "zh-CN": "当前页使用 Openmind OS、墨斗 IDE、大衍数据、HumanGPT 和 HALO 技能服命名；原表“魔豆/大雁”等名称应标为待校正，保留原文供追溯。",
+    "en": "The current page names Openmind OS, 墨斗 IDE, 大衍数据, HumanGPT and HALO skill services. Original names such as 魔豆/大雁 require correction; retain them for traceability."
+  },
+  "original_product_line": "通用技术底座（Openmind OS、魔豆 IDE、大雁数据、HumanGPT、HALO 技能套件、yobot）与新一代复合机器人",
+  "original_application_wording": "汽车生产上下料、锁付与检测，3D 零件分拣，工业及服务场景",
+  "original_issue_notes": [
+    "具体问题：当前页使用墨斗 IDE、大衍数据、HALO 技能服；原表命名需校正。"
+  ],
+  "item_ids": [
+    "item-f8a7e5c083e7",
+    "item-fd1f36062800"
+  ],
+  "source_technical_sha256": "baad1856b82313eb895bde7f0ec1339e9a556749f700a0dfc79364351bba02ca",
+  "cross_source_categories": [
+    "09-01"
+  ],
+  "original_tags": "具身智能通用技术底座与复合机器人",
+  "original_verification_wording": "大会官方页已核验。",
+  "original_review_wording": "检索/读取日期：2026-09-05。核验口径：已读取官方网页；参数属发布方声明。"
+}

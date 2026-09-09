@@ -1,0 +1,36 @@
+{
+  "id": "E271",
+  "supplier_as_published": "北京辉羲智能信息技术有限公司",
+  "source_category": "08-01",
+  "source_url": "https://www.worldrobotconference.com/expo/company/692.html",
+  "original_source_urls": [
+    "https://www.worldrobotconference.com/expo/company/692.html",
+    "https://www.worldrobotconference.com/expo/product/1247.html",
+    "https://www.worldrobotconference.com/expo/product/1249.html",
+    "https://www.worldrobotconference.com/expo/product/1518.html",
+    "https://www.worldrobotconference.com/expo/product/1529.html"
+  ],
+  "source_checked_on": "2026-09-05",
+  "evidence": "official_page",
+  "technical": {
+    "zh-CN": "RoboRR1 页面列峰值 500TOPS、CPU 420KDMIPS、GPU 1TFLOPS 及 204.8GB/s，并有 EtherCAT/CAN FD 等接口；未明确算力精度条件，不用于性能排名。",
+    "en": "RoboRR1 lists 500TOPS peak, CPU 420KDMIPS, GPU 1TFLOPS and 204.8GB/s, plus EtherCAT/CAN FD. Compute precision is unspecified, so the figures are not used for performance ranking."
+  },
+  "original_product_line": "RPU 计算内核、RISE 计算平台及光至 R1 芯片、RhinoVLA 模型",
+  "original_application_wording": "具身智能机器人、L4 物流车和乘用车智能辅助驾驶",
+  "original_issue_notes": [],
+  "item_ids": [
+    "item-0d72ac52c329",
+    "item-069ced6b1c12",
+    "item-e5ffd089a5aa",
+    "item-f93104e76c20"
+  ],
+  "source_technical_sha256": "e6b6a7071471f58ac69cf0174d88af38393b5918ee76cad11b84089637638078",
+  "cross_source_categories": [
+    "08-02",
+    "08-06"
+  ],
+  "original_tags": "具身智能计算平台与 VLA 模型",
+  "original_verification_wording": "大会官方页已核验。",
+  "original_review_wording": "检索/读取日期：2026-09-05。核验口径：已读取官方网页；参数属发布方声明。"
+}

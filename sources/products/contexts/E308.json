@@ -1,0 +1,24 @@
+{
+  "id": "E308",
+  "supplier_as_published": "湖北人形机器人创新中心有限公司",
+  "source_category": "11-02",
+  "source_url": "https://www.worldrobotconference.com/expo/company/424.html",
+  "original_source_urls": [
+    "https://www.worldrobotconference.com/expo/company/424.html"
+  ],
+  "source_checked_on": "2026-09-05",
+  "evidence": "official_page",
+  "technical": {
+    "zh-CN": "公共服务平台建设动作训练场、数据采集场、应用实践场和人才基地，提供概念验证、中试、集成与场景验证；不是单一机器人型号。",
+    "en": "The public-service platform builds motion-training, data-collection, application and talent facilities, providing proof-of-concept, pilot production, integration and scenario validation. It is not one robot model."
+  },
+  "original_product_line": "动作训练场、数据采集场、应用实践场和人才培养基地（官方页未单列展品）",
+  "original_application_wording": "概念验证、中试服务、技术集成、场景验证与人才培养",
+  "original_issue_notes": [],
+  "item_ids": [],
+  "source_technical_sha256": "6d8731933ca8bf4ffdd672dbd2a4ed35857c144e53bb16f2de2fc2c165da38c6",
+  "cross_source_categories": [],
+  "original_tags": "人形机器人公共服务与中试平台",
+  "original_verification_wording": "大会官方页已核验；具体展品待官网补充。",
+  "original_review_wording": "检索/读取日期：2026-09-05。核验口径：已读取官方网页；参数属发布方声明。"
+}

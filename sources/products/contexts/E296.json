@@ -1,0 +1,29 @@
+{
+  "id": "E296",
+  "supplier_as_published": "北京亦庄机器人科技产业发展有限公司",
+  "source_category": "11-02",
+  "source_url": "https://www.worldrobotconference.com/expo/company/856.html",
+  "original_source_urls": [
+    "https://www.worldrobotconference.com/expo/company/856.html",
+    "https://www.worldrobotconference.com/expo/product/926.html"
+  ],
+  "source_checked_on": "2026-09-05",
+  "evidence": "official_page",
+  "technical": {
+    "zh-CN": "异构机器人拉拉队采用群体操作系统、协议互通、统一时空坐标和任务分配；属于多品牌协同展示，不应据此把所有本体列为平台自研。",
+    "en": "The heterogeneous robot cheerleading demonstration uses a swarm operating system, protocol interoperability, common space/time coordinates and task assignment. Participating brands' bodies are not all platform-developed."
+  },
+  "original_product_line": "具身智能机器人产业综合运营服务；未来机域机器人拉拉队",
+  "original_application_wording": "异构机器人协同舞蹈、群体任务分配与动态调整",
+  "original_issue_notes": [],
+  "item_ids": [
+    "item-d4edc842b694"
+  ],
+  "source_technical_sha256": "ff7919e9eae63aa7a68b4ff2c94eadc630f6edff9b74c111921dcc319a47ff89",
+  "cross_source_categories": [
+    "09-05"
+  ],
+  "original_tags": "具身智能产业平台与群体智能",
+  "original_verification_wording": "展会官方页已核对。",
+  "original_review_wording": "检索/读取日期：2026-09-05。核验口径：已读取官方网页；参数属发布方声明。"
+}

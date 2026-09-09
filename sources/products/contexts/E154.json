@@ -1,0 +1,27 @@
+{
+  "id": "E154",
+  "supplier_as_published": "巨力自动化设备（浙江）股份有限公司",
+  "source_category": "06-04",
+  "source_url": "https://www.worldrobotconference.com/expo/company/840.html",
+  "original_source_urls": [
+    "https://www.worldrobotconference.com/expo/company/840.html",
+    "https://www.worldrobotconference.com/expo/product/1215.html"
+  ],
+  "source_checked_on": "2026-09-05",
+  "evidence": "official_page",
+  "technical": {
+    "zh-CN": "将新能源汽车扁铜线电机装备经验用于机器人关节电机，属于电机产品与定子制造装备两条能力线；未公开单型号性能。",
+    "en": "Experience with flat-copper-wire motor equipment for electric vehicles is applied to robot joint motors. Motor products and stator-manufacturing equipment are separate capabilities; model-level performance is absent."
+  },
+  "original_product_line": "具身智能机器人扁线关节电机、定子自动化生产线",
+  "original_application_wording": "人形机器人关节、新能源汽车扁线电机制造",
+  "original_issue_notes": [],
+  "item_ids": [
+    "item-b6e562760197"
+  ],
+  "source_technical_sha256": "9d0115ad9c232f072b4dfe156fef451424ed84226d4b577ad599fc3c31a59761",
+  "cross_source_categories": [],
+  "original_tags": "扁线关节电机与定子自动化装备",
+  "original_verification_wording": "大会官方页已核验。",
+  "original_review_wording": "检索/读取日期：2026-09-05。核验口径：已读取官方网页；参数属发布方声明。"
+}

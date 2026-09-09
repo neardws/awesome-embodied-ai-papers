@@ -1,0 +1,33 @@
+{
+  "id": "E122",
+  "supplier_as_published": "深圳美丽魔方机器人有限公司",
+  "source_category": "05-02",
+  "source_url": "https://www.worldrobotconference.com/expo/company/625.html",
+  "original_source_urls": [
+    "https://www.worldrobotconference.com/expo/company/625.html",
+    "https://www.worldrobotconference.com/expo/product/773.html",
+    "https://www.worldrobotconference.com/expo/product/837.html",
+    "https://www.worldrobotconference.com/expo/product/772.html"
+  ],
+  "source_checked_on": "2026-09-05",
+  "evidence": "official_page",
+  "technical": {
+    "zh-CN": "TC1 标注 30°爬坡、210mm 跨阶和座椅自平衡；移动单臂条目的标题为 MA1、正文为 MOR1，型号冲突待核对。",
+    "en": "TC1 reports 30° climbing, 210mm step crossing and self-leveling seating. A mobile single-arm item is titled MA1 but described as MOR1; the model conflict remains unresolved."
+  },
+  "original_product_line": "Magic TC1 轮椅机器人、Magic MA1 移动机械臂、定向仿生康复机器人",
+  "original_application_wording": "残障人士辅助，室内巡视、分拣与清洁，治疗康复",
+  "original_issue_notes": [
+    "具体问题：MA1 标题与 MOR1 正文型号不一致。"
+  ],
+  "item_ids": [
+    "item-ecf2c8d5e9bf",
+    "item-3d5f285335f3",
+    "item-077ab4020a1f"
+  ],
+  "source_technical_sha256": "18eea15dc9951f41c2c7a7b104478b438f37e7401c34f10a085957d51152fd89",
+  "cross_source_categories": [],
+  "original_tags": "助残轮椅与智能康复机器人",
+  "original_verification_wording": "大会官方页已核验。",
+  "original_review_wording": "检索/读取日期：2026-09-05。核验口径：已读取官方网页；参数属发布方声明。"
+}

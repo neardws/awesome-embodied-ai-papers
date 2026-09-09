@@ -1,0 +1,29 @@
+{
+  "id": "E103",
+  "supplier_as_published": "众清智能科技（苏州）有限公司",
+  "source_category": "03-01",
+  "source_url": "https://www.worldrobotconference.com/expo/company/656.html",
+  "original_source_urls": [
+    "https://www.worldrobotconference.com/expo/company/656.html",
+    "https://www.worldrobotconference.com/expo/product/1496.html",
+    "https://www.worldrobotconference.com/expo/product/1497.html"
+  ],
+  "source_checked_on": "2026-09-05",
+  "evidence": "official_page",
+  "technical": {
+    "zh-CN": "Zima Pro 支持超声导航与 OTA，标注最长 3.5 小时；Lite 标注 9300mAh、6.5L 过滤仓、最长 3 小时。续航须结合泳池条件确认。",
+    "en": "Zima Pro supports ultrasonic navigation and OTA, with up to 3.5-hour endurance. Lite reports 9300mAh, a 6.5L filter compartment and up to 3 hours. Endurance requires pool-condition confirmation."
+  },
+  "original_product_line": "Zima 泳池清洁机器人、Piper 管道检测机器人",
+  "original_application_wording": "泳池清洁、管道维护、海上巡检",
+  "original_issue_notes": [],
+  "item_ids": [
+    "item-18b7e6c6516c",
+    "item-2995e331bf0f"
+  ],
+  "source_technical_sha256": "236e6975982af68c0df0c088802434bc5bf9ba4ee2d9b398a9129a53c1c82587",
+  "cross_source_categories": [],
+  "original_tags": "水下清洁/管道巡检机器人",
+  "original_verification_wording": "展会官方页已核对。",
+  "original_review_wording": "检索/读取日期：2026-09-05。核验口径：已读取官方网页；参数属发布方声明。"
+}

@@ -1,0 +1,45 @@
+{
+  "id": "E233",
+  "supplier_as_published": "厦门力晟传感科技有限公司",
+  "source_category": "07-01",
+  "source_url": "https://www.worldrobotconference.com/expo/company/808.html",
+  "original_source_urls": [
+    "https://www.worldrobotconference.com/expo/company/808.html",
+    "https://www.worldrobotconference.com/expo/product/947.html",
+    "https://www.worldrobotconference.com/expo/product/1100.html",
+    "https://www.worldrobotconference.com/expo/product/1103.html",
+    "https://www.worldrobotconference.com/expo/product/1105.html",
+    "https://www.worldrobotconference.com/expo/product/1108.html",
+    "https://www.worldrobotconference.com/expo/product/614.html"
+  ],
+  "source_checked_on": "2026-09-05",
+  "evidence": "official_page",
+  "technical": {
+    "zh-CN": "LSF6D65/43 采用铝合金，6D50 使用不锈钢及数字输出；公开展品页缺少各型号力矩量程和采样频率。",
+    "en": "LSF6D65/43 use aluminum alloy; 6D50 uses stainless steel and digital output. Per-model torque ranges and sampling rates are absent."
+  },
+  "original_product_line": "六维力传感器、关节扭矩传感器、外置变送器",
+  "original_application_wording": "协作机器人、AGV 转向、医疗机械臂、高动态伺服、工业自动化生产线",
+  "original_issue_notes": [],
+  "item_ids": [
+    "item-2984fb1596bb",
+    "item-a0e704d3a447",
+    "item-28f8342e09cc",
+    "item-d21065303fa0",
+    "item-ccb44a397930",
+    "item-e38bec35759f",
+    "item-06055ee52433",
+    "item-7f20e3794fe0",
+    "item-a684d0c40d1d",
+    "item-9e9ac557042d",
+    "item-e751c980f912",
+    "item-8f75eb4e6e16",
+    "item-74f4692a2051",
+    "item-69f980d84603"
+  ],
+  "source_technical_sha256": "588d9630f723e1db3ed38056b4e2b349be289737cf5964d96b3d055eeed420b3",
+  "cross_source_categories": [],
+  "original_tags": "六维力/力矩与关节扭矩传感器",
+  "original_verification_wording": "大会官方页已核验。",
+  "original_review_wording": "检索/读取日期：2026-09-05。核验口径：已读取官方网页；参数属发布方声明。"
+}

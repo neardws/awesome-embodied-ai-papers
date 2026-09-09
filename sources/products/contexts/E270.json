@@ -1,0 +1,35 @@
+{
+  "id": "E270",
+  "supplier_as_published": "北京章鱼灵动科技有限公司",
+  "source_category": "09-02",
+  "source_url": "https://www.worldrobotconference.com/expo/company/709.html",
+  "original_source_urls": [
+    "https://www.worldrobotconference.com/expo/company/709.html",
+    "https://www.worldrobotconference.com/expo/product/1421.html",
+    "https://www.worldrobotconference.com/expo/product/1426.html",
+    "https://www.worldrobotconference.com/expo/product/1510.html"
+  ],
+  "source_checked_on": "2026-09-05",
+  "evidence": "official_page",
+  "technical": {
+    "zh-CN": "绳驱灵巧手标注 21+独立自由度、1900 个感知单元；DexUMI、EgoBio 等覆盖头戴相机、肌电和手套采集，SYN World MoT 涉及世界模型与逆动力学。",
+    "en": "The tendon-driven hand reports 21+ independent degrees of freedom and 1900 sensing elements. DexUMI/EgoBio cover head-mounted cameras, EMG and glove capture. SYN World MoT involves world models and inverse dynamics."
+  },
+  "original_product_line": "SYNWorld 具身世界模型、绳驱灵巧手、Ego/EgoBio/DexUMI 全模态数采方案",
+  "original_application_wording": "具身智能训练、跨本体适配与人类操作数据采集",
+  "original_issue_notes": [],
+  "item_ids": [
+    "item-26fb8538a4a5",
+    "item-4b3372bb407a",
+    "item-3068e701544d"
+  ],
+  "source_technical_sha256": "f3d1837639516b7fc98865344bb143c6256161e2b905564b24fc9419570172dd",
+  "cross_source_categories": [
+    "06-01",
+    "07-02",
+    "09-03"
+  ],
+  "original_tags": "具身世界模型、灵巧手与全模态数据平台",
+  "original_verification_wording": "大会官方页已核验。",
+  "original_review_wording": "检索/读取日期：2026-09-05。核验口径：已读取官方网页；参数属发布方声明。"
+}

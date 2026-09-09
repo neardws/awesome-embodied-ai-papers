@@ -1,0 +1,39 @@
+{
+  "id": "E049",
+  "supplier_as_published": "鹿明机器人科技（深圳）有限公司",
+  "source_category": "01-02",
+  "source_url": "https://www.worldrobotconference.com/expo/company/447.html",
+  "original_source_urls": [
+    "https://www.worldrobotconference.com/expo/company/447.html",
+    "https://www.worldrobotconference.com/expo/product/65.html",
+    "https://www.worldrobotconference.com/expo/product/61.html",
+    "https://www.worldrobotconference.com/expo/product/62.html",
+    "https://www.worldrobotconference.com/expo/product/866.html"
+  ],
+  "source_checked_on": "2026-09-05",
+  "evidence": "official_page",
+  "technical": {
+    "zh-CN": "MOS2 标注双臂标称 30kg、最大 50kg，配置 275TOPS 算力、热插拔电池及 SDK；Lumos Touch R1 被页面同时描述为关节和六自由度平台，产品定义需复核。",
+    "en": "MOS2 reports 30kg nominal and 50kg maximum dual-arm load, 275TOPS compute, hot-swappable battery and SDK. Lumos Touch R1 is described as both a joint and a six-degree-of-freedom platform; the product definition needs review."
+  },
+  "original_product_line": "MOS2 重载轮臂机器人、鹿小明 S3、Lumos Touch R1、FastUMI/Ego 数采套件",
+  "original_application_wording": "工业重物搬运、物流与上下料；酒店及文旅互动；具身数据采集和算法验证",
+  "original_issue_notes": [
+    "具体问题：Lumos Touch R1 同时被描述为关节与六自由度平台。"
+  ],
+  "item_ids": [
+    "item-bb10fd0c9dcd",
+    "item-942b4e9cd5c8",
+    "item-0c0069b6db59",
+    "item-7f3192c56eca"
+  ],
+  "source_technical_sha256": "ecb1a6e9be9bbf6aac3269d4ace841055babeb398578f1b18febe37fd8b2a365",
+  "cross_source_categories": [
+    "01-01",
+    "04-01",
+    "06-03"
+  ],
+  "original_tags": "重载轮臂机器人与具身数据平台",
+  "original_verification_wording": "大会官方页已核验。",
+  "original_review_wording": "检索/读取日期：2026-09-05。核验口径：已读取官方网页；参数属发布方声明。"
+}

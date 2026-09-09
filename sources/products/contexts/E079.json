@@ -1,0 +1,35 @@
+{
+  "id": "E079",
+  "supplier_as_published": "上海新时达机器人有限公司",
+  "source_category": "02-01",
+  "source_url": "https://www.worldrobotconference.com/expo/company/857.html",
+  "original_source_urls": [
+    "https://www.worldrobotconference.com/expo/company/857.html",
+    "https://www.worldrobotconference.com/expo/product/1003.html",
+    "https://www.worldrobotconference.com/expo/product/1004.html",
+    "https://www.worldrobotconference.com/expo/product/1005.html",
+    "https://www.worldrobotconference.com/expo/product/1010.html",
+    "https://www.worldrobotconference.com/expo/product/1049.html"
+  ],
+  "source_checked_on": "2026-09-05",
+  "evidence": "official_page",
+  "technical": {
+    "zh-CN": "R2 为轮式、24DOF、单臂 6kg，兼容 ROS 2；R2PRO 为固定式、17DOF，负载有多档选配；IB2S 为独立 150kg 载荷底盘。",
+    "en": "R2 is wheeled, 24DOF and 6kg per arm, compatible with ROS 2. R2PRO is fixed, 17DOF, with selectable payload configurations. IB2S is a separate 150kg-payload base."
+  },
+  "original_product_line": "SCARA、六轴、半导体、具身智能机器人；SYNDA R2/R2PRO、IB2S 轮式底盘、关节模组",
+  "original_application_wording": "新能源汽车、锂电、光伏、半导体、3C、家电；装配、质检、上下料、物料转运",
+  "original_issue_notes": [],
+  "item_ids": [
+    "item-4c2261f6e131",
+    "item-8b8b1de00cdc",
+    "item-9194f6631c44",
+    "item-1bbd1edc9f2b",
+    "item-3ca106fb6345"
+  ],
+  "source_technical_sha256": "6aadc3cf94c6e85a43c01aa90a94ac83fb089683d34d7d1990d4a8f78ba8c2f2",
+  "cross_source_categories": [],
+  "original_tags": "工业机器人、工业人形与移动底盘",
+  "original_verification_wording": "大会官方页已核验。",
+  "original_review_wording": "检索/读取日期：2026-09-05。核验口径：已读取官方网页；参数属发布方声明。"
+}

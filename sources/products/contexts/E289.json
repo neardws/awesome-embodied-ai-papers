@@ -1,0 +1,31 @@
+{
+  "id": "E289",
+  "supplier_as_published": "北京华创七星微电子股份有限公司",
+  "source_category": "08-07",
+  "source_url": "https://www.worldrobotconference.com/expo/company/696.html",
+  "original_source_urls": [
+    "https://www.worldrobotconference.com/expo/company/696.html",
+    "https://www.worldrobotconference.com/expo/product/1434.html",
+    "https://www.worldrobotconference.com/expo/product/1436.html"
+  ],
+  "source_checked_on": "2026-09-05",
+  "evidence": "official_page",
+  "technical": {
+    "zh-CN": "XL-DCMTA 伺服模组支持双编码器和 EtherCAT/CANopen；XLD48G12N1000 为 38–60V 输入、9.6–15V 输出的 1000W 电源模块，峰值效率与持续效率应分开。",
+    "en": "XL-DCMTA supports dual encoders and EtherCAT/CANopen. XLD48G12N1000 is a 1000W supply with 38–60V input and 9.6–15V output. Peak and sustained efficiency must remain distinct."
+  },
+  "original_product_line": "XL-DCMTAR70/100SE4S 低压大功率驱动模块、XLD48G12N1000 超小体积电源模块",
+  "original_application_wording": "机器人低压大功率电机驱动与电源转换",
+  "original_issue_notes": [],
+  "item_ids": [
+    "item-d823a97516f6",
+    "item-a62f751f5d92"
+  ],
+  "source_technical_sha256": "e88460b488351e395976dbef1cb74694094d7967460b8d4e2dba9b5ea3335d6a",
+  "cross_source_categories": [
+    "06-05"
+  ],
+  "original_tags": "功率驱动与电源模块",
+  "original_verification_wording": "大会官方页已核验。",
+  "original_review_wording": "检索/读取日期：2026-09-05。核验口径：已读取官方网页；参数属发布方声明。"
+}

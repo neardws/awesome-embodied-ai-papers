@@ -1,0 +1,41 @@
+{
+  "id": "E050",
+  "supplier_as_published": "魔法原子机器人科技（无锡）有限公司",
+  "source_category": "01-01",
+  "source_url": "https://www.worldrobotconference.com/expo/company/450.html",
+  "original_source_urls": [
+    "https://www.worldrobotconference.com/expo/company/450.html",
+    "https://www.worldrobotconference.com/expo/product/1065.html",
+    "https://www.worldrobotconference.com/expo/product/1080.html",
+    "https://www.worldrobotconference.com/expo/product/1117.html",
+    "https://www.worldrobotconference.com/expo/product/273.html",
+    "https://www.worldrobotconference.com/expo/product/309.html"
+  ],
+  "source_checked_on": "2026-09-05",
+  "evidence": "official_page",
+  "technical": {
+    "zh-CN": "MagicBot D1 为轮式工业平台，配 SDK，并可选遥操数采、充电基站和末端；X1 为全尺寸人形，T1 为四足，按型号分别关联细类。",
+    "en": "MagicBot D1 is a wheeled industrial platform with SDK and optional teleoperation/data collection, charging station and end effectors. X1 is full-size humanoid and T1 quadruped; classify them separately."
+  },
+  "original_product_line": "MagicBot D1/X1/Z1/小麦人形机器人，MagicDog T1/Y1/W 四足/轮足机器人",
+  "original_application_wording": "工业制造、智慧物流、巡检安防、导览接待、文娱演艺、科研教育与家庭康养",
+  "original_issue_notes": [],
+  "item_ids": [
+    "item-1614da393d89",
+    "item-35970d7991b9",
+    "item-f38ee592d70c",
+    "item-7fa749e351c2",
+    "item-22f7a8560b22",
+    "item-c1bd9a0c760e",
+    "item-cf145910adb2",
+    "item-8a97ee1dd81b"
+  ],
+  "source_technical_sha256": "dd6e6c323cc3a66e9d39afa0858c46f2dd4c2d5185d758038aa716c564e2cefd",
+  "cross_source_categories": [
+    "01-02",
+    "01-03"
+  ],
+  "original_tags": "通用人形与四足机器人平台",
+  "original_verification_wording": "大会官方页已核验。",
+  "original_review_wording": "检索/读取日期：2026-09-05。核验口径：已读取官方网页；参数属发布方声明。"
+}

@@ -1,0 +1,32 @@
+{
+  "id": "E255",
+  "supplier_as_published": "潜空间智能科技（武汉）有限公司",
+  "source_category": "09-05",
+  "source_url": "https://www.worldrobotconference.com/expo/company/865.html",
+  "original_source_urls": [
+    "https://www.worldrobotconference.com/expo/company/865.html",
+    "https://www.worldrobotconference.com/expo/product/1351.html",
+    "https://www.worldrobotconference.com/expo/product/1352.html"
+  ],
+  "source_checked_on": "2026-09-05",
+  "evidence": "official_page",
+  "technical": {
+    "zh-CN": "MotionMotive 从文本、视频、音乐或动捕生成动作并部署本体；LS-Tac 结合近距离视觉与触觉，构成传感、采集、训练、端侧部署链路。",
+    "en": "MotionMotive generates body-deployable motion from text, video, music or motion capture. LS-Tac combines near-field vision and touch across sensing, collection, training and edge deployment."
+  },
+  "original_product_line": "MotionMotive 人形机器人通用动作创作平台、LS-Tac 视触觉感知透视皮肤传感器",
+  "original_application_wording": "跨本体动作生成、编排与真机部署；具身末端精细操作",
+  "original_issue_notes": [],
+  "item_ids": [
+    "item-09460e34f73e",
+    "item-e78890274e1a"
+  ],
+  "source_technical_sha256": "ae434f7fa86bd68504e133cc044926459981c3aeb478ea0487b888721aac6e8e",
+  "cross_source_categories": [
+    "07-02",
+    "09-01"
+  ],
+  "original_tags": "具身智能动作生成平台、视触觉传感器",
+  "original_verification_wording": "大会官方页已核验。",
+  "original_review_wording": "检索/读取日期：2026-09-05。核验口径：已读取官方网页；参数属发布方声明。"
+}

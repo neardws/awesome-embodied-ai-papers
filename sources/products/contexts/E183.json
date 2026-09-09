@@ -1,0 +1,35 @@
+{
+  "id": "E183",
+  "supplier_as_published": "杭州曦诺未来科技有限公司",
+  "source_category": "06-01",
+  "source_url": "https://www.worldrobotconference.com/expo/company/525.html",
+  "original_source_urls": [
+    "https://www.worldrobotconference.com/expo/company/525.html",
+    "https://www.worldrobotconference.com/expo/product/899.html",
+    "https://www.worldrobotconference.com/expo/product/81.html",
+    "https://www.worldrobotconference.com/expo/product/82.html",
+    "https://www.worldrobotconference.com/expo/product/851.html"
+  ],
+  "source_checked_on": "2026-09-05",
+  "evidence": "official_page",
+  "technical": {
+    "zh-CN": "Flex 2 区分 19 主动与 4 被动自由度，提供接触、防滑及柔顺抓握反射，支持 OTA 和开放仿真数据平台；Prima 为直驱路线。",
+    "en": "Flex 2 distinguishes 19 active from 4 passive degrees of freedom, with contact, anti-slip and compliant-grasp reflexes, OTA and an open simulation-data platform. Prima uses direct drive."
+  },
+  "original_product_line": "Xynova Prima 直驱灵巧手、Flex 2 混驱灵巧手、关节模组与微型电缸",
+  "original_application_wording": "具身智能科研、工业/消费级灵巧操作及人形机器人全身关节驱动",
+  "original_issue_notes": [],
+  "item_ids": [
+    "item-9859091036c6",
+    "item-3a9cf0e27959",
+    "item-ba7fc6f4d8b8",
+    "item-aedea714816b"
+  ],
+  "source_technical_sha256": "b20406a5580c119255cbd21668153234b3bf168f40ba4e6c7a71d9dddb22b494",
+  "cross_source_categories": [
+    "07-02"
+  ],
+  "original_tags": "灵巧手与一体化关节执行器",
+  "original_verification_wording": "大会官方页已核验。",
+  "original_review_wording": "检索/读取日期：2026-09-05。核验口径：已读取官方网页；参数属发布方声明。"
+}

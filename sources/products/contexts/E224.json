@@ -1,0 +1,36 @@
+{
+  "id": "E224",
+  "supplier_as_published": "锐芯微电子股份有限公司",
+  "source_category": "07-07",
+  "source_url": "https://www.worldrobotconference.com/expo/company/815.html",
+  "original_source_urls": [
+    "https://www.worldrobotconference.com/expo/company/815.html",
+    "https://www.worldrobotconference.com/expo/product/855.html",
+    "https://www.worldrobotconference.com/expo/product/856.html",
+    "https://www.worldrobotconference.com/expo/product/857.html",
+    "https://www.worldrobotconference.com/expo/product/858.html",
+    "https://www.worldrobotconference.com/expo/product/859.html"
+  ],
+  "source_checked_on": "2026-09-05",
+  "evidence": "official_page",
+  "technical": {
+    "zh-CN": "E2311 使用 USB2，E2411 使用 MIPI，E9015 提供 USB3/2 UVC 与 5V 供电；不同接口版本需分别确认传感器及帧率。",
+    "en": "E2311 uses USB2; E2411 MIPI; E9015 USB3/2 UVC and 5V. Sensors and frame rates must be checked for each interface version."
+  },
+  "original_product_line": "高性能 CMOS 图像传感器芯片、夜视机芯、双光融合模组",
+  "original_application_wording": "低照度及复杂光线环境下的视觉成像系统；可见光/热成像融合视觉系统",
+  "original_issue_notes": [],
+  "item_ids": [
+    "item-9e11f14eea63",
+    "item-8faf4b68c982",
+    "item-f7701b16f06c",
+    "item-2df5e305cf89",
+    "item-b68c60e0bd4f",
+    "item-a84a7e937b7e"
+  ],
+  "source_technical_sha256": "240c6bfaa0c5491fb1679dd107912711c07a6442ea2bbf3b9fb6b07fecd64a45",
+  "cross_source_categories": [],
+  "original_tags": "图像传感器与低照度视觉模组",
+  "original_verification_wording": "官方页已核对。",
+  "original_review_wording": "检索/读取日期：2026-09-05。核验口径：已读取官方网页；参数属发布方声明。"
+}

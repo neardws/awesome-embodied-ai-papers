@@ -1,0 +1,43 @@
+{
+  "id": "E190",
+  "supplier_as_published": "浙江五洲新春集团股份有限公司",
+  "source_category": "06-09",
+  "source_url": "https://www.worldrobotconference.com/expo/company/629.html",
+  "original_source_urls": [
+    "https://www.worldrobotconference.com/expo/company/629.html",
+    "https://www.worldrobotconference.com/expo/product/1145.html",
+    "https://www.worldrobotconference.com/expo/product/1147.html",
+    "https://www.worldrobotconference.com/expo/product/1132.html",
+    "https://www.worldrobotconference.com/expo/product/1135.html",
+    "https://www.worldrobotconference.com/expo/product/1136.html"
+  ],
+  "source_checked_on": "2026-09-05",
+  "evidence": "official_page",
+  "technical": {
+    "zh-CN": "细分薄壁交叉滚子、等截面深沟球及谐波柔性轴承；柔性轴承标注 4 级精度、V2 振动等级，需配合型号与适用标准解释。",
+    "en": "Bearings include thin-wall crossed-roller, equal-section deep-groove and flexible strain-wave types. Flexible bearings report grade-4 precision and V2 vibration; interpretation requires the model and applicable standard."
+  },
+  "original_product_line": "机器人轴承、滚柱丝杠、灵巧手滚珠丝杠及机器人壳体",
+  "original_application_wording": "人形机器人与精密机械传动",
+  "original_issue_notes": [],
+  "item_ids": [
+    "item-e5125227bb47",
+    "item-3382965d114b",
+    "item-ac855af12f98",
+    "item-d3bb243b9477",
+    "item-af6c712da417",
+    "item-087b3a51c82b",
+    "item-c8b64863b68e",
+    "item-be44e6e9a1ce",
+    "item-9499f7de3ec2",
+    "item-501674dc0b15",
+    "item-6f5ac4b78025",
+    "item-2cd201f1eb47",
+    "item-b80f26fa3215"
+  ],
+  "source_technical_sha256": "8cd6f816503c48ca0856363d062bf5cd6558b4b94d302af8351681e8884e7206",
+  "cross_source_categories": [],
+  "original_tags": "机器人轴承与丝杠",
+  "original_verification_wording": "大会官方页已核验。",
+  "original_review_wording": "检索/读取日期：2026-09-05。核验口径：已读取官方网页；参数属发布方声明。"
+}

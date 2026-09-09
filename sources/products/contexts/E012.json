@@ -1,0 +1,36 @@
+{
+  "id": "E012",
+  "supplier_as_published": "深圳超维动力智能科技有限公司",
+  "source_category": "01-01",
+  "source_url": "https://www.worldrobotconference.com/expo/company/877.html",
+  "original_source_urls": [
+    "https://www.worldrobotconference.com/expo/company/877.html",
+    "https://www.worldrobotconference.com/expo/product/1428.html",
+    "https://www.worldrobotconference.com/expo/product/1429.html",
+    "https://www.worldrobotconference.com/expo/product/1430.html",
+    "https://www.worldrobotconference.com/expo/product/1431.html"
+  ],
+  "source_checked_on": "2026-09-05",
+  "evidence": "official_page",
+  "technical": {
+    "zh-CN": "SMASH 展示乒乓对打中的感知、决策和控制；KAIBot 面向人体动作数据承接，KAIHand 面向精细操作。公开介绍未提供统一的反应时延或成功率。",
+    "en": "SMASH demonstrates perception, decision-making and control for table tennis. KAIBot receives human-motion data; KAIHand targets fine manipulation. No common response-latency or success-rate measure is provided."
+  },
+  "original_product_line": "SMASH高动态人形乒乓系统、KAIBot、KAIHand、KAI Halo",
+  "original_application_wording": "人机对打；生活服务、交互陪伴、抓取/装配/交互、数据采集",
+  "original_issue_notes": [],
+  "item_ids": [
+    "item-716337716d08",
+    "item-16f5be1f650f",
+    "item-09d9d7d85d4c",
+    "item-86383111d110"
+  ],
+  "source_technical_sha256": "dcd5cb89da026ba7944b33c5a153b316cf9cf141a99e664589cebe8f2f27cba0",
+  "cross_source_categories": [
+    "06-01",
+    "09-03"
+  ],
+  "original_tags": "高拟人人形、灵巧手与具身数据采集",
+  "original_verification_wording": "大会官方页已核验。",
+  "original_review_wording": "检索/读取日期：2026-09-05。核验口径：已读取官方网页；参数属发布方声明。"
+}

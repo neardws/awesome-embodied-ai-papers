@@ -1,0 +1,31 @@
+{
+  "id": "E016",
+  "supplier_as_published": "湖北荆楚人形机器人有限公司",
+  "source_category": "01-01",
+  "source_url": "https://www.worldrobotconference.com/expo/company/860.html",
+  "original_source_urls": [
+    "https://www.worldrobotconference.com/expo/company/860.html",
+    "https://www.worldrobotconference.com/expo/product/1341.html",
+    "https://www.worldrobotconference.com/expo/product/1342.html"
+  ],
+  "source_checked_on": "2026-09-05",
+  "evidence": "official_page",
+  "technical": {
+    "zh-CN": "小楚标注约 85cm、28kg、12 自由度，配双目深度相机和可选夹爪；黑豹分别给出静态峰值承载 200kg、作业承载 80kg，二者不能混作额定负载。",
+    "en": "小楚 is listed at about 85cm, 28kg and 12 degrees of freedom, with stereo depth camera and optional gripper. 黑豹 distinguishes 200kg static peak load from 80kg working load; neither should be conflated with a rated payload."
+  },
+  "original_product_line": "荆楚小楚小尺寸智能人形机器人、荆楚黑豹直驱四足机器人",
+  "original_application_wording": "教育教学、文旅伴游；工业现场、野外偏远区域、灾害应急现场重载作业",
+  "original_issue_notes": [],
+  "item_ids": [
+    "item-9c171c059610",
+    "item-00e348c73198"
+  ],
+  "source_technical_sha256": "b350912d43259be4a3c5f2c3030aa4cf859a5c3b0a0079738cca3290bd661e5b",
+  "cross_source_categories": [
+    "01-03"
+  ],
+  "original_tags": "直线驱动人形与四足机器人",
+  "original_verification_wording": "大会官方页已核验。",
+  "original_review_wording": "检索/读取日期：2026-09-05。核验口径：已读取官方网页；参数属发布方声明。"
+}

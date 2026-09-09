@@ -1,0 +1,31 @@
+{
+  "id": "E057",
+  "supplier_as_published": "沈阳新松机器人自动化股份有限公司",
+  "source_category": "01-02",
+  "source_url": "https://www.worldrobotconference.com/expo/company/405.html",
+  "original_source_urls": [
+    "https://www.worldrobotconference.com/expo/company/405.html",
+    "https://www.worldrobotconference.com/expo/product/597.html",
+    "https://www.worldrobotconference.com/expo/product/598.html"
+  ],
+  "source_checked_on": "2026-09-05",
+  "evidence": "official_page",
+  "technical": {
+    "zh-CN": "松羿-Power 采用立柱升降，侧重大跨度搬运；Agile 采用关节折叠升降与全向轮底盘，面向狭窄产线和紧凑工位。",
+    "en": "松羿-Power uses a column lift for wide-span handling. Agile combines folding-joint lifting and an omnidirectional base for narrow production lines and compact workstations."
+  },
+  "original_product_line": "松羿-Power、松羿-Agile 轮式人形机器人",
+  "original_application_wording": "厂区物流、柔性产线、仓储无人化、3C 与汽车零部件生产",
+  "original_issue_notes": [],
+  "item_ids": [
+    "item-47921d0090c9",
+    "item-360d1394654a"
+  ],
+  "source_technical_sha256": "555f142ec431b292d8e390f00096014f8d8453dce2f6bec69b1a34c5f0175037",
+  "cross_source_categories": [
+    "04-01"
+  ],
+  "original_tags": "轮式人形机器人",
+  "original_verification_wording": "大会官方页已核验。",
+  "original_review_wording": "检索/读取日期：2026-09-05。核验口径：已读取官方网页；参数属发布方声明。"
+}

@@ -1,0 +1,27 @@
+{
+  "id": "E288",
+  "supplier_as_published": "北京优卫科技有限公司",
+  "source_category": "10-05",
+  "source_url": "https://www.worldrobotconference.com/expo/event/158.html",
+  "original_source_urls": [
+    "https://www.worldrobotconference.com/expo/event/158.html",
+    "https://www.worldrobotconference.com/expo/event/179.html"
+  ],
+  "source_checked_on": "2026-09-05",
+  "evidence": "official_page",
+  "technical": {
+    "zh-CN": "官方活动页明确星优卫为技术支持方，列 A1502880/P651280/P305384 LED 裸眼三维设备，以及 V30/V6 系列 AI 眼镜；这是活动展项信息。",
+    "en": "The official event page identifies 星优卫 as technical support and lists A1502880/P651280/P305384 naked-eye 3D LED devices and V30/V6 AI glasses. This is event-exhibit information."
+  },
+  "original_product_line": "裸眼3D全息影像设备（A1502880/P651280/P305384）；V30/V6系列AI智能眼镜",
+  "original_application_wording": "文旅、商业展示、智慧酒店；教育、公共安全、智能家居",
+  "original_issue_notes": [
+    "具体问题：活动技术支持方不等同活动主办方或展台登记主体。"
+  ],
+  "item_ids": [],
+  "source_technical_sha256": "c4f51a7d7e9cc297725c3c70f3fc1c5c116e2775a37d87ab35c3a8bbd2396c73",
+  "cross_source_categories": [],
+  "original_tags": "裸眼3D显示与AI可穿戴设备",
+  "original_verification_wording": "大会官方页已核验。",
+  "original_review_wording": "检索/读取日期：2026-09-05。核验口径：已读取官方网页；参数属发布方声明。"
+}

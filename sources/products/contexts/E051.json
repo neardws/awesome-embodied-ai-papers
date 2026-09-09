@@ -1,0 +1,34 @@
+{
+  "id": "E051",
+  "supplier_as_published": "北京中科慧灵机器人技术有限公司",
+  "source_category": "01-01",
+  "source_url": "https://www.worldrobotconference.com/expo/company/460.html",
+  "original_source_urls": [
+    "https://www.worldrobotconference.com/expo/company/460.html",
+    "https://www.worldrobotconference.com/expo/product/41.html",
+    "https://www.worldrobotconference.com/expo/product/494.html",
+    "https://www.worldrobotconference.com/expo/product/496.html"
+  ],
+  "source_checked_on": "2026-09-05",
+  "evidence": "official_page",
+  "technical": {
+    "zh-CN": "CASBOT 02 Lite 面向二次开发；W2 使用窄体全向舵轮、七自由度双臂，可更换末端、算力和传感器；乐队展示属于多机协同演示。",
+    "en": "CASBOT 02 Lite targets development. W2 uses a narrow omnidirectional steer-wheel base and seven-degree-of-freedom arms, with replaceable end effectors, compute and sensors. The band performance is a multi-robot demonstration."
+  },
+  "original_product_line": "CASBOT 02 Lite、CASBOT BAND 人形机器人乐队、CASBOT W2 轮臂机器人",
+  "original_application_wording": "室内轻工制造与具身研究；文旅演艺、商业活动、公共文化空间和商业服务",
+  "original_issue_notes": [],
+  "item_ids": [
+    "item-101b7e6d8822",
+    "item-7ef0fb5c26ea",
+    "item-c946e56e28ca"
+  ],
+  "source_technical_sha256": "77b32db14ee807af5fcf62b5e371a34b9901e18257f4143f3a9efe11abeccd5d",
+  "cross_source_categories": [
+    "01-02",
+    "01-04"
+  ],
+  "original_tags": "双足人形、轮臂机器人与多机协同",
+  "original_verification_wording": "大会官方页已核验。",
+  "original_review_wording": "检索/读取日期：2026-09-05。核验口径：已读取官方网页；参数属发布方声明。"
+}

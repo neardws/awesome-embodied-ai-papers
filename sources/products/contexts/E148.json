@@ -1,0 +1,35 @@
+{
+  "id": "E148",
+  "supplier_as_published": "武汉东方骏驰精密制造有限公司",
+  "source_category": "06-07",
+  "source_url": "https://www.worldrobotconference.com/expo/company/871.html",
+  "original_source_urls": [
+    "https://www.worldrobotconference.com/expo/company/871.html",
+    "https://www.worldrobotconference.com/expo/product/1338.html",
+    "https://www.worldrobotconference.com/expo/product/1339.html",
+    "https://www.worldrobotconference.com/expo/product/1340.html"
+  ],
+  "source_checked_on": "2026-09-05",
+  "evidence": "official_page",
+  "technical": {
+    "zh-CN": "摆线产品标注重复定位 1 弧分、最高传动效率 90%；“PPM行星减速器”条目正文却介绍丝杠，存在标题正文错配，暂不提取其参数。",
+    "en": "Cycloidal products report 1 arcminute repeatability and up to 90% transmission efficiency. The PPM planetary-reducer item describes a screw in its body text; its parameters are not extracted."
+  },
+  "original_product_line": "PPM 摆线减速器、PPM 行星滚柱丝杠、PPM 行星减速器",
+  "original_application_wording": "人形机器人线性关节、高端自动化、伺服执行器",
+  "original_issue_notes": [
+    "具体问题：行星减速器标题与丝杠正文疑似错配。"
+  ],
+  "item_ids": [
+    "item-7554a144db78",
+    "item-76dbbbe3a5a0",
+    "item-38f51fb8294e"
+  ],
+  "source_technical_sha256": "714365c8574e963a1356abffec4c27504c1276e70c908a6de1b4309c185e8a32",
+  "cross_source_categories": [
+    "06-08"
+  ],
+  "original_tags": "摆线/行星减速器与行星滚柱丝杠",
+  "original_verification_wording": "大会官方页已核验。",
+  "original_review_wording": "检索/读取日期：2026-09-05。核验口径：已读取官方网页；参数属发布方声明。"
+}

@@ -1,0 +1,40 @@
+{
+  "id": "E242",
+  "supplier_as_published": "上海宇立实业（集团）有限公司",
+  "source_category": "07-01",
+  "source_url": "https://www.worldrobotconference.com/expo/company/536.html",
+  "original_source_urls": [
+    "https://www.worldrobotconference.com/expo/company/536.html",
+    "https://www.worldrobotconference.com/expo/product/1089.html",
+    "https://www.worldrobotconference.com/expo/product/1090.html",
+    "https://www.worldrobotconference.com/expo/product/13.html",
+    "https://www.worldrobotconference.com/expo/product/15.html",
+    "https://www.worldrobotconference.com/expo/product/17.html"
+  ],
+  "source_checked_on": "2026-09-05",
+  "evidence": "official_page",
+  "technical": {
+    "zh-CN": "C075XX 页面标注精度 0.5%FS、零点温漂 0.1%/10℃及三倍过载；M35XX 厚度 9.2mm、IP60，两者属于不同系列。",
+    "en": "C075XX reports 0.5%FS accuracy, 0.1%/10℃ zero drift and threefold overload. M35XX reports 9.2mm thickness and IP60. These are different families."
+  },
+  "original_product_line": "C/M 系列六维力传感器、关节扭矩传感器、iGrinder 力控打磨设备",
+  "original_application_wording": "人形、协作、工业与医疗机器人，精密装配、智能打磨和汽车测试",
+  "original_issue_notes": [],
+  "item_ids": [
+    "item-8466cc2eb619",
+    "item-fe9982d410f5",
+    "item-df0b5535a441",
+    "item-83adf3e6ffdb",
+    "item-9b5c521c2e70",
+    "item-f1dd89816724",
+    "item-4552e7e42456",
+    "item-80fec3144e2c",
+    "item-9c173b279e64",
+    "item-3cc990a8e371"
+  ],
+  "source_technical_sha256": "5f5ba3359397d71e38d46200fee7a63b5d261fa9c1d83d0ca90b35853834e90e",
+  "cross_source_categories": [],
+  "original_tags": "多轴力觉与力控系统",
+  "original_verification_wording": "大会官方页已核验。",
+  "original_review_wording": "检索/读取日期：2026-09-05。核验口径：已读取官方网页；参数属发布方声明。"
+}

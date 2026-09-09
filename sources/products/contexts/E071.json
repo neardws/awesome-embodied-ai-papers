@@ -1,0 +1,29 @@
+{
+  "id": "E071",
+  "supplier_as_published": "北京原力灵机智能科技有限公司",
+  "source_category": "01-06",
+  "source_url": "https://www.worldrobotconference.com/expo/company/628.html",
+  "original_source_urls": [
+    "https://www.worldrobotconference.com/expo/company/628.html",
+    "https://www.worldrobotconference.com/expo/product/1297.html",
+    "https://www.worldrobotconference.com/expo/product/1306.html"
+  ],
+  "source_checked_on": "2026-09-05",
+  "evidence": "official_page",
+  "technical": {
+    "zh-CN": "Apex 强调模块化硬件与具身模型结合；DM0.5 同时覆盖导航、抓取及全身控制。页面评测领先说法未附本轮核验的完整基准证据。",
+    "en": "Apex combines modular hardware with embodied models. DM0.5 covers navigation, grasping and whole-body control. Claimed evaluation leadership lacks complete benchmark evidence checked in the archived review."
+  },
+  "original_product_line": "Apex 通用机器人、DM0.5 具身基础模型",
+  "original_application_wording": "导航、抓取、全身控制与开放世界任务",
+  "original_issue_notes": [],
+  "item_ids": [
+    "item-1c653eda1754",
+    "item-62323ab25981"
+  ],
+  "source_technical_sha256": "8b3596ae5c2ffeef1c283ce267cf5a6081554a58124e061338f32f110dedba09",
+  "cross_source_categories": [],
+  "original_tags": "通用具身机器人与基础模型",
+  "original_verification_wording": "大会官方页已核验。",
+  "original_review_wording": "检索/读取日期：2026-09-05。核验口径：已读取官方网页；参数属发布方声明。"
+}

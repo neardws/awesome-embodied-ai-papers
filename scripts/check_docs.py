@@ -109,14 +109,18 @@ def check_table_layout(path, text):
         table_width = re.match(r'<table\b[^>]*\bwidth="(\d+)"', table)
         require(table_width is not None and int(table_width[1]) == sum(w for w, _ in widths),
                 f'{path.relative_to(ROOT)} table {ti}: total width must equal column sum')
+        body_wrapping = None
         for ri, row in enumerate(re.findall(r'<tr\b[^>]*>(.*?)</tr>', table, re.S)):
             cells = re.findall(r'<t[hd]\b([^>]*)>', row)
             require(len(cells) == len(widths), f'{path.relative_to(ROOT)} table {ti} row {ri}: column count differs')
+            if ri == 1:
+                body_wrapping = [bool(re.search(r'\bnowrap\b', a)) for a in cells]
             for ci, (attrs, expected) in enumerate(zip(cells, widths)):
                 width = re.search(r'\bwidth="(\d+)"', attrs)
                 actual = (int(width[1]) if width else 0, bool(re.search(r'\bnowrap\b', attrs)))
-                require(actual == expected, f'{path.relative_to(ROOT)} table {ti} row {ri} col {ci}: layout differs from header')
-        layouts.append(widths)
+                nowrap = expected[1] if ri == 0 else body_wrapping[ci]
+                require(actual == (expected[0], nowrap), f'{path.relative_to(ROOT)} table {ti} row {ri} col {ci}: width/wrapping differs')
+        layouts.append((widths, body_wrapping))
     return layouts
 
 
@@ -159,6 +163,82 @@ def check_landscape(manifest):
             require(path.read_text() == render(lang), f'{path.relative_to(ROOT)}: generated content differs')
         asset = ROOT / 'figs' / ('research-industry-landscape' + ('.zh-CN' if lang == 'zh-CN' else '') + '.svg')
         require(asset.read_text() == landscape.figure(lang), f'{asset.name}: diagram differs from taxonomy')
+
+
+def check_product_details(manifest):
+    if 'products' not in manifest:
+        return
+    import build_products as products
+    import hashlib
+    config = manifest['products']
+    require(len(products.CONTEXTS) == config['contexts'], 'Product technical-context count differs')
+    require(len(products.ITEMS) == config['source_items'], 'Source-item count differs')
+    require(len(products.REVIEWS) == config['comparisons'], 'Product comparison count differs')
+    require(len(products.CATEGORIES) == config['source_categories'], 'Product source-category count differs')
+    require(sum(len(c['cross_source_categories']) for c in products.CONTEXTS.values()) == config['cross_references'],
+            'Product cross-reference count differs')
+    require(len(products.ITEM_BY_ID) == len(products.ITEMS), 'Duplicate source-item IDs')
+    require(len({r['id'] for r in products.REVIEWS}) == len(products.REVIEWS), 'Duplicate product comparison IDs')
+    context_members = [sid for c in products.CATEGORIES for sid in c['contexts']]
+    require(len(context_members) == len(set(context_members)) and set(context_members) == set(products.CONTEXTS),
+            'Product contexts must each belong to exactly one source category')
+    item_members = [iid for c in products.CONTEXTS.values() for iid in c['item_ids']]
+    require(len(item_members) == len(set(item_members)) and set(item_members) == set(products.ITEM_BY_ID),
+            'Every source item must be retained exactly once in its context')
+    for c in products.CATEGORIES:
+        require(set(c['related_subcategories']) <= set(products.SUBS), f'{c["id"]}: unknown related subcategory')
+        require(set(c['comparison_focus']) == {'en', 'zh-CN'} and all(c['comparison_focus'].values()),
+                f'{c["id"]}: missing original comparison checklist')
+    for iid, item in products.ITEM_BY_ID.items():
+        require(item['source_id'] in products.CONTEXTS, f'{iid}: missing technical context')
+        require(iid in products.CONTEXTS[item['source_id']]['item_ids'], f'{iid}: context membership differs')
+        require(item['display_name'] == re.sub(r'\s+', ' ', item['name_as_published']),
+                f'{iid}: display normalization changed source wording')
+    for sid, context in products.CONTEXTS.items():
+        require(set(context['cross_source_categories']) <= set(products.CATEGORY_BY_ID)
+                and len(context['cross_source_categories']) == len(set(context['cross_source_categories'])),
+                f'{sid}: invalid cross-category links')
+        require(set(context['technical']) == {'en', 'zh-CN'} and all(context['technical'].values()),
+                f'{sid}: incomplete bilingual technical evidence')
+        require(context['source_checked_on'] == config['source_snapshot'], f'{sid}: archive date changed')
+        require(hashlib.sha256(context['technical']['zh-CN'].encode()).hexdigest() == context['source_technical_sha256'],
+                f'{sid}: original technical excerpt changed')
+    for review in products.REVIEWS:
+        require(review['source_id'] in products.CONTEXTS, f'{review["id"]}: unknown source')
+        require(bool(review['related_subcategories']) and set(review['related_subcategories']) <= set(products.SUBS),
+                f'{review["id"]}: invalid detail routing')
+        require(bool(review['facts']) and set(review['facts']) <= set(products.LABELS), f'{review["id"]}: unknown fact fields')
+        for iid in review.get('source_item_ids', []):
+            require(iid in products.ITEM_BY_ID and products.ITEM_BY_ID[iid]['source_id'] == review['source_id'],
+                    f'{review["id"]}: model source item belongs to another context')
+        for field, value in review['facts'].items():
+            require(set(value) == {'en', 'zh-CN'} and all(value.values()), f'{review["id"]}: incomplete {field}')
+        relation = review['research_relation']
+        require(relation['kind'] in ('related_route', 'documented_use'), f'{review["id"]}: invalid research relation')
+        if relation['kind'] == 'documented_use':
+            require(bool(relation.get('primary_quote')) and relation.get('primary_page', 0) > 0
+                    and bool(re.fullmatch(r'[0-9a-f]{64}', relation.get('primary_sha256', ''))),
+                    f'{review["id"]}: missing primary paper verification record')
+            rows = paper_rows((ROOT / 'docs/en' / relation['catalog_path']).read_text())
+            matches = [r for r in rows if plain(r[1]) == relation['paper_title']]
+            require(len(matches) == 1 and relation['quote'] in plain(' '.join(matches[0]))
+                    and relation['paper_url'] in urls(matches[0][1]),
+                    f'{review["id"]}: actual-use claim lacks matching catalog evidence')
+    for lang in ('en', 'zh-CN'):
+        folder = ROOT / 'docs' / lang / 'products'
+        require((folder / 'README.md').read_text() == products.make_index(lang), f'{lang}: product index differs from source data')
+        require((folder / 'catalog.md').read_text() == products.make_catalog(lang), f'{lang}: source-item catalog differs from source data')
+        for c in products.CATEGORIES:
+            require((folder / 'references' / (c['id'] + '.md')).read_text() == products.make_reference(c, lang),
+                    f'{lang}/{c["id"]}: technical archive differs from source data')
+        for topic in products.TOPICS:
+            require((folder / 'comparisons' / (topic['id'] + '.md')).read_text() == products.make_comparison(topic, lang),
+                    f'{lang}/{topic["id"]}: product comparison differs from source data')
+            for sub in topic['subcategories']:
+                require((folder / 'topics' / (sub['id'] + '.md')).read_text() == products.make_subtopic(topic, sub, lang),
+                        f'{lang}/{sub["id"]}: dedicated topic differs from source data')
+    require(sum(len(t['subcategories']) for t in products.TOPICS) == config['dedicated_topics'],
+            'Dedicated product topic count differs')
 
 
 def main():
@@ -254,6 +334,7 @@ def main():
             check_table_layout(ROOT / 'README.zh-CN.md', (ROOT / 'README.zh-CN.md').read_text()),
             'Root README bilingual table layouts differ')
     check_landscape(manifest)
+    check_product_details(manifest)
     if ERRORS:
         print('\n'.join(ERRORS))
         return 1

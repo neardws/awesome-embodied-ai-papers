@@ -1,0 +1,26 @@
+{
+  "id": "E019",
+  "supplier_as_published": "乐聚智能（深圳）股份有限公司",
+  "source_category": "01-01",
+  "source_url": "https://www.lejurobot.cn/zh",
+  "original_source_urls": [
+    "https://www.lejurobot.cn/zh"
+  ],
+  "source_checked_on": "2026-09-05",
+  "evidence": "official_page",
+  "technical": {
+    "zh-CN": "官网明确 KUAVO 4Pro、KUAVO 5/5-W 产品入口，并将科研、商服、工业和训练场方案分别列出；可进一步按轮臂与人形形态比较。",
+    "en": "The official site lists KUAVO 4Pro and KUAVO 5/5-W separately, with research, commercial service, industrial and training-site solutions. Wheeled-arm and humanoid forms can be compared separately."
+  },
+  "original_product_line": "人形机器人、轮式人形、教育机器人",
+  "original_application_wording": "科研、商业服务、工业制造、教育",
+  "original_issue_notes": [],
+  "item_ids": [],
+  "source_technical_sha256": "c3b9b0e6aa2da4ef2f663764bd06fd40cb6a9a5a9475c15d00c21e235e5f4d75",
+  "cross_source_categories": [
+    "01-02"
+  ],
+  "original_tags": "通用人形/轮式人形",
+  "original_verification_wording": "官网已核对。",
+  "original_review_wording": "检索/读取日期：2026-09-05。核验口径：已读取官方网页；参数属发布方声明。"
+}

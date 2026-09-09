@@ -1,0 +1,35 @@
+{
+  "id": "E167",
+  "supplier_as_published": "舍弗勒具身智能机器人（太仓）有限公司",
+  "source_category": "06-03",
+  "source_url": "https://www.worldrobotconference.com/expo/company/667.html",
+  "original_source_urls": [
+    "https://www.worldrobotconference.com/expo/company/667.html",
+    "https://www.worldrobotconference.com/expo/product/1153.html",
+    "https://www.worldrobotconference.com/expo/product/1154.html",
+    "https://www.worldrobotconference.com/expo/product/1155.html"
+  ],
+  "source_checked_on": "2026-09-05",
+  "evidence": "official_page",
+  "technical": {
+    "zh-CN": "直线关节依托滚珠或行星滚柱丝杠；MEMS 力觉为独立产品。谐波关节标题下重复了直线关节描述，暂不据该段确定旋转关节结构。",
+    "en": "Linear joints use ball or planetary roller screws; MEMS force sensing is separate. Text under a strain-wave-joint title repeats the linear-joint description, so rotary structure remains unresolved."
+  },
+  "original_product_line": "轴承、滚柱丝杠、精密减速器、电机、传感器、关节模组",
+  "original_application_wording": "人形机器人关节、工业物流/3C/服务机器人",
+  "original_issue_notes": [
+    "具体问题：谐波模组标题与直线执行器正文疑似错配。"
+  ],
+  "item_ids": [
+    "item-0ed429cb772d",
+    "item-43d774d0a5a5",
+    "item-767d34637a95"
+  ],
+  "source_technical_sha256": "37e994f5573df335be0c4b3a5d934d0e3b73fc6f7e11c8233dc79441f52c1ba7",
+  "cross_source_categories": [
+    "06-08"
+  ],
+  "original_tags": "人形关节/滚柱丝杠/传动",
+  "original_verification_wording": "展会官方页已核对。",
+  "original_review_wording": "检索/读取日期：2026-09-05。核验口径：已读取官方网页；参数属发布方声明。"
+}

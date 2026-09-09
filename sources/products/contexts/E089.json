@@ -1,0 +1,37 @@
+{
+  "id": "E089",
+  "supplier_as_published": "浙江史河科技有限公司",
+  "source_category": "04-06",
+  "source_url": "https://www.worldrobotconference.com/expo/company/641.html",
+  "original_source_urls": [
+    "https://www.worldrobotconference.com/expo/company/641.html",
+    "https://www.worldrobotconference.com/expo/product/1456.html",
+    "https://www.worldrobotconference.com/expo/product/1459.html",
+    "https://www.worldrobotconference.com/expo/product/1467.html",
+    "https://www.worldrobotconference.com/expo/product/1461.html",
+    "https://www.worldrobotconference.com/expo/product/1462.html"
+  ],
+  "source_checked_on": "2026-09-05",
+  "evidence": "official_page",
+  "technical": {
+    "zh-CN": "EM10 结合双臂、差速爬壁底盘与 VR 远程作业；DT10-MT 用于磁粉无损检测和缺陷标记；CP10-W 用于球罐表面打磨。",
+    "en": "EM10 combines dual arms, a differential wall-climbing base and VR remote operation. DT10-MT performs magnetic-particle nondestructive inspection and defect marking; CP10-W grinds spherical-tank surfaces."
+  },
+  "original_product_line": "EM10 人形高空爬壁机器人、磁吸附巡检及储罐/船体清洁机器人",
+  "original_application_wording": "船舶、建筑外墙、化工储罐、能源设施的高危检修与清洁",
+  "original_issue_notes": [],
+  "item_ids": [
+    "item-ece82d282114",
+    "item-cd0230fbe1f8",
+    "item-1adb0588d0ee",
+    "item-b753992aa3f0",
+    "item-d3a2ac4d9098",
+    "item-194d0a244af3",
+    "item-5f4a136372de"
+  ],
+  "source_technical_sha256": "3476d0ce6638ab8cd20fe399a492661ec30888eda726cf541caa77e2e465743b",
+  "cross_source_categories": [],
+  "original_tags": "高空爬壁与工业维护机器人",
+  "original_verification_wording": "大会官方页已核验。",
+  "original_review_wording": "检索/读取日期：2026-09-05。核验口径：已读取官方网页；参数属发布方声明。"
+}

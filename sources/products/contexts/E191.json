@@ -1,0 +1,32 @@
+{
+  "id": "E191",
+  "supplier_as_published": "深圳市同川科技有限公司",
+  "source_category": "06-06",
+  "source_url": "https://www.worldrobotconference.com/expo/company/630.html",
+  "original_source_urls": [
+    "https://www.worldrobotconference.com/expo/company/630.html",
+    "https://www.worldrobotconference.com/expo/product/721.html",
+    "https://www.worldrobotconference.com/expo/product/724.html"
+  ],
+  "source_checked_on": "2026-09-05",
+  "evidence": "official_page",
+  "technical": {
+    "zh-CN": "减速器采用三维曲面共轭双圆弧齿廓；HarmoCore 集成输出转矩传感器及安装接口。系列传动精度与寿命声明未附工况。",
+    "en": "Reducers use conjugate double-arc 3D tooth profiles. HarmoCore integrates output torque sensing and mounting interfaces. Series accuracy and lifetime claims lack operating conditions."
+  },
+  "original_product_line": "谐波减速器、HarmoCore 轻量化谐波关节",
+  "original_application_wording": "工业、协作、人形机器人与高端装备",
+  "original_issue_notes": [],
+  "item_ids": [
+    "item-97b5c7344796",
+    "item-f979011242ec"
+  ],
+  "source_technical_sha256": "c374f3dc47e8a86eb279093043af064f29b75eb287d83d2e3871c3a13e2ab7e9",
+  "cross_source_categories": [
+    "06-03",
+    "07-01"
+  ],
+  "original_tags": "谐波减速器与轻量化关节",
+  "original_verification_wording": "大会官方页已核验。",
+  "original_review_wording": "检索/读取日期：2026-09-05。核验口径：已读取官方网页；参数属发布方声明。"
+}

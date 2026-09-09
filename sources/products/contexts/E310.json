@@ -1,0 +1,38 @@
+{
+  "id": "E310",
+  "supplier_as_published": "杭州市余杭区海创人形机器人产业创新中心",
+  "source_category": "11-02",
+  "source_url": "https://www.worldrobotconference.com/expo/company/501.html",
+  "original_source_urls": [
+    "https://www.worldrobotconference.com/expo/company/501.html",
+    "https://www.worldrobotconference.com/expo/product/1511.html",
+    "https://www.worldrobotconference.com/expo/product/1513.html",
+    "https://www.worldrobotconference.com/expo/product/1515.html",
+    "https://www.worldrobotconference.com/expo/product/1517.html"
+  ],
+  "source_checked_on": "2026-09-05",
+  "evidence": "official_page",
+  "technical": {
+    "zh-CN": "无际导览采用 VLLA 并可联动灯光/PPT；移动平台支持轮行、足式和匍匐模式；四足巡检另标导航精度 ±15mm，不能套用到全部展品。",
+    "en": "无际 guiding uses VLLA with lighting/PPT interaction. A mobile platform supports wheeled, legged and crawling modes. A separate quadruped inspection system reports ±15mm navigation accuracy, not applicable to all exhibits."
+  },
+  "original_product_line": "无际导览机器人、敏捷移动平台、四足巡检机器人、智能助餐机器人",
+  "original_application_wording": "博物馆/展馆导览、户外电站及园区巡检、医疗康养助餐",
+  "original_issue_notes": [],
+  "item_ids": [
+    "item-bb16e6cc0bbe",
+    "item-25f070458cba",
+    "item-60fdaf6efc3c",
+    "item-c10c7dfa5734"
+  ],
+  "source_technical_sha256": "e58e51cbef8bc777b32610beba3ffdd45b462778104bce2575dd4c70ca81f871",
+  "cross_source_categories": [
+    "01-01",
+    "01-03",
+    "03-05",
+    "04-05"
+  ],
+  "original_tags": "人形机器人产业创新与场景验证平台",
+  "original_verification_wording": "大会官方页已核验。",
+  "original_review_wording": "检索/读取日期：2026-09-05。核验口径：已读取官方网页；参数属发布方声明。"
+}

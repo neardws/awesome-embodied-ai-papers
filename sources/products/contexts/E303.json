@@ -1,0 +1,25 @@
+{
+  "id": "E303",
+  "supplier_as_published": "北京通用人工智能研究院",
+  "source_category": "11-01",
+  "source_url": "https://www.bigai.ai/%E7%A7%91%E7%A0%94%E9%83%A8%E9%97%A8/",
+  "original_source_urls": [
+    "https://www.bigai.ai/%E7%A7%91%E7%A0%94%E9%83%A8%E9%97%A8/",
+    "https://www.bigai.ai/"
+  ],
+  "source_checked_on": "2026-09-05",
+  "evidence": "official_page",
+  "technical": {
+    "zh-CN": "官方列通用视觉、机器人、自然语言、认知推理、机器学习和多智能体等研究方向；机器人方向侧重多模态感知、任务运动规划与具身硬件。",
+    "en": "The official institute lists general vision, robotics, language, cognitive reasoning, machine learning and multi-agent research. Robotics emphasizes multimodal perception, task-motion planning and embodied hardware."
+  },
+  "original_product_line": "通智大脑（TongRobot）、通用智能体技术（TongAgents）",
+  "original_application_wording": "具身机器人感知、认知推理、任务规划与运动规划；通用智能体开发",
+  "original_issue_notes": [],
+  "item_ids": [],
+  "source_technical_sha256": "f4f2e2c0ae7c0bb8c420c0171debd3bd21027d5c5da21da9e12cc3ec75dd27b3",
+  "cross_source_categories": [],
+  "original_tags": "通用人工智能与具身智能研究平台",
+  "original_verification_wording": "已核验（官网）。",
+  "original_review_wording": "检索/读取日期：2026-09-05。核验口径：已读取官方网页；参数属发布方声明。"
+}

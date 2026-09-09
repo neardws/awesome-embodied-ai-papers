@@ -1,0 +1,27 @@
+{
+  "id": "E115",
+  "supplier_as_published": "北京长木谷医疗科技股份有限公司",
+  "source_category": "05-01",
+  "source_url": "https://www.worldrobotconference.com/expo/company/440.html",
+  "original_source_urls": [
+    "https://www.worldrobotconference.com/expo/company/440.html",
+    "https://www.worldrobotconference.com/expo/product/928.html"
+  ],
+  "source_checked_on": "2026-09-05",
+  "evidence": "official_page",
+  "technical": {
+    "zh-CN": "ROPA6 页面将髋、膝、单髁、脊柱、创伤和运动医学列为六类术式。注册与临床落地为展商表述，本轮未核验注册证及适用范围。",
+    "en": "ROPA6 lists six procedure categories: hip, knee, unicondylar, spine, trauma and sports medicine. Registration and clinical use are exhibitor claims; certificates and scope were not checked."
+  },
+  "original_product_line": "ROPA6 人工智能全骨科手术机器人",
+  "original_application_wording": "髋、膝、单髁、脊柱、创伤、运动医学六类骨科手术",
+  "original_issue_notes": [],
+  "item_ids": [
+    "item-b0345514b310"
+  ],
+  "source_technical_sha256": "6c56d07dc404d119913beb02b1131ae71fed47e6e71a5a10da78c64e42d80126",
+  "cross_source_categories": [],
+  "original_tags": "AI骨科手术机器人",
+  "original_verification_wording": "展会官方页已核对。",
+  "original_review_wording": "检索/读取日期：2026-09-05。核验口径：已读取官方网页；参数属发布方声明。"
+}

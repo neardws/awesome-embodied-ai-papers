@@ -1,0 +1,31 @@
+{
+  "id": "E082",
+  "supplier_as_published": "深圳市大象机器人科技有限公司",
+  "source_category": "02-03",
+  "source_url": "https://www.worldrobotconference.com/expo/company/467.html",
+  "original_source_urls": [
+    "https://www.worldrobotconference.com/expo/company/467.html",
+    "https://www.worldrobotconference.com/expo/product/1217.html",
+    "https://www.worldrobotconference.com/expo/product/323.html",
+    "https://www.worldrobotconference.com/expo/product/1220.html"
+  ],
+  "source_checked_on": "2026-09-05",
+  "evidence": "official_page",
+  "technical": {
+    "zh-CN": "myCobot Pro 450 标注工作半径 450mm、有效负载超过 1kg，提供拖拽编程；Mercury X1 另集成雷达、视觉、超声和移动双臂。",
+    "en": "myCobot Pro 450 reports 450mm working radius and over 1kg effective payload, with drag teaching. Mercury X1 separately integrates LiDAR, vision, ultrasound and mobile dual arms."
+  },
+  "original_product_line": "ultraArm P1 桌面机械臂、myCobot Pro 450 协作机械臂、水星 X1 轮式人形机器人",
+  "original_application_wording": "教育教学、科学实验、机器人研发、具身算法研究与商业服务",
+  "original_issue_notes": [],
+  "item_ids": [
+    "item-0738b697e6e1",
+    "item-054c5b9a7069",
+    "item-c8c1117a0111"
+  ],
+  "source_technical_sha256": "d94291dee93f0a03a7bf5831aeeda23ab787ac3b2367af580d7eed866f0c8e12",
+  "cross_source_categories": [],
+  "original_tags": "桌面/协作机械臂与开放机器人平台",
+  "original_verification_wording": "大会官方页已核验。",
+  "original_review_wording": "检索/读取日期：2026-09-05。核验口径：已读取官方网页；参数属发布方声明。"
+}

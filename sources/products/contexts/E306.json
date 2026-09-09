@@ -1,0 +1,46 @@
+{
+  "id": "E306",
+  "supplier_as_published": "深圳市人工智能与机器人研究院",
+  "source_category": "11-01",
+  "source_url": "https://www.worldrobotconference.com/expo/company/392.html",
+  "original_source_urls": [
+    "https://www.worldrobotconference.com/expo/company/392.html",
+    "https://www.worldrobotconference.com/expo/product/448.html",
+    "https://www.worldrobotconference.com/expo/product/710.html",
+    "https://www.worldrobotconference.com/expo/product/712.html",
+    "https://www.worldrobotconference.com/expo/product/716.html",
+    "https://www.worldrobotconference.com/expo/product/1019.html"
+  ],
+  "source_checked_on": "2026-09-05",
+  "evidence": "official_page",
+  "technical": {
+    "zh-CN": "AIRSEAI 覆盖标准硬件、算法、数采训练及虚实评测；另有沿索攀爬修补机器人和单球平衡双臂“小团”，需建立跨分类入口。",
+    "en": "AIRSEAI spans standard hardware, algorithms, data/training and virtual/physical evaluation. Separate cable-climbing repair robots and the single-ball-balancing dual-arm 小团 require cross-category links."
+  },
+  "original_product_line": "AIRSEAI 开源移动操作平台、缆索修补/检测机器人、小团服务机器人、磁吸攀爬机器人、力反馈双臂、电力人形机器人",
+  "original_application_wording": "桥梁缆索检测修补、管道腐蚀巡检、电力运维、导览迎宾、遥操作数采与科研验证",
+  "original_issue_notes": [],
+  "item_ids": [
+    "item-1c423bc69fd9",
+    "item-7a63fd8aa83b",
+    "item-9f76b50e03f0",
+    "item-7af6705c071b",
+    "item-69a01646cb42",
+    "item-99dc5364d58f",
+    "item-88f50e3d72d2",
+    "item-e57db0e8202c",
+    "item-d1efe5f24e8f"
+  ],
+  "source_technical_sha256": "998b0142f2a127e26e4825be9926b3928fa009e7fd99904bffa5c3d1f5a6341f",
+  "cross_source_categories": [
+    "01-02",
+    "03-05",
+    "04-06",
+    "09-03",
+    "09-04",
+    "09-05"
+  ],
+  "original_tags": "具身智能开源平台与行业机器人研发",
+  "original_verification_wording": "大会官方页已核验。",
+  "original_review_wording": "检索/读取日期：2026-09-05。核验口径：已读取官方网页；参数属发布方声明。"
+}

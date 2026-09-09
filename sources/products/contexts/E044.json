@@ -1,0 +1,31 @@
+{
+  "id": "E044",
+  "supplier_as_published": "北京银河通用机器人股份有限公司",
+  "source_category": "01-02",
+  "source_url": "https://www.worldrobotconference.com/expo/company/434.html",
+  "original_source_urls": [
+    "https://www.worldrobotconference.com/expo/company/434.html",
+    "https://www.worldrobotconference.com/expo/product/196.html",
+    "https://www.worldrobotconference.com/expo/product/1479.html"
+  ],
+  "source_checked_on": "2026-09-05",
+  "evidence": "official_page",
+  "technical": {
+    "zh-CN": "G1 采用可折叠腿与全向轮底盘，标注 0–2.4m 作业空间；S1 用于重载拆码垛。页面中的抓取成功率缺少公开测试集与工况，不宜直接横比。",
+    "en": "Galbot G1 combines folding legs with an omnidirectional base and reports a 0–2.4m workspace. S1 targets heavy depalletizing/palletizing. Grasp-success claims lack public test sets and conditions."
+  },
+  "original_product_line": "Galbot G1 轮式双臂人形、工业重载机器人 S1、AstraBrain、AstraData",
+  "original_application_wording": "零售商超抓取、工业拆码垛/搬运/上下料、城市环境导航跟随",
+  "original_issue_notes": [],
+  "item_ids": [
+    "item-90f4da1dc8a4",
+    "item-f5e88d9cdce3"
+  ],
+  "source_technical_sha256": "9435098d7ea36b5b084d3b33135c1b6bc6ae037c1fb0e62deac2760433a71613",
+  "cross_source_categories": [
+    "04-01"
+  ],
+  "original_tags": "轮式具身机器人与具身基础模型",
+  "original_verification_wording": "大会官方页已核验。",
+  "original_review_wording": "检索/读取日期：2026-09-05。核验口径：已读取官方网页；参数属发布方声明。"
+}

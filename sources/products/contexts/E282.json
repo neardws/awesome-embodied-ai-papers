@@ -1,0 +1,31 @@
+{
+  "id": "E282",
+  "supplier_as_published": "北京中安吉泰科技有限公司",
+  "source_category": "04-06",
+  "source_url": "https://www.worldrobotconference.com/expo/company/479.html",
+  "original_source_urls": [
+    "https://www.worldrobotconference.com/expo/company/479.html",
+    "https://www.worldrobotconference.com/expo/product/91.html",
+    "https://www.worldrobotconference.com/expo/product/92.html",
+    "https://www.worldrobotconference.com/expo/product/93.html"
+  ],
+  "source_checked_on": "2026-09-05",
+  "evidence": "official_page",
+  "technical": {
+    "zh-CN": "锅炉水冷壁产品分检测与清灰：滚筒清灰宽度 1.5m、8㎡/min，高压水方案 35MPa、2㎡/min；炉膛无人机面向无 GPS 密闭环境。",
+    "en": "Boiler-wall products separate inspection from cleaning: roller cleaning reports 1.5m width and 8㎡/min; high-pressure water reports 35MPa and 2㎡/min. The furnace drone targets enclosed GPS-denied environments."
+  },
+  "original_product_line": "锅炉水冷壁检测/清洁机器人、炉内无人机",
+  "original_application_wording": "电力锅炉的高危检测、清洁与智能运维",
+  "original_issue_notes": [],
+  "item_ids": [
+    "item-62c9dc3ae47b",
+    "item-0ed0ec243eb7",
+    "item-316c5f6e6a76"
+  ],
+  "source_technical_sha256": "54693956f9616bb1c2c727a343703622e2a078fc0d3d49899bd33fe9a458d346",
+  "cross_source_categories": [],
+  "original_tags": "能源设施高危智能运维",
+  "original_verification_wording": "大会官方页已核验。",
+  "original_review_wording": "检索/读取日期：2026-09-05。核验口径：已读取官方网页；参数属发布方声明。"
+}

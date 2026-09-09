@@ -1,0 +1,32 @@
+{
+  "id": "E029",
+  "supplier_as_published": "合十思维（北京）科技有限公司",
+  "source_category": "01-01",
+  "source_url": "https://www.worldrobotconference.com/expo/company/787.html",
+  "original_source_urls": [
+    "https://www.worldrobotconference.com/expo/company/787.html",
+    "https://www.worldrobotconference.com/expo/product/1189.html",
+    "https://www.worldrobotconference.com/expo/product/1197.html"
+  ],
+  "source_checked_on": "2026-09-05",
+  "evidence": "official_page",
+  "technical": {
+    "zh-CN": "商业清洁轮臂底座采用全向轮和物界 OS；官方介绍列举海淀公园、超级合生汇试点。Humanoid-X 为双足形态，二者是不同产品而非同一配置。",
+    "en": "The commercial-cleaning wheeled-arm base uses omnidirectional wheels and 物界 OS; the description names Haidian Park and Super Hopson One pilots. Humanoid-X is bipedal, a different product rather than another configuration of the same robot."
+  },
+  "original_product_line": "类脑具身智能通用大脑、通用轮臂底盘、Humanoid-X 全尺寸通用双足人形机器人",
+  "original_application_wording": "商场、景区、高速服务区商业清洁；商业服务、巡检、家务",
+  "original_issue_notes": [],
+  "item_ids": [
+    "item-30be0fbd48fd",
+    "item-6479e81871c8"
+  ],
+  "source_technical_sha256": "9c288a2cbbc1d3cf29e79ba58b570c0a9c9d8c714edbb1375efd8aa986a1aefb",
+  "cross_source_categories": [
+    "03-01",
+    "09-05"
+  ],
+  "original_tags": "类脑具身智能平台、人形与轮臂机器人",
+  "original_verification_wording": "已核验（大会官方页）。",
+  "original_review_wording": "检索/读取日期：2026-09-05。核验口径：已读取官方网页；参数属发布方声明。"
+}

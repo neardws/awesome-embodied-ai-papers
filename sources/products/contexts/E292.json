@@ -1,0 +1,35 @@
+{
+  "id": "E292",
+  "supplier_as_published": "汉高",
+  "source_category": "10-04",
+  "source_url": "https://www.worldrobotconference.com/expo/company/701.html",
+  "original_source_urls": [
+    "https://www.worldrobotconference.com/expo/company/701.html",
+    "https://www.worldrobotconference.com/expo/product/1447.html",
+    "https://www.worldrobotconference.com/expo/product/1453.html",
+    "https://www.worldrobotconference.com/expo/product/1457.html",
+    "https://www.worldrobotconference.com/expo/product/1458.html",
+    "https://www.worldrobotconference.com/expo/product/1460.html"
+  ],
+  "source_checked_on": "2026-09-05",
+  "evidence": "official_page",
+  "technical": {
+    "zh-CN": "HI FLOW THF5000UT 为导热相变材料，TGP7000ULM BLU 为低模量间隙填充材料、标注 7.5W/(m·K)，TGP5000AP 为玻纤增强配方；需按压缩率与界面条件选型。",
+    "en": "HI FLOW THF5000UT is phase-change thermal material. TGP7000ULM BLU is a low-modulus gap filler rated 7.5W/(m·K); TGP5000AP is glass-fiber reinforced. Selection depends on compression and interface conditions."
+  },
+  "original_product_line": "粘合剂、密封剂、功能性涂层；BERGQUIST 导热相变和间隙填充材料",
+  "original_application_wording": "电子、汽车、工业制造、新能源及机器人计算平台的导热与可靠连接",
+  "original_issue_notes": [],
+  "item_ids": [
+    "item-e2a0d699d041",
+    "item-d408f5f64529",
+    "item-749a5a75e17e",
+    "item-38a583c664a7",
+    "item-1b6d87491868"
+  ],
+  "source_technical_sha256": "2e47889afe17336e2933f4c010fc5de91656182e20f9c5f953756a4253f1acaf",
+  "cross_source_categories": [],
+  "original_tags": "导热界面材料、粘接与封装材料",
+  "original_verification_wording": "大会官方页已核验。",
+  "original_review_wording": "检索/读取日期：2026-09-05。核验口径：已读取官方网页；参数属发布方声明。"
+}

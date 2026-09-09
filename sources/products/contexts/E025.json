@@ -1,0 +1,30 @@
+{
+  "id": "E025",
+  "supplier_as_published": "优理奇机器人科技（苏州）有限公司",
+  "source_category": "01-02",
+  "source_url": "https://www.worldrobotconference.com/expo/company/445.html",
+  "original_source_urls": [
+    "https://www.worldrobotconference.com/expo/company/445.html",
+    "https://www.worldrobotconference.com/expo/product/88.html",
+    "https://www.worldrobotconference.com/expo/product/89.html",
+    "https://unixai.net/"
+  ],
+  "source_checked_on": "2026-09-05",
+  "evidence": "official_page",
+  "technical": {
+    "zh-CN": "Panther 标注上身升降 80cm、可触地作业，底盘可横移和原地旋转，采用 48V 平台；Wanda 2.0 则强调八自由度机械臂和轨迹模仿学习。",
+    "en": "Panther reports an 80cm upper-body lift, ground-level work, lateral motion, on-the-spot rotation and a 48V platform. Wanda 2.0 emphasizes eight-degree-of-freedom arms and trajectory imitation learning."
+  },
+  "original_product_line": "Wanda 2.0、Panther 轮式双臂人形、Martian 双足人形",
+  "original_application_wording": "文旅娱乐、家庭/酒店服务、迎宾接待、展厅导览",
+  "original_issue_notes": [],
+  "item_ids": [
+    "item-219ca8e84e6b",
+    "item-ea0718bdd453"
+  ],
+  "source_technical_sha256": "b2e5d6f8bae2f9a6e999d39850efdbb47176517b2ab6969e30ca115ece0b7cee",
+  "cross_source_categories": [],
+  "original_tags": "轮式双臂人形/双足通用人形",
+  "original_verification_wording": "官网已核对。",
+  "original_review_wording": "检索/读取日期：2026-09-05。核验口径：已读取官方网页；参数属发布方声明。"
+}

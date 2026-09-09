@@ -1,0 +1,37 @@
+{
+  "id": "E038",
+  "supplier_as_published": "北京人形机器人创新中心有限公司",
+  "source_category": "01-01",
+  "source_url": "https://www.worldrobotconference.com/expo/company/394.html",
+  "original_source_urls": [
+    "https://www.worldrobotconference.com/expo/company/394.html",
+    "https://www.worldrobotconference.com/expo/product/1514.html",
+    "https://www.worldrobotconference.com/expo/product/247.html",
+    "https://www.worldrobotconference.com/expo/product/248.html"
+  ],
+  "source_checked_on": "2026-09-05",
+  "evidence": "official_page",
+  "technical": {
+    "zh-CN": "天工 Omni 面向小型开放平台；天工 3.0 强调触物交互的全身控制及软硬接口；慧思开物提供跨本体任务平台，公开描述未等同接口兼容性实测。",
+    "en": "天工 Omni is a small open platform. 天工 3.0 emphasizes contact-aware whole-body control and hardware/software interfaces. 慧思开物 is a cross-body task platform; descriptions are not interoperability measurements."
+  },
+  "original_product_line": "天工 Omni、具身天工 3.0、慧思开物通用具身智能平台",
+  "original_application_wording": "科研教育与二次开发；工业场景全身自主作业、触物交互和运动控制验证",
+  "original_issue_notes": [],
+  "item_ids": [
+    "item-a5d5b3c21b1e",
+    "item-2456434502c6",
+    "item-69779671b201"
+  ],
+  "source_technical_sha256": "17b38f4fbba180b1103ba676c2b37a6a173e9d7cca8dfc3dd203a266356ecb7b",
+  "cross_source_categories": [
+    "01-02",
+    "01-04",
+    "09-01",
+    "09-05",
+    "11-02"
+  ],
+  "original_tags": "全尺寸/小型人形机器人与具身智能平台",
+  "original_verification_wording": "大会官方页已核验。",
+  "original_review_wording": "检索/读取日期：2026-09-05。核验口径：已读取官方网页；参数属发布方声明。"
+}

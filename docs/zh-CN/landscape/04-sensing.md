@@ -20,49 +20,64 @@
 </thead>
 <tbody>
 <tr>
-<td width="240" nowrap><a id="04-01"></a>图像、深度与三维视觉</td>
+<td width="240" nowrap><a id="04-01"></a>图像、深度与三维视觉<br><a href="../products/topics/04-01.md">产品细节</a></td>
 <td width="300">获取物体外观、形状与距离。</td>
 <td width="320">遮挡、透明反光与主动视觉。</td>
 <td width="320">标定、光照适应、接口与带宽。</td>
 <td width="340">深度误差、视场、帧率与同步。</td>
 </tr>
 <tr>
-<td width="240" nowrap><a id="04-02"></a>激光、雷达与测距</td>
+<td width="240" nowrap><a id="04-02"></a>激光、雷达与测距<br><a href="../products/topics/04-02.md">产品细节</a></td>
 <td width="300">支持远距离或复杂环境测量。</td>
 <td width="320">多传感融合、动态目标与稀疏感知。</td>
 <td width="320">安装遮挡、环境防护与成本。</td>
 <td width="340">量程、角分辨率、回波条件与时延。</td>
 </tr>
 <tr>
-<td width="240" nowrap><a id="04-03"></a>惯性、编码器与本体反馈</td>
+<td width="240" nowrap><a id="04-03"></a>惯性、编码器与本体反馈<br><a href="../products/topics/04-03.md">产品细节</a></td>
 <td width="300">估计机体姿态、关节位置和运动。</td>
 <td width="320">漂移补偿、状态估计与传感容错。</td>
 <td width="320">温漂、线缆、安装和时间同步。</td>
 <td width="340">噪声、漂移、分辨率与更新率。</td>
 </tr>
 <tr>
-<td width="240" nowrap><a id="04-04"></a>六维力与关节力矩</td>
+<td width="240" nowrap><a id="04-04"></a>六维力与关节力矩<br><a href="../products/topics/04-04.md">产品细节</a></td>
 <td width="300">判断接触载荷及外力。</td>
 <td width="320">力估计、柔顺控制与碰撞识别。</td>
 <td width="320">过载防护、标定与工业通信。</td>
 <td width="340">量程、串扰、迟滞、采样率。</td>
 </tr>
 <tr>
-<td width="240" nowrap><a id="04-05"></a>触觉阵列与电子皮肤</td>
+<td width="240" nowrap><a id="04-05"></a>触觉阵列与电子皮肤<br><a href="../products/topics/04-05.md">产品细节</a></td>
 <td width="300">感知接触分布、滑移和局部几何。</td>
 <td width="320">跨传感器表示与视觉触觉融合。</td>
 <td width="320">耐磨、表皮更换、布线与批次标定。</td>
 <td width="340">触点覆盖、采样同步、滑移检测与耐久。</td>
 </tr>
 <tr>
-<td width="240" nowrap><a id="04-06"></a>动作捕捉、语音与人机交互</td>
+<td width="240" nowrap><a id="04-06"></a>动作捕捉、语音与人机交互<br><a href="../products/topics/04-06.md">产品细节</a></td>
 <td width="300">把人的动作和意图接入机器人。</td>
 <td width="320">意图理解、重定向与多模态交互。</td>
 <td width="320">佩戴舒适、遮挡、延迟与操作负担。</td>
 <td width="340">跟踪误差、端到端时延与交互成功率。</td>
 </tr>
+<tr>
+<td width="240" nowrap><a id="04-07"></a>环境与化学感知<br><a href="../products/topics/04-07.md">产品细节</a></td>
+<td width="300">识别气体、化学特征和环境变化。</td>
+<td width="320">传感融合、漂移补偿与异常识别。</td>
+<td width="320">传感阵列、温湿补偿、采样与现场维护。</td>
+<td width="340">目标物、量程、选择性、漂移和响应时间。</td>
+</tr>
 </tbody>
 </table>
+
+## 技术与产品细节
+
+<a href="../products/comparisons/04-sensing.md">查看 31 条相关对照记录</a>
+
+继续比较逐型号参数、工况、接口、研究关联和来源问题，并下钻查看完整技术摘录与原始展项链接。
+
+<a href="../products/references/01-05.md">仿生与交互人形机器人</a> · <a href="../products/references/05-04.md">脑机接口与肌电仿生手</a> · <a href="../products/references/07-01.md">六维力与关节扭矩传感</a> · <a href="../products/references/07-02.md">触觉与柔性电子皮肤</a> · <a href="../products/references/07-03.md">深度相机与三维视觉</a> · <a href="../products/references/07-04.md">激光雷达与测距</a> · <a href="../products/references/07-05.md">惯性导航与姿态传感</a> · <a href="../products/references/07-06.md">编码器与磁位置传感</a> · <a href="../products/references/07-09.md">光学动捕与三维动作感知</a> · <a href="../products/references/08-05.md">电子元器件与传感芯片</a> · <a href="../products/references/10-05.md">显示与可穿戴交互设备</a>
 
 ## 研究、平台与产业代表
 

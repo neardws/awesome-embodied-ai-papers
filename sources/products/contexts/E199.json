@@ -1,0 +1,29 @@
+{
+  "id": "E199",
+  "supplier_as_published": "宁波震裕科技股份有限公司",
+  "source_category": "06-08",
+  "source_url": "https://www.worldrobotconference.com/expo/company/635.html",
+  "original_source_urls": [
+    "https://www.worldrobotconference.com/expo/company/635.html",
+    "https://www.worldrobotconference.com/expo/product/1559.html",
+    "https://www.worldrobotconference.com/expo/product/1560.html"
+  ],
+  "source_checked_on": "2026-09-05",
+  "evidence": "official_page",
+  "technical": {
+    "zh-CN": "线性执行器分别给出额定推力 150–3500N、峰值 300–8200N；丝杠标品另标峰值 80–12000N，比较时需区分部件和完整执行器。",
+    "en": "Linear actuators separately report 150–3500N rated and 300–8200N peak thrust. Standard screws report 80–12000N peak. Distinguish screw components from complete actuators."
+  },
+  "original_product_line": "线性执行器模组、行星滚柱丝杠及灵巧手/机架精密部件",
+  "original_application_wording": "人形机器人四肢与灵巧手",
+  "original_issue_notes": [],
+  "item_ids": [
+    "item-01d93d0652ec",
+    "item-9500000c2a78"
+  ],
+  "source_technical_sha256": "dc5680e7c2dd5332a0732c670d42b75a0748ec486b3baf02fbe403ea8aa3f2b3",
+  "cross_source_categories": [],
+  "original_tags": "行星滚柱丝杠与线性执行器",
+  "original_verification_wording": "大会官方页已核验。",
+  "original_review_wording": "检索/读取日期：2026-09-05。核验口径：已读取官方网页；参数属发布方声明。"
+}

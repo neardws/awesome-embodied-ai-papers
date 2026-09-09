@@ -1,0 +1,41 @@
+{
+  "id": "E039",
+  "supplier_as_published": "深圳市优必选科技股份有限公司",
+  "source_category": "01-01",
+  "source_url": "https://www.worldrobotconference.com/expo/company/396.html",
+  "original_source_urls": [
+    "https://www.worldrobotconference.com/expo/company/396.html",
+    "https://www.worldrobotconference.com/expo/product/454.html",
+    "https://www.worldrobotconference.com/expo/product/1195.html",
+    "https://www.worldrobotconference.com/expo/product/1169.html",
+    "https://www.worldrobotconference.com/expo/product/1170.html",
+    "https://www.worldrobotconference.com/expo/product/1193.html"
+  ],
+  "source_checked_on": "2026-09-05",
+  "evidence": "official_page",
+  "technical": {
+    "zh-CN": "Walker S2 页面标注自主热插拔换电约 3 分钟；Walker C1 EDU Tutor 面向助教，Cruzr S2 面向轮式分拣搬运。连续生产能力仍需具体工况证据。",
+    "en": "Walker S2 reports autonomous hot-swappable battery replacement in about 3 minutes. Walker C1 EDU Tutor targets teaching assistance; Cruzr S2 wheeled sorting and transport. Continuous production still requires operating-condition evidence."
+  },
+  "original_product_line": "Walker S2、Walker C1、Walker C1 EDU Tutor、Cruzr S2/Y1、天工行者 DEX",
+  "original_application_wording": "汽车及 3C 智能制造、物料搬运与装配；学校助教、商业服务",
+  "original_issue_notes": [],
+  "item_ids": [
+    "item-d90687112a32",
+    "item-2490010b1a58",
+    "item-9b6ef8360aa3",
+    "item-5b9842f3e976",
+    "item-184a40b8cae5",
+    "item-d2cd11821131"
+  ],
+  "source_technical_sha256": "bc4c4c4a1189a826af87bc075fd793c851888f30ea29fce5c127739b050e7518",
+  "cross_source_categories": [
+    "01-02",
+    "01-04",
+    "03-05",
+    "04-01"
+  ],
+  "original_tags": "工业人形机器人与教育/服务机器人",
+  "original_verification_wording": "大会官方页已核验。",
+  "original_review_wording": "检索/读取日期：2026-09-05。核验口径：已读取官方网页；参数属发布方声明。"
+}

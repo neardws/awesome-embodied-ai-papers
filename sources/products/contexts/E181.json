@@ -1,0 +1,40 @@
+{
+  "id": "E181",
+  "supplier_as_published": "灵心巧手（北京）科技股份有限公司",
+  "source_category": "06-01",
+  "source_url": "https://www.worldrobotconference.com/expo/company/514.html",
+  "original_source_urls": [
+    "https://www.worldrobotconference.com/expo/company/514.html",
+    "https://www.worldrobotconference.com/expo/product/996.html",
+    "https://www.worldrobotconference.com/expo/product/645.html",
+    "https://www.worldrobotconference.com/expo/product/646.html",
+    "https://www.worldrobotconference.com/expo/product/647.html",
+    "https://www.worldrobotconference.com/expo/product/648.html"
+  ],
+  "source_checked_on": "2026-09-05",
+  "evidence": "official_page",
+  "technical": {
+    "zh-CN": "O30 采用可独立关节控制的直驱路线，面向灵巧模型训练；巧匠工作台演示机械臂和灵巧手装配，属于特定工序示范而非通用装配能力证明。",
+    "en": "O30 uses independently controlled direct-drive joints for dexterous-model training. The 巧匠 workstation demonstrates arm/hand assembly for a specific process, not general assembly competence."
+  },
+  "original_product_line": "Linker Hand O/L 系列灵巧手、Open TeleDex 遥操作系统、LinkerSkillNet 技能库与 Linker Genesis 大模型",
+  "original_application_wording": "科研、通用机器人、工业精密装配、柔性生产、艺术表演与多模态数据采集",
+  "original_issue_notes": [],
+  "item_ids": [
+    "item-be91cfd0cf5b",
+    "item-f76ec73bb15e",
+    "item-48b20a4328b9",
+    "item-5577ce6a775c",
+    "item-7033c0a0931c",
+    "item-24f1cc854346",
+    "item-d9cf6dc29490",
+    "item-30b1f48a5355",
+    "item-a7c1da341917",
+    "item-592ab0178d0a"
+  ],
+  "source_technical_sha256": "faeadf7f22e271e831897ce467e483410ef7b2c2b21128c311a85735d1896410",
+  "cross_source_categories": [],
+  "original_tags": "多技术路线灵巧手与遥操作",
+  "original_verification_wording": "大会官方页已核验。",
+  "original_review_wording": "检索/读取日期：2026-09-05。核验口径：已读取官方网页；参数属发布方声明。"
+}

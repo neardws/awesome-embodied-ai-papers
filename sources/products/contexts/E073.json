@@ -1,0 +1,29 @@
+{
+  "id": "E073",
+  "supplier_as_published": "大咖机器人（北京）有限公司",
+  "source_category": "01-02",
+  "source_url": "https://www.worldrobotconference.com/expo/company/642.html",
+  "original_source_urls": [
+    "https://www.worldrobotconference.com/expo/company/642.html",
+    "https://www.worldrobotconference.com/expo/product/929.html"
+  ],
+  "source_checked_on": "2026-09-05",
+  "evidence": "official_page",
+  "technical": {
+    "zh-CN": "X7 Pro 标注全身 26 自由度、双臂最大负载 10kg，支持同构及手柄遥操作，可选腕部深度相机；最大负载的工作条件未列明。",
+    "en": "X7 Pro reports 26 total degrees of freedom and 10kg maximum dual-arm payload, with homologous/handheld teleoperation and optional wrist depth camera. Maximum-load conditions are unspecified."
+  },
+  "original_product_line": "X7 Pro 双臂具身机器人",
+  "original_application_wording": "零售、物流、养老、医药与工业场景",
+  "original_issue_notes": [],
+  "item_ids": [
+    "item-bbc74b1476a3"
+  ],
+  "source_technical_sha256": "4067f0742f52130e06caf83dc074c8256e07a5b20f620df929e3cd3cbd377cab",
+  "cross_source_categories": [
+    "01-01"
+  ],
+  "original_tags": "生产力具身双臂机器人",
+  "original_verification_wording": "大会官方页已核验。",
+  "original_review_wording": "检索/读取日期：2026-09-05。核验口径：已读取官方网页；参数属发布方声明。"
+}

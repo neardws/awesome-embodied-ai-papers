@@ -1,0 +1,31 @@
+{
+  "id": "E134",
+  "supplier_as_published": "上海仙工智能科技股份有限公司",
+  "source_category": "04-01",
+  "source_url": "https://www.worldrobotconference.com/expo/company/462.html",
+  "original_source_urls": [
+    "https://www.worldrobotconference.com/expo/company/462.html",
+    "https://www.worldrobotconference.com/expo/product/115.html",
+    "https://www.worldrobotconference.com/expo/product/122.html",
+    "https://www.worldrobotconference.com/expo/product/129.html"
+  ],
+  "source_checked_on": "2026-09-05",
+  "evidence": "official_page",
+  "technical": {
+    "zh-CN": "P1500 面向川字托盘搬运，P300 面向轻量线边配送；X1-PRO 采用全向底盘及可 45°弯腰结构，属于移动操作平台。",
+    "en": "P1500 handles 川-shaped pallets; P300 targets light lineside delivery. X1-PRO combines an omnidirectional base with 45° waist bending as a mobile manipulator."
+  },
+  "original_product_line": "AI 配送机器人 P1500/P300、X1-PRO 轮式人形机器人、机器人控制器与调度系统",
+  "original_application_wording": "仓储和制造重载托盘搬运、线边配送、仓内流转、拣选与检测",
+  "original_issue_notes": [],
+  "item_ids": [
+    "item-f305f67a888d",
+    "item-82a66c4ec424",
+    "item-32e6dc1d7737"
+  ],
+  "source_technical_sha256": "a4b91f50680e34b450e327b237e4d9a82b066315b57b6b2aae9595ab77bebfe9",
+  "cross_source_categories": [],
+  "original_tags": "AMR、智能叉车与轮式移动操作机器人",
+  "original_verification_wording": "大会官方页已核验。",
+  "original_review_wording": "检索/读取日期：2026-09-05。核验口径：已读取官方网页；参数属发布方声明。"
+}

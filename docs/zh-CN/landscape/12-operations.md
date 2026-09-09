@@ -20,42 +20,42 @@
 </thead>
 <tbody>
 <tr>
-<td width="240" nowrap><a id="12-01"></a>能力基准与任务评测</td>
+<td width="240" nowrap><a id="12-01"></a>能力基准与任务评测<br><a href="../products/topics/12-01.md">产品细节</a></td>
 <td width="300">以可比条件衡量能力。</td>
 <td width="320">任务设计、泛化划分与统计显著性。</td>
 <td width="320">现场任务映射、验收条件与回归集。</td>
 <td width="340">成功率、覆盖、方差与失败分布。</td>
 </tr>
 <tr>
-<td width="240" nowrap><a id="12-02"></a>可靠性与长时程测试</td>
+<td width="240" nowrap><a id="12-02"></a>可靠性与长时程测试<br><a href="../products/topics/12-02.md">产品细节</a></td>
 <td width="300">发现连续运行中的累积故障。</td>
 <td width="320">误差传播、鲁棒性与寿命建模。</td>
 <td width="320">老化测试、任务中断与备件维护。</td>
 <td width="340">运行时长、故障频率与恢复时间。</td>
 </tr>
 <tr>
-<td width="240" nowrap><a id="12-03"></a>安全约束与系统防护</td>
+<td width="240" nowrap><a id="12-03"></a>安全约束与系统防护<br><a href="../products/topics/12-03.md">产品细节</a></td>
 <td width="300">限制危险动作和失控传播。</td>
 <td width="320">安全控制、约束验证与风险感知。</td>
 <td width="320">保护链路、急停、隔离与责任边界。</td>
 <td width="340">约束违反、响应时间与验证覆盖。</td>
 </tr>
 <tr>
-<td width="240" nowrap><a id="12-04"></a>端侧部署与模型更新</td>
+<td width="240" nowrap><a id="12-04"></a>端侧部署与模型更新<br><a href="../products/topics/12-04.md">产品细节</a></td>
 <td width="300">把模型稳定运行在目标设备上。</td>
 <td width="320">压缩、缓存、推理调度与在线适配。</td>
 <td width="320">版本发布、灰度更新、回滚与兼容。</td>
 <td width="340">端到端时延、资源占用与回归结果。</td>
 </tr>
 <tr>
-<td width="240" nowrap><a id="12-05"></a>接管、诊断与恢复</td>
+<td width="240" nowrap><a id="12-05"></a>接管、诊断与恢复<br><a href="../products/topics/12-05.md">产品细节</a></td>
 <td width="300">在失败时维持可控运行。</td>
 <td width="320">异常检测、恢复策略与人机协同。</td>
 <td width="320">报警、远程接管、故障定位与复位。</td>
 <td width="340">介入次数、接管时延与恢复后完成率。</td>
 </tr>
 <tr>
-<td width="240" nowrap><a id="12-06"></a>机队、服务与运营指标</td>
+<td width="240" nowrap><a id="12-06"></a>机队、服务与运营指标<br><a href="../products/topics/12-06.md">产品细节</a></td>
 <td width="300">管理多机任务与长期服务。</td>
 <td width="320">协作调度、队列与资源优化。</td>
 <td width="320">工单、可用率、运维成本与设施对接。</td>
@@ -63,6 +63,14 @@
 </tr>
 </tbody>
 </table>
+
+## 技术与产品细节
+
+<a href="../products/comparisons/12-operations.md">查看 2 条相关对照记录</a>
+
+继续比较逐型号参数、工况、接口、研究关联和来源问题，并下钻查看完整技术摘录与原始展项链接。
+
+<a href="../products/references/09-04.md">仿真合成数据与评测</a>
 
 ## 研究、平台与产业代表
 

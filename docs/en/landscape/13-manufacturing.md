@@ -20,42 +20,42 @@ This page distinguishes subcategory questions, research priorities and industria
 </thead>
 <tbody>
 <tr>
-<td width="240" nowrap><a id="13-01"></a>Structural materials and precision manufacturing</td>
+<td width="240" nowrap><a id="13-01"></a>Structural materials and precision manufacturing<br><a href="../products/topics/13-01.md">Product details</a></td>
 <td width="300">Meet strength, weight and dimensional requirements.</td>
 <td width="320">Lightweight structures, materials design and topology optimization.</td>
 <td width="320">Process capability, finishing and tolerance control.</td>
 <td width="340">Mass, tolerances, fatigue and material batches.</td>
 </tr>
 <tr>
-<td width="240" nowrap><a id="13-02"></a>Additive manufacturing and rapid iteration</td>
+<td width="240" nowrap><a id="13-02"></a>Additive manufacturing and rapid iteration<br><a href="../products/topics/13-02.md">Product details</a></td>
 <td width="300">Shorten design validation and prototype fabrication cycles.</td>
 <td width="320">Complex structures, compliant devices and multi-material design.</td>
 <td width="320">Process selection, post-processing and consistency.</td>
 <td width="340">Prototype lead time, strength anisotropy and rework rate.</td>
 </tr>
 <tr>
-<td width="240" nowrap><a id="13-03"></a>Assembly, calibration and factory tests</td>
+<td width="240" nowrap><a id="13-03"></a>Assembly, calibration and factory tests<br><a href="../products/topics/13-03.md">Product details</a></td>
 <td width="300">Reduce performance variation between units.</td>
 <td width="320">Automated calibration, identification and error propagation.</td>
 <td width="320">Assembly processes, test fixtures and traceable records.</td>
 <td width="340">Calibration residuals, yield and consistency.</td>
 </tr>
 <tr>
-<td width="240" nowrap><a id="13-04"></a>Supply chain and configuration management</td>
+<td width="240" nowrap><a id="13-04"></a>Supply chain and configuration management<br><a href="../products/topics/13-04.md">Product details</a></td>
 <td width="300">Control component changes and system consequences.</td>
 <td width="320">Substitution-friendly design and modular architectures.</td>
 <td width="320">Bills of materials, alternatives, versions and lead times.</td>
 <td width="340">Configuration traceability, substitution validation and service compatibility.</td>
 </tr>
 <tr>
-<td width="240" nowrap><a id="13-05"></a>System integration and workstation adaptation</td>
+<td width="240" nowrap><a id="13-05"></a>System integration and workstation adaptation<br><a href="../products/topics/13-05.md">Product details</a></td>
 <td width="300">Integrate robots into actual business workflows.</td>
 <td width="320">Task modeling, human-robot cooperation and hybrid automation.</td>
 <td width="320">Tooling, site interfaces, commissioning and acceptance.</td>
 <td width="340">Retrofit time, stable cycle time and exception handling.</td>
 </tr>
 <tr>
-<td width="240" nowrap><a id="13-06"></a>Service, training and lifecycle support</td>
+<td width="240" nowrap><a id="13-06"></a>Service, training and lifecycle support<br><a href="../products/topics/13-06.md">Product details</a></td>
 <td width="300">Maintain equipment and workforce readiness over time.</td>
 <td width="320">Predictive maintenance, serviceability design and skill transfer.</td>
 <td width="320">Spares, training, repair procedures and version support.</td>
@@ -63,6 +63,14 @@ This page distinguishes subcategory questions, research priorities and industria
 </tr>
 </tbody>
 </table>
+
+## Technical and product details
+
+<a href="../products/comparisons/13-manufacturing.md">Open 8 related comparison records</a>
+
+Compare model-specific values, conditions, interfaces, research relationships and source issues. Full source excerpts and original exhibit links remain available underneath.
+
+<a href="../products/references/02-04.md">Welding and flexible-manufacturing integration</a> · <a href="../products/references/10-01.md">Metal additive manufacturing</a> · <a href="../products/references/10-02.md">Machine tools and precision manufacturing equipment</a> · <a href="../products/references/10-03.md">Robot ODM and precision manufacturing</a> · <a href="../products/references/10-04.md">Bonding, thermal and functional materials</a> · <a href="../products/references/11-01.md">Universities, institutes and research teams</a> · <a href="../products/references/11-02.md">Innovation, pilot-production and industrial services</a> · <a href="../products/references/11-03.md">Associations and joint exhibits</a> · <a href="../products/references/11-04.md">Training and practical education</a>
 
 ## Research, platforms and industrial examples
 

@@ -1,0 +1,27 @@
+{
+  "id": "E059",
+  "supplier_as_published": "万境千寻（北京）科技有限公司",
+  "source_category": "01-01",
+  "source_url": "https://www.worldrobotconference.com/expo/company/429.html",
+  "original_source_urls": [
+    "https://www.worldrobotconference.com/expo/company/429.html",
+    "https://www.worldrobotconference.com/expo/product/395.html"
+  ],
+  "source_checked_on": "2026-09-05",
+  "evidence": "official_page",
+  "technical": {
+    "zh-CN": "Moz1 标注 26 自由度，提供全身运动控制、STO 及碰撞检测；负载自重比 1:1 未附姿态和持续时间条件，应与具体规格表复核。",
+    "en": "Moz1 reports 26 degrees of freedom, whole-body control, STO and collision detection. Its 1:1 payload-to-weight claim lacks posture and duration conditions and needs a model-specific specification."
+  },
+  "original_product_line": "Moz1 通用人形机器人、具身大模型与学习算法",
+  "original_application_wording": "商务接待、展厅讲解、医院导览、衣物整理与家庭清洁",
+  "original_issue_notes": [],
+  "item_ids": [
+    "item-8410c3d8833b"
+  ],
+  "source_technical_sha256": "c5d166b9788a03e438c333f615316b080de4c22ac611f05b8817317e888ae841",
+  "cross_source_categories": [],
+  "original_tags": "通用人形机器人与具身模型",
+  "original_verification_wording": "大会官方页已核验。",
+  "original_review_wording": "检索/读取日期：2026-09-05。核验口径：已读取官方网页；参数属发布方声明。"
+}

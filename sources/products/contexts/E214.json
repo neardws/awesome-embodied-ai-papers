@@ -1,0 +1,31 @@
+{
+  "id": "E214",
+  "supplier_as_published": "中航电测仪器（西安）有限公司",
+  "source_category": "07-01",
+  "source_url": "https://www.worldrobotconference.com/expo/company/699.html",
+  "original_source_urls": [
+    "https://www.worldrobotconference.com/expo/company/699.html",
+    "https://www.worldrobotconference.com/expo/product/763.html",
+    "https://www.worldrobotconference.com/expo/product/764.html",
+    "https://www.worldrobotconference.com/expo/product/765.html"
+  ],
+  "source_checked_on": "2026-09-05",
+  "evidence": "official_page",
+  "technical": {
+    "zh-CN": "产品覆盖关节应变计、腕部法兰六维力和直线模组拉压测量；现有页未列单型号量程、采样率及接口。",
+    "en": "The products cover joint strain gauges, wrist-flange six-axis force sensing and linear-module tension/compression measurement. Model-specific ranges, sampling rates and interfaces are absent."
+  },
+  "original_product_line": "关节扭矩传感器、六维力传感器、拉压力传感器",
+  "original_application_wording": "机器人关节/腕部力觉、线性模组力检测、人形机器人集成",
+  "original_issue_notes": [],
+  "item_ids": [
+    "item-4d342e64ae82",
+    "item-b17c58acc316",
+    "item-342ba8f78d2e"
+  ],
+  "source_technical_sha256": "1d7edd68d4b6b351b26b43e4fc2935f02d15327abb7f0a9e6d0ea1e7ce3ab061",
+  "cross_source_categories": [],
+  "original_tags": "力/扭矩多维传感",
+  "original_verification_wording": "大会官方页已核验。",
+  "original_review_wording": "检索/读取日期：2026-09-05。核验口径：已读取官方网页；参数属发布方声明。"
+}

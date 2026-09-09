@@ -1,0 +1,31 @@
+{
+  "id": "E210",
+  "supplier_as_published": "南昌酷德智能科技有限公司",
+  "source_category": "06-03",
+  "source_url": "https://www.worldrobotconference.com/expo/company/645.html",
+  "original_source_urls": [
+    "https://www.worldrobotconference.com/expo/company/645.html",
+    "https://www.worldrobotconference.com/expo/product/707.html",
+    "https://www.worldrobotconference.com/expo/product/709.html",
+    "https://www.worldrobotconference.com/expo/product/711.html"
+  ],
+  "source_checked_on": "2026-09-05",
+  "evidence": "official_page",
+  "technical": {
+    "zh-CN": "AKH 采用中空行星与双编码器；AK 支持 CAN/CAN FD 及位置、速度、力矩闭环；AKE 为轻量外骨骼低阻抗动力模组。",
+    "en": "AKH uses hollow planetary gearing and dual encoders. AK supports CAN/CAN FD and position/velocity/torque loops. AKE is a lightweight, low-impedance exoskeleton actuator."
+  },
+  "original_product_line": "AKH/AK 系列关节模组、AKE 准直驱动力模组",
+  "original_application_wording": "人形、外骨骼、协作机器人与水下机器人",
+  "original_issue_notes": [],
+  "item_ids": [
+    "item-af984fe1c8aa",
+    "item-3853bfdce666",
+    "item-b1389d8789b3"
+  ],
+  "source_technical_sha256": "e976a4d7b70fd9c14870435ad78bb924c30d527862d59e41e499375920a3b717",
+  "cross_source_categories": [],
+  "original_tags": "机器人动力模组与无框电机",
+  "original_verification_wording": "大会官方页已核验。",
+  "original_review_wording": "检索/读取日期：2026-09-05。核验口径：已读取官方网页；参数属发布方声明。"
+}

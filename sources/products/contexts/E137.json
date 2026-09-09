@@ -1,0 +1,33 @@
+{
+  "id": "E137",
+  "supplier_as_published": "本末动力（北京）科技股份有限公司",
+  "source_category": "01-03",
+  "source_url": "https://www.worldrobotconference.com/expo/company/570.html",
+  "original_source_urls": [
+    "https://www.worldrobotconference.com/expo/company/570.html",
+    "https://www.worldrobotconference.com/expo/product/263.html",
+    "https://www.worldrobotconference.com/expo/product/269.html",
+    "https://www.worldrobotconference.com/expo/product/755.html"
+  ],
+  "source_checked_on": "2026-09-05",
+  "evidence": "official_page",
+  "technical": {
+    "zh-CN": "刑天使用六个 M1502D 直驱关节，提供 SDK；TITA 可扩展感知、通信和算力；D1 强调可拼接拆分的模块化结构。",
+    "en": "刑天 uses six M1502D direct-drive joints and provides an SDK. TITA supports sensing, communication and compute expansion. D1 emphasizes connectable/separable modular structures."
+  },
+  "original_product_line": "TITA、刑天、D1 轮足机器人",
+  "original_application_wording": "园区、矿山巡检，运输、数据采集、测绘、科研、安防、短途配送与移动拍摄",
+  "original_issue_notes": [],
+  "item_ids": [
+    "item-6afccb48710e",
+    "item-f573b85cad3f",
+    "item-a953b8bbddd2"
+  ],
+  "source_technical_sha256": "d065e673d1f3e5fde4214b30bcfa199b5105afec14bfa181fc70c9e3eeb2cffe",
+  "cross_source_categories": [
+    "04-05"
+  ],
+  "original_tags": "轮足巡检与开放开发平台",
+  "original_verification_wording": "大会官方页已核验。",
+  "original_review_wording": "检索/读取日期：2026-09-05。核验口径：已读取官方网页；参数属发布方声明。"
+}

@@ -1,0 +1,32 @@
+{
+  "id": "E003",
+  "supplier_as_published": "上海萝博派对科技有限公司",
+  "source_category": "01-04",
+  "source_url": "https://www.worldrobotconference.com/expo/company/649.html",
+  "original_source_urls": [
+    "https://www.worldrobotconference.com/expo/company/649.html",
+    "https://www.worldrobotconference.com/expo/product/1463.html",
+    "https://www.worldrobotconference.com/expo/product/1450.html",
+    "https://roboparty.com/"
+  ],
+  "source_checked_on": "2026-09-05",
+  "evidence": "official_page",
+  "technical": {
+    "zh-CN": "ROBOTO Origin 标注 23 自由度、约 34kg，开放机械、电气、底层控制及仿真资料，支持 ROS 2 和 OTA；RP1 则支持热插拔换电与可选头部方案。",
+    "en": "ROBOTO Origin is listed with 23 degrees of freedom and about 34kg; mechanical, electrical, low-level control and simulation resources are described as open, with ROS 2 and OTA support. RP1 supports hot-swappable batteries and optional head configurations."
+  },
+  "original_product_line": "ROBOTO 01（RP1）、ROBOTO Origin 开源人形机器人平台、Party OS",
+  "original_application_wording": "教学实验、算法验证、具身智能研发及家庭场景",
+  "original_issue_notes": [],
+  "item_ids": [
+    "item-abd60cecd11a",
+    "item-e6960b26cb58"
+  ],
+  "source_technical_sha256": "06f21cedbf17783e14d972cd00bf39a56a2863714d8f552f5d0b4be2821dfc3b",
+  "cross_source_categories": [
+    "01-01"
+  ],
+  "original_tags": "开源双足人形机器人",
+  "original_verification_wording": "官网已核对。",
+  "original_review_wording": "检索/读取日期：2026-09-05。核验口径：已读取官方网页；参数属发布方声明。"
+}

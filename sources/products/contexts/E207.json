@@ -1,0 +1,29 @@
+{
+  "id": "E207",
+  "supplier_as_published": "常州三协电机股份有限公司",
+  "source_category": "06-04",
+  "source_url": "https://www.worldrobotconference.com/expo/company/643.html",
+  "original_source_urls": [
+    "https://www.worldrobotconference.com/expo/company/643.html",
+    "https://www.worldrobotconference.com/expo/product/695.html",
+    "https://www.worldrobotconference.com/expo/product/735.html"
+  ],
+  "source_checked_on": "2026-09-05",
+  "evidence": "official_page",
+  "technical": {
+    "zh-CN": "外转子无框电机采用分体与大中空结构，可直接嵌入关节；页面未给型号和额定转矩，不能将相对提升比例当作绝对性能。",
+    "en": "Outer-rotor frameless motors use split, large-bore designs for direct joint embedding. Models and rated torques are absent; relative improvement claims are not absolute specifications."
+  },
+  "original_product_line": "无框力矩电机、外转子电机",
+  "original_application_wording": "人形、协作、四足、外骨骼、医疗机器人与航空航天",
+  "original_issue_notes": [],
+  "item_ids": [
+    "item-d74839c1a61e",
+    "item-ea4892158e53"
+  ],
+  "source_technical_sha256": "c9efeb81121be2d0692ca5876e3a409382b3d05a0323b57b5fc33343ec8232e6",
+  "cross_source_categories": [],
+  "original_tags": "无框力矩电机",
+  "original_verification_wording": "大会官方页已核验。",
+  "original_review_wording": "检索/读取日期：2026-09-05。核验口径：已读取官方网页；参数属发布方声明。"
+}

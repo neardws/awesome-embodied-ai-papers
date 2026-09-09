@@ -1,0 +1,27 @@
+{
+  "id": "E252",
+  "supplier_as_published": "肥鱼科技私人有限公司",
+  "source_category": "09-01",
+  "source_url": "https://www.worldrobotconference.com/expo/company/878.html",
+  "original_source_urls": [
+    "https://www.worldrobotconference.com/expo/company/878.html",
+    "https://www.worldrobotconference.com/expo/product/1275.html"
+  ],
+  "source_checked_on": "2026-09-05",
+  "evidence": "official_page",
+  "technical": {
+    "zh-CN": "CAMP One 按感知、空间智能、决策、执行及跨机器人执行分层；展品页尚未给出接口、适配本体和验证任务。",
+    "en": "CAMP One separates perception, spatial intelligence, decision-making, execution and cross-robot execution. Interfaces, supported bodies and validation tasks are not provided."
+  },
+  "original_product_line": "CAMP One具身智能解决方案",
+  "original_application_wording": "跨机器人平台的真实环境视觉智能、观察/理解/预测；行业场景未细列",
+  "original_issue_notes": [],
+  "item_ids": [
+    "item-dc1d3b56182d"
+  ],
+  "source_technical_sha256": "302b2acaf8e1788e5dccf59f4dabce8d8ed63c75e2c532b7675247db0f65e799",
+  "cross_source_categories": [],
+  "original_tags": "视觉智能与跨平台具身AI",
+  "original_verification_wording": "大会官方页已核验（行业场景未细列）。",
+  "original_review_wording": "检索/读取日期：2026-09-05。核验口径：已读取官方网页；参数属发布方声明。"
+}

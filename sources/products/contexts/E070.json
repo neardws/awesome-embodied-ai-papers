@@ -1,0 +1,35 @@
+{
+  "id": "E070",
+  "supplier_as_published": "广州动易人工智能科技有限公司",
+  "source_category": "01-01",
+  "source_url": "https://www.worldrobotconference.com/expo/company/475.html",
+  "original_source_urls": [
+    "https://www.worldrobotconference.com/expo/company/475.html",
+    "https://www.worldrobotconference.com/expo/product/760.html",
+    "https://www.worldrobotconference.com/expo/product/761.html",
+    "https://www.worldrobotconference.com/expo/product/762.html",
+    "https://www.worldrobotconference.com/expo/product/766.html"
+  ],
+  "source_checked_on": "2026-09-05",
+  "evidence": "official_page",
+  "technical": {
+    "zh-CN": "PhyArc 集成摆线减速器、力矩电机、驱动和双编码器；M1 标注 32+ 自由度、最大关节扭矩 830N·m；C2 为交互投影产品。",
+    "en": "PhyArc integrates cycloidal reduction, torque motor, driver and dual encoders. M1 reports 32+ degrees of freedom and 830N·m maximum joint torque. C2 is an interaction/projection product."
+  },
+  "original_product_line": "PHYBOT C2 交互机器人、M1 人形机器人、D1 四轮足机器人、PhyArc 关节",
+  "original_application_wording": "酒店、景区、商场、学校与家庭交互，特种作业及物流",
+  "original_issue_notes": [],
+  "item_ids": [
+    "item-915d7844124e",
+    "item-983675e3bbc7",
+    "item-07332cec9ae4",
+    "item-bc33ef60a447"
+  ],
+  "source_technical_sha256": "6fad096011cd3a032dd61ad3a4fbf97a08248117b6edafd451e70c497e598062",
+  "cross_source_categories": [
+    "01-02"
+  ],
+  "original_tags": "人形、四轮足机器人与关节模组",
+  "original_verification_wording": "大会官方页已核验。",
+  "original_review_wording": "检索/读取日期：2026-09-05。核验口径：已读取官方网页；参数属发布方声明。"
+}

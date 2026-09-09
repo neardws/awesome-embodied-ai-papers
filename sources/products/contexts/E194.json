@@ -1,0 +1,33 @@
+{
+  "id": "E194",
+  "supplier_as_published": "上海鸣志电器股份有限公司",
+  "source_category": "06-04",
+  "source_url": "https://www.worldrobotconference.com/expo/company/520.html",
+  "original_source_urls": [
+    "https://www.worldrobotconference.com/expo/company/520.html",
+    "https://www.worldrobotconference.com/expo/product/76.html",
+    "https://www.worldrobotconference.com/expo/product/382.html",
+    "https://www.worldrobotconference.com/expo/product/1133.html",
+    "https://www.worldrobotconference.com/expo/product/1134.html"
+  ],
+  "source_checked_on": "2026-09-05",
+  "evidence": "official_page",
+  "technical": {
+    "zh-CN": "ECH 电机齿轮箱组合标注减速比 274、额定转矩 200mNm；FST12003 连续转矩 1.52mNm；IMSS 为舵轮模组，产品单位与结构差异明显。",
+    "en": "The ECH motor-gearbox combination reports ratio 274 and 200mNm rated torque. FST12003 reports 1.52mNm continuous torque. IMSS is a steer-wheel module; units and structures differ."
+  },
+  "original_product_line": "空心杯电机加减速箱、无框电机、IMSD/IMSS 轮毂模组",
+  "original_application_wording": "轮式人形机器人、AGV/AMR、工厂与仓储",
+  "original_issue_notes": [],
+  "item_ids": [
+    "item-c57bf5a6914d",
+    "item-b1aebb6ce668",
+    "item-fad3b24940e4",
+    "item-61df1ed29a13"
+  ],
+  "source_technical_sha256": "7ee0d3dcabd6ffd4a2b1c0f0cc2d0f266c9eb6086ea299d656a71ecbfbb46b11",
+  "cross_source_categories": [],
+  "original_tags": "微型电机与轮毂驱动模组",
+  "original_verification_wording": "大会官方页已核验。",
+  "original_review_wording": "检索/读取日期：2026-09-05。核验口径：已读取官方网页；参数属发布方声明。"
+}

@@ -1,0 +1,24 @@
+{
+  "id": "E162",
+  "supplier_as_published": "浙江锐鹰传感技术股份有限公司",
+  "source_category": "07-06",
+  "source_url": "https://www.reagles.cn/",
+  "original_source_urls": [
+    "https://www.reagles.cn/"
+  ],
+  "source_checked_on": "2026-09-05",
+  "evidence": "official_page",
+  "technical": {
+    "zh-CN": "官网选型器可按旋转/直线、嵌入/中空/轴型、绝对值/增量筛选，并提供规格书与三维模型；OS 光电传感器为另一产品线。",
+    "en": "The official selector filters rotary/linear, embedded/hollow/shaft and absolute/incremental encoders, with datasheets and 3D models. OS photoelectric sensors form another product line."
+  },
+  "original_product_line": "光电、磁电、感应编码器/位移传感器",
+  "original_application_wording": "工业自动化、运动控制、机器人、精密机床、智慧物流",
+  "original_issue_notes": [],
+  "item_ids": [],
+  "source_technical_sha256": "d048dd7ba8e9b0ad2ef276672138c5d360ab5ceb7a2463372962789667392847",
+  "cross_source_categories": [],
+  "original_tags": "编码器/位移传感器",
+  "original_verification_wording": "官网已核对。",
+  "original_review_wording": "检索/读取日期：2026-09-05。核验口径：已读取官方网页；参数属发布方声明。"
+}

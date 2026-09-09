@@ -1,0 +1,32 @@
+{
+  "id": "E133",
+  "supplier_as_published": "深圳璇玑动力科技有限公司",
+  "source_category": "01-03",
+  "source_url": "https://www.worldrobotconference.com/expo/company/795.html",
+  "original_source_urls": [
+    "https://www.worldrobotconference.com/expo/company/795.html",
+    "https://www.worldrobotconference.com/expo/product/937.html",
+    "https://www.worldrobotconference.com/expo/product/935.html",
+    "https://www.astralldynamics.cn/about.html"
+  ],
+  "source_checked_on": "2026-09-05",
+  "evidence": "official_page",
+  "technical": {
+    "zh-CN": "SW01 面向中型通用行业需求，T01 面向重载能源、应急和物资运输；两者均可扩展任务模块，但当前介绍未给负载数值。",
+    "en": "SW01 targets medium general-industrial tasks; T01 heavy energy, emergency and material transport. Both accept task modules, but current descriptions provide no payload figures."
+  },
+  "original_product_line": "Hypertron-T01 重载型轮足机器人、SW01 中型轮足机器人",
+  "original_application_wording": "电网巡检、应急消防、工业特种作业；安防巡逻、物流运输、测绘、工业巡检",
+  "original_issue_notes": [],
+  "item_ids": [
+    "item-5dc9df18c781",
+    "item-fbf8d9074a5f"
+  ],
+  "source_technical_sha256": "9c546035a7d0987c5818566923f2c90fb94985267ae9e7f6cdf6d109ba117e8e",
+  "cross_source_categories": [
+    "04-05"
+  ],
+  "original_tags": "轮足四足巡检机器人",
+  "original_verification_wording": "已核验（官网与大会官方页）。",
+  "original_review_wording": "检索/读取日期：2026-09-05。核验口径：已读取官方网页；参数属发布方声明。"
+}

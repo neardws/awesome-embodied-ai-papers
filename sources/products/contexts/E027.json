@@ -1,0 +1,36 @@
+{
+  "id": "E027",
+  "supplier_as_published": "知行机器人科技（苏州）有限公司",
+  "source_category": "06-01",
+  "source_url": "https://www.worldrobotconference.com/expo/company/800.html",
+  "original_source_urls": [
+    "https://www.worldrobotconference.com/expo/company/800.html",
+    "https://www.worldrobotconference.com/expo/product/1072.html",
+    "https://www.worldrobotconference.com/expo/product/1071.html",
+    "https://www.worldrobotconference.com/expo/product/1073.html",
+    "https://www.changingtek.com/product"
+  ],
+  "source_checked_on": "2026-09-05",
+  "evidence": "official_page",
+  "technical": {
+    "zh-CN": "优采面向触觉与多模态同步采集；束巧可调整手指构型以切换左右手；撼岳页面标注双臂承重 30kg，尚需补充承重姿态及精度测试条件。",
+    "en": "优采 targets tactile and multimodal synchronized capture. 束巧 changes finger configuration between left and right hands. 撼岳 reports 30kg dual-arm load, without load posture or precision-test conditions."
+  },
+  "original_product_line": "高自由度灵巧手、电动夹爪、多模态数据采集手、撼岳轮式具身机器人",
+  "original_application_wording": "工业自动化、科研教育、精密医疗、3C/柔性制造；工厂、商场、园区、实验室",
+  "original_issue_notes": [],
+  "item_ids": [
+    "item-4f6a06a9e7ac",
+    "item-60cfc7190ebd",
+    "item-ecd4a285255c"
+  ],
+  "source_technical_sha256": "e80622fb7eb9f3431dda47c03fd4d742b2734c1c6b642a07c728aaabbda93fe0",
+  "cross_source_categories": [
+    "01-02",
+    "07-02",
+    "09-03"
+  ],
+  "original_tags": "灵巧手、末端执行器与轮式具身机器人",
+  "original_verification_wording": "已核验（官网与大会官方页）。",
+  "original_review_wording": "检索/读取日期：2026-09-05。核验口径：已读取官方网页；参数属发布方声明。"
+}

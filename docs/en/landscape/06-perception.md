@@ -20,42 +20,42 @@ This page distinguishes subcategory questions, research priorities and industria
 </thead>
 <tbody>
 <tr>
-<td width="240" nowrap><a id="06-01"></a>Object recognition and open-vocabulary perception</td>
+<td width="240" nowrap><a id="06-01"></a>Object recognition and open-vocabulary perception<br><a href="../products/topics/06-01.md">Product details</a></td>
 <td width="300">Identify task-relevant objects and properties.</td>
 <td width="320">Open categories, referring expressions and out-of-distribution recognition.</td>
 <td width="320">False detections, site data and inference cost.</td>
 <td width="340">Task-relevant recall, false detections and latency.</td>
 </tr>
 <tr>
-<td width="240" nowrap><a id="06-02"></a>Pose, geometry and affordances</td>
+<td width="240" nowrap><a id="06-02"></a>Pose, geometry and affordances<br><a href="../products/topics/06-02.md">Product details</a></td>
 <td width="300">Locate graspable, contactable and actionable regions.</td>
 <td width="320">Geometry-semantic fusion, pose estimation and contact priors.</td>
 <td width="320">Calibration, occlusion handling and end-effector alignment.</td>
 <td width="340">Pose error, reachability and downstream task success.</td>
 </tr>
 <tr>
-<td width="240" nowrap><a id="06-03"></a>Localization, mapping and state estimation</td>
+<td width="240" nowrap><a id="06-03"></a>Localization, mapping and state estimation<br><a href="../products/topics/06-03.md">Product details</a></td>
 <td width="300">Maintain robot position relative to its environment.</td>
 <td width="320">Multimodal fusion, loop closure and dynamic-scene estimation.</td>
 <td width="320">Initialization, relocalization, map maintenance and degradation handling.</td>
 <td width="340">Drift, relocalization time and availability.</td>
 </tr>
 <tr>
-<td width="240" nowrap><a id="06-04"></a>3D reconstruction and scene representations</td>
+<td width="240" nowrap><a id="06-04"></a>3D reconstruction and scene representations<br><a href="../products/topics/06-04.md">Product details</a></td>
 <td width="300">Build queryable spatial models.</td>
 <td width="320">Neural fields, Gaussian representations and geometric consistency.</td>
 <td width="320">Mapping speed, storage, updates and tool interfaces.</td>
 <td width="340">Geometry accuracy, update cost and query latency.</td>
 </tr>
 <tr>
-<td width="240" nowrap><a id="06-05"></a>Semantic maps and spatial memory</td>
+<td width="240" nowrap><a id="06-05"></a>Semantic maps and spatial memory<br><a href="../products/topics/06-05.md">Product details</a></td>
 <td width="300">Retain scene knowledge across time and tasks.</td>
 <td width="320">Topological graphs, retrieval memory and long-term consistency.</td>
 <td width="320">Map versions, object changes and operational maintenance.</td>
 <td width="340">Memory consistency, retrieval quality and task benefit.</td>
 </tr>
 <tr>
-<td width="240" nowrap><a id="06-06"></a>Active perception and uncertainty</td>
+<td width="240" nowrap><a id="06-06"></a>Active perception and uncertainty<br><a href="../products/topics/06-06.md">Product details</a></td>
 <td width="300">Choose where to look next and when to reobserve.</td>
 <td width="320">Information gain, exploration and uncertainty calibration.</td>
 <td width="320">Sensing budgets, safe motion and anomaly triggers.</td>
@@ -63,6 +63,14 @@ This page distinguishes subcategory questions, research priorities and industria
 </tr>
 </tbody>
 </table>
+
+## Technical and product details
+
+<a href="../products/comparisons/06-perception.md">Open 1 related comparison records</a>
+
+Compare model-specific values, conditions, interfaces, research relationships and source issues. Full source excerpts and original exhibit links remain available underneath.
+
+<a href="../products/references/04-03.md">Mobile bases and autonomous-navigation carriers</a> · <a href="../products/references/07-07.md">Image sensing and visual recognition</a> · <a href="../products/references/07-08.md">SLAM and spatial-perception modules</a>
 
 ## Research, platforms and industrial examples
 

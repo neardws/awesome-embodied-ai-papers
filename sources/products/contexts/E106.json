@@ -1,0 +1,28 @@
+{
+  "id": "E106",
+  "supplier_as_published": "上海未来不远机器人科技有限公司",
+  "source_category": "01-02",
+  "source_url": "https://www.worldrobotconference.com/expo/company/773.html",
+  "original_source_urls": [
+    "https://www.worldrobotconference.com/expo/company/773.html",
+    "https://www.worldrobotconference.com/expo/product/1369.html",
+    "https://futuringrobot.com/"
+  ],
+  "source_checked_on": "2026-09-05",
+  "evidence": "official_page",
+  "technical": {
+    "zh-CN": "F2 大会页披露付费家庭租赁模式，标价 3000 元/月，并自述进入 500 余户家庭；覆盖和服务时长属于企业提交数据，未独立审计。",
+    "en": "The conference page describes paid F2 home rental at CNY 3000/month and claims use in over 500 homes. Coverage and service duration are supplier-submitted, not independently audited."
+  },
+  "original_product_line": "未来不远 F2 家庭通用机器人",
+  "original_application_wording": "家务清洁与收纳、家电使用、儿童陪伴、取物送物、老人陪伴",
+  "original_issue_notes": [],
+  "item_ids": [
+    "item-1568cb01bcfd"
+  ],
+  "source_technical_sha256": "cb9063676a1e12fdd8d93a877e1acf7515a69eb2ee2e77c08b8d7a3b51e33857",
+  "cross_source_categories": [],
+  "original_tags": "家庭通用具身机器人",
+  "original_verification_wording": "已核验（官网与大会官方页）。",
+  "original_review_wording": "检索/读取日期：2026-09-05。核验口径：已读取官方网页；参数属发布方声明。"
+}

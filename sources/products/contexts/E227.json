@@ -1,0 +1,24 @@
+{
+  "id": "E227",
+  "supplier_as_published": "北京一径科技有限公司",
+  "source_category": "07-04",
+  "source_url": "https://www.zvision.xyz/h-col-265.html",
+  "original_source_urls": [
+    "https://www.zvision.xyz/h-col-265.html"
+  ],
+  "source_checked_on": "2026-09-05",
+  "evidence": "official_page",
+  "technical": {
+    "zh-CN": "NZ 为 SPAD 路线半固态雷达，页面列 240°×80°视场及最高 115m 测距，但未同时给出反射率条件；另有 NZ1、EZ6、EZ5 产品入口。",
+    "en": "NZ uses SPAD semi-solid-state LiDAR, reporting 240°×80° field of view and up to 115m range without reflectivity conditions. NZ1, EZ6 and EZ5 are separate product entries."
+  },
+  "original_product_line": "车规/工业激光雷达",
+  "original_application_wording": "智能驾驶、物流、矿山、港口、园区、机器人",
+  "original_issue_notes": [],
+  "item_ids": [],
+  "source_technical_sha256": "824908773d4121e9f99ad8f917625a725b11066bdf953eedfb8c85951f12a93c",
+  "cross_source_categories": [],
+  "original_tags": "激光雷达",
+  "original_verification_wording": "官网已核对。",
+  "original_review_wording": "检索/读取日期：2026-09-05。核验口径：已读取官方网页；参数属发布方声明。"
+}

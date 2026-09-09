@@ -1,0 +1,31 @@
+{
+  "id": "E017",
+  "supplier_as_published": "湖北启灵机器人有限公司",
+  "source_category": "01-01",
+  "source_url": "https://www.worldrobotconference.com/expo/company/862.html",
+  "original_source_urls": [
+    "https://www.worldrobotconference.com/expo/company/862.html",
+    "https://www.worldrobotconference.com/expo/product/1392.html",
+    "https://www.worldrobotconference.com/expo/product/1393.html"
+  ],
+  "source_checked_on": "2026-09-05",
+  "evidence": "official_page",
+  "technical": {
+    "zh-CN": "神农系列标注最高 43 自由度，身高 175cm、体重 55kg；赤兔介绍最大负重超过 120kg、续航 5–8 小时，但未细分型号及测试工况。",
+    "en": "神农 is listed with up to 43 degrees of freedom, 175cm height and 55kg mass. 赤兔 reports over 120kg maximum load and 5–8-hour endurance, without model-specific operating conditions."
+  },
+  "original_product_line": "神农系列人形机器人、赤兔系列四足机器人",
+  "original_application_wording": "教育、导览、工业物流；安防巡检、应急救援",
+  "original_issue_notes": [],
+  "item_ids": [
+    "item-5925049b03aa",
+    "item-55b0a5e25396"
+  ],
+  "source_technical_sha256": "624aceb63df2e902ee50db1636785379791917229ebd14479b4329e042d35743",
+  "cross_source_categories": [
+    "01-03"
+  ],
+  "original_tags": "人形与四足具身机器人",
+  "original_verification_wording": "大会官方页已核验。",
+  "original_review_wording": "检索/读取日期：2026-09-05。核验口径：已读取官方网页；参数属发布方声明。"
+}

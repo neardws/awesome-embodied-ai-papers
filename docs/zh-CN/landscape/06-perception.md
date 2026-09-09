@@ -20,42 +20,42 @@
 </thead>
 <tbody>
 <tr>
-<td width="240" nowrap><a id="06-01"></a>目标识别与开放词汇感知</td>
+<td width="240" nowrap><a id="06-01"></a>目标识别与开放词汇感知<br><a href="../products/topics/06-01.md">产品细节</a></td>
 <td width="300">找到任务相关物体及其属性。</td>
 <td width="320">开放类别、指代表达与分布外识别。</td>
 <td width="320">误检控制、现场数据与推理成本。</td>
 <td width="340">任务相关召回、误检与时延。</td>
 </tr>
 <tr>
-<td width="240" nowrap><a id="06-02"></a>位姿、几何与可供性</td>
+<td width="240" nowrap><a id="06-02"></a>位姿、几何与可供性<br><a href="../products/topics/06-02.md">产品细节</a></td>
 <td width="300">定位可抓取、可接触和可操作部位。</td>
 <td width="320">几何语义融合、姿态估计与接触先验。</td>
 <td width="320">标定、遮挡处理与末端对齐。</td>
 <td width="340">位姿误差、可达性与下游任务成功。</td>
 </tr>
 <tr>
-<td width="240" nowrap><a id="06-03"></a>定位建图与状态估计</td>
+<td width="240" nowrap><a id="06-03"></a>定位建图与状态估计<br><a href="../products/topics/06-03.md">产品细节</a></td>
 <td width="300">维护机器人相对环境的位置。</td>
 <td width="320">多模态融合、回环和动态场景估计。</td>
 <td width="320">初始化、重定位、地图维护与退化处理。</td>
 <td width="340">漂移、重定位时间与可用率。</td>
 </tr>
 <tr>
-<td width="240" nowrap><a id="06-04"></a>三维重建与场景表征</td>
+<td width="240" nowrap><a id="06-04"></a>三维重建与场景表征<br><a href="../products/topics/06-04.md">产品细节</a></td>
 <td width="300">构建可查询的空间模型。</td>
 <td width="320">神经场、高斯表示与几何一致性。</td>
 <td width="320">建图速度、存储、更新与工具接口。</td>
 <td width="340">几何精度、更新开销与查询时延。</td>
 </tr>
 <tr>
-<td width="240" nowrap><a id="06-05"></a>语义地图与空间记忆</td>
+<td width="240" nowrap><a id="06-05"></a>语义地图与空间记忆<br><a href="../products/topics/06-05.md">产品细节</a></td>
 <td width="300">保留跨时刻、跨任务的场景知识。</td>
 <td width="320">拓扑图、检索记忆与长期一致性。</td>
 <td width="320">地图版本、对象变化与运行维护。</td>
 <td width="340">记忆一致性、检索效果与任务增益。</td>
 </tr>
 <tr>
-<td width="240" nowrap><a id="06-06"></a>主动感知与不确定性</td>
+<td width="240" nowrap><a id="06-06"></a>主动感知与不确定性<br><a href="../products/topics/06-06.md">产品细节</a></td>
 <td width="300">决定下一步看哪里及何时重新观测。</td>
 <td width="320">信息增益、探索与不确定性校准。</td>
 <td width="320">传感预算、安全运动与异常触发。</td>
@@ -63,6 +63,14 @@
 </tr>
 </tbody>
 </table>
+
+## 技术与产品细节
+
+<a href="../products/comparisons/06-perception.md">查看 1 条相关对照记录</a>
+
+继续比较逐型号参数、工况、接口、研究关联和来源问题，并下钻查看完整技术摘录与原始展项链接。
+
+<a href="../products/references/04-03.md">移动底盘与自主导航载体</a> · <a href="../products/references/07-07.md">图像传感与视觉识别</a> · <a href="../products/references/07-08.md">SLAM与空间感知模组</a>
 
 ## 研究、平台与产业代表
 

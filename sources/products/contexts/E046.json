@@ -1,0 +1,30 @@
+{
+  "id": "E046",
+  "supplier_as_published": "上海傅利叶智能科技股份有限公司",
+  "source_category": "01-05",
+  "source_url": "https://www.worldrobotconference.com/expo/company/437.html",
+  "original_source_urls": [
+    "https://www.worldrobotconference.com/expo/company/437.html",
+    "https://www.worldrobotconference.com/expo/product/634.html"
+  ],
+  "source_checked_on": "2026-09-05",
+  "evidence": "official_page",
+  "technical": {
+    "zh-CN": "GR-3 增加柔肤软包覆材与全感交互系统，主打陪伴和情绪交互。展品页未给出护理任务能力或医疗用途证明。",
+    "en": "GR-3 adds soft skin covering and multimodal interaction for companionship and affective interaction. The exhibit page does not establish nursing-task capability or medical use."
+  },
+  "original_product_line": "傅利叶 GR-3 交互陪伴 Care-bot",
+  "original_application_wording": "医院、社区、商业与工业场景；陪伴和情绪交互",
+  "original_issue_notes": [],
+  "item_ids": [
+    "item-995a64844b86"
+  ],
+  "source_technical_sha256": "ef4dd54e6326d015744c2cf4a85eb95a8ba409960047b2c2fa64f96a59dba930",
+  "cross_source_categories": [
+    "01-01",
+    "03-04"
+  ],
+  "original_tags": "交互陪伴人形机器人",
+  "original_verification_wording": "大会官方页已核验。",
+  "original_review_wording": "检索/读取日期：2026-09-05。核验口径：已读取官方网页；参数属发布方声明。"
+}

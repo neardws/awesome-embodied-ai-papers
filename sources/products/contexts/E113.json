@@ -1,0 +1,29 @@
+{
+  "id": "E113",
+  "supplier_as_published": "深圳市普渡科技股份有限公司",
+  "source_category": "01-02",
+  "source_url": "https://www.worldrobotconference.com/expo/company/624.html",
+  "original_source_urls": [
+    "https://www.worldrobotconference.com/expo/company/624.html",
+    "https://www.worldrobotconference.com/expo/product/1343.html",
+    "https://www.worldrobotconference.com/expo/product/1585.html"
+  ],
+  "source_checked_on": "2026-09-05",
+  "evidence": "official_page",
+  "technical": {
+    "zh-CN": "D5 分点足 D5 和轮足 D5-W；D7 面向工业仓储兼科研数采，提供本体、算法、配件及服务组合。",
+    "en": "D5 separates footed D5 from wheeled-legged D5-W. D7 targets industrial warehousing and research data collection, combining bodies, algorithms, accessories and services."
+  },
+  "original_product_line": "PUDU D5 四足机器人、PUDU D7 工业级人形机器人",
+  "original_application_wording": "工业仓储、科研与数据采集、全地形高危作业",
+  "original_issue_notes": [],
+  "item_ids": [
+    "item-f8e4275cf3a7",
+    "item-bf8586c468bc"
+  ],
+  "source_technical_sha256": "f0b07a8e6cc7c729e83ddf45900da283371f7bab2f8cda5653a7c665ce5f527b",
+  "cross_source_categories": [],
+  "original_tags": "商用服务与工业具身机器人",
+  "original_verification_wording": "大会官方页已核验。",
+  "original_review_wording": "检索/读取日期：2026-09-05。核验口径：已读取官方网页；参数属发布方声明。"
+}

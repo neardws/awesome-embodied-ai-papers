@@ -1,0 +1,30 @@
+{
+  "id": "E230",
+  "supplier_as_published": "实感科技（北京）有限公司",
+  "source_category": "07-03",
+  "source_url": "https://www.worldrobotconference.com/expo/company/665.html",
+  "original_source_urls": [
+    "https://www.worldrobotconference.com/expo/company/665.html",
+    "https://www.worldrobotconference.com/expo/product/1171.html",
+    "https://www.worldrobotconference.com/expo/product/1172.html",
+    "https://www.realsenseai.com/"
+  ],
+  "source_checked_on": "2026-09-05",
+  "evidence": "official_page",
+  "technical": {
+    "zh-CN": "D585 将深度与边缘 AI 结合，页面列 12cm–10m+、120°视场、60fps 和 IP65；GMSL/FAKRA 同轴连接最长 15m，支持 SDK 2，具体条件仍以规格书为准。",
+    "en": "D585 combines depth and edge AI, listing 12cm–10m+, 120° field of view, 60fps and IP65. GMSL/FAKRA coaxial links reach 15m, with SDK 2 support; conditions remain datasheet-specific."
+  },
+  "original_product_line": "D585 深度相机、GMSL/FAKRA 深度相机",
+  "original_application_wording": "人形、AMR、协作机器人、工业检测",
+  "original_issue_notes": [],
+  "item_ids": [
+    "item-562746083cb6",
+    "item-1e0cfd34146c"
+  ],
+  "source_technical_sha256": "8253c10803774ea4e2f81a41fb1b34aa91c65c345cdfd74b6f44fa8897396563",
+  "cross_source_categories": [],
+  "original_tags": "深度相机/立体视觉",
+  "original_verification_wording": "官网已核对。",
+  "original_review_wording": "检索/读取日期：2026-09-05。核验口径：已读取官方网页；参数属发布方声明。"
+}

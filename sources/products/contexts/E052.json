@@ -1,0 +1,39 @@
+{
+  "id": "E052",
+  "supplier_as_published": "北京理工华汇智能科技有限公司",
+  "source_category": "01-01",
+  "source_url": "https://www.worldrobotconference.com/expo/company/473.html",
+  "original_source_urls": [
+    "https://www.worldrobotconference.com/expo/company/473.html",
+    "https://www.worldrobotconference.com/expo/product/262.html",
+    "https://www.worldrobotconference.com/expo/product/1378.html",
+    "https://www.worldrobotconference.com/expo/product/289.html",
+    "https://www.worldrobotconference.com/expo/product/292.html",
+    "https://www.worldrobotconference.com/expo/product/1391.html"
+  ],
+  "source_checked_on": "2026-09-05",
+  "evidence": "official_page",
+  "technical": {
+    "zh-CN": "8523-R17 关节标注重量 1.5kg、峰值转矩 148Nm、额定转矩 43.5Nm；特种人形页给出 -20℃至50℃工作范围，支持定制服务。",
+    "en": "Joint 8523-R17 reports 1.5kg mass, 148Nm peak and 43.5Nm rated torque. A separate specialized humanoid page gives a -20℃ to 50℃ operating range and customization services."
+  },
+  "original_product_line": "特种人形机器人、XR-01 四足机器人、一体化关节、无框力矩电机、轮式双臂机器人",
+  "original_application_wording": "非结构化环境巡检、搜救等高危任务；高海拔巡检和特种作业",
+  "original_issue_notes": [],
+  "item_ids": [
+    "item-18a1458db841",
+    "item-fb273ddbd382",
+    "item-1a3d58a70dce",
+    "item-1daba66b913d",
+    "item-9e41cb471e5e",
+    "item-dc8ebddb8571",
+    "item-04a4907989d4"
+  ],
+  "source_technical_sha256": "a3f7e454ea97f749e9364970fdfda39ebde73c9e254eaa89549045811e39f3d8",
+  "cross_source_categories": [
+    "06-03"
+  ],
+  "original_tags": "特种人形/四足机器人与核心部件",
+  "original_verification_wording": "大会官方页已核验。",
+  "original_review_wording": "检索/读取日期：2026-09-05。核验口径：已读取官方网页；参数属发布方声明。"
+}

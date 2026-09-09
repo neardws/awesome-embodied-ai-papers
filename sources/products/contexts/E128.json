@@ -1,0 +1,36 @@
+{
+  "id": "E128",
+  "supplier_as_published": "成都市新都绿控农业服务有限公司",
+  "source_category": "04-07",
+  "source_url": "https://www.worldrobotconference.com/expo/company/847.html",
+  "original_source_urls": [
+    "https://www.worldrobotconference.com/expo/company/847.html",
+    "https://www.worldrobotconference.com/expo/product/988.html",
+    "https://www.worldrobotconference.com/expo/product/1022.html",
+    "https://www.worldrobotconference.com/expo/product/1023.html",
+    "https://www.worldrobotconference.com/expo/product/1024.html",
+    "https://www.worldrobotconference.com/expo/product/1025.html"
+  ],
+  "source_checked_on": "2026-09-05",
+  "evidence": "official_page",
+  "technical": {
+    "zh-CN": "Lu-W200 为四轮万向农业巡检；Lu-D100 配 32 线雷达、自主充电、IP55；Lu-F100 可将虫情阈值告警推送到 APP 或短信。",
+    "en": "Lu-W200 is a four-wheel omnidirectional agricultural-inspection platform. Lu-D100 has 32-line LiDAR, autonomous charging and IP55. Lu-F100 sends pest-threshold alerts to an app or SMS."
+  },
+  "original_product_line": "Lu-W200 轮式巡检机器人、Lu-D100 履带巡检机器人、Lu-F100 虫情测报机器人、Lu-P100 采摘机器人、通用移动底盘",
+  "original_application_wording": "农田、大棚、园区巡检；植保检测、病虫害测报、采摘及复杂环境运输",
+  "original_issue_notes": [],
+  "item_ids": [
+    "item-c937eb2ef9bb",
+    "item-d663fd346a80",
+    "item-10c8427d7592",
+    "item-19f441b2d5dc",
+    "item-ecdbe73116fd",
+    "item-22f1ae4d4931"
+  ],
+  "source_technical_sha256": "025f31976eb6a5cee9646343e8164e91e4e55ca7ff9fc3db64a7925d110879b7",
+  "cross_source_categories": [],
+  "original_tags": "农业巡检与作业机器人",
+  "original_verification_wording": "官方页已核对。",
+  "original_review_wording": "检索/读取日期：2026-09-05。核验口径：已读取官方网页；参数属发布方声明。"
+}

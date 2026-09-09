@@ -1,0 +1,27 @@
+{
+  "id": "E098",
+  "supplier_as_published": "四川天绛芯华智能科技有限公司",
+  "source_category": "03-05",
+  "source_url": "https://www.worldrobotconference.com/expo/company/849.html",
+  "original_source_urls": [
+    "https://www.worldrobotconference.com/expo/company/849.html",
+    "https://www.worldrobotconference.com/expo/product/936.html"
+  ],
+  "source_checked_on": "2026-09-05",
+  "evidence": "official_page",
+  "technical": {
+    "zh-CN": "小芯标注 44 自由度、七轴机械臂、11 自由度末端及超过 2m 操作高度，结合灵枢技能平台，可用于导览和操作任务。",
+    "en": "小芯 reports 44 degrees of freedom, seven-axis arms, 11-degree-of-freedom end effectors and over 2m working height. It combines the 灵枢 skill platform with guiding and manipulation."
+  },
+  "original_product_line": "“灵枢”机器人技能中枢平台、文旅机器人“小芯”",
+  "original_application_wording": "文旅导览、商业服务、科研教育、企业接待；巡逻巡检、互动问答等机器人技能编排",
+  "original_issue_notes": [],
+  "item_ids": [
+    "item-6ae2ec72f3ab"
+  ],
+  "source_technical_sha256": "dd79d7fbf9645fd446d97ba408f346215c590a9eb6638964518a623e1950b8c8",
+  "cross_source_categories": [],
+  "original_tags": "文旅服务机器人与技能平台",
+  "original_verification_wording": "大会官方页已核验。",
+  "original_review_wording": "检索/读取日期：2026-09-05。核验口径：已读取官方网页；参数属发布方声明。"
+}

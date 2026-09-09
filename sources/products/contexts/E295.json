@@ -1,0 +1,26 @@
+{
+  "id": "E295",
+  "supplier_as_published": "北京科技大学智能仿生无人系统团队",
+  "source_category": "11-01",
+  "source_url": "https://ai.ustb.edu.cn/kxyj/kytd/0eec5a7390c44ff49079942a5b56b1e1.htm",
+  "original_source_urls": [
+    "https://ai.ustb.edu.cn/kxyj/kytd/0eec5a7390c44ff49079942a5b56b1e1.htm"
+  ],
+  "source_checked_on": "2026-09-05",
+  "evidence": "official_search_or_alternate",
+  "technical": {
+    "zh-CN": "校方页面发布于 2025-01-23，负责人为贺威，方向包括仿生扑翼系统、无人系统感知决策及智能控制；这是科研团队介绍，不是量产产品目录。",
+    "en": "The university page is dated 2025-01-23 and names He Wei as lead, covering biomimetic flapping systems, unmanned perception/decision-making and intelligent control. It is a research-team description, not a mass-production catalog."
+  },
+  "original_product_line": "智能仿生无人系统的结构设计、智能感知、智能控制与群体智能技术",
+  "original_application_wording": "无人系统科研与竞赛验证（含跨越险阻无人系统挑战赛）",
+  "original_issue_notes": [
+    "具体问题：科研团队网页日期为 2025-01-23，不是本届新产品发布时间。"
+  ],
+  "item_ids": [],
+  "source_technical_sha256": "6173d0312b77f843570d1be82b1e09e96540c9951f30f03b36ae6add6ff052ca",
+  "cross_source_categories": [],
+  "original_tags": "智能仿生无人系统",
+  "original_verification_wording": "官网已核对。",
+  "original_review_wording": "检索/读取日期：2026-09-05。核验口径：官方搜索正文补充（直连受限或改用替代页）。"
+}

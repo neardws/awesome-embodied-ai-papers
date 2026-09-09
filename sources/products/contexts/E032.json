@@ -1,0 +1,30 @@
+{
+  "id": "E032",
+  "supplier_as_published": "西湖机器人科技（杭州）有限公司",
+  "source_category": "01-01",
+  "source_url": "https://www.worldrobotconference.com/expo/company/774.html",
+  "original_source_urls": [
+    "https://www.worldrobotconference.com/expo/company/774.html",
+    "https://www.worldrobotconference.com/expo/product/925.html",
+    "https://www.wlrobo.com/"
+  ],
+  "source_checked_on": "2026-09-05",
+  "evidence": "official_page",
+  "technical": {
+    "zh-CN": "西湖 O1 定位为具身模型载体，强调开放架构以及运动控制、感知和模型协同；现有展品文字未给出可直接横比的负载与精度指标。",
+    "en": "西湖 O1 is positioned as an embodied-model carrier with open architecture and coordinated control, perception and models. Comparable payload and precision figures are absent."
+  },
+  "original_product_line": "西湖 O1 人形机器人、GAE 通用行为专家大模型、通用大小脑双预训练架构",
+  "original_application_wording": "衣物收纳等全身运动操作演示",
+  "original_issue_notes": [],
+  "item_ids": [
+    "item-76112d8efe7f"
+  ],
+  "source_technical_sha256": "09098d50e78876a5b5c389e5fc4e5a5b7ff381b9640935ab402ec1142975b780",
+  "cross_source_categories": [
+    "09-01"
+  ],
+  "original_tags": "通用具身大小脑与人形机器人",
+  "original_verification_wording": "已核验（官网与大会官方页）。",
+  "original_review_wording": "检索/读取日期：2026-09-05。核验口径：已读取官方网页；参数属发布方声明。"
+}

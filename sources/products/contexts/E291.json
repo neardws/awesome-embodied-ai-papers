@@ -1,0 +1,25 @@
+{
+  "id": "E291",
+  "supplier_as_published": "迈来芯电子科技（上海）有限公司",
+  "source_category": "07-06",
+  "source_url": "https://www.melexis.com/en/product/mlx90381/triaxis-magnetic-pico-resolver",
+  "original_source_urls": [
+    "https://www.melexis.com/en/product/mlx90381/triaxis-magnetic-pico-resolver",
+    "https://www.melexis.com/zh"
+  ],
+  "source_checked_on": "2026-09-05",
+  "evidence": "official_search_or_alternate",
+  "technical": {
+    "zh-CN": "MLX90381 为三维磁感应位置芯片，提供 Sin/Cos 输出与可选感应轴，面向电机控制。页面给出最高 50000 e-rpm，属于电角速度口径。",
+    "en": "MLX90381 is a 3D magnetic-position chip with Sin/Cos output and selectable sensing axes for motor control. The 50000 e-rpm limit is electrical rotational speed."
+  },
+  "original_product_line": "传感器、驱动器、无线与汽车半导体",
+  "original_application_wording": "工业、医疗、家居自动化",
+  "original_issue_notes": [],
+  "item_ids": [],
+  "source_technical_sha256": "9ac39307597a2c60e61d48bc7085c460a96490a8f77b0ca2f788276ca88763e8",
+  "cross_source_categories": [],
+  "original_tags": "磁位置传感器/半导体",
+  "original_verification_wording": "官网已核对。",
+  "original_review_wording": "检索/读取日期：2026-09-05。核验口径：官方搜索正文补充（直连受限或改用替代页）。"
+}

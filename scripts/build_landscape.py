@@ -5,6 +5,7 @@ from html import escape
 import json
 import re
 import unicodedata
+import build_products as products
 
 ROOT = Path(__file__).resolve().parents[1]
 BASE = ROOT / 'sources/landscape'
@@ -71,9 +72,11 @@ def make_topic(t, lang):
     out += '## ' + bi('Subcategories and problems', '细类与问题', lang) + '\n\n'
     rows = []
     for c in t['subcategories']:
-        rows.append([f'<a id="{c["id"]}"></a>' + escape(c['name'][lang]), *[escape(c[k][lang]) for k in ('problem', 'research', 'industry', 'compare')]])
+        detail = link(bi('Product details', '产品细节', lang), '../products/topics/' + c['id'] + '.md')
+        rows.append([f'<a id="{c["id"]}"></a>' + escape(c['name'][lang]) + '<br>' + detail, *[escape(c[k][lang]) for k in ('problem', 'research', 'industry', 'compare')]])
     out += table(bi(['Subcategory', 'Problem', 'Research focus', 'Industrial focus', 'Comparison criteria'],
                     ['细类', '解决的问题', '学界研究重点', '产业交付重点', '比较指标与接口'], lang), [240, 300, 320, 320, 340], rows)
+    out += products.landscape_section(t, lang)
     out += '\n## ' + bi('Research, platforms and industrial examples', '研究、平台与产业代表', lang) + '\n\n'
     rows = []
     for key in t['sources']:
@@ -154,6 +157,8 @@ def make_index(lang):
     out+=bi('1. **Technical structure:** bodies, components, perception, control, models, data, tools and operations.\n2. **Participants and deliverables:** academic teams, industrial research, open-source communities, component vendors, integrators and operators may occupy multiple domains.\n3. **Evidence and open gaps:** separate demonstrated methods, public resources, documented products and disclosed field cases; inspect what remains unresolved.\n\n',
             '1. **技术结构：** 本体、部件、感知、控制、模型、数据、工具与运营共同构成系统。\n2. **参与者与交付物：** 高校团队、企业研究、开源社区、部件商、集成商和运营方可以跨多个板块。\n3. **证据与瓶颈：** 区分方法演示、公开资源、产品资料和现场案例，进一步查看仍未解决的问题。\n\n',lang)
     out+='## '+bi('Domains and subcategories','板块与细类',lang)+'\n\n'+category_table(lang)
+    out+='\n'+bi('For model-level values and complete archived technical evidence, open the [technical and product detail library](../products/README.md).\n',
+                  '逐型号参数及完整归档技术证据见[技术与产品细节库](../products/README.md)。\n',lang)
     out+='\n## '+bi('Connections across the system','跨环节联系',lang)+'\n\n'
     chains=[('Contact-rich manipulation','接触丰富操作',['03-end-effectors','04-sensing','07-control','10-data','12-operations']),('Long-horizon mobile work','长时程移动作业',['01-bodies','06-perception','08-models','09-systems','12-operations']),('Train-to-deploy loop','训练到部署闭环',['10-data','11-simulation','08-models','05-compute','12-operations']),('Prototype-to-delivery loop','样机到交付闭环',['01-bodies','02-actuation','13-manufacturing','14-applications','12-operations'])]
     rows=[]
@@ -223,6 +228,7 @@ def update_root(lang):
     block += f'[{bi("Open full-size diagram", "查看全景大图", lang)}](figs/{asset})\n\n'
     for file, en, zh in [('README.md','Full landscape and system connections','完整全景与跨环节联系'),('progress.md','Progress and shared bottlenecks','关键进展与共性瓶颈'),('sources.md','Participants, sources and evidence states','参与者、来源与证据状态')]:
         block += f'- [{bi(en,zh,lang)}]({prefix}{file})\n'
+    block += f'- [{bi("Technical and product detail library", "技术与产品细节库", lang)}](docs/{lang}/products/README.md)\n'
     block += '\n## ' + bi('Domain and subcategory overview', '细分类总览', lang) + '\n\n' + category_table(lang, prefix)
     block += '\n## ' + bi('Questions connecting research and deployment', '连接研究与产业的关键问题', lang) + '\n\n'
     block += bi('- **From demonstration to generalization:** align unseen tasks, environments, robot configurations and intervention budgets.\n- **From more data to useful data:** inspect action semantics, synchronization, provenance and evaluation leakage.\n- **From components to systems:** validate timing, interfaces, fault isolation and recovery across hardware and software.\n- **From a site case to sustained service:** retain operating duration, downtime, maintenance and full task cost.\n\n',
@@ -271,6 +277,7 @@ def build():
     MANIFEST['pages']=list(dict.fromkeys(MANIFEST['pages']+pages))
     MANIFEST['landscape']={'domains':len(TOPICS),'subcategories':sum(len(t['subcategories']) for t in TOPICS),'sources':len(SOURCES),'topics':INDEX['topics'],'checked_on':INDEX['checked_on']}
     (ROOT/'docs/manifest.json').write_text(json.dumps(MANIFEST,ensure_ascii=False,indent=2)+'\n')
+    products.build()
     print(f'Built {len(TOPICS)} topic pairs and landscape indexes; {sum(len(t["subcategories"]) for t in TOPICS)} subcategories.')
 
 

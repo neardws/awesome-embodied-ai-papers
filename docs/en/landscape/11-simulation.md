@@ -20,42 +20,42 @@ This page distinguishes subcategory questions, research priorities and industria
 </thead>
 <tbody>
 <tr>
-<td width="240" nowrap><a id="11-01"></a>Physics engines and contact solving</td>
+<td width="240" nowrap><a id="11-01"></a>Physics engines and contact solving<br><a href="../products/topics/11-01.md">Product details</a></td>
 <td width="300">Compute motion, collision and contact responses.</td>
 <td width="320">Differentiable physics, friction models and numerical stability.</td>
 <td width="320">Solver speed, model calibration and asset compatibility.</td>
 <td width="340">Contact error, stability and simulation throughput.</td>
 </tr>
 <tr>
-<td width="240" nowrap><a id="11-02"></a>Digital twins and asset construction</td>
+<td width="240" nowrap><a id="11-02"></a>Digital twins and asset construction<br><a href="../products/topics/11-02.md">Product details</a></td>
 <td width="300">Build digital representations of scenes, robots and objects.</td>
 <td width="320">Reconstruction, parameter identification and automated asset generation.</td>
 <td width="320">Asset quality, version maintenance and site consistency.</td>
 <td width="340">Geometry and dynamics error, creation cost and update time.</td>
 </tr>
 <tr>
-<td width="240" nowrap><a id="11-03"></a>Sensor simulation and synthetic data</td>
+<td width="240" nowrap><a id="11-03"></a>Sensor simulation and synthetic data<br><a href="../products/topics/11-03.md">Product details</a></td>
 <td width="300">Generate multimodal observations and labels.</td>
 <td width="320">Rendering fidelity, tactile simulation and data mixing.</td>
 <td width="320">Generation workflows, annotation standards and domain-gap assessment.</td>
 <td width="340">Sensor gap, label quality and real-task benefit.</td>
 </tr>
 <tr>
-<td width="240" nowrap><a id="11-04"></a>Parallel training and experiment management</td>
+<td width="240" nowrap><a id="11-04"></a>Parallel training and experiment management<br><a href="../products/topics/11-04.md">Product details</a></td>
 <td width="300">Improve policy training and comparison efficiency.</td>
 <td width="320">Distributed sampling, optimization stability and reproducibility.</td>
 <td width="320">Resource scheduling, checkpoints, cost and pinned versions.</td>
 <td width="340">Training budget, seed variance and reproducible runs.</td>
 </tr>
 <tr>
-<td width="240" nowrap><a id="11-05"></a>Domain randomization and transfer</td>
+<td width="240" nowrap><a id="11-05"></a>Domain randomization and transfer<br><a href="../products/topics/11-05.md">Product details</a></td>
 <td width="300">Reduce behavioral differences between simulation and hardware.</td>
 <td width="320">Adaptive randomization, identification and residual learning.</td>
 <td width="320">Real calibration, transfer tests and fallback behavior.</td>
 <td width="340">Real-task success and data needed for transfer.</td>
 </tr>
 <tr>
-<td width="240" nowrap><a id="11-06"></a>Software- and hardware-in-the-loop validation</td>
+<td width="240" nowrap><a id="11-06"></a>Software- and hardware-in-the-loop validation<br><a href="../products/topics/11-06.md">Product details</a></td>
 <td width="300">Test control and communication chains before release.</td>
 <td width="320">Co-simulation, temporal consistency and boundary coverage.</td>
 <td width="320">Real controller integration, fault injection and regression tests.</td>
@@ -63,6 +63,14 @@ This page distinguishes subcategory questions, research priorities and industria
 </tr>
 </tbody>
 </table>
+
+## Technical and product details
+
+<a href="../products/comparisons/11-simulation.md">Open 4 related comparison records</a>
+
+Compare model-specific values, conditions, interfaces, research relationships and source issues. Full source excerpts and original exhibit links remain available underneath.
+
+<a href="../products/references/09-04.md">Simulation, synthetic data and evaluation</a> · <a href="../products/references/11-01.md">Universities, institutes and research teams</a>
 
 ## Research, platforms and industrial examples
 

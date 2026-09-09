@@ -1,0 +1,35 @@
+{
+  "id": "E195",
+  "supplier_as_published": "浙江来福谐波传动股份有限公司",
+  "source_category": "06-06",
+  "source_url": "https://www.worldrobotconference.com/expo/company/632.html",
+  "original_source_urls": [
+    "https://www.worldrobotconference.com/expo/company/632.html",
+    "https://www.worldrobotconference.com/expo/product/900.html",
+    "https://www.worldrobotconference.com/expo/product/904.html",
+    "https://www.worldrobotconference.com/expo/product/907.html",
+    "https://www.worldrobotconference.com/expo/product/951.html"
+  ],
+  "source_checked_on": "2026-09-05",
+  "evidence": "official_page",
+  "technical": {
+    "zh-CN": "FS、FH 均包含多个子系列；FBS 强调大中空与小外径。适用设备覆盖人形、医疗和机床，但具体参数需按子系列查询。",
+    "en": "FS and FH each contain multiple subseries; FBS emphasizes large hollow bore and small outer diameter. Applications include humanoids, medical equipment and machine tools; specifications require subseries-level lookup."
+  },
+  "original_product_line": "FS/FH/FB 系列谐波减速器、AC/DC 关节模组",
+  "original_application_wording": "工业、服务、人形与医疗机器人",
+  "original_issue_notes": [],
+  "item_ids": [
+    "item-a817f6a150a3",
+    "item-f558ffcbe482",
+    "item-39bb6b8c888e",
+    "item-2ef3d89e8339"
+  ],
+  "source_technical_sha256": "2e10b6358a58fa1f378ba8af43a2863a83537d4a27f6b98d402a73740d1f6dbf",
+  "cross_source_categories": [
+    "06-03"
+  ],
+  "original_tags": "谐波减速器与关节模组",
+  "original_verification_wording": "大会官方页已核验。",
+  "original_review_wording": "检索/读取日期：2026-09-05。核验口径：已读取官方网页；参数属发布方声明。"
+}

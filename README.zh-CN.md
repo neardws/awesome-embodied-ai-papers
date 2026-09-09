@@ -20,7 +20,7 @@
 
 ## 学术与产业全景
 
-以 **14 个板块、84 个细类**梳理问题、学术重点、产业角色与比较指标，并与下方六条论文研究方向关联。
+以 **14 个板块、87 个细类**梳理问题、学术重点、产业角色与比较指标，并与下方六条论文研究方向关联。
 
 ![学术与产业全景图](figs/research-industry-landscape.zh-CN.svg)
 
@@ -29,6 +29,7 @@
 - [完整全景与跨环节联系](docs/zh-CN/landscape/README.md)
 - [关键进展与共性瓶颈](docs/zh-CN/landscape/progress.md)
 - [参与者、来源与证据状态](docs/zh-CN/landscape/sources.md)
+- [技术与产品细节库](docs/zh-CN/products/README.md)
 
 ## 细分类总览
 
@@ -45,7 +46,7 @@
 <tr>
 <td width="260"><a href="docs/zh-CN/landscape/01-bodies.md">整机与本体形态</a></td>
 <td width="340">什么身体适合什么任务，如何平衡可达空间、运动能力、成本与可靠性？</td>
-<td width="580"><a href="docs/zh-CN/landscape/01-bodies.md#01-01">双足与通用人形</a><br><a href="docs/zh-CN/landscape/01-bodies.md#01-02">轮式双臂与移动操作</a><br><a href="docs/zh-CN/landscape/01-bodies.md#01-03">四足与轮足</a><br><a href="docs/zh-CN/landscape/01-bodies.md#01-04">固定工业与协作机械臂</a><br><a href="docs/zh-CN/landscape/01-bodies.md#01-05">小型开放与教学平台</a><br><a href="docs/zh-CN/landscape/01-bodies.md#01-06">专用、柔性与可穿戴本体</a></td>
+<td width="580"><a href="docs/zh-CN/landscape/01-bodies.md#01-01">双足与通用人形</a><br><a href="docs/zh-CN/landscape/01-bodies.md#01-02">轮式双臂与移动操作</a><br><a href="docs/zh-CN/landscape/01-bodies.md#01-03">四足与轮足</a><br><a href="docs/zh-CN/landscape/01-bodies.md#01-04">固定工业与协作机械臂</a><br><a href="docs/zh-CN/landscape/01-bodies.md#01-05">小型开放与教学平台</a><br><a href="docs/zh-CN/landscape/01-bodies.md#01-06">专用、柔性与可穿戴本体</a><br><a href="docs/zh-CN/landscape/01-bodies.md#01-07">移动底盘与模块化载体</a><br><a href="docs/zh-CN/landscape/01-bodies.md#01-08">固定半身与双臂平台</a></td>
 <td width="330"><a href="docs/zh-CN/landscape/sources.md#source-toddler">ToddlerBot（斯坦福大学）</a><br><a href="docs/zh-CN/landscape/sources.md#source-unitree">宇树 G1</a><br><a href="docs/zh-CN/landscape/sources.md#source-franka">Franka Research 3</a></td>
 </tr>
 <tr>
@@ -63,7 +64,7 @@
 <tr>
 <td width="260"><a href="docs/zh-CN/landscape/04-sensing.md">传感与交互硬件</a></td>
 <td width="340">如何测量外部环境、身体状态与接触过程，并把多种信号对齐？</td>
-<td width="580"><a href="docs/zh-CN/landscape/04-sensing.md#04-01">图像、深度与三维视觉</a><br><a href="docs/zh-CN/landscape/04-sensing.md#04-02">激光、雷达与测距</a><br><a href="docs/zh-CN/landscape/04-sensing.md#04-03">惯性、编码器与本体反馈</a><br><a href="docs/zh-CN/landscape/04-sensing.md#04-04">六维力与关节力矩</a><br><a href="docs/zh-CN/landscape/04-sensing.md#04-05">触觉阵列与电子皮肤</a><br><a href="docs/zh-CN/landscape/04-sensing.md#04-06">动作捕捉、语音与人机交互</a></td>
+<td width="580"><a href="docs/zh-CN/landscape/04-sensing.md#04-01">图像、深度与三维视觉</a><br><a href="docs/zh-CN/landscape/04-sensing.md#04-02">激光、雷达与测距</a><br><a href="docs/zh-CN/landscape/04-sensing.md#04-03">惯性、编码器与本体反馈</a><br><a href="docs/zh-CN/landscape/04-sensing.md#04-04">六维力与关节力矩</a><br><a href="docs/zh-CN/landscape/04-sensing.md#04-05">触觉阵列与电子皮肤</a><br><a href="docs/zh-CN/landscape/04-sensing.md#04-06">动作捕捉、语音与人机交互</a><br><a href="docs/zh-CN/landscape/04-sensing.md#04-07">环境与化学感知</a></td>
 <td width="330"><a href="docs/zh-CN/landscape/sources.md#source-digit">GelSight DIGIT</a><br><a href="docs/zh-CN/landscape/sources.md#source-ati">ATI 六维力传感器</a><br><a href="docs/zh-CN/landscape/sources.md#source-unitree">宇树 G1</a></td>
 </tr>
 <tr>

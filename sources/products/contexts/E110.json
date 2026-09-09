@@ -1,0 +1,41 @@
+{
+  "id": "E110",
+  "supplier_as_published": "苏州穿山甲机器人股份有限公司",
+  "source_category": "03-02",
+  "source_url": "https://www.worldrobotconference.com/expo/company/456.html",
+  "original_source_urls": [
+    "https://www.worldrobotconference.com/expo/company/456.html",
+    "https://www.worldrobotconference.com/expo/product/3.html",
+    "https://www.worldrobotconference.com/expo/product/4.html",
+    "https://www.worldrobotconference.com/expo/product/5.html",
+    "https://www.worldrobotconference.com/expo/product/6.html",
+    "https://www.worldrobotconference.com/expo/product/7.html"
+  ],
+  "source_checked_on": "2026-09-05",
+  "evidence": "official_page",
+  "technical": {
+    "zh-CN": "小鱼标注约 19kg、13.3 英寸屏、0–1.2m/s，采用 Lidar SLAM；小雪及爱丽丝面向不同尺寸和服务场景，需按型号核对能力。",
+    "en": "小鱼 reports about 19kg, a 13.3-inch display and 0–1.2m/s, using LiDAR SLAM. 小雪 and 爱丽丝 have different sizes and service settings and require separate model checks."
+  },
+  "original_product_line": "小鱼、小雪、爱丽丝、艾米等迎宾机器人，餐饮/酒店配送机器人，黑猫警长巡检机器人",
+  "original_application_wording": "展厅、医院、学校、银行、酒店、餐饮与零售的迎宾、讲解、配送和安防巡逻",
+  "original_issue_notes": [],
+  "item_ids": [
+    "item-a506f2aa3671",
+    "item-4c05578a9f96",
+    "item-80d26ec58503",
+    "item-b78992fe30b7",
+    "item-b93f81009463",
+    "item-20b4f53d2f74",
+    "item-ddc70718f2af",
+    "item-91fadca45993",
+    "item-ede0c58472e0",
+    "item-883a35d7b567",
+    "item-b4d17b2a0ade"
+  ],
+  "source_technical_sha256": "ae28d94663f3963a6f422f6aca2a1d222066568fa10d756673ce1d076f6af6c3",
+  "cross_source_categories": [],
+  "original_tags": "商用迎宾、配送与巡检机器人",
+  "original_verification_wording": "大会官方页已核验。",
+  "original_review_wording": "检索/读取日期：2026-09-05。核验口径：已读取官方网页；参数属发布方声明。"
+}

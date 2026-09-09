@@ -1,0 +1,28 @@
+{
+  "id": "E298",
+  "supplier_as_published": "中关村京津冀新能源汽车协同发展促进会",
+  "source_category": "11-03",
+  "source_url": "https://www.worldrobotconference.com/expo/company/619.html",
+  "original_source_urls": [
+    "https://www.worldrobotconference.com/expo/company/619.html",
+    "https://www.worldrobotconference.com/expo/product/1328.html",
+    "https://www.worldrobotconference.com/expo/event/239.html"
+  ],
+  "source_checked_on": "2026-09-05",
+  "evidence": "official_page",
+  "technical": {
+    "zh-CN": "车机融合试验场由制造验证舱、场景实验舱、协同部件库组成，涉及拆解、上下料、材料与动捕验证；属于协会组织的跨产业展示。",
+    "en": "The vehicle-robot testbed contains manufacturing-validation and scenario-experiment cabins plus a cooperative-component library, covering disassembly, loading, materials and motion capture. It is an association-organized cross-industry exhibit."
+  },
+  "original_product_line": "车机融合试验场：制造验证舱、场景实验舱、协同部件库",
+  "original_application_wording": "汽车精密制造向机器人迁移；上下料、搬运、光学动捕数据闭环",
+  "original_issue_notes": [],
+  "item_ids": [
+    "item-280a3842207e"
+  ],
+  "source_technical_sha256": "e3d9c908bc2cadd9f71fc66813201fb1c5f73cc9eec898bf6698bd129e1703aa",
+  "cross_source_categories": [],
+  "original_tags": "车机融合与机器人产业链协同",
+  "original_verification_wording": "大会官方页已核验。",
+  "original_review_wording": "检索/读取日期：2026-09-05。核验口径：已读取官方网页；参数属发布方声明。"
+}

@@ -1,0 +1,50 @@
+{
+  "id": "E311",
+  "supplier_as_published": "成都市机器人产业协会",
+  "source_category": "11-03",
+  "source_url": "https://www.worldrobotconference.com/expo/company/507.html",
+  "original_source_urls": [
+    "https://www.worldrobotconference.com/expo/company/507.html",
+    "https://www.worldrobotconference.com/expo/product/422.html",
+    "https://www.worldrobotconference.com/expo/product/424.html",
+    "https://www.worldrobotconference.com/expo/product/432.html",
+    "https://www.worldrobotconference.com/expo/product/437.html",
+    "https://www.worldrobotconference.com/expo/product/442.html"
+  ],
+  "source_checked_on": "2026-09-05",
+  "evidence": "official_page",
+  "technical": {
+    "zh-CN": "协会展项包括越凡路宝配送、晶墩墩石材养护及空心杯电机，属于多主体产品集合；电机页转速单位写法有歧义，具体制造方与型号待补充。",
+    "en": "Association exhibits include 越凡路宝 delivery, 晶墩墩 stone maintenance and coreless motors from multiple organizations. Motor-speed units are ambiguous; manufacturer and model remain unresolved."
+  },
+  "original_product_line": "联合展示越凡路宝、晶墩墩、Lu-D100 巡检机器人、锦发四足、关节电机、谐波减速器等",
+  "original_application_wording": "社区/园区配送、地面养护、农业巡检、工业与应急巡检、文旅服务",
+  "original_issue_notes": [
+    "具体问题：协会展项有多主体，转速单位和制造方归属待核实。"
+  ],
+  "item_ids": [
+    "item-76706dbb7581",
+    "item-56b6c7017a89",
+    "item-3ef7b0e0c899",
+    "item-86b5ce94b8a7",
+    "item-e86498bb6e6f",
+    "item-897d12549472",
+    "item-7f2a0e9a07df",
+    "item-de37e633edcc",
+    "item-bd9770eadb37",
+    "item-034dd7cc704c",
+    "item-efe6b5f8bb98",
+    "item-a2ca57ea8763",
+    "item-5957536376a0",
+    "item-9e3b62bd7e67"
+  ],
+  "source_technical_sha256": "5f8ff10a046a8c2da0765b2ac19be915c7d38a0018baeebae905b16115af66e8",
+  "cross_source_categories": [
+    "03-01",
+    "04-02",
+    "06-04"
+  ],
+  "original_tags": "区域机器人产业协会联合展区",
+  "original_verification_wording": "大会官方页已核验；产品为协会联合展品。",
+  "original_review_wording": "检索/读取日期：2026-09-05。核验口径：已读取官方网页；参数属发布方声明。"
+}

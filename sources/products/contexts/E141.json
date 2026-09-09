@@ -1,0 +1,30 @@
+{
+  "id": "E141",
+  "supplier_as_published": "成都瑞迪智驱科技股份有限公司",
+  "source_category": "06-06",
+  "source_url": "https://www.worldrobotconference.com/expo/company/852.html",
+  "original_source_urls": [
+    "https://www.worldrobotconference.com/expo/company/852.html",
+    "https://www.worldrobotconference.com/expo/product/953.html",
+    "https://www.worldrobotconference.com/expo/product/954.html",
+    "https://www.reachgroup.cn/index.aspx"
+  ],
+  "source_checked_on": "2026-09-05",
+  "evidence": "official_page",
+  "technical": {
+    "zh-CN": "一体化谐波将刚轮与交叉滚子轴承结合，微型型号外径最小 17mm；XTL 制动器扭矩范围未附单位，未直接录为可比较参数。",
+    "en": "Integrated strain-wave gearing combines a rigid gear with crossed-roller bearing; miniature models reach 17mm outer diameter. XTL brake torque ranges lack units and are not comparable parameters."
+  },
+  "original_product_line": "谐波减速机、电磁制动器、反向式行星滚柱丝杠及精密传动件",
+  "original_application_wording": "人形、工业与协作机器人等高端装备",
+  "original_issue_notes": [],
+  "item_ids": [
+    "item-dae363ed394d",
+    "item-a95bdf9e4145"
+  ],
+  "source_technical_sha256": "823ce1c75605e2fca3a3117497208bd377e28025da5cdc8981ab206b42dd59d7",
+  "cross_source_categories": [],
+  "original_tags": "谐波减速机与伺服制动器",
+  "original_verification_wording": "官网已核对。",
+  "original_review_wording": "检索/读取日期：2026-09-05。核验口径：已读取官方网页；参数属发布方声明。"
+}

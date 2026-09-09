@@ -1,0 +1,29 @@
+{
+  "id": "E023",
+  "supplier_as_published": "上海润科具能科技有限公司",
+  "source_category": "01-03",
+  "source_url": "https://www.worldrobotconference.com/expo/company/653.html",
+  "original_source_urls": [
+    "https://www.worldrobotconference.com/expo/company/653.html",
+    "https://www.worldrobotconference.com/expo/product/743.html"
+  ],
+  "source_checked_on": "2026-09-05",
+  "evidence": "official_page",
+  "technical": {
+    "zh-CN": "半人马采用人形上身与四足下身组合，页面列出跨楼层三维导航、目标识别和多点位巡检，面向工厂、铁路、矿山等复杂地形。",
+    "en": "半人马 combines a humanoid upper body with quadruped lower body. The page lists cross-floor 3D navigation, recognition and multi-point inspection for factories, railways, mines and complex terrain."
+  },
+  "original_product_line": "半人马/异形特种机器人、空间智能/多模态触觉技术",
+  "original_application_wording": "工业巡检、铁路安防、矿山、应急救援",
+  "original_issue_notes": [],
+  "item_ids": [
+    "item-003215ebbda5"
+  ],
+  "source_technical_sha256": "ea5cad8dcde57251ac17488981552549122958cf3c8c3fa7bb5fb1f2a95fcfce",
+  "cross_source_categories": [
+    "04-05"
+  ],
+  "original_tags": "四足-人形复合特种机器人",
+  "original_verification_wording": "展会官方页已核对。",
+  "original_review_wording": "检索/读取日期：2026-09-05。核验口径：已读取官方网页；参数属发布方声明。"
+}

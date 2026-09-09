@@ -1,0 +1,27 @@
+{
+  "id": "E158",
+  "supplier_as_published": "昆山金涵德智能科技有限公司",
+  "source_category": "06-03",
+  "source_url": "https://www.worldrobotconference.com/expo/company/819.html",
+  "original_source_urls": [
+    "https://www.worldrobotconference.com/expo/company/819.html",
+    "https://www.worldrobotconference.com/expo/product/912.html"
+  ],
+  "source_checked_on": "2026-09-05",
+  "evidence": "official_page",
+  "technical": {
+    "zh-CN": "新增结构件明细包括壳体、端盖、骨架、关节与连接器；本次单列展品侧重制造件，原表关节模组能力仍需对应型号资料。",
+    "en": "Structural parts include housings, end covers, frames, joints and connectors. Exhibits emphasize manufactured parts; original joint-module claims still need model-specific documentation."
+  },
+  "original_product_line": "一体化关节模组、直线关节模组、人形机器人结构件",
+  "original_application_wording": "人形机器人结构件加工、整机装配及高性能电机模组定制集成",
+  "original_issue_notes": [],
+  "item_ids": [
+    "item-155a07f6f644"
+  ],
+  "source_technical_sha256": "c04b99fc4de3ab5db82bff4a949280613b1f90acbf05fbcd02a404a6911bbd66",
+  "cross_source_categories": [],
+  "original_tags": "关节模组与人形机器人结构件",
+  "original_verification_wording": "官方页已核对。",
+  "original_review_wording": "检索/读取日期：2026-09-05。核验口径：已读取官方网页；参数属发布方声明。"
+}

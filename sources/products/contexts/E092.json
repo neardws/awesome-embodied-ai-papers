@@ -1,0 +1,24 @@
+{
+  "id": "E092",
+  "supplier_as_published": "泓柯智行（北京）科技有限公司",
+  "source_category": "01-05",
+  "source_url": "https://www.worldrobotconference.com/expo/event/246.html",
+  "original_source_urls": [
+    "https://www.worldrobotconference.com/expo/event/246.html"
+  ],
+  "source_checked_on": "2026-09-05",
+  "evidence": "official_page",
+  "technical": {
+    "zh-CN": "官方活动页记录 2026 年 8 月 Primal 动态展演，强调仿生结构、多自由度驱动与交互；这是展演记录，未披露量产规格。",
+    "en": "The official event page records an August 2026 Primal performance emphasizing biomimetic mechanisms, multi-joint actuation and interaction. It is a performance record, not mass-production specifications."
+  },
+  "original_product_line": "Primal 仿生智能机器人系列",
+  "original_application_wording": "仿生智能交互与现场动态展演",
+  "original_issue_notes": [],
+  "item_ids": [],
+  "source_technical_sha256": "cdf9fab53072ced7c384bd317e26d76b5014c8540a214b467f321ccf9fbb0d73",
+  "cross_source_categories": [],
+  "original_tags": "仿生智能交互机器人",
+  "original_verification_wording": "展会官方页已核对。",
+  "original_review_wording": "检索/读取日期：2026-09-05。核验口径：已读取官方网页；参数属发布方声明。"
+}

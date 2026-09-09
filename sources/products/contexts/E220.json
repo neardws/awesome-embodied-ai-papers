@@ -1,0 +1,24 @@
+{
+  "id": "E220",
+  "supplier_as_published": "上海青瞳视觉科技有限公司",
+  "source_category": "07-09",
+  "source_url": "https://www.worldrobotconference.com/expo/company/827.html",
+  "original_source_urls": [
+    "https://www.worldrobotconference.com/expo/company/827.html"
+  ],
+  "source_checked_on": "2026-09-05",
+  "evidence": "official_page",
+  "technical": {
+    "zh-CN": "提供光学动作捕捉的硬件、算法及软件，涉及机器人、科研、虚拟现实、生命科学、数字娱乐和教育；目前缺少具体型号的精度与捕捉空间。",
+    "en": "The optical motion-capture offering includes hardware, algorithms and software for robotics, research, VR, life sciences, entertainment and education. Model-specific precision and capture volumes are missing."
+  },
+  "original_product_line": "光学动捕全栈产品、3D 智能感知与人机交互技术体系",
+  "original_application_wording": "具身智能、工程科研、虚拟现实、生命科学、数字娱乐、教育",
+  "original_issue_notes": [],
+  "item_ids": [],
+  "source_technical_sha256": "5905023f0fd6df493cfc36c357dd65592ef7e9924a5b2e3799a15f48970121bc",
+  "cross_source_categories": [],
+  "original_tags": "光学动捕与 3D 空间感知",
+  "original_verification_wording": "官方页已核对。",
+  "original_review_wording": "检索/读取日期：2026-09-05。核验口径：已读取官方网页；参数属发布方声明。"
+}

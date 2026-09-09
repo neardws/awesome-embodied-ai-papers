@@ -1,0 +1,39 @@
+{
+  "id": "E150",
+  "supplier_as_published": "江苏富兴电机技术股份有限公司",
+  "source_category": "06-04",
+  "source_url": "https://www.worldrobotconference.com/expo/company/874.html",
+  "original_source_urls": [
+    "https://www.worldrobotconference.com/expo/company/874.html",
+    "https://www.worldrobotconference.com/expo/product/1321.html",
+    "https://www.worldrobotconference.com/expo/product/1322.html",
+    "https://www.worldrobotconference.com/expo/product/1323.html",
+    "https://www.worldrobotconference.com/expo/product/1324.html",
+    "https://www.worldrobotconference.com/expo/product/1325.html"
+  ],
+  "source_checked_on": "2026-09-05",
+  "evidence": "official_page",
+  "technical": {
+    "zh-CN": "行星与谐波关节均集成电机、减速器、双绝对值编码器和驱动器，并提供电流、速度、位置、力位混合模式；电机尺寸可定制。",
+    "en": "Planetary and strain-wave joints integrate motors, reducers, dual absolute encoders and drives, with current, velocity, position and hybrid force-position modes. Motor dimensions are customizable."
+  },
+  "original_product_line": "无框力矩电机、灵巧手指关节、无刷电机、伺服电机",
+  "original_application_wording": "人形机器人、智能灵巧手、协作/工业/手术机器人、精密自动化设备",
+  "original_issue_notes": [],
+  "item_ids": [
+    "item-69b0ca3fe1ce",
+    "item-aade983f9504",
+    "item-36ad8d44f7c5",
+    "item-9f01447db7d3",
+    "item-9deca0a7c78c",
+    "item-5e38e3b179b7",
+    "item-09fd05ae8240"
+  ],
+  "source_technical_sha256": "551bbcf4816bd3d395ce3163f50e8c54858bbb5f92ac36eff7bf723d86961a37",
+  "cross_source_categories": [
+    "06-03"
+  ],
+  "original_tags": "无框力矩电机、伺服电机与灵巧手关节",
+  "original_verification_wording": "大会官方页已核验。",
+  "original_review_wording": "检索/读取日期：2026-09-05。核验口径：已读取官方网页；参数属发布方声明。"
+}

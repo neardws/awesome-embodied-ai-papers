@@ -1,0 +1,24 @@
+{
+  "id": "E117",
+  "supplier_as_published": "灵脉超维（北京）科技有限公司",
+  "source_category": "05-04",
+  "source_url": "https://www.worldrobotconference.com/expo/company/710.html",
+  "original_source_urls": [
+    "https://www.worldrobotconference.com/expo/company/710.html"
+  ],
+  "source_checked_on": "2026-09-05",
+  "evidence": "official_page",
+  "technical": {
+    "zh-CN": "技术链从 BCI/EMG 信号交互延伸到末端执行及康复设备，但官方介绍未给出商品型号、采样参数或医疗准入信息。",
+    "en": "The technology spans BCI/EMG interaction, end effectors and rehabilitation equipment. The official description provides no commercial model, sampling specification or medical-market authorization information."
+  },
+  "original_product_line": "脑机接口（BCI）、肌电信号（EMG）交互、灵巧手/仿生手、医疗康复机器人",
+  "original_application_wording": "神经信号交互、医疗康复及智慧医疗",
+  "original_issue_notes": [],
+  "item_ids": [],
+  "source_technical_sha256": "881c510936d645bd0500509b279b432f575e592d3cecf07a7b3144506c7d6ff2",
+  "cross_source_categories": [],
+  "original_tags": "脑机接口与肌电交互康复",
+  "original_verification_wording": "大会官方页已核验。",
+  "original_review_wording": "检索/读取日期：2026-09-05。核验口径：已读取官方网页；参数属发布方声明。"
+}

@@ -1,0 +1,43 @@
+{
+  "id": "E058",
+  "supplier_as_published": "浙江禾川人形机器人有限公司",
+  "source_category": "01-01",
+  "source_url": "https://www.worldrobotconference.com/expo/company/426.html",
+  "original_source_urls": [
+    "https://www.worldrobotconference.com/expo/company/426.html",
+    "https://www.worldrobotconference.com/expo/product/44.html",
+    "https://www.worldrobotconference.com/expo/product/45.html",
+    "https://www.worldrobotconference.com/expo/product/47.html",
+    "https://www.worldrobotconference.com/expo/product/48.html",
+    "https://www.worldrobotconference.com/expo/product/1179.html"
+  ],
+  "source_checked_on": "2026-09-05",
+  "evidence": "official_page",
+  "technical": {
+    "zh-CN": "Hu-MLS 使用反向行星滚柱丝杠；Hu-MRS 标题称谐波旋转执行器，但正文写中空行星减速机，存在结构描述冲突，暂不据此判定具体减速路线。",
+    "en": "Hu-MLS uses an inverted planetary roller screw. Hu-MRS is titled a strain-wave rotary actuator but described as using a hollow planetary gearbox. Its transmission route remains unresolved."
+  },
+  "original_product_line": "YOLO01 人形机器人原型机、FR1 工业装配机器人、关节执行器、无框与空心杯电机",
+  "original_application_wording": "工业装配、非结构化环境精细操作、人形机器人关节与灵巧手驱动",
+  "original_issue_notes": [
+    "具体问题：Hu-MRS 标题为谐波，正文为中空行星，结构冲突。"
+  ],
+  "item_ids": [
+    "item-4669c03df4c2",
+    "item-46c5f57e8738",
+    "item-678c077e0cfc",
+    "item-0521c1e5f3b5",
+    "item-d80a9c46a056",
+    "item-2afe178e350d",
+    "item-8fd00941209d",
+    "item-fc97fa243603"
+  ],
+  "source_technical_sha256": "da3f90d8482b2577d756f61a70bab6c383bb9bfd071e3f30ea632921d1451ba8",
+  "cross_source_categories": [
+    "06-03",
+    "06-08"
+  ],
+  "original_tags": "人形整机与垂直一体化驱动",
+  "original_verification_wording": "大会官方页已核验。",
+  "original_review_wording": "检索/读取日期：2026-09-05。核验口径：已读取官方网页；参数属发布方声明。"
+}

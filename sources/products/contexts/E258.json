@@ -1,0 +1,27 @@
+{
+  "id": "E258",
+  "supplier_as_published": "超恩智能科技(苏州)有限公司",
+  "source_category": "08-02",
+  "source_url": "https://www.worldrobotconference.com/expo/company/816.html",
+  "original_source_urls": [
+    "https://www.worldrobotconference.com/expo/company/816.html",
+    "https://www.worldrobotconference.com/expo/product/1094.html"
+  ],
+  "source_checked_on": "2026-09-05",
+  "evidence": "official_page",
+  "technical": {
+    "zh-CN": "展示工业边缘 AI 整机、加速模组、宽温主板及多 GPU 扩展平台，包含 Jetson Thor 方向；型号配置与算力、功耗仍需产品规格页。",
+    "en": "The offerings include industrial edge-AI computers, acceleration modules, wide-temperature boards and multi-GPU platforms, including Jetson Thor. Exact configurations, compute and power need product specifications."
+  },
+  "original_product_line": "工业级边缘 AI 整机、AI 加速模组、宽温嵌入式主板、多 GPU 扩展算力平台",
+  "original_application_wording": "智能交通、轨道交通、智能制造、智能医疗及机器人边缘 AI 部署",
+  "original_issue_notes": [],
+  "item_ids": [
+    "item-3d12a916ec46"
+  ],
+  "source_technical_sha256": "a4f274819520b4571436e9c71a52d34e8bc634ae2918795afd5f9fac9bdf428f",
+  "cross_source_categories": [],
+  "original_tags": "工业边缘 AI 计算平台",
+  "original_verification_wording": "官方页已核对。",
+  "original_review_wording": "检索/读取日期：2026-09-05。核验口径：已读取官方网页；参数属发布方声明。"
+}

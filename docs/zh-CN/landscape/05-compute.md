@@ -20,42 +20,42 @@
 </thead>
 <tbody>
 <tr>
-<td width="240" nowrap><a id="05-01"></a>推理芯片与异构加速</td>
+<td width="240" nowrap><a id="05-01"></a>推理芯片与异构加速<br><a href="../products/topics/05-01.md">产品细节</a></td>
 <td width="300">在设备上执行感知与策略模型。</td>
 <td width="320">压缩、编译与模型硬件协同。</td>
 <td width="320">算子支持、工具链、内存与供货。</td>
 <td width="340">目标模型实测时延、内存与功耗。</td>
 </tr>
 <tr>
-<td width="240" nowrap><a id="05-02"></a>边缘计算与域控制器</td>
+<td width="240" nowrap><a id="05-02"></a>边缘计算与域控制器<br><a href="../products/topics/05-02.md">产品细节</a></td>
 <td width="300">承载多传感、多模型与系统服务。</td>
 <td width="320">多任务调度、计算分层与资源共享。</td>
 <td width="320">散热、连接器、抗振与远程管理。</td>
 <td width="340">并发负载下时延、热稳态与接口数量。</td>
 </tr>
 <tr>
-<td width="240" nowrap><a id="05-03"></a>实时微控制与功率驱动</td>
+<td width="240" nowrap><a id="05-03"></a>实时微控制与功率驱动<br><a href="../products/topics/05-03.md">产品细节</a></td>
 <td width="300">保持底层闭环与电机保护。</td>
 <td width="320">实时调度、控制鲁棒性与故障检测。</td>
 <td width="320">电流采样、保护链路与固件维护。</td>
 <td width="340">最坏控制周期、抖动与故障响应。</td>
 </tr>
 <tr>
-<td width="240" nowrap><a id="05-04"></a>机内总线与工业网络</td>
+<td width="240" nowrap><a id="05-04"></a>机内总线与工业网络<br><a href="../products/topics/05-04.md">产品细节</a></td>
 <td width="300">传送有时限的状态与指令。</td>
 <td width="320">网络化控制与时间同步。</td>
 <td width="320">布线、兼容性、诊断与电磁环境。</td>
 <td width="340">端到端延迟、丢包、同步与恢复。</td>
 </tr>
 <tr>
-<td width="240" nowrap><a id="05-05"></a>无线、云边与远程连接</td>
+<td width="240" nowrap><a id="05-05"></a>无线、云边与远程连接<br><a href="../products/topics/05-05.md">产品细节</a></td>
 <td width="300">支持遥操作、更新和跨设备协作。</td>
 <td width="320">延迟补偿、任务卸载与断连自治。</td>
 <td width="320">覆盖、带宽、身份管理与回滚。</td>
 <td width="340">断网行为、回传负载与接管时延。</td>
 </tr>
 <tr>
-<td width="240" nowrap><a id="05-06"></a>电池、电源与热管理</td>
+<td width="240" nowrap><a id="05-06"></a>电池、电源与热管理<br><a href="../products/topics/05-06.md">产品细节</a></td>
 <td width="300">在持续任务中稳定供能。</td>
 <td width="320">能耗建模、能量感知规划与热控制。</td>
 <td width="320">电池管理、充换电、散热与寿命。</td>
@@ -63,6 +63,14 @@
 </tr>
 </tbody>
 </table>
+
+## 技术与产品细节
+
+<a href="../products/comparisons/05-compute.md">查看 23 条相关对照记录</a>
+
+继续比较逐型号参数、工况、接口、研究关联和来源问题，并下钻查看完整技术摘录与原始展项链接。
+
+<a href="../products/references/03-06.md">移动充电服务</a> · <a href="../products/references/08-01.md">AI芯片与异构计算</a> · <a href="../products/references/08-02.md">边缘计算与机器人控制器</a> · <a href="../products/references/08-03.md">MCU与功率半导体</a> · <a href="../products/references/08-04.md">工业通信与无线连接</a> · <a href="../products/references/08-05.md">电子元器件与传感芯片</a> · <a href="../products/references/08-06.md">电池BMS与智能充电</a> · <a href="../products/references/08-07.md">电源与功率驱动模块</a>
 
 ## 研究、平台与产业代表
 

@@ -1,0 +1,33 @@
+{
+  "id": "E272",
+  "supplier_as_published": "科大讯飞股份有限公司",
+  "source_category": "08-02",
+  "source_url": "https://www.worldrobotconference.com/expo/company/476.html",
+  "original_source_urls": [
+    "https://www.worldrobotconference.com/expo/company/476.html",
+    "https://www.worldrobotconference.com/expo/product/1167.html",
+    "https://www.worldrobotconference.com/expo/product/332.html",
+    "https://www.worldrobotconference.com/expo/product/1158.html",
+    "https://www.worldrobotconference.com/expo/product/1165.html"
+  ],
+  "source_checked_on": "2026-09-05",
+  "evidence": "official_page",
+  "technical": {
+    "zh-CN": "多模态开发方案采用 RK3588S2、双麦克风和单目视觉；另有面向公私有实验环境的训推盒子，两者定位不同。",
+    "en": "The multimodal development solution uses RK3588S2, dual microphones and monocular vision. A separate training/inference box targets public/private experimental environments; the roles differ."
+  },
+  "original_product_line": "多模态一体机、具身智能采训推一体机、机器人麦克风阵列、Guide01 机器人",
+  "original_application_wording": "公共/私有具身数据采集训练场、高校科研；机器人语音交互和端侧多模态感知",
+  "original_issue_notes": [],
+  "item_ids": [
+    "item-929f69a48409",
+    "item-107c488fcd88",
+    "item-9403fcfbaffa",
+    "item-4a05db8a3348"
+  ],
+  "source_technical_sha256": "103d13e0cae3c767ffea00fc557fb8685c27b587afcd52c573405a0a46fa275d",
+  "cross_source_categories": [],
+  "original_tags": "具身智能训练推理与多模态交互",
+  "original_verification_wording": "大会官方页已核验。",
+  "original_review_wording": "检索/读取日期：2026-09-05。核验口径：已读取官方网页；参数属发布方声明。"
+}

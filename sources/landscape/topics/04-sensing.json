@@ -156,6 +156,29 @@
         "zh-CN": "跟踪误差、端到端时延与交互成功率。",
         "en": "Tracking error, end-to-end latency and interaction success."
       }
+    },
+    {
+      "id": "04-07",
+      "name": {
+        "zh-CN": "环境与化学感知",
+        "en": "Environmental and chemical sensing"
+      },
+      "problem": {
+        "zh-CN": "识别气体、化学特征和环境变化。",
+        "en": "Detect gases, chemical signatures and environmental changes."
+      },
+      "research": {
+        "zh-CN": "传感融合、漂移补偿与异常识别。",
+        "en": "Sensor fusion, drift compensation and anomaly recognition."
+      },
+      "industry": {
+        "zh-CN": "传感阵列、温湿补偿、采样与现场维护。",
+        "en": "Sensor arrays, temperature/humidity compensation, sampling and field service."
+      },
+      "compare": {
+        "zh-CN": "目标物、量程、选择性、漂移和响应时间。",
+        "en": "Targets, range, selectivity, drift and response time."
+      }
     }
   ]
 }

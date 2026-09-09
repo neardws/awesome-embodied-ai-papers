@@ -1,0 +1,31 @@
+{
+  "id": "E042",
+  "supplier_as_published": "智平方（深圳）科技股份有限公司",
+  "source_category": "01-01",
+  "source_url": "https://www.worldrobotconference.com/expo/company/409.html",
+  "original_source_urls": [
+    "https://www.worldrobotconference.com/expo/company/409.html",
+    "https://www.worldrobotconference.com/expo/product/64.html"
+  ],
+  "source_checked_on": "2026-09-05",
+  "evidence": "official_page",
+  "technical": {
+    "zh-CN": "大会页已出现 AlphaBot 2 和 Alpha Brain 命名，强调空间智能与新环境适应；原表的 GOVLA 名称保留为历史记录，二者版本关系未直接说明。",
+    "en": "The conference page uses AlphaBot 2 and Alpha Brain, emphasizing spatial intelligence and adaptation. GOVLA remains an original historical name; the version relationship is not specified."
+  },
+  "original_product_line": "AlphaBot 通用智能机器人、GOVLA 具身大模型",
+  "original_application_wording": "汽车制造质量检测、装配作业、物流转运",
+  "original_issue_notes": [
+    "具体问题：原表 GOVLA 与当前 Alpha Brain 的命名及版本关系待核实。"
+  ],
+  "item_ids": [
+    "item-885f98046cce"
+  ],
+  "source_technical_sha256": "ee0d7aa5be06418c5a802f2a6056dc73495e590675f58f30c9bd9ee2623aa03e",
+  "cross_source_categories": [
+    "09-01"
+  ],
+  "original_tags": "具身大模型驱动通用机器人",
+  "original_verification_wording": "大会官方页已核验。",
+  "original_review_wording": "检索/读取日期：2026-09-05。核验口径：已读取官方网页；参数属发布方声明。"
+}

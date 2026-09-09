@@ -1,0 +1,31 @@
+{
+  "id": "E187",
+  "supplier_as_published": "纽格尔智能传动（广东）有限公司",
+  "source_category": "06-07",
+  "source_url": "https://www.worldrobotconference.com/expo/company/577.html",
+  "original_source_urls": [
+    "https://www.worldrobotconference.com/expo/company/577.html",
+    "https://www.worldrobotconference.com/expo/product/586.html",
+    "https://www.worldrobotconference.com/expo/product/587.html",
+    "https://www.worldrobotconference.com/expo/product/588.html"
+  ],
+  "source_checked_on": "2026-09-05",
+  "evidence": "official_page",
+  "technical": {
+    "zh-CN": "展品分关节执行器、关节减速器和无框电机，提供项目定制；当前文字偏原理说明，尚缺可直接比较的具体型号参数。",
+    "en": "Exhibits separate joint actuators, reducers and frameless motors with project customization. Descriptions emphasize principles rather than directly comparable model specifications."
+  },
+  "original_product_line": "精密行星减速机、减速电机、直线模组、关节执行器与无框力矩电机",
+  "original_application_wording": "空间受限的机器人关节和机电一体化传动",
+  "original_issue_notes": [],
+  "item_ids": [
+    "item-ff4f5846c67f",
+    "item-6439944abbd9",
+    "item-5659ac2d15e0"
+  ],
+  "source_technical_sha256": "e0cb5212382b225f5d3240cfa4964e36c78a7b7c22dc031d4e4e4f243b603a40",
+  "cross_source_categories": [],
+  "original_tags": "精密传动与关节执行器",
+  "original_verification_wording": "大会官方页已核验。",
+  "original_review_wording": "检索/读取日期：2026-09-05。核验口径：已读取官方网页；参数属发布方声明。"
+}

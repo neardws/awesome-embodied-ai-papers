@@ -20,49 +20,71 @@
 </thead>
 <tbody>
 <tr>
-<td width="240" nowrap><a id="01-01"></a>双足与通用人形</td>
+<td width="240" nowrap><a id="01-01"></a>双足与通用人形<br><a href="../products/topics/01-01.md">产品细节</a></td>
 <td width="300">在人类尺度空间中移动并操作。</td>
 <td width="320">全身协调、平衡与跨形态迁移。</td>
 <td width="320">跌倒防护、热管理、维修与稳定交付。</td>
 <td width="340">持续负载、工作空间、故障恢复时间。</td>
 </tr>
 <tr>
-<td width="240" nowrap><a id="01-02"></a>轮式双臂与移动操作</td>
+<td width="240" nowrap><a id="01-02"></a>轮式双臂与移动操作<br><a href="../products/topics/01-02.md">产品细节</a></td>
 <td width="300">把导航、站位和双臂操作连成任务。</td>
 <td width="320">基座与手臂联合规划、长时程策略。</td>
 <td width="320">底盘定位、升降结构、工位接口。</td>
 <td width="340">定位误差、操作成功率、任务周期。</td>
 </tr>
 <tr>
-<td width="240" nowrap><a id="01-03"></a>四足与轮足</td>
+<td width="240" nowrap><a id="01-03"></a>四足与轮足<br><a href="../products/topics/01-03.md">产品细节</a></td>
 <td width="300">在楼梯、坡面和不平地面移动。</td>
 <td width="320">地形适应、视觉运动控制。</td>
 <td width="320">巡检载荷、防护与续航管理。</td>
 <td width="340">地形边界、载荷工况、任务续航。</td>
 </tr>
 <tr>
-<td width="240" nowrap><a id="01-04"></a>固定工业与协作机械臂</td>
+<td width="240" nowrap><a id="01-04"></a>固定工业与协作机械臂<br><a href="../products/topics/01-04.md">产品细节</a></td>
 <td width="300">在受限工位完成重复或柔性操作。</td>
 <td width="320">精细操作、力控与技能迁移。</td>
 <td width="320">节拍、重复定位、工装和集成维护。</td>
 <td width="340">工作空间、重复精度、力控接口。</td>
 </tr>
 <tr>
-<td width="240" nowrap><a id="01-05"></a>小型开放与教学平台</td>
+<td width="240" nowrap><a id="01-05"></a>小型开放与教学平台<br><a href="../products/topics/01-05.md">产品细节</a></td>
 <td width="300">降低实验、教学和复现门槛。</td>
 <td width="320">可复现本体、低成本策略学习。</td>
 <td width="320">易装配、备件、文档与开发支持。</td>
 <td width="340">物料成本、装配步骤、开放范围。</td>
 </tr>
 <tr>
-<td width="240" nowrap><a id="01-06"></a>专用、柔性与可穿戴本体</td>
+<td width="240" nowrap><a id="01-06"></a>专用、柔性与可穿戴本体<br><a href="../products/topics/01-06.md">产品细节</a></td>
 <td width="300">适配狭窄、柔性或人体耦合任务。</td>
 <td width="320">形态设计、人机动力学与柔性建模。</td>
 <td width="320">任务专用结构、佩戴舒适与维护。</td>
 <td width="340">适用人群或场景、力学边界、验证条件。</td>
 </tr>
+<tr>
+<td width="240" nowrap><a id="01-07"></a>移动底盘与模块化载体<br><a href="../products/topics/01-07.md">产品细节</a></td>
+<td width="300">为感知、运输和操作提供移动载体。</td>
+<td width="320">运动学、地形适配与任务模块协同。</td>
+<td width="320">载荷接口、导航接入、供电与车体维护。</td>
+<td width="340">载荷工况、转弯半径、供电和安装接口。</td>
+</tr>
+<tr>
+<td width="240" nowrap><a id="01-08"></a>固定半身与双臂平台<br><a href="../products/topics/01-08.md">产品细节</a></td>
+<td width="300">在固定工位研究或执行双臂与上身操作。</td>
+<td width="320">臂间协调、操作空间与示教学习。</td>
+<td width="320">立柱、固定结构、工位适配和末端配置。</td>
+<td width="340">有效自由度、操作范围、负载与固定条件。</td>
+</tr>
 </tbody>
 </table>
+
+## 技术与产品细节
+
+<a href="../products/comparisons/01-bodies.md">查看 40 条相关对照记录</a>
+
+继续比较逐型号参数、工况、接口、研究关联和来源问题，并下钻查看完整技术摘录与原始展项链接。
+
+<a href="../products/references/01-01.md">双足与通用人形机器人</a> · <a href="../products/references/01-02.md">轮式双臂与移动操作机器人</a> · <a href="../products/references/01-03.md">四足与轮足机器人</a> · <a href="../products/references/01-04.md">小型教学与开放机器人平台</a> · <a href="../products/references/01-05.md">仿生与交互人形机器人</a> · <a href="../products/references/02-01.md">工业机械臂与工业机器人</a> · <a href="../products/references/02-02.md">协作机械臂与自适应力控</a> · <a href="../products/references/02-03.md">桌面机械臂与教学机械臂</a> · <a href="../products/references/04-03.md">移动底盘与自主导航载体</a> · <a href="../products/references/05-03.md">外骨骼与运动助力</a>
 
 ## 研究、平台与产业代表
 

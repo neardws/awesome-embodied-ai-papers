@@ -1,0 +1,29 @@
+{
+  "id": "E265",
+  "supplier_as_published": "北京莫刻机器人科技有限公司",
+  "source_category": "09-02",
+  "source_url": "https://www.worldrobotconference.com/expo/company/788.html",
+  "original_source_urls": [
+    "https://www.worldrobotconference.com/expo/company/788.html",
+    "https://www.worldrobotconference.com/expo/product/1074.html",
+    "https://www.worldrobotconference.com/expo/product/1075.html"
+  ],
+  "source_checked_on": "2026-09-05",
+  "evidence": "official_page",
+  "technical": {
+    "zh-CN": "HDR 通过层次化去噪进行视觉推理和规划，展示迷宫、找球等任务；这些演示不能代表真实工业操作的综合成功率。",
+    "en": "HDR uses hierarchical denoising for visual reasoning/planning, demonstrating mazes and ball search. Those demonstrations are not overall success rates for industrial manipulation."
+  },
+  "original_product_line": "视觉因果推理世界模型、HDR 视觉推理模型",
+  "original_application_wording": "机器人视觉环境理解、规则推理与行动规划",
+  "original_issue_notes": [],
+  "item_ids": [
+    "item-37c091d7d43a",
+    "item-2d6d7f09fc6e"
+  ],
+  "source_technical_sha256": "9387ebfaf2511e07b783437be8ffda2c0473b99e3c9874af945c69328fdf961c",
+  "cross_source_categories": [],
+  "original_tags": "具身智能视觉因果世界模型",
+  "original_verification_wording": "已核验（大会官方页）。",
+  "original_review_wording": "检索/读取日期：2026-09-05。核验口径：已读取官方网页；参数属发布方声明。"
+}

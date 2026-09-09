@@ -1,0 +1,29 @@
+{
+  "id": "E013",
+  "supplier_as_published": "武汉手智创新科技有限公司",
+  "source_category": "01-01",
+  "source_url": "https://www.worldrobotconference.com/expo/company/863.html",
+  "original_source_urls": [
+    "https://www.worldrobotconference.com/expo/company/863.html",
+    "https://www.worldrobotconference.com/expo/product/1335.html",
+    "https://www.worldrobotconference.com/expo/product/1336.html"
+  ],
+  "source_checked_on": "2026-09-05",
+  "evidence": "official_page",
+  "technical": {
+    "zh-CN": "远游整合灵巧执行与多维感知；艾灸产品支持穴位匹配和轨迹规划，并描述悬灸、回旋灸等动作。该介绍不构成疗效或医疗注册证据。",
+    "en": "远游 combines dexterous execution with multidimensional sensing. The moxibustion product describes acupoint matching, trajectory planning, suspended and circular motions. This description does not establish medical registration or efficacy."
+  },
+  "original_product_line": "远游人形机器人、智能艾灸机器人、助残灵巧手、嗅觉与触觉传感器",
+  "original_application_wording": "民生服务、工业辅助；养生馆与居家健康养生",
+  "original_issue_notes": [],
+  "item_ids": [
+    "item-05fe8105127e",
+    "item-39e140e16563"
+  ],
+  "source_technical_sha256": "cabe8294a071ac2ebb2f1a2ee68c1e70456472a2f7a257ebeb3a0ecdb195c45f",
+  "cross_source_categories": [],
+  "original_tags": "人形机器人、康养机器人与灵巧手",
+  "original_verification_wording": "大会官方页已核验。",
+  "original_review_wording": "检索/读取日期：2026-09-05。核验口径：已读取官方网页；参数属发布方声明。"
+}

@@ -1,0 +1,31 @@
+{
+  "id": "E238",
+  "supplier_as_published": "浙江福莱新材料股份有限公司",
+  "source_category": "07-02",
+  "source_url": "https://www.worldrobotconference.com/expo/company/705.html",
+  "original_source_urls": [
+    "https://www.worldrobotconference.com/expo/company/705.html",
+    "https://www.worldrobotconference.com/expo/product/1332.html",
+    "https://www.worldrobotconference.com/expo/product/1387.html",
+    "https://www.worldrobotconference.com/expo/product/1389.html"
+  ],
+  "source_checked_on": "2026-09-05",
+  "evidence": "official_page",
+  "technical": {
+    "zh-CN": "FOS 电阻阵列标注 100–300Hz、四针 UART，采集法向力、切向力及滑移信息，并延伸到全手穿戴采集。",
+    "en": "FOS resistive arrays report 100–300Hz and four-pin UART, capturing normal/tangential force and slip, with extensions to whole-hand wearable capture."
+  },
+  "original_product_line": "机器人触觉数据采集终端、FOS 系列触觉传感器、灵巧手全手触觉方案",
+  "original_application_wording": "灵巧手稳定抓取、精细装配、柔软/易碎物体操作及具身智能训练",
+  "original_issue_notes": [],
+  "item_ids": [
+    "item-ffc880cb8d18",
+    "item-6188aad6e10b",
+    "item-83b2da0c5976"
+  ],
+  "source_technical_sha256": "d4c86f66d0af97140ec72b9bb1e0cc57a6fe38934b07c382c59e6e6bc7dd3154",
+  "cross_source_categories": [],
+  "original_tags": "柔性触觉传感与电子皮肤",
+  "original_verification_wording": "大会官方页已核验。",
+  "original_review_wording": "检索/读取日期：2026-09-05。核验口径：已读取官方网页；参数属发布方声明。"
+}

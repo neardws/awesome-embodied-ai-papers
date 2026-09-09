@@ -1,0 +1,24 @@
+{
+  "id": "E165",
+  "supplier_as_published": "恩斯克投资有限公司",
+  "source_category": "06-09",
+  "source_url": "https://www.nsk.com.cn/",
+  "original_source_urls": [
+    "https://www.nsk.com.cn/"
+  ],
+  "source_checked_on": "2026-09-05",
+  "evidence": "official_page",
+  "technical": {
+    "zh-CN": "官网将工业/人形机器人列为独立应用领域，产品组织为工业轴承、直线运动、汽车与维护保养；需从机器人应用页进一步对应型号。",
+    "en": "The official site lists industrial/humanoid robotics as an application and organizes bearings, linear motion, automotive and maintenance products. Exact models must be identified from robot-application pages."
+  },
+  "original_product_line": "轴承、滚珠丝杠、线性导轨、直驱电机",
+  "original_application_wording": "工业/人形机器人、机械设备",
+  "original_issue_notes": [],
+  "item_ids": [],
+  "source_technical_sha256": "7568f1ffc775f8af4da3ef943c323839104ef74e9aa428acb7c95d96cfadc6a9",
+  "cross_source_categories": [],
+  "original_tags": "轴承/线性运动",
+  "original_verification_wording": "官网已核对。",
+  "original_review_wording": "检索/读取日期：2026-09-05。核验口径：已读取官方网页；参数属发布方声明。"
+}

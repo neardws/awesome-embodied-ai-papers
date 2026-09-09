@@ -1,0 +1,29 @@
+{
+  "id": "E084",
+  "supplier_as_published": "上海非夕机器人科技有限公司",
+  "source_category": "02-02",
+  "source_url": "https://www.worldrobotconference.com/expo/company/614.html",
+  "original_source_urls": [
+    "https://www.worldrobotconference.com/expo/company/614.html",
+    "https://www.worldrobotconference.com/expo/product/1076.html",
+    "https://www.worldrobotconference.com/expo/product/1077.html"
+  ],
+  "source_checked_on": "2026-09-05",
+  "evidence": "official_page",
+  "technical": {
+    "zh-CN": "MICO 基于 Enlight 机械臂与 Orion 控制器，强调模块化双臂协同、力控和全身力感知；Enlight 单列为自适应机器人系列。",
+    "en": "MICO combines Enlight arms with an Orion controller, emphasizing modular bimanual coordination, force control and whole-body force sensing. Enlight is also a separate adaptive-robot family."
+  },
+  "original_product_line": "MICO CORE 集成式人形智能平台、ENLIGHT 初昕自适应机器人",
+  "original_application_wording": "精密装配、表面处理、狭小空间作业，家庭养老、商用及餐饮零售",
+  "original_issue_notes": [],
+  "item_ids": [
+    "item-207d98d3ecbb",
+    "item-103d8d85ab87"
+  ],
+  "source_technical_sha256": "2804c7157a65dcbb706873ed3ea4f0895946b41d5b90c63c9000449457d33050",
+  "cross_source_categories": [],
+  "original_tags": "自适应力控机器人与仿人双臂平台",
+  "original_verification_wording": "大会官方页已核验。",
+  "original_review_wording": "检索/读取日期：2026-09-05。核验口径：已读取官方网页；参数属发布方声明。"
+}
