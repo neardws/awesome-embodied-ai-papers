@@ -2,7 +2,7 @@
 
 [Home](../../../README.md) | [中文](../../zh-CN/deployment/sim2real.md) | [Direction index](README.md)
 
-Total: 20 papers.
+Total: 21 papers.
 
 <table width="3090">
 <thead>
@@ -322,6 +322,21 @@ Total: 20 papers.
 <td width="110" nowrap><a href="https://robotwin-benchmark.github.io/early-version/">project</a></td>
 <td width="110" nowrap><a href="https://github.com/RoboTwin-Platform/RoboTwin">code</a></td>
 <td width="240"><a href="https://huggingface.co/datasets/TianxingChen/RoboTwin">hf</a></td>
+</tr>
+<tr>
+<td width="120" nowrap>arXiv 2026</td>
+<td width="320"><a href="https://arxiv.org/abs/2607.24079">Effective Parameters, Real Behavior: Renormalization for Robotics -- From Infinite Electron Mass to Sim-to-Real Gap</a></td>
+<td width="420">Treats simulator parameters as frequency- and resolution-dependent effective values rather than copies of real-robot numbers, so simulation can most closely match real behavior.</td>
+<td width="240">sim-to-real / PD control</td>
+<td width="280">closed-form effective damping and inertia corrections at finite simulation frequency</td>
+<td width="280">analysis paper, no new hardware experiments; MuJoCo, Isaac Sim (PhysX), and MuJoCo Warp</td>
+<td width="280">rigid-body PD control, cables, and underwater swimming</td>
+<td width="220"><a href="https://github.com/WhymustIhaveaname/R4R">code</a></td>
+<td width="360">Derives closed-form effective PD damping and inertia corrections and gives a 4-step practical workflow.</td>
+<td width="110" nowrap><a href="https://arxiv.org/abs/2607.24079">paper</a></td>
+<td width="110" nowrap>-</td>
+<td width="110" nowrap><a href="https://github.com/WhymustIhaveaname/R4R">code</a></td>
+<td width="240">-</td>
 </tr>
 </tbody>
 </table>

@@ -7,7 +7,7 @@
 English | [Chinese](README.zh-CN.md)
 
 [![Awesome](https://img.shields.io/badge/Awesome-Embodied%20AI-fc60a8?style=for-the-badge)](https://awesome.re)
-[![Survey Entries](https://img.shields.io/badge/Survey%20Entries-767-0984e3?style=for-the-badge)](README.md)
+[![Survey Entries](https://img.shields.io/badge/Survey%20Entries-768-0984e3?style=for-the-badge)](README.md)
 [![Last Commit](https://img.shields.io/github/last-commit/neardws/awesome-embodied-ai-papers?style=for-the-badge&color=00b894)](https://github.com/neardws/awesome-embodied-ai-papers/commits)
 [![Stars](https://img.shields.io/github/stars/neardws/awesome-embodied-ai-papers?style=for-the-badge&color=fdcb6e&logo=github)](https://github.com/neardws/awesome-embodied-ai-papers/stargazers)
 [![Forks](https://img.shields.io/github/forks/neardws/awesome-embodied-ai-papers?style=for-the-badge&color=e17055&logo=github)](https://github.com/neardws/awesome-embodied-ai-papers/network/members)
@@ -142,7 +142,7 @@ Explore **14 domains and 87 subcategories** through their problems, research pri
 <!-- landscape:end -->
 
 
-The main tables contain **767 categorized entries** across **6 directions and 29 subdirections**, plus **7 additional leads**. Counts refer to categorized rows, not globally deduplicated papers. Source and hardware verification dates remain documented on their respective pages.
+The main tables contain **768 categorized entries** across **6 directions and 29 subdirections**, plus **7 additional leads**. Counts refer to categorized rows, not globally deduplicated papers. Source and hardware verification dates remain documented on their respective pages.
 
 > [!NOTE]
 > Paper entries are scoped to reviewed public sources, including CCF-A venues and robotics flagship conferences such as ICRA/IROS.
@@ -196,7 +196,7 @@ The main tables contain **767 categorized entries** across **6 directions and 29
 </tr>
 <tr>
 <td width="240"><a href="docs/en/deployment/README.md">Efficiency / Evaluation / Data</a></td>
-<td width="90" nowrap>105</td>
+<td width="90" nowrap>106</td>
 <td width="760"><a href="docs/en/deployment/quantization-cache-tokenization.md">quantization/cache/tokenization</a> · <a href="docs/en/deployment/real-time.md">real-time execution</a> · <a href="docs/en/deployment/benchmarks-datasets.md">benchmark/dataset</a> · <a href="docs/en/deployment/sim2real.md">sim2real</a> · <a href="docs/en/deployment/safety-evaluation.md">safety evaluation</a></td>
 </tr>
 </tbody>
