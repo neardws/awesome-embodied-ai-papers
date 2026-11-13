@@ -7,7 +7,7 @@
 [英文](README.md) | 中文
 
 [![精选](https://img.shields.io/badge/Awesome-Embodied%20AI-fc60a8?style=for-the-badge&label=%E7%B2%BE%E9%80%89&message=%E5%85%B7%E8%BA%AB%E6%99%BA%E8%83%BD)](https://awesome.re)
-[![条目数](https://img.shields.io/badge/Survey%20Entries-767-0984e3?style=for-the-badge&label=%E6%9D%A1%E7%9B%AE%E6%95%B0)](README.zh-CN.md)
+[![条目数](https://img.shields.io/badge/Survey%20Entries-768-0984e3?style=for-the-badge&label=%E6%9D%A1%E7%9B%AE%E6%95%B0)](README.zh-CN.md)
 [![最近提交](https://img.shields.io/github/last-commit/neardws/awesome-embodied-ai-papers?style=for-the-badge&color=00b894&label=%E6%9C%80%E8%BF%91%E6%8F%90%E4%BA%A4)](https://github.com/neardws/awesome-embodied-ai-papers/commits)
 [![星标](https://img.shields.io/github/stars/neardws/awesome-embodied-ai-papers?style=for-the-badge&color=fdcb6e&logo=github&label=%E6%98%9F%E6%A0%87)](https://github.com/neardws/awesome-embodied-ai-papers/stargazers)
 [![分支](https://img.shields.io/github/forks/neardws/awesome-embodied-ai-papers?style=for-the-badge&color=e17055&logo=github&label=%E5%88%86%E6%94%AF)](https://github.com/neardws/awesome-embodied-ai-papers/network/members)
@@ -142,7 +142,7 @@
 <!-- landscape:end -->
 
 
-主表共 **767 条分类条目**，覆盖 **6 个方向、29 个子方向**；另有 **7 条补充线索**。条目按分类表行计数，非跨方向去重论文数。来源和硬件核查日期见对应页面。
+主表共 **768 条分类条目**，覆盖 **6 个方向、29 个子方向**；另有 **7 条补充线索**。条目按分类表行计数，非跨方向去重论文数。来源和硬件核查日期见对应页面。
 
 > [!NOTE]
 > 论文条目范围限定为已读公开来源中可核验的论文，覆盖 CCF-A 会议以及 ICRA/IROS 等机器人传统强会。
@@ -196,7 +196,7 @@
 </tr>
 <tr>
 <td width="240"><a href="docs/zh-CN/deployment/README.md">轻量化 / 评测 / 数据</a></td>
-<td width="90" nowrap>105</td>
+<td width="90" nowrap>106</td>
 <td width="760"><a href="docs/zh-CN/deployment/quantization-cache-tokenization.md">量化、缓存与词元化</a> · <a href="docs/zh-CN/deployment/real-time.md">实时执行</a> · <a href="docs/zh-CN/deployment/benchmarks-datasets.md">基准与数据集</a> · <a href="docs/zh-CN/deployment/sim2real.md">仿真到现实</a> · <a href="docs/zh-CN/deployment/safety-evaluation.md">安全评测</a></td>
 </tr>
 </tbody>

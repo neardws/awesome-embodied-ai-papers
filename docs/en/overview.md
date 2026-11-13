@@ -287,7 +287,7 @@ The next research thread worth highlighting is not a single module, but a closed
 <td width="110" nowrap><code>Deployment</code></td>
 <td width="240">Efficiency / Evaluation / Data</td>
 <td width="280">quantization/cache/tokenization, real-time execution, benchmark/dataset, sim2real, safety evaluation</td>
-<td width="90" nowrap>105</td>
+<td width="90" nowrap>106</td>
 <td width="620">This direction determines whether systems can actually be deployed: on-device inference, caching/quantization/action tokenization, real-time execution, sim2real, benchmarks, and safety evaluation are all necessary conditions.</td>
 </tr>
 </tbody>

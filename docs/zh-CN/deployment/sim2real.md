@@ -2,7 +2,7 @@
 
 [首页](../../../README.zh-CN.md) | [英文](../../en/deployment/sim2real.md) | [方向目录](README.md)
 
-共 20 篇。
+共 21 篇。
 
 <table width="3090">
 <thead>
@@ -322,6 +322,21 @@
 <td width="110" nowrap><a href="https://robotwin-benchmark.github.io/early-version/">项目</a></td>
 <td width="110" nowrap><a href="https://github.com/RoboTwin-Platform/RoboTwin">代码</a></td>
 <td width="240"><a href="https://huggingface.co/datasets/TianxingChen/RoboTwin">Hugging Face</a></td>
+</tr>
+<tr>
+<td width="120" nowrap>arXiv 2026</td>
+<td width="320"><a href="https://arxiv.org/abs/2607.24079">Effective Parameters, Real Behavior: Renormalization for Robotics -- From Infinite Electron Mass to Sim-to-Real Gap</a></td>
+<td width="420">将物理学中的重整化思想引入 sim-to-real：模拟器参数不该照抄真机数值，而应取依赖仿真频率和分辨率的"有效值"，才能让仿真与真机最接近。</td>
+<td width="240">仿真到现实 / PD 控制</td>
+<td width="280">有限仿真频率下的闭式有效阻尼与惯量修正</td>
+<td width="280">分析论文，无新硬件实验；实验覆盖 MuJoCo、Isaac Sim（PhysX）和 MuJoCo Warp</td>
+<td width="280">刚体 PD 控制、绳索和水下游动</td>
+<td width="220"><a href="https://github.com/WhymustIhaveaname/R4R">代码</a></td>
+<td width="360">论文闭式推导了有限仿真频率下 PD 控制的有效阻尼与惯量修正，并给出 4 步实操流程。</td>
+<td width="110" nowrap><a href="https://arxiv.org/abs/2607.24079">论文</a></td>
+<td width="110" nowrap>-</td>
+<td width="110" nowrap><a href="https://github.com/WhymustIhaveaname/R4R">代码</a></td>
+<td width="240">-</td>
 </tr>
 </tbody>
 </table>

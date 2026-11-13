@@ -6,7 +6,7 @@
 
 子方向：量化/缓存/词元化、实时执行、基准/数据集、仿真到现实、安全评测。
 
-共 105 篇。
+共 106 篇。
 
 <table width="1090">
 <thead>
@@ -34,7 +34,7 @@
 </tr>
 <tr>
 <td width="280">仿真到现实</td>
-<td width="90" nowrap>20</td>
+<td width="90" nowrap>21</td>
 <td width="720">看仿真到真实迁移和真实部署差距。</td>
 </tr>
 <tr>
@@ -70,7 +70,7 @@
 </tr>
 <tr>
 <td width="340"><a href="sim2real.md">仿真到现实</a></td>
-<td width="90" nowrap>20</td>
+<td width="90" nowrap>21</td>
 </tr>
 <tr>
 <td width="340"><a href="safety-evaluation.md">安全评测</a></td>

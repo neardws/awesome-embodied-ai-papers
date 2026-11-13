@@ -282,7 +282,7 @@
             "en": "sim2real",
             "zh-CN": "仿真到现实"
           },
-          "count": 20
+          "count": 21
         },
         {
           "path": "deployment/safety-evaluation.md",
@@ -528,7 +528,7 @@
     "products/topics/14-05.md",
     "products/topics/14-06.md"
   ],
-  "paper_entries": 767,
+  "paper_entries": 768,
   "additional_entries": 7,
   "landscape": {
     "domains": 14,

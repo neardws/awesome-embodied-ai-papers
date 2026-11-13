@@ -6,7 +6,7 @@ This direction determines whether systems can actually be deployed: on-device in
 
 Subdirections: quantization/cache/tokenization, real-time execution, benchmark/dataset, sim2real, and safety evaluation.
 
-Total: 105 papers.
+Total: 106 papers.
 
 <table width="1090">
 <thead>
@@ -34,7 +34,7 @@ Total: 105 papers.
 </tr>
 <tr>
 <td width="280">sim2real</td>
-<td width="90" nowrap>20</td>
+<td width="90" nowrap>21</td>
 <td width="720">Focus: sim-to-real transfer and the real-world deployment gap.</td>
 </tr>
 <tr>
@@ -70,7 +70,7 @@ Total: 105 papers.
 </tr>
 <tr>
 <td width="340"><a href="sim2real.md">sim2real</a></td>
-<td width="90" nowrap>20</td>
+<td width="90" nowrap>21</td>
 </tr>
 <tr>
 <td width="340"><a href="safety-evaluation.md">safety evaluation</a></td>

@@ -287,7 +287,7 @@
 <td width="110" nowrap><code>部署</code></td>
 <td width="240">轻量化 / 评测 / 数据</td>
 <td width="280">量化/缓存/词元化、实时执行、基准/数据集、仿真到现实、安全评测</td>
-<td width="90" nowrap>105</td>
+<td width="90" nowrap>106</td>
 <td width="620">这一方向决定能不能真实部署：端侧推理、缓存/量化/动作词元化、实时执行、仿真到现实、基准和安全评测都是必需条件。</td>
 </tr>
 </tbody>
